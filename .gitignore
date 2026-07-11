@@ -1,0 +1,8 @@
+-e .backups/
+.project-context
+trace_audit.log
+.sass-cache/
+.jekyll-cache/
+_site/
+.jekyll-metadata
+.backups
