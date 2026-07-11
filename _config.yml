@@ -1,0 +1,17 @@
+title: M. Rohadiz
+name: M. Rohadiz
+description: Catatan digital tentang AI, software engineering, decision systems, infrastruktur, crypto, dan bisnis digital.
+baseurl: ""
+url: "https://mrohadiz.github.io"
+lang: id
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+header_pages:
+  - about.md
+  - now.md
+  - notes/index.md
+  - projects/index.md
