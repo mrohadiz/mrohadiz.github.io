@@ -9,7 +9,7 @@ module Jekyll
         'date' => post.date.strftime('%b %d, %Y'),
         'tags' => (post.data['tags'] || []).join(', '),
         'categories' => (post.data['categories'] || []).join(', '),
-        'excerpt' => post.data['excerpt'] ? post.data['excerpt'].strip.gsub(/<[^>]*>/, '')[0, 200] : '',
+        'excerpt' => post.data['excerpt'] ? post.data['excerpt'].to_s.strip.gsub(/<[^>]*>/, '')[0, 200] : '',
         'content' => post.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ')[0, 500]
       }
     end
