@@ -1193,6 +1193,12 @@
 }
 
 .article-body > * + * { margin-top: var(--space-5); }
+.article-body p a,
+.article-body li a {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-muted);
+  text-underline-offset: 3px;
+}
 
 .article-body h2 { margin-top: var(--space-10); }
 .article-body h3 { margin-top: var(--space-8); }
