@@ -21,7 +21,7 @@ export default defineConfig({
   ],
   outputDir: './test-results',
   use: {
-    baseURL: 'https://mrohadiz.github.io',
+    baseURL: process.env.CI ? "http://127.0.0.1:4000" : "http://localhost:4000",
     trace: 'on-first-retry',
     screenshot: 'on',
     actionTimeout: 10000,
@@ -33,4 +33,9 @@ export default defineConfig({
       use: { ...devices['Desktop Firefox'] },
     },
   ],
+  webServer: {
+    command: 'npx --yes serve _site -p 4000',
+    port: 4000,
+    reuseExistingServer: !process.env.CI,
+  },
 });

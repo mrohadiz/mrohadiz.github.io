@@ -84,6 +84,12 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install firefox --with-deps
 
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-build
+          path: _site/
+
       - name: Ensure reports directory
         run: mkdir -p reports
 
