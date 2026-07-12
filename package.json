@@ -1,0 +1,39 @@
+{
+  "name": "mrohadiz.github.io",
+  "version": "1.0.0",
+  "description": "Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Use 'npm run test:e2e' for E2E tests or 'npm run quality-gate' for full pipeline\"",
+    "test:content": "npx playwright test tests/e2e/content-validation.spec.ts --project=firefox",
+    "test:a11y": "npx playwright test tests/e2e/regression.spec.ts --grep 'Accessibility Audit' --project=firefox",
+    "test:seo": "npx playwright test tests/e2e/seo-validation.spec.ts --project=firefox",
+    "test:visual": "npx playwright test tests/e2e/regression.spec.ts --grep 'Visual Regression' --project=firefox",
+    "test:errors": "npx playwright test tests/e2e/regression.spec.ts --grep 'Error Monitoring' --project=firefox",
+    "test:crawl": "npx playwright test tests/e2e/crawler.spec.ts --project=firefox",
+    "test:e2e": "npx playwright test --project=firefox",
+    "quality-gate": "node tests/e2e/quality-gate.js",
+    "quality-gate:update-snapshots": "npx playwright test --project=firefox --update-snapshots && node tests/e2e/quality-gate.js",
+    "test:static-audit": "node tests/static-audit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrohadiz/mrohadiz.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrohadiz/mrohadiz.github.io/issues"
+  },
+  "homepage": "https://github.com/mrohadiz/mrohadiz.github.io#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.61.1",
+    "jsdom": "^29.1.1",
+    "lighthouse": "^13.4.0"
+  }
+}

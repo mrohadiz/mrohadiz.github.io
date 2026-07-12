@@ -6,3 +6,17 @@ trace_audit.log
 _site/
 .jekyll-metadata
 .backups
+
+# Node / Test artifacts
+node_modules/
+package-lock.json
+playwright-report/
+test-results/
+reports/
+crawler-report.json
+lh-report.json
+lh-summary.json
+
+# IDE
+.vscode/
+.idea/
