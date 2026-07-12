@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+<header class="article-header" style="margin-bottom: var(--space-10);">
+  {% if page.badge %}
+    <div style="margin-bottom: var(--space-4);">
+      <span class="badge {{ page.badge-class | default: 'badge-primary' }}">{{ page.badge }}</span>
+    </div>
+  {% endif %}
+  <h1 class="article-title">{{ page.title }}</h1>
+  {% if page.description %}
+    <p class="lead" style="text-align: center; max-width: 640px; margin: 0 auto;">{{ page.description }}</p>
+  {% endif %}
+</header>
+
+<!-- Page Content -->
+<article class="article-content">
+  <div class="article-body">
+    {{ content }}
+  </div>
+</article>

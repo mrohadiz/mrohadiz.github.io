@@ -1,17 +1,81 @@
 title: M. Rohadiz
 name: M. Rohadiz
-description: Catatan digital tentang AI, software engineering, decision systems, infrastruktur, crypto, dan bisnis digital.
+description: Digital Garden untuk AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.
+tagline: Keputusan yang baik lahir dari observasi yang baik.
 baseurl: ""
 url: "https://mrohadiz.github.io"
 lang: id
 markdown: kramdown
-theme: minima
+theme: null
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..3
+  syntax_highlighter: rouge
+
+# Rouge syntax highlighting
+highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-header_pages:
-  - about.md
-  - now.md
-  - notes/index.md
-  - projects/index.md
+  - jekyll-paginate
+
+# Pagination
+paginate: 12
+paginate_path: "/notes/page:num/"
+
+# Feed
+feed:
+  path: feed.xml
+
+# Search enabled
+search: true
+
+# Exclude from build
+exclude:
+  - node_modules
+  - vendor
+  - README.md
+  - .gitignore
+  - trace_audit.log
+
+# Include
+include:
+  - _pages
+
+# Collections
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "article"
+      toc: true
+  - scope:
+      path: "_notes"
+      type: "notes"
+    values:
+      layout: "article"
+      toc: true
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: "page"

@@ -1,0 +1,23 @@
+<!-- Scripts -->
+<script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
+
+{% if page.layout == 'article' %}
+<script src="{{ '/assets/js/article.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
+{% endif %}
+
+{% if site.search %}
+<script>
+  window.searchEnabled = true;
+  window.searchBaseURL = '{{ "/" | relative_url }}';
+</script>
+{% endif %}
+
+{% if site.ga %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.ga }}');
+</script>
+{% endif %}

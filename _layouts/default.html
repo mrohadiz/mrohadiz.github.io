@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'id' }}" data-theme="dark">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="site-wrapper">
+    {% include navbar.html %}
+    <main class="main-content" id="main-content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+  <div class="image-zoom-overlay" id="image-zoom">
+    <button class="image-zoom-close" id="image-zoom-close" aria-label="Close zoom">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <img id="zoomed-image" src="" alt="">
+  </div>
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+  {% include scripts.html %}
+</body>
+</html>

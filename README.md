@@ -1,18 +1,39 @@
-# M. Rohadiz
+# M. Rohadiz - Digital Garden
 
-Software Architect • Decision Systems • Business Intelligence
+Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.
 
-Welcome.
+## Features
 
-This website is my public notebook.
+- Dark/Light mode dengan persistensi LocalStorage
+- Search functionality
+- Responsive design
+- Syntax highlighting
+- Reading progress bar
+- Floating TOC
+- Image zoom
+- Code copy button
+- Intersection Observer animations
 
-I write about:
+## Tech Stack
 
-- Artificial Intelligence
-- Software Architecture
-- Decision Systems
-- Crypto Market Observation
-- Infrastructure
-- Digital Marketing
+- Jekyll
+- SCSS
+- Vanilla JavaScript
+- GitHub Pages
 
-Because good decisions begin with good observations.
+## Development
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve locally
+bundle exec jekyll serve
+
+# Build
+bundle exec jekyll build
+```
+
+## License
+
+MIT
