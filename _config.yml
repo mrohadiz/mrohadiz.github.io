@@ -5,6 +5,7 @@ tagline: Keputusan yang baik lahir dari observasi yang baik.
 baseurl: ""
 url: "https://mrohadiz.github.io"
 lang: id
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: null
 
