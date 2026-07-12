@@ -1074,7 +1074,7 @@
 }
 
 .animate-fade-in { animation: fadeIn var(--transition-base) ease-out; }
-.animate-fade-in-up { animation: fadeInUp var(--transition-slow) var(--transition-spring); }
+.animate-fade-in-up { animation: fadeInUp var(--transition-slow) var(--transition-spring) forwards; }
 .animate-slide-down { animation: slideInDown var(--transition-base) ease-out; }
 .animate-pulse { animation: pulse 2s ease-in-out infinite; }
 .animate-spin { animation: spin 1s linear infinite; }

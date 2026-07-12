@@ -46,6 +46,14 @@ layout: default
   </div>
 </section>
 
+{% if content and content != "" and content != nil %}
+<section class="section" id="home-content">
+  <div class="container container-narrow article-body">
+    {{ content }}
+  </div>
+</section>
+{% endif %}
+
 <!-- Knowledge Domains -->
 <section class="section" id="domains">
   <div class="container">
