@@ -25,6 +25,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'on',
     actionTimeout: 10000,
+    colorScheme: "dark",
     navigationTimeout: 20000,
   },
   projects: [
