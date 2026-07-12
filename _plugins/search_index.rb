@@ -13,8 +13,8 @@ module Jekyll
           'date' => post.date.strftime('%b %d, %Y'),
           'tags' => (post.data['tags'] || []).join(', '),
           'categories' => (post.data['categories'] || []).join(', '),
-          'excerpt' => post.data['excerpt'] ? post.data['excerpt'].strip.gsub(/<[^>]*>/, '').truncate(200) : '',
-          'content' => post.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ').truncate(500)
+          'excerpt' => post.data['excerpt'] ? post.data['excerpt'].strip.gsub(/<[^>]*>/, '')[0, 200] : '',
+          'content' => post.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ')[0, 500]
         }
       end
 
@@ -25,7 +25,7 @@ module Jekyll
           'url' => page.url,
           'date' => page.date ? page.date.strftime('%b %d, %Y') : '',
           'tags' => (page.data['tags'] || []).join(', '),
-          'content' => page.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ').truncate(500)
+          'content' => page.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ')[0, 500]
         }
       end
 
