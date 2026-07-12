@@ -68,6 +68,9 @@ document.addEventListener('DOMContentLoaded', function() {
       cards.forEach(function(card) {
         if (filter === 'all' || card.getAttribute('data-tags').includes(filter)) {
           card.style.display = '';
+          // Fix issue where JS scroll observer hides filtered elements by zeroing opacity
+          card.style.opacity = '1';
+          card.classList.remove('animate-fade-in-up'); // Ensure no pending animations conflict
         } else {
           card.style.display = 'none';
         }
