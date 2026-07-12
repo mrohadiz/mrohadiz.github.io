@@ -55,7 +55,7 @@ test.describe('Accessibility Audit', () => {
       if (results.violations.length > 0) {
         for (const violation of results.violations) {
           a11yErrors.push(
-            `[${violation.impact}] ${violation.id}: ${violation.description} (${violation.nodes.length} elements)`
+            `[${violation.impact}] ${violation.id}: ${violation.description} (${violation.nodes.length} elements): ${violation.nodes.map(n => n.html).join(', ')}`
           );
         }
       }
