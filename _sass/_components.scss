@@ -1088,13 +1088,18 @@
 .stagger-6 { animation-delay: 0.6s; }
 
 // ============================================================
-// ARTICLE LAYOUT COMPONENTS
+// ARTICLE LAYOUT COMPONENTS - Mobile First
 // ============================================================
 .article-header {
   max-width: var(--container-normal);
-  margin: 0 auto var(--space-10);
-  padding: 0 var(--space-5);
+  margin: 0 auto var(--space-8);
+  padding: 0 var(--space-4);
   text-align: center;
+
+  @include media-md {
+    padding: 0 var(--space-5);
+    margin-bottom: var(--space-10);
+  }
 }
 
 .article-meta {
@@ -1102,21 +1107,38 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: var(--space-3);
-  font-size: var(--text-sm);
+  gap: var(--space-2);
+  font-size: var(--text-xs);
   color: var(--color-text-muted);
   margin-bottom: var(--space-4);
+
+  @include media-md {
+    gap: var(--space-3);
+    font-size: var(--text-sm);
+  }
 }
 
 .article-title {
-  font-size: var(--text-4xl);
+  font-size: var(--text-3xl);
   font-weight: var(--weight-bold);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-tight);
   color: var(--color-text-primary);
   margin-bottom: var(--space-4);
 
-  @include media-md { font-size: var(--text-5xl); }
+  @include media-md { font-size: var(--text-4xl); }
+  @include media-lg { font-size: var(--text-5xl); }
+}
+
+.article-lead {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-secondary);
+  max-width: 640px;
+  margin: 0 auto var(--space-4);
+  text-align: center;
+
+  @include media-md { font-size: var(--text-lg); }
 }
 
 .article-tags {
@@ -1126,34 +1148,81 @@
   gap: var(--space-2);
 }
 
+.article-feature-image-wrapper {
+  max-width: var(--container-normal);
+  margin: 0 auto var(--space-8);
+  padding: 0 var(--space-4);
+
+  @include media-md { padding: 0 var(--space-5); }
+}
+
+.article-feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+// Article layout: mobile-first single column → two-column on large screens
 .article-content {
+  padding: 0 var(--space-4);
+
+  @include media-md { padding: 0 var(--space-5); }
+}
+
+.article-layout {
+  display: block; // mobile: single column
   max-width: var(--container-normal);
   margin: 0 auto;
-  padding: 0 var(--space-5);
+
+  // Desktop: two-column with TOC sidebar
+  @include media-lg {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: var(--space-10);
+    max-width: 1100px;
+    align-items: start;
+  }
 }
 
 .article-body {
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
   color: var(--color-text-primary);
+  min-width: 0; // prevent grid blowout
 }
 
-.article-body > * + * { margin-top: var(--space-6); }
+.article-body > * + * { margin-top: var(--space-5); }
 
-.article-body h2 { margin-top: var(--space-12); }
-.article-body h3 { margin-top: var(--space-10); }
+.article-body h2 { margin-top: var(--space-10); }
+.article-body h3 { margin-top: var(--space-8); }
+
+// TOC: hidden on mobile, sticky sidebar on desktop
+.article-toc-wrapper {
+  display: none;
+
+  @include media-lg {
+    display: block;
+    order: 2; // renders visually on the right
+  }
+}
 
 .article-footer {
   max-width: var(--container-normal);
-  margin: var(--space-16) auto 0;
-  padding: var(--space-8) var(--space-5);
+  margin: var(--space-12) auto 0;
+  padding: var(--space-6) var(--space-4);
   border-top: 1px solid var(--color-border);
+
+  @include media-md {
+    margin-top: var(--space-16);
+    padding: var(--space-8) var(--space-5);
+  }
 }
 
 .article-footer-nav {
   display: flex;
   justify-content: space-between;
-  gap: var(--space-4);
+  gap: var(--space-3);
   flex-wrap: wrap;
 }
 
@@ -1169,6 +1238,14 @@
   color: var(--color-text-secondary);
   text-decoration: none;
   transition: all var(--transition-fast);
+  flex: 1;
+  min-width: 0;
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
   &:hover { border-color: var(--color-primary); color: var(--color-primary); background: var(--color-primary-muted); }
 }
