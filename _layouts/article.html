@@ -25,6 +25,12 @@ layout: default
   </div>
 </header>
 
+{% if page.image %}
+  <div class="article-feature-image-wrapper">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="article-feature-image">
+  </div>
+{% endif %}
+
 <!-- Article Body -->
 <article class="article-content">
   <div style="display: flex; gap: var(--space-10); max-width: 1100px; margin: 0 auto;">
