@@ -20,3 +20,4 @@ lh-summary.json
 # IDE
 .vscode/
 .idea/
+reports/
