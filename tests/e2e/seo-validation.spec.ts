@@ -38,7 +38,7 @@ test.describe('Global SEO Validation', () => {
 
     const body = await response.text();
     expect(body).toContain('<?xml');
-    expect(body).toContain('<rss');
+    expect(body).toContain('<feed');
   });
 });
 

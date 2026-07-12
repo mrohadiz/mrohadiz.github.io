@@ -54,3 +54,14 @@
 
 <!-- KreasiAds Tracking -->
 <script defer src="https://api.kreasiads.com/melu.js"></script>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'article' %}Article{% else %}WebSite{% endif %}",
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "name": "{{ site.title | escape }}",
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
