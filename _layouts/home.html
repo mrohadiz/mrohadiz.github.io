@@ -119,6 +119,11 @@ layout: default
       {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
       {% for post in sorted_posts limit:6 %}
         <a href="{{ post.url | relative_url }}" class="article-card">
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="article-card-image">
+          {% else %}
+            <img src="/assets/images/default-thumbnail.svg" alt="Default thumbnail" class="article-card-image">
+          {% endif %}
           <div class="article-card-meta">
             <span class="badge badge-primary">{{ post.categories.first | default: 'Article' }}</span>
             <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %d, %Y" }}</time>

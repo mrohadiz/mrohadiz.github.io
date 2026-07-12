@@ -1,0 +1,14 @@
+.article-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  display: block;
+  margin-bottom: var(--space-4);
+}
+
+.article-card {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
