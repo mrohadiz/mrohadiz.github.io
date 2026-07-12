@@ -29,7 +29,10 @@ module Jekyll
         }
       end
 
-      site.static_files << StaticFile.new(site, site.source, '/', 'search-index.json', index.to_json)
+      file = PageWithoutAFile.new(site, site.source, '/', 'search-index.json')
+      file.content = index.to_json
+      file.data['layout'] = nil
+      site.pages << file
     end
   end
 end
