@@ -23,7 +23,7 @@ module Jekyll
         index << {
           'title' => page.data['title'] || page.title,
           'url' => page.url,
-          'date' => page.date ? page.date.strftime('%b %d, %Y') : '',
+          'date' => page.data['date'] ? (page.data['date'].respond_to?(:strftime) ? page.data['date'].strftime('%b %d, %Y') : page.data['date'].to_s) : '',
           'tags' => (page.data['tags'] || []).join(', '),
           'content' => page.content.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ')[0, 500]
         }
