@@ -226,20 +226,20 @@
   // ============================================================
   // Intersection Observer for Fade-in Animations
   // ============================================================
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fade-in-up');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  // if ('IntersectionObserver' in window) {
+  //   const observer = new IntersectionObserver(function(entries) {
+  //     entries.forEach(function(entry) {
+  //       if (entry.isIntersecting) {
+  //         entry.target.classList.add('animate-fade-in-up');
+  //         observer.unobserve(entry.target);
+  //       }
+  //     });
+  //   }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-    document.querySelectorAll('.feature-card, .article-card, .project-card, .metric-card').forEach(function(el) {
-      el.style.opacity = '0';
-      observer.observe(el);
-    });
-  }
+  //   document.querySelectorAll('.feature-card, .article-card, .project-card, .metric-card').forEach(function(el) {
+  //     el.style.opacity = '0';
+  //     observer.observe(el);
+  //   });
+  // }
 
 })();
