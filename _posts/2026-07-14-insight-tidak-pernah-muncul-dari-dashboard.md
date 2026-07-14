@@ -14,7 +14,7 @@ tags:
 excerpt: "Dashboard menampilkan apa yang terjadi. Insight lahir ketika kita mulai mempertanyakan mengapa itu terjadi."
 ---
 
-# Insight Tidak Pernah Muncul dari Dashboard
+
 
 Banyak organisasi menghabiskan waktu berbulan-bulan membangun dashboard. Setelah selesai, muncul harapan bahwa dashboard tersebut akan menghasilkan insight.
 

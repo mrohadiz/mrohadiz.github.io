@@ -10,8 +10,6 @@
 <meta name="description" content="{{ seo_description }}">
 <meta name="author" content="{{ site.author.name | default: site.name | default: site.title }}">
 
-<!-- Keywords / AI Entity Visibility -->
-<meta name="keywords" content="AI Engineering, Decision Intelligence, Decision Systems, Software Architecture, Infrastructure, DevOps, Observability, Systems Thinking, Knowledge Management, Digital Garden, Crypto Observation, Business Intelligence, M. Rohadiz">
 
 <!-- Robots -->
 {% if paginator and paginator.page > 1 %}
@@ -63,11 +61,9 @@
 <meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)">
 
-<!-- DNS Prefetch & Preconnect -->
+<!-- DNS Prefetch & Preconnect (fonts via jsDelivr, not Google Fonts) -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-<link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://api.kreasiads.com">
 <link rel="dns-prefetch" href="https://api.kreasiads.com">
 
@@ -79,6 +75,9 @@
 
 <!-- Favicon -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="/manifest.json">
 
 <!-- Inline critical CSS for above-the-fold content -->
 <style>

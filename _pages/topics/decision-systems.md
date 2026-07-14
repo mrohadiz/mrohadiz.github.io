@@ -1,17 +1,17 @@
 ---
 layout: page
 title: "Decision Systems"
-description: >-
-  Catatan tentang Decision Systems dan Decision Intelligence oleh M. Rohadiz — framework
-  pengambilan keputusan berbasis data, OODA Loop, mental models, dan rekayasa sistem keputusan.
+description: "Catatan M. Rohadiz tentang Decision Systems dan Decision Intelligence: framework keputusan berbasis data, OODA Loop, mental models, dan trade-off analysis untuk pengambilan keputusan yang lebih robust."
 permalink: /topics/decision-systems/
 badge: Decision Systems
 badge-class: badge-success
 ---
 
-Kumpulan catatan, artikel, dan framework tentang **Decision Systems** dan **Decision Intelligence** — bagaimana membangun sistem dan kebiasaan berpikir yang menghasilkan keputusan yang lebih baik.
+{% assign decision_posts = site.posts | where_exp: "p", "p.categories contains 'Decision Systems' or p.tags contains 'decision-making' or p.tags contains 'framework' or p.tags contains 'mental-model' or p.tags contains 'ooda-loop'" %}
 
-**Decision Intelligence** adalah perpaduan antara data science, behavioral economics, dan systems thinking untuk merancang proses pengambilan keputusan yang lebih robust dan transparan.
+**Decision Intelligence** adalah perpaduan antara data science, behavioral economics, dan systems thinking untuk merancang proses pengambilan keputusan yang lebih robust dan transparan. Saya percaya bahwa keputusan yang baik lahir dari observasi yang baik — dan observasi yang baik membutuhkan sistem yang dirancang untuk mengungkap realitas, bukan menyembunyikannya.
+
+📚 **{{ decision_posts | size }} artikel** tersedia di topik ini.
 
 ## Area yang Saya Eksplorasi
 
@@ -20,17 +20,21 @@ Kumpulan catatan, artikel, dan framework tentang **Decision Systems** dan **Deci
 - **Trade-off Analysis** — Metodologi untuk mengevaluasi pilihan secara sistematis
 - **Decision Frameworks** — Struktur untuk keputusan berulang dan organisasional
 - **Cognitive Biases** — Memahami dan memitigasi bias dalam pengambilan keputusan
-- **Quantitative Decision Making** — Data-driven approach untuk mendukung judgment
+- **KPI & Measurement** — Mengukur apa yang benar-benar penting, bukan yang mudah diukur
 
-## Catatan Terbaru
+## Artikel Terbaru
 
-{% assign decision_posts = site.posts | where_exp: "post", "post.categories contains 'Decision Systems' or post.tags contains 'decision-making' or post.tags contains 'framework' or post.tags contains 'mental-model'" %}
-{% for post in decision_posts limit:10 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — <small>{{ post.date | date: "%b %d, %Y" }}</small>
+{% for post in decision_posts limit:5 %}
+- **[{{ post.title }}]({{ post.url | relative_url }})** — <small>{{ post.date | date: "%d %b %Y" }}</small>
+  <br><small>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 20 }}</small>
 {% endfor %}
 {% if decision_posts.size == 0 %}
 - Catatan sedang dipersiapkan. Kunjungi [/notes/](/notes/) untuk semua artikel.
 {% endif %}
+
+## Topik Terkait
+
+[AI Engineering](/topics/ai-engineering/) · [Software Architecture](/topics/software-architecture/) · [Infrastructure](/topics/infrastructure/) · [Crypto Observation](/topics/crypto-observation/)
 
 ---
 

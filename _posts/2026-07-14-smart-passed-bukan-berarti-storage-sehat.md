@@ -15,7 +15,7 @@ tags:
 excerpt: "Status SMART PASSED tidak selalu berarti sistem penyimpanan bebas masalah. Memahami perbedaan antara kesehatan media SSD dan kualitas komunikasi SATA dapat mempercepat proses root cause analysis."
 ---
 
-# SMART PASSED Bukan Berarti Storage Sehat: Memahami Perbedaan Media Error dan SATA CRC Error
+
 
 Ketika sebuah server mulai terasa lambat atau sesekali *freeze*, salah satu langkah pertama yang sering dilakukan adalah memeriksa SMART disk.
 

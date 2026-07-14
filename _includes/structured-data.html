@@ -30,7 +30,7 @@
       "@id": "{{ site.url }}/#person",
       "name": "M. Rohadiz",
       "jobTitle": "Software Architect",
-      "description": "Software Architect yang mengeksplorasi AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture.",
+      "description": "Software Architect dan Decision Systems Engineer yang mengeksplorasi AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture.",
       "url": "{{ site.url }}/",
       "knowsAbout": [
         "Decision Intelligence",
@@ -42,7 +42,8 @@
         "Observability",
         "Systems Thinking",
         "Knowledge Management",
-        "Decision Systems"
+        "Decision Systems",
+        "Crypto Market Analysis"
       ],
       "sameAs": [
         "https://github.com/mrohadiz",
@@ -57,7 +58,7 @@
 {% capture article_url %}{{ page.url | absolute_url }}{% endcapture %}
 {% capture article_title %}{{ page.title | escape }}{% endcapture %}
 {% capture article_desc %}{% if page.description %}{{ page.description | strip_html | strip_newlines | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 165 | escape }}{% else %}{{ site.description | escape }}{% endif %}{% endcapture %}
-<!-- Structured Data: BlogPosting/Article -->
+<!-- Structured Data: BlogPosting -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -133,12 +134,42 @@
   "name": "Notes — M. Rohadiz",
   "description": "Kumpulan catatan dan artikel tentang AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture oleh M. Rohadiz.",
   "inLanguage": "{{ site.lang | default: 'id' }}",
-  "isPartOf": {
-    "@id": "{{ site.url }}/#website"
-  },
-  "author": {
-    "@id": "{{ site.url }}/#person"
-  }
+  "isPartOf": { "@id": "{{ site.url }}/#website" },
+  "author": { "@id": "{{ site.url }}/#person" }
+}
+</script>
+{% endif %}
+
+{% if page.url == '/projects/' or page.url == '/projects/index.html' %}
+<!-- Structured Data: CollectionPage for Projects -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ site.url }}/projects/#collectionpage",
+  "url": "{{ site.url }}/projects/",
+  "name": "Projects — M. Rohadiz",
+  "description": "Kumpulan proyek sistem yang dibangun oleh M. Rohadiz: RADAR, SGP OS, Meta Observatory, Knowledge Repository, dan lainnya.",
+  "inLanguage": "{{ site.lang | default: 'id' }}",
+  "isPartOf": { "@id": "{{ site.url }}/#website" },
+  "author": { "@id": "{{ site.url }}/#person" }
+}
+</script>
+{% endif %}
+
+{% if page.url contains '/topics/' %}
+<!-- Structured Data: CollectionPage for Topic Hub -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ sd_url }}#collectionpage",
+  "url": "{{ sd_url }}",
+  "name": "{{ page.title | escape }} — M. Rohadiz",
+  "description": "{{ page.description | strip_html | strip_newlines | escape }}",
+  "inLanguage": "{{ site.lang | default: 'id' }}",
+  "isPartOf": { "@id": "{{ site.url }}/#website" },
+  "author": { "@id": "{{ site.url }}/#person" }
 }
 </script>
 {% endif %}

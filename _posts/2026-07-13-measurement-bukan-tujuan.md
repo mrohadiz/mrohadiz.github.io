@@ -15,7 +15,7 @@ tags:
 excerpt: "Sistem tracking tidak dinilai dari seberapa banyak data yang berhasil dikumpulkan, tetapi dari seberapa besar ia membantu organisasi mengambil keputusan yang lebih baik."
 ---
 
-# Measurement Bukan Tujuan
+
 
 Selama bertahun-tahun saya menganggap bahwa semakin lengkap sebuah sistem tracking, maka semakin baik kualitasnya.
 
@@ -33,7 +33,7 @@ Perubahan cara berpikir ini mengubah cara saya mendesain sistem analytics.
 
 ---
 
-# Kesalahan yang Sering Terjadi
+## Kesalahan yang Sering Terjadi
 
 Banyak organisasi memulai dari teknologi.
 
@@ -63,7 +63,7 @@ Padahal belum tentu seluruh data tersebut digunakan dalam pengambilan keputusan.
 
 ---
 
-# Measurement Harus Dimulai dari Bisnis
+## Measurement Harus Dimulai dari Bisnis
 
 Menurut saya urutan yang lebih sehat adalah:
 
@@ -93,7 +93,7 @@ Tracking hanyalah implementasi dari kebutuhan informasi.
 
 ---
 
-# Contoh Sederhana
+## Contoh Sederhana
 
 Misalnya sebuah perusahaan memiliki target:
 
@@ -118,7 +118,7 @@ maka sistem measurement menjadi jauh lebih penting.
 
 ---
 
-# Tracking Tidak Pernah 100%
+## Tracking Tidak Pernah 100%
 
 Ini juga menjadi pelajaran penting.
 
@@ -145,7 +145,7 @@ Mereka membantu kita melihat sebagian realitas, bukan seluruh realitas.
 
 ---
 
-# Ketika 40% Sudah Menjadi Maksimal
+## Ketika 40% Sudah Menjadi Maksimal
 
 Saya pernah membangun sistem tracking yang hanya mampu mengatribusikan sekitar 40% revenue.
 
@@ -165,7 +165,7 @@ Apabila ingin meningkatkan angka tersebut, maka yang harus berubah bukan sekadar
 
 ---
 
-# Measurement Boundary
+## Measurement Boundary
 
 Setiap sistem measurement memiliki batas.
 
@@ -181,7 +181,7 @@ Tanpa memahami batas ini, organisasi sering terjebak mengejar akurasi yang secar
 
 ---
 
-# Business Measurement Capability
+## Business Measurement Capability
 
 Daripada bertanya:
 
@@ -206,7 +206,7 @@ Dokumen seperti ini jauh lebih berguna daripada sekadar mengejar persentase trac
 
 ---
 
-# Nilai Measurement Ditentukan oleh Keputusan
+## Nilai Measurement Ditentukan oleh Keputusan
 
 Sebuah sistem measurement tidak boleh dinilai dari jumlah event yang berhasil dikumpulkan.
 
@@ -225,7 +225,7 @@ Jika jawabannya "ya", maka measurement tersebut memberikan nilai.
 
 ---
 
-# Cost of Measurement
+## Cost of Measurement
 
 Measurement juga memiliki biaya.
 
@@ -244,7 +244,7 @@ Karena itu saya mulai menggunakan prinsip sederhana:
 
 ---
 
-# Dari Dashboard Menuju Decision Intelligence
+## Dari Dashboard Menuju Decision Intelligence
 
 Banyak dashboard berhenti pada visualisasi data.
 
@@ -286,7 +286,7 @@ Dashboard hanyalah salah satu alat dalam proses pengambilan keputusan.
 
 ---
 
-# Catatan Penutup
+## Catatan Penutup
 
 Saya tidak lagi bertanya:
 

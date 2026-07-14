@@ -14,7 +14,7 @@ tags:
 excerpt: "Solusi yang cepat belum tentu menyelesaikan masalah. Root Cause Analysis membantu membedakan antara gejala dan penyebab sehingga keputusan yang diambil benar-benar menyelesaikan akar persoalan."
 ---
 
-# Root Cause Analysis Lebih Penting daripada Solusi Cepat
+
 
 Ketika sebuah sistem mulai bermasalah, respons pertama sering kali adalah mencari solusi secepat mungkin.
 
