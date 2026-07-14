@@ -10,7 +10,7 @@ tags:
   - capability
   - strategy
 excerpt: "Organisasi yang tangguh tidak menunggu kebutuhan menjadi mendesak. Mereka membangun capability saat manfaatnya belum terlihat, sehingga punya pilihan ketika lingkungan berubah."
-image: /assets/images/og/2026-07-15-capability-dibangun-sebelum-dibutuhkan.png
+image: /assets/images/posts/2026-07-15-capability-dibangun-sebelum-dibutuhkan.png
 ---
 
 # Capability Dibangun Sebelum Dibutuhkan
