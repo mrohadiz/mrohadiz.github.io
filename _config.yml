@@ -1,13 +1,40 @@
 title: M. Rohadiz
 name: M. Rohadiz
-description: Digital Garden untuk AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.
+description: >-
+  Digital Garden oleh M. Rohadiz — Software Architect yang mengeksplorasi
+  AI Engineering, Decision Intelligence, Infrastructure, Software Architecture,
+  dan Crypto Observation melalui catatan dan artikel berbasis data.
 tagline: Keputusan yang baik lahir dari observasi yang baik.
 baseurl: ""
 url: "https://mrohadiz.github.io"
 lang: id
+timezone: Asia/Jakarta
+title_separator: "|"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: null
+
+# Author
+author:
+  name: M. Rohadiz
+  email: ""
+  twitter: mrohadiz
+  github: mrohadiz
+  linkedin: mrohadiz
+
+# Social links (used by jekyll-seo-tag)
+social:
+  name: M. Rohadiz
+  links:
+    - https://github.com/mrohadiz
+    - https://linkedin.com/in/mrohadiz
+
+# Google Analytics (fill in your GA4 measurement ID)
+ga: ""
+
+# Twitter username for twitter:site meta tag
+twitter:
+  username: mrohadiz
 
 # Kramdown settings
 kramdown:
@@ -47,10 +74,17 @@ exclude:
   - README.md
   - .gitignore
   - trace_audit.log
+  - package.json
+  - package-lock.json
+  - playwright.config.ts
+  - tests/
+  - playwright-report/
+  - test-results/
 
 # Include
 include:
   - _pages
+  - robots.txt
 
 # Collections
 collections:
@@ -78,5 +112,9 @@ defaults:
   - scope:
       path: "_projects"
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: "_pages"
     values:
       layout: "page"

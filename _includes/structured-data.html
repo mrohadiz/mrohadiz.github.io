@@ -1,0 +1,144 @@
+{% capture sd_url %}{{ page.url | absolute_url }}{% endcapture %}
+{% capture sd_description %}{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 165 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 165 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+
+<!-- Structured Data: WebSite + Person (always present) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.title | escape }}",
+      "description": "{{ site.description | escape }}",
+      "inLanguage": "{{ site.lang | default: 'id' }}",
+      "author": {
+        "@id": "{{ site.url }}/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ site.url }}/notes/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "M. Rohadiz",
+      "jobTitle": "Software Architect",
+      "description": "Software Architect yang mengeksplorasi AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture.",
+      "url": "{{ site.url }}/",
+      "knowsAbout": [
+        "Decision Intelligence",
+        "AI Engineering",
+        "Software Architecture",
+        "Infrastructure",
+        "Business Systems",
+        "DevOps",
+        "Observability",
+        "Systems Thinking",
+        "Knowledge Management",
+        "Decision Systems"
+      ],
+      "sameAs": [
+        "https://github.com/mrohadiz",
+        "https://linkedin.com/in/mrohadiz"
+      ]
+    }
+  ]
+}
+</script>
+
+{% if page.layout == 'article' %}
+{% capture article_url %}{{ page.url | absolute_url }}{% endcapture %}
+{% capture article_title %}{{ page.title | escape }}{% endcapture %}
+{% capture article_desc %}{% if page.description %}{{ page.description | strip_html | strip_newlines | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 165 | escape }}{% else %}{{ site.description | escape }}{% endif %}{% endcapture %}
+<!-- Structured Data: BlogPosting/Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ article_url }}#blogposting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ article_url }}"
+  },
+  "headline": "{{ article_title }}",
+  "description": "{{ article_desc }}",
+  "url": "{{ article_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "author": {
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "M. Rohadiz"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "M. Rohadiz"
+  },
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  "inLanguage": "{{ site.lang | default: 'id' }}"{% if page.image %},
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image | absolute_url }}"
+  }{% endif %}
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Notes",
+      "item": "{{ site.url }}/notes/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title | escape }}",
+      "item": "{{ article_url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.url == '/notes/' or page.url == '/notes/index.html' %}
+<!-- Structured Data: CollectionPage for Notes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ site.url }}/notes/#collectionpage",
+  "url": "{{ site.url }}/notes/",
+  "name": "Notes — M. Rohadiz",
+  "description": "Kumpulan catatan dan artikel tentang AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture oleh M. Rohadiz.",
+  "inLanguage": "{{ site.lang | default: 'id' }}",
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  "author": {
+    "@id": "{{ site.url }}/#person"
+  }
+}
+</script>
+{% endif %}
