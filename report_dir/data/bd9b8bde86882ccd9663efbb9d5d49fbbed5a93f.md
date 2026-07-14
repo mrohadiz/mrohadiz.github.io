@@ -1,0 +1,420 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: regression.spec.ts >> Accessibility Audit >> Accessibility check for notes
+- Location: tests/e2e/regression.spec.ts:48:9
+
+# Error details
+
+```
+Error: Accessibility violations on notes:
+[serious] color-contrast: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds (48 elements)
+
+expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 3
+
+- Array []
++ Array [
++   "[serious] color-contrast: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds (48 elements)",
++ ]
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "R M. Rohadiz" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: R
+        - generic [ref=e7]: M. Rohadiz
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Notes" [ref=e10] [cursor=pointer]:
+            - /url: /notes/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Now" [ref=e14] [cursor=pointer]:
+            - /url: /now/
+        - listitem [ref=e15]:
+          - link "About" [ref=e16] [cursor=pointer]:
+            - /url: /about/
+      - generic [ref=e17]:
+        - button "Search" [ref=e18]:
+          - img [ref=e19]
+        - button "Toggle theme" [ref=e22]:
+          - img [ref=e23]
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Notes" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Catatan dan artikel tentang AI Engineering, Decision Systems, dan Software Architecture.
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - link "All" [ref=e39] [cursor=pointer]:
+          - /url: "#"
+        - link "Decision Systems" [ref=e40] [cursor=pointer]:
+          - /url: "#"
+        - link "Knowledge Management" [ref=e41] [cursor=pointer]:
+          - /url: "#"
+        - link "LLM" [ref=e42] [cursor=pointer]:
+          - /url: "#"
+        - link "ai" [ref=e43] [cursor=pointer]:
+          - /url: "#"
+        - link "analysis" [ref=e44] [cursor=pointer]:
+          - /url: "#"
+        - link "architecture" [ref=e45] [cursor=pointer]:
+          - /url: "#"
+        - link "chain-of-thought" [ref=e46] [cursor=pointer]:
+          - /url: "#"
+        - link "convergence" [ref=e47] [cursor=pointer]:
+          - /url: "#"
+        - link "crypto" [ref=e48] [cursor=pointer]:
+          - /url: "#"
+        - link "decision-making" [ref=e49] [cursor=pointer]:
+          - /url: "#"
+        - link "devira" [ref=e50] [cursor=pointer]:
+          - /url: "#"
+        - link "devops" [ref=e51] [cursor=pointer]:
+          - /url: "#"
+        - link "digital-garden" [ref=e52] [cursor=pointer]:
+          - /url: "#"
+        - link "event-driven" [ref=e53] [cursor=pointer]:
+          - /url: "#"
+        - link "iac" [ref=e54] [cursor=pointer]:
+          - /url: "#"
+        - link "infrastructure" [ref=e55] [cursor=pointer]:
+          - /url: "#"
+        - link "learning" [ref=e56] [cursor=pointer]:
+          - /url: "#"
+        - link "llm" [ref=e57] [cursor=pointer]:
+          - /url: "#"
+        - link "market-microstructure" [ref=e58] [cursor=pointer]:
+          - /url: "#"
+        - link "microservices" [ref=e59] [cursor=pointer]:
+          - /url: "#"
+        - link "multi-source-signals" [ref=e60] [cursor=pointer]:
+          - /url: "#"
+        - link "narrative-observatory" [ref=e61] [cursor=pointer]:
+          - /url: "#"
+        - link "observability" [ref=e62] [cursor=pointer]:
+          - /url: "#"
+        - link "ooda-loop" [ref=e63] [cursor=pointer]:
+          - /url: "#"
+        - link "order-flow" [ref=e64] [cursor=pointer]:
+          - /url: "#"
+        - link "patterns" [ref=e65] [cursor=pointer]:
+          - /url: "#"
+        - link "public" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+        - link "pulumi" [ref=e67] [cursor=pointer]:
+          - /url: "#"
+        - link "reasoning" [ref=e68] [cursor=pointer]:
+          - /url: "#"
+        - link "strategy" [ref=e69] [cursor=pointer]:
+          - /url: "#"
+        - link "terraform" [ref=e70] [cursor=pointer]:
+          - /url: "#"
+        - link "trading" [ref=e71] [cursor=pointer]:
+          - /url: "#"
+        - link "writing" [ref=e72] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e73]:
+        - 'link "narrative-observatory Jul 12, 2026 3 min read Devira Observatory — 12 Juli 2026: Convergence Menguat, Namun Bukti Belum Lengkap Editorial Status: ✅ PublishedObservation Window: Rolling snapshotConfidence: Medium devira narrative-observatory convergence observability" [ref=e74] [cursor=pointer]':
+          - /url: /2026/07/12/radar-observatory-2026-07-12/
+          - generic [ref=e75]:
+            - generic [ref=e76]: narrative-observatory
+            - time [ref=e77]: Jul 12, 2026
+            - generic [ref=e78]: 3 min read
+          - 'heading "Devira Observatory — 12 Juli 2026: Convergence Menguat, Namun Bukti Belum Lengkap" [level=3] [ref=e79]'
+          - paragraph [ref=e80]: "Editorial Status: ✅ PublishedObservation Window: Rolling snapshotConfidence: Medium"
+          - generic [ref=e81]:
+            - generic [ref=e82]: devira
+            - generic [ref=e83]: narrative-observatory
+            - generic [ref=e84]: convergence
+            - generic [ref=e85]: observability
+        - 'link "AI Engineering Jul 12, 2026 1 min read Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence Dalam era information overload, tantangan terbesar kita bukan lagi mengakses informasi, melainkan mengekstrak sinyal dari kebisingan (noise). Decision Systems Knowledge Management LLM" [ref=e86] [cursor=pointer]':
+          - /url: /2026/07/12/knowledge-extraction-engine/
+          - generic [ref=e87]:
+            - generic [ref=e88]: AI Engineering
+            - time [ref=e89]: Jul 12, 2026
+            - generic [ref=e90]: 1 min read
+          - 'heading "Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence" [level=3] [ref=e91]'
+          - paragraph [ref=e92]: Dalam era information overload, tantangan terbesar kita bukan lagi mengakses informasi, melainkan mengekstrak sinyal dari kebisingan (noise).
+          - generic [ref=e93]:
+            - generic [ref=e94]: Decision Systems
+            - generic [ref=e95]: Knowledge Management
+            - generic [ref=e96]: LLM
+        - 'link "Infrastructure Jan 05, 2025 2 min read Infrastructure as Code: Terraform vs Pulumi Perbandingan Terraform dan Pulumi untuk Infrastructure as Code: kapan menggunakan yang mana. terraform pulumi iac devops" [ref=e97] [cursor=pointer]':
+          - /url: /2025/01/05/infrastructure-as-code/
+          - generic [ref=e98]:
+            - generic [ref=e99]: Infrastructure
+            - time [ref=e100]: Jan 05, 2025
+            - generic [ref=e101]: 2 min read
+          - 'heading "Infrastructure as Code: Terraform vs Pulumi" [level=3] [ref=e102]'
+          - paragraph [ref=e103]: "Perbandingan Terraform dan Pulumi untuk Infrastructure as Code: kapan menggunakan yang mana."
+          - generic [ref=e104]:
+            - generic [ref=e105]: terraform
+            - generic [ref=e106]: pulumi
+            - generic [ref=e107]: iac
+            - generic [ref=e108]: devops
+        - 'link "Crypto Observation Dec 28, 2024 2 min read Crypto Market Microstructure: Understanding Order Flow Memahami microstructure pasar crypto dan bagaimana order flow memberikan insight tentang market dynamics. crypto market-microstructure order-flow trading" [ref=e109] [cursor=pointer]':
+          - /url: /2024/12/28/crypto-market-microstructure/
+          - generic [ref=e110]:
+            - generic [ref=e111]: Crypto Observation
+            - time [ref=e112]: Dec 28, 2024
+            - generic [ref=e113]: 2 min read
+          - 'heading "Crypto Market Microstructure: Understanding Order Flow" [level=3] [ref=e114]'
+          - paragraph [ref=e115]: Memahami microstructure pasar crypto dan bagaimana order flow memberikan insight tentang market dynamics.
+          - generic [ref=e116]:
+            - generic [ref=e117]: crypto
+            - generic [ref=e118]: market-microstructure
+            - generic [ref=e119]: order-flow
+            - generic [ref=e120]: trading
+        - 'link "Software Architecture Dec 25, 2024 3 min read Event-Driven Architecture: Patterns and Practices Panduan praktis untuk implementasi event-driven architecture dalam sistem modern. event-driven microservices architecture patterns" [ref=e121] [cursor=pointer]':
+          - /url: /2024/12/25/event-driven-architecture/
+          - generic [ref=e122]:
+            - generic [ref=e123]: Software Architecture
+            - time [ref=e124]: Dec 25, 2024
+            - generic [ref=e125]: 3 min read
+          - 'heading "Event-Driven Architecture: Patterns and Practices" [level=3] [ref=e126]'
+          - paragraph [ref=e127]: Panduan praktis untuk implementasi event-driven architecture dalam sistem modern.
+          - generic [ref=e128]:
+            - generic [ref=e129]: event-driven
+            - generic [ref=e130]: microservices
+            - generic [ref=e131]: architecture
+            - generic [ref=e132]: patterns
+        - 'link "Decision Systems Dec 20, 2024 3 min read Decision Framework: OODA Loop untuk Software Architecture Bagaimana mengadaptasi OODA Loop milik John Boyd untuk pengambilan keputusan dalam software architecture. ooda-loop decision-making architecture strategy" [ref=e133] [cursor=pointer]':
+          - /url: /2024/12/20/ooda-loop-architecture/
+          - generic [ref=e134]:
+            - generic [ref=e135]: Decision Systems
+            - time [ref=e136]: Dec 20, 2024
+            - generic [ref=e137]: 3 min read
+          - 'heading "Decision Framework: OODA Loop untuk Software Architecture" [level=3] [ref=e138]'
+          - paragraph [ref=e139]: Bagaimana mengadaptasi OODA Loop milik John Boyd untuk pengambilan keputusan dalam software architecture.
+          - generic [ref=e140]:
+            - generic [ref=e141]: ooda-loop
+            - generic [ref=e142]: decision-making
+            - generic [ref=e143]: architecture
+            - generic [ref=e144]: strategy
+        - 'link "AI Engineering Dec 15, 2024 2 min read Reasoning Engine: Dari Knowledge ke Cara Berpikir Bagaimana membangun reasoning engine yang mampu menghubungkan pengetahuan menjadi cara berpikir yang terstruktur. reasoning llm chain-of-thought ai" [ref=e145] [cursor=pointer]':
+          - /url: /2024/12/15/reasoning-engine/
+          - generic [ref=e146]:
+            - generic [ref=e147]: AI Engineering
+            - time [ref=e148]: Dec 15, 2024
+            - generic [ref=e149]: 2 min read
+          - 'heading "Reasoning Engine: Dari Knowledge ke Cara Berpikir" [level=3] [ref=e150]'
+          - paragraph [ref=e151]: Bagaimana membangun reasoning engine yang mampu menghubungkan pengetahuan menjadi cara berpikir yang terstruktur.
+          - generic [ref=e152]:
+            - generic [ref=e153]: reasoning
+            - generic [ref=e154]: llm
+            - generic [ref=e155]: chain-of-thought
+            - generic [ref=e156]: ai
+        - link "Meta Dec 10, 2024 1 min read Mengapa Saya Menulis di Ruang Publik Tentang pentingnya learning in public dan bagaimana menulis membantu memperdalam pemahaman. writing learning public digital-garden" [ref=e157] [cursor=pointer]:
+          - /url: /2024/12/10/why-i-write-in-public/
+          - generic [ref=e158]:
+            - generic [ref=e159]: Meta
+            - time [ref=e160]: Dec 10, 2024
+            - generic [ref=e161]: 1 min read
+          - heading "Mengapa Saya Menulis di Ruang Publik" [level=3] [ref=e162]
+          - paragraph [ref=e163]: Tentang pentingnya learning in public dan bagaimana menulis membantu memperdalam pemahaman.
+          - generic [ref=e164]:
+            - generic [ref=e165]: writing
+            - generic [ref=e166]: learning
+            - generic [ref=e167]: public
+            - generic [ref=e168]: digital-garden
+  - contentinfo [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - link "R" [ref=e172] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e173]: R
+        - paragraph [ref=e174]: Keputusan yang baik lahir dari observasi yang baik.
+      - generic [ref=e175]:
+        - heading "Navigate" [level=4] [ref=e176]
+        - list [ref=e177]:
+          - listitem [ref=e178]:
+            - link "Home" [ref=e179] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e180]:
+            - link "Notes" [ref=e181] [cursor=pointer]:
+              - /url: /notes/
+          - listitem [ref=e182]:
+            - link "Projects" [ref=e183] [cursor=pointer]:
+              - /url: /projects/
+          - listitem [ref=e184]:
+            - link "Now" [ref=e185] [cursor=pointer]:
+              - /url: /now/
+          - listitem [ref=e186]:
+            - link "About" [ref=e187] [cursor=pointer]:
+              - /url: /about/
+      - generic [ref=e188]:
+        - heading "Domains" [level=4] [ref=e189]
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "AI Engineering" [ref=e192] [cursor=pointer]:
+              - /url: /notes/
+          - listitem [ref=e193]:
+            - link "Decision Systems" [ref=e194] [cursor=pointer]:
+              - /url: /notes/
+          - listitem [ref=e195]:
+            - link "Infrastructure" [ref=e196] [cursor=pointer]:
+              - /url: /notes/
+          - listitem [ref=e197]:
+            - link "Crypto Observation" [ref=e198] [cursor=pointer]:
+              - /url: /notes/
+          - listitem [ref=e199]:
+            - link "Software Architecture" [ref=e200] [cursor=pointer]:
+              - /url: /notes/
+      - generic [ref=e201]:
+        - heading "Connect" [level=4] [ref=e202]
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - link "GitHub" [ref=e205] [cursor=pointer]:
+              - /url: https://github.com/mrohadiz?k_id=34056f01-be16-48b3-99a9-cce1d6c925ff
+          - listitem [ref=e206]:
+            - link "LinkedIn" [ref=e207] [cursor=pointer]:
+              - /url: https://linkedin.com/in/mrohadiz?k_id=34056f01-be16-48b3-99a9-cce1d6c925ff
+          - listitem [ref=e208]:
+            - link "RSS Feed" [ref=e209] [cursor=pointer]:
+              - /url: https://mrohadiz.github.io/feed.xml
+    - paragraph [ref=e211]: © 2026 M. Rohadiz. Built with Jekyll.
+```
+
+# Test source
+
+```ts
+  1   | import { test, expect } from '@playwright/test';
+  2   | import AxeBuilder from '@axe-core/playwright';
+  3   | 
+  4   | const BASE_URL = 'https://mrohadiz.github.io';
+  5   | 
+  6   | const PAGES = [
+  7   |   { path: '/', name: 'home' },
+  8   |   { path: '/about/', name: 'about' },
+  9   |   { path: '/now/', name: 'now' },
+  10  |   { path: '/notes/', name: 'notes' },
+  11  |   { path: '/projects/', name: 'projects' },
+  12  |   { path: '/this-page-does-not-exist', name: '404', expectStatus: 404 },
+  13  | ];
+  14  | 
+  15  | test.describe('Visual Regression', () => {
+  16  |   for (const pg of PAGES) {
+  17  |     test(`Screenshot baseline for ${pg.name}`, async ({ page }, testInfo) => {
+  18  |       const response = await page.goto(`${BASE_URL}${pg.path}`, {
+  19  |         waitUntil: 'networkidle',
+  20  |       });
+  21  | 
+  22  |       const expectedStatus = pg.expectStatus || 200;
+  23  |       expect(response?.status()).toBe(expectedStatus);
+  24  | 
+  25  |       // Wait for animations and fonts
+  26  |       await page.waitForTimeout(1000);
+  27  | 
+  28  |       const snapshotName = `${pg.name}-${testInfo.project.name}.png`;
+  29  |       await expect(page).toHaveScreenshot(snapshotName, {
+  30  |         fullPage: true,
+  31  |         maxDiffPixelRatio: 0.01,
+  32  |         animations: 'disabled',
+  33  |       });
+  34  |     });
+  35  |   }
+  36  | });
+  37  | 
+  38  | test.describe('Accessibility Audit', () => {
+  39  |   let a11yErrors: string[] = [];
+  40  | 
+  41  |   test.beforeEach(async () => {
+  42  |     a11yErrors = [];
+  43  |   });
+  44  | 
+  45  |   for (const pg of PAGES) {
+  46  |     if (pg.expectStatus === 404) continue; // Skip 404 for a11y
+  47  | 
+  48  |     test(`Accessibility check for ${pg.name}`, async ({ page }) => {
+  49  |       await page.goto(`${BASE_URL}${pg.path}`, { waitUntil: 'networkidle' });
+  50  | 
+  51  |       const results = await new AxeBuilder({ page })
+  52  |         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+  53  |         .analyze();
+  54  | 
+  55  |       if (results.violations.length > 0) {
+  56  |         for (const violation of results.violations) {
+  57  |           a11yErrors.push(
+  58  |             `[${violation.impact}] ${violation.id}: ${violation.description} (${violation.nodes.length} elements)`
+  59  |           );
+  60  |         }
+  61  |       }
+  62  | 
+  63  |       expect(
+  64  |         a11yErrors,
+  65  |         `Accessibility violations on ${pg.name}:\n${a11yErrors.join('\n')}`
+> 66  |       ).toEqual([]);
+      |         ^ Error: Accessibility violations on notes:
+  67  |     });
+  68  |   }
+  69  | });
+  70  | 
+  71  | test.describe('Error Monitoring', () => {
+  72  |   let consoleErrors: string[] = [];
+  73  |   let pageErrors: string[] = [];
+  74  |   let networkErrors: string[] = [];
+  75  | 
+  76  |   test.beforeEach(async () => {
+  77  |     consoleErrors = [];
+  78  |     pageErrors = [];
+  79  |     networkErrors = [];
+  80  |   });
+  81  | 
+  82  |   test('No critical errors across all pages', async ({ page }) => {
+  83  |     page.on('pageerror', err => {
+  84  |       pageErrors.push(err.message);
+  85  |     });
+  86  | 
+  87  |     page.on('console', msg => {
+  88  |       if (msg.type() === 'error') {
+  89  |         consoleErrors.push(msg.text());
+  90  |       }
+  91  |     });
+  92  | 
+  93  |     page.on('response', response => {
+  94  |       if (
+  95  |         response.status() >= 500 &&
+  96  |         !response.url().includes('google-analytics') &&
+  97  |         !response.url().includes('favicon')
+  98  |       ) {
+  99  |         networkErrors.push(`${response.url()} (${response.status()})`);
+  100 |       }
+  101 |     });
+  102 | 
+  103 |     // Visit key pages
+  104 |     for (const pg of ['/', '/about/', '/now/', '/notes/', '/projects/']) {
+  105 |       await page.goto(`${BASE_URL}${pg}`, { waitUntil: 'networkidle' });
+  106 |       await page.waitForTimeout(500);
+  107 |     }
+  108 | 
+  109 |     // Filter out known non-critical errors
+  110 |     const criticalConsoleErrors = consoleErrors.filter(
+  111 |       e => !e.includes('favicon') && !e.includes('service-worker')
+  112 |     );
+  113 | 
+  114 |     const allErrors = [
+  115 |       ...pageErrors.map(e => `Page error: ${e}`),
+  116 |       ...criticalConsoleErrors.map(e => `Console error: ${e}`),
+  117 |       ...networkErrors.map(e => `Network error: ${e}`),
+  118 |     ];
+  119 | 
+  120 |     expect(allErrors, `Errors found:\n${allErrors.join('\n')}`).toEqual([]);
+  121 |   });
+  122 | });
+  123 | 
+```

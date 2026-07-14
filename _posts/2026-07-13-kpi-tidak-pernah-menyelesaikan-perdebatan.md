@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "KPI Tidak Pernah Menyelesaikan Perdebatan"
+image: /assets/images/default-thumbnail.svg
 date: 2026-07-13
 last_modified_at: 2026-07-13
 categories:

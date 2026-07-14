@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Event-Driven Architecture: Patterns and Practices"
+image: /assets/images/default-thumbnail.svg
 date: 2024-12-25
 last_modified_at: 2024-12-25
 categories:

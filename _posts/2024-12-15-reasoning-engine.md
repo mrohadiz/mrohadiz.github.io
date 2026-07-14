@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Reasoning Engine: Dari Knowledge ke Cara Berpikir"
+image: /assets/images/default-thumbnail.svg
 date: 2024-12-15
 last_modified_at: 2024-12-15
 categories:

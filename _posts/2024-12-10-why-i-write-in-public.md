@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Mengapa Saya Menulis di Ruang Publik"
+image: /assets/images/default-thumbnail.svg
 date: 2024-12-10
 last_modified_at: 2024-12-10
 categories:

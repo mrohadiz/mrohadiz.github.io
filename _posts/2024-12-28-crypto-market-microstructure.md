@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Crypto Market Microstructure: Understanding Order Flow"
+image: /assets/images/default-thumbnail.svg
 date: 2024-12-28
 last_modified_at: 2024-12-28
 categories:

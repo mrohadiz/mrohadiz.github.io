@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence"
+image: /assets/images/default-thumbnail.svg
 date: 2026-07-12
 last_modified_at: 2026-07-12
 categories: [AI Engineering, Prompt Engineering]

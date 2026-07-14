@@ -39,6 +39,12 @@ Saya menulis seperti sedang berbicara dengan versi saya sendiri 6 bulan yang lal
 
 > "The best code is no code at all. The best system is the one you understand."
 
+Pelajari lebih lanjut tentang kerangka berpikir saya:
+- **[Methodology](/methodology/)** — Framework Observe → Analyze → Synthesize → Decide
+- **[How I Work](/how-i-work/)** — Setup, workflow, dan digital garden
+- **[Principles](/principles/)** — Prinsip panduan dalam pengambilan keputusan
+- **[Glossary](/glossary/)** — Daftar istilah kunci yang sering digunakan
+
 ## Connect
 
 - **GitHub**: [mrohadiz](https://github.com/mrohadiz)

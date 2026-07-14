@@ -15,7 +15,7 @@ excerpt: "Checklist praktis untuk memeriksa keamanan WordPress sebelum migrasi s
 image: "/assets/images/thumbnail.png"
 ---
 
-# WordPress Security Audit Checklist Before Migration
+
 
 Sebelum memigrasikan WordPress ke server baru, saya selalu memeriksa apakah situs benar-benar bersih dari indikator kompromi. Di shared hosting, audit tidak bisa menjangkau semua lapisan infrastruktur, jadi fokus utama ada pada core WordPress, file, plugin, theme, database, dan konfigurasi dasar.
 

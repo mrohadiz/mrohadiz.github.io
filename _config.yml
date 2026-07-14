@@ -30,7 +30,7 @@ social:
     - https://linkedin.com/in/mrohadiz
 
 # Google Analytics (fill in your GA4 measurement ID)
-ga: ""
+google_analytics: ""
 
 # Twitter username for twitter:site meta tag
 twitter:
