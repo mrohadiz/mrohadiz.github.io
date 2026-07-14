@@ -5,30 +5,156 @@ description: Catatan dan artikel tentang AI Engineering, Decision Systems, dan S
 permalink: /notes/
 ---
 
+<style>
+/* Notes Navigation Redesign Styles */
+.search-container {
+  max-width: 600px; 
+  margin: 0 auto var(--space-6) auto; 
+  position: relative;
+}
+.search-input {
+  width: 100%; 
+  padding: var(--space-3) var(--space-4); 
+  border-radius: 20px; 
+  border: 1px solid var(--color-border); 
+  background: var(--color-bg); 
+  color: var(--color-text-primary); 
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.category-chips {
+  display: flex; 
+  gap: var(--space-2); 
+  margin-bottom: var(--space-4); 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+.chip {
+  padding: var(--space-2) var(--space-4);
+  border-radius: 20px;
+  border: 1px solid var(--color-primary);
+  background: transparent;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+.chip:hover, .chip.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+.chip:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.popular-topics {
+  display: flex; 
+  gap: var(--space-2); 
+  margin-bottom: var(--space-8); 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+}
+.chip-small {
+  padding: var(--space-1) var(--space-3);
+  font-size: 0.85rem;
+  border-color: var(--color-border);
+  color: var(--color-text-secondary);
+}
+.chip-small:hover, .chip-small.active {
+  background: var(--color-text-secondary);
+  color: var(--color-bg);
+  border-color: var(--color-text-secondary);
+}
+.view-all-topics {
+  margin-left: var(--space-2); 
+  text-decoration: none; 
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.view-all-topics:hover {
+  text-decoration: underline;
+}
+
+.notes-stats {
+  display: flex; 
+  justify-content: center; 
+  gap: var(--space-4); 
+  color: var(--color-text-secondary); 
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+.notes-stats strong {
+  color: var(--color-text-primary);
+}
+</style>
+
 <!-- Page Header -->
-<header class="article-header" style="margin-bottom: var(--space-10);">
+<header class="article-header" style="margin-bottom: var(--space-6);">
   <h1 class="article-title">Notes</h1>
-  <p class="lead" style="text-align: center; max-width: 640px; margin: 0 auto;">
+  <p class="lead" style="text-align: center; max-width: 640px; margin: 0 auto var(--space-4) auto;">
     Catatan dan artikel tentang AI Engineering, Decision Systems, dan Software Architecture.
   </p>
+  
+  <div class="notes-stats">
+    <span><strong>{{ site.posts | size }}</strong> Articles</span>
+    <span aria-hidden="true">&bull;</span>
+    <span><strong>{{ site.categories | size }}</strong> Categories</span>
+    <span aria-hidden="true">&bull;</span>
+    <span><strong>{{ site.tags | size }}</strong> Topics</span>
+  </div>
 </header>
 
-<!-- Notes Grid -->
 <section class="container" style="max-width: 1100px; margin: 0 auto;">
-  <!-- Filter Tags -->
-  <div class="tag-cloud" style="margin-bottom: var(--space-8); justify-content: center;">
-    <a href="#" class="tag-cloud-item active" data-filter="all">All</a>
-    {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
-    {% for tag in all_tags %}
-      <a href="#" class="tag-cloud-item" data-filter="{{ tag }}">{{ tag }}</a>
+  
+  <!-- Search Box -->
+  <div class="search-container">
+    <input type="search" id="notes-search" class="search-input" placeholder="🔍 Search notes by title, excerpt, or tag..." aria-label="Search notes">
+  </div>
+
+  <!-- Category Chips (Primary Hierarchy) -->
+  <div class="category-chips" role="group" aria-label="Filter by category">
+    <button class="chip active" data-category="all" aria-pressed="true">All</button>
+    <button class="chip" data-category="ai engineering" aria-pressed="false">AI Engineering</button>
+    <button class="chip" data-category="decision systems" aria-pressed="false">Decision Systems</button>
+    <button class="chip" data-category="infrastructure" aria-pressed="false">Infrastructure</button>
+    <button class="chip" data-category="software architecture" aria-pressed="false">Software Architecture</button>
+    <button class="chip" data-category="crypto observation" aria-pressed="false">Crypto Observation</button>
+  </div>
+
+  <!-- Popular Topics (Secondary Hierarchy) -->
+  <div class="popular-topics" role="group" aria-label="Filter by popular topics">
+    <span style="color: var(--color-text-secondary); font-size: 0.85rem; font-weight: 500;">Popular Concepts & Tech:</span>
+    {% assign top_tags = "" | split: "," %}
+    {% for tag in site.tags %}
+      {% capture tag_name %}{{ tag[0] }}{% endcapture %}
+      {% capture tag_count %}{{ tag[1] | size | prepend: '0000' | slice: -4, 4 }}{% endcapture %}
+      {% capture tag_item %}{{ tag_count }}|{{ tag_name }}{% endcapture %}
+      {% assign top_tags = top_tags | push: tag_item %}
     {% endfor %}
+    {% assign top_tags = top_tags | sort | reverse %}
+    
+    {% for item in top_tags limit: 8 %}
+      {% assign tag_parts = item | split: "|" %}
+      {% assign t_name = tag_parts[1] %}
+      <button class="chip chip-small" data-topic="{{ t_name | downcase }}" aria-pressed="false">{{ t_name }}</button>
+    {% endfor %}
+    <a href="/topics/" class="view-all-topics">View all topics &rarr;</a>
   </div>
 
   <!-- Posts Grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2">
+  <div class="grid grid-cols-1 md:grid-cols-2" id="notes-grid" aria-live="polite">
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
       <a href="{{ post.url | relative_url }}" class="article-card"
+         data-category="{{ post.categories.first | downcase }}"
          data-tags="{{ post.tags | join: ',' | downcase }}">
         <div class="article-card-meta">
           <span class="badge badge-primary">{{ post.categories.first | default: 'Article' }}</span>
@@ -44,37 +170,103 @@ permalink: /notes/
         </div>
       </a>
     {% else %}
-      <div class="article-card" style="grid-column: 1 / -1; border-style: dashed; opacity: 0.6;">
+      <div class="article-card" style="grid-column: 1 / -1; border-style: dashed; opacity: 0.6;" id="no-results-placeholder">
         <div class="article-card-meta"><span class="badge badge-neutral">Coming Soon</span></div>
         <h3 class="article-card-title">Belum ada catatan</h3>
         <p class="article-card-excerpt">Catatan pertama akan segera ditulis.</p>
       </div>
     {% endfor %}
+    
+    <div class="article-card" id="search-no-results" style="display: none; grid-column: 1 / -1; border-style: dashed; opacity: 0.6; text-align: center;">
+      <h3 class="article-card-title" style="margin-top: var(--space-4);">Tidak ada hasil</h3>
+      <p class="article-card-excerpt">Coba gunakan kata kunci atau filter lain.</p>
+    </div>
   </div>
 </section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var filterBtns = document.querySelectorAll('.tag-cloud-item');
-  var cards = document.querySelectorAll('.article-card[data-tags]');
+  const searchInput = document.getElementById('notes-search');
+  const catChips = document.querySelectorAll('.category-chips .chip');
+  const topicChips = document.querySelectorAll('.popular-topics .chip');
+  const cards = document.querySelectorAll('.article-card[data-category]');
+  const noResultsMsg = document.getElementById('search-no-results');
 
-  filterBtns.forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      filterBtns.forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      var filter = btn.getAttribute('data-filter');
+  let currentCategory = 'all';
+  let currentTopic = 'all';
+  let searchQuery = '';
 
-      cards.forEach(function(card) {
-        if (filter === 'all' || card.getAttribute('data-tags').includes(filter)) {
-          card.style.display = '';
-          // Fix issue where JS scroll observer hides filtered elements by zeroing opacity
-          card.style.opacity = '1';
-          card.classList.remove('animate-fade-in-up'); // Ensure no pending animations conflict
-        } else {
-          card.style.display = 'none';
-        }
+  function filterCards() {
+    let visibleCount = 0;
+    
+    cards.forEach(card => {
+      const title = card.querySelector('.article-card-title').textContent.toLowerCase();
+      const excerpt = card.querySelector('.article-card-excerpt').textContent.toLowerCase();
+      const cardCat = card.getAttribute('data-category') || '';
+      const cardTags = card.getAttribute('data-tags') || '';
+      
+      const matchSearch = searchQuery === '' || 
+                          title.includes(searchQuery) || 
+                          excerpt.includes(searchQuery) || 
+                          cardTags.includes(searchQuery) || 
+                          cardCat.includes(searchQuery);
+                          
+      const matchCat = currentCategory === 'all' || cardCat.includes(currentCategory);
+      const matchTopic = currentTopic === 'all' || cardTags.includes(currentTopic);
+
+      if (matchSearch && matchCat && matchTopic) {
+        card.style.display = '';
+        card.style.opacity = '1';
+        card.classList.remove('animate-fade-in-up');
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    
+    if (visibleCount === 0 && cards.length > 0) {
+      noResultsMsg.style.display = 'block';
+    } else {
+      noResultsMsg.style.display = 'none';
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      filterCards();
+    });
+  }
+
+  catChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      catChips.forEach(c => {
+        c.classList.remove('active');
+        c.setAttribute('aria-pressed', 'false');
       });
+      chip.classList.add('active');
+      chip.setAttribute('aria-pressed', 'true');
+      currentCategory = chip.getAttribute('data-category');
+      filterCards();
+    });
+  });
+
+  topicChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      if (chip.classList.contains('active')) {
+        chip.classList.remove('active');
+        chip.setAttribute('aria-pressed', 'false');
+        currentTopic = 'all';
+      } else {
+        topicChips.forEach(c => {
+          c.classList.remove('active');
+          c.setAttribute('aria-pressed', 'false');
+        });
+        chip.classList.add('active');
+        chip.setAttribute('aria-pressed', 'true');
+        currentTopic = chip.getAttribute('data-topic');
+      }
+      filterCards();
     });
   });
 });
