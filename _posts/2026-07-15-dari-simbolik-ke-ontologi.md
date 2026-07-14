@@ -11,6 +11,7 @@ tags:
   - sistem
   - model-mental
 excerpt: "Cara membaca realitas sering berhenti di data yang terlihat. Artikel ini merangkum tangga berpikir dari simbolik hingga ontologi agar kita lebih peka terhadap pola, sistem, dan asumsi yang mendasarinya."
+image: /assets/images/og/2026-07-15-dari-simbolik-ke-ontologi.png
 ---
 
 # Ringkasan
