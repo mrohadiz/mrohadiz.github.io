@@ -1,56 +1,128 @@
-<!-- Footer -->
-<footer class="footer">
-  <div class="footer-inner">
-    <!-- Brand Column -->
+<style>
+.footer-compact {
+  padding: var(--space-8) 20px var(--space-6);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+.footer-compact-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6) var(--space-4);
+}
+@media (min-width: 768px) {
+  .footer-compact-inner {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  }
+}
+.footer-brand {
+  grid-column: span 2;
+}
+@media (min-width: 768px) {
+  .footer-brand {
+    grid-column: span 1;
+  }
+}
+.footer-brand p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: var(--space-2);
+  line-height: 1.4;
+}
+.footer-col h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-3);
+  font-weight: 600;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.footer-links a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+.footer-links a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.footer-links .more-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 0.85rem;
+  margin-top: var(--space-1);
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: var(--space-6) auto 0;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+</style>
+
+<footer class="footer-compact">
+  <div class="footer-compact-inner">
+    <!-- Brand -->
     <div class="footer-brand">
       <a href="{{ '/' | relative_url }}" class="navbar-brand">
-        <span class="logo-mark">R</span>
+        <span class="logo-mark" aria-hidden="true">R</span>
       </a>
       <p>{{ site.tagline | default: "Keputusan yang baik lahir dari observasi yang baik." }}</p>
     </div>
 
-    <!-- Navigation Column -->
+    <!-- Navigation -->
     <div class="footer-col">
-      <h4 class="footer-title">Navigate</h4>
-      <ul class="footer-links">
+      <h4>Navigation</h4>
+      <ul class="footer-links" aria-label="Site navigation">
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/notes/' | relative_url }}">Notes</a></li>
         <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/now/' | relative_url }}">Now</a></li>
         <li><a href="{{ '/about/' | relative_url }}">About</a></li>
       </ul>
     </div>
 
-    <!-- Domains Column -->
+    <!-- Topics -->
     <div class="footer-col">
-      <h4 class="footer-title">Domains</h4>
-      <ul class="footer-links">
+      <h4>Topics</h4>
+      <ul class="footer-links" aria-label="Topics">
         <li><a href="/topics/ai-engineering/">AI Engineering</a></li>
         <li><a href="/topics/decision-systems/">Decision Systems</a></li>
         <li><a href="/topics/infrastructure/">Infrastructure</a></li>
-        <li><a href="/topics/crypto-observation/">Crypto Observation</a></li>
-        <li><a href="/topics/software-architecture/">Software Architecture</a></li>
+        <li><a href="/topics/crypto-observation/">Crypto</a></li>
       </ul>
     </div>
 
-    <!-- Resources Column -->
+    <!-- Resources -->
     <div class="footer-col">
-      <h4 class="footer-title">Resources</h4>
-      <ul class="footer-links">
+      <h4>Resources</h4>
+      <ul class="footer-links" aria-label="Resources">
         <li><a href="{{ '/methodology/' | relative_url }}">Methodology</a></li>
         <li><a href="{{ '/principles/' | relative_url }}">Principles</a></li>
-        <li><a href="{{ '/how-i-work/' | relative_url }}">How I Work</a></li>
         <li><a href="{{ '/glossary/' | relative_url }}">Glossary</a></li>
+        <li><a href="{{ '/feed.xml' | absolute_url }}">RSS</a></li>
+        <li><a href="/resources/" class="more-link">More Resources &rarr;</a></li>
       </ul>
     </div>
 
-    <!-- Connect Column -->
+    <!-- Connect -->
     <div class="footer-col">
-      <h4 class="footer-title">Connect</h4>
-      <ul class="footer-links">
+      <h4>Connect</h4>
+      <ul class="footer-links" aria-label="Connect">
         <li><a href="https://github.com/mrohadiz" target="_blank" rel="noopener">GitHub</a></li>
         <li><a href="https://linkedin.com/in/mrohadiz" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="{{ '/feed.xml' | absolute_url }}">RSS Feed</a></li>
       </ul>
     </div>
   </div>

@@ -1,15 +1,87 @@
-<!-- Author Card (E-E-A-T Signal) -->
-<aside class="author-card" aria-label="About the author">
-  <div class="author-card-inner">
-    <span class="author-card-name">M. Rohadiz</span>
-    <span class="author-card-title">Software Architect &amp; Decision Systems Engineer</span>
-    <div class="author-card-expertise">
-      <span>Area of Expertise:</span>
-      <span class="badge badge-outline">AI Engineering</span>
-      <span class="badge badge-outline">Decision Systems</span>
-      <span class="badge badge-outline">Infrastructure</span>
-      <span class="badge badge-outline">Software Architecture</span>
+<style>
+.author-card-compact {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-6) 0;
+  margin: var(--space-6) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.author-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+.author-info {
+  flex: 1;
+}
+.author-name {
+  margin: 0 0 2px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+.author-role {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+.author-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 500;
+  white-space: nowrap;
+}
+.author-link:hover {
+  text-decoration: underline;
+}
+.author-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+@media (min-width: 600px) {
+  .author-card-compact {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .author-expertise {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}
+</style>
+<aside class="author-card-compact" aria-label="About the author">
+  <div class="author-card-header">
+    <div class="author-avatar" aria-hidden="true">R</div>
+    <div class="author-info">
+      <h3 class="author-name">M. Rohadiz</h3>
+      <p class="author-role">Software Architect</p>
     </div>
-    <a href="{{ '/about/' | relative_url }}" class="author-card-link">Tentang Penulis →</a>
   </div>
+  <div class="author-expertise">
+    <span class="badge badge-outline">AI Engineering</span>
+    <span class="badge badge-outline">Decision Systems</span>
+    <span class="badge badge-outline">Infrastructure</span>
+    <span class="badge badge-outline">Software Architecture</span>
+  </div>
+  <a href="{{ '/about/' | relative_url }}" class="author-link">About Author &rarr;</a>
 </aside>

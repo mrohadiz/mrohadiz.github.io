@@ -32,7 +32,7 @@ layout: default
 {% endif %}
 
 <!-- Article Body -->
-<article class="article-content">
+<article class="article-content" style="margin-bottom: var(--space-8);">
   <div class="article-layout">
     <!-- Article Content (mobile-first: full width, TOC collapses in) -->
     <div class="article-body" id="article-content">
@@ -51,32 +51,41 @@ layout: default
   </div>
 </article>
 
-{% include author-card.html %}
-
-<!-- Article Footer -->
-<footer class="article-footer">
-  <!-- Prev/Next Navigation -->
-  <div class="article-footer-nav">
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | relative_url }}" class="article-footer-link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-        <span>{{ page.previous.title }}</span>
-      </a>
-    {% else %}
-      <div></div>
+<!-- Related Articles (Tight spacing) -->
+<section class="related-articles-compact" aria-label="Related articles" style="max-width: 800px; margin: 0 auto var(--space-2) auto; padding: 0 20px;">
+  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Related Articles</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3);">
+    {% assign related = site.posts | where_exp: "item", "item.url != page.url" %}
+    {% assign count = 0 %}
+    {% for post in related %}
+      {% assign sameTagCount = 0 %}
+      {% for tag in post.tags %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if sameTagCount > 0 and count < 3 %}
+        <li><a href="{{ post.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ post.title }}</a></li>
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if count == 0 %}
+      {% for post in related limit: 3 %}
+        <li><a href="{{ post.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ post.title }}</a></li>
+      {% endfor %}
     {% endif %}
-    {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}" class="article-footer-link">
-        <span>{{ page.next.title }}</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-      </a>
-    {% endif %}
-  </div>
+  </ul>
+</section>
 
-  <!-- Back to Notes -->
-  <div style="text-align: center; margin-top: var(--space-8);">
-    <a href="{{ '/notes/' | relative_url }}" class="btn btn-ghost">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+<div style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+  {% include author-card.html %}
+</div>
+
+<!-- Article Footer (Back to Notes) -->
+<footer class="article-footer" style="padding-top: 0; margin-top: 0; border-top: none;">
+  <div style="text-align: center; margin-bottom: var(--space-8);">
+    <a href="{{ '/notes/' | relative_url }}" class="btn btn-ghost" style="padding: var(--space-2) var(--space-6);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
       Back to Notes
     </a>
   </div>
