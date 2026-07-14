@@ -1,4 +1,6 @@
 const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const path = require('path');
 
 const baseURL = 'https://mrohadiz.github.io';
 const pagesToTest = [
@@ -13,6 +15,35 @@ const pagesToTest = [
 const errors = [];
 const visited = new Set();
 const brokenLinks = [];
+
+function readProjectFile(relativePath) {
+  return fs.readFileSync(path.join(__dirname, '..', relativePath), 'utf8');
+}
+
+function checkLocalDesignSource() {
+  const homeLayout = readProjectFile('_layouts/home.html');
+  const layoutScss = readProjectFile('_sass/_layout.scss');
+  const footer = readProjectFile('_includes/footer.html');
+
+  if (homeLayout.includes('Active Now')) {
+    errors.push('Homepage source: dashboard-style \"Active Now\" hero badge should be removed');
+  }
+  if (homeLayout.includes('hero-stats')) {
+    errors.push('Homepage source: generic hero metrics should be removed');
+  }
+  if (!homeLayout.includes('Ruang Observasi')) {
+    errors.push('Homepage source: Indonesia-first observation section heading missing');
+  }
+  if (!homeLayout.includes('Catatan Terbaru')) {
+    errors.push('Homepage source: Indonesia-first latest notes heading missing');
+  }
+  if (/^\s*:root\s*\{/m.test(layoutScss)) {
+    errors.push('SCSS source: _layout.scss must not redefine root design tokens');
+  }
+  if (footer.trimStart().startsWith('<style>')) {
+    errors.push('Footer source: inline footer styles must move into SCSS');
+  }
+}
 
 async function checkPage(path) {
   const url = path.startsWith('http') ? path : `${baseURL}${path.startsWith('/') ? path : '/' + path}`;
@@ -77,6 +108,8 @@ async function checkPage(path) {
 }
 
 async function run() {
+  checkLocalDesignSource();
+
   for (const p of pagesToTest) {
     await checkPage(p);
   }

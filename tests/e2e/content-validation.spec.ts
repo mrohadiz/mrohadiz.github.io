@@ -82,10 +82,10 @@ test.describe('Content Validation', () => {
     const heroTitle = page.locator('.hero-title, .hero h1').first();
     await expect(heroTitle, 'Hero must have a title').toBeVisible();
     const titleText = await heroTitle.textContent();
-    expect(titleText).toContain('Rohadiz');
+    expect(titleText).toContain('Keputusan yang baik lahir dari observasi yang baik');
 
-    const heroSubtitle = page.locator('.hero-subtitle, .hero .lead').first();
-    await expect(heroSubtitle, 'Hero must have a subtitle').toBeVisible();
+    const heroTagline = page.locator('.hero-tagline').first();
+    await expect(heroTagline, 'Hero must have supporting copy').toBeVisible();
 
     // CTA buttons
     const ctaButtons = page.locator('.hero-actions .btn, .hero .btn');
@@ -94,13 +94,13 @@ test.describe('Content Validation', () => {
 
     // Featured sections on homepage
     const domains = page.locator('#domains, .domains-section').first();
-    await expect(domains, 'Homepage must have Knowledge Domains section').toBeVisible();
+    await expect(domains, 'Homepage must have Ruang Observasi section').toBeVisible();
 
     const articles = page.locator('#articles, .articles-section').first();
-    await expect(articles, 'Homepage must have Featured Articles section').toBeVisible();
+    await expect(articles, 'Homepage must have Catatan Terbaru section').toBeVisible();
 
     const projects = page.locator('#projects, .projects-section').first();
-    await expect(projects, 'Homepage must have Projects section').toBeVisible();
+    await expect(projects, 'Homepage must have Proyek Kerja section').toBeVisible();
   });
 
   test('Every internal link on homepage should return 200', async ({ page }) => {
