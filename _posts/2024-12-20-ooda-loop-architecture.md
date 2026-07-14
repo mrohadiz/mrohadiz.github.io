@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Decision Framework: OODA Loop untuk Software Architecture"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2024-12-20-ooda-loop-architecture.png
 date: 2024-12-20
 last_modified_at: 2024-12-20
 categories:

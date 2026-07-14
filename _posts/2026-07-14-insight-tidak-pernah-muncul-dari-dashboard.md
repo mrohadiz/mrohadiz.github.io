@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Insight Tidak Pernah Muncul dari Dashboard"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2026-07-14-insight-tidak-pernah-muncul-dari-dashboard.png
 date: 2026-07-14
 last_modified_at: 2026-07-14
 categories:

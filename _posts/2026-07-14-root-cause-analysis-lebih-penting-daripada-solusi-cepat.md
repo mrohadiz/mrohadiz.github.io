@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Root Cause Analysis Lebih Penting daripada Solusi Cepat"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2026-07-14-root-cause-analysis-lebih-penting-daripada-solusi-cepat.png
 date: 2026-07-14
 last_modified_at: 2026-07-14
 categories:

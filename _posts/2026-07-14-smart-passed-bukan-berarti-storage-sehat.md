@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "SMART PASSED Bukan Berarti Storage Sehat: Memahami Perbedaan Media Error dan SATA CRC Error"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2026-07-14-smart-passed-bukan-berarti-storage-sehat.png
 date: 2026-07-14
 last_modified_at: 2026-07-14
 categories:

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Buku Saku Pengambilan Keputusan & Memberi Pertimbangan"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2026-07-12-buku-saku-pengambilan-keputusan.png
 date: 2026-07-12
 last_modified_at: 2026-07-12
 categories:

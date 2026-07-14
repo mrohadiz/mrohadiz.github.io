@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Infrastructure as Code: Terraform vs Pulumi"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2025-01-05-infrastructure-as-code.png
 date: 2025-01-05
 last_modified_at: 2025-01-05
 categories:

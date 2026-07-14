@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Real-Time Bukan Berarti Cepat"
-image: /assets/images/default-thumbnail.svg
+image: /assets/images/og/2026-07-13-real-time-bukan-berarti-cepat.png
 date: 2026-07-13
 last_modified_at: 2026-07-13
 categories:
