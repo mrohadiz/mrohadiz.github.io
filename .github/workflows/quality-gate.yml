@@ -18,10 +18,32 @@ jobs:
     name: 🔨 Build
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install OG Generator Dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate OG Images
+        run: python scripts/generate_og_images.py
+
+      - name: Commit and Push Generated OG Images
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/images/og/ .og-cache.json _posts/ || true
+          git commit -m "chore(seo): auto-generate open graph images [skip ci]" || echo "No changes to commit"
+          git push || echo "No changes to push"
 
       - uses: ruby/setup-ruby@v1
         with:
