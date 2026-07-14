@@ -2,8 +2,23 @@
 layout: default
 ---
 
-<!-- Reading Progress Bar -->
-<div class="reading-progress" id="reading-progress"></div>
+<!-- Reading Progress Level Calculation -->
+{% assign word_count = page.content | number_of_words %}
+{% if word_count < 600 %}
+  {% assign level = "Beginner" %}
+{% elsif word_count < 1500 %}
+  {% assign level = "Intermediate" %}
+{% else %}
+  {% assign level = "Advanced" %}
+{% endif %}
+
+<!-- Breadcrumb / Knowledge Hierarchy -->
+<nav class="knowledge-breadcrumb" aria-label="Knowledge Hierarchy" style="font-size: 0.9rem; color: var(--color-text-secondary); margin-bottom: var(--space-4); display: flex; gap: var(--space-2); align-items: center; padding-top: var(--space-4); flex-wrap: wrap;">
+  <span>You are reading:</span>
+  <a href="/topics/{{ page.categories.first | slugify | default: 'all' }}/" style="color: var(--color-primary); font-weight: 500; text-decoration: none;">{{ page.categories.first | default: 'Notes' }}</a>
+  <span>&darr;</span>
+  <span style="color: var(--color-text-primary);">{{ page.tags.first | default: 'Concept' | capitalize }}</span>
+</nav>
 
 <!-- Article Header -->
 <header class="article-header">
@@ -13,16 +28,12 @@ layout: default
     {% endif %}
     <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
     <span>{{ page.content | number_of_words | divided_by: 180 }} min read</span>
+    <span class="badge badge-outline" style="margin-left: 8px;">Level: {{ level }}</span>
   </div>
   <h1 class="article-title">{{ page.title }}</h1>
   {% if page.excerpt %}
     <p class="article-lead">{{ page.excerpt | strip_html | strip_newlines }}</p>
   {% endif %}
-  <div class="article-tags">
-    {% for tag in page.tags %}
-      <span class="badge badge-outline">{{ tag }}</span>
-    {% endfor %}
-  </div>
 </header>
 
 {% if page.image %}
@@ -34,12 +45,24 @@ layout: default
 <!-- Article Body -->
 <article class="article-content" style="margin-bottom: var(--space-8);">
   <div class="article-layout">
-    <!-- Article Content (mobile-first: full width, TOC collapses in) -->
     <div class="article-body" id="article-content">
       {{ content }}
+      
+      <!-- Phase 1: Related Concepts -->
+      <div class="related-concepts" style="margin-top: var(--space-8); padding: var(--space-4); background: var(--color-bg-alt); border-radius: 8px; border: 1px solid var(--color-border);">
+        <h4 style="margin-top: 0; font-size: 1rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Related Concepts</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3);">
+          {% if page.categories.first %}
+          <a href="/topics/{{ page.categories.first | slugify }}/" class="badge badge-primary" style="text-decoration: none;">{{ page.categories.first }}</a>
+          {% endif %}
+          {% for tag in page.tags %}
+          <a href="/notes/" class="badge badge-outline" style="text-decoration: none;">{{ tag | capitalize }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      
     </div>
 
-    <!-- Floating TOC (desktop only via CSS, rendered after content for DOM order) -->
     {% if page.toc != false %}
       <aside class="article-toc-wrapper" aria-label="Table of contents">
         <div class="toc" id="toc">
@@ -51,27 +74,68 @@ layout: default
   </div>
 </article>
 
-<!-- Related Articles (Tight spacing) -->
-<section class="related-articles-compact" aria-label="Related articles" style="max-width: 800px; margin: 0 auto var(--space-2) auto; padding: 0 20px;">
-  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Related Articles</h3>
-  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3);">
-    {% assign related = site.posts | where_exp: "item", "item.url != page.url" %}
-    {% assign count = 0 %}
-    {% for post in related %}
-      {% assign sameTagCount = 0 %}
-      {% for tag in post.tags %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      {% if sameTagCount > 0 and count < 3 %}
-        <li><a href="{{ post.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ post.title }}</a></li>
-        {% assign count = count | plus: 1 %}
+<!-- Phase 2: Recommended Learning Path -->
+{% assign path_posts = site.posts | where: "categories", page.categories.first | sort: "date" %}
+{% if path_posts.size > 1 %}
+<section class="learning-path" style="max-width: 800px; margin: 0 auto var(--space-8) auto; padding: var(--space-4) 20px; border-left: 4px solid var(--color-primary); background: var(--color-bg-alt);">
+  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-primary);">Recommended Learning Path</h3>
+  <div style="display: flex; flex-direction: column; gap: var(--space-2); font-size: 0.95rem;">
+    {% for p in path_posts %}
+      {% if p.url == page.url %}
+        <div style="font-weight: 600; color: var(--color-primary); padding: 4px 0;">
+          <span style="display: inline-block; width: 20px;">&darr;</span> {{ p.title }} (Current)
+        </div>
+      {% else %}
+        <div style="padding: 4px 0; color: var(--color-text-secondary);">
+          <span style="display: inline-block; width: 20px; opacity: 0.5;">&bull;</span> <a href="{{ p.url | relative_url }}" style="color: inherit; text-decoration: none;">{{ p.title }}</a>
+        </div>
       {% endif %}
     {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Phase 7: Weighted Scoring Related Articles -->
+<section class="related-articles-compact" aria-label="Related articles" style="max-width: 800px; margin: 0 auto var(--space-4) auto; padding: 0 20px;">
+  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Deepen Your Understanding</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3);">
+    {% assign related_scores = "" | split: "," %}
+    {% for p in site.posts %}
+      {% if p.url != page.url %}
+        {% assign score = 0 %}
+        {% if p.categories.first == page.categories.first %}
+          {% assign score = score | plus: 5 %}
+        {% endif %}
+        {% assign shared_tags = 0 %}
+        {% for tag in p.tags %}
+          {% if page.tags contains tag %}
+            {% assign shared_tags = shared_tags | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        {% assign tag_score = shared_tags | times: 3 %}
+        {% assign score = score | plus: tag_score %}
+        
+        {% if score > 0 %}
+          {% capture score_str %}{{ score | prepend: '00' | slice: -3, 3 }}|{{ p.url }}|{{ p.title }}{% endcapture %}
+          {% assign related_scores = related_scores | push: score_str %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+    {% assign related_scores = related_scores | sort | reverse %}
+    
+    {% assign count = 0 %}
+    {% for item in related_scores limit: 4 %}
+      {% assign parts = item | split: "|" %}
+      <li><a href="{{ parts[1] | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ parts[2] }}</a></li>
+      {% assign count = count | plus: 1 %}
+    {% endfor %}
+    
     {% if count == 0 %}
-      {% for post in related limit: 3 %}
-        <li><a href="{{ post.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ post.title }}</a></li>
+      {% for p in site.posts limit: 3 %}
+        {% if p.url != page.url %}
+          <li><a href="{{ p.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ p.title }}</a></li>
+        {% endif %}
       {% endfor %}
     {% endif %}
   </ul>
@@ -81,12 +145,15 @@ layout: default
   {% include author-card.html %}
 </div>
 
-<!-- Article Footer (Back to Notes) -->
+<!-- Phase 10: Continue Exploring -->
 <footer class="article-footer" style="padding-top: 0; margin-top: 0; border-top: none;">
-  <div style="text-align: center; margin-bottom: var(--space-8);">
-    <a href="{{ '/notes/' | relative_url }}" class="btn btn-ghost" style="padding: var(--space-2) var(--space-6);">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-      Back to Notes
-    </a>
+  <div style="max-width: 800px; margin: 0 auto; padding: var(--space-4) 20px var(--space-8) 20px;">
+    <h3 style="text-align: center; margin-bottom: var(--space-4); color: var(--color-text-primary); font-size: 1.2rem;">Continue Exploring</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3);">
+      <a href="/knowledge/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Knowledge Map</a>
+      <a href="/topics/{{ page.categories.first | slugify }}/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Topic Page</a>
+      <a href="/glossary/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Glossary</a>
+      <a href="{{ '/notes/' | relative_url }}" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">All Notes</a>
+    </div>
   </div>
 </footer>

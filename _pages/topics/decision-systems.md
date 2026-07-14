@@ -1,41 +1,40 @@
 ---
 layout: page
 title: "Decision Systems"
-description: "Catatan M. Rohadiz tentang Decision Systems dan Decision Intelligence: framework keputusan berbasis data, OODA Loop, mental models, dan trade-off analysis untuk pengambilan keputusan yang lebih robust."
+description: "Kerangka observasi, analitik, dan otomatisasi pengambilan keputusan berbasis data."
 permalink: /topics/decision-systems/
 badge: Decision Systems
 badge-class: badge-success
 ---
 
-{% assign decision_posts = site.posts | where_exp: "p", "p.categories contains 'Decision Systems' or p.tags contains 'decision-making' or p.tags contains 'framework' or p.tags contains 'mental-model' or p.tags contains 'ooda-loop'" %}
+{% assign topic_posts = site.posts | where_exp: "p", "p.categories contains 'Decision Systems' or p.tags contains 'decision'" %}
 
-**Decision Intelligence** adalah perpaduan antara data science, behavioral economics, dan systems thinking untuk merancang proses pengambilan keputusan yang lebih robust dan transparan. Saya percaya bahwa keputusan yang baik lahir dari observasi yang baik — dan observasi yang baik membutuhkan sistem yang dirancang untuk mengungkap realitas, bukan menyembunyikannya.
+**Decision Systems** memfokuskan diri pada bagaimana manusia dan mesin berkolaborasi untuk merespons informasi. 
 
-📚 **{{ decision_posts | size }} artikel** tersedia di topik ini.
+### Why it Matters
+Keputusan yang baik lahir dari observasi yang baik. Tanpa sistem yang dirancang memetakan kausalitas (*causality*), perusahaan hanya mengumpulkan tumpukan metrik tanpa wawasan (*insight*). Sistem ini mengeliminasi kebisingan (*noise*).
 
-## Area yang Saya Eksplorasi
+### Related Concepts
+<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;">
+  <a href="/topics/ai-engineering/" class="badge badge-primary" style="text-decoration:none;">AI Engineering</a>
+  <a href="/topics/software-architecture/" class="badge badge-outline" style="text-decoration:none;">Software Architecture</a>
+  <span class="badge badge-outline">Measurement</span>
+  <span class="badge badge-outline">OODA Loop</span>
+  <span class="badge badge-outline">Analytics</span>
+</div>
 
-- **OODA Loop** — Observe-Orient-Decide-Act framework untuk keputusan adaptif
-- **Mental Models** — Framework berpikir yang membantu melihat masalah dengan lebih jelas
-- **Trade-off Analysis** — Metodologi untuk mengevaluasi pilihan secara sistematis
-- **Decision Frameworks** — Struktur untuk keputusan berulang dan organisasional
-- **Cognitive Biases** — Memahami dan memitigasi bias dalam pengambilan keputusan
-- **KPI & Measurement** — Mengukur apa yang benar-benar penting, bukan yang mudah diukur
-
-## Artikel Terbaru
-
-{% for post in decision_posts limit:5 %}
-- **[{{ post.title }}]({{ post.url | relative_url }})** — <small>{{ post.date | date: "%d %b %Y" }}</small>
-  <br><small>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 20 }}</small>
+### Recommended Learning Path
+Ikuti alur bacaan ini untuk membangun fondasi pemahaman secara bertahap:
+<div style="padding: 16px; background: var(--color-bg-alt); border-left: 4px solid var(--color-success); margin-bottom: 32px;">
+{% assign sorted = topic_posts | sort: "date" %}
+{% for p in sorted %}
+  <div style="margin-bottom: 8px;"><a href="{{ p.url | relative_url }}" style="text-decoration:none; font-weight:500;">&darr; {{ p.title }}</a></div>
+{% else %}
+  <div>Belum ada artikel di jalur ini.</div>
 {% endfor %}
-{% if decision_posts.size == 0 %}
-- Catatan sedang dipersiapkan. Kunjungi [/notes/](/notes/) untuk semua artikel.
-{% endif %}
+</div>
 
-## Topik Terkait
-
-[AI Engineering](/topics/ai-engineering/) · [Software Architecture](/topics/software-architecture/) · [Infrastructure](/topics/infrastructure/) · [Crypto Observation](/topics/crypto-observation/)
-
----
-
-[← Lihat Semua Catatan](/notes/){: .btn .btn-ghost}
+### Glossary Terms
+Beberapa istilah inti yang sering muncul:
+- **Decision Intelligence:** Disiplin merekayasa kerangka kerja keputusan. [Lihat Glosarium &rarr;](/glossary/)
+- **OODA Loop:** Observe, Orient, Decide, Act. [Lihat Glosarium &rarr;](/glossary/)

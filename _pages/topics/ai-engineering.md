@@ -1,40 +1,40 @@
 ---
 layout: page
 title: "AI Engineering"
-description: "Catatan M. Rohadiz tentang AI Engineering: LLM integration, reasoning engines, RAG systems, dan AI infrastructure untuk production. Membangun sistem AI yang reliable dan observable."
+description: "Membangun sistem AI yang reliable, observable, dan maintainable di lingkungan production."
 permalink: /topics/ai-engineering/
 badge: AI Engineering
 badge-class: badge-primary
 ---
 
-{% assign ai_posts = site.posts | where_exp: "p", "p.categories contains 'AI Engineering' or p.tags contains 'ai' or p.tags contains 'llm' or p.tags contains 'reasoning' or p.tags contains 'rag'" %}
+{% assign topic_posts = site.posts | where_exp: "p", "p.categories contains 'AI Engineering' or p.tags contains 'ai'" %}
 
-**AI Engineering** adalah disiplin yang menjembatani research AI dengan rekayasa perangkat lunak nyata. Tantangannya bukan hanya membuat model yang akurat, tapi membangun sistem yang *reliable*, *observable*, dan *maintainable* di lingkungan production. Saya mendokumentasikan pola, arsitektur, dan keputusan teknis dari membangun sistem AI yang benar-benar bekerja.
+**AI Engineering** adalah disiplin yang menjembatani research AI dengan rekayasa perangkat lunak nyata. 
 
-📚 **{{ ai_posts | size }} artikel** tersedia di topik ini.
+### Why it Matters
+Dalam transisi dari *Proof of Concept* ke *Production*, sistem AI sering rapuh. Disiplin ini memastikan arsitektur dapat mentolerir halusinasi, melakukan *multi-step reasoning*, dan diskalakan dengan aman di skala enterprise.
 
-## Area yang Saya Eksplorasi
+### Related Concepts
+<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;">
+  <a href="/topics/decision-systems/" class="badge badge-success" style="text-decoration:none;">Decision Systems</a>
+  <a href="/topics/infrastructure/" class="badge badge-warning" style="text-decoration:none;">Infrastructure</a>
+  <span class="badge badge-outline">LLM</span>
+  <span class="badge badge-outline">RAG</span>
+  <span class="badge badge-outline">Reasoning</span>
+</div>
 
-- **LLM Integration** — Mengintegrasikan Large Language Models ke dalam workflow yang ada
-- **Reasoning Engines** — Membangun sistem yang mampu melakukan chain-of-thought dan multi-step reasoning
-- **AI Infrastructure** — Deployment, monitoring, dan scaling sistem AI
-- **RAG Systems** — Retrieval-Augmented Generation untuk knowledge-intensive tasks
-- **Agent Frameworks** — Desain sistem agen otonom yang dapat mengambil aksi
-
-## Artikel Terbaru
-
-{% for post in ai_posts limit:5 %}
-- **[{{ post.title }}]({{ post.url | relative_url }})** — <small>{{ post.date | date: "%d %b %Y" }}</small>
-  <br><small>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 20 }}</small>
+### Recommended Learning Path
+Ikuti alur bacaan ini untuk membangun fondasi pemahaman secara bertahap:
+<div style="padding: 16px; background: var(--color-bg-alt); border-left: 4px solid var(--color-primary); margin-bottom: 32px;">
+{% assign sorted = topic_posts | sort: "date" %}
+{% for p in sorted %}
+  <div style="margin-bottom: 8px;"><a href="{{ p.url | relative_url }}" style="text-decoration:none; font-weight:500;">&darr; {{ p.title }}</a></div>
+{% else %}
+  <div>Belum ada artikel di jalur ini.</div>
 {% endfor %}
-{% if ai_posts.size == 0 %}
-- Catatan sedang dipersiapkan. Kunjungi [/notes/](/notes/) untuk semua artikel.
-{% endif %}
+</div>
 
-## Topik Terkait
-
-[Decision Systems](/topics/decision-systems/) · [Infrastructure](/topics/infrastructure/) · [Software Architecture](/topics/software-architecture/) · [Crypto Observation](/topics/crypto-observation/)
-
----
-
-[← Lihat Semua Catatan](/notes/){: .btn .btn-ghost}
+### Glossary Terms
+Beberapa istilah inti yang sering muncul:
+- **RAG:** Pola arsitektur untuk memberikan konteks eksternal pada LLM. [Lihat Glosarium &rarr;](/glossary/)
+- **Reasoning Engine:** Sistem AI yang dirancang memecah masalah kompleks. [Lihat Glosarium &rarr;](/glossary/)
