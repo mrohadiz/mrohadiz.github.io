@@ -2,6 +2,7 @@
 layout: article
 title: "Real-Time Bukan Berarti Cepat"
 date: 2026-07-13
+last_modified_at: 2026-07-13
 categories:
   - Digital Garden
 tags:

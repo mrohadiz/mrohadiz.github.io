@@ -2,6 +2,7 @@
 layout: article
 title: "Reasoning Engine: Dari Knowledge ke Cara Berpikir"
 date: 2024-12-15
+last_modified_at: 2024-12-15
 categories:
   - AI Engineering
 tags:

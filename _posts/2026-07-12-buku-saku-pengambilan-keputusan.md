@@ -2,6 +2,7 @@
 layout: article
 title: "Buku Saku Pengambilan Keputusan & Memberi Pertimbangan"
 date: 2026-07-12
+last_modified_at: 2026-07-12
 categories:
   - Decision Systems
 tags:

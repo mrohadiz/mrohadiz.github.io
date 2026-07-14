@@ -2,6 +2,7 @@
 layout: article
 title: "KPI Tidak Pernah Menyelesaikan Perdebatan"
 date: 2026-07-13
+last_modified_at: 2026-07-13
 categories:
   - Business Architecture
 tags:

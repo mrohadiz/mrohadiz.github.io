@@ -2,6 +2,7 @@
 layout: article
 title: "Measurement Bukan Tujuan: Mendesain Sistem Tracking Berdasarkan Keputusan Bisnis"
 date: 2026-07-13
+last_modified_at: 2026-07-13
 categories:
   - Decision Intelligence
 tags:

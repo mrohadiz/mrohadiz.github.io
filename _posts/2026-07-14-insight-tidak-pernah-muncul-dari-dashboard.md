@@ -2,6 +2,7 @@
 layout: article
 title: "Insight Tidak Pernah Muncul dari Dashboard"
 date: 2026-07-14
+last_modified_at: 2026-07-14
 categories:
   - Decision Intelligence
 tags:

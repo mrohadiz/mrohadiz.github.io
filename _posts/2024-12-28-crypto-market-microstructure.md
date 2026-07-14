@@ -2,6 +2,7 @@
 layout: article
 title: "Crypto Market Microstructure: Understanding Order Flow"
 date: 2024-12-28
+last_modified_at: 2024-12-28
 categories:
   - Crypto Observation
 tags:

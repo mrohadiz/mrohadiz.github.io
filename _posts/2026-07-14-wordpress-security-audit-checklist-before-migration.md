@@ -2,6 +2,7 @@
 layout: article
 title: "WordPress Security Audit Checklist Before Migration"
 date: 2026-07-14
+last_modified_at: 2026-07-14
 categories:
   - Digital Garden
 tags:

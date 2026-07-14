@@ -27,7 +27,7 @@ layout: default
 
 {% if page.image %}
   <div class="article-feature-image-wrapper">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="article-feature-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="article-feature-image" loading="lazy">
   </div>
 {% endif %}
 
@@ -50,6 +50,8 @@ layout: default
     {% endif %}
   </div>
 </article>
+
+{% include author-card.html %}
 
 <!-- Article Footer -->
 <footer class="article-footer">

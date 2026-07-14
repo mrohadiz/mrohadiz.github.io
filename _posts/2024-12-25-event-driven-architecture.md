@@ -2,6 +2,7 @@
 layout: article
 title: "Event-Driven Architecture: Patterns and Practices"
 date: 2024-12-25
+last_modified_at: 2024-12-25
 categories:
   - Software Architecture
 tags:
