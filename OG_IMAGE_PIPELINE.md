@@ -5,7 +5,7 @@ Pipeline ini mengotomatiskan pembuatan *Open Graph* (OG) image atau *thumbnail* 
 
 ### Komponen Utama
 1. **Engine Generator:** `scripts/generate_og_images.py` yang ditulis dalam Python menggunakan *library* **Pillow** (PIL).
-2. **Tipografi & Desain:** Menggunakan *font* Roboto statis di `assets/fonts/` (Bold & Regular) dengan palet warna tema gelap (biru tua/primer) selaras dengan identitas visual *Digital Garden*. Teks dengan cerdas akan melakukan *auto-wrap* agar tidak terpotong.
+2. **Tipografi & Desain:** Menggunakan *font* Roboto statis di `assets/fonts/` (Bold & Regular) dengan palet gelap hangat, aksen brass, dan struktur editorial *Field Observatory* yang selaras dengan identitas Digital Garden terbaru. Teks melakukan *auto-wrap* agar tidak terpotong.
 3. **Automasi CI/CD:** Terintegrasi langsung dalam siklus `Quality Gate` milik GitHub Actions.
 
 ---
@@ -34,7 +34,7 @@ Untuk meminimalkan beban komputasi dan mencegah pembengkakan *history commit*:
 
 ## Panduan Perawatan (Maintenance Guide)
 Sistem ini dibuat *maintenance-free*, namun ada beberapa hal yang bisa Anda atur secara leluasa:
-1. **Merubah Warna/Desain:** Buka `scripts/generate_og_images.py`. Variabel warna seperti `BG_COLOR` dan tata letak X/Y dapat diubah sesuka hati di bagian konfigurasi *function*.
+1. **Merubah Warna/Desain:** Buka `scripts/generate_og_images.py`. Variabel warna seperti `BG_COLOR`, `ACCENT_COLOR`, dan tata letak frame editorial dapat diubah di `scripts/generate_og_images.py`.
 2. **Memaksa Regenerasi:** Apabila Anda merubah desain dan ingin semua artikel di-*generate* ulang dengan desain baru, cukup hapus file `.og-cache.json` lalu *commit*. Pipeline akan me-*rebuild* seluruh *thumbnail* dari nol.
 3. **Mengganti Gambar Artikel:** Jika Anda kebetulan mendesain infografis sendiri untuk sebuah artikel, cukup ubah variabel `image:` pada *frontmatter* artikel tersebut secara manual. Pipeline tidak akan pernah menimpa gambar khusus Anda.
 

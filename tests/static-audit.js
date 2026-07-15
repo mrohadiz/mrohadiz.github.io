@@ -24,6 +24,7 @@ function checkLocalDesignSource() {
   const homeLayout = readProjectFile('_layouts/home.html');
   const layoutScss = readProjectFile('_sass/_layout.scss');
   const footer = readProjectFile('_includes/footer.html');
+  const ogGenerator = readProjectFile('scripts/generate_og_images.py');
 
   if (homeLayout.includes('Active Now')) {
     errors.push('Homepage source: dashboard-style \"Active Now\" hero badge should be removed');
@@ -42,6 +43,12 @@ function checkLocalDesignSource() {
   }
   if (footer.trimStart().startsWith('<style>')) {
     errors.push('Footer source: inline footer styles must move into SCSS');
+  }
+  if (ogGenerator.includes('BG_COLOR = (11, 16, 32)') || ogGenerator.includes('ACCENT_COLOR = (79, 140, 255)')) {
+    errors.push('OG generator source: dashboard-era blue palette should be replaced');
+  }
+  if (!ogGenerator.includes('Field Observatory')) {
+    errors.push('OG generator source: field-observatory brand marker missing');
   }
 }
 
