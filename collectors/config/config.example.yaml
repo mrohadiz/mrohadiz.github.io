@@ -1,0 +1,52 @@
+# Digital Garden Observatory - Configuration
+# Copy this file to config.yaml and fill in your values
+# NEVER commit config.yaml to version control
+
+collector:
+  mode: office  # office = local runtime, github-actions = CI/CD
+  interval_minutes: 30
+  working_days:
+    - monday
+    - tuesday
+    - wednesday
+    - thursday
+    - friday
+  working_hours:
+    start: "08:00"
+    end: "16:40"
+
+  # Enable/disable individual collectors
+  enabled:
+    gsc: false       # Google Search Console
+    ga4: false       # Google Analytics 4
+    github: true     # GitHub API (always available with token)
+    knowledge: true  # Local file scanner
+    kmstrack: false  # MongoDB KMS Track
+
+mongodb:
+  uri: ""
+  database: ""
+
+google:
+  # Path to service account JSON file
+  service_account: "service-account.json"
+
+  search_console:
+    site_url: "https://mrohadiz.github.io"
+
+  analytics:
+    property_id: ""
+
+github:
+  repository: "mrohadiz.github.io"
+  # token is read from GITHUB_TOKEN env var or config here
+  token: ""
+
+output:
+  path: "assets/data"
+
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "collectors/logs/observatory.log"
+  max_size_mb: 10
+  backup_count: 5

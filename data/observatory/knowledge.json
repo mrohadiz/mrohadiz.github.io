@@ -1,0 +1,170 @@
+{
+  "collected_at": "2026-07-13T06:00:00Z",
+  "summary": {
+    "total_articles": 10,
+    "total_categories": 6,
+    "total_tags": 24,
+    "total_series": 0,
+    "total_internal_links": 47,
+    "avg_reading_time": 8.5,
+    "total_word_count": 15300
+  },
+  "categories": [
+    { "name": "AI Engineering", "count": 3, "percentage": 0.30 },
+    { "name": "Decision Systems", "count": 3, "percentage": 0.30 },
+    { "name": "Infrastructure", "count": 1, "percentage": 0.10 },
+    { "name": "Crypto Observation", "count": 2, "percentage": 0.20 },
+    { "name": "Software Architecture", "count": 1, "percentage": 0.10 },
+    { "name": "Meta", "count": 1, "percentage": 0.10 }
+  ],
+  "tags": [
+    { "name": "decision-making", "count": 4 },
+    { "name": "framework", "count": 3 },
+    { "name": "ai", "count": 3 },
+    { "name": "architecture", "count": 3 },
+    { "name": "engineering", "count": 2 },
+    { "name": "systems", "count": 2 },
+    { "name": "data", "count": 2 },
+    { "name": "analysis", "count": 2 },
+    { "name": "crypto", "count": 2 },
+    { "name": "devops", "count": 1 },
+    { "name": "infrastructure", "count": 1 },
+    { "name": "reasoning", "count": 1 },
+    { "name": "llm", "count": 1 },
+    { "name": "knowledge", "count": 1 },
+    { "name": "extraction", "count": 1 },
+    { "name": "market", "count": 1 },
+    { "name": "microstructure", "count": 1 },
+    { "name": "trading", "count": 1 },
+    { "name": "microservices", "count": 1 },
+    { "name": "event-driven", "count": 1 },
+    { "name": "patterns", "count": 1 },
+    { "name": "public-writing", "count": 1 },
+    { "name": "meta", "count": 1 },
+    { "name": "observability", "count": 1 }
+  ],
+  "articles": [
+    {
+      "title": "Buku Saku Pengambilan Keputusan",
+      "url": "/notes/2026-07-12-buku-saku-pengambilan-keputusan/",
+      "date": "2026-07-12",
+      "category": "Decision Systems",
+      "tags": ["decision-making", "framework", "guide"],
+      "word_count": 1850,
+      "reading_time": 8,
+      "internal_links": 6,
+      "last_updated": "2026-07-12"
+    },
+    {
+      "title": "KPI Tidak Pernah Menyelesaikan Perdebatan",
+      "url": "/notes/2026-07-13-kpi-tidak-pernah-menyelesaikan-perdebatan/",
+      "date": "2026-07-13",
+      "category": "Decision Systems",
+      "tags": ["decision-making", "business", "metrics"],
+      "word_count": 1650,
+      "reading_time": 7,
+      "internal_links": 5,
+      "last_updated": "2026-07-13"
+    },
+    {
+      "title": "Knowledge Extraction Engine",
+      "url": "/notes/2026-07-12-knowledge-extraction-engine/",
+      "date": "2026-07-12",
+      "category": "AI Engineering",
+      "tags": ["ai", "knowledge", "extraction"],
+      "word_count": 2100,
+      "reading_time": 9,
+      "internal_links": 8,
+      "last_updated": "2026-07-12"
+    },
+    {
+      "title": "Radar Observatory",
+      "url": "/notes/2026-07-12-radar-observatory-2026-07-12/",
+      "date": "2026-07-12",
+      "category": "Crypto Observation",
+      "tags": ["crypto", "observability", "market"],
+      "word_count": 1420,
+      "reading_time": 6,
+      "internal_links": 4,
+      "last_updated": "2026-07-12"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "url": "/notes/2025-01-05-infrastructure-as-code/",
+      "date": "2025-01-05",
+      "category": "Infrastructure",
+      "tags": ["devops", "infrastructure", "automation"],
+      "word_count": 1890,
+      "reading_time": 8,
+      "internal_links": 5,
+      "last_updated": "2025-01-05"
+    },
+    {
+      "title": "Event-Driven Architecture",
+      "url": "/notes/2024-12-25-event-driven-architecture/",
+      "date": "2024-12-25",
+      "category": "Software Architecture",
+      "tags": ["architecture", "event-driven", "patterns"],
+      "word_count": 2240,
+      "reading_time": 10,
+      "internal_links": 7,
+      "last_updated": "2024-12-25"
+    },
+    {
+      "title": "Crypto Market Microstructure",
+      "url": "/notes/2024-12-28-crypto-market-microstructure/",
+      "date": "2024-12-28",
+      "category": "Crypto Observation",
+      "tags": ["crypto", "market", "microstructure"],
+      "word_count": 1980,
+      "reading_time": 9,
+      "internal_links": 4,
+      "last_updated": "2024-12-28"
+    },
+    {
+      "title": "Reasoning Engine",
+      "url": "/notes/2024-12-15-reasoning-engine/",
+      "date": "2024-12-15",
+      "category": "AI Engineering",
+      "tags": ["ai", "reasoning", "engine"],
+      "word_count": 2450,
+      "reading_time": 11,
+      "internal_links": 8,
+      "last_updated": "2024-12-15"
+    },
+    {
+      "title": "OODA Loop Architecture",
+      "url": "/notes/2024-12-20-ooda-loop-architecture/",
+      "date": "2024-12-20",
+      "category": "Decision Systems",
+      "tags": ["decision-making", "framework", "systems"],
+      "word_count": 1760,
+      "reading_time": 8,
+      "internal_links": 6,
+      "last_updated": "2024-12-20"
+    },
+    {
+      "title": "Why I Write in Public",
+      "url": "/notes/2024-12-10-why-i-write-in-public/",
+      "date": "2024-12-10",
+      "category": "Meta",
+      "tags": ["public-writing", "meta", "thinking"],
+      "word_count": 1120,
+      "reading_time": 5,
+      "internal_links": 2,
+      "last_updated": "2024-12-10"
+    }
+  ],
+  "newest_articles": [
+    { "title": "KPI Tidak Pernah Menyelesaikan Perdebatan", "date": "2026-07-13", "category": "Decision Systems" },
+    { "title": "Buku Saku Pengambilan Keputusan", "date": "2026-07-12", "category": "Decision Systems" },
+    { "title": "Knowledge Extraction Engine", "date": "2026-07-12", "category": "AI Engineering" },
+    { "title": "Radar Observatory", "date": "2026-07-12", "category": "Crypto Observation" }
+  ],
+  "most_updated": [
+    { "title": "Reasoning Engine", "updates": 5, "last_updated": "2024-12-15" },
+    { "title": "OODA Loop Architecture", "updates": 4, "last_updated": "2024-12-20" },
+    { "title": "Event-Driven Architecture", "updates": 3, "last_updated": "2024-12-25" },
+    { "title": "Infrastructure as Code", "updates": 3, "last_updated": "2025-01-05" }
+  ]
+}

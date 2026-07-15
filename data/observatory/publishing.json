@@ -1,0 +1,67 @@
+{
+  "collected_at": "2026-07-13T06:00:00Z",
+  "repository": "mrohadiz.github.io",
+  "summary": {
+    "total_commits": 156,
+    "total_contributors": 1,
+    "first_commit_date": "2024-10-15",
+    "last_commit_date": "2026-07-12",
+    "active_days": 89
+  },
+  "recent_commits": [
+    { "sha": "a1b2c3d", "message": "fix: set opacity to 1 when filtering notes to prevent cards from disappearing", "date": "2026-07-12T18:30:00Z", "author": "M. Rohadiz" },
+    { "sha": "e4f5g6h", "message": "feat: add post buku saku pengambilan keputusan", "date": "2026-07-12T14:15:00Z", "author": "M. Rohadiz" },
+    { "sha": "i7j8k9l", "message": "fix: use correct article layout for radar observatory post", "date": "2026-07-12T10:45:00Z", "author": "M. Rohadiz" },
+    { "sha": "m0n1o2p", "message": "fix: pass seo validation test by adding json-ld and correcting atom feed check", "date": "2026-07-11T16:20:00Z", "author": "M. Rohadiz" },
+    { "sha": "q3r4s5t", "message": "fix: add underline to links in content blocks to pass a11y link-in-text-block rule", "date": "2026-07-11T12:00:00Z", "author": "M. Rohadiz" }
+  ],
+  "publishing_timeline": [
+    { "month": "2024-10", "commits": 8 },
+    { "month": "2024-11", "commits": 12 },
+    { "month": "2024-12", "commits": 18 },
+    { "month": "2025-01", "commits": 15 },
+    { "month": "2025-02", "commits": 9 },
+    { "month": "2025-03", "commits": 11 },
+    { "month": "2025-04", "commits": 14 },
+    { "month": "2025-05", "commits": 12 },
+    { "month": "2025-06", "commits": 10 },
+    { "month": "2025-07", "commits": 13 },
+    { "month": "2025-08", "commits": 8 },
+    { "month": "2025-09", "commits": 11 },
+    { "month": "2025-10", "commits": 9 },
+    { "month": "2025-11", "commits": 7 },
+    { "month": "2025-12", "commits": 6 },
+    { "month": "2026-01", "commits": 5 },
+    { "month": "2026-02", "commits": 4 },
+    { "month": "2026-03", "commits": 3 },
+    { "month": "2026-04", "commits": 2 },
+    { "month": "2026-05", "commits": 3 },
+    { "month": "2026-06", "commits": 5 },
+    { "month": "2026-07", "commits": 11 }
+  ],
+  "article_history": [
+    { "title": "Buku Saku Pengambilan Keputusan", "date": "2026-07-12", "category": "Decision Systems" },
+    { "title": "KPI Tidak Pernah Menyelesaikan Perdebatan", "date": "2026-07-13", "category": "Decision Systems" },
+    { "title": "Knowledge Extraction Engine", "date": "2026-07-12", "category": "AI Engineering" },
+    { "title": "Radar Observatory", "date": "2026-07-12", "category": "Crypto Observation" },
+    { "title": "Infrastructure as Code", "date": "2025-01-05", "category": "Infrastructure" },
+    { "title": "Event-Driven Architecture", "date": "2024-12-25", "category": "Software Architecture" },
+    { "title": "Crypto Market Microstructure", "date": "2024-12-28", "category": "Crypto Observation" },
+    { "title": "Reasoning Engine", "date": "2024-12-15", "category": "AI Engineering" },
+    { "title": "OODA Loop Architecture", "date": "2024-12-20", "category": "Decision Systems" },
+    { "title": "Why I Write in Public", "date": "2024-12-10", "category": "Meta" }
+  ],
+  "contribution_streak": {
+    "current_streak": 5,
+    "longest_streak": 12,
+    "current_period_days": 30,
+    "commits_in_current_period": 11
+  },
+  "repository_health": {
+    "open_issues": 0,
+    "open_pull_requests": 0,
+    "branches": 2,
+    "last_deployment": "2026-07-12T18:45:00Z",
+    "deployment_status": "success"
+  }
+}

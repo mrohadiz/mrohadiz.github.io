@@ -20,3 +20,26 @@ lh-summary.json
 .vscode/
 .idea/
 reports/
+
+# Observatory - Collectors (security)
+collectors/config/config.yaml
+collectors/config/*.local.yaml
+collectors/cache/
+collectors/logs/
+*.sqlite
+*.db
+service-account.json
+google-service-account.json
+credentials.json
+token.json
+.env
+.env.*
+mongodb.local.json
+collector.pid
+runtime.pid
+
+# Scripts
+run.sh
+
+# Bundler artifact (misconfig)
+$HOME/

@@ -1,0 +1,90 @@
+{
+  "collected_at": "2026-07-13T06:00:00Z",
+  "period": {
+    "start": "2026-06-13",
+    "end": "2026-07-13"
+  },
+  "summary": {
+    "total_users": 2847,
+    "total_sessions": 3412,
+    "avg_engagement_time": 187,
+    "bounce_rate": 0.423,
+    "returning_users": 892
+  },
+  "previous_period": {
+    "total_users": 2431,
+    "total_sessions": 2918,
+    "avg_engagement_time": 164,
+    "bounce_rate": 0.451
+  },
+  "trend": {
+    "users_change": 0.1711,
+    "sessions_change": 0.1693,
+    "engagement_time_change": 0.1402,
+    "bounce_rate_change": -0.0621
+  },
+  "traffic_sources": [
+    { "source": "Google Organic", "sessions": 1876, "percentage": 0.5498 },
+    { "source": "Direct", "sessions": 682, "percentage": 0.1999 },
+    { "source": "GitHub", "sessions": 423, "percentage": 0.1240 },
+    { "source": "Twitter/X", "sessions": 218, "percentage": 0.0639 },
+    { "source": "LinkedIn", "sessions": 134, "percentage": 0.0393 },
+    { "source": "Other", "sessions": 79, "percentage": 0.0231 }
+  ],
+  "top_landing_pages": [
+    { "page": "/notes/2026-07-12-buku-saku-pengambilan-keputusan/", "sessions": 456, "avg_engagement_time": 234 },
+    { "page": "/notes/2024-12-20-ooda-loop-architecture/", "sessions": 389, "avg_engagement_time": 312 },
+    { "page": "/notes/2026-07-12-knowledge-extraction-engine/", "sessions": 287, "avg_engagement_time": 198 },
+    { "page": "/notes/2026-07-13-kpi-tidak-pernah-menyelesaikan-perdebatan/", "sessions": 234, "avg_engagement_time": 176 },
+    { "page": "/notes/2025-01-05-infrastructure-as-code/", "sessions": 198, "avg_engagement_time": 256 },
+    { "page": "/", "sessions": 187, "avg_engagement_time": 89 },
+    { "page": "/notes/2024-12-15-reasoning-engine/", "sessions": 156, "avg_engagement_time": 287 },
+    { "page": "/notes/2024-12-25-event-driven-architecture/", "sessions": 143, "avg_engagement_time": 213 }
+  ],
+  "country_distribution": [
+    { "country": "Indonesia", "sessions": 1534, "percentage": 0.4495 },
+    { "country": "United States", "sessions": 612, "percentage": 0.1794 },
+    { "country": "Singapore", "sessions": 341, "percentage": 0.0999 },
+    { "country": "Germany", "sessions": 218, "percentage": 0.0639 },
+    { "country": "Japan", "sessions": 187, "percentage": 0.0548 },
+    { "country": "India", "sessions": 156, "percentage": 0.0457 },
+    { "country": "Other", "sessions": 364, "percentage": 0.1067 }
+  ],
+  "device_distribution": [
+    { "device": "Desktop", "sessions": 1876, "percentage": 0.5498 },
+    { "device": "Mobile", "sessions": 1194, "percentage": 0.3499 },
+    { "device": "Tablet", "sessions": 342, "percentage": 0.1002 }
+  ],
+  "daily_trend": [
+    { "date": "2026-06-13", "users": 89, "sessions": 107 },
+    { "date": "2026-06-14", "users": 76, "sessions": 91 },
+    { "date": "2026-06-15", "users": 94, "sessions": 113 },
+    { "date": "2026-06-16", "users": 108, "sessions": 130 },
+    { "date": "2026-06-17", "users": 102, "sessions": 122 },
+    { "date": "2026-06-18", "users": 115, "sessions": 138 },
+    { "date": "2026-06-19", "users": 108, "sessions": 130 },
+    { "date": "2026-06-20", "users": 98, "sessions": 118 },
+    { "date": "2026-06-21", "users": 87, "sessions": 104 },
+    { "date": "2026-06-22", "users": 112, "sessions": 134 },
+    { "date": "2026-06-23", "users": 123, "sessions": 148 },
+    { "date": "2026-06-24", "users": 134, "sessions": 161 },
+    { "date": "2026-06-25", "users": 118, "sessions": 142 },
+    { "date": "2026-06-26", "users": 108, "sessions": 130 },
+    { "date": "2026-06-27", "users": 96, "sessions": 115 },
+    { "date": "2026-06-28", "users": 104, "sessions": 125 },
+    { "date": "2026-06-29", "users": 115, "sessions": 138 },
+    { "date": "2026-06-30", "users": 128, "sessions": 154 },
+    { "date": "2026-07-01", "users": 138, "sessions": 166 },
+    { "date": "2026-07-02", "users": 123, "sessions": 148 },
+    { "date": "2026-07-03", "users": 108, "sessions": 130 },
+    { "date": "2026-07-04", "users": 98, "sessions": 118 },
+    { "date": "2026-07-05", "users": 112, "sessions": 134 },
+    { "date": "2026-07-06", "users": 123, "sessions": 148 },
+    { "date": "2026-07-07", "users": 134, "sessions": 161 },
+    { "date": "2026-07-08", "users": 145, "sessions": 174 },
+    { "date": "2026-07-09", "users": 128, "sessions": 154 },
+    { "date": "2026-07-10", "users": 118, "sessions": 142 },
+    { "date": "2026-07-11", "users": 108, "sessions": 130 },
+    { "date": "2026-07-12", "users": 123, "sessions": 148 }
+  ]
+}

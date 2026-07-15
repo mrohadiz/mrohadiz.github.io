@@ -1,0 +1,88 @@
+{
+  "collected_at": "2026-07-13T06:00:00Z",
+  "period": {
+    "start": "2026-06-13",
+    "end": "2026-07-13"
+  },
+  "summary": {
+    "total_clicks": 1247,
+    "total_impressions": 18932,
+    "ctr": 0.0659,
+    "avg_position": 14.2,
+    "indexed_pages": 23
+  },
+  "previous_period": {
+    "total_clicks": 1068,
+    "total_impressions": 16544,
+    "ctr": 0.0646,
+    "avg_position": 15.8
+  },
+  "trend": {
+    "clicks_change": 0.1676,
+    "impressions_change": 0.1444,
+    "ctr_change": 0.0201,
+    "position_change": -0.1013
+  },
+  "top_queries": [
+    { "query": "decision intelligence framework", "clicks": 89, "impressions": 1240, "ctr": 0.0718, "position": 8.3 },
+    { "query": "OODA loop architecture", "clicks": 76, "impressions": 980, "ctr": 0.0776, "position": 6.2 },
+    { "query": "digital garden personal knowledge", "clicks": 68, "impressions": 1560, "ctr": 0.0436, "position": 12.4 },
+    { "query": "AI reasoning engine design", "clicks": 54, "impressions": 890, "ctr": 0.0607, "position": 9.8 },
+    { "query": "business glossary enterprise", "clicks": 47, "impressions": 1120, "ctr": 0.0420, "position": 15.2 },
+    { "query": "KPI debate resolution", "clicks": 42, "impressions": 780, "ctr": 0.0538, "position": 11.6 },
+    { "query": "knowledge extraction engine", "clicks": 38, "impressions": 650, "ctr": 0.0585, "position": 13.1 },
+    { "query": "event driven architecture patterns", "clicks": 35, "impressions": 920, "ctr": 0.0380, "position": 18.4 },
+    { "query": "crypto market microstructure", "clicks": 31, "impressions": 540, "ctr": 0.0574, "position": 14.7 },
+    { "query": "infrastructure as code best practices", "clicks": 28, "impressions": 710, "ctr": 0.0394, "position": 21.3 }
+  ],
+  "top_pages": [
+    { "page": "/notes/2026-07-12-buku-saku-pengambilan-keputusan/", "clicks": 156, "impressions": 2340, "ctr": 0.0667, "position": 9.2 },
+    { "page": "/notes/2024-12-20-ooda-loop-architecture/", "clicks": 134, "impressions": 1890, "ctr": 0.0709, "position": 7.4 },
+    { "page": "/notes/2026-07-12-knowledge-extraction-engine/", "clicks": 98, "impressions": 1230, "ctr": 0.0797, "position": 6.8 },
+    { "page": "/notes/2026-07-13-kpi-tidak-pernah-menyelesaikan-perdebatan/", "clicks": 87, "impressions": 1450, "ctr": 0.0600, "position": 11.3 },
+    { "page": "/notes/2025-01-05-infrastructure-as-code/", "clicks": 76, "impressions": 1120, "ctr": 0.0679, "position": 10.5 }
+  ],
+  "growing_queries": [
+    { "query": "decision intelligence framework", "current_clicks": 89, "previous_clicks": 52, "growth": 0.7115 },
+    { "query": "knowledge extraction engine", "current_clicks": 38, "previous_clicks": 15, "growth": 1.5333 },
+    { "query": "KPI debate resolution", "current_clicks": 42, "previous_clicks": 24, "growth": 0.7500 },
+    { "query": "business glossary enterprise", "current_clicks": 47, "previous_clicks": 31, "growth": 0.5161 }
+  ],
+  "declining_queries": [
+    { "query": "event driven architecture patterns", "current_clicks": 35, "previous_clicks": 58, "growth": -0.3966 },
+    { "query": "infrastructure as code best practices", "current_clicks": 28, "previous_clicks": 41, "growth": -0.3171 },
+    { "query": "crypto market microstructure", "current_clicks": 31, "previous_clicks": 38, "growth": -0.1842 }
+  ],
+  "daily_trend": [
+    { "date": "2026-06-13", "clicks": 32, "impressions": 580 },
+    { "date": "2026-06-14", "clicks": 28, "impressions": 520 },
+    { "date": "2026-06-15", "clicks": 35, "impressions": 610 },
+    { "date": "2026-06-16", "clicks": 41, "impressions": 690 },
+    { "date": "2026-06-17", "clicks": 38, "impressions": 650 },
+    { "date": "2026-06-18", "clicks": 45, "impressions": 720 },
+    { "date": "2026-06-19", "clicks": 42, "impressions": 680 },
+    { "date": "2026-06-20", "clicks": 39, "impressions": 640 },
+    { "date": "2026-06-21", "clicks": 36, "impressions": 590 },
+    { "date": "2026-06-22", "clicks": 44, "impressions": 710 },
+    { "date": "2026-06-23", "clicks": 48, "impressions": 760 },
+    { "date": "2026-06-24", "clicks": 52, "impressions": 820 },
+    { "date": "2026-06-25", "clicks": 47, "impressions": 740 },
+    { "date": "2026-06-26", "clicks": 43, "impressions": 690 },
+    { "date": "2026-06-27", "clicks": 38, "impressions": 620 },
+    { "date": "2026-06-28", "clicks": 41, "impressions": 660 },
+    { "date": "2026-06-29", "clicks": 45, "impressions": 720 },
+    { "date": "2026-06-30", "clicks": 50, "impressions": 800 },
+    { "date": "2026-07-01", "clicks": 54, "impressions": 850 },
+    { "date": "2026-07-02", "clicks": 48, "impressions": 780 },
+    { "date": "2026-07-03", "clicks": 42, "impressions": 700 },
+    { "date": "2026-07-04", "clicks": 39, "impressions": 650 },
+    { "date": "2026-07-05", "clicks": 44, "impressions": 710 },
+    { "date": "2026-07-06", "clicks": 48, "impressions": 760 },
+    { "date": "2026-07-07", "clicks": 52, "impressions": 820 },
+    { "date": "2026-07-08", "clicks": 56, "impressions": 880 },
+    { "date": "2026-07-09", "clicks": 50, "impressions": 810 },
+    { "date": "2026-07-10", "clicks": 47, "impressions": 760 },
+    { "date": "2026-07-11", "clicks": 43, "impressions": 700 },
+    { "date": "2026-07-12", "clicks": 48, "impressions": 750 }
+  ]
+}
