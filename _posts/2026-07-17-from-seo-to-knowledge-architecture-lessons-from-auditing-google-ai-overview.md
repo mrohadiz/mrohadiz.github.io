@@ -11,6 +11,7 @@ tags:
   - digital-strategy
   - ai-search
 excerpt: "Observasi tentang bagaimana AI Overview memahami organisasi digital dan mengapa SEO berkembang menjadi tantangan knowledge architecture."
+image: /assets/images/og/2026-07-17-from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview.png
 ---
 
 # From SEO to Knowledge Architecture: Lessons from Auditing Google AI Overview
