@@ -11,6 +11,7 @@ tags:
   - knowledge-architecture
   - digital-marketing
 excerpt: "Framework content layering untuk membangun topical authority melalui pembagian peran konten berdasarkan search intent, bukan sekadar mengejar volume trafik."
+image: /assets/images/og/2026-07-18-content-layering-topical-authority-without-content-farm.png
 ---
 
 # Content Layering: Membangun Topical Authority Tanpa Menjadi Content Farm
