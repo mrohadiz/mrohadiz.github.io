@@ -11,6 +11,7 @@ tags:
   - topical-authority
   - ai-search
 excerpt: "Mengapa strategi SEO modern memerlukan dua cara berpikir: sistem eksekusi untuk menghasilkan pertumbuhan dan sistem navigasi untuk membangun authority jangka panjang."
+image: /assets/images/og/2026-07-18-seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi.png
 ---
 
 # SEO Memerlukan Dua Sistem: Mesin Eksekusi dan Sistem Navigasi
