@@ -9,6 +9,7 @@ tags:
   - platform-thinking
   - engineering-thinking
 excerpt: "Tidak semua internal tool perlu tumbuh menjadi platform; terlalu cepat membangun platform sering membuat scope melebar sebelum masalahnya jelas."
+image: /assets/images/og/2026-07-20-stop-building-platforms-too-early.png
 ---
 
 # Stop Building Platforms Too Early
