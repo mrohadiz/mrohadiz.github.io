@@ -9,6 +9,7 @@ tags:
   - automation
   - engineering-thinking
 excerpt: "Tool yang dibuat untuk menghemat waktu bisa berubah menjadi pekerjaan baru jika tidak dibatasi oleh masalah yang benar-benar berulang."
+image: /assets/images/og/2026-07-20-the-tool-building-trap.png
 ---
 
 # The Tool-Building Trap
