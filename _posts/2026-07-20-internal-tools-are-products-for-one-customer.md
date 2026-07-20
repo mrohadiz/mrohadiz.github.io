@@ -9,6 +9,7 @@ tags:
   - product-thinking
   - engineering-thinking
 excerpt: "Internal tools tetap membutuhkan arsitektur yang baik, tetapi ukuran keberhasilannya berbeda: satu pelanggan, banyak penghematan waktu."
+image: /assets/images/og/2026-07-20-internal-tools-are-products-for-one-customer.png
 ---
 
 # Internal Tools Are Products for One Customer
