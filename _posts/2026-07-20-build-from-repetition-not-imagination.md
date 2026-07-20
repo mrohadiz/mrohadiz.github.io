@@ -9,6 +9,7 @@ tags:
   - automation
   - engineering-thinking
 excerpt: "Otomatisasi paling bernilai lahir dari pekerjaan yang berulang, bukan dari ide yang terasa berguna."
+image: /assets/images/og/2026-07-20-build-from-repetition-not-imagination.png
 ---
 
 # Build From Repetition, Not Imagination
