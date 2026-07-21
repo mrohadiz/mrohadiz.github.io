@@ -10,6 +10,7 @@ tags:
   - institutional-memory
   - workflow
 excerpt: "Mengubah backlog dari catatan pasif menjadi memori institusi yang aktif, terstruktur, dan bisa dieksekusi."
+image: /assets/images/og/2026-07-21-mengubah-backlog-menjadi-institutional-memory.png
 ---
 
 # Mengubah Backlog Menjadi Institutional Memory
