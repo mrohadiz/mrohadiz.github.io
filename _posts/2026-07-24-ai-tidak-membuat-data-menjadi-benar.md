@@ -10,6 +10,7 @@ tags:
   - ai-engineering
   - decision-system
 excerpt: "AI hanya sebaik data yang diberikan kepadanya. Data governance menjadi fondasi agar organisasi dapat membangun sistem keputusan berbasis AI yang terpercaya."
+image: /assets/images/og/2026-07-24-ai-tidak-membuat-data-menjadi-benar.png
 ---
 
 # AI Tidak Membuat Data Menjadi Benar: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern
