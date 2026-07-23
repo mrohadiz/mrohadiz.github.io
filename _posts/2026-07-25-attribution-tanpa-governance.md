@@ -11,6 +11,7 @@ tags:
   - data-governance
   - decision-system
 excerpt: "Banyak laporan digital marketing terlihat akurat tetapi menghasilkan keputusan yang salah karena attribution tidak memiliki governance yang jelas."
+image: /assets/images/og/2026-07-25-attribution-tanpa-governance.png
 ---
 
 # Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas
