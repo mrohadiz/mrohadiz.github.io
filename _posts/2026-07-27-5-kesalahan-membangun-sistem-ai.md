@@ -11,6 +11,7 @@ tags:
   - ai-governance
   - system-design
 excerpt: "Banyak proyek AI gagal bukan karena modelnya kurang pintar, tetapi karena fondasi arsitektur, data, evaluasi, dan operasional sistem tidak dipersiapkan dengan baik."
+image: /assets/images/og/2026-07-27-5-kesalahan-membangun-sistem-ai.png
 ---
 
 # 5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur
