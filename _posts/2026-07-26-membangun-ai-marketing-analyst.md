@@ -11,6 +11,7 @@ tags:
   - marketing-analytics
   - ai-governance
 excerpt: "AI dapat membantu menganalisis data marketing dalam skala besar, tetapi keputusan bisnis tetap membutuhkan konteks manusia melalui mekanisme human-in-the-loop."
+image: /assets/images/og/2026-07-26-membangun-ai-marketing-analyst.png
 ---
 
 # Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan
