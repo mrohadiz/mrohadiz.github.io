@@ -10,6 +10,7 @@ tags:
   - data-governance
   - decision-system
 excerpt: "AI dapat mempercepat audit digital marketing, tetapi akurasi analisis tidak menjamin kualitas keputusan tanpa fondasi data governance yang baik."
+image: /assets/images/og/2026-07-23-ai-dalam-audit-digital-marketing-governance.png
 ---
 
 # AI dalam Audit Digital Marketing: Mengapa Akurasi Tidak Cukup Tanpa Governance
