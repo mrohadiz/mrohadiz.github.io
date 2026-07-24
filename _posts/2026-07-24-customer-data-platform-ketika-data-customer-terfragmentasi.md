@@ -11,6 +11,7 @@ tags:
   - marketing-intelligence
   - decision-system
 excerpt: "Ketika channel customer semakin banyak, data mulai tersebar di berbagai sistem. Customer Data Platform membantu organisasi membangun pemahaman customer yang lebih utuh melalui penyatuan data dan konteks."
+image: /assets/images/og/2026-07-24-customer-data-platform-ketika-data-customer-terfragmentasi.png
 ---
 
 ## Ringkasan
