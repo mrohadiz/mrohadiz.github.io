@@ -11,6 +11,7 @@ tags:
   - first-party-data
   - marketing-intelligence
 excerpt: "Analytics membantu melihat apa yang terjadi, tetapi customer intelligence membantu memahami mengapa hal tersebut terjadi. Perubahan ini dimulai dari membangun jejak perjalanan customer yang dapat ditelusuri."
+image: /assets/images/og/2026-07-24-dari-analytics-ke-customer-intelligence.png
 ---
 
 ## Ringkasan
