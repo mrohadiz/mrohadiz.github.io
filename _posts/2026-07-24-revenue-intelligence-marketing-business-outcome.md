@@ -11,6 +11,7 @@ tags:
   - customer-journey
   - business-intelligence
 excerpt: "Marketing intelligence mencapai nilai tertinggi ketika aktivitas marketing dapat dihubungkan dengan outcome bisnis. Revenue Intelligence membantu organisasi berpindah dari mengukur aktivitas menjadi memahami dampak bisnis."
+image: /assets/images/og/2026-07-24-revenue-intelligence-marketing-business-outcome.png
 ---
 
 ## Ringkasan
