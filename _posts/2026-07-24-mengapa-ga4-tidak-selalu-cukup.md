@@ -11,6 +11,7 @@ tags:
   - data-engineering
   - marketing-intelligence
 excerpt: "GA4 sangat berguna untuk memahami aktivitas pengguna, tetapi organisasi membutuhkan lapisan tambahan untuk mengubah event menjadi keputusan bisnis. Perbedaannya terletak pada konteks, lifecycle, dan outcome."
+image: /assets/images/og/2026-07-24-mengapa-ga4-tidak-selalu-cukup.png
 ---
 
 ## Ringkasan
