@@ -11,6 +11,7 @@ tags:
   - analytics
   - first-party-data
 excerpt: "Konsep observability tidak hanya berlaku untuk sistem software. Digital marketing juga membutuhkan kemampuan memahami perjalanan customer dari visitor hingga menjadi lead."
+image: /assets/images/og/2026-07-24-lead-journey-trace-observability-digital-marketing.png
 ---
 
 ## Ringkasan
