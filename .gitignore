@@ -12,9 +12,11 @@ node_modules/
 playwright-report/
 test-results/
 reports/
+report_dir/
 crawler-report.json
 lh-report.json
 lh-summary.json
+
 
 # IDE
 .vscode/

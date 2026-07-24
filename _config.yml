@@ -80,6 +80,8 @@ exclude:
   - tests/
   - playwright-report/
   - test-results/
+  - report_dir
+
 
 # Include
 include:
