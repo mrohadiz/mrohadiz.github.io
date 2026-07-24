@@ -1,0 +1,61 @@
+name: Observatory Data Collection
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Collect GitHub Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: node scripts/collectors/github-collector.js
+        
+      - name: Collect Knowledge Data
+        run: node scripts/collectors/knowledge-collector.js
+        
+      # Google Search Console collector (when credentials available)
+      # - name: Collect Search Console Data
+      #   env:
+      #     GSC_SERVICE_ACCOUNT: ${{ secrets.GSC_SERVICE_ACCOUNT }}
+      #     GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+      #   run: node scripts/collectors/search-console-collector.js
+        
+      # Google Analytics collector (when credentials available)
+      # - name: Collect GA4 Data
+      #   env:
+      #     GA4_SERVICE_ACCOUNT: ${{ secrets.GA4_SERVICE_ACCOUNT }}
+      #     GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+      #   run: node scripts/collectors/ga4-collector.js
+      
+      - name: Generate Insights
+        run: node scripts/collectors/insights-generator.js
+        
+      - name: Commit updated data
+        run: |
+          git config user.name "Observatory Bot"
+          git config user.email "observatory@github-actions"
+          git add data/observatory/
+          git diff --staged --quiet || git commit -m "chore: update observatory data $(date -u +%Y-%m-%d)"
+          git push
