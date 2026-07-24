@@ -11,6 +11,7 @@ tags:
   - data-engineering
   - customer-intelligence
 excerpt: "Perjalanan customer sering dimulai sebagai visitor anonim. Identity stitching menjadi fondasi untuk menghubungkan aktivitas tersebut dengan profil customer ketika identitas sudah diketahui."
+image: /assets/images/og/2026-07-24-identity-stitching-visitor-menjadi-customer-profile.png
 ---
 
 ## Ringkasan
