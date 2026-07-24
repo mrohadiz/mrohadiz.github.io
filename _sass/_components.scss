@@ -1032,6 +1032,14 @@
   text-decoration: none;
 }
 
+.note-row {
+  grid-template-columns: 2rem 1fr;
+}
+
+.note-row time {
+  display: none;
+}
+
 .observation-item:hover,
 .note-row:hover {
   color: inherit;
@@ -1081,7 +1089,8 @@
   .section-subtitle { font-size: var(--text-lg); }
   .editorial-grid { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: var(--space-12); }
   .observation-item { grid-template-columns: 3rem 1fr; }
-  .note-row { grid-template-columns: 8rem minmax(0, 1fr) 8rem; align-items: baseline; }
+  .note-row { grid-template-columns: 3rem 8rem minmax(0, 1fr) 8rem; align-items: baseline; }
+  .note-row time { display: block; }
   .workbench-item { grid-template-columns: 6rem minmax(0, 1fr); }
 }
 
@@ -1231,7 +1240,7 @@
 
 // Article layout: mobile-first single column → two-column on large screens
 .article-content {
-  padding: 0 var(--space-4);
+  padding: 0 var(--space-5);
 
   @include media-md { padding: 0 var(--space-5); }
 }
@@ -1268,6 +1277,12 @@
 
 .article-body h2 { margin-top: var(--space-10); }
 .article-body h3 { margin-top: var(--space-8); }
+
+@include max-md {
+  .article-body > * + * {
+    margin-top: var(--space-6);
+  }
+}
 
 // TOC: hidden on mobile, sticky sidebar on desktop
 .article-toc-wrapper {
@@ -1905,4 +1920,91 @@ details > *:not(summary) { padding: var(--space-5); }
   &.visible { opacity: 1; visibility: visible; transform: translateY(0); }
   @include media-md { display: none; }
   @include media-lg { display: flex; }
+}
+
+// ============================================================
+// NOTEBOOK COMPONENTS - Note Cards
+// ============================================================
+
+// Note card for inline highlights in articles
+.note-card-inline {
+  font-family: var(--font-hand);
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4) var(--space-5);
+  margin: var(--space-5) 0;
+  box-shadow: var(--shadow-paper);
+  line-height: var(--leading-relaxed);
+
+  .note-card-inline-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
+    color: var(--color-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+// Sketch diagram
+.sketch-diagram {
+  border: 2px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  padding: var(--space-6);
+  margin: var(--space-6) 0;
+  background: var(--color-surface);
+  position: relative;
+  box-shadow: var(--shadow-paper);
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-hand);
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+
+  svg, img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// Paper shadow utility
+.shadow-paper {
+  box-shadow: var(--shadow-paper);
+}
+
+// Notebook margin line for article body
+.article-body.notebook-lined {
+  position: relative;
+  padding-left: 64px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 48px;
+    width: 1px;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 120, 100, 0.2) 0%,
+      rgba(180, 120, 100, 0.08) 100%
+    );
+    pointer-events: none;
+  }
+}
+
+[data-theme="dark"] .article-body.notebook-lined::before {
+  background: linear-gradient(
+    180deg,
+    rgba(180, 120, 100, 0.12) 0%,
+    rgba(180, 120, 100, 0.05) 100%
+  );
 }

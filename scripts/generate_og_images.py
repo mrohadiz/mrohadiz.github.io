@@ -15,15 +15,15 @@ DEFAULT_IMAGE_PATH = '/assets/images/default-thumbnail.svg'
 os.makedirs(OG_DIR, exist_ok=True)
 
 # Colors & Dimensions
-BG_COLOR = (17, 20, 22)  # Field Observatory ink #111416
-PANEL_COLOR = (23, 28, 31)  # Raised editorial surface #171C1F
-RULE_COLOR = (64, 57, 47)
-ACCENT_COLOR = (215, 180, 106)  # Brass observation marker #D7B46A
-TEXT_PRIMARY = (242, 238, 230)
-TEXT_SECONDARY = (214, 206, 192)
-TEXT_MUTED = (175, 164, 147)
+BG_COLOR = (247, 243, 237)  # Notebook paper #F7F3ED
+PANEL_COLOR = (252, 249, 244)  # Elevated surface #FCF9F4
+RULE_COLOR = (200, 190, 175)
+ACCENT_COLOR = (74, 107, 123)  # Steel blue architect accent #4A6B7B
+TEXT_PRIMARY = (44, 36, 22)
+TEXT_SECONDARY = (93, 82, 66)
+TEXT_MUTED = (138, 125, 107)
 WIDTH, HEIGHT = 1200, 630
-BRAND_LABEL = "M. Rohadiz / Field Observatory"
+BRAND_LABEL = "M. Rohadiz / Software Architect"
 
 def wrap_text(text, font, max_width, draw):
     lines = []
@@ -65,13 +65,13 @@ def generate_image(title, category, slug):
     margin_x = 78
     margin_y = 72
 
-    # Editorial frame: quiet field-notebook structure, not a dashboard card.
+    # Notebook frame: clean paper structure, not a dashboard card.
     draw.rectangle((0, 0, WIDTH, HEIGHT), fill=BG_COLOR)
     draw.rectangle((margin_x, margin_y, WIDTH - margin_x, HEIGHT - margin_y), outline=RULE_COLOR, width=1)
     draw.line((margin_x, 156, WIDTH - margin_x, 156), fill=RULE_COLOR, width=1)
     draw.line((margin_x, HEIGHT - 128, WIDTH - margin_x, HEIGHT - 128), fill=RULE_COLOR, width=1)
 
-    # Observation mark.
+    # Brand mark — architect's initial
     mark_size = 58
     draw.rectangle((margin_x + 24, margin_y + 24, margin_x + 24 + mark_size, margin_y + 24 + mark_size), fill=ACCENT_COLOR)
     mark = "R"
@@ -83,7 +83,7 @@ def generate_image(title, category, slug):
     draw.text((margin_x + 24 + mark_size / 2 - mark_w / 2, margin_y + 20 + mark_size / 2 - mark_h / 2), mark, fill=BG_COLOR, font=font_mark)
 
     draw.text((margin_x + 104, margin_y + 34), BRAND_LABEL, fill=TEXT_SECONDARY, font=font_meta)
-    draw.text((WIDTH - margin_x - 270, margin_y + 38), "DIGITAL GARDEN", fill=TEXT_MUTED, font=font_small)
+    draw.text((WIDTH - margin_x - 270, margin_y + 38), "FIELD NOTEBOOK", fill=TEXT_MUTED, font=font_small)
 
     max_text_width = WIDTH - (margin_x * 2) - 56
     wrapped_title = wrap_text(title, font_title, max_text_width, draw)[:4]

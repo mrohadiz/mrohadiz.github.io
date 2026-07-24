@@ -2,7 +2,7 @@
 ---
 
 // ============================================================
-// AI Operating System - Decision Intelligence Platform
+// Software Architect Field Notebook
 // Main Stylesheet Entry Point
 // ============================================================
 
@@ -18,5 +18,8 @@
 // 4. Components
 @import "components";
 
-// 5. Observatory Dashboard
+// 5. Notebook Aesthetic
+@import "notebook";
+
+// 6. Observatory Dashboard
 @import "observatory";

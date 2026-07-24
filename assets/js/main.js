@@ -34,7 +34,7 @@
     } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
       setTheme('light');
     } else {
-      setTheme('dark');
+      setTheme('light');
     }
   }
 

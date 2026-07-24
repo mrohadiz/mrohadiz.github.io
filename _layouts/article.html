@@ -2,33 +2,27 @@
 layout: default
 ---
 
-<!-- Reading Progress Level Calculation -->
-{% assign word_count = page.content | number_of_words %}
-{% if word_count < 600 %}
-  {% assign level = "Beginner" %}
-{% elsif word_count < 1500 %}
-  {% assign level = "Intermediate" %}
-{% else %}
-  {% assign level = "Advanced" %}
-{% endif %}
+<!-- Field Note Number (chronological: oldest = #001) -->
+{% assign total_posts = site.posts.size %}
+{% assign note_number = 0 %}
+{% for p in site.posts %}
+  {% if p.url == page.url %}
+    {% assign note_number = total_posts | minus: forloop.index0 %}
+  {% endif %}
+{% endfor %}
 
-<!-- Breadcrumb / Knowledge Hierarchy -->
-<nav class="knowledge-breadcrumb" aria-label="Knowledge Hierarchy" style="font-size: 0.9rem; color: var(--color-text-secondary); margin-bottom: var(--space-4); display: flex; gap: var(--space-2); align-items: center; padding-top: var(--space-4); flex-wrap: wrap;">
-  <span>You are reading:</span>
-  <a href="/topics/{{ page.categories.first | slugify | default: 'all' }}/" style="color: var(--color-primary); font-weight: 500; text-decoration: none;">{{ page.categories.first | default: 'Notes' }}</a>
-  <span>&darr;</span>
-  <span style="color: var(--color-text-primary);">{{ page.tags.first | default: 'Concept' | capitalize }}</span>
-</nav>
-
-<!-- Article Header -->
+<!-- Article Header — Notebook Identity -->
 <header class="article-header">
+  <div class="article-notebook-label">
+    <span class="notebook-label-text">Field Note</span>
+    <span class="notebook-label-number">#{{ note_number }}</span>
+  </div>
   <div class="article-meta">
-    {% if page.categories.first %}
-      <span class="badge badge-primary">{{ page.categories.first }}</span>
-    {% endif %}
-    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    <span>{{ page.content | number_of_words | divided_by: 180 }} min read</span>
-    <span class="badge badge-outline" style="margin-left: 8px;">Level: {{ level }}</span>
+    <span class="article-meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+    <span class="article-meta-sep">&middot;</span>
+    <span class="article-meta-category">{{ page.categories.first | default: 'Notes' }}</span>
+    <span class="article-meta-sep">&middot;</span>
+    <span class="article-meta-reading">{{ page.content | number_of_words | divided_by: 180 }} min read</span>
   </div>
   <h1 class="article-title">{{ page.title }}</h1>
   {% if page.excerpt %}
@@ -43,20 +37,20 @@ layout: default
 {% endif %}
 
 <!-- Article Body -->
-<article class="article-content" style="margin-bottom: var(--space-8);">
+<article class="article-content">
   <div class="article-layout">
     <div class="article-body" id="article-content">
       {{ content }}
       
-      <!-- Phase 1: Related Concepts -->
-      <div class="related-concepts" style="margin-top: var(--space-8); padding: var(--space-4); background: var(--color-bg-alt); border-radius: 8px; border: 1px solid var(--color-border);">
-        <h4 style="margin-top: 0; font-size: 1rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Related Concepts</h4>
+      <!-- Related Concepts -->
+      <div class="related-concepts">
+        <h4>Related Concepts</h4>
         <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3);">
           {% if page.categories.first %}
-          <a href="/topics/{{ page.categories.first | slugify }}/" class="badge badge-primary" style="text-decoration: none;">{{ page.categories.first }}</a>
+          <a href="/topics/{{ page.categories.first | slugify }}/" class="badge badge-primary">{{ page.categories.first }}</a>
           {% endif %}
           {% for tag in page.tags %}
-          <a href="/notes/" class="badge badge-outline" style="text-decoration: none;">{{ tag | capitalize }}</a>
+          <a href="/notes/" class="badge badge-outline">{{ tag | capitalize }}</a>
           {% endfor %}
         </div>
       </div>
@@ -74,20 +68,20 @@ layout: default
   </div>
 </article>
 
-<!-- Phase 2: Recommended Learning Path -->
+<!-- Recommended Learning Path -->
 {% assign path_posts = site.posts | where: "categories", page.categories.first | sort: "date" %}
 {% if path_posts.size > 1 %}
-<section class="learning-path" style="max-width: 800px; margin: 0 auto var(--space-8) auto; padding: var(--space-4) 20px; border-left: 4px solid var(--color-primary); background: var(--color-bg-alt);">
-  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-primary);">Recommended Learning Path</h3>
-  <div style="display: flex; flex-direction: column; gap: var(--space-2); font-size: 0.95rem;">
+<section class="learning-path">
+  <h3>Recommended Learning Path</h3>
+  <div>
     {% for p in path_posts %}
       {% if p.url == page.url %}
-        <div style="font-weight: 600; color: var(--color-primary); padding: 4px 0;">
+        <div class="learning-path-item is-current">
           <span style="display: inline-block; width: 20px;">&darr;</span> {{ p.title }} (Current)
         </div>
       {% else %}
-        <div style="padding: 4px 0; color: var(--color-text-secondary);">
-          <span style="display: inline-block; width: 20px; opacity: 0.5;">&bull;</span> <a href="{{ p.url | relative_url }}" style="color: inherit; text-decoration: none;">{{ p.title }}</a>
+        <div class="learning-path-item">
+          <span style="display: inline-block; width: 20px; opacity: 0.5;">&bull;</span> <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
         </div>
       {% endif %}
     {% endfor %}
@@ -95,10 +89,10 @@ layout: default
 </section>
 {% endif %}
 
-<!-- Phase 7: Weighted Scoring Related Articles -->
-<section class="related-articles-compact" aria-label="Related articles" style="max-width: 800px; margin: 0 auto var(--space-4) auto; padding: 0 20px;">
-  <h3 style="font-size: 1.1rem; margin-bottom: var(--space-3); color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Deepen Your Understanding</h3>
-  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3);">
+<!-- Related Articles -->
+<section class="related-articles-compact" aria-label="Related articles">
+  <h3>Deepen Your Understanding</h3>
+  <ul>
     {% assign related_scores = "" | split: "," %}
     {% for p in site.posts %}
       {% if p.url != page.url %}
@@ -127,33 +121,31 @@ layout: default
     {% assign count = 0 %}
     {% for item in related_scores limit: 4 %}
       {% assign parts = item | split: "|" %}
-      <li><a href="{{ parts[1] | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ parts[2] }}</a></li>
+      <li><a href="{{ parts[1] | relative_url }}">{{ parts[2] }}</a></li>
       {% assign count = count | plus: 1 %}
     {% endfor %}
     
     {% if count == 0 %}
       {% for p in site.posts limit: 3 %}
         {% if p.url != page.url %}
-          <li><a href="{{ p.url | relative_url }}" style="color: var(--color-text-primary); text-decoration: none; font-size: 1.05rem; font-weight: 500; display: block; line-height: 1.3;">{{ p.title }}</a></li>
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
         {% endif %}
       {% endfor %}
     {% endif %}
   </ul>
 </section>
 
-<div style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+<div class="author-card-wrapper">
   {% include author-card.html %}
 </div>
 
-<!-- Phase 10: Continue Exploring -->
-<footer class="article-footer" style="padding-top: 0; margin-top: 0; border-top: none;">
-  <div style="max-width: 800px; margin: 0 auto; padding: var(--space-4) 20px var(--space-8) 20px;">
-    <h3 style="text-align: center; margin-bottom: var(--space-4); color: var(--color-text-primary); font-size: 1.2rem;">Continue Exploring</h3>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3);">
-      <a href="/knowledge/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Knowledge Map</a>
-      <a href="/topics/{{ page.categories.first | slugify }}/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Topic Page</a>
-      <a href="/glossary/" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">Glossary</a>
-      <a href="{{ '/notes/' | relative_url }}" class="btn btn-outline" style="text-align: center; justify-content: center; width: 100%; border-color: var(--color-border); color: var(--color-text-primary);">All Notes</a>
-    </div>
+<!-- Continue Exploring -->
+<footer class="continue-exploring">
+  <div class="continue-exploring-grid">
+    <h3 style="grid-column: 1 / -1;">Continue Exploring</h3>
+    <a href="/knowledge/" class="btn btn-outline">Knowledge Map</a>
+    <a href="/topics/{{ page.categories.first | slugify }}/" class="btn btn-outline">Topic Page</a>
+    <a href="/glossary/" class="btn btn-outline">Glossary</a>
+    <a href="{{ '/notes/' | relative_url }}" class="btn btn-outline">All Notes</a>
   </div>
 </footer>

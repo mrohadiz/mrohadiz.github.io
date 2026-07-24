@@ -1,10 +1,9 @@
 // ============================================================
-// TYPOGRAPHY - AI Operating System / Decision Intelligence
+// TYPOGRAPHY - Software Architect Field Notebook
 // ============================================================
 
 // ============================================================
-// FONT FACE DECLARATIONS (Geist + Geist Mono via @font-face)
-// Local fonts preferred for performance - fallback to system
+// FONT FACE DECLARATIONS - Geist, Geist Mono, Caveat
 // ============================================================
 @font-face {
   font-family: 'Geist';
@@ -26,6 +25,22 @@
   font-family: 'Geist Mono';
   src: local('Geist Mono'), local('Geist Mono Variable'), url('https://cdn.jsdelivr.net/npm/geist@1/fonts/GeistMonoVF.woff2') format('woff2-variations');
   font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Literata';
+  src: url('https://fonts.gstatic.com/s/literata/v35/eor3gP6rQJHDE50k6RQS.woff2') format('woff2');
+  font-weight: 400 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('https://fonts.gstatic.com/s/caveat/v18/Wnz6HAc5bAfYB2Q7YjYY.woff2') format('woff2');
+  font-weight: 400 700;
   font-display: swap;
   font-style: normal;
 }
@@ -68,10 +83,10 @@ body {
 }
 
 // ============================================================
-// HEADINGS - Clean, precise, executive
+// HEADINGS - Serif for authority, warmth, readability
 // ============================================================
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-weight: var(--weight-bold);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-tight);
@@ -103,6 +118,54 @@ p:last-child { margin-bottom: 0; }
   color: var(--color-text-secondary);
   font-weight: var(--weight-normal);
   max-width: var(--container-normal);
+}
+
+// ============================================================
+// HANDWRITTEN / ANNOTATION STYLES (Caveat)
+// ============================================================
+.annotation {
+  font-family: var(--font-hand);
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-snug);
+}
+
+.margin-note {
+  font-family: var(--font-hand);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: var(--leading-snug);
+  border-left: 2px solid var(--color-primary-muted);
+  padding-left: var(--space-3);
+  margin: var(--space-4) 0;
+}
+
+.insight-label {
+  font-family: var(--font-hand);
+  font-size: var(--text-base);
+  color: var(--color-primary);
+  font-weight: var(--weight-medium);
+}
+
+blockquote {
+  font-family: var(--font-hand);
+  font-size: var(--text-xl);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  border-left: 3px solid var(--color-primary);
+  background: var(--color-primary-muted);
+  padding: var(--space-5) var(--space-6);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  margin: var(--space-6) 0;
+  font-style: italic;
+
+  p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: var(--space-3);
+    font-size: var(--text-sm);
+    font-style: normal;
+    font-family: var(--font-sans);
+  }
 }
 
 // ============================================================
@@ -173,23 +236,7 @@ kbd {
   box-shadow: var(--shadow-xs);
 }
 
-// ============================================================
-// BLOCKQUOTE / QUOTE BLOCK
-// ============================================================
-blockquote {
-  border-left: 3px solid var(--color-primary);
-  background: var(--color-primary-muted);
-  padding: var(--space-5) var(--space-6);
-  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
-  margin: var(--space-6) 0;
-  font-style: italic;
-  color: var(--color-text-secondary);
-  font-size: var(--text-lg);
-  line-height: var(--leading-relaxed);
 
-  p:last-child { margin-bottom: 0; }
-  footer { margin-top: var(--space-3); font-size: var(--text-sm); font-style: normal; }
-}
 
 // ============================================================
 // LISTS
@@ -318,9 +365,11 @@ figure {
 // ============================================================
 @media (max-width: 767px) {
   html { font-size: 15px; }
-  h1 { font-size: var(--text-4xl); }
-  h2 { font-size: var(--text-3xl); }
-  h3 { font-size: var(--text-2xl); }
-  h4 { font-size: var(--text-xl); }
+  h1 { font-size: var(--text-3xl); font-weight: var(--weight-semibold); }
+  h2 { font-size: var(--text-2xl); }
+  h3 { font-size: var(--text-xl); }
+  h4 { font-size: var(--text-lg); }
   .lead { font-size: var(--text-base); }
+
+  p { line-height: 1.8; }
 }

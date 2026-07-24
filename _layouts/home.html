@@ -4,9 +4,10 @@ layout: default
 
 <section class="hero hero-observatory">
   <div class="hero-inner">
-    <p class="hero-kicker">Digital garden / observasi keputusan</p>
+    <span class="hero-notebook-entry">✎ Field Notes / Decision Systems</span>
+    <p class="hero-kicker">observasi sebelum keputusan</p>
     <h1 class="hero-title">Keputusan yang baik lahir dari observasi yang baik.</h1>
-    <p class="hero-tagline">Saya mencatat pola, arsitektur, dan sinyal yang membantu sistem teknis mengambil keputusan dengan lebih jernih.</p>
+    <p class="hero-tagline">Mencatat pola, arsitektur, dan sinyal yang membantu sistem teknis mengambil keputusan dengan lebih jernih.</p>
     <div class="hero-context" aria-label="Fokus utama">
       <span>Software Architecture</span>
       <span>Decision Intelligence</span>
@@ -85,6 +86,7 @@ layout: default
       {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
       {% for post in sorted_posts limit:6 %}
         <a href="{{ post.url | relative_url }}" class="note-row">
+          <span class="note-row-number">{% assign idx = forloop.index0 | plus: 1 %}{% if idx < 10 %}0{% endif %}{{ idx }}</span>
           <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b %Y" }}</time>
           <span class="note-row-main">
             <strong>{{ post.title }}</strong>
@@ -107,15 +109,51 @@ layout: default
 <section class="section section-workbench" id="projects">
   <div class="container editorial-grid">
     <div class="section-header section-header-left">
-      <p class="section-kicker">Workbench</p>
+      <p class="section-kicker">Project Log</p>
       <h2 class="section-title">Proyek Kerja</h2>
       <p class="section-subtitle">Sistem dan eksperimen yang menjadi sumber observasi berulang.</p>
     </div>
-    <div class="workbench-list">
-      <div class="workbench-item"><span>Active</span><strong>RADAR</strong><em>Market intelligence dan decision support real-time.</em></div>
-      <div class="workbench-item"><span>Active</span><strong>SGP OS</strong><em>Governance platform untuk decision management.</em></div>
-      <div class="workbench-item"><span>Beta</span><strong>Meta Observatory</strong><em>Agregasi multi-source untuk market intelligence.</em></div>
-      <div class="workbench-item"><span>Planning</span><strong>Knowledge Repository</strong><em>Graph knowledge base dan semantic search pribadi.</em></div>
+    <div class="project-log-list">
+      <div class="project-log-item">
+        <div class="project-log-number">01</div>
+        <div class="project-log-body">
+          <div class="project-log-header">
+            <span class="project-log-status status-active">Active</span>
+          </div>
+          <strong class="project-log-title">RADAR</strong>
+          <em class="project-log-desc">Market intelligence dan decision support real-time.</em>
+        </div>
+      </div>
+      <div class="project-log-item">
+        <div class="project-log-number">02</div>
+        <div class="project-log-body">
+          <div class="project-log-header">
+            <span class="project-log-status status-active">Active</span>
+          </div>
+          <strong class="project-log-title">SGP OS</strong>
+          <em class="project-log-desc">Governance platform untuk decision management.</em>
+        </div>
+      </div>
+      <div class="project-log-item">
+        <div class="project-log-number">03</div>
+        <div class="project-log-body">
+          <div class="project-log-header">
+            <span class="project-log-status status-beta">Beta</span>
+          </div>
+          <strong class="project-log-title">Meta Observatory</strong>
+          <em class="project-log-desc">Agregasi multi-source untuk market intelligence.</em>
+        </div>
+      </div>
+      <div class="project-log-item">
+        <div class="project-log-number">04</div>
+        <div class="project-log-body">
+          <div class="project-log-header">
+            <span class="project-log-status status-planning">Planning</span>
+          </div>
+          <strong class="project-log-title">Knowledge Repository</strong>
+          <em class="project-log-desc">Graph knowledge base dan semantic search pribadi.</em>
+        </div>
+      </div>
     </div>
   </div>
 </section>

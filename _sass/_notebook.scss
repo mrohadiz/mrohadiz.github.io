@@ -1,0 +1,1018 @@
+// ============================================================
+// NOTEBOOK AESTHETIC - Software Architect Field Notebook
+// Paper texture, margin lines, note cards, sketch style
+// ============================================================
+
+// ============================================================
+// PAPER TEXTURE (subtle noise overlay)
+// ============================================================
+.paper-texture {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+[data-theme="dark"] .paper-texture {
+  opacity: 0.025;
+}
+
+// ============================================================
+// NOTEBOOK MARGIN LINE (left red vertical like engineering pad)
+// ============================================================
+.notebook-margin {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 48px;
+    width: 1px;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 120, 100, 0.25) 0%,
+      rgba(180, 120, 100, 0.15) 100%
+    );
+    pointer-events: none;
+  }
+}
+
+[data-theme="dark"] .notebook-margin::before {
+  background: linear-gradient(
+    180deg,
+    rgba(180, 120, 100, 0.15) 0%,
+    rgba(180, 120, 100, 0.08) 100%
+  );
+}
+
+// ============================================================
+// PAPER CARD / NOTE CARD
+// ============================================================
+.note-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-5) var(--space-6);
+  box-shadow: var(--shadow-paper);
+  position: relative;
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+
+  &:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+}
+
+.note-card-sticky {
+  background: #FEF9E7;
+  border: 1px solid rgba(166, 124, 82, 0.2);
+  border-radius: var(--radius-sm);
+  padding: var(--space-5) var(--space-6);
+  box-shadow:
+    0 2px 8px rgba(44, 36, 22, 0.08),
+    0 1px 2px rgba(44, 36, 22, 0.06);
+  position: relative;
+  transform: rotate(-0.5deg);
+  transition: transform var(--transition-base);
+
+  &:hover {
+    transform: rotate(0deg) translateY(-2px);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(
+      135deg,
+      transparent 40%,
+      rgba(166, 124, 82, 0.15) 40%,
+      rgba(166, 124, 82, 0.15) 60%,
+      transparent 60%
+    );
+    border-radius: 0 0 2px 2px;
+  }
+}
+
+[data-theme="dark"] .note-card-sticky {
+  background: #2A2820;
+  border-color: rgba(196, 154, 120, 0.15);
+
+  &::after {
+    background: linear-gradient(
+      135deg,
+      transparent 40%,
+      rgba(196, 154, 120, 0.12) 40%,
+      rgba(196, 154, 120, 0.12) 60%,
+      transparent 60%
+    );
+  }
+}
+
+// ============================================================
+// SKETCH / DIAGRAM CONTAINER
+// ============================================================
+.sketch-box {
+  border: 2px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  padding: var(--space-6);
+  margin: var(--space-6) 0;
+  background: var(--color-surface);
+  position: relative;
+  box-shadow: var(--shadow-paper);
+
+  &::before {
+    content: '⌇';
+    position: absolute;
+    top: -10px;
+    left: var(--space-4);
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    background: var(--color-bg);
+    padding: 0 var(--space-2);
+    line-height: 1;
+  }
+}
+
+// ============================================================
+// FIELD NOTE / OBSERVATION BLOCK
+// ============================================================
+.field-note {
+  font-family: var(--font-hand);
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-primary);
+  padding: var(--space-4) var(--space-5);
+  margin: var(--space-5) 0;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  line-height: var(--leading-relaxed);
+
+  .field-note-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
+    color: var(--color-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+// ============================================================
+// STICKY NOTE (inline, for callout highlights)
+// ============================================================
+.sticky-note {
+  display: inline-block;
+  font-family: var(--font-hand);
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  background: #FEF9E7;
+  border: 1px solid rgba(166, 124, 82, 0.2);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-4);
+  box-shadow: var(--shadow-xs);
+  transform: rotate(1deg);
+  white-space: nowrap;
+
+  &:hover {
+    transform: rotate(0deg);
+  }
+}
+
+[data-theme="dark"] .sticky-note {
+  background: #2A2820;
+  border-color: rgba(196, 154, 120, 0.15);
+}
+
+// ============================================================
+// MARGIN ANNOTATION (for wide screens)
+// ============================================================
+@media (min-width: 1024px) {
+  .has-margin-note {
+    position: relative;
+  }
+
+  .margin-annotation {
+    position: absolute;
+    right: calc(100% + 24px);
+    top: 0;
+    width: 180px;
+    font-family: var(--font-hand);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: var(--leading-snug);
+    text-align: right;
+
+    &::before {
+      content: '→ ';
+      color: var(--color-primary);
+      font-size: var(--text-xs);
+    }
+  }
+}
+
+// ============================================================
+// TYPOGRAPHY ADJUSTMENTS FOR NOTEBOOK
+// ============================================================
+.article-body {
+  p, li {
+    font-family: var(--font-sans);
+    color: var(--color-text-primary);
+  }
+}
+
+// ============================================================
+// ARTICLE HEADER ADJUSTMENTS
+// ============================================================
+.article-title {
+  font-family: var(--font-serif);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-primary);
+}
+
+// ============================================================
+// ARTICLE NOTEBOOK LABEL — Field Note #xxx
+// ============================================================
+.article-notebook-label {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.notebook-label-text {
+  font-family: var(--font-hand);
+  font-size: var(--text-lg);
+  color: var(--color-primary);
+}
+
+.notebook-label-number {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+// ============================================================
+// ARTICLE META — notebook entry style
+// ============================================================
+.article-meta {
+  gap: var(--space-2);
+}
+
+.article-meta-sep {
+  color: var(--color-text-muted);
+}
+
+// ============================================================
+// CODE BLOCKS - subtle notebook feel
+// ============================================================
+pre, .highlight {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+code:not(pre > code) {
+  font-family: var(--font-mono);
+  background: var(--color-bg-code-inline);
+  color: var(--color-text-code);
+  border: 1px solid transparent;
+}
+
+// ============================================================
+// TABLES - notebook ruled style
+// ============================================================
+table {
+  border-collapse: collapse;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+
+  th {
+    background: var(--color-bg-alt);
+    font-family: var(--font-serif);
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-primary);
+    border-bottom: 2px solid var(--color-border-strong);
+  }
+
+  td {
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  tr:hover td {
+    background: var(--color-surface-hover);
+  }
+}
+
+// ============================================================
+// HERO SECTION - notebook style
+// ============================================================
+.hero {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+
+  .hero-kicker {
+    font-family: var(--font-hand);
+    font-size: var(--text-base);
+    color: var(--color-primary);
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .hero-title {
+    font-family: var(--font-serif);
+  }
+}
+
+.hero-observatory {
+  background: var(--color-bg);
+}
+
+// ============================================================
+// SECTION KICKER
+// ============================================================
+.section-kicker {
+  font-family: var(--font-hand);
+  font-size: var(--text-base);
+  color: var(--color-primary);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+// ============================================================
+// BADGE reframing
+// ============================================================
+.badge {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+}
+
+.badge-primary {
+  background: var(--color-primary-muted);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary-muted);
+}
+
+// ============================================================
+// HORIZONTAL RULE - notebook style
+// ============================================================
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-border-strong) 20%,
+    var(--color-border-strong) 80%,
+    transparent 100%
+  );
+  margin: var(--space-10) 0;
+}
+
+// ============================================================
+// LINK STYLE - pencil underline
+// ============================================================
+a {
+  text-decoration: none;
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--color-primary-muted);
+    text-underline-offset: 3px;
+  }
+}
+
+// ============================================================
+// OBSERVATION LIST - notebook style
+// ============================================================
+.observation-list {
+  .observation-item {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-5) 0;
+  }
+}
+
+.note-list .note-row {
+  border-top: 1px solid var(--color-border);
+}
+
+// ============================================================
+// NAVBAR - transparent on paper
+// ============================================================
+.navbar {
+  background: color-mix(in srgb, var(--color-bg) 92%, transparent);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  &.scrolled {
+    background: color-mix(in srgb, var(--color-bg) 97%, transparent);
+    box-shadow: var(--shadow-xs);
+  }
+}
+
+// ============================================================
+// FOOTER
+// ============================================================
+.footer-compact {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+// ============================================================
+// OBSERVATORY DASHBOARD - adapted to notebook
+// ============================================================
+.observatory-hero {
+  background: var(--color-bg);
+}
+
+.observatory-hero-bg {
+  display: none;
+}
+
+.observatory-section {
+  .observatory-section-title {
+    font-family: var(--font-serif);
+  }
+}
+
+.insight-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+.observatory-kpi-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+.observatory-table-card,
+.observatory-chart-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+// ============================================================
+// TOC - notebook style
+// ============================================================
+.toc {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+.toc-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-text-muted);
+}
+
+// ============================================================
+// READING PROGRESS
+// ============================================================
+.reading-progress {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-success));
+  height: 2px;
+  box-shadow: none;
+}
+
+// ============================================================
+// DETAILS / SUMMARY
+// ============================================================
+details {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+  background: var(--color-surface);
+}
+
+// ============================================================
+// BUTTONS - notebook style
+// ============================================================
+.btn {
+  border-radius: var(--radius-sm);
+  font-family: var(--font-sans);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-xs);
+
+  &:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+.btn-secondary {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+  box-shadow: var(--shadow-xs);
+
+  &:hover:not(:disabled) {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-strong);
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  &:hover:not(:disabled) {
+    background: var(--color-primary-muted);
+    color: var(--color-primary-hover);
+  }
+}
+
+// ============================================================
+// SEARCH
+// ============================================================
+.search-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+}
+
+.search-overlay {
+  background: var(--overlay-backdrop);
+  backdrop-filter: blur(4px);
+}
+
+// ============================================================
+// CARD - notebook refinements
+// ============================================================
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+.card-glass {
+  background: color-mix(in srgb, var(--color-surface) 60%, transparent);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+}
+
+// ============================================================
+// FEATURE CARD
+// ============================================================
+.feature-card {
+  border-radius: var(--radius-sm);
+}
+
+// ============================================================
+// QUOTE BLOCK - notebook
+// ============================================================
+.quote-block {
+  font-family: var(--font-hand);
+  font-size: var(--text-xl);
+  background: linear-gradient(135deg, var(--color-primary-muted) 0%, var(--color-surface) 100%);
+  border: 1px solid var(--color-primary-muted);
+  border-radius: var(--radius-sm);
+
+  &::before {
+    font-family: var(--font-serif);
+  }
+}
+
+// ============================================================
+// TIMELINE
+// ============================================================
+.timeline::before {
+  background: var(--color-border);
+}
+
+// ============================================================
+// DECISION FLOW
+// ============================================================
+.decision-flow-card {
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-paper);
+}
+
+// ============================================================
+// RESPONSIVE
+// ============================================================
+@include max-md {
+  .margin-annotation {
+    display: none;
+  }
+
+  .notebook-margin::before {
+    display: none;
+  }
+
+  .note-card-sticky {
+    transform: none;
+  }
+}
+
+// ============================================================
+// HERO NOTEBOOK ENTRY ✎
+// ============================================================
+.hero-notebook-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-hand);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  margin-bottom: var(--space-3);
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-primary-muted);
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.02em;
+
+  &::before {
+    content: '✎';
+    font-size: var(--text-base);
+    line-height: 1;
+  }
+}
+
+[data-theme="dark"] .hero-notebook-entry {
+  background: var(--color-primary-muted);
+}
+
+// ============================================================
+// PROJECT LOG
+// ============================================================
+.project-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.project-log-item {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: var(--space-4);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-border);
+  transition: background var(--transition-fast);
+
+  &:hover {
+    background: var(--color-surface-hover);
+    margin: 0 calc(-1 * var(--space-4));
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+    border-radius: var(--radius-sm);
+  }
+
+  &:last-child {
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
+.project-log-number {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  padding-top: 2px;
+  text-align: right;
+}
+
+.project-log-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.project-log-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.project-log-status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  letter-spacing: var(--tracking-wide);
+
+  &::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
+
+.status-active::before {
+  background: var(--color-success);
+}
+
+.status-beta::before {
+  background: var(--color-warning);
+}
+
+.status-planning::before {
+  background: var(--color-text-muted);
+}
+
+.project-log-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-primary);
+  line-height: var(--leading-snug);
+}
+
+.project-log-desc {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+  font-style: normal;
+}
+
+// ============================================================
+// NOTE ROW NUMBER
+// ============================================================
+.note-row-number {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.note-row {
+  transition: background var(--transition-fast), padding var(--transition-fast);
+
+  &:hover {
+    background: var(--color-surface-hover);
+    margin: 0 calc(-1 * var(--space-4));
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+    border-radius: var(--radius-sm);
+  }
+}
+
+@include media-md {
+  .note-row-number {
+    text-align: right;
+  }
+}
+
+// ============================================================
+// PAPER LIFT HOVER (micro interaction)
+// ============================================================
+.paper-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+// ============================================================
+// PENCIL UNDERLINE (accent decoration)
+// ============================================================
+.pencil-underline {
+  display: inline;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 85%,
+    var(--color-primary-muted) 85%,
+    var(--color-primary-muted) 90%,
+    transparent 90%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+// ============================================================
+// RULED LINE (horizontal notebook line)
+// ============================================================
+.ruled-line {
+  border: none;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-border) 0px,
+    var(--color-border) 100%,
+    transparent 100%,
+    transparent 100%
+  );
+}
+
+// ============================================================
+// OBSERVATION GRID NOTEBOOK REFINEMENT
+// ============================================================
+.observation-mark {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+// ============================================================
+// NOTEBOOK HOVER FOR OBSERVATION ITEMS
+// ============================================================
+.observation-item {
+  transition: background var(--transition-fast), padding var(--transition-fast);
+
+  &:hover {
+    background: var(--color-surface-hover);
+    margin: 0 calc(-1 * var(--space-4));
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+    border-radius: var(--radius-sm);
+  }
+}
+
+// ============================================================
+// WORKBENCH SECTION REFINEMENT
+// ============================================================
+.section-workbench {
+  .section-kicker {
+    font-family: var(--font-hand);
+    font-size: var(--text-base);
+    color: var(--color-primary);
+    text-transform: none;
+    letter-spacing: normal;
+  }
+}
+
+// ============================================================
+// ARTICLE PAGE SECTIONS
+// ============================================================
+
+// Related Concepts
+.related-concepts {
+  margin-top: var(--space-8);
+  padding: var(--space-4);
+  background: var(--color-bg-alt);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+
+  h4 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .badge {
+    text-decoration: none;
+  }
+}
+
+// Learning Path
+.learning-path {
+  max-width: 800px;
+  margin: 0 auto var(--space-8) auto;
+  padding: var(--space-4) 20px;
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-bg-alt);
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-3);
+    color: var(--color-text-primary);
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    font-size: 0.95rem;
+  }
+}
+
+.learning-path-item {
+  padding: 4px 0;
+
+  &.is-current {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  &:not(.is-current) {
+    color: var(--color-text-secondary);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+// Related Articles
+.related-articles-compact {
+  max-width: 800px;
+  margin: 0 auto var(--space-4) auto;
+  padding: 0 20px;
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-3);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    display: block;
+    line-height: 1.3;
+  }
+}
+
+// Article Content Wrapper
+.article-content {
+  margin-bottom: var(--space-8);
+}
+
+// Author Card Wrapper
+.author-card-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Continue Exploring
+.continue-exploring {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+
+  h3 {
+    text-align: center;
+    margin-bottom: var(--space-4);
+    color: var(--color-text-primary);
+    font-size: 1.2rem;
+  }
+}
+
+.continue-exploring-grid {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-4) 20px var(--space-8) 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+
+  .btn {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border-color: var(--color-border);
+    color: var(--color-text-primary);
+  }
+}
