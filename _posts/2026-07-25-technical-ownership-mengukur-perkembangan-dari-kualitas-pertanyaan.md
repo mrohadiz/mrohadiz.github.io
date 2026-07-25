@@ -11,6 +11,7 @@ tags:
   - system-thinking
   - engineering-culture
 excerpt: "Perkembangan technical talent tidak hanya terlihat dari jumlah task yang selesai, tetapi dari perubahan kualitas pertanyaan: dari mencari instruksi menjadi mencari keputusan yang tepat."
+image: /assets/images/og/2026-07-25-technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan.png
 ---
 
 # Technical Ownership: Mengukur Perkembangan dari Kualitas Pertanyaan
