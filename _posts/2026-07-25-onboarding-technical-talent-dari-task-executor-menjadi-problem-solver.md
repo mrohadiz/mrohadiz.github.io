@@ -11,6 +11,7 @@ tags:
   - ownership
   - system-thinking
 excerpt: "Onboarding teknis yang baik bukan hanya mengajarkan cara mengerjakan task, tetapi membangun kemampuan seseorang untuk memahami konteks, mengambil keputusan, dan memiliki ownership terhadap sistem."
+image: /assets/images/og/2026-07-25-onboarding-technical-talent-dari-task-executor-menjadi-problem-solver.png
 ---
 
 # Onboarding Technical Talent: Dari Task Executor Menjadi Problem Solver
