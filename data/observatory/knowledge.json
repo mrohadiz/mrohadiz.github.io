@@ -1,170 +1,1298 @@
 {
-  "collected_at": "2026-07-13T06:00:00Z",
+  "collected_at": "2026-07-25T06:54:52.032Z",
   "summary": {
-    "total_articles": 10,
-    "total_categories": 6,
-    "total_tags": 24,
+    "total_articles": 41,
+    "total_categories": 12,
+    "total_tags": 122,
     "total_series": 0,
-    "total_internal_links": 47,
-    "avg_reading_time": 8.5,
-    "total_word_count": 15300
+    "total_internal_links": 0,
+    "avg_reading_time": 2,
+    "total_word_count": 15910
   },
   "categories": [
-    { "name": "AI Engineering", "count": 3, "percentage": 0.30 },
-    { "name": "Decision Systems", "count": 3, "percentage": 0.30 },
-    { "name": "Infrastructure", "count": 1, "percentage": 0.10 },
-    { "name": "Crypto Observation", "count": 2, "percentage": 0.20 },
-    { "name": "Software Architecture", "count": 1, "percentage": 0.10 },
-    { "name": "Meta", "count": 1, "percentage": 0.10 }
+    {
+      "name": "Decision Systems",
+      "count": 8,
+      "percentage": 0.1951219512195122
+    },
+    {
+      "name": "Business Intelligence",
+      "count": 8,
+      "percentage": 0.1951219512195122
+    },
+    {
+      "name": "AI Engineering",
+      "count": 7,
+      "percentage": 0.17073170731707318
+    },
+    {
+      "name": "Software Architecture",
+      "count": 6,
+      "percentage": 0.14634146341463414
+    },
+    {
+      "name": "Decision Intelligence",
+      "count": 3,
+      "percentage": 0.07317073170731707
+    },
+    {
+      "name": "Infrastructure",
+      "count": 2,
+      "percentage": 0.04878048780487805
+    },
+    {
+      "name": "Digital Garden",
+      "count": 2,
+      "percentage": 0.04878048780487805
+    },
+    {
+      "name": "Meta",
+      "count": 1,
+      "percentage": 0.024390243902439025
+    },
+    {
+      "name": "Crypto Observation",
+      "count": 1,
+      "percentage": 0.024390243902439025
+    },
+    {
+      "name": "[AI Engineering, Prompt Engineering]",
+      "count": 1,
+      "percentage": 0.024390243902439025
+    },
+    {
+      "name": "Narrative Observatory",
+      "count": 1,
+      "percentage": 0.024390243902439025
+    },
+    {
+      "name": "Business Architecture",
+      "count": 1,
+      "percentage": 0.024390243902439025
+    }
   ],
   "tags": [
-    { "name": "decision-making", "count": 4 },
-    { "name": "framework", "count": 3 },
-    { "name": "ai", "count": 3 },
-    { "name": "architecture", "count": 3 },
-    { "name": "engineering", "count": 2 },
-    { "name": "systems", "count": 2 },
-    { "name": "data", "count": 2 },
-    { "name": "analysis", "count": 2 },
-    { "name": "crypto", "count": 2 },
-    { "name": "devops", "count": 1 },
-    { "name": "infrastructure", "count": 1 },
-    { "name": "reasoning", "count": 1 },
-    { "name": "llm", "count": 1 },
-    { "name": "knowledge", "count": 1 },
-    { "name": "extraction", "count": 1 },
-    { "name": "market", "count": 1 },
-    { "name": "microstructure", "count": 1 },
-    { "name": "trading", "count": 1 },
-    { "name": "microservices", "count": 1 },
-    { "name": "event-driven", "count": 1 },
-    { "name": "patterns", "count": 1 },
-    { "name": "public-writing", "count": 1 },
-    { "name": "meta", "count": 1 },
-    { "name": "observability", "count": 1 }
+    {
+      "name": "decision-system",
+      "count": 8
+    },
+    {
+      "name": "analytics",
+      "count": 7
+    },
+    {
+      "name": "decision-making",
+      "count": 4
+    },
+    {
+      "name": "internal-tools",
+      "count": 4
+    },
+    {
+      "name": "engineering-thinking",
+      "count": 4
+    },
+    {
+      "name": "marketing-intelligence",
+      "count": 4
+    },
+    {
+      "name": "digital-garden",
+      "count": 3
+    },
+    {
+      "name": "observability",
+      "count": 3
+    },
+    {
+      "name": "seo",
+      "count": 3
+    },
+    {
+      "name": "knowledge-architecture",
+      "count": 3
+    },
+    {
+      "name": "digital-marketing",
+      "count": 3
+    },
+    {
+      "name": "data-governance",
+      "count": 3
+    },
+    {
+      "name": "data-engineering",
+      "count": 3
+    },
+    {
+      "name": "first-party-data",
+      "count": 3
+    },
+    {
+      "name": "onboarding",
+      "count": 3
+    },
+    {
+      "name": "system-thinking",
+      "count": 3
+    },
+    {
+      "name": "architecture",
+      "count": 2
+    },
+    {
+      "name": "strategy",
+      "count": 2
+    },
+    {
+      "name": "ownership",
+      "count": 2
+    },
+    {
+      "name": "business-intelligence",
+      "count": 2
+    },
+    {
+      "name": "dashboard",
+      "count": 2
+    },
+    {
+      "name": "systems-thinking",
+      "count": 2
+    },
+    {
+      "name": "troubleshooting",
+      "count": 2
+    },
+    {
+      "name": "ai-search",
+      "count": 2
+    },
+    {
+      "name": "content-strategy",
+      "count": 2
+    },
+    {
+      "name": "topical-authority",
+      "count": 2
+    },
+    {
+      "name": "automation",
+      "count": 2
+    },
+    {
+      "name": "ai-engineering",
+      "count": 2
+    },
+    {
+      "name": "customer-data",
+      "count": 2
+    },
+    {
+      "name": "customer-journey",
+      "count": 2
+    },
+    {
+      "name": "marketing-analytics",
+      "count": 2
+    },
+    {
+      "name": "capability-development",
+      "count": 2
+    },
+    {
+      "name": "knowledge-management",
+      "count": 2
+    },
+    {
+      "name": "problem-solving",
+      "count": 2
+    },
+    {
+      "name": "ai-governance",
+      "count": 2
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "learning",
+      "count": 1
+    },
+    {
+      "name": "public",
+      "count": 1
+    },
+    {
+      "name": "reasoning",
+      "count": 1
+    },
+    {
+      "name": "llm",
+      "count": 1
+    },
+    {
+      "name": "chain-of-thought",
+      "count": 1
+    },
+    {
+      "name": "ai",
+      "count": 1
+    },
+    {
+      "name": "ooda-loop",
+      "count": 1
+    },
+    {
+      "name": "event-driven",
+      "count": 1
+    },
+    {
+      "name": "microservices",
+      "count": 1
+    },
+    {
+      "name": "patterns",
+      "count": 1
+    },
+    {
+      "name": "crypto",
+      "count": 1
+    },
+    {
+      "name": "market-microstructure",
+      "count": 1
+    },
+    {
+      "name": "order-flow",
+      "count": 1
+    },
+    {
+      "name": "trading",
+      "count": 1
+    },
+    {
+      "name": "analysis",
+      "count": 1
+    },
+    {
+      "name": "terraform",
+      "count": 1
+    },
+    {
+      "name": "pulumi",
+      "count": 1
+    },
+    {
+      "name": "iac",
+      "count": 1
+    },
+    {
+      "name": "devops",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "mental-model",
+      "count": 1
+    },
+    {
+      "name": "framework",
+      "count": 1
+    },
+    {
+      "name": "[Decision Systems, Knowledge Management, LLM]",
+      "count": 1
+    },
+    {
+      "name": "devira",
+      "count": 1
+    },
+    {
+      "name": "narrative-observatory",
+      "count": 1
+    },
+    {
+      "name": "convergence",
+      "count": 1
+    },
+    {
+      "name": "multi-source-signals",
+      "count": 1
+    },
+    {
+      "name": "business-glossary",
+      "count": 1
+    },
+    {
+      "name": "kpi",
+      "count": 1
+    },
+    {
+      "name": "semantic-layer",
+      "count": 1
+    },
+    {
+      "name": "measurement",
+      "count": 1
+    },
+    {
+      "name": "tracking",
+      "count": 1
+    },
+    {
+      "name": "data-architecture",
+      "count": 1
+    },
+    {
+      "name": "decision-intelligence",
+      "count": 1
+    },
+    {
+      "name": "data",
+      "count": 1
+    },
+    {
+      "name": "root-cause-analysis",
+      "count": 1
+    },
+    {
+      "name": "engineering",
+      "count": 1
+    },
+    {
+      "name": "linux",
+      "count": 1
+    },
+    {
+      "name": "storage",
+      "count": 1
+    },
+    {
+      "name": "smart",
+      "count": 1
+    },
+    {
+      "name": "ssd",
+      "count": 1
+    },
+    {
+      "name": "sata",
+      "count": 1
+    },
+    {
+      "name": "wordpress",
+      "count": 1
+    },
+    {
+      "name": "security",
+      "count": 1
+    },
+    {
+      "name": "audit",
+      "count": 1
+    },
+    {
+      "name": "migration",
+      "count": 1
+    },
+    {
+      "name": "checklist",
+      "count": 1
+    },
+    {
+      "name": "optionality",
+      "count": 1
+    },
+    {
+      "name": "resilience",
+      "count": 1
+    },
+    {
+      "name": "capability",
+      "count": 1
+    },
+    {
+      "name": "filsafat",
+      "count": 1
+    },
+    {
+      "name": "berpikir-abstrak",
+      "count": 1
+    },
+    {
+      "name": "ontologi",
+      "count": 1
+    },
+    {
+      "name": "sistem",
+      "count": 1
+    },
+    {
+      "name": "model-mental",
+      "count": 1
+    },
+    {
+      "name": "google-ai-overview",
+      "count": 1
+    },
+    {
+      "name": "digital-strategy",
+      "count": 1
+    },
+    {
+      "name": "product-thinking",
+      "count": 1
+    },
+    {
+      "name": "platform-thinking",
+      "count": 1
+    },
+    {
+      "name": "backlog",
+      "count": 1
+    },
+    {
+      "name": "github-issues",
+      "count": 1
+    },
+    {
+      "name": "institutional-memory",
+      "count": 1
+    },
+    {
+      "name": "workflow",
+      "count": 1
+    },
+    {
+      "name": "ai-audit",
+      "count": 1
+    },
+    {
+      "name": "data-quality",
+      "count": 1
+    },
+    {
+      "name": "cdp",
+      "count": 1
+    },
+    {
+      "name": "data-platform",
+      "count": 1
+    },
+    {
+      "name": "identity-stitching",
+      "count": 1
+    },
+    {
+      "name": "customer-intelligence",
+      "count": 1
+    },
+    {
+      "name": "lead-journey",
+      "count": 1
+    },
+    {
+      "name": "data-observability",
+      "count": 1
+    },
+    {
+      "name": "ga4",
+      "count": 1
+    },
+    {
+      "name": "revenue-intelligence",
+      "count": 1
+    },
+    {
+      "name": "attribution",
+      "count": 1
+    },
+    {
+      "name": "organizational-learning",
+      "count": 1
+    },
+    {
+      "name": "technical-roadmap",
+      "count": 1
+    },
+    {
+      "name": "technical-culture",
+      "count": 1
+    },
+    {
+      "name": "technical-talent",
+      "count": 1
+    },
+    {
+      "name": "technical-ownership",
+      "count": 1
+    },
+    {
+      "name": "talent-development",
+      "count": 1
+    },
+    {
+      "name": "engineering-culture",
+      "count": 1
+    },
+    {
+      "name": "ai-agent",
+      "count": 1
+    },
+    {
+      "name": "human-in-the-loop",
+      "count": 1
+    },
+    {
+      "name": "ai-system",
+      "count": 1
+    },
+    {
+      "name": "software-architecture",
+      "count": 1
+    },
+    {
+      "name": "system-design",
+      "count": 1
+    }
   ],
   "articles": [
     {
-      "title": "Buku Saku Pengambilan Keputusan",
-      "url": "/notes/2026-07-12-buku-saku-pengambilan-keputusan/",
-      "date": "2026-07-12",
-      "category": "Decision Systems",
-      "tags": ["decision-making", "framework", "guide"],
-      "word_count": 1850,
-      "reading_time": 8,
-      "internal_links": 6,
-      "last_updated": "2026-07-12"
+      "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
+      "url": "/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/",
+      "date": "2026-07-27",
+      "category": "AI Engineering",
+      "tags": [
+        "ai-system",
+        "software-architecture",
+        "ai-engineering",
+        "ai-governance",
+        "system-design"
+      ],
+      "word_count": 486,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-27"
     },
     {
-      "title": "KPI Tidak Pernah Menyelesaikan Perdebatan",
-      "url": "/notes/2026-07-13-kpi-tidak-pernah-menyelesaikan-perdebatan/",
-      "date": "2026-07-13",
+      "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
+      "url": "/notes/2026/07/26/membangun-ai-marketing-analyst/",
+      "date": "2026-07-26",
+      "category": "AI Engineering",
+      "tags": [
+        "ai-agent",
+        "human-in-the-loop",
+        "decision-system",
+        "marketing-analytics",
+        "ai-governance"
+      ],
+      "word_count": 478,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-26"
+    },
+    {
+      "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
+      "url": "/notes/2026/07/25/attribution-tanpa-governance/",
+      "date": "2026-07-25",
+      "category": "Business Intelligence",
+      "tags": [
+        "attribution",
+        "digital-marketing",
+        "analytics",
+        "data-governance",
+        "decision-system"
+      ],
+      "word_count": 417,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
+      "url": "/notes/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/",
+      "date": "2026-07-25",
       "category": "Decision Systems",
-      "tags": ["decision-making", "business", "metrics"],
-      "word_count": 1650,
-      "reading_time": 7,
-      "internal_links": 5,
+      "tags": [
+        "onboarding",
+        "capability-development",
+        "knowledge-management",
+        "organizational-learning",
+        "technical-roadmap"
+      ],
+      "word_count": 413,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
+      "url": "/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/",
+      "date": "2026-07-25",
+      "category": "Decision Systems",
+      "tags": [
+        "onboarding",
+        "system-thinking",
+        "technical-culture",
+        "capability-development",
+        "knowledge-management"
+      ],
+      "word_count": 475,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Onboarding Technical Talent: Dari Task Executor Menjadi Problem Solver\"",
+      "url": "/notes/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
+      "date": "2026-07-25",
+      "category": "Decision Systems",
+      "tags": [
+        "onboarding",
+        "technical-talent",
+        "problem-solving",
+        "ownership",
+        "system-thinking"
+      ],
+      "word_count": 454,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Technical Ownership: Mengukur Perkembangan dari Kualitas Pertanyaan\"",
+      "url": "/notes/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/",
+      "date": "2026-07-25",
+      "category": "Decision Systems",
+      "tags": [
+        "technical-ownership",
+        "talent-development",
+        "problem-solving",
+        "system-thinking",
+        "engineering-culture"
+      ],
+      "word_count": 430,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"AI Tidak Membuat Data Menjadi Benar: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern\"",
+      "url": "/notes/2026/07/24/ai-tidak-membuat-data-menjadi-benar/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "data-governance",
+        "data-quality",
+        "ai-engineering",
+        "decision-system"
+      ],
+      "word_count": 458,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Customer Data Platform: Ketika Data Customer Mulai Terfragmentasi\"",
+      "url": "/notes/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "cdp",
+        "customer-data",
+        "data-platform",
+        "marketing-intelligence",
+        "decision-system"
+      ],
+      "word_count": 328,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Dari Analytics ke Customer Intelligence: Memahami Perjalanan Customer\"",
+      "url": "/notes/2026/07/24/dari-analytics-ke-customer-intelligence/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "analytics",
+        "customer-journey",
+        "data-engineering",
+        "first-party-data",
+        "marketing-intelligence"
+      ],
+      "word_count": 311,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Identity Stitching: Menghubungkan Visitor Anonim Menjadi Customer Profile\"",
+      "url": "/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "identity-stitching",
+        "customer-data",
+        "first-party-data",
+        "data-engineering",
+        "customer-intelligence"
+      ],
+      "word_count": 297,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Lead Journey Trace: Observability untuk Digital Marketing\"",
+      "url": "/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "lead-journey",
+        "marketing-intelligence",
+        "data-observability",
+        "analytics",
+        "first-party-data"
+      ],
+      "word_count": 288,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Mengapa GA4 Tidak Selalu Cukup: Perbedaan Analytics dan Decision System\"",
+      "url": "/notes/2026/07/24/mengapa-ga4-tidak-selalu-cukup/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "ga4",
+        "analytics",
+        "decision-system",
+        "data-engineering",
+        "marketing-intelligence"
+      ],
+      "word_count": 271,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"Revenue Intelligence: Menghubungkan Marketing Activity dengan Business Outcome\"",
+      "url": "/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/",
+      "date": "2026-07-24",
+      "category": "Business Intelligence",
+      "tags": [
+        "revenue-intelligence",
+        "marketing-analytics",
+        "decision-system",
+        "customer-journey",
+        "business-intelligence"
+      ],
+      "word_count": 266,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-24"
+    },
+    {
+      "title": "\"AI dalam Audit Digital Marketing: Mengapa Akurasi Tidak Cukup Tanpa Governance\"",
+      "url": "/notes/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
+      "date": "2026-07-23",
+      "category": "AI Engineering",
+      "tags": [
+        "ai-audit",
+        "digital-marketing",
+        "data-governance",
+        "decision-system"
+      ],
+      "word_count": 481,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-23"
+    },
+    {
+      "title": "\"Mengubah Backlog Menjadi Institutional Memory\"",
+      "url": "/notes/2026/07/21/mengubah-backlog-menjadi-institutional-memory/",
+      "date": "2026-07-21",
+      "category": "Software Architecture",
+      "tags": [
+        "backlog",
+        "github-issues",
+        "institutional-memory",
+        "workflow"
+      ],
+      "word_count": 289,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-21"
+    },
+    {
+      "title": "\"Build From Repetition, Not Imagination\"",
+      "url": "/notes/2026/07/20/build-from-repetition-not-imagination/",
+      "date": "2026-07-20",
+      "category": "Software Architecture",
+      "tags": [
+        "internal-tools",
+        "automation",
+        "engineering-thinking"
+      ],
+      "word_count": 271,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-20"
+    },
+    {
+      "title": "\"Internal Tools Are Products for One Customer\"",
+      "url": "/notes/2026/07/20/internal-tools-are-products-for-one-customer/",
+      "date": "2026-07-20",
+      "category": "Software Architecture",
+      "tags": [
+        "internal-tools",
+        "product-thinking",
+        "engineering-thinking"
+      ],
+      "word_count": 265,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-20"
+    },
+    {
+      "title": "\"Stop Building Platforms Too Early\"",
+      "url": "/notes/2026/07/20/stop-building-platforms-too-early/",
+      "date": "2026-07-20",
+      "category": "Software Architecture",
+      "tags": [
+        "internal-tools",
+        "platform-thinking",
+        "engineering-thinking"
+      ],
+      "word_count": 272,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-20"
+    },
+    {
+      "title": "\"The Tool-Building Trap\"",
+      "url": "/notes/2026/07/20/the-tool-building-trap/",
+      "date": "2026-07-20",
+      "category": "Software Architecture",
+      "tags": [
+        "internal-tools",
+        "automation",
+        "engineering-thinking"
+      ],
+      "word_count": 292,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-20"
+    },
+    {
+      "title": "\"Content Layering: Membangun Topical Authority Tanpa Menjadi Content Farm\"",
+      "url": "/notes/2026/07/18/content-layering-topical-authority-without-content-farm/",
+      "date": "2026-07-18",
+      "category": "AI Engineering",
+      "tags": [
+        "seo",
+        "content-strategy",
+        "topical-authority",
+        "knowledge-architecture",
+        "digital-marketing"
+      ],
+      "word_count": 617,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-18"
+    },
+    {
+      "title": "\"SEO Memerlukan Dua Sistem: Mesin Eksekusi dan Sistem Navigasi\"",
+      "url": "/notes/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/",
+      "date": "2026-07-18",
+      "category": "AI Engineering",
+      "tags": [
+        "seo",
+        "knowledge-architecture",
+        "content-strategy",
+        "topical-authority",
+        "ai-search"
+      ],
+      "word_count": 555,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-18"
+    },
+    {
+      "title": "\"From SEO to Knowledge Architecture: Lessons from Auditing Google AI Overview\"",
+      "url": "/notes/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
+      "date": "2026-07-17",
+      "category": "AI Engineering",
+      "tags": [
+        "seo",
+        "knowledge-architecture",
+        "google-ai-overview",
+        "digital-strategy",
+        "ai-search"
+      ],
+      "word_count": 620,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-17"
+    },
+    {
+      "title": "\"Capability Dibangun Sebelum Dibutuhkan\"",
+      "url": "/notes/2026/07/15/capability-dibangun-sebelum-dibutuhkan/",
+      "date": "2026-07-15",
+      "category": "Decision Systems",
+      "tags": [
+        "optionality",
+        "resilience",
+        "capability",
+        "strategy"
+      ],
+      "word_count": 331,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-15"
+    },
+    {
+      "title": "\"Dari Simbolik ke Ontologi: Tangga Cara Berpikir yang Sering Terlewat\"",
+      "url": "/notes/2026/07/15/dari-simbolik-ke-ontologi/",
+      "date": "2026-07-15",
+      "category": "Decision Systems",
+      "tags": [
+        "filsafat",
+        "berpikir-abstrak",
+        "ontologi",
+        "sistem",
+        "model-mental"
+      ],
+      "word_count": 389,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-15"
+    },
+    {
+      "title": "\"Insight Tidak Pernah Muncul dari Dashboard\"",
+      "url": "/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
+      "date": "2026-07-14",
+      "category": "Decision Intelligence",
+      "tags": [
+        "decision-intelligence",
+        "analytics",
+        "dashboard",
+        "data",
+        "systems-thinking"
+      ],
+      "word_count": 209,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-14"
+    },
+    {
+      "title": "\"Root Cause Analysis Lebih Penting daripada Solusi Cepat\"",
+      "url": "/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/",
+      "date": "2026-07-14",
+      "category": "Decision Intelligence",
+      "tags": [
+        "root-cause-analysis",
+        "troubleshooting",
+        "decision-making",
+        "systems-thinking",
+        "engineering"
+      ],
+      "word_count": 456,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-14"
+    },
+    {
+      "title": "\"SMART PASSED Bukan Berarti Storage Sehat: Memahami Perbedaan Media Error dan SATA CRC Error\"",
+      "url": "/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/",
+      "date": "2026-07-14",
+      "category": "Infrastructure",
+      "tags": [
+        "linux",
+        "storage",
+        "smart",
+        "ssd",
+        "sata",
+        "troubleshooting"
+      ],
+      "word_count": 514,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-07-14"
+    },
+    {
+      "title": "\"WordPress Security Audit Checklist Before Migration\"",
+      "url": "/notes/2026/07/14/wordpress-security-audit-checklist-before-migration/",
+      "date": "2026-07-14",
+      "category": "Digital Garden",
+      "tags": [
+        "wordpress",
+        "security",
+        "audit",
+        "migration",
+        "checklist"
+      ],
+      "word_count": 589,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-14"
+    },
+    {
+      "title": "\"KPI Tidak Pernah Menyelesaikan Perdebatan\"",
+      "url": "/notes/2026/07/13/kpi-tidak-pernah-menyelesaikan-perdebatan/",
+      "date": "2026-07-13",
+      "category": "Business Architecture",
+      "tags": [
+        "business-glossary",
+        "kpi",
+        "ownership",
+        "semantic-layer",
+        "decision-making"
+      ],
+      "word_count": 313,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2026-07-13"
     },
     {
-      "title": "Knowledge Extraction Engine",
-      "url": "/notes/2026-07-12-knowledge-extraction-engine/",
+      "title": "\"Measurement Bukan Tujuan: Mendesain Sistem Tracking Berdasarkan Keputusan Bisnis\"",
+      "url": "/notes/2026/07/13/measurement-bukan-tujuan/",
+      "date": "2026-07-13",
+      "category": "Decision Intelligence",
+      "tags": [
+        "measurement",
+        "analytics",
+        "tracking",
+        "observability",
+        "business-intelligence",
+        "digital-garden"
+      ],
+      "word_count": 761,
+      "reading_time": 5,
+      "internal_links": 0,
+      "last_updated": "2026-07-13"
+    },
+    {
+      "title": "\"Real-Time Bukan Berarti Cepat\"",
+      "url": "/notes/2026/07/13/real-time-bukan-berarti-cepat/",
+      "date": "2026-07-13",
+      "category": "Digital Garden",
+      "tags": [
+        "observability",
+        "analytics",
+        "dashboard",
+        "decision-system",
+        "digital-garden",
+        "data-architecture"
+      ],
+      "word_count": 551,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-13"
+    },
+    {
+      "title": "\"Buku Saku Pengambilan Keputusan & Memberi Pertimbangan\"",
+      "url": "/notes/2026/07/12/buku-saku-pengambilan-keputusan/",
       "date": "2026-07-12",
-      "category": "AI Engineering",
-      "tags": ["ai", "knowledge", "extraction"],
-      "word_count": 2100,
-      "reading_time": 9,
-      "internal_links": 8,
+      "category": "Decision Systems",
+      "tags": [
+        "mental-model",
+        "framework",
+        "decision-making"
+      ],
+      "word_count": 351,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2026-07-12"
     },
     {
-      "title": "Radar Observatory",
-      "url": "/notes/2026-07-12-radar-observatory-2026-07-12/",
+      "title": "\"Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence\"",
+      "url": "/notes/2026/07/12/knowledge-extraction-engine/",
       "date": "2026-07-12",
-      "category": "Crypto Observation",
-      "tags": ["crypto", "observability", "market"],
-      "word_count": 1420,
-      "reading_time": 6,
-      "internal_links": 4,
+      "category": "[AI Engineering, Prompt Engineering]",
+      "tags": [
+        "[Decision Systems, Knowledge Management, LLM]"
+      ],
+      "word_count": 347,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2026-07-12"
     },
     {
-      "title": "Infrastructure as Code",
-      "url": "/notes/2025-01-05-infrastructure-as-code/",
+      "title": "\"Devira Observatory — 12 Juli 2026: Convergence Menguat, Namun Bukti Belum Lengkap\"",
+      "url": "/notes/2026/07/12/radar-observatory-2026-07-12/",
+      "date": "2026-07-12",
+      "category": "Narrative Observatory",
+      "tags": [
+        "devira",
+        "narrative-observatory",
+        "convergence",
+        "observability",
+        "multi-source-signals"
+      ],
+      "word_count": 648,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-07-12"
+    },
+    {
+      "title": "\"Infrastructure as Code: Terraform vs Pulumi\"",
+      "url": "/notes/2025/01/05/infrastructure-as-code/",
       "date": "2025-01-05",
       "category": "Infrastructure",
-      "tags": ["devops", "infrastructure", "automation"],
-      "word_count": 1890,
-      "reading_time": 8,
-      "internal_links": 5,
+      "tags": [
+        "terraform",
+        "pulumi",
+        "iac",
+        "devops",
+        "infrastructure"
+      ],
+      "word_count": 295,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2025-01-05"
     },
     {
-      "title": "Event-Driven Architecture",
-      "url": "/notes/2024-12-25-event-driven-architecture/",
-      "date": "2024-12-25",
-      "category": "Software Architecture",
-      "tags": ["architecture", "event-driven", "patterns"],
-      "word_count": 2240,
-      "reading_time": 10,
-      "internal_links": 7,
-      "last_updated": "2024-12-25"
-    },
-    {
-      "title": "Crypto Market Microstructure",
-      "url": "/notes/2024-12-28-crypto-market-microstructure/",
+      "title": "\"Crypto Market Microstructure: Understanding Order Flow\"",
+      "url": "/notes/2024/12/28/crypto-market-microstructure/",
       "date": "2024-12-28",
       "category": "Crypto Observation",
-      "tags": ["crypto", "market", "microstructure"],
-      "word_count": 1980,
-      "reading_time": 9,
-      "internal_links": 4,
+      "tags": [
+        "crypto",
+        "market-microstructure",
+        "order-flow",
+        "trading",
+        "analysis"
+      ],
+      "word_count": 210,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2024-12-28"
     },
     {
-      "title": "Reasoning Engine",
-      "url": "/notes/2024-12-15-reasoning-engine/",
-      "date": "2024-12-15",
-      "category": "AI Engineering",
-      "tags": ["ai", "reasoning", "engine"],
-      "word_count": 2450,
-      "reading_time": 11,
-      "internal_links": 8,
-      "last_updated": "2024-12-15"
+      "title": "\"Event-Driven Architecture: Patterns and Practices\"",
+      "url": "/notes/2024/12/25/event-driven-architecture/",
+      "date": "2024-12-25",
+      "category": "Software Architecture",
+      "tags": [
+        "event-driven",
+        "microservices",
+        "architecture",
+        "patterns"
+      ],
+      "word_count": 249,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2024-12-25"
     },
     {
-      "title": "OODA Loop Architecture",
-      "url": "/notes/2024-12-20-ooda-loop-architecture/",
+      "title": "\"Decision Framework: OODA Loop untuk Software Architecture\"",
+      "url": "/notes/2024/12/20/ooda-loop-architecture/",
       "date": "2024-12-20",
       "category": "Decision Systems",
-      "tags": ["decision-making", "framework", "systems"],
-      "word_count": 1760,
-      "reading_time": 8,
-      "internal_links": 6,
+      "tags": [
+        "ooda-loop",
+        "decision-making",
+        "architecture",
+        "strategy"
+      ],
+      "word_count": 205,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2024-12-20"
     },
     {
-      "title": "Why I Write in Public",
-      "url": "/notes/2024-12-10-why-i-write-in-public/",
+      "title": "\"Reasoning Engine: Dari Knowledge ke Cara Berpikir\"",
+      "url": "/notes/2024/12/15/reasoning-engine/",
+      "date": "2024-12-15",
+      "category": "AI Engineering",
+      "tags": [
+        "reasoning",
+        "llm",
+        "chain-of-thought",
+        "ai"
+      ],
+      "word_count": 227,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2024-12-15"
+    },
+    {
+      "title": "\"Mengapa Saya Menulis di Ruang Publik\"",
+      "url": "/notes/2024/12/10/why-i-write-in-public/",
       "date": "2024-12-10",
       "category": "Meta",
-      "tags": ["public-writing", "meta", "thinking"],
-      "word_count": 1120,
-      "reading_time": 5,
-      "internal_links": 2,
+      "tags": [
+        "writing",
+        "learning",
+        "public",
+        "digital-garden"
+      ],
+      "word_count": 231,
+      "reading_time": 2,
+      "internal_links": 0,
       "last_updated": "2024-12-10"
     }
   ],
   "newest_articles": [
-    { "title": "KPI Tidak Pernah Menyelesaikan Perdebatan", "date": "2026-07-13", "category": "Decision Systems" },
-    { "title": "Buku Saku Pengambilan Keputusan", "date": "2026-07-12", "category": "Decision Systems" },
-    { "title": "Knowledge Extraction Engine", "date": "2026-07-12", "category": "AI Engineering" },
-    { "title": "Radar Observatory", "date": "2026-07-12", "category": "Crypto Observation" }
+    {
+      "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
+      "date": "2026-07-27",
+      "category": "AI Engineering"
+    },
+    {
+      "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
+      "date": "2026-07-26",
+      "category": "AI Engineering"
+    },
+    {
+      "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
+      "date": "2026-07-25",
+      "category": "Business Intelligence"
+    },
+    {
+      "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
+      "date": "2026-07-25",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
+      "date": "2026-07-25",
+      "category": "Decision Systems"
+    }
   ],
   "most_updated": [
-    { "title": "Reasoning Engine", "updates": 5, "last_updated": "2024-12-15" },
-    { "title": "OODA Loop Architecture", "updates": 4, "last_updated": "2024-12-20" },
-    { "title": "Event-Driven Architecture", "updates": 3, "last_updated": "2024-12-25" },
-    { "title": "Infrastructure as Code", "updates": 3, "last_updated": "2025-01-05" }
+    {
+      "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
+      "updates": 1,
+      "last_updated": "2026-07-27"
+    },
+    {
+      "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
+      "updates": 1,
+      "last_updated": "2026-07-26"
+    },
+    {
+      "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
+      "updates": 1,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
+      "updates": 1,
+      "last_updated": "2026-07-25"
+    },
+    {
+      "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
+      "updates": 1,
+      "last_updated": "2026-07-25"
+    }
   ]
 }

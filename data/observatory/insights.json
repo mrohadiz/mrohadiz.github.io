@@ -1,98 +1,112 @@
 {
-  "collected_at": "2026-07-13T06:00:00Z",
+  "collected_at": "2026-07-25T06:54:52.094Z",
   "insights": [
     {
-      "id": 1,
       "type": "positive",
       "category": "search",
-      "title": "Organic traffic increased 17% compared with last week",
-      "description": "Total clicks grew from 1,068 to 1,247, driven by improved rankings for decision intelligence queries.",
+      "title": "Organic traffic increased 17% compared with last period",
+      "description": "Total clicks grew from 1,068 to 1,247.",
       "metric": "+17%",
       "metric_label": "Clicks Growth",
       "icon": "trending-up",
       "priority": "high"
     },
     {
-      "id": 2,
       "type": "positive",
-      "category": "knowledge",
-      "title": "Decision Systems became the fastest growing category",
-      "description": "With 3 new articles and 4 internal links, Decision Systems now matches AI Engineering in total content.",
-      "metric": "3 articles",
-      "metric_label": "New Content",
+      "category": "traffic",
+      "title": "Site visitors increased 17%",
+      "description": "From 2,431 to 2,847 users this period.",
+      "metric": "+17%",
+      "metric_label": "Users Growth",
+      "icon": "users",
+      "priority": "high"
+    },
+    {
+      "type": "positive",
+      "category": "search",
+      "title": "\"decision intelligence framework\" is the fastest growing query",
+      "description": "Clicks increased 71% from 52 to 89.",
+      "metric": "+71%",
+      "metric_label": "Query Growth",
       "icon": "zap",
       "priority": "medium"
     },
     {
-      "id": 3,
-      "type": "positive",
-      "category": "search",
-      "title": "Article 'Buku Saku Pengambilan Keputusan' became the highest impression page",
-      "description": "This article generated 2,340 impressions with a 6.7% CTR, outperforming all other pages in the garden.",
-      "metric": "2,340",
-      "metric_label": "Impressions",
-      "icon": "eye",
-      "priority": "high"
-    },
-    {
-      "id": 4,
-      "type": "warning",
-      "category": "search",
-      "title": "CTR dropped despite increasing impressions",
-      "description": "While impressions grew 14.4%, CTR only improved marginally from 6.46% to 6.59%. Consider optimizing meta descriptions.",
-      "metric": "+0.2%",
-      "metric_label": "CTR Change",
-      "icon": "alert-triangle",
-      "priority": "medium"
-    },
-    {
-      "id": 5,
       "type": "positive",
       "category": "traffic",
-      "title": "Returning users grew by 16%",
-      "description": "892 returning users visited the garden, up from 768 in the previous period. Audience loyalty is improving.",
-      "metric": "+16%",
-      "metric_label": "Returning Users",
-      "icon": "users",
+      "title": "Average engagement time improved 14%",
+      "description": "Users now spend 187 seconds on average, up from 164 seconds.",
+      "metric": "+14%",
+      "metric_label": "Engagement",
+      "icon": "clock",
       "priority": "medium"
     },
     {
-      "id": 6,
+      "type": "warning",
+      "category": "traffic",
+      "title": "Mobile engagement is 34% lower than desktop",
+      "description": "Consider improving mobile reading experience for better retention.",
+      "metric": "-34%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
+      "priority": "medium"
+    },
+    {
+      "type": "positive",
+      "category": "search",
+      "title": "\"decision intelligence framework\" is your top search query",
+      "description": "Generating 89 clicks with 1,240 impressions and a 7.2% CTR.",
+      "metric": "89",
+      "metric_label": "Clicks",
+      "icon": "search",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "traffic",
+      "title": "Google Organic drives 55% of traffic",
+      "description": "1,876 sessions from Google Organic this period.",
+      "metric": "55%",
+      "metric_label": "Traffic Share",
+      "icon": "globe",
+      "priority": "low"
+    },
+    {
       "type": "neutral",
       "category": "publishing",
-      "title": "5 consecutive days of commits",
-      "description": "Active publishing streak is underway with 11 commits in the last 30 days, focused on Decision Systems content.",
-      "metric": "5 days",
+      "title": "3 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "3 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
     },
     {
-      "id": 7,
-      "type": "positive",
-      "category": "knowledge",
-      "title": "Knowledge Extraction Engine became the most internally linked article",
-      "description": "With 8 internal links, this article serves as a hub connecting AI Engineering to Decision Systems content.",
-      "metric": "8 links",
-      "metric_label": "Internal Links",
-      "icon": "link",
-      "priority": "medium"
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "description": "Committed 7/25/2026.",
+      "metric": "10",
+      "metric_label": "Recent Commits",
+      "icon": "git-commit",
+      "priority": "low"
     },
     {
-      "id": 8,
-      "type": "warning",
-      "category": "traffic",
-      "title": "Mobile engagement time is 34% lower than desktop",
-      "description": "Mobile users average 124 seconds vs 187 seconds on desktop. Consider improving mobile reading experience.",
-      "metric": "-34%",
-      "metric_label": "Mobile Engagement",
-      "icon": "smartphone",
-      "priority": "medium"
+      "type": "positive",
+      "category": "knowledge",
+      "title": "Digital garden contains 41 articles",
+      "description": "Across 12 categories with 122 unique tags. Total word count: 15,910.",
+      "metric": "41",
+      "metric_label": "Articles",
+      "icon": "book-open",
+      "priority": "low"
     }
   ],
-  "generated_at": "2026-07-13T06:00:00Z",
+  "generated_at": "2026-07-25T06:54:52.094Z",
   "analysis_period": {
-    "current": "2026-06-13 to 2026-07-13",
-    "previous": "2026-05-14 to 2026-06-12"
+    "current": {
+      "start": "2026-06-13",
+      "end": "2026-07-13"
+    }
   }
 }
