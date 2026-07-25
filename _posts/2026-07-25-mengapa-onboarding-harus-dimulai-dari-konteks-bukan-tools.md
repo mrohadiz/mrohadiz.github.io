@@ -11,6 +11,7 @@ tags:
   - capability-development
   - knowledge-management
 excerpt: "Onboarding yang efektif tidak dimulai dari daftar tools yang harus dipelajari, tetapi dari pemahaman konteks, tujuan, dan sistem yang sedang dibangun oleh organisasi."
+image: /assets/images/og/2026-07-25-mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools.png
 ---
 
 # Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools
