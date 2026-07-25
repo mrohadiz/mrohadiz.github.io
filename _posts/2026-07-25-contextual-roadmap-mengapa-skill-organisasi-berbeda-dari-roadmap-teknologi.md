@@ -11,6 +11,7 @@ tags:
   - organizational-learning
   - technical-roadmap
 excerpt: "Roadmap teknologi membantu memahami luasnya dunia teknis, tetapi organisasi membutuhkan contextual roadmap yang menghubungkan skill dengan problem, sistem, dan keputusan nyata."
+image: /assets/images/og/2026-07-25-contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi.png
 ---
 
 # Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi
