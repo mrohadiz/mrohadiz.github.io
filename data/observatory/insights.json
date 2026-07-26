@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-25T06:54:52.094Z",
+  "collected_at": "2026-07-26T07:02:48.569Z",
   "insights": [
     {
       "type": "positive",
@@ -74,17 +74,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "3 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "3 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "title": "Latest commit: chore: update observatory data 2026-07-25",
       "description": "Committed 7/25/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -100,9 +90,19 @@
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
+    },
+    {
+      "type": "positive",
+      "category": "knowledge",
+      "title": "Decision Systems is the most content-rich category",
+      "description": "With 8 articles, representing 20% of all content.",
+      "metric": "8",
+      "metric_label": "Articles",
+      "icon": "folder",
+      "priority": "low"
     }
   ],
-  "generated_at": "2026-07-25T06:54:52.094Z",
+  "generated_at": "2026-07-26T07:02:48.569Z",
   "analysis_period": {
     "current": {
       "start": "2026-06-13",
