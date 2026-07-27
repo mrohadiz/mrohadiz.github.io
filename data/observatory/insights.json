@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-26T07:02:48.569Z",
+  "collected_at": "2026-07-27T07:21:06.888Z",
   "insights": [
     {
       "type": "positive",
@@ -74,8 +74,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-07-25",
-      "description": "Committed 7/25/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-07-26",
+      "description": "Committed 7/26/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-07-26T07:02:48.569Z",
+  "generated_at": "2026-07-27T07:21:06.888Z",
   "analysis_period": {
     "current": {
       "start": "2026-06-13",
