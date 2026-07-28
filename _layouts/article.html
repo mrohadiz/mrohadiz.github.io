@@ -36,6 +36,36 @@ layout: default
   </div>
 {% endif %}
 
+<!-- Series Navigation Badge -->
+{% if page.series %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "date" %}
+  {% assign series_size = series_posts | size %}
+  {% if series_size > 1 %}
+    {% assign series_index = 0 %}
+    {% for p in series_posts %}
+      {% if p.url == page.url %}
+        {% assign series_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+    {% assign series_prev = series_posts[series_index | minus: 1] %}
+    {% assign series_next = series_posts[series_index | plus: 1] %}
+    <div class="series-badge">
+      <div class="series-badge-header">
+        <span class="series-badge-label">{{ page.series | replace: "-", " " | capitalize }}</span>
+        <span class="series-badge-position">{{ series_index | plus: 1 }} of {{ series_size }}</span>
+      </div>
+      <nav class="series-badge-nav">
+        {% if series_prev %}
+          <a href="{{ series_prev.url | relative_url }}" class="series-nav-link series-prev">&larr; {{ series_prev.title | truncate: 50 }}</a>
+        {% endif %}
+        {% if series_next %}
+          <a href="{{ series_next.url | relative_url }}" class="series-nav-link series-next">{{ series_next.title | truncate: 50 }} &rarr;</a>
+        {% endif %}
+      </nav>
+    </div>
+  {% endif %}
+{% endif %}
+
 <!-- Article Body -->
 <article class="article-content">
   <div class="article-layout">
@@ -100,6 +130,9 @@ layout: default
         {% if p.categories.first == page.categories.first %}
           {% assign score = score | plus: 5 %}
         {% endif %}
+        {% if p.series and p.series == page.series %}
+          {% assign score = score | plus: 10 %}
+        {% endif %}
         {% assign shared_tags = 0 %}
         {% for tag in p.tags %}
           {% if page.tags contains tag %}
@@ -134,6 +167,52 @@ layout: default
     {% endif %}
   </ul>
 </section>
+
+<!-- Cross-Series Recommendations -->
+{% if page.series %}
+  {% assign all_series_map = "" | split: "," %}
+  {% assign other_series_names = site.posts | where_exp: "p", "p.series and p.series != page.series" | map: "series" | uniq %}
+  {% for s_name in other_series_names %}
+    {% assign s_posts = site.posts | where: "series", s_name %}
+    {% assign total_tags = 0 %}
+    {% assign matched_tags = 0 %}
+    {% for s_post in s_posts %}
+      {% for tag in s_post.tags %}
+        {% assign total_tags = total_tags | plus: 1 %}
+        {% if page.tags contains tag %}
+          {% assign matched_tags = matched_tags | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if matched_tags > 0 %}
+      {% assign score = matched_tags | times: 100 | divided_by: total_tags %}
+      {% capture score_str %}{{ score | prepend: '00' | slice: -3, 3 }}|{{ s_name }}{% endcapture %}
+      {% assign all_series_map = all_series_map | push: score_str %}
+    {% endif %}
+  {% endfor %}
+  {% assign sorted_series = all_series_map | sort | reverse %}
+  {% if sorted_series.size > 0 %}
+    <section class="cross-series">
+      <h3>Related Series</h3>
+      <div class="cross-series-grid">
+      {% for ss in sorted_series limit: 3 %}
+        {% assign parts = ss | split: "|" %}
+        {% assign s_slug = parts[1] %}
+        {% assign s_display = s_slug | replace: "-", " " | capitalize %}
+        {% assign s_articles = site.posts | where: "series", s_slug | sort: "date" %}
+        <div class="cross-series-card">
+          <h4 class="cross-series-title">{{ s_display }}</h4>
+          <ul class="cross-series-list">
+          {% for sa in s_articles limit: 3 %}
+            <li><a href="{{ sa.url | relative_url }}">{{ sa.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endif %}
 
 <div class="author-card-wrapper">
   {% include author-card.html %}
