@@ -136,26 +136,34 @@ layout: default
   <h3>Deepen Your Understanding</h3>
   <ul>
     {% assign related_scores = "" | split: "," %}
+    
+    <!-- Primary scoring: Category first (domain-based) -->
     {% for p in site.posts %}
       {% if p.url != page.url %}
         {% assign score = 0 %}
+        
+        <!-- Category match (highest priority) -->
         {% if p.categories.first == page.categories.first %}
-          {% assign score = score | plus: 5 %}
+          {% assign score = score | plus: 100 %}
         {% endif %}
+        
+        <!-- Series match -->
         {% if p.series and p.series == page.series %}
-          {% assign score = score | plus: 10 %}
+          {% assign score = score | plus: 50 %}
         {% endif %}
+        
+        <!-- Tag matches -->
         {% assign shared_tags = 0 %}
         {% for tag in p.tags %}
           {% if page.tags contains tag %}
             {% assign shared_tags = shared_tags | plus: 1 %}
           {% endif %}
         {% endfor %}
-        {% assign tag_score = shared_tags | times: 3 %}
+        {% assign tag_score = shared_tags | times: 10 %}
         {% assign score = score | plus: tag_score %}
         
         {% if score > 0 %}
-          {% capture score_str %}{{ score | prepend: '00' | slice: -3, 3 }}|{{ p.url }}|{{ p.title }}{% endcapture %}
+          {% capture score_str %}{{ score | prepend: '0000' | slice: -4, 4 }}|{{ p.url }}|{{ p.title }}{% endcapture %}
           {% assign related_scores = related_scores | push: score_str %}
         {% endif %}
       {% endif %}
@@ -163,6 +171,7 @@ layout: default
     
     {% assign related_scores = related_scores | sort | reverse %}
     
+    <!-- Display top 4 from same category -->
     {% assign count = 0 %}
     {% for item in related_scores limit: 4 %}
       {% assign parts = item | split: "|" %}
@@ -170,12 +179,20 @@ layout: default
       {% assign count = count | plus: 1 %}
     {% endfor %}
     
+    <!-- Fallback: only if no related articles found from same category -->
     {% if count == 0 %}
-      {% for p in site.posts limit: 3 %}
-        {% if p.url != page.url %}
+      {% for p in site.posts %}
+        {% if p.url != page.url and p.categories.first == page.categories.first %}
           <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% assign count = count | plus: 1 %}
+          {% if count >= 3 %}{% break %}{% endif %}
         {% endif %}
       {% endfor %}
+    {% endif %}
+    
+    <!-- Last resort: if still empty (e.g., single article in category) show note -->
+    {% if count == 0 %}
+      <li style="color: var(--color-text-muted); font-style: italic;">Explore more {{ page.categories.first | downcase }} articles using tags and search.</li>
     {% endif %}
   </ul>
 </section>

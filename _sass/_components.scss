@@ -2145,3 +2145,190 @@ details > *:not(summary) { padding: var(--space-5); }
     rgba(180, 120, 100, 0.05) 100%
   );
 }
+
+// LEARNING PATH COMPONENT
+// ============================================================
+.learning-path-container {
+  padding: var(--space-4);
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-8);
+
+  // Color variants
+  &.primary { border-color: var(--color-primary); }
+  &.success { border-color: var(--color-success); }
+  &.warning { border-color: var(--color-warning); }
+  &.danger { border-color: var(--color-danger); }
+  &.text-secondary { border-color: var(--color-text-secondary); }
+  &.info { border-color: #3B82F6; } // Blue for Business Intelligence
+}
+
+.learning-path-item {
+  margin-bottom: var(--space-2);
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.learning-path-link {
+  text-decoration: none;
+  font-weight: var(--weight-medium);
+  color: var(--color-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: var(--radius-sm);
+  }
+
+  &::before {
+    content: '↓';
+    display: inline-block;
+  }
+}
+
+// ============================================================
+// SERIES COMPONENT
+// ============================================================
+.series-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+.series-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.series-title {
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+  text-transform: capitalize;
+}
+
+.series-link {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: var(--weight-normal);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  transition: all var(--transition-fast);
+
+  &:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: var(--radius-sm);
+  }
+
+  &::before {
+    content: '→';
+    display: inline-block;
+  }
+}
+
+.series-empty {
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+// ============================================================
+// RELATED CONCEPTS CONTAINER
+// ============================================================
+.concepts-container {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-6);
+
+  .badge { text-decoration: none; }
+}
+
+// ============================================================
+// TOPICS GRID (for /topics page)
+// ============================================================
+.topics-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.topic-card {
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-alt);
+  transition: all var(--transition-base);
+
+  &:hover {
+    border-color: var(--color-border-strong);
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+.topic-card-title {
+  margin-top: 0;
+  margin-bottom: var(--space-2);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: color var(--transition-fast);
+
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-primary-hover);
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: var(--focus-ring);
+      border-radius: var(--radius-sm);
+    }
+  }
+}
+
+.topic-card-count {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: 0;
+
+  strong { color: var(--color-text-primary); }
+}
+
+.topic-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}

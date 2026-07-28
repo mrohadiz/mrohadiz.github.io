@@ -17,7 +17,8 @@
     "test:e2e": "npx playwright test --project=firefox",
     "quality-gate": "node tests/e2e/quality-gate.js",
     "quality-gate:update-snapshots": "npx playwright test --project=firefox --update-snapshots && node tests/e2e/quality-gate.js",
-    "test:static-audit": "node tests/static-audit.js"
+    "test:static-audit": "node tests/static-audit.js",
+    "audit:topics": "node scripts/audit-topics.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,10 @@
     "@playwright/test": "^1.61.1",
     "jsdom": "^29.1.1",
     "lighthouse": "^13.4.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.5.0",
+    "node-cron": "^4.6.0"
   }
 }

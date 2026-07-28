@@ -15,9 +15,9 @@ badge-class: badge-primary
 Dalam transisi dari *Proof of Concept* ke *Production*, sistem AI sering rapuh. Disiplin ini memastikan arsitektur dapat mentolerir halusinasi, melakukan *multi-step reasoning*, dan diskalakan dengan aman di skala enterprise.
 
 ### Related Concepts
-<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;">
-  <a href="/topics/decision-systems/" class="badge badge-success" style="text-decoration:none;">Decision Systems</a>
-  <a href="/topics/infrastructure/" class="badge badge-warning" style="text-decoration:none;">Infrastructure</a>
+<div class="concepts-container">
+  <a href="/topics/decision-systems/" class="badge badge-success">Decision Systems</a>
+  <a href="/topics/infrastructure/" class="badge badge-warning">Infrastructure</a>
   <span class="badge badge-outline">LLM</span>
   <span class="badge badge-outline">RAG</span>
   <span class="badge badge-outline">Reasoning</span>
@@ -25,10 +25,10 @@ Dalam transisi dari *Proof of Concept* ke *Production*, sistem AI sering rapuh. 
 
 ### Recommended Learning Path
 Ikuti alur bacaan ini untuk membangun fondasi pemahaman secara bertahap:
-<div style="padding: 16px; background: var(--color-bg-alt); border-left: 4px solid var(--color-primary); margin-bottom: 32px;">
+<div class="learning-path-container">
 {% assign sorted = topic_posts | sort: "date" %}
 {% for p in sorted %}
-  <div style="margin-bottom: 8px;"><a href="{{ p.url | relative_url }}" style="text-decoration:none; font-weight:500;">&darr; {{ p.title }}</a></div>
+  <div class="learning-path-item"><a href="{{ p.url | relative_url }}" class="learning-path-link">{{ p.title }}</a></div>
 {% else %}
   <div>Belum ada artikel di jalur ini.</div>
 {% endfor %}

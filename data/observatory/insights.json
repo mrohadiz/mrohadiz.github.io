@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-27T07:21:06.888Z",
+  "collected_at": "2026-07-28T04:25:12.560Z",
   "insights": [
     {
       "type": "positive",
@@ -13,32 +13,12 @@
     },
     {
       "type": "positive",
-      "category": "traffic",
-      "title": "Site visitors increased 17%",
-      "description": "From 2,431 to 2,847 users this period.",
-      "metric": "+17%",
-      "metric_label": "Users Growth",
-      "icon": "users",
-      "priority": "high"
-    },
-    {
-      "type": "positive",
       "category": "search",
       "title": "\"decision intelligence framework\" is the fastest growing query",
       "description": "Clicks increased 71% from 52 to 89.",
       "metric": "+71%",
       "metric_label": "Query Growth",
       "icon": "zap",
-      "priority": "medium"
-    },
-    {
-      "type": "positive",
-      "category": "traffic",
-      "title": "Average engagement time improved 14%",
-      "description": "Users now spend 187 seconds on average, up from 164 seconds.",
-      "metric": "+14%",
-      "metric_label": "Engagement",
-      "icon": "clock",
       "priority": "medium"
     },
     {
@@ -64,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Google Organic drives 55% of traffic",
-      "description": "1,876 sessions from Google Organic this period.",
-      "metric": "55%",
+      "title": "Direct drives 100% of traffic",
+      "description": "395 sessions from Direct this period.",
+      "metric": "100%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -102,7 +82,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-07-27T07:21:06.888Z",
+  "generated_at": "2026-07-28T04:25:12.561Z",
   "analysis_period": {
     "current": {
       "start": "2026-06-13",

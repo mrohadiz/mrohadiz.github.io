@@ -15,9 +15,9 @@ badge-class: badge-outline
 Arsitektur bukan hanya sekadar membuat sistem bekerja, tetapi tentang memastikan ia dapat berevolusi bersama bisnis. Pola seperti *Event-Driven* atau *Microservices* memberikan keluwesan sekaligus kompleksitas tersendiri.
 
 ### Related Concepts
-<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;">
-  <a href="/topics/infrastructure/" class="badge badge-warning" style="text-decoration:none;">Infrastructure</a>
-  <a href="/topics/decision-systems/" class="badge badge-success" style="text-decoration:none;">Decision Systems</a>
+<div class="concepts-container">
+  <a href="/topics/infrastructure/" class="badge badge-warning">Infrastructure</a>
+  <a href="/topics/decision-systems/" class="badge badge-success">Decision Systems</a>
   <span class="badge badge-outline">Event-Driven</span>
   <span class="badge badge-outline">Microservices</span>
   <span class="badge badge-outline">Patterns</span>
@@ -25,10 +25,10 @@ Arsitektur bukan hanya sekadar membuat sistem bekerja, tetapi tentang memastikan
 
 ### Recommended Learning Path
 Ikuti alur bacaan ini untuk membangun fondasi pemahaman secara bertahap:
-<div style="padding: 16px; background: var(--color-bg-alt); border-left: 4px solid var(--color-text-secondary); margin-bottom: 32px;">
+<div class="learning-path-container text-secondary">
 {% assign sorted = topic_posts | sort: "date" %}
 {% for p in sorted %}
-  <div style="margin-bottom: 8px;"><a href="{{ p.url | relative_url }}" style="text-decoration:none; font-weight:500;">&darr; {{ p.title }}</a></div>
+  <div class="learning-path-item"><a href="{{ p.url | relative_url }}" class="learning-path-link">{{ p.title }}</a></div>
 {% else %}
   <div>Belum ada artikel di jalur ini.</div>
 {% endfor %}

@@ -43,5 +43,8 @@ runtime.pid
 # Scripts
 run.sh
 
+# Graphify knowledge graph (auto-generated)
+graphify-out/
+
 # Bundler artifact (misconfig)
 $HOME/
