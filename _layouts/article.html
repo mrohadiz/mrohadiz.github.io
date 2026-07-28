@@ -47,8 +47,20 @@ layout: default
         {% assign series_index = forloop.index0 %}
       {% endif %}
     {% endfor %}
-    {% assign series_prev = series_posts[series_index | minus: 1] %}
-    {% assign series_next = series_posts[series_index | plus: 1] %}
+    {% assign series_prev = nil %}
+    {% assign series_next = nil %}
+    {% for p in series_posts %}
+      {% if p.url == page.url %}
+        {% unless forloop.first %}
+          {% assign prev_idx = forloop.index0 | minus: 1 %}
+          {% assign series_prev = series_posts[prev_idx] %}
+        {% endunless %}
+        {% unless forloop.last %}
+          {% assign next_idx = forloop.index0 | plus: 1 %}
+          {% assign series_next = series_posts[next_idx] %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
     <div class="series-badge">
       <div class="series-badge-header">
         <span class="series-badge-label">{{ page.series | replace: "-", " " | capitalize }}</span>
