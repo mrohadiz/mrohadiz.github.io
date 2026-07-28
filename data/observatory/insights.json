@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-28T04:25:12.560Z",
+  "collected_at": "2026-07-28T04:57:22.448Z",
   "insights": [
     {
       "type": "positive",
@@ -33,6 +33,16 @@
     },
     {
       "type": "positive",
+      "category": "knowledge",
+      "title": "66 internal links connecting content",
+      "description": "Average of 1.4 links per article, creating a well-connected knowledge graph.",
+      "metric": "66",
+      "metric_label": "Internal Links",
+      "icon": "link",
+      "priority": "medium"
+    },
+    {
+      "type": "positive",
       "category": "search",
       "title": "\"decision intelligence framework\" is your top search query",
       "description": "Generating 89 clicks with 1,240 impressions and a 7.2% CTR.",
@@ -54,8 +64,18 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-07-26",
-      "description": "Committed 7/26/2026.",
+      "title": "5 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "5 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore: remove local AI tool configs from tracking",
+      "description": "Committed 7/28/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -64,9 +84,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 41 articles",
-      "description": "Across 12 categories with 122 unique tags. Total word count: 15,910.",
-      "metric": "41",
+      "title": "Digital garden contains 47 articles",
+      "description": "Across 12 categories with 128 unique tags. Total word count: 19,857.",
+      "metric": "47",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
@@ -75,14 +95,14 @@
       "type": "positive",
       "category": "knowledge",
       "title": "Decision Systems is the most content-rich category",
-      "description": "With 8 articles, representing 20% of all content.",
-      "metric": "8",
+      "description": "With 14 articles, representing 30% of all content.",
+      "metric": "14",
       "metric_label": "Articles",
       "icon": "folder",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-07-28T04:25:12.561Z",
+  "generated_at": "2026-07-28T04:57:22.448Z",
   "analysis_period": {
     "current": {
       "start": "2026-06-13",

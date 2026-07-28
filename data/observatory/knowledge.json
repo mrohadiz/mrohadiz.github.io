@@ -1,74 +1,74 @@
 {
-  "collected_at": "2026-07-27T07:21:06.847Z",
+  "collected_at": "2026-07-28T04:57:18.515Z",
   "summary": {
-    "total_articles": 41,
+    "total_articles": 47,
     "total_categories": 12,
-    "total_tags": 122,
+    "total_tags": 128,
     "total_series": 0,
-    "total_internal_links": 0,
+    "total_internal_links": 66,
     "avg_reading_time": 2,
-    "total_word_count": 15910
+    "total_word_count": 19857
   },
   "categories": [
     {
       "name": "Decision Systems",
-      "count": 8,
-      "percentage": 0.1951219512195122
+      "count": 14,
+      "percentage": 0.2978723404255319
     },
     {
       "name": "Business Intelligence",
       "count": 8,
-      "percentage": 0.1951219512195122
+      "percentage": 0.1702127659574468
     },
     {
       "name": "AI Engineering",
       "count": 7,
-      "percentage": 0.17073170731707318
+      "percentage": 0.14893617021276595
     },
     {
       "name": "Software Architecture",
       "count": 6,
-      "percentage": 0.14634146341463414
+      "percentage": 0.1276595744680851
     },
     {
       "name": "Decision Intelligence",
       "count": 3,
-      "percentage": 0.07317073170731707
+      "percentage": 0.06382978723404255
     },
     {
       "name": "Infrastructure",
       "count": 2,
-      "percentage": 0.04878048780487805
+      "percentage": 0.0425531914893617
     },
     {
       "name": "Digital Garden",
       "count": 2,
-      "percentage": 0.04878048780487805
+      "percentage": 0.0425531914893617
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.024390243902439025
+      "percentage": 0.02127659574468085
     },
     {
       "name": "Crypto Observation",
       "count": 1,
-      "percentage": 0.024390243902439025
+      "percentage": 0.02127659574468085
     },
     {
       "name": "[AI Engineering, Prompt Engineering]",
       "count": 1,
-      "percentage": 0.024390243902439025
+      "percentage": 0.02127659574468085
     },
     {
       "name": "Narrative Observatory",
       "count": 1,
-      "percentage": 0.024390243902439025
+      "percentage": 0.02127659574468085
     },
     {
       "name": "Business Architecture",
       "count": 1,
-      "percentage": 0.024390243902439025
+      "percentage": 0.02127659574468085
     }
   ],
   "tags": [
@@ -77,8 +77,16 @@
       "count": 8
     },
     {
+      "name": "systems-thinking",
+      "count": 8
+    },
+    {
       "name": "analytics",
       "count": 7
+    },
+    {
+      "name": "capability-building",
+      "count": 6
     },
     {
       "name": "decision-making",
@@ -102,6 +110,10 @@
     },
     {
       "name": "observability",
+      "count": 3
+    },
+    {
+      "name": "ownership",
       "count": 3
     },
     {
@@ -137,6 +149,10 @@
       "count": 3
     },
     {
+      "name": "organizational-development",
+      "count": 3
+    },
+    {
       "name": "architecture",
       "count": 2
     },
@@ -145,19 +161,11 @@
       "count": 2
     },
     {
-      "name": "ownership",
-      "count": 2
-    },
-    {
       "name": "business-intelligence",
       "count": 2
     },
     {
       "name": "dashboard",
-      "count": 2
-    },
-    {
-      "name": "systems-thinking",
       "count": 2
     },
     {
@@ -210,6 +218,22 @@
     },
     {
       "name": "ai-governance",
+      "count": 2
+    },
+    {
+      "name": "development-reality",
+      "count": 2
+    },
+    {
+      "name": "goal-setting",
+      "count": 2
+    },
+    {
+      "name": "outcome",
+      "count": 2
+    },
+    {
+      "name": "output",
       "count": 2
     },
     {
@@ -563,6 +587,102 @@
   ],
   "articles": [
     {
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "url": "/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting-series/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "development-reality",
+        "capability-building",
+        "systems-thinking"
+      ],
+      "word_count": 257,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "url": "/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "development-reality",
+        "goal-setting",
+        "capability-building",
+        "systems-thinking",
+        "organizational-development"
+      ],
+      "word_count": 748,
+      "reading_time": 5,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
+      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
+      "url": "/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "goal-setting",
+        "capability-building",
+        "systems-thinking",
+        "organizational-development"
+      ],
+      "word_count": 333,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
+      "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
+      "url": "/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "organizational-development",
+        "capability-building",
+        "systems-thinking",
+        "ownership"
+      ],
+      "word_count": 299,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
+      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
+      "url": "/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "outcome",
+        "output",
+        "capability-building",
+        "systems-thinking"
+      ],
+      "word_count": 201,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
+      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
+      "url": "/notes/2026/07/28/output-bukan-outcome-pelajaran-goal-setting-dari-parenting/",
+      "date": "2026-07-28",
+      "category": "Decision Systems",
+      "tags": [
+        "outcome",
+        "output",
+        "capability-building",
+        "systems-thinking"
+      ],
+      "word_count": 201,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-07-28"
+    },
+    {
       "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
       "url": "/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/",
       "date": "2026-07-27",
@@ -574,8 +694,8 @@
         "ai-governance",
         "system-design"
       ],
-      "word_count": 486,
-      "reading_time": 3,
+      "word_count": 570,
+      "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2026-07-27"
     },
@@ -591,8 +711,8 @@
         "marketing-analytics",
         "ai-governance"
       ],
-      "word_count": 478,
-      "reading_time": 3,
+      "word_count": 553,
+      "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2026-07-26"
     },
@@ -608,9 +728,9 @@
         "data-governance",
         "decision-system"
       ],
-      "word_count": 417,
+      "word_count": 498,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-25"
     },
     {
@@ -625,7 +745,7 @@
         "organizational-learning",
         "technical-roadmap"
       ],
-      "word_count": 413,
+      "word_count": 428,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-07-25"
@@ -642,7 +762,7 @@
         "capability-development",
         "knowledge-management"
       ],
-      "word_count": 475,
+      "word_count": 496,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-07-25"
@@ -659,7 +779,7 @@
         "ownership",
         "system-thinking"
       ],
-      "word_count": 454,
+      "word_count": 468,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-07-25"
@@ -676,7 +796,7 @@
         "system-thinking",
         "engineering-culture"
       ],
-      "word_count": 430,
+      "word_count": 454,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-07-25"
@@ -692,9 +812,9 @@
         "ai-engineering",
         "decision-system"
       ],
-      "word_count": 458,
-      "reading_time": 3,
-      "internal_links": 0,
+      "word_count": 563,
+      "reading_time": 4,
+      "internal_links": 3,
       "last_updated": "2026-07-24"
     },
     {
@@ -709,9 +829,9 @@
         "marketing-intelligence",
         "decision-system"
       ],
-      "word_count": 328,
-      "reading_time": 2,
-      "internal_links": 0,
+      "word_count": 398,
+      "reading_time": 3,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -726,9 +846,9 @@
         "first-party-data",
         "marketing-intelligence"
       ],
-      "word_count": 311,
+      "word_count": 350,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -743,9 +863,9 @@
         "data-engineering",
         "customer-intelligence"
       ],
-      "word_count": 297,
+      "word_count": 353,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -760,9 +880,9 @@
         "analytics",
         "first-party-data"
       ],
-      "word_count": 288,
+      "word_count": 341,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -777,9 +897,9 @@
         "data-engineering",
         "marketing-intelligence"
       ],
-      "word_count": 271,
+      "word_count": 343,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -794,9 +914,9 @@
         "customer-journey",
         "business-intelligence"
       ],
-      "word_count": 266,
+      "word_count": 346,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-24"
     },
     {
@@ -810,9 +930,9 @@
         "data-governance",
         "decision-system"
       ],
-      "word_count": 481,
+      "word_count": 540,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-23"
     },
     {
@@ -841,9 +961,9 @@
         "automation",
         "engineering-thinking"
       ],
-      "word_count": 271,
+      "word_count": 296,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-20"
     },
     {
@@ -856,9 +976,9 @@
         "product-thinking",
         "engineering-thinking"
       ],
-      "word_count": 265,
+      "word_count": 283,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-20"
     },
     {
@@ -871,9 +991,9 @@
         "platform-thinking",
         "engineering-thinking"
       ],
-      "word_count": 272,
+      "word_count": 287,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-20"
     },
     {
@@ -886,9 +1006,9 @@
         "automation",
         "engineering-thinking"
       ],
-      "word_count": 292,
+      "word_count": 305,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-20"
     },
     {
@@ -903,7 +1023,7 @@
         "knowledge-architecture",
         "digital-marketing"
       ],
-      "word_count": 617,
+      "word_count": 627,
       "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2026-07-18"
@@ -920,9 +1040,9 @@
         "topical-authority",
         "ai-search"
       ],
-      "word_count": 555,
+      "word_count": 615,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-18"
     },
     {
@@ -937,9 +1057,9 @@
         "digital-strategy",
         "ai-search"
       ],
-      "word_count": 620,
+      "word_count": 709,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-17"
     },
     {
@@ -953,9 +1073,9 @@
         "capability",
         "strategy"
       ],
-      "word_count": 331,
+      "word_count": 357,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-15"
     },
     {
@@ -987,9 +1107,9 @@
         "data",
         "systems-thinking"
       ],
-      "word_count": 209,
+      "word_count": 232,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-14"
     },
     {
@@ -1004,9 +1124,9 @@
         "systems-thinking",
         "engineering"
       ],
-      "word_count": 456,
+      "word_count": 501,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-14"
     },
     {
@@ -1022,9 +1142,9 @@
         "sata",
         "troubleshooting"
       ],
-      "word_count": 514,
+      "word_count": 533,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-14"
     },
     {
@@ -1056,7 +1176,7 @@
         "semantic-layer",
         "decision-making"
       ],
-      "word_count": 313,
+      "word_count": 328,
       "reading_time": 2,
       "internal_links": 0,
       "last_updated": "2026-07-13"
@@ -1074,9 +1194,9 @@
         "business-intelligence",
         "digital-garden"
       ],
-      "word_count": 761,
+      "word_count": 815,
       "reading_time": 5,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-13"
     },
     {
@@ -1092,9 +1212,9 @@
         "digital-garden",
         "data-architecture"
       ],
-      "word_count": 551,
+      "word_count": 571,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-13"
     },
     {
@@ -1107,9 +1227,9 @@
         "framework",
         "decision-making"
       ],
-      "word_count": 351,
-      "reading_time": 2,
-      "internal_links": 0,
+      "word_count": 372,
+      "reading_time": 3,
+      "internal_links": 2,
       "last_updated": "2026-07-12"
     },
     {
@@ -1120,9 +1240,9 @@
       "tags": [
         "[Decision Systems, Knowledge Management, LLM]"
       ],
-      "word_count": 347,
+      "word_count": 360,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 4,
       "last_updated": "2026-07-12"
     },
     {
@@ -1154,8 +1274,8 @@
         "devops",
         "infrastructure"
       ],
-      "word_count": 295,
-      "reading_time": 2,
+      "word_count": 382,
+      "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2025-01-05"
     },
@@ -1171,7 +1291,7 @@
         "trading",
         "analysis"
       ],
-      "word_count": 210,
+      "word_count": 344,
       "reading_time": 2,
       "internal_links": 0,
       "last_updated": "2024-12-28"
@@ -1187,9 +1307,9 @@
         "architecture",
         "patterns"
       ],
-      "word_count": 249,
-      "reading_time": 2,
-      "internal_links": 0,
+      "word_count": 381,
+      "reading_time": 3,
+      "internal_links": 3,
       "last_updated": "2024-12-25"
     },
     {
@@ -1203,9 +1323,9 @@
         "architecture",
         "strategy"
       ],
-      "word_count": 205,
+      "word_count": 344,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2024-12-20"
     },
     {
@@ -1219,9 +1339,9 @@
         "chain-of-thought",
         "ai"
       ],
-      "word_count": 227,
+      "word_count": 319,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2024-12-15"
     },
     {
@@ -1235,64 +1355,64 @@
         "public",
         "digital-garden"
       ],
-      "word_count": 231,
+      "word_count": 241,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2024-12-10"
     }
   ],
   "newest_articles": [
     {
-      "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
-      "date": "2026-07-27",
-      "category": "AI Engineering"
-    },
-    {
-      "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
-      "date": "2026-07-26",
-      "category": "AI Engineering"
-    },
-    {
-      "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
-      "date": "2026-07-25",
-      "category": "Business Intelligence"
-    },
-    {
-      "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
-      "date": "2026-07-25",
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "date": "2026-07-28",
       "category": "Decision Systems"
     },
     {
-      "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
-      "date": "2026-07-25",
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "date": "2026-07-28",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
+      "date": "2026-07-28",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
+      "date": "2026-07-28",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
+      "date": "2026-07-28",
       "category": "Decision Systems"
     }
   ],
   "most_updated": [
     {
-      "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
       "updates": 1,
-      "last_updated": "2026-07-27"
+      "last_updated": "2026-07-28"
     },
     {
-      "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
+      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
       "updates": 1,
-      "last_updated": "2026-07-26"
+      "last_updated": "2026-07-28"
     },
     {
-      "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
+      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
       "updates": 1,
-      "last_updated": "2026-07-25"
+      "last_updated": "2026-07-28"
     },
     {
-      "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
+      "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
       "updates": 1,
-      "last_updated": "2026-07-25"
+      "last_updated": "2026-07-28"
     },
     {
-      "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
+      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
       "updates": 1,
-      "last_updated": "2026-07-25"
+      "last_updated": "2026-07-28"
     }
   ]
 }

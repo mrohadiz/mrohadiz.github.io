@@ -946,10 +946,21 @@
   // Update Last Updated Timestamp
   // ============================================================
   async function updateLastUpdated() {
-    const searchData = await loadJSON('search.json');
+    const sources = await Promise.all([
+      loadJSON('traffic.json'),
+      loadJSON('search.json'),
+      loadJSON('knowledge.json'),
+      loadJSON('publishing.json'),
+      loadJSON('insights.json')
+    ]);
+    const dates = sources
+      .map(d => d?.collected_at)
+      .filter(Boolean)
+      .sort()
+      .reverse();
     const el = document.getElementById('last-updated');
-    if (el && searchData && searchData.collected_at) {
-      el.textContent = formatDate(searchData.collected_at);
+    if (el && dates.length > 0) {
+      el.textContent = formatDate(dates[0]);
     }
   }
 

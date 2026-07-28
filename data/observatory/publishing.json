@@ -1,82 +1,87 @@
 {
-  "collected_at": "2026-07-27T07:21:06.807Z",
+  "collected_at": "2026-07-28T04:57:19.272Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 125,
+    "total_commits": 147,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-07-26T07:02:48Z",
-    "active_days": 13
+    "last_commit_date": "2026-07-28T04:38:11Z",
+    "active_days": 15
   },
   "recent_commits": [
     {
-      "sha": "7646991",
-      "message": "chore: update observatory data 2026-07-26",
-      "date": "2026-07-26T07:02:48Z",
-      "author": "Observatory Bot"
+      "sha": "c40d0f7",
+      "message": "chore: remove local AI tool configs from tracking",
+      "date": "2026-07-28T04:38:11Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "cae7941",
-      "message": "chore: update observatory data 2026-07-25",
-      "date": "2026-07-25T06:54:52Z",
-      "author": "Observatory Bot"
+      "sha": "3bc250e",
+      "message": "chore: add kmstrack traffic collector, insight generator, and local cron script",
+      "date": "2026-07-28T04:35:08Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "660ad2f",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-07-25T01:25:00Z",
-      "author": "github-actions[bot]"
+      "sha": "70b9bdc",
+      "message": "fix: Liquid syntax error in series navigation - pipe inside square brackets",
+      "date": "2026-07-28T01:57:04Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "dff3cc0",
-      "message": "Add article: Contextual Roadmap Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi",
-      "date": "2026-07-25T01:24:52Z",
-      "author": "M Rohadi Z"
+      "sha": "0536947",
+      "message": "fix: simplify cross-series recommendations to avoid Liquid array bug",
+      "date": "2026-07-28T01:49:18Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "50c506e",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-07-25T01:24:28Z",
-      "author": "github-actions[bot]"
+      "sha": "b3d426d",
+      "message": "feat: add series navigation badge, enhanced related articles, and cross-series recommendations",
+      "date": "2026-07-28T01:48:43Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "4d0708a",
-      "message": "Add article: Technical Ownership Mengukur Perkembangan dari Kualitas Pertanyaan",
-      "date": "2026-07-25T01:24:13Z",
-      "author": "M Rohadi Z"
+      "sha": "a103816",
+      "message": "fix: replace Parenting with Pertumbuhan Sistem in Development Reality article",
+      "date": "2026-07-28T01:35:54Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "f45629b",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-07-25T01:23:36Z",
-      "author": "github-actions[bot]"
+      "sha": "db834ff",
+      "message": "fix: add /topics/ index page to resolve 404",
+      "date": "2026-07-28T01:34:59Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "8009cc1",
-      "message": "Add article: Mengapa Onboarding Harus Dimulai dari Konteks Bukan Tools",
-      "date": "2026-07-25T01:23:21Z",
-      "author": "M Rohadi Z"
+      "sha": "98853ed",
+      "message": "docs: add Series System documentation to README",
+      "date": "2026-07-28T01:33:37Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "1df3f0d",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-07-25T01:22:37Z",
-      "author": "github-actions[bot]"
+      "sha": "c3c9c2e",
+      "message": "Add series system: group articles by series front matter",
+      "date": "2026-07-28T01:31:25Z",
+      "author": "zakagimat"
     },
     {
-      "sha": "6088b36",
-      "message": "Add article: Onboarding Technical Talent dari Task Executor Menjadi Problem Solver",
-      "date": "2026-07-25T01:22:26Z",
+      "sha": "1c21180",
+      "message": "Remove RADAR v2.1 project description from now.md",
+      "date": "2026-07-28T01:30:27Z",
       "author": "M Rohadi Z"
     }
   ],
   "publishing_timeline": [
     {
       "month": "2026-07",
-      "commits": 125
+      "commits": 147
     }
   ],
   "article_history": [
+    {
+      "title": "add series navigation badge, enhanced related articles, and cross-series recommendations",
+      "date": "2026-07-28",
+      "category": "Article"
+    },
     {
       "title": "add observatory dashboard infrastructure",
       "date": "2026-07-15",
@@ -109,15 +114,15 @@
     }
   ],
   "contribution_streak": {
-    "current_streak": 0,
-    "longest_streak": 5,
-    "active_days": 13
+    "current_streak": 5,
+    "longest_streak": 6,
+    "active_days": 15
   },
   "repository_health": {
     "open_issues": 0,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-07-27T07:21:06.807Z",
+    "last_deployment": "2026-07-28T04:57:19.272Z",
     "deployment_status": "success"
   }
 }
