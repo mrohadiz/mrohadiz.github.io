@@ -46,6 +46,3 @@ Halaman ini menjelaskan apa yang sedang saya fokuskan saat ini. Diupdate secara 
 - Event-driven architecture patterns
 - On-chain data analysis methodologies
 
-## Traveling
-
-Belum ada rencana perjalanan saat ini. Fokus pada remote work dan deep work sessions.
