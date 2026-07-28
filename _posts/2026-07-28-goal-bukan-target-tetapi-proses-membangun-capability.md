@@ -9,6 +9,7 @@ tags:
   - capability-building
   - systems-thinking
   - organizational-development
+series: goal-setting
 excerpt: "Goal yang baik bukan dimulai dari target, tetapi dari kemampuan sistem untuk menghasilkan target tersebut secara berkelanjutan."
 image: /assets/images/og/2026-07-28-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---

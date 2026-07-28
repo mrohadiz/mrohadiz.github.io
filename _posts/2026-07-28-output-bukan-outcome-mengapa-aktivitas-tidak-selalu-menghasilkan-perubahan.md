@@ -9,6 +9,7 @@ tags:
   - output
   - capability-building
   - systems-thinking
+series: goal-setting
 excerpt: "Output adalah aktivitas yang dilakukan sistem. Outcome adalah perubahan yang dihasilkan. Memahami perbedaannya mengubah cara kita mengevaluasi keberhasilan."
 image: /assets/images/og/2026-07-28-output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan.png
 ---

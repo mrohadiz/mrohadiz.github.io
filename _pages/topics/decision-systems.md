@@ -23,6 +23,22 @@ Keputusan yang baik lahir dari observasi yang baik. Tanpa sistem yang dirancang 
   <span class="badge badge-outline">Analytics</span>
 </div>
 
+### Series
+Artikel yang tergabung dalam satu alur pembahasan:
+{% assign series_posts = topic_posts | where_exp: "p", "p.series" %}
+{% assign all_series = series_posts | map: "series" | uniq | sort %}
+{% for s in all_series %}
+  {% assign group = series_posts | where: "series", s | sort: "date" %}
+  <div style="margin-bottom: 24px;">
+    <h4 style="margin-bottom: 8px; text-transform: capitalize;">{{ s | replace: "-", " " }}</h4>
+    {% for p in group %}
+      <div style="margin-bottom: 4px;"><a href="{{ p.url | relative_url }}" style="text-decoration:none;">&rarr; {{ p.title }}</a></div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p style="color: var(--color-text-secondary);">Belum ada series di node ini.</p>
+{% endfor %}
+
 ### Recommended Learning Path
 Ikuti alur bacaan ini untuk membangun fondasi pemahaman secara bertahap:
 <div style="padding: 16px; background: var(--color-bg-alt); border-left: 4px solid var(--color-success); margin-bottom: 32px;">
