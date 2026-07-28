@@ -170,38 +170,15 @@ layout: default
 
 <!-- Cross-Series Recommendations -->
 {% if page.series %}
-  {% assign all_series_map = "" | split: "," %}
-  {% assign other_series_names = site.posts | where_exp: "p", "p.series and p.series != page.series" | map: "series" | uniq %}
-  {% for s_name in other_series_names %}
-    {% assign s_posts = site.posts | where: "series", s_name %}
-    {% assign total_tags = 0 %}
-    {% assign matched_tags = 0 %}
-    {% for s_post in s_posts %}
-      {% for tag in s_post.tags %}
-        {% assign total_tags = total_tags | plus: 1 %}
-        {% if page.tags contains tag %}
-          {% assign matched_tags = matched_tags | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    {% if matched_tags > 0 %}
-      {% assign score = matched_tags | times: 100 | divided_by: total_tags %}
-      {% capture score_str %}{{ score | prepend: '00' | slice: -3, 3 }}|{{ s_name }}{% endcapture %}
-      {% assign all_series_map = all_series_map | push: score_str %}
-    {% endif %}
-  {% endfor %}
-  {% assign sorted_series = all_series_map | sort | reverse %}
-  {% if sorted_series.size > 0 %}
+  {% assign other_series = site.posts | where_exp: "p", "p.series and p.series != page.series" | map: "series" | uniq %}
+  {% if other_series.size > 0 %}
     <section class="cross-series">
-      <h3>Related Series</h3>
+      <h3>Other Series You Might Like</h3>
       <div class="cross-series-grid">
-      {% for ss in sorted_series limit: 3 %}
-        {% assign parts = ss | split: "|" %}
-        {% assign s_slug = parts[1] %}
-        {% assign s_display = s_slug | replace: "-", " " | capitalize %}
-        {% assign s_articles = site.posts | where: "series", s_slug | sort: "date" %}
+      {% for s_name in other_series limit: 3 %}
+        {% assign s_articles = site.posts | where: "series", s_name | sort: "date" %}
         <div class="cross-series-card">
-          <h4 class="cross-series-title">{{ s_display }}</h4>
+          <h4 class="cross-series-title">{{ s_name | replace: "-", " " | capitalize }}</h4>
           <ul class="cross-series-list">
           {% for sa in s_articles limit: 3 %}
             <li><a href="{{ sa.url | relative_url }}">{{ sa.title }}</a></li>
