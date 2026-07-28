@@ -11,6 +11,7 @@ tags:
   - capability-building
   - systems-thinking
 excerpt: "Parenting mengajarkan bahwa aktivitas bukanlah tujuan. Output hanyalah intervensi untuk membangun capability, sedangkan outcome adalah perubahan nyata yang ingin dicapai."
+image: /assets/images/og/2026-07-28-output-bukan-outcome-pelajaran-goal-setting-dari-parenting.png
 ---
 
 # Output Bukan Outcome: Pelajaran Goal Setting dari Parenting
