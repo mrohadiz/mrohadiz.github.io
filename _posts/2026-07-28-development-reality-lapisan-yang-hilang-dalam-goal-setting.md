@@ -171,13 +171,13 @@ Memahami fondasi jauh lebih penting daripada mengejar nilai semata.
 
 ---
 
-## Parenting
+## Pertumbuhan Sistem
 
-Anak usia lima tahun tidak dapat diberi ekspektasi seperti anak usia sepuluh tahun.
+Setiap sistem — organisasi, tim, maupun individu — melalui fase pertumbuhan yang berbeda.
 
-Orang tua secara alami memahami bahwa perkembangan anak terjadi melalui tahapan.
+Tidak ada sistem yang langsung matang tanpa melalui proses belajar, eksperimen, dan adaptasi.
 
-Sayangnya pendekatan yang sama sering tidak digunakan ketika membangun organisasi.
+Pertumbuhan berarti memahami bahwa capability hari ini belum tentu sama dengan capability esok hari — dan target yang ditetapkan harus mencerminkan realitas tersebut.
 
 ---
 
