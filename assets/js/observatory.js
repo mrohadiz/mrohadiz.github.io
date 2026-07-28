@@ -79,6 +79,9 @@
   // ============================================================
   // Tab Navigation
   // ============================================================
+  let _knowledgeGraphRendered = false;
+  let _knowledgeDataForGraph = null;
+
   function initTabs() {
     const tabs = document.querySelectorAll('.observatory-tab');
     const contents = document.querySelectorAll('.observatory-tab-content');
@@ -105,6 +108,17 @@
             content.classList.remove('active');
           }
         });
+
+        // Defer knowledge graph rendering until the tab is first shown
+        if (targetTab === 'knowledge' && !_knowledgeGraphRendered && _knowledgeDataForGraph) {
+          _knowledgeGraphRendered = true;
+          // Wait until browser has laid out the now-visible container
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              renderKnowledgeGraph(_knowledgeDataForGraph);
+            });
+          });
+        }
       });
     });
   }
@@ -449,8 +463,8 @@
     renderKnowledgeCategoriesChart(knowledgeData);
     renderKnowledgeTagsChart(knowledgeData);
 
-    // Knowledge Graph
-    renderKnowledgeGraph(knowledgeData);
+    // Defer knowledge graph — renders on first tab activation
+    _knowledgeDataForGraph = knowledgeData;
 
     // Articles Table
     renderTable('articles-table', knowledgeData.articles, [
