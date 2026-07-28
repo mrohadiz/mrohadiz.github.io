@@ -17,10 +17,6 @@ Halaman ini menjelaskan apa yang sedang saya fokuskan saat ini. Diupdate secara 
 <p style="margin: 0; font-size: var(--text-sm); color: var(--color-text-secondary);">Mengembangkan reasoning engine untuk decision support system. Fokus pada chain-of-thought prompting dan tool use patterns.</p>
 </div>
 
-<div class="card" style="padding: var(--space-5);">
-<h4 style="margin: 0 0 var(--space-2); color: var(--color-success);">RADAR v2.1</h4>
-<p style="margin: 0; font-size: var(--text-sm); color: var(--color-text-secondary);">Upgrade pipeline data untuk real-time market intelligence. Menambahkan anomaly detection dan sentiment analysis.</p>
-</div>
 
 <div class="card" style="padding: var(--space-5);">
 <h4 style="margin: 0 0 var(--space-2); color: var(--color-warning);">Knowledge System</h4>
