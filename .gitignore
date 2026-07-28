@@ -46,5 +46,11 @@ run.sh
 # Graphify knowledge graph (auto-generated)
 graphify-out/
 
+# AI tool local configs
+.agents/
+.codex/
+.opencode/
+AGENTS.md
+
 # Bundler artifact (misconfig)
 $HOME/
