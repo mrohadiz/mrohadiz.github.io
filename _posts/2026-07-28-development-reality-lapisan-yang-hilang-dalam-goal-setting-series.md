@@ -9,6 +9,7 @@ tags:
   - capability-building
   - systems-thinking
 excerpt: "Sebelum menetapkan goal, pahami terlebih dahulu tahap perkembangan sistem. Development Reality menjadi fondasi untuk membangun capability yang tepat."
+image: /assets/images/og/2026-07-28-development-reality-lapisan-yang-hilang-dalam-goal-setting-series.png
 ---
 
 # Development Reality: Lapisan yang Hilang dalam Goal Setting

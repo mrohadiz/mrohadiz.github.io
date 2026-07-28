@@ -11,6 +11,7 @@ tags:
   - systems-thinking
   - organizational-development
 excerpt: "Sebelum menentukan goal, organisasi perlu memahami tahap perkembangannya. Development Reality membantu menyelaraskan target dengan kondisi nyata sehingga capability dapat dibangun secara bertahap."
+image: /assets/images/og/2026-07-28-development-reality-lapisan-yang-hilang-dalam-goal-setting.png
 ---
 
 # Development Reality: Lapisan yang Hilang dalam Goal Setting

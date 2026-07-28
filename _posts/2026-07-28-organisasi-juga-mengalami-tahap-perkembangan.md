@@ -10,6 +10,7 @@ tags:
   - systems-thinking
   - ownership
 excerpt: "Organisasi berkembang seperti sistem hidup. Capability, tanggung jawab, dan kualitas keputusan tumbuh melalui proses, bukan melalui target atau instruksi."
+image: /assets/images/og/2026-07-28-organisasi-juga-mengalami-tahap-perkembangan.png
 ---
 
 # Organisasi Juga Mengalami Tahap Perkembangan

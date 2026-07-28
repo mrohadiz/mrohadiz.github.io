@@ -10,6 +10,7 @@ tags:
   - systems-thinking
   - organizational-development
 excerpt: "Goal yang baik bukan dimulai dari target, tetapi dari kemampuan sistem untuk menghasilkan target tersebut secara berkelanjutan."
+image: /assets/images/og/2026-07-28-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---
 
 # Goal Bukan Target, tetapi Proses Membangun Capability
