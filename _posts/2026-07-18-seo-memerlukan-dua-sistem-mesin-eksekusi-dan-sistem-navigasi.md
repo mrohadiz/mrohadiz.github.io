@@ -142,3 +142,5 @@ Keyword research, taxonomy, dan content calendar akan selalu menjadi fondasi pen
 Namun tanpa sistem navigasi yang menghubungkan setiap konten ke dalam struktur pengetahuan yang lebih besar, pertumbuhan tersebut berisiko menjadi sekadar kumpulan halaman yang berdiri sendiri.
 
 Di era AI Search, strategi SEO yang berkelanjutan bukan hanya membutuhkan mesin eksekusi yang kuat, tetapi juga sistem navigasi yang menjaga arah perjalanan.
+
+Baca juga: [From SEO to Knowledge Architecture](/notes/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/) dan [Content Layering](/notes/2026/07/18/content-layering-topical-authority-without-content-farm/) untuk melengkapi pemahaman tentang strategi konten modern.

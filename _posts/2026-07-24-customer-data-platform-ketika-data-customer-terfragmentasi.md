@@ -154,3 +154,5 @@ Kekurangan:
 CDP bukan tentang memiliki lebih banyak data, tetapi tentang membuat data yang sudah ada menjadi lebih bermakna.
 
 Fondasi customer intelligence tetap dimulai dari hal sederhana: event yang rapi, identitas yang jelas, dan kemampuan memahami perjalanan customer dari awal hingga outcome.
+
+Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Dari Analytics ke Customer Intelligence](/notes/2026/07/24/dari-analytics-ke-customer-intelligence/).

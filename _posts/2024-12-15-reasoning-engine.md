@@ -20,9 +20,11 @@ Reasoning engine adalah inti dari sistem AI yang mampu berpikir. Berbeda dengan 
 
 Reasoning engine adalah komponen sistem AI yang bertanggung jawab untuk melakukan inferensi, deduksi, dan abstraksi dari data yang tersedia. Dalam konteks LLM, reasoning engine bisa diimplementasikan melalui beberapa pendekatan:
 
-1. **Chain-of-Thought (CoT)**: Memecah masalah kompleks menjadi langkah-langkah kecil
+1. **[Chain-of-Thought (CoT)](https://arxiv.org/abs/2201.11903)**: Memecah masalah kompleks menjadi langkah-langkah kecil
 2. **Tree of Thoughts (ToT)**: Mengeksplorasi berbagai jalur pemikiran
 3. **ReAct**: Menggabungkan reasoning dengan aksi nyata
+
+Pelajari lebih lanjut tentang [AI Engineering](/topics/ai-engineering/) dan bagaimana [Knowledge Extraction Engine](/notes/2026/07/12/knowledge-extraction-engine/) (KXE) menerapkan prinsip serupa untuk ekstraksi pengetahuan terstruktur.
 
 ## Implementasi Dasar
 

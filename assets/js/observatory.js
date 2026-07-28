@@ -449,6 +449,9 @@
     renderKnowledgeCategoriesChart(knowledgeData);
     renderKnowledgeTagsChart(knowledgeData);
 
+    // Knowledge Graph
+    renderKnowledgeGraph(knowledgeData);
+
     // Articles Table
     renderTable('articles-table', knowledgeData.articles, [
       { key: 'title', render: (v, row) => `<a href="${row.url}" class="observatory-text-primary observatory-link">${v}</a>` },
@@ -934,6 +937,435 @@
     if (el && searchData && searchData.collected_at) {
       el.textContent = formatDate(searchData.collected_at);
     }
+  }
+
+  // ============================================================
+  // Knowledge Graph (Force-Directed)
+  // ============================================================
+  function renderKnowledgeGraph(data) {
+    const canvas = document.getElementById('knowledge-graph-canvas');
+    if (!canvas || !data || !data.articles || data.articles.length === 0) return;
+
+    const tooltip = document.getElementById('graph-tooltip');
+    const ctx = canvas.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    
+    // Resize canvas to parent
+    function resizeCanvas() {
+      const rect = canvas.parentElement.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      canvas.style.width = rect.width + 'px';
+      canvas.style.height = rect.height + 'px';
+      ctx.scale(dpr, dpr);
+      return { width: rect.width, height: rect.height };
+    }
+
+    let dims = resizeCanvas();
+    window.addEventListener('resize', () => {
+      dims = resizeCanvas();
+    });
+
+    const defaults = getChartDefaults();
+    const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+
+    // Build node & edge data
+    // Top 6 categories by count, including all their articles
+    const topCategories = data.categories
+      .slice()
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 6);
+
+    const categoryNames = new Set(topCategories.map(c => c.name));
+    const relevantArticles = data.articles.filter(a => categoryNames.has(a.category));
+
+    // Color palette for categories
+    const palette = [
+      defaults.primaryColor,
+      defaults.successColor,
+      defaults.warningColor,
+      defaults.dangerColor,
+      '#8B5CF6',
+      '#EC4899'
+    ];
+
+    const categoryColors = {};
+    topCategories.forEach((cat, i) => {
+      categoryColors[cat.name] = palette[i % palette.length];
+    });
+
+    // Nodes: categories + articles
+    const nodes = [];
+    const edges = [];
+    const nodeMap = {};
+
+    // Add category nodes
+    topCategories.forEach((cat, idx) => {
+      const color = categoryColors[cat.name];
+      const node = {
+        id: 'cat-' + idx,
+        label: cat.name,
+        type: 'category',
+        radius: 28 + Math.min(cat.count * 2, 20),
+        color: color,
+        count: cat.count,
+        x: dims.width * (0.15 + Math.random() * 0.7),
+        y: dims.height * (0.15 + Math.random() * 0.7),
+        vx: 0,
+        vy: 0
+      };
+      nodes.push(node);
+      nodeMap[cat.name] = node;
+    });
+
+    // Add article nodes
+    relevantArticles.forEach((art, idx) => {
+      const node = {
+        id: 'art-' + idx,
+        label: art.title.replace(/^"|"$/g, ''),
+        type: 'article',
+        radius: 5,
+        color: categoryColors[art.category] || defaults.textMuted,
+        category: art.category,
+        url: art.url,
+        x: dims.width * (0.1 + Math.random() * 0.8),
+        y: dims.height * (0.1 + Math.random() * 0.8),
+        vx: 0,
+        vy: 0
+      };
+      nodes.push(node);
+
+      // Edge to its category
+      if (nodeMap[art.category]) {
+        edges.push({
+          source: nodeMap[art.category],
+          target: node,
+          color: categoryColors[art.category]
+        });
+      }
+    });
+
+    if (nodes.length === 0) return;
+
+    // Force simulation parameters
+    const REPULSION = 8000;
+    const ATTRACTION = 0.005;
+    const CENTERING = 0.02;
+    const DAMPING = 0.85;
+    const MIN_VELOCITY = 0.1;
+    const REST_LENGTH = 120;
+
+    let hoveredNode = null;
+    let animationId = null;
+    let simulationRunning = true;
+    let iteration = 0;
+    const MAX_ITERATIONS = 120;
+
+    function simulateForces() {
+      const centerX = dims.width / 2;
+      const centerY = dims.height / 2;
+      const padding = 80;
+
+      // Repulsion (Coulomb's law)
+      for (let i = 0; i < nodes.length; i++) {
+        for (let j = i + 1; j < nodes.length; j++) {
+          const a = nodes[i];
+          const b = nodes[j];
+          let dx = b.x - a.x;
+          let dy = b.y - a.y;
+          let dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 1) dist = 1;
+          const force = REPULSION / (dist * dist);
+          const fx = (dx / dist) * force;
+          const fy = (dy / dist) * force;
+          a.vx -= fx;
+          a.vy -= fy;
+          b.vx += fx;
+          b.vy += fy;
+        }
+      }
+
+      // Attraction along edges (spring force)
+      for (const edge of edges) {
+        const dx = edge.target.x - edge.source.x;
+        const dy = edge.target.y - edge.source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        const displacement = dist - REST_LENGTH;
+        const force = displacement * ATTRACTION;
+        const fx = (dx / dist) * force;
+        const fy = (dy / dist) * force;
+        edge.source.vx += fx;
+        edge.source.vy += fy;
+        edge.target.vx -= fx;
+        edge.target.vy -= fy;
+      }
+
+      // Centering force
+      for (const node of nodes) {
+        node.vx += (centerX - node.x) * CENTERING * (node.type === 'category' ? 0.5 : 1);
+        node.vy += (centerY - node.y) * CENTERING * (node.type === 'category' ? 0.5 : 1);
+      }
+
+      // Update positions
+      let totalVelocity = 0;
+      for (const node of nodes) {
+        node.vx *= DAMPING;
+        node.vy *= DAMPING;
+        
+        // Clamp velocity
+        const speed = Math.sqrt(node.vx * node.vx + node.vy * node.vy);
+        if (speed > 15) {
+          node.vx = (node.vx / speed) * 15;
+          node.vy = (node.vy / speed) * 15;
+        }
+        
+        node.x += node.vx;
+        node.y += node.vy;
+        
+        // Keep within bounds
+        node.x = Math.max(padding + node.radius, Math.min(dims.width - padding - node.radius, node.x));
+        node.y = Math.max(padding + node.radius, Math.min(dims.height - padding - node.radius, node.y));
+        
+        totalVelocity += speed;
+      }
+
+      iteration++;
+      
+      // Stop simulation when settled
+      if (totalVelocity / nodes.length < MIN_VELOCITY || iteration > MAX_ITERATIONS) {
+        simulationRunning = false;
+      }
+    }
+
+    function drawGraph() {
+      ctx.clearRect(0, 0, dims.width, dims.height);
+
+      // Draw edges
+      for (const edge of edges) {
+        ctx.beginPath();
+        ctx.moveTo(edge.source.x, edge.source.y);
+        ctx.lineTo(edge.target.x, edge.target.y);
+        ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.06)' : 'rgba(44,36,22,0.08)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      // Draw article nodes (smaller, drawn first)
+      for (const node of nodes) {
+        if (node.type !== 'article') continue;
+        
+        const isHovered = hoveredNode && hoveredNode.id === node.id;
+        
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, isHovered ? 8 : 5, 0, Math.PI * 2);
+        ctx.fillStyle = isHovered ? node.color : node.color + (isDark ? 'CC' : 'AA');
+        ctx.fill();
+        
+        // Glow on hover
+        if (isHovered) {
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, 12, 0, Math.PI * 2);
+          ctx.fillStyle = node.color + '20';
+          ctx.fill();
+        }
+      }
+
+      // Draw category nodes (larger, drawn on top)
+      for (const node of nodes) {
+        if (node.type !== 'category') continue;
+        
+        const isHovered = hoveredNode && hoveredNode.id === node.id;
+        const r = isHovered ? node.radius + 4 : node.radius;
+        
+        // Outer glow
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, r + 8, 0, Math.PI * 2);
+        ctx.fillStyle = node.color + (isHovered ? '30' : '10');
+        ctx.fill();
+        
+        // Main circle
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, r, 0, Math.PI * 2);
+        ctx.fillStyle = node.color + 'CC';
+        ctx.fill();
+        
+        // Border
+        ctx.strokeStyle = isHovered ? node.color : node.color + '66';
+        ctx.lineWidth = isHovered ? 2 : 1;
+        ctx.stroke();
+        
+        // Label
+        const label = node.label.length > 12 ? node.label.substring(0, 11) + '…' : node.label;
+        ctx.font = 'bold 11px Inter, -apple-system, sans-serif';
+        ctx.fillStyle = '#FFFFFF';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        
+        // Text background for readability
+        const textWidth = ctx.measureText(label).width;
+        ctx.fillStyle = 'rgba(0,0,0,0.5)';
+        const bgPad = 6;
+        drawRoundedRect(ctx, node.x - textWidth / 2 - bgPad, node.y - r - 22, textWidth + bgPad * 2, 20, 4);
+        ctx.fill();
+        
+        ctx.fillStyle = '#FFFFFF';
+        ctx.fillText(label, node.x, node.y - r - 12);
+        
+        // Article count badge
+        if (node.count > 0) {
+          const countLabel = String(node.count);
+          ctx.font = '9px Inter, -apple-system, sans-serif';
+          ctx.fillStyle = 'rgba(255,255,255,0.8)';
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(countLabel, node.x, node.y + 1);
+        }
+      }
+
+      // Draw tooltip
+      if (hoveredNode) {
+        const node = hoveredNode;
+        tooltip.style.display = 'block';
+        
+        const canvasRect = canvas.getBoundingClientRect();
+        let tx = canvasRect.left + node.x;
+        let ty = canvasRect.top + node.y - node.radius - 40;
+        
+        // Keep tooltip in viewport
+        const tooltipWidth = 260;
+        if (tx + tooltipWidth > window.innerWidth) {
+          tx = window.innerWidth - tooltipWidth - 10;
+        }
+        if (tx < 10) tx = 10;
+        if (ty < 10) ty = 10;
+        
+        tooltip.style.left = tx + 'px';
+        tooltip.style.top = ty + 'px';
+        
+        if (node.type === 'category') {
+          tooltip.innerHTML = `
+            <div class="observatory-graph-tooltip-category" style="color:${node.color}">${escapeHtml(node.label)}</div>
+            <div class="observatory-graph-tooltip-stat">${node.count} articles</div>
+          `;
+        } else {
+          tooltip.innerHTML = `
+            <div class="observatory-graph-tooltip-title">${escapeHtml(node.label)}</div>
+            <div class="observatory-graph-tooltip-stat">${escapeHtml(node.category)}</div>
+          `;
+        }
+      } else {
+        tooltip.style.display = 'none';
+      }
+    }
+
+    function getHoveredNode(mx, my) {
+      // Check articles first (smaller, more precise)
+      for (const node of nodes) {
+        if (node.type !== 'article') continue;
+        const dx = mx - node.x;
+        const dy = my - node.y;
+        if (dx * dx + dy * dy < (node.radius + 8) * (node.radius + 8)) {
+          return node;
+        }
+      }
+      // Then categories
+      for (const node of nodes) {
+        if (node.type !== 'category') continue;
+        const dx = mx - node.x;
+        const dy = my - node.y;
+        if (dx * dx + dy * dy < (node.radius + 6) * (node.radius + 6)) {
+          return node;
+        }
+      }
+      return null;
+    }
+
+    function onMouseMove(e) {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      
+      const hit = getHoveredNode(mx, my);
+      if (hit !== hoveredNode) {
+        hoveredNode = hit;
+        canvas.style.cursor = hit ? 'pointer' : 'default';
+      }
+    }
+
+    function onClick(e) {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      
+      const hit = getHoveredNode(mx, my);
+      if (hit && hit.type === 'article' && hit.url) {
+        window.location.href = hit.url;
+      }
+    }
+
+    // Named event handlers for proper cleanup
+    const handleMouseMove = function(e) { onMouseMove(e); };
+    const handleMouseLeave = function() {
+      hoveredNode = null;
+      tooltip.style.display = 'none';
+      canvas.style.cursor = 'default';
+    };
+    const handleResize = function() {
+      dims = resizeCanvas();
+    };
+
+    // Event listeners
+    canvas.addEventListener('mousemove', handleMouseMove);
+    canvas.addEventListener('click', onClick);
+    canvas.addEventListener('mouseleave', handleMouseLeave);
+    window.addEventListener('resize', handleResize);
+
+    // Polyfill roundRect for older browsers
+    function drawRoundedRect(ctx, x, y, w, h, r) {
+      if (r > w / 2) r = w / 2;
+      if (r > h / 2) r = h / 2;
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.lineTo(x + w - r, y);
+      ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+      ctx.lineTo(x + w, y + h - r);
+      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+      ctx.lineTo(x + r, y + h);
+      ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+      ctx.lineTo(x, y + r);
+      ctx.quadraticCurveTo(x, y, x + r, y);
+      ctx.closePath();
+    }
+
+    // Animation loop
+    function animate() {
+      if (simulationRunning) {
+        simulateForces();
+      }
+      drawGraph();
+      animationId = requestAnimationFrame(animate);
+    }
+
+    // Clean up previous graph if any
+    if (window.__knowledgeGraphCleanup) {
+      window.__knowledgeGraphCleanup();
+    }
+
+    // Start animation
+    animate();
+
+    // Store cleanup function
+    window.__knowledgeGraphCleanup = function() {
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+        animationId = null;
+      }
+      canvas.removeEventListener('mousemove', handleMouseMove);
+      canvas.removeEventListener('click', onClick);
+      canvas.removeEventListener('mouseleave', handleMouseLeave);
+      window.removeEventListener('resize', handleResize);
+      tooltip.style.display = 'none';
+    };
   }
 
   // ============================================================

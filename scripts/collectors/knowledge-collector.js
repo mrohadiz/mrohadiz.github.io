@@ -48,7 +48,8 @@ function parseArrayValue(value) {
 }
 
 function countWords(content) {
-  const text = content.replace(/---[\s\S]*?---/, '').replace(/<[^>]+>/g, '').replace(/```[\s\S]*?```/g, '');
+  // Strip YAML frontmatter only, keep all content including code blocks
+  const text = content.replace(/---[\s\S]*?---\n*/, '');
   return text.split(/\s+/).filter(w => w.length > 0).length;
 }
 

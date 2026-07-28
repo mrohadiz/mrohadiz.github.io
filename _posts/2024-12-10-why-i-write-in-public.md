@@ -26,9 +26,9 @@ Konsep learning in public bukan sekadar tentang berbagi. Ini tentang:
 
 > "The best time to write was yesterday. The second best time is now."
 
-## Digital Garden vs Blog
+## [Digital Garden](/glossary/#digital-garden) vs Blog
 
-Website ini bukan blog konvensional. Ini adalah **digital garden**:
+Website ini bukan blog konvensional. Ini adalah **[digital garden](/glossary/#digital-garden)**:
 
 - Catatan tidak harus sempurna sebelum dipublikasikan
 - Artikel terus berkembang seiring waktu
@@ -41,6 +41,8 @@ Website ini bukan blog konvensional. Ini adalah **digital garden**:
 2. **Connect**: Hubungkan dengan ide lain yang sudah ada
 3. **Cultivate**: Kembangkan ide secara bertahap
 4. **Publish**: Bagikan ketika sudah cukup matang
+
+Pelajari lebih lanjut tentang pendekatan ini di [How I Work](/how-i-work/).
 
 ## Hasil yang Diharapkan
 

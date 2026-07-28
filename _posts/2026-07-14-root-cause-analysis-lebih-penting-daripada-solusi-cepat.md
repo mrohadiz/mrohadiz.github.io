@@ -131,7 +131,9 @@ Sebelum melakukan tindakan besar seperti install ulang atau mengganti hardware, 
 
 ## Penutup
 
-Root Cause Analysis bukan sekadar teknik troubleshooting, tetapi cara berpikir dalam mengambil keputusan.
+[Root Cause Analysis](/glossary/#root-cause-analysis) bukan sekadar teknik troubleshooting, tetapi cara berpikir dalam mengambil keputusan.
+
+Lihat juga: [SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) sebagai contoh penerapan RCA dalam troubleshooting infrastruktur, dan [Decision Framework: OODA Loop](/notes/2024/12/20/ooda-loop-architecture/) sebagai pendekatan sistematis dalam pengambilan keputusan.
 
 Semakin kompleks sebuah sistem, semakin besar biaya dari keputusan yang diambil berdasarkan asumsi.
 

@@ -14,7 +14,9 @@ tags:
 excerpt: "Bagaimana mengadaptasi OODA Loop milik John Boyd untuk pengambilan keputusan dalam software architecture."
 ---
 
-OODA Loop (Observe-Orient-Decide-Act) adalah framework pengambilan keputusan yang dikembangkan oleh Colonel John Boyd. Awalnya untuk strategi militer, framework ini sangat applicable untuk software architecture decisions.
+[OODA Loop](/glossary/#ooda-loop) (Observe-Orient-Decide-Act) adalah framework pengambilan keputusan yang dikembangkan oleh Colonel John Boyd. Awalnya untuk strategi militer, framework ini sangat applicable untuk software architecture decisions.
+
+Baca juga framework ini dalam konteks yang lebih luas di [Decision Systems](/topics/decision-systems/), atau pelajari [Root Cause Analysis](/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/) sebagai pelengkap dalam pengambilan keputusan.
 
 ## OODA Loop dalam Konteks Software
 

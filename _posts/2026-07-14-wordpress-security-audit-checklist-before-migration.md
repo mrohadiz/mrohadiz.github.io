@@ -12,7 +12,7 @@ tags:
   - migration
   - checklist
 excerpt: "Checklist praktis untuk memeriksa keamanan WordPress sebelum migrasi server."
-image: "/assets/images/thumbnail.png"
+image: /assets/images/default-thumbnail.svg
 ---
 
 

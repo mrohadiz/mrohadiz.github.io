@@ -10,7 +10,7 @@ tags:
   - capability
   - strategy
 excerpt: "Organisasi yang tangguh tidak menunggu kebutuhan menjadi mendesak. Mereka membangun capability saat manfaatnya belum terlihat, sehingga punya pilihan ketika lingkungan berubah."
-image: /assets/images/posts/2026-07-15-capability-dibangun-sebelum-dibutuhkan.png
+image: /assets/images/og/2026-07-15-capability-dibangun-sebelum-dibutuhkan.png
 ---
 
 # Capability Dibangun Sebelum Dibutuhkan
@@ -69,3 +69,5 @@ Jika jawabannya ya, kemungkinan besar ini bukan sekadar biaya. Ini adalah option
 ## Penutup
 
 Organisasi yang matang tidak menunggu kebutuhan menjadi mendesak untuk mulai membangun kemampuan penting. Mereka menyiapkannya lebih awal, saat manfaatnya belum terlihat jelas, supaya punya ruang bernapas ketika perubahan datang.
+
+Konsep ini erat kaitannya dengan prinsip [Second-Order Effects](/glossary/#second-order-effects) dan [Systems Thinking](/glossary/#systems-thinking). Baca juga [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) untuk memahami kapan waktu yang tepat membangun capability.

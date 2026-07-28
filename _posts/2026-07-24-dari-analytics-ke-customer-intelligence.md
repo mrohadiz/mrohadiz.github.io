@@ -105,3 +105,5 @@ Memiliki data sendiri membantu perusahaan:
 Perusahaan tidak kekurangan data. Tantangannya adalah mengubah data yang tersebar menjadi pemahaman tentang perjalanan manusia di balik angka.
 
 Customer intelligence dimulai dari kemampuan melihat lifecycle, bukan hanya melihat laporan akhir.
+
+Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Lead Journey Trace](/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/).

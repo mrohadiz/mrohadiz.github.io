@@ -51,3 +51,5 @@ Di internal tool, ukuran sukses bukanlah seberapa besar platformnya, melainkan s
 Banyak tool menjadi berat bukan karena teknologinya buruk, tetapi karena diperlakukan seperti platform sebelum waktunya.
 
 Kalau sebuah alat masih belum matang, fokus terbaik biasanya bukan memperluasnya. Fokus terbaik adalah membuatnya tetap kecil sampai manfaatnya benar-benar terbukti.
+
+Lihat juga: [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) dan [Internal Tools Are Products for One Customer](/notes/2026/07/20/internal-tools-are-products-for-one-customer/).

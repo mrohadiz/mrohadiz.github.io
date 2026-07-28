@@ -155,8 +155,10 @@ Sebelum memutuskan mengganti storage, pastikan hal berikut telah diperiksa:
 
 ## Penutup
 
-Status **SMART PASSED** bukan berarti seluruh subsistem storage bebas masalah.
+Status **[SMART PASSED](/glossary/#smart-storage)** bukan berarti seluruh subsistem storage bebas masalah.
 
 Media penyimpanan mungkin masih sehat, sementara jalur komunikasi mengalami gangguan yang menyebabkan server terasa lambat atau tidak responsif.
 
 Troubleshooting yang baik bukan hanya membaca satu indikator, tetapi menghubungkan informasi dari SMART, log kernel, dan perilaku sistem secara keseluruhan. Dengan pendekatan tersebut, keputusan penggantian hardware menjadi lebih akurat dan didasarkan pada bukti, bukan asumsi.
+
+Pelajari lebih lanjut: [Root Cause Analysis](/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/) untuk pendekatan troubleshooting sistematis, dan [Infrastructure as Code](/notes/2025/01/05/infrastructure-as-code/) untuk fondasi infrastruktur yang observable.

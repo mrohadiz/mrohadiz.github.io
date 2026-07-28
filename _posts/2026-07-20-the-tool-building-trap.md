@@ -49,3 +49,5 @@ Di lingkungan kerja yang sibuk, waktu paling mahal sering bukan waktu membangun,
 Tool yang baik bukan tool dengan fitur paling banyak. Tool yang baik adalah tool yang membuat pekerjaan penting menjadi lebih fokus, lebih cepat, dan lebih konsisten.
 
 Kalau sebuah alat mulai terasa seperti proyek baru, biasanya itu tanda bahwa scope perlu dibatasi kembali.
+
+Baca juga: [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) dan [Stop Building Platforms Too Early](/notes/2026/07/20/stop-building-platforms-too-early/).

@@ -14,7 +14,9 @@ tags:
 excerpt: "Panduan praktis untuk implementasi event-driven architecture dalam sistem modern."
 ---
 
-Event-driven architecture (EDA) adalah pola desain di mana komponen sistem berkomunikasi melalui events. Pola ini menjadi semakin populer seiring dengan pertumbuhan microservices dan distributed systems.
+[Event-driven architecture (EDA)](/glossary/#event-driven-architecture-eda) adalah pola desain di mana komponen sistem berkomunikasi melalui events. Pola ini menjadi semakin populer seiring dengan pertumbuhan microservices dan distributed systems.
+
+Lihat juga pembahasan tentang [Software Architecture](/topics/software-architecture/) dan artikel terkait [Infrastructure as Code](/notes/2025/01/05/infrastructure-as-code/) untuk memahami fondasi operasional sistem event-driven.
 
 ## Mengapa Event-Driven?
 

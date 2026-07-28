@@ -120,3 +120,5 @@ Dengan customer journey yang dapat ditelusuri, keputusan marketing dapat berdasa
 Digital marketing semakin membutuhkan prinsip yang sama dengan sistem software: kemampuan melihat apa yang terjadi di dalam proses.
 
 Lead Journey Trace mengubah data dari sekadar laporan menjadi kemampuan memahami keputusan customer.
+
+Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Revenue Intelligence](/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/).

@@ -120,7 +120,7 @@ Saya tidak perlu memproses ribuan event hanya demi memperbarui angka yang tidak 
 
 ## Decision Freshness
 
-Saya lebih menyukai istilah **Decision Freshness** dibanding **Real-Time**.
+Saya lebih menyukai istilah **[Decision Freshness](/glossary/#observability)** dibanding **Real-Time**.
 
 Decision Freshness adalah tingkat kesegaran data yang masih layak digunakan untuk mengambil keputusan.
 
@@ -139,3 +139,5 @@ Kualitas dashboard ditentukan oleh kemampuannya menyajikan informasi yang tepat,
 Real-time bukan berarti cepat.
 
 Real-time adalah perubahan yang telah disepakati masih relevan untuk mendukung sebuah keputusan.
+
+Baca juga: [Measurement Bukan Tujuan](/notes/2026/07/13/measurement-bukan-tujuan/) dan [Insight Tidak Pernah Muncul dari Dashboard](/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) untuk memahami hubungan antara data, dashboard, dan keputusan.

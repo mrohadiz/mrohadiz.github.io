@@ -300,3 +300,5 @@ Saya lebih memilih bertanya:
 Jika tidak ada keputusan yang berubah, mungkin yang perlu dikurangi bukan datanya, melainkan kompleksitas sistemnya.
 
 Karena pada akhirnya, **measurement bukan tentang mengumpulkan data sebanyak mungkin, melainkan menyediakan informasi yang benar-benar dibutuhkan organisasi untuk mengambil keputusan yang lebih baik.**
+
+Baca juga: [Insight Tidak Pernah Muncul dari Dashboard](/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) dan [KPI Tidak Pernah Menyelesaikan Perdebatan](/notes/2026/07/13/kpi-tidak-pernah-menyelesaikan-perdebatan/).

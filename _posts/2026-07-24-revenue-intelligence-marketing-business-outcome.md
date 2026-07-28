@@ -131,3 +131,5 @@ Tujuan akhir analytics bukan menghasilkan lebih banyak dashboard.
 Tujuannya adalah membangun kemampuan organisasi mengambil keputusan yang lebih baik berdasarkan bukti.
 
 Revenue Intelligence menjadi tahap ketika data berubah menjadi kemampuan bisnis: memahami apa yang berhasil, mengapa berhasil, dan tindakan apa yang perlu dilakukan berikutnya.
+
+Baca juga: [Attribution Tanpa Governance](/notes/2026/07/25/attribution-tanpa-governance/) dan [Mengapa GA4 Tidak Selalu Cukup](/notes/2026/07/24/mengapa-ga4-tidak-selalu-cukup/).

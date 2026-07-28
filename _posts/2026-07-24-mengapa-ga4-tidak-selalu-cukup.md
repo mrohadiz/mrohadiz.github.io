@@ -123,3 +123,5 @@ Masalah utamanya bukan kurangnya data, tetapi kurangnya hubungan antara event, c
 Analytics memberikan kemampuan melihat aktivitas. Decision system memberikan kemampuan memahami dan bertindak.
 
 Organisasi yang matang tidak berhenti pada pengumpulan data, tetapi membangun sistem yang mengubah data menjadi pembelajaran berkelanjutan.
+
+Baca juga: [Attribution Tanpa Governance](/notes/2026/07/25/attribution-tanpa-governance/) dan [Revenue Intelligence](/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/).

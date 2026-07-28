@@ -423,6 +423,20 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
         </div>
       </div>
     </div>
+
+    <!-- Knowledge Graph -->
+    <div class="observatory-chart-card observatory-chart-full">
+      <div class="observatory-chart-header">
+        <h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
+          Knowledge Graph
+        </h3>
+      </div>
+      <div class="observatory-chart-body observatory-graph-body">
+        <canvas id="knowledge-graph-canvas"></canvas>
+        <div class="observatory-graph-tooltip" id="graph-tooltip"></div>
+      </div>
+    </div>
     
     <!-- Knowledge Tables -->
     <div class="observatory-table-card observatory-table-full">

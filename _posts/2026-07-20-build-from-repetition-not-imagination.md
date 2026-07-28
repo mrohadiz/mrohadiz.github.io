@@ -47,3 +47,5 @@ Dengan memulai dari repetisi, kita bisa membatasi scope sejak awal. Tool menjadi
 Automation bukan kemenangan atas ide, tetapi jawaban atas pengulangan.
 
 Kalau suatu proses belum berulang, biasanya belum waktunya dibangun. Kalau proses itu terus muncul, barulah ada alasan yang kuat untuk membuat tool.
+
+Baca juga: [Internal Tools Are Products for One Customer](/notes/2026/07/20/internal-tools-are-products-for-one-customer/), [The Tool-Building Trap](/notes/2026/07/20/the-tool-building-trap/), dan [Stop Building Platforms Too Early](/notes/2026/07/20/stop-building-platforms-too-early/) sebagai seri tentang internal tools dan automation.

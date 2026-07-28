@@ -16,6 +16,8 @@ excerpt: "Framework membedakan mana keputusan yang butuh jawaban langsung, ekspl
 **Prinsip Dasar**
 > Saya tidak bertugas mengambil keputusan untuk orang lain. Saya membantu orang melihat realitas, risiko, konsekuensi, dan *trade-off* agar mereka dapat mengambil keputusan secara sadar.
 
+Buku saku ini bagian dari kerangka [Decision Systems](/topics/decision-systems/). Pelajari juga metodologi lengkapnya di [Observe → Analyze → Synthesize → Decide](/methodology/).
+
 ---
 
 ## Langkah 1 — Identifikasi Biaya Jika Salah Memilih

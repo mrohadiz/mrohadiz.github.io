@@ -18,9 +18,11 @@ Kebanyakan implementasi AI untuk ringkasan video saat ini terjebak dalam "Summar
 Untuk mengatasi hal ini, saya mengembangkan **Knowledge Extraction Engine (KXE) v1.0**. Pergeseran paradigma KXE adalah mengubah peran AI dari sekadar "pembentuk ringkasan" menjadi kombinasi dari *Intelligence Analyst*, *Knowledge Engineer*, dan *Critical Reviewer*.
 
 Prinsip utama yang mendasari KXE adalah:
-1. **Observation Before Interpretation**: Catat apa yang terjadi sebelum menyimpulkan apa artinya.
+1. **[Observation Before Interpretation](/principles/#1-observation-before-interpretation)**: Catat apa yang terjadi sebelum menyimpulkan apa artinya.
 2. **Evidence Before Conclusion**: Tidak ada klaim tanpa bukti yang terlampir (timestamp/kutipan).
-3. **State Uncertainty Explicitly**: Jika informasi tidak ada atau ambigu, AI harus menyatakan "Tidak dapat dipastikan", bukan menebak.
+3. **[State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly)**: Jika informasi tidak ada atau ambigu, AI harus menyatakan "Tidak dapat dipastikan", bukan menebak.
+
+Pelajari lebih lanjut tentang [KXE](/glossary/#kxe-knowledge-extraction-engine) dan [Reasoning Engine](/notes/2024/12/15/reasoning-engine/) sebagai fondasi sistem ekstraksi pengetahuan.
 
 ## The KXE Architecture
 

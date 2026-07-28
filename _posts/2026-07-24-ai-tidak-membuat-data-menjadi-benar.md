@@ -202,4 +202,6 @@ Karena keputusan yang baik selalu dimulai dari data yang dapat dipercaya.
 
 Artikel berikutnya:
 
-**Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas**
+**[Attribution Tanpa Governance](/notes/2026/07/25/attribution-tanpa-governance/)**: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas
+
+Baca juga: [AI dalam Audit Digital Marketing](/notes/2026/07/23/ai-dalam-audit-digital-marketing-governance/) dan [5 Kesalahan Membangun Sistem AI](/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/).

@@ -126,3 +126,5 @@ Menggunakan platform CDP memberikan kemudahan, tetapi organisasi harus mengikuti
 Customer intelligence tidak dimulai dari dashboard, tetapi dari kemampuan memahami identitas dan perjalanan di balik setiap interaksi.
 
 Identity stitching menjadi jembatan antara data perilaku dan pemahaman customer yang lebih lengkap.
+
+Pelajari juga: [Lead Journey Trace](/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/) dan [Customer Data Platform](/notes/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/).
