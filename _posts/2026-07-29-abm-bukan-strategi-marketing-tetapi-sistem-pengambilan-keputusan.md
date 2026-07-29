@@ -11,6 +11,7 @@ tags:
   - go-to-market
   - business-intelligence
 excerpt: "Banyak organisasi menganggap Account-Based Marketing sebagai strategi marketing. Padahal inti ABM bukan marketing, melainkan bagaimana organisasi mengambil keputusan terhadap account yang paling tepat."
+image: /assets/images/og/2026-07-29-abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan.png
 ---
 
 # ABM Bukan Strategi Marketing, tetapi Sistem Pengambilan Keputusan
