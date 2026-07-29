@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Post — Digital Garden</title>
+<style>
+  :root {
+    --bg: #F7F3ED;
+    --surface: #FCF9F4;
+    --border: #E0D8C8;
+    --accent: #4A6B7B;
+    --accent-hover: #3D5A68;
+    --text: #2C2416;
+    --text-secondary: #5D5242;
+    --text-muted: #8A7D6B;
+    --success: #4A7B5A;
+    --error: #B34A4A;
+    --radius: 8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+    --font: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .header {
+    margin-bottom: 40px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .header-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .header-meta code {
+    font-size: 12px;
+    background: var(--surface);
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+
+  /* Layout */
+  .layout-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  @media (max-width: 800px) {
+    .layout-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Card */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 28px 32px;
+    box-shadow: var(--shadow);
+  }
+
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+  }
+
+  label .optional {
+    font-weight: 400;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(74,107,123,0.12);
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 68px;
+  }
+
+  select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%235D5242' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+  }
+
+  /* Slug row */
+  .slug-row {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+  }
+
+  .slug-row input {
+    flex: 1;
+  }
+
+  .slug-row .btn-slug {
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+
+  .slug-row .btn-slug:hover {
+    background: var(--border);
+    color: var(--text);
+  }
+
+  /* Tags input */
+  .tags-hint {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .tags-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+    min-height: 28px;
+  }
+
+  .tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    padding: 3px 10px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text-secondary);
+  }
+
+  .tag-chip .remove {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--text-muted);
+    margin-left: 2px;
+  }
+
+  .tag-chip .remove:hover {
+    color: var(--error);
+  }
+
+  /* Buttons */
+  .btn-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background: var(--accent-hover);
+  }
+
+  .btn-secondary {
+    background: var(--bg);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+  }
+
+  .btn-secondary:hover {
+    background: var(--border);
+  }
+
+  .btn-success {
+    background: var(--success);
+    color: white;
+  }
+
+  .btn-success:hover {
+    opacity: 0.9;
+  }
+
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Preview */
+  .preview-area {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px 20px;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-x: auto;
+    max-height: 480px;
+    overflow-y: auto;
+    min-height: 200px;
+    color: var(--text);
+  }
+
+  .preview-placeholder {
+    color: var(--text-muted);
+    font-family: var(--font);
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  /* Notifications */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 14px 24px;
+    background: var(--text);
+    color: var(--bg);
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0;
+    transform: translateY(12px);
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+
+  .toast.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .toast.error {
+    background: var(--error);
+  }
+
+  /* Permalink preview */
+  .permalink-preview {
+    font-size: 13px;
+    color: var(--accent);
+    padding: 10px 14px;
+    background: rgba(74,107,123,0.06);
+    border-radius: 6px;
+    margin-top: 12px;
+    display: none;
+  }
+
+  .permalink-preview.visible {
+    display: block;
+  }
+
+  .permalink-preview code {
+    font-weight: 500;
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 48px 20px;
+    color: var(--text-muted);
+  }
+
+  .empty-state svg {
+    margin-bottom: 12px;
+    opacity: 0.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-brand">
+      <div class="brand-mark">R</div>
+      <div>
+        <h1>New Post</h1>
+        <div class="header-meta">Digital Garden — M. Rohadiz</div>
+      </div>
+    </div>
+    <div class="header-meta">
+      Output: <code>_posts/YYYY-MM-DD-slug.md</code>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="layout-grid">
+
+    <!-- Form -->
+    <div class="card">
+      <div class="card-title">Form</div>
+
+      <form id="postForm" autocomplete="off">
+
+        <!-- Title -->
+        <div class="form-group">
+          <label for="title">Judul Artikel</label>
+          <input type="text" id="title" placeholder="e.g. Pola Arsitektur Microservices" required autofocus>
+        </div>
+
+        <!-- Slug -->
+        <div class="form-group">
+          <label for="slug">Slug <span class="optional">(auto-generated)</span></label>
+          <div class="slug-row">
+            <input type="text" id="slug" placeholder="pola-arsitektur-microservices" required>
+            <button type="button" class="btn-slug" id="regenerateSlug" title="Generate ulang dari judul">⟳</button>
+          </div>
+        </div>
+
+        <!-- Date -->
+        <div class="form-group">
+          <label for="date">Tanggal</label>
+          <input type="date" id="date" required>
+        </div>
+
+        <!-- Category -->
+        <div class="form-group">
+          <label for="category">Kategori</label>
+          <select id="category" required>
+            <option value="">— Pilih kategori —</option>
+            <option value="AI Engineering">AI Engineering</option>
+            <option value="Business Architecture">Business Architecture</option>
+            <option value="Business Intelligence">Business Intelligence</option>
+            <option value="Crypto Observation">Crypto Observation</option>
+            <option value="Decision Intelligence">Decision Intelligence</option>
+            <option value="Decision Systems">Decision Systems</option>
+            <option value="Digital Garden">Digital Garden</option>
+            <option value="Infrastructure">Infrastructure</option>
+            <option value="Meta">Meta</option>
+            <option value="Narrative Observatory">Narrative Observatory</option>
+            <option value="Prompt Engineering">Prompt Engineering</option>
+            <option value="Software Architecture">Software Architecture</option>
+          </select>
+        </div>
+
+        <!-- Tags -->
+        <div class="form-group">
+          <label for="tagsInput">Tags</label>
+          <input type="text" id="tagsInput" placeholder="e.g. microservices, architecture, system-design">
+          <div class="tags-hint">Pisah dengan koma, lalu tekan Enter atau Spasi</div>
+          <div class="tags-preview" id="tagsPreview"></div>
+        </div>
+
+        <!-- Series -->
+        <div class="form-group">
+          <label for="series">Series <span class="optional">(opsional)</span></label>
+          <input type="text" id="series" placeholder="e.g. goal-setting, architecture-patterns">
+        </div>
+
+        <!-- Excerpt -->
+        <div class="form-group">
+          <label for="excerpt">Excerpt <span class="optional">(opsional)</span></label>
+          <textarea id="excerpt" placeholder="Deskripsi singkat untuk listing page dan SEO..."></textarea>
+        </div>
+
+        <!-- Actions -->
+        <div class="btn-row">
+          <button type="submit" class="btn btn-primary" id="generateBtn">✎ Generate Post</button>
+          <button type="button" class="btn btn-secondary" id="clearBtn">↻ Reset</button>
+        </div>
+
+      </form>
+    </div>
+
+    <!-- Preview -->
+    <div class="card">
+      <div class="card-title">Preview</div>
+
+      <div class="preview-area" id="preview">
+        <div class="empty-state">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          <p>Isi form, lalu klik <strong>Generate Post</strong> untuk melihat pratinjau.</p>
+        </div>
+      </div>
+
+      <!-- Permalink preview -->
+      <div class="permalink-preview" id="permalinkPreview">
+        🔗 <code id="permalinkUrl"></code>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="btn-row" id="resultActions" style="display:none;">
+        <button class="btn btn-success" id="copyBtn">📋 Copy</button>
+        <button class="btn btn-secondary" id="downloadBtn">⬇ Download .md</button>
+        <button class="btn btn-secondary" id="copySlugBtn">🔗 Copy Slug</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+(function() {
+  'use strict';
+
+  // ── Elements ──
+  const form       = document.getElementById('postForm');
+  const titleEl    = document.getElementById('title');
+  const slugEl     = document.getElementById('slug');
+  const dateEl     = document.getElementById('date');
+  const catEl      = document.getElementById('category');
+  const tagsInput  = document.getElementById('tagsInput');
+  const tagsPrev   = document.getElementById('tagsPreview');
+  const seriesEl   = document.getElementById('series');
+  const excerptEl  = document.getElementById('excerpt');
+  const preview    = document.getElementById('preview');
+  const permalink  = document.getElementById('permalinkPreview');
+  const permalinkUrl = document.getElementById('permalinkUrl');
+  const resultAct  = document.getElementById('resultActions');
+  const generateBtn = document.getElementById('generateBtn');
+  const clearBtn   = document.getElementById('clearBtn');
+  const copyBtn    = document.getElementById('copyBtn');
+  const downloadBtn= document.getElementById('downloadBtn');
+  const copySlugBtn= document.getElementById('copySlugBtn');
+  const regenSlug  = document.getElementById('regenerateSlug');
+  const toast      = document.getElementById('toast');
+  const previewPlaceholder = '<div class="empty-state"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg><p>Isi form, lalu klik <strong>Generate Post</strong> untuk melihat pratinjau.</p></div>';
+
+  let tags = [];
+  let generatedContent = '';
+  let _slugManuallyEdited = false;
+
+  // ── Init date ──
+  dateEl.value = new Date().toISOString().slice(0, 10);
+
+  // ── Slugify ──
+  function slugify(str) {
+    return str
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+  }
+
+  function updateSlug() {
+    if (titleEl.value.trim()) {
+      slugEl.value = slugify(titleEl.value);
+    }
+  }
+
+  titleEl.addEventListener('input', function() {
+    if (!_slugManuallyEdited) updateSlug();
+  });
+  regenSlug.addEventListener('click', function() {
+    updateSlug();
+    _slugManuallyEdited = false;
+  });
+  slugEl.addEventListener('input', function() {
+    _slugManuallyEdited = true;
+  });
+
+  // ── Tags ──
+  function renderTags() {
+    tagsPrev.innerHTML = tags.map(t =>
+      `<span class="tag-chip">${escapeHtml(t)} <span class="remove" data-tag="${escapeHtml(t)}">×</span></span>`
+    ).join('');
+    document.querySelectorAll('.tag-chip .remove').forEach(el => {
+      el.addEventListener('click', function() {
+        tags = tags.filter(t => t !== this.dataset.tag);
+        renderTags();
+      });
+    });
+  }
+
+  function addTag(raw) {
+    const t = raw.trim().toLowerCase().replace(/[^a-z0-9-]/g, '');
+    if (t && !tags.includes(t)) {
+      tags.push(t);
+      renderTags();
+    }
+  }
+
+  tagsInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ',') {
+      e.preventDefault();
+      const vals = this.value.split(/[,]+/);
+      vals.forEach(v => addTag(v));
+      this.value = '';
+    }
+  });
+
+  tagsInput.addEventListener('blur', function() {
+    if (this.value.trim()) {
+      this.value.split(/[,]+/).forEach(v => addTag(v));
+      this.value = '';
+    }
+  });
+
+  // ── Escape HTML ──
+  function escapeHtml(str) {
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  // ── Toast ──
+  let toastTimer = null;
+  function showToast(msg, isError) {
+    toast.textContent = msg;
+    toast.className = 'toast' + (isError ? ' error' : '');
+    clearTimeout(toastTimer);
+    requestAnimationFrame(() => {
+      toast.classList.add('show');
+    });
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
+  }
+
+  // ── Copy ──
+  async function copyText(text, label) {
+    try {
+      await navigator.clipboard.writeText(text);
+      showToast(`✅ ${label} copied!`);
+    } catch {
+      // Fallback
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast(`✅ ${label} copied!`);
+    }
+  }
+
+  // ── Generate Post ──
+  function generatePost() {
+    const title   = titleEl.value.trim();
+    const slug    = slugEl.value.trim();
+    const date    = dateEl.value;
+    const cat     = catEl.value;
+    const series  = seriesEl.value.trim();
+    const excerpt = excerptEl.value.trim();
+
+    // Validation
+    if (!title)   { showToast('Judul wajib diisi.', true); return false; }
+    if (!slug)    { showToast('Slug wajib diisi.', true); return false; }
+    if (!date)    { showToast('Tanggal wajib diisi.', true); return false; }
+    if (!cat)     { showToast('Kategori wajib dipilih.', true); return false; }
+
+    function escapeYAML(str) {
+      return str.replace(/"/g, '\\"');
+    }
+
+    // Build frontmatter
+    let fm = '---\n';
+    fm += 'layout: article\n';
+    fm += `title: "${escapeYAML(title)}"\n`;
+    fm += `date: ${date}\n`;
+
+    // Categories (YAML list format)
+    fm += 'categories:\n';
+    fm += `  - ${cat}\n`;
+
+    // Tags
+    if (tags.length > 0) {
+      fm += 'tags:\n';
+      tags.forEach(t => { fm += `  - ${t}\n`; });
+    }
+
+    // Series (optional)
+    if (series) {
+      fm += `series: ${series}\n`;
+    }
+
+    // Excerpt (optional)
+    if (excerpt) {
+      fm += `excerpt: "${escapeYAML(excerpt)}"\n`;
+    }
+
+    // OG image path
+    fm += `image: /assets/images/og/${slug}.png\n`;
+    fm += '---\n\n';
+    fm += `# ${title}\n`;
+
+    generatedContent = fm;
+
+    // Update preview
+    preview.textContent = fm;
+
+    // Show permalink
+    const permalinkStr = `/notes/${date.replace(/-/g, '/')}/${slug}/`;
+    permalinkUrl.textContent = permalinkStr;
+    permalink.classList.add('visible');
+
+    // Show action buttons
+    resultAct.style.display = 'flex';
+
+    showToast('✅ Post generated!');
+    return true;
+  }
+
+  // ── Form submit ──
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    generatePost();
+  });
+
+  // ── Copy ──
+  copyBtn.addEventListener('click', function() {
+    if (generatedContent) copyText(generatedContent, 'Post content');
+  });
+
+  copySlugBtn.addEventListener('click', function() {
+    const slug = slugEl.value.trim();
+    if (slug) copyText(slug, 'Slug');
+  });
+
+  // ── Download ──
+  downloadBtn.addEventListener('click', function() {
+    if (!generatedContent) return;
+    const slug = slugEl.value.trim();
+    const date = dateEl.value;
+    const filename = `${date}-${slug}.md`;
+    const blob = new Blob([generatedContent], { type: 'text/markdown' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast(`⬇ Downloaded: ${filename}`);
+  });
+
+  // ── Clear / Reset ──
+  clearBtn.addEventListener('click', function() {
+    form.reset();
+    tags = [];
+    renderTags();
+    tagsInput.value = '';
+    generatedContent = '';
+    _slugManuallyEdited = false;
+    preview.innerHTML = previewPlaceholder;
+    permalink.classList.remove('visible');
+    resultAct.style.display = 'none';
+    dateEl.value = new Date().toISOString().slice(0, 10);
+    titleEl.focus();
+  });
+
+  // ── Keyboard shortcut ──
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+      e.preventDefault();
+      generatePost();
+    }
+  });
+
+})();
+</script>
+</body>
+</html>
