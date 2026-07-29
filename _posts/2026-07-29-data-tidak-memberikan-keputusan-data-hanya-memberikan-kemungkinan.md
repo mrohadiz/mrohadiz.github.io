@@ -14,6 +14,7 @@ categories:
 * systems-thinking
   excerpt: "Banyak organisasi mengumpulkan data sebanyak mungkin, tetapi sedikit yang mampu mengubahnya menjadi keputusan. Data hanyalah bahan baku, bukan keputusan."
 
+image: /assets/images/og/2026-07-29-data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan.png
 ---
 
 # Data Tidak Memberikan Keputusan, Data Hanya Memberikan Kemungkinan
