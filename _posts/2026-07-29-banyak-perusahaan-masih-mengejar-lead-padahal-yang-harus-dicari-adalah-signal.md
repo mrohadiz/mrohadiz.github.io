@@ -10,6 +10,7 @@ tags:
   - go-to-market
   - account-based-marketing
 excerpt: "Lead menunjukkan siapa yang menghubungi kita. Signal menunjukkan siapa yang kemungkinan membutuhkan kita."
+image: /assets/images/og/2026-07-29-banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal.png
 ---
 
 # Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal
