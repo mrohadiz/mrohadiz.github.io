@@ -14,6 +14,7 @@ categories:
 * decision-systems
   excerpt: "Goal yang baik bukan sekadar target yang harus dicapai, tetapi mekanisme untuk membangun kemampuan organisasi agar mampu menghasilkan hasil yang berkelanjutan."
 
+image: /assets/images/og/2026-07-29-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---
 
 # Goal Bukan Target, tetapi Proses Membangun Capability
