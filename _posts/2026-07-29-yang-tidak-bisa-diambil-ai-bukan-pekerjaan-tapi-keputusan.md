@@ -13,6 +13,7 @@ categories:
 * human-in-the-loop
   excerpt: "Semakin saya bekerja dengan AI, semakin saya sadar: masalah sebenarnya bukan pada eksekusi, tetapi pada keputusan yang harus diambil sebelum eksekusi dimulai."
 
+image: /assets/images/og/2026-07-29-yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan.png
 ---
 
 # Yang Tidak Bisa Diambil AI Bukan Pekerjaan, Tapi Keputusan
