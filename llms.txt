@@ -1,0 +1,58 @@
+# M. Rohadiz — Digital Garden
+> Digital Garden oleh M. Rohadiz — Software Architect yang mengeksplorasi AI Engineering, Decision Intelligence, Infrastructure, dan Software Architecture melalui catatan dan artikel berbasis data.
+
+## Pages
+- [About](https://mrohadiz.github.io/about/): Tentang M. Rohadiz, Software Architect di bidang Decision Intelligence dan AI Engineering.
+- [Methodology](https://mrohadiz.github.io/methodology/): Framework kerja: Observe → Analyze → Synthesize → Decide.
+- [Principles](https://mrohadiz.github.io/principles/): 10 prinsip dalam pengambilan keputusan teknis dan strategis.
+- [How I Work](https://mrohadiz.github.io/how-i-work/): Setup kerja, tools, dan workflow harian.
+- [Glossary](https://mrohadiz.github.io/glossary/): Kumpulan catatan konseptual tentang AI Engineering, Decision Systems, dan arsitektur sistem.
+- [Knowledge Map](https://mrohadiz.github.io/knowledge/): Peta struktur pengetahuan seluruh artikel dan observasi.
+- [Observatory](https://mrohadiz.github.io/observatory/): Dashboard analytics untuk search visibility, traffic, publishing, dan knowledge graph.
+
+## Core Concepts
+- [Decision Intelligence](https://mrohadiz.github.io/glossary/#decision-intelligence): Merancang sistem pengambilan keputusan yang lebih baik.
+- [Observability](https://mrohadiz.github.io/glossary/#observability): Kemampuan memahami state internal sistem dari output eksternal.
+- [OODA Loop](https://mrohadiz.github.io/glossary/#ooda-loop): Framework pengambilan keputusan Observe-Orient-Decide-Act.
+- [Root Cause Analysis](https://mrohadiz.github.io/glossary/#root-cause-analysis-rca): Proses sistematis menemukan penyebab fundamental masalah.
+- [Systems Thinking](https://mrohadiz.github.io/glossary/#systems-thinking): Memahami masalah dengan melihat sistem secara keseluruhan.
+- [Digital Garden](https://mrohadiz.github.io/glossary/#digital-garden): Pendekatan personal knowledge management.
+- [Second-Order Effects](https://mrohadiz.github.io/glossary/#second-order-effects): Dampak tidak langsung dari sebuah keputusan.
+- [Signal-to-Noise Ratio](https://mrohadiz.github.io/glossary/#signal-to-noise-ratio): Rasio informasi berguna vs data tidak relevan.
+- [Convergence Signal](https://mrohadiz.github.io/glossary/#convergence-signal): Kondisi indikator independen menunjukkan arah yang sama.
+- [Pre-mortem](https://mrohadiz.github.io/glossary/#pre-mortem): Teknik evaluasi dengan membayangkan kegagalan sebelum implementasi.
+
+## Article Series
+
+### Goal Setting & Capability Building (2026-07-28)
+- [Development Reality: Lapisan yang Hilang dalam Goal Setting](https://mrohadiz.github.io/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/): Memahami tahap perkembangan sistem sebelum menetapkan target.
+- [Goal Bukan Target, tetapi Proses Membangun Capability](https://mrohadiz.github.io/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/): Goal sebagai mekanisme membangun kemampuan organisasi.
+- [Organisasi Juga Mengalami Tahap Perkembangan](https://mrohadiz.github.io/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/): Organisasi sebagai sistem yang bertumbuh.
+- [Output Bukan Outcome](https://mrohadiz.github.io/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/): Perbedaan aktivitas dan perubahan nyata.
+
+### Decision Systems (2026-07-29)
+- [Data Tidak Memberikan Keputusan](https://mrohadiz.github.io/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/): Data hanyalah bahan baku, bukan keputusan.
+- [ABM Bukan Strategi Marketing](https://mrohadiz.github.io/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/): Account-Based Marketing sebagai decision system.
+- [Banyak Perusahaan Masih Mengejar Lead](https://mrohadiz.github.io/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/): Signal-driven vs lead-driven approach.
+- [Yang Tidak Bisa Diambil AI](https://mrohadiz.github.io/notes/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/): Keputusan tetap domain manusia.
+
+### Audit Forensik (2026-07-31)
+- [Deface Bukan Awal Serangan](https://mrohadiz.github.io/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/): Konsep dormant shell dalam audit forensik.
+- [Website Terlihat Bermasalah, Padahal Sehat](https://mrohadiz.github.io/notes/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/): Studi kasus troubleshooting akses device internal.
+
+### Onboarding & Technical Talent (2026-07-25)
+- [Contextual Roadmap](https://mrohadiz.github.io/notes/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/): Skill organisasi vs roadmap teknologi.
+- [Onboarding Harus Dimulai dari Konteks](https://mrohadiz.github.io/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/): Context before implementation.
+- [Onboarding Technical Talent](https://mrohadiz.github.io/notes/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/): Dari task executor menjadi problem solver.
+- [Technical Ownership](https://mrohadiz.github.io/notes/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/): Mengukur perkembangan dari kualitas pertanyaan.
+
+### Infrastructure & Troubleshooting
+- [Root Cause Analysis Lebih Penting daripada Solusi Cepat](https://mrohadiz.github.io/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/): Pentingnya RCA dalam troubleshooting.
+- [SMART PASSED Bukan Berarti Storage Sehat](https://mrohadiz.github.io/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/): Batasan alat diagnostik storage.
+- [Infrastructure as Code](https://mrohadiz.github.io/notes/2025/01/05/infrastructure-as-code/): Perbandingan Terraform vs Pulumi.
+
+### AI Engineering
+- [Reasoning Engine](https://mrohadiz.github.io/notes/2024/12/15/reasoning-engine/): Dari knowledge ke cara berpikir.
+- [Knowledge Extraction Engine](https://mrohadiz.github.io/notes/2026/07/12/knowledge-extraction-engine/): Sistem ekstraksi pengetahuan terstruktur.
+- [5 Kesalahan Membangun Sistem AI](https://mrohadiz.github.io/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/): Arsitektur sistem AI yang baik.
+- [Membangun AI Marketing Analyst](https://mrohadiz.github.io/notes/2026/07/26/membangun-ai-marketing-analyst/): Human-in-the-loop dalam sistem AI.
