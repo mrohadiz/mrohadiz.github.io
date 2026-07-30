@@ -28,6 +28,9 @@ Banyak organisasi gagal bukan karena targetnya terlalu tinggi atau terlalu renda
 
 Goal seharusnya bukan sekadar angka yang ingin dikejar, melainkan proses membangun capability agar angka tersebut dapat dicapai secara berkelanjutan.
 
+Pendekatan ini terkait erat dengan [Systems Thinking](/glossary/#systems-thinking) — memahami bahwa target adalah output dari sistem yang bekerja, bukan input yang dipaksakan. Konsep [Second-Order Effects](/glossary/#second-order-effects) juga relevan: mengejar angka tanpa membangun capability sering menghasilkan dampak tidak langsung yang merugikan.
+
+
 ---
 
 # Masalah Umum
@@ -214,3 +217,5 @@ Mereka memahami kondisi saat ini, membangun capability yang tepat, melakukan eks
 Pada akhirnya, goal bukan tentang mengejar angka.
 
 Goal adalah proses membangun sistem yang mampu menghasilkan angka tersebut secara berkelanjutan.
+
+Untuk pemahaman yang lebih mendalam tentang framework ini, baca [Development Reality: Lapisan yang Hilang dalam Goal Setting](/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) dan [Organisasi Juga Mengalami Tahap Perkembangan](/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/). Prinsip [Systems Have Second-Order Effects](/principles/#10-systems-have-second-order-effects) menjadi pengingat bahwa setiap target memiliki konsekuensi yang lebih luas dari sekadar angka.

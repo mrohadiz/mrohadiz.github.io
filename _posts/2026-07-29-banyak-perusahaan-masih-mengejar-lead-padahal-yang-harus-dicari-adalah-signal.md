@@ -77,6 +77,9 @@ Signal menjawab pertanyaan yang berbeda:
 
 Perbedaannya mungkin terlihat sederhana, tetapi dampaknya besar.
 
+Pendekatan signal-driven ini terkait erat dengan [Convergence Signal](/glossary/#convergence-signal) — ketika beberapa indikator independen menunjukkan arah yang sama, confidence terhadap keputusan meningkat. Dalam konteks [Decision Intelligence](/glossary/#decision-intelligence), signal adalah input yang memungkinkan organisasi mengambil keputusan secara proaktif, bukan reaktif.
+
+
 Lead merupakan indikator yang muncul setelah seseorang melakukan tindakan.
 
 Signal muncul sebelum proses pembelian dimulai.
@@ -116,3 +119,5 @@ Perubahan terbesar dalam Go-To-Market bukan sekadar berpindah dari outbound ke i
 Perubahan yang lebih mendasar adalah bergeser dari **lead-driven** menjadi **signal-driven**.
 
 Karena pada akhirnya, perusahaan yang lebih cepat memahami perubahan di pasar memiliki peluang lebih besar untuk membangun hubungan, menciptakan nilai, dan memenangkan kesempatan sebelum kompetitor menyadarinya.
+
+Untuk pemahaman yang lebih lengkap tentang bagaimana signal diubah menjadi keputusan, baca [ABM Bukan Strategi Marketing](/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/) dan [Data Tidak Memberikan Keputusan](/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/). Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) mengingatkan bahwa signal hanyalah observasi — interpretasi tetap membutuhkan konteks.

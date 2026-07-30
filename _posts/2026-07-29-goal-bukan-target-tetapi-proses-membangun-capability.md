@@ -33,6 +33,8 @@ Jika jawabannya tidak, maka target tersebut hanyalah pencapaian sementara.
 
 Goal yang baik seharusnya membangun kemampuan, bukan sekadar menghasilkan angka.
 
+Pendekatan ini berakar dari [Systems Thinking](/glossary/#systems-thinking) — memahami bahwa target adalah output dari sistem, bukan input yang dipaksakan. Dalam [Decision Intelligence](/glossary/#decision-intelligence), goal yang baik adalah yang mempertimbangkan [Second-Order Effects](/glossary/#second-order-effects): apa dampak tidak langsung dari mengejar target tertentu?
+
 ## Target Bersifat Sementara
 
 Target adalah hasil.
@@ -161,3 +163,5 @@ Tujuan sebenarnya adalah membangun organisasi yang semakin mampu menghasilkan ha
 Karena pada akhirnya, organisasi yang hebat bukanlah organisasi yang sesekali mencapai target.
 
 Melainkan organisasi yang terus meningkatkan capability sehingga target berikutnya menjadi semakin mudah dicapai.
+
+Baca juga [Development Reality](/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) untuk memahami framework lengkap tentang capability building, dan [Organisasi Juga Mengalami Tahap Perkembangan](/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/) untuk melihat bagaimana sistem bertumbuh melalui proses bertahap. Prinsip [Feedback Loops Are Infrastructure](/principles/#6-feedback-loops-are-infrastructure) mengingatkan bahwa setiap siklus goal-capability perlu mekanisme umpan balik.

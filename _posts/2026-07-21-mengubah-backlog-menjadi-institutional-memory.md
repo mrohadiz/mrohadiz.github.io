@@ -17,6 +17,9 @@ image: /assets/images/og/2026-07-21-mengubah-backlog-menjadi-institutional-memor
 
 Banyak tim memakai backlog sebagai daftar pekerjaan. Masalahnya, backlog yang hanya hidup di dokumen sering berubah menjadi tempat parkir ide yang mudah dilupakan. Saat jumlah temuan bertambah, sulit membedakan mana yang sudah selesai, mana yang masih relevan, dan mana yang seharusnya diprioritaskan.
 
+Pendekatan ini berkaitan dengan konsep [Working Memory (Eksternal)](/glossary/#working-memory-eksternal) — memindahkan informasi dari pikiran ke sistem yang persistent dan searchable. Dalam konteks [Architectural Decision Record](/glossary/#architectural-decision-record-adr), setiap keputusan yang terdokumentasi dengan baik menjadi bagian dari institutional memory.
+
+
 ## Ringkasan
 
 Workflow yang lebih sehat memisahkan dua hal: dokumen sebagai memori permanen, dan issue sebagai backlog aktif. Dokumen menyimpan apa yang pernah dipelajari, sementara issue menyimpan apa yang masih harus dikerjakan.
@@ -50,3 +53,5 @@ Dokumen tetap penting, tetapi fungsinya berubah. Dokumen menyimpan sejarah dan k
 Organisasi yang matang bukan organisasi yang menyelesaikan semua masalah sekaligus. Organisasi yang matang adalah organisasi yang tidak kehilangan pengetahuan, tidak kehilangan fokus, dan tahu kapan sebuah temuan harus menjadi backlog aktif.
 
 GitHub Issue membuat komitmen menjadi terlihat. Dokumen membuat pelajaran tetap hidup. Di antara keduanya, workflow jadi lebih disiplin.
+
+Baca juga [Technical Ownership](/notes/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/) untuk memahami bagaimana kualitas pertanyaan dalam issue mencerminkan perkembangan tim, dan [The Tool-Building Trap](/notes/2026/07/20/the-tool-building-trap/) untuk menghindari jebakan membangun tool yang terlalu kompleks. Prinsip [Feedback Loops Are Infrastructure](/principles/#6-feedback-loops-are-infrastructure) mengingatkan bahwa issue tracker bukan sekadar daftar tugas, tetapi mekanisme umpan balik.

@@ -25,6 +25,8 @@ Dalam banyak kasus, kompromi sebenarnya telah terjadi jauh sebelumnya. Penyerang
 
 Memahami pola ini membantu proses investigasi menjadi lebih terarah dan menghindari kesimpulan yang terlalu dini.
 
+Pendekatan investigasi semacam ini erat kaitannya dengan [Root Cause Analysis](/glossary/#root-cause-analysis-rca) — membedakan antara gejala dan akar penyebab, serta [Observability](/glossary/#observability) sebagai fondasi untuk memahami state sistem dari logs, metrics, dan traces.
+
 ---
 
 ## Deface Adalah Tahap Akhir
@@ -118,6 +120,8 @@ Beberapa area yang umumnya menjadi fokus audit:
 - konfigurasi keamanan server.
 
 Tujuan utamanya bukan sekadar menghapus malware, tetapi memahami keseluruhan siklus serangan.
+
+Proses audit ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — mengumpulkan bukti sebelum menarik kesimpulan. Untuk referensi teknis lebih lanjut, lihat [WordPress Security Audit Checklist Before Migration](/notes/2026/07/14/wordpress-security-audit-checklist-before-migration/) dan [SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) sebagai contoh penerapan audit berbasis bukti.
 
 ---
 

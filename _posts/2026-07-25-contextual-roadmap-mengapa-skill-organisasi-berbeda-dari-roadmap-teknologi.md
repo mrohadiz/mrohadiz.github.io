@@ -34,6 +34,8 @@ Contextual roadmap menjawab:
 
 Keduanya memiliki tujuan berbeda.
 
+Pendekatan contextual roadmap ini sejalan dengan [Systems Thinking](/glossary/#systems-thinking) — kemampuan memahami masalah dalam konteks sistem yang lebih luas. Dalam [Decision Intelligence](/glossary/#decision-intelligence), skill seseorang diukur dari kemampuannya mengambil keputusan, bukan sekadar menguasai tools.
+
 ## Perbedaan Generic Roadmap dan Contextual Roadmap
 
 ### Generic Roadmap
@@ -153,3 +155,5 @@ Teknologi terus berubah. Tools yang digunakan hari ini dapat berbeda di masa dep
 Namun kemampuan memahami masalah, membaca konteks, dan mengambil keputusan akan tetap relevan.
 
 Karena itu organisasi tidak hanya membutuhkan orang yang mengetahui teknologi, tetapi orang yang mampu menggunakan teknologi untuk menyelesaikan masalah yang benar.
+
+Untuk pendalaman lebih lanjut, baca [Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools](/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/) dan [Technical Ownership](/notes/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/). Prinsip [The Best System Is the One You Can Understand](/principles/#5-the-best-system-is-the-one-you-can-understand) menegaskan bahwa kesederhanaan dan konteks lebih bernilai daripada kompleksitas yang tidak perlu.

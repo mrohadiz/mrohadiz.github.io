@@ -114,6 +114,8 @@ Karena keputusan tersebut selalu dipengaruhi oleh nilai, tujuan, budaya, dan tol
 
 Semua itu berada di luar kemampuan optimasi.
 
+Pembahasan tentang trade-off ini terkait erat dengan [Decision Intelligence](/glossary/#decision-intelligence) — merancang sistem yang membantu manusia membuat keputusan yang lebih baik, bukan menggantikannya. Konsep [Second-Order Effects](/glossary/#second-order-effects) juga relevan: setiap keputusan memiliki konsekuensi tidak langsung yang tidak bisa diabaikan.
+
 ## Ada Tanggung Jawab yang Tidak Bisa Didelegasikan
 
 Semakin lama saya menggunakan AI, semakin saya percaya pada satu hal.
@@ -162,3 +164,5 @@ Saya merasa satu hal menjadi semakin jelas.
 Dan mungkin di situlah peran manusia tidak berkurang.
 
 Melainkan menjadi jauh lebih besar daripada sebelumnya.
+
+Baca juga [Membangun AI Marketing Analyst](/notes/2026/07/26/membangun-ai-marketing-analyst/) untuk memahami bagaimana human-in-the-loop menjaga kualitas keputusan, dan [5 Kesalahan Membangun Sistem AI](/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur sistem AI yang baik. Prinsip [State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly) mengingatkan bahwa keputusan yang baik adalah yang sadar akan ketidakpastiannya.

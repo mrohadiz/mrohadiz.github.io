@@ -127,6 +127,9 @@ Keduanya memiliki fungsi berbeda.
 
 Roadmap umum membantu memahami dunia teknologi. Onboarding organisasi membantu seseorang menjadi efektif di lingkungan tertentu.
 
+Framework ini terkait dengan [Systems Thinking](/glossary/#systems-thinking) — problem solver yang baik mampu melihat hubungan antar komponen dan memahami dampak keputusannya. Dalam [Decision Intelligence](/glossary/#decision-intelligence), kemampuan mengambil keputusan adalah puncak dari perkembangan technical talent.
+
+
 ## Indikator Perkembangan Talent
 
 Salah satu indikator penting bukan jumlah task yang selesai, tetapi perubahan cara berpikir.
@@ -148,3 +151,5 @@ Onboarding teknis yang baik bukan menciptakan orang yang hanya mengikuti instruk
 Tujuan akhirnya adalah membangun orang yang mampu memahami sistem, mempertimbangkan dampak, dan mengambil keputusan dengan bertanggung jawab.
 
 Teknologi dapat berubah, tetapi kemampuan berpikir sistematis dan memiliki ownership akan tetap menjadi kemampuan yang bernilai.
+
+Baca juga [Contextual Roadmap](/notes/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/) dan [Mengapa Onboarding Harus Dimulai dari Konteks](/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/) untuk melengkapi pemahaman tentang pengembangan technical talent. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) mengingatkan bahwa problem solver sejati mengumpulkan bukti sebelum menyimpulkan.

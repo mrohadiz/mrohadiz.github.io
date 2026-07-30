@@ -85,6 +85,9 @@ Output membangun capability.
 
 Capability menghasilkan outcome.
 
+Framework ini erat kaitannya dengan [Systems Thinking](/glossary/#systems-thinking) — memahami hubungan antara intervensi (output) dan perubahan sistemik (outcome). Dalam [Decision Intelligence](/glossary/#decision-intelligence), fokus pada outcome memastikan bahwa setiap keputusan dievaluasi berdasarkan perubahan nyata yang dihasilkan.
+
+
 ```
 Output
       ↓
@@ -106,3 +109,5 @@ Mengukur output memang penting.
 Namun organisasi berkembang bukan karena semakin banyak aktivitas.
 
 Organisasi berkembang ketika aktivitas tersebut benar-benar menghasilkan capability yang kemudian mengubah outcome.
+
+Lihat juga [Development Reality](/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) untuk memahami mengapa capability adalah fondasi goal setting, dan [Measurement Bukan Tujuan](/notes/2026/07/13/measurement-bukan-tujuan/) untuk memahami perbedaan antara mengukur aktivitas dan mengukur perubahan.

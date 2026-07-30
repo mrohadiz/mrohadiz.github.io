@@ -70,6 +70,9 @@ Data hanya menjadi titik awal.
 
 Keputusan muncul setelah data dipahami dalam konteks bisnis.
 
+Inilah inti dari [Decision Intelligence](/glossary/#decision-intelligence) — membedakan antara memiliki data dan mampu mengambil keputusan yang lebih baik. Konsep [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) juga relevan: semakin banyak data tanpa filtering, semakin sulit menemukan signal yang benar-benar berarti.
+
+
 ## Mengapa Konteks Lebih Penting Daripada Volume
 
 Misalkan sebuah perusahaan melihat traffic website turun 30%.
@@ -133,6 +136,10 @@ Setiap hasil menjadi pembelajaran.
 Setiap pembelajaran memperbaiki keputusan berikutnya.
 
 Siklus inilah yang membuat organisasi berkembang lebih cepat daripada kompetitornya.
+
+Pendekatan ini sejalan dengan framework [OODA Loop](/glossary/#ooda-loop) — setiap siklus Observe-Orient-Decide-Act adalah mekanisme learning yang memperbaiki kualitas keputusan berikutnya. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) menjadi fondasi untuk tidak melompat ke kesimpulan sebelum data dipahami dalam konteks.
+
+Untuk pembahasan lebih lanjut tentang signal dan keputusan, baca [Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal](/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/) dan [ABM Bukan Strategi Marketing](/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/).
 
 ## Penutup
 

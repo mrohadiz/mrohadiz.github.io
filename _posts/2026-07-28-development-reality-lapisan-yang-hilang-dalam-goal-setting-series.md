@@ -27,6 +27,8 @@ Saya justru lebih tertarik dengan pertanyaan sebelumnya.
 
 Saya menyebut lapisan ini sebagai **Development Reality**.
 
+Pertanyaan ini lahir dari [Systems Thinking](/glossary/#systems-thinking) — memahami bahwa setiap organisasi adalah sistem yang memiliki tahap perkembangan, feedback loops, dan time delays yang berbeda. Dalam konteks [Decision Intelligence](/glossary/#decision-intelligence), memahami kondisi nyata sistem sebelum menetapkan target adalah langkah pertama yang sering terlewat.
+
 ---
 
 ## Semua Sistem Mengalami Pertumbuhan
@@ -93,3 +95,5 @@ Target tanpa Development Reality sering berubah menjadi harapan.
 Sebaliknya, target yang dibangun di atas pemahaman terhadap tahap perkembangan memiliki peluang jauh lebih besar untuk dicapai.
 
 Karena setiap sistem bertumbuh melalui tahapan, bukan lompatan.
+
+Pendekatan ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) dan metodologi [Observe → Analyze → Synthesize → Decide](/methodology/). Baca juga [Capability Dibangun Sebelum Dibutuhkan](/notes/2026/07/15/capability-dibangun-sebelum-dibutuhkan/) untuk memahami urgensi membangun kemampuan sebelum target ditetapkan.

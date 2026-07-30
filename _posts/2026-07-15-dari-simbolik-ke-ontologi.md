@@ -20,6 +20,8 @@ Banyak keputusan buruk bukan lahir dari kurangnya data, tetapi dari cara membaca
 
 # Insight utama
 
+Framework ini erat kaitannya dengan [Systems Thinking](/glossary/#systems-thinking) — kemampuan melihat sistem secara keseluruhan, bukan hanya gejala di permukaan. Dalam [Decision Intelligence](/glossary/#decision-intelligence), semakin tinggi level abstraksi seseorang, semakin baik kualitas keputusan yang dihasilkan.
+
 ## 1. Simbolik belum tentu cukup
 Di level simbolik, kita melihat objek dan kejadian yang tampak: angka, candle, traffic, error, atau gejala lain. Level ini penting, tetapi sering membuat kita berhenti pada permukaan.
 
@@ -56,3 +58,5 @@ Ini relevan untuk banyak bidang:
 # Penutup
 
 Naik level berpikir bukan soal terdengar lebih filosofis. Tujuannya lebih praktis: melihat realitas dengan lebih jernih, memilih intervensi yang lebih tepat, dan mengurangi kesalahan akibat model yang terlalu dangkal. Semakin tinggi kualitas peta mental yang dipakai, semakin kecil peluang kita tersesat oleh permukaan data.
+
+Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) dan [State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly) menjadi panduan praktis dalam menaiki tangga berpikir ini. Baca juga [Data Tidak Memberikan Keputusan](/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/) untuk melihat bagaimana level berpikir yang dangkal menghasilkan keputusan yang buruk.

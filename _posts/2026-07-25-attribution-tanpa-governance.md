@@ -28,6 +28,8 @@ Jawabannya sering berbeda tergantung siapa yang melihat laporan.
 
 Masalahnya bukan kekurangan data. Masalahnya adalah tidak adanya sistem yang menyatukan bagaimana data tersebut harus dibaca.
 
+Masalah ini berakar pada [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) — attribution tanpa governance menghasilkan lebih banyak noise daripada signal yang dapat ditindaklanjuti. Dalam kerangka [Decision Intelligence](/glossary/#decision-intelligence), kualitas keputusan sangat bergantung pada kualitas data yang mendasarinya.
+
 ## Attribution Bukan Sekadar Menghitung Conversion
 
 Attribution adalah proses memahami kontribusi setiap touchpoint dalam perjalanan customer.

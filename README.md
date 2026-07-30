@@ -1,6 +1,6 @@
 # M. Rohadiz - Digital Garden
 
-Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.
+Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, dan Software Architecture.
 
 ## Features
 

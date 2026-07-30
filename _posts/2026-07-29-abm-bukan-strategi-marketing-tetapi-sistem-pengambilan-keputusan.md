@@ -32,6 +32,9 @@ ABM sebenarnya adalah sebuah **decision system**.
 
 Marketing hanyalah salah satu eksekusinya.
 
+Pemahaman ini membawa ABM ke ranah [Decision Intelligence](/glossary/#decision-intelligence) — bukan sekadar strategi marketing, tetapi sistem untuk membuat keputusan yang lebih baik tentang account mana yang diprioritaskan. Konsep [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) juga relevan: kemampuan membedakan signal bisnis yang berarti dari noise pasar.
+
+
 ---
 
 ## Masalah Terbesar Bukan Kekurangan Lead
@@ -209,3 +212,5 @@ Jika artikel sebelumnya membahas pentingnya membaca **signal**, maka langkah ber
 Karena pada akhirnya, organisasi yang menang bukan organisasi yang melakukan marketing paling banyak.
 
 Melainkan organisasi yang paling konsisten membuat keputusan yang tepat terhadap account yang tepat, pada waktu yang tepat.
+
+Lihat juga [Banyak Perusahaan Masih Mengejar Lead](/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/) untuk memahami perbedaan antara lead dan signal, serta [Data Tidak Memberikan Keputusan](/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/) untuk memahami mengapa konteks lebih penting daripada volume data. Metodologi [Observe → Analyze → Synthesize → Decide](/methodology/) memberikan framework yang melengkapi siklus keputusan dalam ABM.

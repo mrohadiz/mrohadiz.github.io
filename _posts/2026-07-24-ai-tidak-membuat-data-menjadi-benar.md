@@ -25,6 +25,8 @@ Namun ada satu asumsi yang sering keliru:
 
 Pada kenyataannya, AI tidak membuat data menjadi benar.
 
+Prinsip ini terkait erat dengan [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) — AI yang dilatih dengan data berkualitas rendah hanya akan menghasilkan output yang menyesatkan. Dalam [Decision Intelligence](/glossary/#decision-intelligence), data governance adalah fondasi yang harus dibangun sebelum AI dapat memberikan nilai yang berarti.
+
 AI hanya mempercepat proses membaca dan mengolah data yang tersedia.
 
 Jika data memiliki masalah sejak awal, maka AI hanya menghasilkan kesimpulan yang terlihat cerdas tetapi memiliki fondasi yang salah.

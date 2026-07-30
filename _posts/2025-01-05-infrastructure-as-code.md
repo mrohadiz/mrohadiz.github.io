@@ -17,6 +17,9 @@ excerpt: "Perbandingan Terraform dan Pulumi untuk Infrastructure as Code: kapan 
 
 Infrastructure as Code (IaC) adalah practice untuk mengelola infrastructure melalui code. Dua tool populer saat ini adalah Terraform (HashiCorp) dan Pulumi. Mari kita bandingkan keduanya.
 
+Dalam konteks [Observability](/glossary/#observability), IaC berperan penting untuk memastikan infrastruktur dapat direproduksi dan audit trail tersedia secara otomatis. Pelajari juga [Event-Driven Architecture](/notes/2024/12/25/event-driven-architecture/) untuk memahami pola arsitektur yang melengkapi fondasi infrastruktur modern.
+
+
 ## Terraform
 
 ### Kelebihan
@@ -119,3 +122,5 @@ web_sg = aws.ec2.SecurityGroup("web-sg",
 ## Kesimpulan
 
 Baik Terraform maupun Pulumi punya kelebihan masing-masing. Pilihan tergantung pada team expertise, use case, dan preferensi. Yang terpenting adalah konsistensi dalam penerapan IaC practices.
+
+Keputusan memilih tool IaC sebaiknya didokumentasikan dalam [Architectural Decision Record](/glossary/#architectural-decision-record-adr) agar konteks dan trade-off tidak hilang seiring waktu. Baca juga prinsip [Make It Observable First](/principles/#3-make-it-observable-first) sebagai fondasi dalam merancang infrastruktur modern.

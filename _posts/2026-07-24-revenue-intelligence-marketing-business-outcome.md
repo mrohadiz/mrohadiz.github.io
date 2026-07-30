@@ -24,6 +24,8 @@ Namun pertanyaan yang lebih penting adalah:
 
 Revenue Intelligence adalah pendekatan untuk menghubungkan perjalanan customer, aktivitas marketing, dan hasil bisnis menjadi satu pemahaman yang utuh.
 
+Pertanyaan ini membawa kita ke inti [Decision Intelligence](/glossary/#decision-intelligence) — bukan sekadar mengukur aktivitas, tetapi merancang sistem yang menghubungkan output marketing dengan outcome bisnis. Konsep [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) juga relevan: traffic dan klik sering menjadi noise yang mengaburkan signal pendapatan yang sebenarnya.
+
 ## Insight Utama
 
 Marketing sering berhenti pada metrik permukaan:

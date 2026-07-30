@@ -30,9 +30,6 @@ Membangun sistem AI yang production-ready — dari model training hingga deploym
 ### Software Architecture
 **System design**, **microservices**, **event-driven architecture**, dan architectural decision making. Menulis tentang bagaimana membangun sistem yang maintainable, extensible, dan survive the test of time.
 
-### Crypto Observation
-Market analysis dan on-chain data observation menggunakan **data-driven approach** untuk memahami market dynamics, microstructure, dan DeFi protocols.
-
 ## Pendekatan
 
 Saya menulis seperti sedang berbicara dengan versi saya sendiri 6 bulan yang lalu. Setiap catatan adalah dokumentasi dari proses belajar, debugging, dan discovery. **Knowledge Management** bukan sekadar arsip — ini adalah sistem berpikir yang terus berkembang.

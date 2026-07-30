@@ -145,3 +145,5 @@ Onboarding yang baik bukan tentang seberapa banyak tools yang diperkenalkan pada
 Nilai terbesar onboarding adalah membangun pemahaman mengenai bagaimana organisasi berpikir, bagaimana keputusan dibuat, dan bagaimana seseorang dapat berkontribusi secara mandiri.
 
 Tools akan selalu berubah. Kemampuan memahami konteks akan tetap relevan.
+
+Onboarding berbasis konteks ini sejalan dengan prinsip [Context Is Part of the Answer](/principles/#9-context-is-part-of-the-answer) — setiap solusi hanya valid dalam konteks tertentu. Lihat juga [Contextual Roadmap](/notes/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/) untuk memahami perbedaan antara generic roadmap dan contextual roadmap, serta [Onboarding Technical Talent](/notes/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/) untuk melihat bagaimana pendekatan ini membentuk problem solver.

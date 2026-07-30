@@ -19,6 +19,9 @@ image: /assets/images/og/2026-07-14-wordpress-security-audit-checklist-before-mi
 
 Sebelum memigrasikan WordPress ke server baru, saya selalu memeriksa apakah situs benar-benar bersih dari indikator kompromi. Di shared hosting, audit tidak bisa menjangkau semua lapisan infrastruktur, jadi fokus utama ada pada core WordPress, file, plugin, theme, database, dan konfigurasi dasar.
 
+Pendekatan audit ini erat kaitannya dengan [Root Cause Analysis](/glossary/#root-cause-analysis-rca) — membedakan antara artefak kompromi yang terlihat dan akar penyebab yang mendasarinya. Konsep [SMART (Storage)](/glossary/#smart-storage) juga relevan untuk memahami bahwa alat audit memiliki batasan: tidak semua yang lolos pemeriksaan berarti aman.
+
+
 ## 1. Identitas Website
 
 - [ ] Verifikasi domain yang diaudit
@@ -131,3 +134,5 @@ Gunakan tiga status ini:
 Di shared hosting, beberapa hal tidak bisa diverifikasi penuh, seperti log server, ownership file, proses sistem, dan konfigurasi OS. Itu harus ditulis sebagai *not verifiable*, bukan otomatis dianggap aman.
 
 Audit yang baik bukan hanya mencari malware. Audit yang baik membantu kita mengambil keputusan migrasi dengan tingkat keyakinan yang jelas.
+
+Untuk contoh investigasi keamanan yang lebih mendalam, lihat [Deface Bukan Awal Serangan](/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) yang membahas konsep dormant shell dalam audit forensik. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) juga menjadi fondasi dalam menjalankan audit secara sistematis.

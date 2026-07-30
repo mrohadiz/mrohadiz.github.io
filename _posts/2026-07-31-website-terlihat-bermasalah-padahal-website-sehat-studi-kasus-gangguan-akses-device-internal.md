@@ -179,6 +179,10 @@ Jika website masih dapat diakses dari perangkat atau jaringan lain, kemungkinan 
 
 Pendekatan ini dapat menghindarkan engineer dari perubahan infrastruktur yang sebenarnya tidak diperlukan.
 
+Studi kasus ini adalah contoh konkret penerapan [Root Cause Analysis](/glossary/#root-cause-analysis-rca) — tidak berhenti pada gejala "website error" tetapi melakukan eliminasi hipotesis secara sistematis. Konsep [Convergence Signal](/glossary/#convergence-signal) juga relevan: ketika server normal, CDN sehat, dan SSL valid (satu arah), sementara perangkat tertentu gagal (arah lain), maka konvergensi belum terjadi dan investigasi perlu berlanjut.
+
+Bandingkan dengan pendekatan serupa di [SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) di mana metrik normal tidak selalu berarti sistem sehat. Baca juga [Deface Bukan Awal Serangan](/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) untuk melihat pola investigasi forensik di domain yang berbeda.
+
 ---
 
 ## Checklist Troubleshooting
@@ -206,3 +210,5 @@ Dalam troubleshooting infrastruktur, observasi sering kali lebih penting daripad
 Kasus ini menunjukkan bahwa website dapat tetap beroperasi dengan baik meskipun sebagian pengguna mengalami kegagalan akses. Penyebabnya bukan berasal dari server, melainkan dari lingkungan perangkat yang digunakan untuk mengakses website.
 
 Memahami batas antara masalah website dan masalah jalur akses akan membantu proses identifikasi akar masalah menjadi lebih cepat, lebih akurat, dan menghindari perubahan yang tidak diperlukan pada sistem produksi.
+
+Pendekatan ini mencerminkan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — mengumpulkan bukti dari berbagai sumber sebelum menyimpulkan penyebab.

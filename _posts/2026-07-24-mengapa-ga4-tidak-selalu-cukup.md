@@ -20,6 +20,8 @@ Google Analytics 4 (GA4) menjadi salah satu fondasi penting dalam digital analyt
 
 Perbedaan utama bukan pada jumlah data, tetapi pada kemampuan mengubah data menjadi keputusan.
 
+Ini adalah contoh nyata dari [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) — data dari satu sumber tanpa konteks lebih banyak menghasilkan noise daripada signal. Dalam kerangka [Decision Intelligence](/glossary/#decision-intelligence), analytics adalah sensor, bukan sistem pengambilan keputusan.
+
 ## Analytics Menjawab Apa yang Terjadi
 
 Platform analytics biasanya fokus pada pengukuran aktivitas:

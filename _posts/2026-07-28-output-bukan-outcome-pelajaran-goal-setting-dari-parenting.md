@@ -84,6 +84,9 @@ Output membangun capability.
 
 Capability menghasilkan outcome.
 
+Prinsip ini berlaku universal — lihat [Output Bukan Outcome](/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/) untuk pembahasan dalam konteks organisasi, dan [Organisasi Juga Mengalami Tahap Perkembangan](/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/) untuk melihat bagaimana sistem belajar melalui proses bertahap.
+
+
 ```
 Output
       ↓

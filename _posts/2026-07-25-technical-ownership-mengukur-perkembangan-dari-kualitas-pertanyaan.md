@@ -34,6 +34,8 @@ Pada tahap yang lebih matang, pertanyaannya berubah menjadi:
 
 Perubahan kualitas pertanyaan menunjukkan perkembangan cara berpikir.
 
+Perubahan ini mencerminkan perjalanan dari sekadar mengikuti instruksi menuju [Decision Intelligence](/glossary/#decision-intelligence) — kemampuan mengambil keputusan berdasarkan konteks, bukan hanya menjalankan perintah. Dalam [Systems Thinking](/glossary/#systems-thinking), pertanyaan yang lebih baik menunjukkan pemahaman yang lebih dalam terhadap sistem.
+
 ## Dari Task Execution ke Technical Judgment
 
 Seorang operator biasanya fokus pada penyelesaian instruksi.
@@ -149,3 +151,5 @@ Tujuannya bukan membuat seseorang bergantung pada mentor, tetapi membangun kemam
 Technical ownership terlihat ketika seseorang tidak hanya meminta solusi, tetapi mampu membawa konteks, analisis, dan pertimbangan sebelum mengambil keputusan.
 
 Teknologi akan terus berubah. Tools akan berganti. Namun kemampuan memahami masalah dan membuat keputusan yang tepat adalah kemampuan yang bertahan lama.
+
+Baca juga [Onboarding Technical Talent](/notes/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/) dan [Mengapa Onboarding Harus Dimulai dari Konteks](/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/) untuk memahami bagaimana membangun ownership dalam organisasi. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) mengingatkan bahwa keputusan yang baik lahir dari pemahaman, bukan asumsi.

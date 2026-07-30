@@ -31,6 +31,9 @@ Pertanyaan inilah yang saya sebut sebagai **Development Reality**.
 
 Sebelum menentukan target, kita perlu memahami kondisi nyata sistem yang sedang berkembang—baik itu individu, organisasi, maupun keluarga.
 
+Konsep ini berakar dari [Systems Thinking](/glossary/#systems-thinking) — melihat organisasi sebagai sistem yang memiliki tahapan pertumbuhan. Dalam praktik [Decision Intelligence](/glossary/#decision-intelligence), memahami realitas perkembangan adalah prasyarat sebelum menentukan target yang realistis.
+
+
 ---
 
 # Mengapa Goal Sering Tidak Tepat?
@@ -207,6 +210,9 @@ Justru ia melengkapinya.
 SMART membantu membuat target menjadi jelas.
 
 Development Reality membantu memastikan target tersebut memiliki pijakan yang realistis.
+
+Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) juga relevan: sebelum menetapkan target, pastikan kita memiliki data yang cukup untuk memahami kondisi sistem saat ini. Baca juga [Output Bukan Outcome](/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/) dan [Goal Bukan Target](/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/) untuk melengkapi pemahaman tentang goal setting berbasis capability.
+
 
 ---
 

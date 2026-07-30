@@ -22,6 +22,8 @@ Banyak diskusi tentang SEO dimulai dengan pertanyaan yang sama.
 
 Pertanyaan tersebut memang penting. Namun semakin sering saya mengaudit strategi konten dan mengamati bagaimana AI Search memahami informasi, saya menyadari ada pertanyaan lain yang jauh lebih mendasar.
 
+Perbedaan pendekatan ini mencerminkan prinsip [Systems Thinking](/glossary/#systems-thinking) — SEO bukan kumpulan taktik terisolasi, tetapi sistem yang terdiri dari subsistem produksi dan subsistem navigasi. Konsep [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) juga relevan: mesin eksekusi menghasilkan konten (signal), sistem navigasi memastikan konten yang tepat ditemukan (mengurangi noise).
+
 > **Apa peran artikel ini dalam keseluruhan sistem pengetahuan yang sedang kita bangun?**
 
 Perbedaan dua pertanyaan tersebut tampak sederhana, tetapi menghasilkan pendekatan yang sangat berbeda.
@@ -144,3 +146,5 @@ Namun tanpa sistem navigasi yang menghubungkan setiap konten ke dalam struktur p
 Di era AI Search, strategi SEO yang berkelanjutan bukan hanya membutuhkan mesin eksekusi yang kuat, tetapi juga sistem navigasi yang menjaga arah perjalanan.
 
 Baca juga: [From SEO to Knowledge Architecture](/notes/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/) dan [Content Layering](/notes/2026/07/18/content-layering-topical-authority-without-content-farm/) untuk melengkapi pemahaman tentang strategi konten modern.
+
+Prinsip [Separate Signal from Noise Deliberately](/principles/#7-separate-signal-from-noise-deliberately) menjadi fondasi: kedua sistem harus dirancang untuk memisahkan konten bernilai dari hiruk-pikuk informasi.
