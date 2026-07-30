@@ -12,6 +12,7 @@ tags:
   - hardening
   - observability
 excerpt: "Dalam banyak kasus, deface bukanlah awal serangan, melainkan tahap akhir dari kompromi yang telah terjadi jauh sebelumnya. Memahami konsep dormant shell membantu proses investigasi menjadi lebih akurat."
+image: /assets/images/og/2026-07-31-deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik.png
 ---
 
 # Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik
