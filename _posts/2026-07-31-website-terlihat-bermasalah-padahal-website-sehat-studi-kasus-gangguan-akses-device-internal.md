@@ -12,6 +12,7 @@ tags:
   - ssl
   - observability
 excerpt: "Tidak semua laporan website tidak dapat diakses berasal dari gangguan server. Studi kasus ini menunjukkan bagaimana konfigurasi jaringan lokal dan perangkat pengguna dapat menjadi akar masalah meskipun website beroperasi normal."
+image: /assets/images/og/2026-07-31-website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal.png
 ---
 
 # Website Terlihat Bermasalah, Padahal Website Sehat: Studi Kasus Gangguan Akses dari Device Internal
