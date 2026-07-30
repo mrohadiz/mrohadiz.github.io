@@ -1,18 +1,15 @@
 ---
-
 layout: article
 title: "Yang Tidak Bisa Diambil AI Bukan Pekerjaan, Tapi Keputusan"
 date: 2026-07-29
 categories:
-
-* AI Engineering
-  tags:
-* artificial-intelligence
-* decision-systems
-* systems-thinking
-* human-in-the-loop
-  excerpt: "Semakin saya bekerja dengan AI, semakin saya sadar: masalah sebenarnya bukan pada eksekusi, tetapi pada keputusan yang harus diambil sebelum eksekusi dimulai."
-
+  - AI Engineering
+tags:
+  - artificial-intelligence
+  - decision-systems
+  - systems-thinking
+  - human-in-the-loop
+excerpt: "Semakin saya bekerja dengan AI, semakin saya sadar: masalah sebenarnya bukan pada eksekusi, tetapi pada keputusan yang harus diambil sebelum eksekusi dimulai."
 image: /assets/images/og/2026-07-29-yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan.png
 ---
 

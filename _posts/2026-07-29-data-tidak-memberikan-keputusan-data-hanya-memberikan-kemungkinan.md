@@ -1,19 +1,16 @@
 ---
-
 layout: article
 title: "Data Tidak Memberikan Keputusan, Data Hanya Memberikan Kemungkinan"
 date: 2026-07-29
 categories:
-
-* Decision Systems
-  tags:
-* decision-systems
-* business-intelligence
-* decision-intelligence
-* data-strategy
-* systems-thinking
-  excerpt: "Banyak organisasi mengumpulkan data sebanyak mungkin, tetapi sedikit yang mampu mengubahnya menjadi keputusan. Data hanyalah bahan baku, bukan keputusan."
-
+  - Decision Systems
+tags:
+  - decision-systems
+  - business-intelligence
+  - decision-intelligence
+  - data-strategy
+  - systems-thinking
+excerpt: "Banyak organisasi mengumpulkan data sebanyak mungkin, tetapi sedikit yang mampu mengubahnya menjadi keputusan. Data hanyalah bahan baku, bukan keputusan."
 image: /assets/images/og/2026-07-29-data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan.png
 ---
 

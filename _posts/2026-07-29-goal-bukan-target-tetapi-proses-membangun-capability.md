@@ -1,19 +1,16 @@
 ---
-
 layout: article
 title: "Goal Bukan Target, tetapi Proses Membangun Capability"
 date: 2026-07-29
 categories:
-
-* Decision Systems
-  tags:
-* capability-building
-* goal-setting
-* systems-thinking
-* organizational-development
-* decision-systems
-  excerpt: "Goal yang baik bukan sekadar target yang harus dicapai, tetapi mekanisme untuk membangun kemampuan organisasi agar mampu menghasilkan hasil yang berkelanjutan."
-
+  - Decision Systems
+tags:
+  - capability-building
+  - goal-setting
+  - systems-thinking
+  - organizational-development
+  - decision-systems
+excerpt: "Goal yang baik bukan sekadar target yang harus dicapai, tetapi mekanisme untuk membangun kemampuan organisasi agar mampu menghasilkan hasil yang berkelanjutan."
 image: /assets/images/og/2026-07-29-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---
 
