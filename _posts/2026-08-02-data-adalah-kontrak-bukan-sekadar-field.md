@@ -11,6 +11,7 @@ tags:
   - architecture
   - capability
 excerpt: "Sebuah field tidak hanya menyimpan nilai. Ia membawa makna yang digunakan oleh berbagai capability untuk mengambil keputusan. Ketika maknanya tidak jelas, masalah akan menyebar ke seluruh sistem."
+image: /assets/images/og/2026-08-02-data-adalah-kontrak-bukan-sekadar-field.png
 ---
 
 # Data Adalah Kontrak, Bukan Sekadar Field
