@@ -11,6 +11,7 @@ tags:
   - decision-systems
   - software-design
 excerpt: "Banyak sistem gagal bukan karena teknologinya buruk, melainkan karena organisasi mencoba membangun fitur sebelum memahami capability yang sebenarnya dibutuhkan."
+image: /assets/images/og/2026-08-02-capability-sebelum-fitur.png
 ---
 
 # Jangan Membangun Fitur, Bangunlah Capability
