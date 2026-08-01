@@ -11,6 +11,7 @@ tags:
   - mental-model
   - architecture
 excerpt: "Banyak solusi gagal bukan karena implementasinya buruk, melainkan karena masalah yang dijadikan dasar keputusan belum benar-benar merepresentasikan kondisi yang ingin diselesaikan."
+image: /assets/images/og/2026-08-02-sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar.png
 ---
 
 # Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar
