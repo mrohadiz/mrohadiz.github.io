@@ -11,6 +11,7 @@ tags:
   - mental-model
   - architecture
 excerpt: "Konflik dalam pengambilan keputusan sering kali bukan disebabkan oleh data yang berbeda, melainkan karena setiap orang melihat data tersebut melalui reference frame yang berbeda."
+image: /assets/images/og/2026-08-02-reference-frame-menentukan-kualitas-keputusan.png
 ---
 
 # Reference Frame Menentukan Kualitas Keputusan
