@@ -7,19 +7,19 @@
 // ============================================================
 
 // 1. Design Tokens & Variables
-@import "variables";
+@use "variables" as *;
 
 // 2. Base Typography
-@import "typography";
+@use "typography";
 
 // 3. Layout System
-@import "layout";
+@use "layout";
 
 // 4. Components
-@import "components";
+@use "components";
 
 // 5. Notebook Aesthetic
-@import "notebook";
+@use "notebook";
 
 // 6. Observatory Dashboard
-@import "observatory";
+@use "observatory";
