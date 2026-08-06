@@ -1,14 +1,32 @@
 {
-  "collected_at": "2026-08-06T01:54:53.112Z",
+  "collected_at": "2026-08-06T03:00:08.174Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 181,
+    "total_commits": 184,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-01T17:59:23Z",
-    "active_days": 18
+    "last_commit_date": "2026-08-06T02:29:37Z",
+    "active_days": 19
   },
   "recent_commits": [
+    {
+      "sha": "2c31dd5",
+      "message": "feat(observatory): insight engine pakai data real kmstrack, buang GSC mock & simulasi device",
+      "date": "2026-08-06T02:29:37Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "e365536",
+      "message": "fix(observatory): pipeline kmstrack end-to-end via cron lokal (nvm fix, data guard, GH Actions manual-only)",
+      "date": "2026-08-06T02:00:23Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "9c2edaf",
+      "message": "chore: update observatory data 2026-08-06",
+      "date": "2026-08-06T01:54:53Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "98f9c5c",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
@@ -50,24 +68,6 @@
       "message": "chore(seo): auto-generate open graph images [skip ci]",
       "date": "2026-08-01T17:52:37Z",
       "author": "github-actions[bot]"
-    },
-    {
-      "sha": "cb3cddf",
-      "message": "Create article on problem representation before solutions",
-      "date": "2026-08-01T17:52:23Z",
-      "author": "M Rohadi Z"
-    },
-    {
-      "sha": "adaf693",
-      "message": "fix(structured-data): hapus Crypto Market Analysis dari knowsAbout + tambah Twitter/X sameAs",
-      "date": "2026-07-30T23:41:04Z",
-      "author": "M. Rohadiz"
-    },
-    {
-      "sha": "00349b6",
-      "message": "feat(seo): add llms.txt for AI crawler guidance + update robots.txt",
-      "date": "2026-07-30T23:35:10Z",
-      "author": "M. Rohadiz"
     }
   ],
   "publishing_timeline": [
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 8
+      "commits": 11
     }
   ],
   "article_history": [
@@ -120,13 +120,13 @@
   "contribution_streak": {
     "current_streak": 0,
     "longest_streak": 8,
-    "active_days": 18
+    "active_days": 19
   },
   "repository_health": {
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-06T01:54:53.112Z",
+    "last_deployment": "2026-08-06T03:00:08.174Z",
     "deployment_status": "success"
   }
 }

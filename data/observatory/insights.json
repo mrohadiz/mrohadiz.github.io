@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-06T02:12:02.589Z",
+  "collected_at": "2026-08-06T03:00:08.345Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 7m 2s per session",
+      "title": "Average engagement is 7m 7s per session",
       "description": "Across 425 sessions from 346 users this period.",
-      "metric": "7m 2s",
+      "metric": "7m 7s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Mobile engagement is 39% higher than desktop",
-      "description": "10m 47s on mobile vs 7m 45s on desktop.",
-      "metric": "+39%",
+      "title": "Mobile engagement is 38% higher than desktop",
+      "description": "10m 47s on mobile vs 7m 50s on desktop.",
+      "metric": "+38%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -54,8 +54,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
-      "description": "Committed 8/2/2026.",
+      "title": "Latest commit: feat(observatory): insight engine pakai data real ",
+      "description": "Committed 8/6/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -82,7 +82,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-06T02:12:02.589Z",
+  "generated_at": "2026-08-06T03:00:08.345Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-07",

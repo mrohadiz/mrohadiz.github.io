@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T02:10:23.504Z",
+  "collected_at": "2026-08-06T03:00:06.417Z",
   "period": {
     "start": "2026-07-07",
     "end": "2026-08-06"
@@ -129,7 +129,7 @@
   "summary": {
     "total_users": 346,
     "total_sessions": 425,
-    "avg_engagement_time": 422,
+    "avg_engagement_time": 427,
     "bounce_rate": 0,
     "returning_users": 3
   },
@@ -191,7 +191,7 @@
     {
       "page": "/observatory/",
       "sessions": 16,
-      "avg_engagement_time": 1023
+      "avg_engagement_time": 1136
     },
     {
       "page": "/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
@@ -245,7 +245,7 @@
     {
       "device": "Desktop",
       "sessions": 350,
-      "avg_engagement_time": 465,
+      "avg_engagement_time": 470,
       "percentage": 0.8235294117647058
     },
     {
