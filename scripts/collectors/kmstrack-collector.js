@@ -159,6 +159,7 @@ function aggregateTrafficData(documents) {
     .map(device => ({
       device: device.device || 'Unknown',
       sessions: device.sessions,
+      avg_engagement_time: device.avg_engagement_time || 0,
       percentage: totalSessions > 0 ? device.sessions / totalSessions : 0
     }))
     .sort((a, b) => b.sessions - a.sessions);
@@ -426,8 +427,8 @@ function getCountryName(code) {
 }
 
 function aggregateDeviceMetrics(documents) {
-  const deviceMap = new Map();
-  const sessionDevices = new Map(); // Track unique sessions per device
+  const deviceMap = new Map(); // device -> Set(session_id)
+  const sessionTimes = new Map(); // session_id -> [event timestamps]
 
   documents.forEach(doc => {
     let device = 'Unknown';
@@ -444,12 +445,32 @@ function aggregateDeviceMetrics(documents) {
       deviceMap.set(device, new Set());
     }
     // Track unique sessions for this device
-    deviceMap.get(device).add(doc.session_id);
+    if (doc.session_id) {
+      deviceMap.get(device).add(doc.session_id);
+      if (!sessionTimes.has(doc.session_id)) {
+        sessionTimes.set(doc.session_id, []);
+      }
+      const t = new Date(doc.event_time).getTime();
+      if (!isNaN(t)) sessionTimes.get(doc.session_id).push(t);
+    }
   });
 
-  // Convert to session counts
+  // Convert to per-device session counts + real avg engagement time
   return Array.from(deviceMap.entries())
-    .map(([device, sessions]) => ({ device, sessions: sessions.size }))
+    .map(([device, sessions]) => {
+      let totalEngagement = 0;
+      sessions.forEach(sessionId => {
+        const times = sessionTimes.get(sessionId) || [];
+        if (times.length > 1) {
+          totalEngagement += (Math.max(...times) - Math.min(...times)) / 1000;
+        }
+      });
+      return {
+        device,
+        sessions: sessions.size,
+        avg_engagement_time: sessions.size > 0 ? Math.round(totalEngagement / sessions.size) : 0
+      };
+    })
     .sort((a, b) => b.sessions - a.sessions);
 }
 

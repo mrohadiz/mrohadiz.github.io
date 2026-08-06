@@ -1,34 +1,34 @@
 {
-  "collected_at": "2026-08-06T01:54:53.378Z",
+  "collected_at": "2026-08-06T02:12:02.589Z",
   "insights": [
     {
-      "type": "positive",
-      "category": "search",
-      "title": "Organic traffic increased 17% compared with last period",
-      "description": "Total clicks grew from 1,068 to 1,247.",
-      "metric": "+17%",
-      "metric_label": "Clicks Growth",
-      "icon": "trending-up",
+      "type": "neutral",
+      "category": "traffic",
+      "title": "Average engagement is 7m 2s per session",
+      "description": "Across 425 sessions from 346 users this period.",
+      "metric": "7m 2s",
+      "metric_label": "Engagement",
+      "icon": "clock",
       "priority": "high"
     },
     {
       "type": "positive",
-      "category": "search",
-      "title": "\"decision intelligence framework\" is the fastest growing query",
-      "description": "Clicks increased 71% from 52 to 89.",
-      "metric": "+71%",
-      "metric_label": "Query Growth",
-      "icon": "zap",
+      "category": "traffic",
+      "title": "Mobile engagement is 39% higher than desktop",
+      "description": "10m 47s on mobile vs 7m 45s on desktop.",
+      "metric": "+39%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
       "priority": "medium"
     },
     {
-      "type": "warning",
+      "type": "neutral",
       "category": "traffic",
-      "title": "Mobile engagement is 34% lower than desktop",
-      "description": "Consider improving mobile reading experience for better retention.",
-      "metric": "-34%",
-      "metric_label": "Mobile vs Desktop",
-      "icon": "smartphone",
+      "title": "/ is your top landing page",
+      "description": "171 sessions with an average engagement of 11m 54s.",
+      "metric": "171",
+      "metric_label": "Sessions",
+      "icon": "eye",
       "priority": "medium"
     },
     {
@@ -42,23 +42,13 @@
       "priority": "medium"
     },
     {
-      "type": "positive",
-      "category": "search",
-      "title": "\"decision intelligence framework\" is your top search query",
-      "description": "Generating 89 clicks with 1,240 impressions and a 7.2% CTR.",
-      "metric": "89",
-      "metric_label": "Clicks",
-      "icon": "search",
-      "priority": "low"
-    },
-    {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 100% of traffic",
-      "description": "422 sessions from Direct this period.",
-      "metric": "100%",
-      "metric_label": "Traffic Share",
-      "icon": "globe",
+      "title": "3 returning users (1% of visitors)",
+      "description": "1% of this period's visitors came back for another session.",
+      "metric": "3",
+      "metric_label": "Returning Users",
+      "icon": "users",
       "priority": "low"
     },
     {
@@ -92,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-06T01:54:53.378Z",
+  "generated_at": "2026-08-06T02:12:02.589Z",
   "analysis_period": {
     "current": {
-      "start": "2026-06-13",
-      "end": "2026-07-13"
+      "start": "2026-07-07",
+      "end": "2026-08-06"
     }
   }
 }

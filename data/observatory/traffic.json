@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T01:54:51.612Z",
+  "collected_at": "2026-08-06T02:10:23.504Z",
   "period": {
     "start": "2026-07-07",
     "end": "2026-08-06"
@@ -8,7 +8,7 @@
     {
       "date": "2026-07-12",
       "users": 295,
-      "sessions": 305
+      "sessions": 304
     },
     {
       "date": "2026-07-13",
@@ -119,12 +119,17 @@
       "date": "2026-08-05",
       "users": 1,
       "sessions": 1
+    },
+    {
+      "date": "2026-08-06",
+      "users": 2,
+      "sessions": 2
     }
   ],
   "summary": {
-    "total_users": 345,
-    "total_sessions": 424,
-    "avg_engagement_time": 423,
+    "total_users": 346,
+    "total_sessions": 425,
+    "avg_engagement_time": 422,
     "bounce_rate": 0,
     "returning_users": 3
   },
@@ -143,30 +148,30 @@
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 422,
-      "percentage": 0.9952830188679245
+      "sessions": 423,
+      "percentage": 0.9952941176470588
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 170,
-      "avg_engagement_time": 719
+      "sessions": 171,
+      "avg_engagement_time": 714
     },
     {
       "page": "/notes/",
-      "sessions": 80,
-      "avg_engagement_time": 1073
+      "sessions": 79,
+      "avg_engagement_time": 1085
     },
     {
       "page": "/about/",
@@ -185,8 +190,8 @@
     },
     {
       "page": "/observatory/",
-      "sessions": 14,
-      "avg_engagement_time": 1140
+      "sessions": 16,
+      "avg_engagement_time": 1023
     },
     {
       "page": "/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
@@ -203,54 +208,57 @@
     {
       "country": "United States",
       "sessions": 323,
-      "percentage": 0.7617924528301887
+      "percentage": 0.76
     },
     {
       "country": "Indonesia",
-      "sessions": 92,
-      "percentage": 0.2169811320754717
+      "sessions": 93,
+      "percentage": 0.2188235294117647
     },
     {
       "country": "Singapore",
       "sessions": 5,
-      "percentage": 0.01179245283018868
+      "percentage": 0.011764705882352941
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     },
     {
       "country": "SE",
       "sessions": 1,
-      "percentage": 0.0023584905660377358
+      "percentage": 0.002352941176470588
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 348,
-      "percentage": 0.8207547169811321
+      "sessions": 350,
+      "avg_engagement_time": 465,
+      "percentage": 0.8235294117647058
     },
     {
       "device": "Mobile",
-      "sessions": 75,
-      "percentage": 0.17688679245283018
+      "sessions": 74,
+      "avg_engagement_time": 647,
+      "percentage": 0.17411764705882352
     },
     {
       "device": "Tablet",
       "sessions": 3,
-      "percentage": 0.007075471698113208
+      "avg_engagement_time": 7,
+      "percentage": 0.007058823529411765
     }
   ]
 }
