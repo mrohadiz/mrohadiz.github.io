@@ -582,6 +582,91 @@
 }
 
 // ============================================================
+// READING DEPTH CARD
+// ============================================================
+.observatory-reading-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.observatory-reading-stat {
+  text-align: center;
+  padding: var(--space-4);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  &:hover {
+    border-color: var(--color-border-strong);
+  }
+}
+
+.observatory-reading-stat-value {
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+  line-height: 1.1;
+  margin-bottom: var(--space-1);
+}
+
+.observatory-reading-stat-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  font-weight: var(--weight-medium);
+}
+
+.observatory-reading-buckets {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.observatory-reading-bucket {
+  display: grid;
+  grid-template-columns: 56px 1fr 36px;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-xs);
+}
+
+.observatory-reading-bucket-label {
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+}
+
+.observatory-reading-bucket-value {
+  color: var(--color-text-secondary);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.observatory-reading-bucket-track {
+  height: 8px;
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.observatory-reading-bucket-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--color-primary), var(--color-success));
+  transition: width 0.6s var(--ease-out-expo);
+}
+
+.observatory-reading-note {
+  margin-top: var(--space-4);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  opacity: 0.8;
+}
+
+// ============================================================
 // REPOSITORY HEALTH & STREAK
 // ============================================================
 .observatory-health-item {

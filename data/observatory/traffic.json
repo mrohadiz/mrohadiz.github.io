@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T03:00:06.417Z",
+  "collected_at": "2026-08-06T04:22:58.869Z",
   "period": {
     "start": "2026-07-07",
     "end": "2026-08-06"
@@ -130,8 +130,9 @@
     "total_users": 346,
     "total_sessions": 425,
     "avg_engagement_time": 427,
-    "bounce_rate": 0,
-    "returning_users": 3
+    "bounce_rate": 0.02558139534883721,
+    "returning_users": 3,
+    "avg_pages_per_session": 18.7
   },
   "previous_period": {
     "total_users": 0,
@@ -259,6 +260,219 @@
       "sessions": 3,
       "avg_engagement_time": 7,
       "percentage": 0.007058823529411765
+    }
+  ],
+  "reading": {
+    "avg_max_scroll": 66,
+    "deep_read_pct": 0.602,
+    "sessions": 430,
+    "depth_buckets": [
+      {
+        "label": "0-25%",
+        "pct": 0.2255813953488372
+      },
+      {
+        "label": "25-50%",
+        "pct": 0.17209302325581396
+      },
+      {
+        "label": "50-75%",
+        "pct": 0
+      },
+      {
+        "label": "75-100%",
+        "pct": 0.6023255813953489
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "/",
+        "sessions": 41,
+        "avg_max_scroll": 64,
+        "deep_read_pct": 0.4146341463414634
+      },
+      {
+        "page": "/notes/",
+        "sessions": 15,
+        "avg_max_scroll": 65,
+        "deep_read_pct": 0.5333333333333333
+      },
+      {
+        "page": "/observatory/",
+        "sessions": 14,
+        "avg_max_scroll": 86,
+        "deep_read_pct": 0.7857142857142857
+      },
+      {
+        "page": "/about/",
+        "sessions": 10,
+        "avg_max_scroll": 95,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/projects/",
+        "sessions": 8,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/now/",
+        "sessions": 7,
+        "avg_max_scroll": 86,
+        "deep_read_pct": 0.8571428571428571
+      },
+      {
+        "page": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/",
+        "sessions": 5,
+        "avg_max_scroll": 70,
+        "deep_read_pct": 0.6
+      },
+      {
+        "page": "/crypto%20observation/2024/12/28/crypto-market-microstructure.html",
+        "sessions": 5,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
+      }
+    ]
+  },
+  "top_clicks": [
+    {
+      "element": "R\nM. Rohadiz",
+      "sessions": 27
+    },
+    {
+      "element": "Observatory",
+      "sessions": 12
+    },
+    {
+      "element": "Mulai Membaca",
+      "sessions": 9
+    },
+    {
+      "element": "Traffic",
+      "sessions": 8
+    },
+    {
+      "element": "Knowledge",
+      "sessions": 8
+    },
+    {
+      "element": "Notes",
+      "sessions": 7
+    },
+    {
+      "element": "Publishing",
+      "sessions": 7
+    },
+    {
+      "element": "Now",
+      "sessions": 7
+    },
+    {
+      "element": "About",
+      "sessions": 6
+    },
+    {
+      "element": "Projects",
+      "sessions": 5
+    }
+  ],
+  "views_by_hour": [
+    {
+      "hour": 0,
+      "views": 18
+    },
+    {
+      "hour": 1,
+      "views": 84
+    },
+    {
+      "hour": 2,
+      "views": 65
+    },
+    {
+      "hour": 3,
+      "views": 33
+    },
+    {
+      "hour": 4,
+      "views": 25
+    },
+    {
+      "hour": 5,
+      "views": 11
+    },
+    {
+      "hour": 6,
+      "views": 18
+    },
+    {
+      "hour": 7,
+      "views": 18
+    },
+    {
+      "hour": 8,
+      "views": 5
+    },
+    {
+      "hour": 9,
+      "views": 11
+    },
+    {
+      "hour": 10,
+      "views": 9
+    },
+    {
+      "hour": 11,
+      "views": 13
+    },
+    {
+      "hour": 12,
+      "views": 24
+    },
+    {
+      "hour": 13,
+      "views": 0
+    },
+    {
+      "hour": 14,
+      "views": 41
+    },
+    {
+      "hour": 15,
+      "views": 18
+    },
+    {
+      "hour": 16,
+      "views": 19
+    },
+    {
+      "hour": 17,
+      "views": 7
+    },
+    {
+      "hour": 18,
+      "views": 157
+    },
+    {
+      "hour": 19,
+      "views": 145
+    },
+    {
+      "hour": 20,
+      "views": 0
+    },
+    {
+      "hour": 21,
+      "views": 0
+    },
+    {
+      "hour": 22,
+      "views": 25
+    },
+    {
+      "hour": 23,
+      "views": 37
     }
   ]
 }

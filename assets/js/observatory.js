@@ -338,20 +338,106 @@
       renderKPICard(kpiContainer, formatNumber(trafficData.summary.total_sessions), 'Sessions', trafficData.trend.sessions_change, `+${Math.round(trafficData.trend.sessions_change * 100)}%`);
       renderKPICard(kpiContainer, formatDuration(trafficData.summary.avg_engagement_time), 'Avg. Engagement', trafficData.trend.engagement_time_change, `+${Math.round(trafficData.trend.engagement_time_change * 100)}%`);
       renderKPICard(kpiContainer, formatPercent(trafficData.summary.bounce_rate), 'Bounce Rate', trafficData.trend.bounce_rate_change, `${Math.round(trafficData.trend.bounce_rate_change * 100)}%`);
+      renderKPICard(kpiContainer, formatNumber(trafficData.summary.avg_pages_per_session || 0), 'Pages / Session');
       renderKPICard(kpiContainer, formatNumber(trafficData.summary.returning_users), 'Returning Users');
     }
 
-    // Charts
+    // Charts & cards
     renderTrafficSessionsChart(trafficData);
     renderDeviceChart(trafficData);
     renderCountryChart(trafficData);
+    renderPeakHoursChart(trafficData);
+    renderReadingDepthCard(trafficData);
 
-    // Table
+    // Tables
     renderTable('landing-pages-table', trafficData.top_landing_pages, [
       { key: 'page', render: (v) => `<span class="observatory-text-primary" title="${v}">${truncateUrl(v, 50)}</span>` },
       { key: 'sessions', render: (v) => formatNumber(v) },
       { key: 'avg_engagement_time', render: (v) => formatDuration(v) }
     ]);
+
+    renderTable('reading-pages-table', (trafficData.reading && trafficData.reading.top_pages) || [], [
+      { key: 'page', render: (v) => `<span class="observatory-text-primary" title="${v}">${truncateUrl(v, 50)}</span>` },
+      { key: 'sessions', render: (v) => formatNumber(v) },
+      { key: 'avg_max_scroll', render: (v) => `${v}%` },
+      { key: 'deep_read_pct', render: (v) => `<span class="observatory-text-success">${formatPercent(v)}</span>` }
+    ]);
+
+    renderTable('top-clicks-table', trafficData.top_clicks || [], [
+      { key: 'element', render: (v) => `<span class="observatory-text-primary">${escapeHtml(String(v).replace(/\s+/g, ' '))}</span>` },
+      { key: 'sessions', render: (v) => formatNumber(v) }
+    ]);
+  }
+
+  function renderPeakHoursChart(data) {
+    destroyChart('peakHours');
+    const ctx = document.getElementById('peak-hours-chart');
+    if (!ctx || !data.views_by_hour) return;
+
+    const defaults = getChartDefaults();
+    const hours = data.views_by_hour;
+
+    charts.peakHours = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: hours.map(h => String(h.hour).padStart(2, '0') + ':00'),
+        datasets: [{
+          label: 'Views',
+          data: hours.map(h => h.views),
+          backgroundColor: defaults.primaryColor,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: defaults.color, maxRotation: 45, autoSkip: true, maxTicksLimit: 12 }
+          },
+          y: {
+            grid: { color: defaults.gridColor },
+            ticks: { color: defaults.color, precision: 0 }
+          }
+        }
+      }
+    });
+  }
+
+  function renderReadingDepthCard(data) {
+    const card = document.getElementById('reading-depth-card');
+    if (!card || !data.reading) return;
+
+    const reading = data.reading;
+    const buckets = reading.depth_buckets || [];
+    const bucketBars = buckets.map(b => `
+      <div class="observatory-reading-bucket">
+        <span class="observatory-reading-bucket-label">${b.label}</span>
+        <div class="observatory-reading-bucket-track">
+          <div class="observatory-reading-bucket-fill" style="width:${(b.pct * 100).toFixed(1)}%"></div>
+        </div>
+        <span class="observatory-reading-bucket-value">${(b.pct * 100).toFixed(0)}%</span>
+      </div>
+    `).join('');
+
+    card.innerHTML = `
+      <div class="observatory-reading-stats">
+        <div class="observatory-reading-stat">
+          <div class="observatory-reading-stat-value">${reading.avg_max_scroll}%</div>
+          <div class="observatory-reading-stat-label">Avg. Max Scroll</div>
+        </div>
+        <div class="observatory-reading-stat">
+          <div class="observatory-reading-stat-value">${formatPercent(reading.deep_read_pct)}</div>
+          <div class="observatory-reading-stat-label">Deep Readers (75%+)</div>
+        </div>
+      </div>
+      <div class="observatory-reading-buckets">${bucketBars}</div>
+      <div class="observatory-reading-note">Based on ${formatNumber(reading.sessions)} completed sessions</div>
+    `;
   }
 
   // ============================================================

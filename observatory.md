@@ -297,7 +297,65 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
       </div>
     </div>
     
+    <!-- Reading Depth & Peak Hours -->
+    <div class="observatory-charts-row">
+      <div class="observatory-chart-card">
+        <div class="observatory-chart-header">
+          <h3>Reading Depth</h3>
+        </div>
+        <div class="observatory-chart-body" id="reading-depth-card">
+          <!-- Reading depth metrics loaded here -->
+        </div>
+      </div>
+      <div class="observatory-chart-card">
+        <div class="observatory-chart-header">
+          <h3>Peak Reading Hours (UTC)</h3>
+        </div>
+        <div class="observatory-chart-body">
+          <canvas id="peak-hours-chart"></canvas>
+        </div>
+      </div>
+    </div>
+    
     <!-- Traffic Tables -->
+    <div class="observatory-tables-row">
+      <div class="observatory-table-card">
+        <div class="observatory-table-header">
+          <h3>Reading Depth by Page</h3>
+        </div>
+        <div class="observatory-table-body">
+          <table class="observatory-table" id="reading-pages-table">
+            <thead>
+              <tr>
+                <th>Page</th>
+                <th>Sessions</th>
+                <th>Avg. Max Scroll</th>
+                <th>Deep Read</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="observatory-table-card">
+        <div class="observatory-table-header">
+          <h3>Top Clicked Elements</h3>
+        </div>
+        <div class="observatory-table-body">
+          <table class="observatory-table" id="top-clicks-table">
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Sessions</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Top Landing Pages -->
     <div class="observatory-table-card observatory-table-full">
       <div class="observatory-table-header">
         <h3>Top Landing Pages</h3>

@@ -164,6 +164,15 @@ function aggregateTrafficData(documents) {
     }))
     .sort((a, b) => b.sessions - a.sessions);
 
+  // Reading depth (scroll behavior)
+  const reading = aggregateReadingMetrics(currentPeriodDocs);
+
+  // Top clicked elements (unique sessions per element)
+  const topClicks = aggregateClickMetrics(currentPeriodDocs);
+
+  // Views by hour of day (UTC)
+  const viewsByHour = aggregateHourlyViews(currentPeriodDocs);
+
   return {
     collected_at: new Date().toISOString(),
     period: {
@@ -176,7 +185,8 @@ function aggregateTrafficData(documents) {
       total_sessions: currentMetrics.sessions,
       avg_engagement_time: Math.round(currentMetrics.avg_engagement_time),
       bounce_rate: currentMetrics.bounce_rate,
-      returning_users: currentMetrics.returning_users
+      returning_users: currentMetrics.returning_users,
+      avg_pages_per_session: currentMetrics.avg_pages_per_session
     },
     previous_period: {
       total_users: previousMetrics.unique_users,
@@ -188,7 +198,10 @@ function aggregateTrafficData(documents) {
     traffic_sources: trafficSources,
     top_landing_pages: topPages,
     country_distribution: countryDistribution,
-    device_distribution: deviceDistribution
+    device_distribution: deviceDistribution,
+    reading,
+    top_clicks: topClicks,
+    views_by_hour: viewsByHour
   };
 }
 
@@ -199,7 +212,8 @@ function calculateMetrics(documents) {
       sessions: 0,
       avg_engagement_time: 0,
       bounce_rate: 0,
-      returning_users: 0
+      returning_users: 0,
+      avg_pages_per_session: 0
     };
   }
 
@@ -209,7 +223,11 @@ function calculateMetrics(documents) {
   const sessionEvents = new Map(); // session_id -> list of events
   
   let totalEngagementTime = 0;
-  let bounceCount = 0;
+  let legacyBounceCount = 0; // fallback bounce: sessions with <= 1 event
+  let sessionEndCount = 0;   // real bounce source: session_end events
+  let bounceCount = 0;       // session_end with duration < 30s AND page_depth <= 1
+  let pageDepthSum = 0;
+  let pageDepthSessions = 0;
   let processedDocs = 0;
 
   // Process documents
@@ -237,6 +255,22 @@ function calculateMetrics(documents) {
       }
       sessionEvents.get(sessionId).push(doc);
     }
+
+    // Real session signals from session_end events (duration, page depth)
+    if (doc.event_type === 'session_end' && doc.session) {
+      const duration = doc.session.duration;
+      const pageDepth = doc.session.page_depth;
+      if (typeof duration === 'number') {
+        sessionEndCount++;
+        if (duration < 30 && typeof pageDepth === 'number' && pageDepth <= 1) {
+          bounceCount++;
+        }
+      }
+      if (typeof pageDepth === 'number') {
+        pageDepthSum += pageDepth;
+        pageDepthSessions++;
+      }
+    }
   });
 
   // Calculate engagement time and bounce rate per session
@@ -255,9 +289,9 @@ function calculateMetrics(documents) {
       totalEngagementTime += engagementMs / 1000; // Convert to seconds
     }
 
-    // Count bounces (sessions with only 1 or 2 events)
+    // Legacy bounce fallback (sessions with only 1 event)
     if (events.length <= 1) {
-      bounceCount++;
+      legacyBounceCount++;
     }
   });
 
@@ -269,14 +303,22 @@ function calculateMetrics(documents) {
     }
   });
 
-  console.log(`  Metrics: processed=${processedDocs}, users=${users.size}, sessions=${sessions.size}`);
+  // Prefer the real session_end based bounce rate; fall back to legacy definition.
+  // Note: the denominator is completed sessions only (session_end events), so sessions
+  // that never fire session_end (e.g. short abandons) are not counted — slight understatement.
+  const bounceRate = sessionEndCount > 0
+    ? bounceCount / sessionEndCount
+    : (sessions.size > 0 ? legacyBounceCount / sessions.size : 0);
+
+  console.log(`  Metrics: processed=${processedDocs}, users=${users.size}, sessions=${sessions.size}, session_ends=${sessionEndCount}, bounces=${bounceCount}`);
 
   return {
     unique_users: users.size,
     sessions: sessions.size,
     avg_engagement_time: sessions.size > 0 ? totalEngagementTime / sessions.size : 0,
-    bounce_rate: sessions.size > 0 ? bounceCount / sessions.size : 0,
-    returning_users: returningUsers
+    bounce_rate: bounceRate,
+    returning_users: returningUsers,
+    avg_pages_per_session: pageDepthSessions > 0 ? Math.round((pageDepthSum / pageDepthSessions) * 10) / 10 : 0
   };
 }
 
@@ -474,12 +516,114 @@ function aggregateDeviceMetrics(documents) {
     .sort((a, b) => b.sessions - a.sessions);
 }
 
+function aggregateReadingMetrics(documents) {
+  // Global reading depth from session_end (one max_scroll per completed session)
+  const sessionScrolls = [];
+  // Per-page reading depth from scroll_depth events (max depth per session+page)
+  const pageScrolls = new Map(); // page -> Map(session -> max depth)
+
+  documents.forEach(doc => {
+    if (doc.event_type === 'session_end' && doc.session && typeof doc.session.max_scroll === 'number') {
+      sessionScrolls.push(doc.session.max_scroll);
+    }
+    if (doc.event_type === 'scroll_depth' && doc.scroll && typeof doc.scroll.depth === 'number') {
+      const page = (doc.page_path || doc.page || '/').replace(/^https?:\/\/[^\/]+/, '') || '/';
+      const sessionId = doc.session_id || 'unknown';
+      if (!pageScrolls.has(page)) pageScrolls.set(page, new Map());
+      const sessionMap = pageScrolls.get(page);
+      sessionMap.set(sessionId, Math.max(sessionMap.get(sessionId) || 0, doc.scroll.depth));
+    }
+  });
+
+  const n = sessionScrolls.length;
+  const avgMaxScroll = n > 0 ? sessionScrolls.reduce((a, b) => a + b, 0) / n : 0;
+  const deepReadPct = n > 0 ? sessionScrolls.filter(d => d >= 75).length / n : 0;
+
+  // Depth buckets: share of sessions whose max scroll fell in each band.
+  // "75-100%" uses >= 75 so it matches deep_read_pct exactly (no gap at the boundary).
+  const depthBuckets = [
+    { label: '0-25%', pct: 0 },
+    { label: '25-50%', pct: 0 },
+    { label: '50-75%', pct: 0 },
+    { label: '75-100%', pct: 0 }
+  ];
+  if (n > 0) {
+    depthBuckets[0].pct = sessionScrolls.filter(d => d <= 25).length / n;
+    depthBuckets[1].pct = sessionScrolls.filter(d => d > 25 && d <= 50).length / n;
+    depthBuckets[2].pct = sessionScrolls.filter(d => d > 50 && d < 75).length / n;
+    depthBuckets[3].pct = sessionScrolls.filter(d => d >= 75).length / n;
+  }
+
+  // Top pages by reading depth (pages with the most scrolling sessions)
+  const topPages = Array.from(pageScrolls.entries())
+    .map(([page, sessionMap]) => {
+      const depths = Array.from(sessionMap.values());
+      const count = depths.length;
+      return {
+        page,
+        sessions: count,
+        avg_max_scroll: Math.round(depths.reduce((a, b) => a + b, 0) / count),
+        deep_read_pct: depths.filter(d => d >= 75).length / count
+      };
+    })
+    .sort((a, b) => b.sessions - a.sessions)
+    .slice(0, 8);
+
+  return {
+    avg_max_scroll: Math.round(avgMaxScroll),
+    deep_read_pct: Math.round(deepReadPct * 1000) / 1000,
+    sessions: n,
+    depth_buckets: depthBuckets,
+    top_pages: topPages
+  };
+}
+
+function aggregateClickMetrics(documents) {
+  const elementSessions = new Map(); // click_text -> Set(session_id)
+
+  documents.forEach(doc => {
+    if (doc.event_type !== 'click') return;
+    const text = (doc.click_text || '').trim();
+    if (!text || !doc.session_id) return;
+    if (!elementSessions.has(text)) elementSessions.set(text, new Set());
+    elementSessions.get(text).add(doc.session_id);
+  });
+
+  return Array.from(elementSessions.entries())
+    .map(([element, sessions]) => ({ element, sessions: sessions.size }))
+    .sort((a, b) => b.sessions - a.sessions)
+    .slice(0, 10);
+}
+
+// event_time is stored as UTC (no timezone suffix). Parse it explicitly as UTC so
+// bucketing is identical no matter which timezone the collector runs in.
+function parseEventTime(value) {
+  if (!value) return null;
+  const raw = String(value);
+  return new Date(raw.endsWith('Z') || raw.includes('+') ? raw : raw + 'Z');
+}
+
+function aggregateHourlyViews(documents) {
+  const hours = new Array(24).fill(0);
+
+  documents.forEach(doc => {
+    if (doc.event_type !== 'view' || !doc.event_time) return;
+    const t = parseEventTime(doc.event_time);
+    const h = t ? t.getUTCHours() : NaN;
+    if (!isNaN(h)) hours[h]++;
+  });
+
+  return hours.map((views, hour) => ({ hour, views }));
+}
+
 function aggregateDailyTrend(documents) {
   const dayMap = new Map();
 
   documents.forEach(doc => {
     if (!doc.event_time) return;
-    const day = new Date(doc.event_time).toISOString().split('T')[0];
+    const t = parseEventTime(doc.event_time);
+    if (!t || isNaN(t.getTime())) return;
+    const day = t.toISOString().split('T')[0];
     if (!dayMap.has(day)) dayMap.set(day, { users: new Set(), sessions: new Set() });
     const entry = dayMap.get(day);
     if (doc.user) entry.users.add(doc.user);
@@ -529,7 +673,8 @@ function generateMockTrafficData() {
       total_sessions: 0,
       avg_engagement_time: 0,
       bounce_rate: 0,
-      returning_users: 0
+      returning_users: 0,
+      avg_pages_per_session: 0
     },
     previous_period: {
       total_users: 0,
@@ -546,7 +691,21 @@ function generateMockTrafficData() {
     traffic_sources: [],
     top_landing_pages: [],
     country_distribution: [],
-    device_distribution: []
+    device_distribution: [],
+    reading: {
+      avg_max_scroll: 0,
+      deep_read_pct: 0,
+      sessions: 0,
+      depth_buckets: [
+        { label: '0-25%', pct: 0 },
+        { label: '25-50%', pct: 0 },
+        { label: '50-75%', pct: 0 },
+        { label: '75-100%', pct: 0 }
+      ],
+      top_pages: []
+    },
+    top_clicks: [],
+    views_by_hour: Array.from({ length: 24 }, (_, hour) => ({ hour, views: 0 }))
   };
 }
 
