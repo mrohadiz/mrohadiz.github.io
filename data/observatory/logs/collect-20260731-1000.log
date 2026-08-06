@@ -1,0 +1,3 @@
+[2026-07-31 10:00:02] === Observatory Collection Start ===
+[2026-07-31 10:00:02] Collecting traffic data from kmstrack...
+/home/rohadi/Projects/mrohadiz.github.io/scripts/collect-and-push.sh: line 14: node: command not found

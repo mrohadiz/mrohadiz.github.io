@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-28T04:57:22.448Z",
+  "collected_at": "2026-08-06T01:54:53.378Z",
   "insights": [
     {
       "type": "positive",
@@ -34,9 +34,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "66 internal links connecting content",
-      "description": "Average of 1.4 links per article, creating a well-connected knowledge graph.",
-      "metric": "66",
+      "title": "197 internal links connecting content",
+      "description": "Average of 3.5 links per article, creating a well-connected knowledge graph.",
+      "metric": "197",
       "metric_label": "Internal Links",
       "icon": "link",
       "priority": "medium"
@@ -55,7 +55,7 @@
       "type": "neutral",
       "category": "traffic",
       "title": "Direct drives 100% of traffic",
-      "description": "395 sessions from Direct this period.",
+      "description": "422 sessions from Direct this period.",
       "metric": "100%",
       "metric_label": "Traffic Share",
       "icon": "globe",
@@ -64,18 +64,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "5 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "5 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "Latest commit: chore: remove local AI tool configs from tracking",
-      "description": "Committed 7/28/2026.",
+      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "description": "Committed 8/2/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -84,9 +74,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 47 articles",
-      "description": "Across 12 categories with 128 unique tags. Total word count: 19,857.",
-      "metric": "47",
+      "title": "Digital garden contains 57 articles",
+      "description": "Across 11 categories with 139 unique tags. Total word count: 27,520.",
+      "metric": "57",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
@@ -95,14 +85,14 @@
       "type": "positive",
       "category": "knowledge",
       "title": "Decision Systems is the most content-rich category",
-      "description": "With 14 articles, representing 30% of all content.",
-      "metric": "14",
+      "description": "With 20 articles, representing 35% of all content.",
+      "metric": "20",
       "metric_label": "Articles",
       "icon": "folder",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-07-28T04:57:22.448Z",
+  "generated_at": "2026-08-06T01:54:53.378Z",
   "analysis_period": {
     "current": {
       "start": "2026-06-13",

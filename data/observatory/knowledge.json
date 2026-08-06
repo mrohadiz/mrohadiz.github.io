@@ -1,77 +1,76 @@
 {
-  "collected_at": "2026-07-29T01:03:15.021Z",
+  "collected_at": "2026-08-06T01:54:53.280Z",
   "summary": {
-    "total_articles": 47,
-    "total_categories": 12,
-    "total_tags": 129,
+    "total_articles": 57,
+    "total_categories": 11,
+    "total_tags": 139,
     "total_series": 0,
-    "total_internal_links": 66,
-    "avg_reading_time": 2,
-    "total_word_count": 20121
+    "total_internal_links": 197,
+    "avg_reading_time": 3,
+    "total_word_count": 27520
   },
   "categories": [
     {
       "name": "Decision Systems",
-      "count": 14,
-      "percentage": 0.2978723404255319
+      "count": 20,
+      "percentage": 0.3508771929824561
+    },
+    {
+      "name": "AI Engineering",
+      "count": 8,
+      "percentage": 0.14035087719298245
+    },
+    {
+      "name": "Software Architecture",
+      "count": 8,
+      "percentage": 0.14035087719298245
     },
     {
       "name": "Business Intelligence",
       "count": 8,
-      "percentage": 0.1702127659574468
+      "percentage": 0.14035087719298245
     },
     {
-      "name": "AI Engineering",
-      "count": 7,
-      "percentage": 0.14893617021276595
-    },
-    {
-      "name": "Software Architecture",
-      "count": 6,
-      "percentage": 0.1276595744680851
+      "name": "Infrastructure",
+      "count": 4,
+      "percentage": 0.07017543859649122
     },
     {
       "name": "Decision Intelligence",
       "count": 3,
-      "percentage": 0.06382978723404255
-    },
-    {
-      "name": "Infrastructure",
-      "count": 2,
-      "percentage": 0.0425531914893617
+      "percentage": 0.05263157894736842
     },
     {
       "name": "Digital Garden",
       "count": 2,
-      "percentage": 0.0425531914893617
+      "percentage": 0.03508771929824561
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.02127659574468085
-    },
-    {
-      "name": "Crypto Observation",
-      "count": 1,
-      "percentage": 0.02127659574468085
+      "percentage": 0.017543859649122806
     },
     {
       "name": "[AI Engineering, Prompt Engineering]",
       "count": 1,
-      "percentage": 0.02127659574468085
+      "percentage": 0.017543859649122806
     },
     {
       "name": "Narrative Observatory",
       "count": 1,
-      "percentage": 0.02127659574468085
+      "percentage": 0.017543859649122806
     },
     {
       "name": "Business Architecture",
       "count": 1,
-      "percentage": 0.02127659574468085
+      "percentage": 0.017543859649122806
     }
   ],
   "tags": [
+    {
+      "name": "systems-thinking",
+      "count": 14
+    },
     {
       "name": "decision-system",
       "count": 8
@@ -81,15 +80,31 @@
       "count": 7
     },
     {
-      "name": "systems-thinking",
+      "name": "capability-building",
       "count": 7
     },
     {
-      "name": "capability-building",
+      "name": "decision-making",
       "count": 6
     },
     {
-      "name": "decision-making",
+      "name": "architecture",
+      "count": 6
+    },
+    {
+      "name": "decision-systems",
+      "count": 6
+    },
+    {
+      "name": "observability",
+      "count": 5
+    },
+    {
+      "name": "business-intelligence",
+      "count": 5
+    },
+    {
+      "name": "decision-intelligence",
       "count": 4
     },
     {
@@ -109,11 +124,19 @@
       "count": 3
     },
     {
-      "name": "observability",
+      "name": "mental-model",
       "count": 3
     },
     {
       "name": "ownership",
+      "count": 3
+    },
+    {
+      "name": "troubleshooting",
+      "count": 3
+    },
+    {
+      "name": "capability",
       "count": 3
     },
     {
@@ -149,7 +172,19 @@
       "count": 3
     },
     {
+      "name": "problem-solving",
+      "count": 3
+    },
+    {
       "name": "development-reality",
+      "count": 3
+    },
+    {
+      "name": "goal-setting",
+      "count": 3
+    },
+    {
+      "name": "organizational-development",
       "count": 3
     },
     {
@@ -157,15 +192,7 @@
       "count": 3
     },
     {
-      "name": "architecture",
-      "count": 2
-    },
-    {
       "name": "strategy",
-      "count": 2
-    },
-    {
-      "name": "business-intelligence",
       "count": 2
     },
     {
@@ -173,7 +200,15 @@
       "count": 2
     },
     {
-      "name": "troubleshooting",
+      "name": "data",
+      "count": 2
+    },
+    {
+      "name": "wordpress",
+      "count": 2
+    },
+    {
+      "name": "security",
       "count": 2
     },
     {
@@ -217,7 +252,7 @@
       "count": 2
     },
     {
-      "name": "problem-solving",
+      "name": "human-in-the-loop",
       "count": 2
     },
     {
@@ -225,15 +260,15 @@
       "count": 2
     },
     {
-      "name": "goal-setting",
-      "count": 2
-    },
-    {
-      "name": "organizational-development",
-      "count": 2
-    },
-    {
       "name": "output",
+      "count": 2
+    },
+    {
+      "name": "account-based-marketing",
+      "count": 2
+    },
+    {
+      "name": "go-to-market",
       "count": 2
     },
     {
@@ -281,26 +316,6 @@
       "count": 1
     },
     {
-      "name": "crypto",
-      "count": 1
-    },
-    {
-      "name": "market-microstructure",
-      "count": 1
-    },
-    {
-      "name": "order-flow",
-      "count": 1
-    },
-    {
-      "name": "trading",
-      "count": 1
-    },
-    {
-      "name": "analysis",
-      "count": 1
-    },
-    {
       "name": "terraform",
       "count": 1
     },
@@ -318,10 +333,6 @@
     },
     {
       "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "mental-model",
       "count": 1
     },
     {
@@ -373,14 +384,6 @@
       "count": 1
     },
     {
-      "name": "decision-intelligence",
-      "count": 1
-    },
-    {
-      "name": "data",
-      "count": 1
-    },
-    {
       "name": "root-cause-analysis",
       "count": 1
     },
@@ -409,14 +412,6 @@
       "count": 1
     },
     {
-      "name": "wordpress",
-      "count": 1
-    },
-    {
-      "name": "security",
-      "count": 1
-    },
-    {
       "name": "audit",
       "count": 1
     },
@@ -434,10 +429,6 @@
     },
     {
       "name": "resilience",
-      "count": 1
-    },
-    {
-      "name": "capability",
       "count": 1
     },
     {
@@ -569,10 +560,6 @@
       "count": 1
     },
     {
-      "name": "human-in-the-loop",
-      "count": 1
-    },
-    {
       "name": "ai-system",
       "count": 1
     },
@@ -585,11 +572,247 @@
       "count": 1
     },
     {
-      "name": "decision-systems",
+      "name": "signal-intelligence",
+      "count": 1
+    },
+    {
+      "name": "data-strategy",
+      "count": 1
+    },
+    {
+      "name": "artificial-intelligence",
+      "count": 1
+    },
+    {
+      "name": "digital-forensics",
+      "count": 1
+    },
+    {
+      "name": "incident-response",
+      "count": 1
+    },
+    {
+      "name": "hardening",
+      "count": 1
+    },
+    {
+      "name": "networking",
+      "count": 1
+    },
+    {
+      "name": "dns",
+      "count": 1
+    },
+    {
+      "name": "ipv6",
+      "count": 1
+    },
+    {
+      "name": "ssl",
+      "count": 1
+    },
+    {
+      "name": "software-design",
+      "count": 1
+    },
+    {
+      "name": "data-contract",
+      "count": 1
+    },
+    {
+      "name": "reference-frame",
       "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
+      "url": "/notes/2026/08/02/capability-sebelum-fitur/",
+      "date": "2026-08-02",
+      "category": "Software Architecture",
+      "tags": [
+        "capability",
+        "architecture",
+        "systems-thinking",
+        "decision-systems",
+        "software-design"
+      ],
+      "word_count": 464,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-02"
+    },
+    {
+      "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
+      "url": "/notes/2026/08/02/data-adalah-kontrak-bukan-sekadar-field/",
+      "date": "2026-08-02",
+      "category": "Software Architecture",
+      "tags": [
+        "data",
+        "data-contract",
+        "systems-thinking",
+        "architecture",
+        "capability"
+      ],
+      "word_count": 422,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-02"
+    },
+    {
+      "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
+      "url": "/notes/2026/08/02/reference-frame-menentukan-kualitas-keputusan/",
+      "date": "2026-08-02",
+      "category": "Decision Systems",
+      "tags": [
+        "reference-frame",
+        "decision-making",
+        "systems-thinking",
+        "mental-model",
+        "architecture"
+      ],
+      "word_count": 429,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-02"
+    },
+    {
+      "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
+      "url": "/notes/2026/08/02/sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar/",
+      "date": "2026-08-02",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-making",
+        "problem-solving",
+        "systems-thinking",
+        "mental-model",
+        "architecture"
+      ],
+      "word_count": 539,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-02"
+    },
+    {
+      "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
+      "url": "/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/",
+      "date": "2026-07-31",
+      "category": "Infrastructure",
+      "tags": [
+        "security",
+        "digital-forensics",
+        "incident-response",
+        "wordpress",
+        "hardening",
+        "observability"
+      ],
+      "word_count": 689,
+      "reading_time": 4,
+      "internal_links": 5,
+      "last_updated": "2026-07-31"
+    },
+    {
+      "title": "\"Website Terlihat Bermasalah, Padahal Website Sehat: Studi Kasus Gangguan Akses dari Device Internal\"",
+      "url": "/notes/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/",
+      "date": "2026-07-31",
+      "category": "Infrastructure",
+      "tags": [
+        "troubleshooting",
+        "networking",
+        "dns",
+        "ipv6",
+        "ssl",
+        "observability"
+      ],
+      "word_count": 868,
+      "reading_time": 5,
+      "internal_links": 5,
+      "last_updated": "2026-07-31"
+    },
+    {
+      "title": "\"ABM Bukan Strategi Marketing, tetapi Sistem Pengambilan Keputusan\"",
+      "url": "/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/",
+      "date": "2026-07-29",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-intelligence",
+        "account-based-marketing",
+        "decision-systems",
+        "go-to-market",
+        "business-intelligence"
+      ],
+      "word_count": 619,
+      "reading_time": 4,
+      "internal_links": 5,
+      "last_updated": "2026-07-29"
+    },
+    {
+      "title": "\"Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal\"",
+      "url": "/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/",
+      "date": "2026-07-29",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-intelligence",
+        "account-based-marketing",
+        "signal-intelligence",
+        "go-to-market",
+        "business-intelligence"
+      ],
+      "word_count": 543,
+      "reading_time": 4,
+      "internal_links": 5,
+      "last_updated": "2026-07-29"
+    },
+    {
+      "title": "\"Data Tidak Memberikan Keputusan, Data Hanya Memberikan Kemungkinan\"",
+      "url": "/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/",
+      "date": "2026-07-29",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-systems",
+        "business-intelligence",
+        "decision-intelligence",
+        "data-strategy",
+        "systems-thinking"
+      ],
+      "word_count": 514,
+      "reading_time": 3,
+      "internal_links": 6,
+      "last_updated": "2026-07-29"
+    },
+    {
+      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
+      "url": "/notes/2026/07/29/goal-bukan-target-tetapi-proses-membangun-capability/",
+      "date": "2026-07-29",
+      "category": "Decision Systems",
+      "tags": [
+        "capability-building",
+        "goal-setting",
+        "systems-thinking",
+        "organizational-development",
+        "decision-systems"
+      ],
+      "word_count": 524,
+      "reading_time": 3,
+      "internal_links": 6,
+      "last_updated": "2026-07-29"
+    },
+    {
+      "title": "\"Yang Tidak Bisa Diambil AI Bukan Pekerjaan, Tapi Keputusan\"",
+      "url": "/notes/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/",
+      "date": "2026-07-29",
+      "category": "AI Engineering",
+      "tags": [
+        "artificial-intelligence",
+        "decision-systems",
+        "systems-thinking",
+        "human-in-the-loop"
+      ],
+      "word_count": 695,
+      "reading_time": 4,
+      "internal_links": 5,
+      "last_updated": "2026-07-29"
+    },
     {
       "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
       "url": "/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting-series/",
@@ -600,9 +823,9 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 257,
+      "word_count": 329,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-28"
     },
     {
@@ -617,9 +840,9 @@
         "systems-thinking",
         "organizational-development"
       ],
-      "word_count": 748,
+      "word_count": 816,
       "reading_time": 5,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-28"
     },
     {
@@ -634,9 +857,9 @@
         "outcome",
         "decision-systems"
       ],
-      "word_count": 597,
+      "word_count": 676,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-28"
     },
     {
@@ -650,9 +873,9 @@
         "systems-thinking",
         "ownership"
       ],
-      "word_count": 299,
+      "word_count": 355,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 4,
       "last_updated": "2026-07-28"
     },
     {
@@ -666,9 +889,9 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 201,
+      "word_count": 259,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 4,
       "last_updated": "2026-07-28"
     },
     {
@@ -682,9 +905,9 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 201,
+      "word_count": 229,
       "reading_time": 2,
-      "internal_links": 0,
+      "internal_links": 2,
       "last_updated": "2026-07-28"
     },
     {
@@ -699,9 +922,9 @@
         "ai-governance",
         "system-design"
       ],
-      "word_count": 570,
+      "word_count": 612,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 3,
       "last_updated": "2026-07-27"
     },
     {
@@ -716,9 +939,9 @@
         "marketing-analytics",
         "ai-governance"
       ],
-      "word_count": 553,
+      "word_count": 630,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-26"
     },
     {
@@ -733,9 +956,9 @@
         "data-governance",
         "decision-system"
       ],
-      "word_count": 498,
+      "word_count": 530,
       "reading_time": 3,
-      "internal_links": 3,
+      "internal_links": 5,
       "last_updated": "2026-07-25"
     },
     {
@@ -750,9 +973,9 @@
         "organizational-learning",
         "technical-roadmap"
       ],
-      "word_count": 428,
+      "word_count": 498,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-25"
     },
     {
@@ -767,9 +990,9 @@
         "capability-development",
         "knowledge-management"
       ],
-      "word_count": 496,
-      "reading_time": 3,
-      "internal_links": 0,
+      "word_count": 542,
+      "reading_time": 4,
+      "internal_links": 3,
       "last_updated": "2026-07-25"
     },
     {
@@ -784,9 +1007,9 @@
         "ownership",
         "system-thinking"
       ],
-      "word_count": 468,
+      "word_count": 531,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-25"
     },
     {
@@ -801,9 +1024,9 @@
         "system-thinking",
         "engineering-culture"
       ],
-      "word_count": 454,
+      "word_count": 522,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-25"
     },
     {
@@ -817,9 +1040,9 @@
         "ai-engineering",
         "decision-system"
       ],
-      "word_count": 563,
+      "word_count": 601,
       "reading_time": 4,
-      "internal_links": 3,
+      "internal_links": 5,
       "last_updated": "2026-07-24"
     },
     {
@@ -902,9 +1125,9 @@
         "data-engineering",
         "marketing-intelligence"
       ],
-      "word_count": 343,
-      "reading_time": 2,
-      "internal_links": 2,
+      "word_count": 374,
+      "reading_time": 3,
+      "internal_links": 4,
       "last_updated": "2026-07-24"
     },
     {
@@ -919,9 +1142,9 @@
         "customer-journey",
         "business-intelligence"
       ],
-      "word_count": 346,
-      "reading_time": 2,
-      "internal_links": 2,
+      "word_count": 386,
+      "reading_time": 3,
+      "internal_links": 4,
       "last_updated": "2026-07-24"
     },
     {
@@ -951,9 +1174,9 @@
         "institutional-memory",
         "workflow"
       ],
-      "word_count": 289,
-      "reading_time": 2,
-      "internal_links": 0,
+      "word_count": 367,
+      "reading_time": 3,
+      "internal_links": 5,
       "last_updated": "2026-07-21"
     },
     {
@@ -1028,9 +1251,9 @@
         "knowledge-architecture",
         "digital-marketing"
       ],
-      "word_count": 627,
+      "word_count": 710,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-18"
     },
     {
@@ -1045,9 +1268,9 @@
         "topical-authority",
         "ai-search"
       ],
-      "word_count": 615,
+      "word_count": 676,
       "reading_time": 4,
-      "internal_links": 2,
+      "internal_links": 5,
       "last_updated": "2026-07-18"
     },
     {
@@ -1095,9 +1318,9 @@
         "sistem",
         "model-mental"
       ],
-      "word_count": 389,
+      "word_count": 454,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 5,
       "last_updated": "2026-07-15"
     },
     {
@@ -1164,9 +1387,9 @@
         "migration",
         "checklist"
       ],
-      "word_count": 589,
+      "word_count": 661,
       "reading_time": 4,
-      "internal_links": 0,
+      "internal_links": 4,
       "last_updated": "2026-07-14"
     },
     {
@@ -1181,9 +1404,9 @@
         "semantic-layer",
         "decision-making"
       ],
-      "word_count": 328,
-      "reading_time": 2,
-      "internal_links": 0,
+      "word_count": 371,
+      "reading_time": 3,
+      "internal_links": 3,
       "last_updated": "2026-07-13"
     },
     {
@@ -1262,9 +1485,9 @@
         "observability",
         "multi-source-signals"
       ],
-      "word_count": 648,
-      "reading_time": 4,
-      "internal_links": 0,
+      "word_count": 754,
+      "reading_time": 5,
+      "internal_links": 6,
       "last_updated": "2026-07-12"
     },
     {
@@ -1279,27 +1502,10 @@
         "devops",
         "infrastructure"
       ],
-      "word_count": 382,
+      "word_count": 443,
       "reading_time": 3,
-      "internal_links": 0,
+      "internal_links": 4,
       "last_updated": "2025-01-05"
-    },
-    {
-      "title": "\"Crypto Market Microstructure: Understanding Order Flow\"",
-      "url": "/notes/2024/12/28/crypto-market-microstructure/",
-      "date": "2024-12-28",
-      "category": "Crypto Observation",
-      "tags": [
-        "crypto",
-        "market-microstructure",
-        "order-flow",
-        "trading",
-        "analysis"
-      ],
-      "word_count": 344,
-      "reading_time": 2,
-      "internal_links": 0,
-      "last_updated": "2024-12-28"
     },
     {
       "title": "\"Event-Driven Architecture: Patterns and Practices\"",
@@ -1368,56 +1574,56 @@
   ],
   "newest_articles": [
     {
-      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
-      "date": "2026-07-28",
+      "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
+      "date": "2026-08-02",
+      "category": "Software Architecture"
+    },
+    {
+      "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
+      "date": "2026-08-02",
+      "category": "Software Architecture"
+    },
+    {
+      "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
+      "date": "2026-08-02",
       "category": "Decision Systems"
     },
     {
-      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
-      "date": "2026-07-28",
+      "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
+      "date": "2026-08-02",
       "category": "Decision Systems"
     },
     {
-      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
-      "date": "2026-07-28",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
-      "date": "2026-07-28",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
-      "date": "2026-07-28",
-      "category": "Decision Systems"
+      "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
+      "date": "2026-07-31",
+      "category": "Infrastructure"
     }
   ],
   "most_updated": [
     {
-      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
       "updates": 1,
-      "last_updated": "2026-07-28"
+      "last_updated": "2026-08-02"
     },
     {
-      "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
+      "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
       "updates": 1,
-      "last_updated": "2026-07-28"
+      "last_updated": "2026-08-02"
     },
     {
-      "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
+      "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
       "updates": 1,
-      "last_updated": "2026-07-28"
+      "last_updated": "2026-08-02"
     },
     {
-      "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
+      "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
       "updates": 1,
-      "last_updated": "2026-07-28"
+      "last_updated": "2026-08-02"
     },
     {
-      "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
+      "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
       "updates": 1,
-      "last_updated": "2026-07-28"
+      "last_updated": "2026-07-31"
     }
   ]
 }
