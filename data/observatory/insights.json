@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T07:07:20.160Z",
+  "collected_at": "2026-08-06T08:00:06.730Z",
   "insights": [
     {
       "type": "neutral",
@@ -44,7 +44,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: feat(observatory): insight engine pakai data real ",
+      "title": "Latest commit: feat(observatory): filter bot/crawler di kmstrack ",
       "description": "Committed 8/6/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -72,7 +72,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-06T07:07:20.160Z",
+  "generated_at": "2026-08-06T08:00:06.731Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-07",

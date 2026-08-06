@@ -1,14 +1,38 @@
 {
-  "collected_at": "2026-08-06T03:00:08.174Z",
+  "collected_at": "2026-08-06T08:00:06.528Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 184,
+    "total_commits": 188,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-06T02:29:37Z",
+    "last_commit_date": "2026-08-06T07:07:28Z",
     "active_days": 19
   },
   "recent_commits": [
+    {
+      "sha": "5aad2db",
+      "message": "feat(observatory): filter bot/crawler di kmstrack collector biar metrik akurat",
+      "date": "2026-08-06T07:07:28Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "e56aaa5",
+      "message": "chore(observatory): update collection log",
+      "date": "2026-08-06T05:01:33Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "0130d41",
+      "message": "feat(observatory): tambah 5 metrik kmstrack - reading depth, bounce asli, top clicks, pages/session, peak hours",
+      "date": "2026-08-06T05:01:17Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "1ea2700",
+      "message": "chore: update observatory data 2026-08-06",
+      "date": "2026-08-06T03:00:08Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "2c31dd5",
       "message": "feat(observatory): insight engine pakai data real kmstrack, buang GSC mock & simulasi device",
@@ -44,30 +68,6 @@
       "message": "chore(seo): auto-generate open graph images [skip ci]",
       "date": "2026-08-01T17:56:20Z",
       "author": "github-actions[bot]"
-    },
-    {
-      "sha": "6e82c1f",
-      "message": "Add article on data as a contract in architecture",
-      "date": "2026-08-01T17:56:07Z",
-      "author": "M Rohadi Z"
-    },
-    {
-      "sha": "17807d2",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-01T17:54:36Z",
-      "author": "github-actions[bot]"
-    },
-    {
-      "sha": "286ec65",
-      "message": "Add article on building capabilities over features",
-      "date": "2026-08-01T17:54:22Z",
-      "author": "M Rohadi Z"
-    },
-    {
-      "sha": "b842f43",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-01T17:52:37Z",
-      "author": "github-actions[bot]"
     }
   ],
   "publishing_timeline": [
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 11
+      "commits": 15
     }
   ],
   "article_history": [
@@ -126,7 +126,7 @@
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-06T03:00:08.174Z",
+    "last_deployment": "2026-08-06T08:00:06.528Z",
     "deployment_status": "success"
   }
 }
