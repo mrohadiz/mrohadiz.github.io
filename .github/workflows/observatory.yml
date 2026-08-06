@@ -1,11 +1,9 @@
 name: Observatory Data Collection
 
 on:
-  schedule:
-    # Run on Weekdays (Mon-Fri) at 10:00 and 15:00 WIB (03:00 and 08:00 UTC)
-    # Minute Hour * * Day-of-week
-    - cron: '0 3 * * 1-5'    # Monday to Friday at 03:00 UTC (10:00 WIB)
-    - cron: '0 8 * * 1-5'    # Monday to Friday at 08:00 UTC (15:00 WIB)
+  # Observatory data is collected from the developer laptop via local cron
+  # (scripts/collect-and-push.sh at 10:00 & 15:00 WIB). This workflow is
+  # manual-only so it never races with the local cron.
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -38,11 +36,19 @@ jobs:
         run: node scripts/collectors/knowledge-collector.js
         
       - name: Collect Traffic Data from KMS Track
+        id: kmstrack
+        # Don't abort the whole run if Mongo is unreachable/empty —
+        # GitHub/knowledge/insights data should still be published.
+        continue-on-error: true
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
           MONGO_DB: ${{ secrets.MONGO_DB || 'kms_track' }}
           MONGO_COLLECTION: ${{ secrets.MONGO_COLLECTION || 'kmstrack' }}
         run: node scripts/collectors/kmstrack-collector.js
+        
+      - name: Warn on traffic collection failure
+        if: steps.kmstrack.outcome == 'failure'
+        run: echo "::warning::KMS Track traffic collection failed — traffic.json may be stale. Check MONGO_URI secret and Mongo connectivity."
         
       # Google Search Console collector (when credentials available)
       # - name: Collect Search Console Data

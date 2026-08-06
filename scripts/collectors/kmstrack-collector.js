@@ -54,7 +54,25 @@ async function collectTrafficData() {
     }
 
     if (documents.length === 0) {
-      console.warn('No data found for target host, creating mock data structure');
+      console.warn(`No data found for host ${TARGET_HOST} in ${MONGO_DB}.${MONGO_COLLECTION}`);
+      // Never overwrite the last good dataset with empty/mock data.
+      if (fs.existsSync(OUTPUT_FILE)) {
+        try {
+          const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf8'));
+          if (existing.summary && existing.summary.total_sessions > 0) {
+            console.warn('Preserving existing traffic.json (last good data) instead of overwriting with empty data.');
+            if (existing.collected_at) {
+              const ageDays = (Date.now() - new Date(existing.collected_at).getTime()) / 86400000;
+              if (ageDays > 7) {
+                console.warn(`NOTE: preserved traffic.json is ${Math.round(ageDays)} days old — ingestion may be down.`);
+              }
+            }
+            return null;
+          }
+        } catch (e) {
+          console.warn('Existing traffic.json unreadable, will regenerate mock structure.');
+        }
+      }
       return generateMockTrafficData();
     }
 
@@ -520,6 +538,11 @@ async function main() {
 
     console.log(`Collecting traffic data from kmstrack for ${TARGET_HOST}...`);
     const trafficData = await collectTrafficData();
+
+    if (trafficData === null) {
+      console.log('⚠ Skipped writing traffic.json (no new data, previous dataset preserved).');
+      process.exit(0);
+    }
 
     // Write to file
     fs.writeFileSync(

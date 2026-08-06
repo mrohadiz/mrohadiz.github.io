@@ -6,6 +6,23 @@ LOG_DIR="data/observatory/logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/collect-$(date +%Y%m%d-%H%M).log"
 
+# Ensure node is available under cron (non-login shells don't source nvm)
+if ! command -v node >/dev/null 2>&1; then
+  for NVM_CANDIDATE in "${NVM_DIR:-$HOME/.config/nvm}" "$HOME/.nvm"; do
+    if [ -s "$NVM_CANDIDATE/nvm.sh" ]; then
+      # nvm.sh references unset vars; guard against `set -u` aborting the source
+      set +u
+      . "$NVM_CANDIDATE/nvm.sh"
+      set -u
+      break
+    fi
+  done
+fi
+if ! command -v node >/dev/null 2>&1; then
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: node not found. Cannot run collectors." >&2
+  exit 1
+fi
+
 exec 1> >(tee -a "$LOG_FILE") 2>&1
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] === Observatory Collection Start ==="
