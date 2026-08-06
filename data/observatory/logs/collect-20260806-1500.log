@@ -23,3 +23,16 @@ Knowledge data collected successfully. Found 57 articles. Saved to /home/rohadi/
 Starting insights generation...
 Insights generated successfully. Found 7 insights. Saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/insights.json
 [2026-08-06 15:00:06] Staging changes...
+[2026-08-06 15:00:06] Committing and pushing...
+[graphify hook] launching background rebuild (log: /home/rohadi/.cache/graphify-rebuild.log)
+[main 26079aa] chore: update observatory data 2026-08-06
+ 5 files changed, 59 insertions(+), 34 deletions(-)
+ create mode 100644 data/observatory/logs/collect-20260806-1500.log
+remote: 
+remote: GitHub found 5 vulnerabilities on mrohadiz/mrohadiz.github.io's default branch (1 high, 4 moderate). To find out more, visit:        
+remote:      https://github.com/mrohadiz/mrohadiz.github.io/security/dependabot        
+remote: 
+To github.com:mrohadiz/mrohadiz.github.io.git
+   5aad2db..26079aa  main -> main
+[2026-08-06 15:00:10] Done.
+[2026-08-06 15:00:10] === Observatory Collection Complete ===
