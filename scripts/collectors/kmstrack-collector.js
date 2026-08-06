@@ -19,6 +19,70 @@ const TARGET_HOST = 'mrohadiz.github.io';
 const OUTPUT_DIR = path.join(__dirname, '../../data/observatory');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'traffic.json');
 
+// Known bot/crawler user-agent signals. Matched case-insensitively against
+// user_agent. Only *named* bots and high-precision generic terms are listed:
+// broad words (checker/audit/monitoring) add no coverage but risk false
+// positives, and in-app browsers (e.g. BytedanceWebview, TikTok, WhatsApp
+// WebView — a real reading channel in Indonesia) must stay untouched.
+// Note: "yandexbot" not "yandex" so the real Yandex Browser is not filtered.
+const BOT_UA_RE = /googlebot|google-inspectiontool|googleother|google-read-aloud|google-site-verification|mediapartners|adsbot|bingbot|bingpreview|slurp|duckduckbot|yandexbot|baiduspider|sogou|exabot|ia_archiver|archive\.org|semrush|ahrefs|mj12bot|dotbot|petalbot|ccbot|gptbot|claudebot|anthropic-ai|bytespider|amazonbot|facebookexternalhit|facebot|twitterbot|linkedinbot|pinterestbot|telegrambot|discordbot|slackbot|headlesschrome|phantomjs|seositecheckup|sitecheckerpro|uptimerobot|pingdom|newrelic|datadog|statuscake|curl\/|wget\/|python-requests|python-urllib|python-httpx|okhttp|go-http-client|libwww-perl|scrapy|feedfetcher|feedburner|rss\/|feedparser|spider|crawler|bot\/|_bot/i;
+
+// Sessions whose completed page_depth >= 10 are treated as automated crawls.
+// Reading 10+ pages in a single session is physically implausible for a human
+// on a content site; real sessions in this dataset never exceed ~5 pages.
+const AUTOMATED_PAGE_DEPTH = 10;
+
+function isBotUserAgent(userAgent) {
+  return BOT_UA_RE.test(String(userAgent || ''));
+}
+
+// Collect session ids flagged as automated (from session_end page_depth).
+function findAutomatedSessionIds(documents) {
+  const automated = new Set();
+  documents.forEach(doc => {
+    if (doc.event_type === 'session_end' && doc.session &&
+        typeof doc.session.page_depth === 'number' &&
+        doc.session.page_depth >= AUTOMATED_PAGE_DEPTH) {
+      if (doc.session_id) automated.add(doc.session_id);
+    }
+  });
+  return automated;
+}
+
+// Remove bot/crawler traffic before aggregation so metrics (sessions, engagement,
+// pages/session, peak hours) reflect real visitors only.
+function filterTrafficDocuments(documents) {
+  const stats = {
+    total_docs: documents.length,
+    bot_ua_events: 0,
+    bot_ua_sessions: 0,
+    automated_sessions: 0,
+    automated_session_events: 0,
+    sessions_removed: 0,
+    docs_after_filter: 0
+  };
+
+  const botUaDocs = documents.filter(d => isBotUserAgent(d.user_agent));
+  const botUaSessionIds = new Set(botUaDocs.map(d => d.session_id).filter(Boolean));
+  const automatedSessionIds = findAutomatedSessionIds(documents);
+  const removedSessionIds = new Set([...botUaSessionIds, ...automatedSessionIds]);
+
+  stats.bot_ua_events = botUaDocs.length;
+  stats.bot_ua_sessions = botUaSessionIds.size;
+  stats.automated_sessions = automatedSessionIds.size;
+  stats.automated_session_events = documents.filter(d => automatedSessionIds.has(d.session_id)).length;
+  stats.sessions_removed = removedSessionIds.size;
+
+  const clean = documents.filter(d =>
+    !removedSessionIds.has(d.session_id) &&
+    // events without a session id can't be session-filtered; drop them when UA is bot-like
+    !(!d.session_id && isBotUserAgent(d.user_agent))
+  );
+  stats.docs_after_filter = clean.length;
+
+  return { clean, stats };
+}
+
 async function collectTrafficData() {
   if (!MONGO_URI) {
     console.error('Error: MONGO_URI not set in .env');
@@ -78,6 +142,13 @@ async function collectTrafficData() {
 
     // Aggregate traffic metrics
     const trafficData = aggregateTrafficData(documents);
+
+    if (trafficData.filter_stats) {
+      const s = trafficData.filter_stats;
+      console.log(`  Filter: removed ${s.total_docs - s.docs_after_filter} bot/crawler events ` +
+        `(bot_ua_events=${s.bot_ua_events}, automated_sessions=${s.automated_sessions}, ` +
+        `sessions_removed=${s.sessions_removed})`);
+    }
     
     return trafficData;
   } finally {
@@ -89,18 +160,20 @@ async function collectTrafficData() {
 }
 
 function aggregateTrafficData(documents) {
+  // Strip bot/crawler traffic first so every metric below is human-only.
+  const { clean: filteredDocuments, stats: filterStats } = filterTrafficDocuments(documents);
   const now = new Date();
   const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
   const sixtyDaysAgo = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000);
 
   // Current period (last 30 days)
-  const currentPeriodDocs = documents.filter(doc => {
+  const currentPeriodDocs = filteredDocuments.filter(doc => {
     const docTime = new Date(doc.event_time);
     return docTime >= thirtyDaysAgo;
   });
 
   // Previous period (30-60 days ago)
-  const previousPeriodDocs = documents.filter(doc => {
+  const previousPeriodDocs = filteredDocuments.filter(doc => {
     const docTime = new Date(doc.event_time);
     return docTime >= sixtyDaysAgo && docTime < thirtyDaysAgo;
   });
@@ -201,7 +274,8 @@ function aggregateTrafficData(documents) {
     device_distribution: deviceDistribution,
     reading,
     top_clicks: topClicks,
-    views_by_hour: viewsByHour
+    views_by_hour: viewsByHour,
+    filter_stats: filterStats
   };
 }
 
@@ -705,7 +779,16 @@ function generateMockTrafficData() {
       top_pages: []
     },
     top_clicks: [],
-    views_by_hour: Array.from({ length: 24 }, (_, hour) => ({ hour, views: 0 }))
+    views_by_hour: Array.from({ length: 24 }, (_, hour) => ({ hour, views: 0 })),
+    filter_stats: {
+      total_docs: 0,
+      bot_ua_events: 0,
+      bot_ua_sessions: 0,
+      automated_sessions: 0,
+      automated_session_events: 0,
+      sessions_removed: 0,
+      docs_after_filter: 0
+    }
   };
 }
 

@@ -1,32 +1,22 @@
 {
-  "collected_at": "2026-08-06T03:00:08.345Z",
+  "collected_at": "2026-08-06T07:07:20.160Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 7m 7s per session",
-      "description": "Across 425 sessions from 346 users this period.",
-      "metric": "7m 7s",
+      "title": "Average engagement is 1m 47s per session",
+      "description": "Across 342 sessions from 333 users this period.",
+      "metric": "1m 47s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
-      "type": "positive",
-      "category": "traffic",
-      "title": "Mobile engagement is 38% higher than desktop",
-      "description": "10m 47s on mobile vs 7m 50s on desktop.",
-      "metric": "+38%",
-      "metric_label": "Mobile vs Desktop",
-      "icon": "smartphone",
-      "priority": "medium"
-    },
-    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "171 sessions with an average engagement of 11m 54s.",
-      "metric": "171",
+      "description": "115 sessions with an average engagement of 4m 46s.",
+      "metric": "115",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (1% of visitors)",
+      "title": "2 returning users (1% of visitors)",
       "description": "1% of this period's visitors came back for another session.",
-      "metric": "3",
+      "metric": "2",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -82,7 +72,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-06T03:00:08.345Z",
+  "generated_at": "2026-08-06T07:07:20.160Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-07",

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T04:22:58.869Z",
+  "collected_at": "2026-08-06T07:07:19.986Z",
   "period": {
     "start": "2026-07-07",
     "end": "2026-08-06"
@@ -7,37 +7,22 @@
   "daily_trend": [
     {
       "date": "2026-07-12",
-      "users": 295,
-      "sessions": 304
+      "users": 293,
+      "sessions": 293
     },
     {
       "date": "2026-07-13",
-      "users": 18,
-      "sessions": 18
-    },
-    {
-      "date": "2026-07-14",
-      "users": 10,
+      "users": 15,
       "sessions": 15
     },
     {
+      "date": "2026-07-14",
+      "users": 4,
+      "sessions": 4
+    },
+    {
       "date": "2026-07-15",
-      "users": 6,
-      "sessions": 7
-    },
-    {
-      "date": "2026-07-16",
-      "users": 2,
-      "sessions": 2
-    },
-    {
-      "date": "2026-07-17",
-      "users": 2,
-      "sessions": 2
-    },
-    {
-      "date": "2026-07-18",
-      "users": 1,
+      "users": 4,
       "sessions": 4
     },
     {
@@ -46,93 +31,63 @@
       "sessions": 1
     },
     {
-      "date": "2026-07-20",
-      "users": 2,
-      "sessions": 4
-    },
-    {
       "date": "2026-07-21",
-      "users": 2,
-      "sessions": 3
+      "users": 1,
+      "sessions": 1
     },
     {
       "date": "2026-07-23",
-      "users": 4,
-      "sessions": 7
+      "users": 1,
+      "sessions": 1
     },
     {
       "date": "2026-07-24",
-      "users": 3,
-      "sessions": 4
-    },
-    {
-      "date": "2026-07-25",
-      "users": 4,
-      "sessions": 6
-    },
-    {
-      "date": "2026-07-26",
       "users": 2,
-      "sessions": 4
-    },
-    {
-      "date": "2026-07-27",
-      "users": 1,
       "sessions": 2
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-25",
       "users": 3,
-      "sessions": 4
+      "sessions": 3
     },
     {
-      "date": "2026-07-29",
+      "date": "2026-07-26",
+      "users": 1,
+      "sessions": 1
+    },
+    {
+      "date": "2026-07-28",
       "users": 1,
       "sessions": 1
     },
     {
       "date": "2026-07-30",
-      "users": 2,
-      "sessions": 7
+      "users": 1,
+      "sessions": 1
     },
     {
       "date": "2026-07-31",
       "users": 2,
-      "sessions": 10
-    },
-    {
-      "date": "2026-08-01",
-      "users": 1,
-      "sessions": 1
-    },
-    {
-      "date": "2026-08-03",
-      "users": 11,
-      "sessions": 14
-    },
-    {
-      "date": "2026-08-04",
-      "users": 1,
       "sessions": 3
     },
     {
-      "date": "2026-08-05",
-      "users": 1,
-      "sessions": 1
+      "date": "2026-08-03",
+      "users": 10,
+      "sessions": 11
     },
     {
       "date": "2026-08-06",
-      "users": 2,
-      "sessions": 2
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 346,
-    "total_sessions": 425,
-    "avg_engagement_time": 427,
-    "bounce_rate": 0.02558139534883721,
-    "returning_users": 3,
-    "avg_pages_per_session": 18.7
+    "total_users": 333,
+    "total_sessions": 342,
+    "avg_engagement_time": 107,
+    "bounce_rate": 0.27586206896551724,
+    "returning_users": 2,
+    "avg_pages_per_session": 2.3
   },
   "previous_period": {
     "total_users": 0,
@@ -149,131 +104,131 @@
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 423,
-      "percentage": 0.9952941176470588
+      "sessions": 340,
+      "percentage": 0.9941520467836257
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 171,
-      "avg_engagement_time": 714
+      "sessions": 115,
+      "avg_engagement_time": 286
     },
     {
       "page": "/notes/",
-      "sessions": 79,
-      "avg_engagement_time": 1085
+      "sessions": 57,
+      "avg_engagement_time": 511
     },
     {
       "page": "/about/",
-      "sessions": 63,
-      "avg_engagement_time": 224
+      "sessions": 53,
+      "avg_engagement_time": 0
     },
     {
       "page": "/projects/",
-      "sessions": 62,
-      "avg_engagement_time": 35
+      "sessions": 52,
+      "avg_engagement_time": 0
     },
     {
       "page": "/now/",
-      "sessions": 59,
-      "avg_engagement_time": 46
+      "sessions": 52,
+      "avg_engagement_time": 0
+    },
+    {
+      "page": "/?",
+      "sessions": 3,
+      "avg_engagement_time": 1
+    },
+    {
+      "page": "/?gtm_latency=1",
+      "sessions": 3,
+      "avg_engagement_time": 7
     },
     {
       "page": "/observatory/",
-      "sessions": 16,
-      "avg_engagement_time": 1136
-    },
-    {
-      "page": "/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
-      "sessions": 6,
-      "avg_engagement_time": 195
-    },
-    {
-      "page": "/2026/07/13/measurement-bukan-tujuan/",
-      "sessions": 6,
-      "avg_engagement_time": 68
+      "sessions": 2,
+      "avg_engagement_time": 200
     }
   ],
   "country_distribution": [
     {
       "country": "United States",
-      "sessions": 323,
-      "percentage": 0.76
+      "sessions": 312,
+      "percentage": 0.9122807017543859
     },
     {
       "country": "Indonesia",
-      "sessions": 93,
-      "percentage": 0.2188235294117647
+      "sessions": 23,
+      "percentage": 0.06725146198830409
     },
     {
       "country": "Singapore",
-      "sessions": 5,
-      "percentage": 0.011764705882352941
+      "sessions": 3,
+      "percentage": 0.008771929824561403
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     },
     {
       "country": "SE",
       "sessions": 1,
-      "percentage": 0.002352941176470588
+      "percentage": 0.0029239766081871343
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 350,
-      "avg_engagement_time": 470,
-      "percentage": 0.8235294117647058
+      "sessions": 327,
+      "avg_engagement_time": 111,
+      "percentage": 0.956140350877193
     },
     {
       "device": "Mobile",
-      "sessions": 74,
-      "avg_engagement_time": 647,
-      "percentage": 0.17411764705882352
+      "sessions": 13,
+      "avg_engagement_time": 2362,
+      "percentage": 0.038011695906432746
     },
     {
       "device": "Tablet",
       "sessions": 3,
       "avg_engagement_time": 7,
-      "percentage": 0.007058823529411765
+      "percentage": 0.008771929824561403
     }
   ],
   "reading": {
-    "avg_max_scroll": 66,
-    "deep_read_pct": 0.602,
-    "sessions": 430,
+    "avg_max_scroll": 63,
+    "deep_read_pct": 0.552,
+    "sessions": 29,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.2255813953488372
+        "pct": 0.27586206896551724
       },
       {
         "label": "25-50%",
-        "pct": 0.17209302325581396
+        "pct": 0.1724137931034483
       },
       {
         "label": "50-75%",
@@ -281,55 +236,55 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.6023255813953489
+        "pct": 0.5517241379310345
       }
     ],
     "top_pages": [
       {
-        "page": "/",
-        "sessions": 41,
-        "avg_max_scroll": 64,
-        "deep_read_pct": 0.4146341463414634
-      },
-      {
-        "page": "/notes/",
-        "sessions": 15,
-        "avg_max_scroll": 65,
-        "deep_read_pct": 0.5333333333333333
-      },
-      {
-        "page": "/observatory/",
-        "sessions": 14,
-        "avg_max_scroll": 86,
-        "deep_read_pct": 0.7857142857142857
-      },
-      {
-        "page": "/about/",
-        "sessions": 10,
-        "avg_max_scroll": 95,
+        "page": "/?",
+        "sessions": 3,
+        "avg_max_scroll": 75,
         "deep_read_pct": 1
       },
       {
-        "page": "/projects/",
-        "sessions": 8,
+        "page": "/",
+        "sessions": 3,
+        "avg_max_scroll": 67,
+        "deep_read_pct": 0.3333333333333333
+      },
+      {
+        "page": "/2026/07/24/dari-analytics-ke-customer-intelligence/",
+        "sessions": 2,
+        "avg_max_scroll": 50,
+        "deep_read_pct": 0.5
+      },
+      {
+        "page": "/observatory/",
+        "sessions": 1,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
+        "sessions": 1,
         "avg_max_scroll": 100,
         "deep_read_pct": 1
       },
       {
-        "page": "/now/",
-        "sessions": 7,
-        "avg_max_scroll": 86,
-        "deep_read_pct": 0.8571428571428571
+        "page": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEey3auuKk3mEC5hCg5jY8m_3hSucB47HIH84Ov4c1CAwVDqFdfa_qCnPDKqO4_aem_ZTLxf_e4Dla-_52XaHcnBg",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
       },
       {
-        "page": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/",
-        "sessions": 5,
-        "avg_max_scroll": 70,
-        "deep_read_pct": 0.6
+        "page": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEecFuYWyjjv8CL6H-034vOHp3JxS6Lv1bebNbcflo0zuNA2B-Po7mIKnGW4rM_aem_7gtn6_3tl_EhFfc-AahgEA",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
       },
       {
-        "page": "/crypto%20observation/2024/12/28/crypto-market-microstructure.html",
-        "sessions": 5,
+        "page": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEex9uIfqsX9o7FcLJYU6y7PD157ZM-jqcApf0DLLyM7IBOudR_j1AuOLR8uQw_aem_frqZE-6loswlDrZ8bKqEjw",
+        "sessions": 1,
         "avg_max_scroll": 100,
         "deep_read_pct": 1
       }
@@ -338,97 +293,93 @@
   "top_clicks": [
     {
       "element": "R\nM. Rohadiz",
-      "sessions": 27
-    },
-    {
-      "element": "Observatory",
-      "sessions": 12
-    },
-    {
-      "element": "Mulai Membaca",
-      "sessions": 9
-    },
-    {
-      "element": "Traffic",
-      "sessions": 8
-    },
-    {
-      "element": "Knowledge",
-      "sessions": 8
+      "sessions": 2
     },
     {
       "element": "Notes",
-      "sessions": 7
+      "sessions": 2
     },
     {
-      "element": "Publishing",
-      "sessions": 7
+      "element": "Traffic",
+      "sessions": 1
     },
     {
-      "element": "Now",
-      "sessions": 7
+      "element": "Observatory",
+      "sessions": 1
     },
     {
-      "element": "About",
-      "sessions": 6
+      "element": "24 JUL 2026\nDari Analytics ke Customer Intelligenc",
+      "sessions": 1
     },
     {
-      "element": "Projects",
-      "sessions": 5
+      "element": "14 JUL 2026\nInsight Tidak Pernah Muncul dari Dashb",
+      "sessions": 1
+    },
+    {
+      "element": "Infrastructure\nJan 05, 2025\n2 min read\nInfrastruct",
+      "sessions": 1
+    },
+    {
+      "element": "Decision Systems\nJul 12, 2026\n2 min read\nBuku Saku",
+      "sessions": 1
+    },
+    {
+      "element": "Mulai Membaca",
+      "sessions": 1
     }
   ],
   "views_by_hour": [
     {
       "hour": 0,
-      "views": 18
+      "views": 2
     },
     {
       "hour": 1,
-      "views": 84
+      "views": 12
     },
     {
       "hour": 2,
-      "views": 65
+      "views": 18
     },
     {
       "hour": 3,
-      "views": 33
+      "views": 7
     },
     {
       "hour": 4,
-      "views": 25
+      "views": 0
     },
     {
       "hour": 5,
-      "views": 11
+      "views": 3
     },
     {
       "hour": 6,
-      "views": 18
+      "views": 1
     },
     {
       "hour": 7,
-      "views": 18
+      "views": 1
     },
     {
       "hour": 8,
-      "views": 5
+      "views": 2
     },
     {
       "hour": 9,
-      "views": 11
+      "views": 5
     },
     {
       "hour": 10,
-      "views": 9
+      "views": 1
     },
     {
       "hour": 11,
-      "views": 13
+      "views": 4
     },
     {
       "hour": 12,
-      "views": 24
+      "views": 7
     },
     {
       "hour": 13,
@@ -436,27 +387,27 @@
     },
     {
       "hour": 14,
-      "views": 41
+      "views": 0
     },
     {
       "hour": 15,
-      "views": 18
+      "views": 0
     },
     {
       "hour": 16,
-      "views": 19
+      "views": 4
     },
     {
       "hour": 17,
-      "views": 7
+      "views": 0
     },
     {
       "hour": 18,
-      "views": 157
+      "views": 141
     },
     {
       "hour": 19,
-      "views": 145
+      "views": 138
     },
     {
       "hour": 20,
@@ -468,11 +419,20 @@
     },
     {
       "hour": 22,
-      "views": 25
+      "views": 9
     },
     {
       "hour": 23,
-      "views": 37
+      "views": 4
     }
-  ]
+  ],
+  "filter_stats": {
+    "total_docs": 10000,
+    "bot_ua_events": 146,
+    "bot_ua_sessions": 13,
+    "automated_sessions": 70,
+    "automated_session_events": 6663,
+    "sessions_removed": 83,
+    "docs_after_filter": 3167
+  }
 }

@@ -38,8 +38,9 @@ function analyzeTrafficData(trafficData) {
 
   const { trend, traffic_sources, device_distribution, top_landing_pages, summary, previous_period } = trafficData;
 
-  // Users growth (only meaningful when a previous period exists)
-  if (trend.users_change > 0.1 && previous_period && previous_period.total_users > 0) {
+  // Users growth (only meaningful when a previous period exists with a real sample;
+  // a couple of leftover sessions would otherwise produce a wild % change)
+  if (trend.users_change > 0.1 && previous_period && previous_period.total_users >= 5) {
     insights.push({
       type: 'positive',
       category: 'traffic',
@@ -50,7 +51,7 @@ function analyzeTrafficData(trafficData) {
       icon: 'users',
       priority: 'high'
     });
-  } else if (trend.users_change < -0.1 && previous_period && previous_period.total_users > 0) {
+  } else if (trend.users_change < -0.1 && previous_period && previous_period.total_users >= 5) {
     insights.push({
       type: 'warning',
       category: 'traffic',
@@ -77,11 +78,16 @@ function analyzeTrafficData(trafficData) {
     });
   }
 
-  // Device comparison — real per-device engagement computed by the kmstrack collector
+  // Device comparison — real per-device engagement computed by the kmstrack collector.
+  // Requires a minimum sample per device: with a handful of sessions a single long
+  // "tab left open" session skews the mean into nonsense (e.g. +2028%).
+  const MIN_DEVICE_SESSIONS = 15;
   if (device_distribution) {
     const desktop = device_distribution.find(d => d.device === 'Desktop');
     const mobile = device_distribution.find(d => d.device === 'Mobile');
-    if (desktop && mobile && desktop.avg_engagement_time > 0 && mobile.avg_engagement_time > 0) {
+    if (desktop && mobile &&
+        desktop.sessions >= MIN_DEVICE_SESSIONS && mobile.sessions >= MIN_DEVICE_SESSIONS &&
+        desktop.avg_engagement_time > 0 && mobile.avg_engagement_time > 0) {
       const diff = Math.round((1 - mobile.avg_engagement_time / desktop.avg_engagement_time) * 100);
       if (diff >= 15) {
         insights.push({
@@ -129,7 +135,7 @@ function analyzeTrafficData(trafficData) {
     const organic = traffic_sources.filter(s => /google|bing|yahoo|duckduckgo|organic/i.test(s.source));
     const organicSessions = organic.reduce((acc, s) => acc + s.sessions, 0);
     const organicShare = Math.round((organicSessions / summary.total_sessions) * 100);
-    if (organicShare >= 1) {
+    if (organicSessions >= 5 && organicShare >= 1) {
       insights.push({
         type: 'neutral',
         category: 'traffic',
