@@ -1,25 +1,15 @@
 {
-  "collected_at": "2026-08-07T03:00:09.172Z",
+  "collected_at": "2026-08-07T08:00:06.682Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 45s per session",
-      "description": "Across 344 sessions from 334 users this period.",
-      "metric": "5m 45s",
+      "title": "Average engagement is 5m 47s per session",
+      "description": "Across 342 sessions from 333 users this period.",
+      "metric": "5m 47s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
-    },
-    {
-      "type": "positive",
-      "category": "traffic",
-      "title": "Mobile engagement is 468% higher than desktop",
-      "description": "34m 17s on mobile vs 6m 2s on desktop.",
-      "metric": "+468%",
-      "metric_label": "Mobile vs Desktop",
-      "icon": "smartphone",
-      "priority": "medium"
     },
     {
       "type": "neutral",
@@ -44,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (1% of visitors)",
+      "title": "2 returning users (1% of visitors)",
       "description": "1% of this period's visitors came back for another session.",
-      "metric": "3",
+      "metric": "2",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -64,8 +54,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(deps): bump undici ke 7.29.0 (fix 5 CVE depe",
-      "description": "Committed 8/6/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-08-07",
+      "description": "Committed 8/7/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -92,7 +82,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-07T03:00:09.172Z",
+  "generated_at": "2026-08-07T08:00:06.682Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-08",
