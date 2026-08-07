@@ -1,22 +1,32 @@
 {
-  "collected_at": "2026-08-06T08:00:06.730Z",
+  "collected_at": "2026-08-07T03:00:09.172Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 1m 47s per session",
-      "description": "Across 342 sessions from 333 users this period.",
-      "metric": "1m 47s",
+      "title": "Average engagement is 5m 45s per session",
+      "description": "Across 344 sessions from 334 users this period.",
+      "metric": "5m 45s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
+      "type": "positive",
+      "category": "traffic",
+      "title": "Mobile engagement is 468% higher than desktop",
+      "description": "34m 17s on mobile vs 6m 2s on desktop.",
+      "metric": "+468%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
+      "priority": "medium"
+    },
+    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "115 sessions with an average engagement of 4m 46s.",
-      "metric": "115",
+      "description": "116 sessions with an average engagement of 4m 43s.",
+      "metric": "116",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -34,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (1% of visitors)",
+      "title": "3 returning users (1% of visitors)",
       "description": "1% of this period's visitors came back for another session.",
-      "metric": "2",
+      "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -44,7 +54,17 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: feat(observatory): filter bot/crawler di kmstrack ",
+      "title": "1 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "1 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore(deps): bump undici ke 7.29.0 (fix 5 CVE depe",
       "description": "Committed 8/6/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -72,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-06T08:00:06.731Z",
+  "generated_at": "2026-08-07T03:00:09.172Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-07",
-      "end": "2026-08-06"
+      "start": "2026-07-08",
+      "end": "2026-08-07"
     }
   }
 }
