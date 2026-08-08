@@ -23,3 +23,12 @@ Knowledge data collected successfully. Found 57 articles. Saved to /home/rohadi/
 Starting insights generation...
 Insights generated successfully. Found 8 insights. Saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/insights.json
 [2026-08-07 15:00:06] Staging changes...
+[2026-08-07 15:00:06] Committing and pushing...
+[graphify hook] launching background rebuild (log: /home/rohadi/.cache/graphify-rebuild.log)
+[main 6f71392] chore: update observatory data 2026-08-07
+ 6 files changed, 94 insertions(+), 70 deletions(-)
+ create mode 100644 data/observatory/logs/collect-20260807-1500.log
+To github.com:mrohadiz/mrohadiz.github.io.git
+   3e9d2d6..6f71392  main -> main
+[2026-08-07 15:00:10] Done.
+[2026-08-07 15:00:10] === Observatory Collection Complete ===
