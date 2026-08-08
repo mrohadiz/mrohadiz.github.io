@@ -78,9 +78,9 @@ function generatePostUrl(filename) {
   const match = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.(?:md|markdown)$/);
   if (match) {
     const [, year, month, day, slug] = match;
-    return `/notes/${year}/${month}/${day}/${slug}/`;
+    return `/${year}/${month}/${day}/${slug}/`;
   }
-  return `/notes/${filename.replace(/\.\w+$/, '/')}`;
+  return `/${filename.replace(/\.\w+$/, '/')}`;
 }
 
 async function main() {

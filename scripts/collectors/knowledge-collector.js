@@ -78,12 +78,12 @@ async function main() {
         const wordCount = countWords(content);
         const internalLinks = countInternalLinks(content);
         
-        // Generate Jekyll-compatible URL: /notes/YYYY/MM/DD/slug/
+        // Generate Jekyll-compatible URL: /YYYY/MM/DD/slug/
         const dateMatch = file.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.(?:md|markdown)$/);
-        let url = `/notes/${file.replace(/\.\w+$/, '/')}`;
+        let url = `/${file.replace(/\.\w+$/, '/')}`;
         if (dateMatch) {
           const [, year, month, day, slug] = dateMatch;
-          url = `/notes/${year}/${month}/${day}/${slug}/`;
+          url = `/${year}/${month}/${day}/${slug}/`;
         }
         
         posts.push({

@@ -1,75 +1,79 @@
 {
-  "collected_at": "2026-08-07T08:00:06.597Z",
+  "collected_at": "2026-08-08T13:56:08.918Z",
   "summary": {
-    "total_articles": 57,
+    "total_articles": 66,
     "total_categories": 11,
-    "total_tags": 139,
+    "total_tags": 157,
     "total_series": 0,
-    "total_internal_links": 197,
+    "total_internal_links": 211,
     "avg_reading_time": 3,
-    "total_word_count": 27520
+    "total_word_count": 32932
   },
   "categories": [
     {
       "name": "Decision Systems",
       "count": 20,
-      "percentage": 0.3508771929824561
+      "percentage": 0.30303030303030304
+    },
+    {
+      "name": "Infrastructure",
+      "count": 12,
+      "percentage": 0.18181818181818182
     },
     {
       "name": "AI Engineering",
-      "count": 8,
-      "percentage": 0.14035087719298245
+      "count": 9,
+      "percentage": 0.13636363636363635
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.14035087719298245
+      "percentage": 0.12121212121212122
     },
     {
       "name": "Business Intelligence",
       "count": 8,
-      "percentage": 0.14035087719298245
-    },
-    {
-      "name": "Infrastructure",
-      "count": 4,
-      "percentage": 0.07017543859649122
+      "percentage": 0.12121212121212122
     },
     {
       "name": "Decision Intelligence",
       "count": 3,
-      "percentage": 0.05263157894736842
+      "percentage": 0.045454545454545456
     },
     {
       "name": "Digital Garden",
       "count": 2,
-      "percentage": 0.03508771929824561
+      "percentage": 0.030303030303030304
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.017543859649122806
+      "percentage": 0.015151515151515152
     },
     {
       "name": "[AI Engineering, Prompt Engineering]",
       "count": 1,
-      "percentage": 0.017543859649122806
+      "percentage": 0.015151515151515152
     },
     {
       "name": "Narrative Observatory",
       "count": 1,
-      "percentage": 0.017543859649122806
+      "percentage": 0.015151515151515152
     },
     {
       "name": "Business Architecture",
       "count": 1,
-      "percentage": 0.017543859649122806
+      "percentage": 0.015151515151515152
     }
   ],
   "tags": [
     {
       "name": "systems-thinking",
       "count": 14
+    },
+    {
+      "name": "self-hosting",
+      "count": 9
     },
     {
       "name": "decision-system",
@@ -84,15 +88,15 @@
       "count": 7
     },
     {
+      "name": "decision-systems",
+      "count": 7
+    },
+    {
       "name": "decision-making",
       "count": 6
     },
     {
       "name": "architecture",
-      "count": 6
-    },
-    {
-      "name": "decision-systems",
       "count": 6
     },
     {
@@ -102,6 +106,10 @@
     {
       "name": "business-intelligence",
       "count": 5
+    },
+    {
+      "name": "infrastructure",
+      "count": 4
     },
     {
       "name": "decision-intelligence",
@@ -120,7 +128,27 @@
       "count": 4
     },
     {
+      "name": "home-server",
+      "count": 4
+    },
+    {
+      "name": "operations",
+      "count": 4
+    },
+    {
+      "name": "homelab",
+      "count": 4
+    },
+    {
+      "name": "learning",
+      "count": 3
+    },
+    {
       "name": "digital-garden",
+      "count": 3
+    },
+    {
+      "name": "ai",
       "count": 3
     },
     {
@@ -133,6 +161,10 @@
     },
     {
       "name": "troubleshooting",
+      "count": 3
+    },
+    {
+      "name": "security",
       "count": 3
     },
     {
@@ -192,6 +224,10 @@
       "count": 3
     },
     {
+      "name": "networking",
+      "count": 3
+    },
+    {
       "name": "strategy",
       "count": 2
     },
@@ -205,10 +241,6 @@
     },
     {
       "name": "wordpress",
-      "count": 2
-    },
-    {
-      "name": "security",
       "count": 2
     },
     {
@@ -272,11 +304,23 @@
       "count": 2
     },
     {
-      "name": "writing",
-      "count": 1
+      "name": "proxmox",
+      "count": 2
     },
     {
-      "name": "learning",
+      "name": "docker",
+      "count": 2
+    },
+    {
+      "name": "tailscale",
+      "count": 2
+    },
+    {
+      "name": "cloudflare",
+      "count": 2
+    },
+    {
+      "name": "writing",
       "count": 1
     },
     {
@@ -293,10 +337,6 @@
     },
     {
       "name": "chain-of-thought",
-      "count": 1
-    },
-    {
-      "name": "ai",
       "count": 1
     },
     {
@@ -329,10 +369,6 @@
     },
     {
       "name": "devops",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
       "count": 1
     },
     {
@@ -596,10 +632,6 @@
       "count": 1
     },
     {
-      "name": "networking",
-      "count": 1
-    },
-    {
       "name": "dns",
       "count": 1
     },
@@ -622,12 +654,210 @@
     {
       "name": "reference-frame",
       "count": 1
+    },
+    {
+      "name": "cloudflare-tunnel",
+      "count": 1
+    },
+    {
+      "name": "virtualization",
+      "count": 1
+    },
+    {
+      "name": "containers",
+      "count": 1
+    },
+    {
+      "name": "uptime-kuma",
+      "count": 1
+    },
+    {
+      "name": "adguard-home",
+      "count": 1
+    },
+    {
+      "name": "homepage",
+      "count": 1
+    },
+    {
+      "name": "backup",
+      "count": 1
+    },
+    {
+      "name": "disaster-recovery",
+      "count": 1
+    },
+    {
+      "name": "reliability",
+      "count": 1
+    },
+    {
+      "name": "cloud",
+      "count": 1
     }
   ],
   "articles": [
     {
+      "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
+      "url": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
+      "date": "2026-08-16",
+      "category": "Infrastructure",
+      "tags": [
+        "home-server",
+        "self-hosting",
+        "cloud",
+        "learning",
+        "operations",
+        "decision-systems"
+      ],
+      "word_count": 659,
+      "reading_time": 4,
+      "internal_links": 1,
+      "last_updated": "2026-08-16"
+    },
+    {
+      "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
+      "url": "/2026/08/15/backup-adalah-fitur-yang-paling-jarang-diuji/",
+      "date": "2026-08-15",
+      "category": "Infrastructure",
+      "tags": [
+        "backup",
+        "disaster-recovery",
+        "self-hosting",
+        "homelab",
+        "operations",
+        "reliability"
+      ],
+      "word_count": 556,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15"
+    },
+    {
+      "title": "\"Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud\"",
+      "url": "/2026/08/14/aplikasi-pertama-yang-layak-dipasang-di-home-server-bukan-nextcloud/",
+      "date": "2026-08-14",
+      "category": "Infrastructure",
+      "tags": [
+        "homelab",
+        "self-hosting",
+        "uptime-kuma",
+        "adguard-home",
+        "homepage",
+        "operations"
+      ],
+      "word_count": 654,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-14"
+    },
+    {
+      "title": "\"Docker Sebagai Operating Model untuk Home Server Modern\"",
+      "url": "/2026/08/13/docker-sebagai-operating-model-untuk-home-server-modern/",
+      "date": "2026-08-13",
+      "category": "Infrastructure",
+      "tags": [
+        "docker",
+        "containers",
+        "self-hosting",
+        "homelab",
+        "infrastructure"
+      ],
+      "word_count": 647,
+      "reading_time": 4,
+      "internal_links": 3,
+      "last_updated": "2026-08-13"
+    },
+    {
+      "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
+      "url": "/2026/08/12/proxmox-mesin-eksperimen-untuk-belajar-infrastruktur/",
+      "date": "2026-08-12",
+      "category": "Infrastructure",
+      "tags": [
+        "proxmox",
+        "virtualization",
+        "homelab",
+        "self-hosting",
+        "infrastructure"
+      ],
+      "word_count": 583,
+      "reading_time": 4,
+      "internal_links": 1,
+      "last_updated": "2026-08-12"
+    },
+    {
+      "title": "\"Cloudflare Tunnel: Memublikasikan Aplikasi Tanpa Membuka Port ke Internet\"",
+      "url": "/2026/08/11/cloudflare-tunnel-memublikasikan-aplikasi-tanpa-membuka-port-ke-internet/",
+      "date": "2026-08-11",
+      "category": "Infrastructure",
+      "tags": [
+        "cloudflare",
+        "cloudflare-tunnel",
+        "self-hosting",
+        "networking",
+        "home-server"
+      ],
+      "word_count": 580,
+      "reading_time": 4,
+      "internal_links": 2,
+      "last_updated": "2026-08-11"
+    },
+    {
+      "title": "\"Kenapa Saya Memilih Tailscale daripada Port Forwarding\"",
+      "url": "/2026/08/10/kenapa-saya-memilih-tailscale-daripada-port-forwarding/",
+      "date": "2026-08-10",
+      "category": "Infrastructure",
+      "tags": [
+        "tailscale",
+        "networking",
+        "self-hosting",
+        "home-server",
+        "security"
+      ],
+      "word_count": 558,
+      "reading_time": 4,
+      "internal_links": 1,
+      "last_updated": "2026-08-10"
+    },
+    {
+      "title": "\"AI Sebagai Co-Pilot Infrastruktur, Bukan Pengganti Pemahaman Sistem\"",
+      "url": "/2026/08/09/ai-sebagai-co-pilot-infrastruktur-bukan-pengganti-pemahaman-sistem/",
+      "date": "2026-08-09",
+      "category": "AI Engineering",
+      "tags": [
+        "ai",
+        "infrastructure",
+        "self-hosting",
+        "learning",
+        "operations"
+      ],
+      "word_count": 554,
+      "reading_time": 4,
+      "internal_links": 2,
+      "last_updated": "2026-08-09"
+    },
+    {
+      "title": "\"Membangun Home Server di 2026: AI sebagai Co-Pilot, Bukan Sekadar Alat\"",
+      "url": "/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/",
+      "date": "2026-08-08",
+      "category": "Infrastructure",
+      "tags": [
+        "home-server",
+        "self-hosting",
+        "ai",
+        "proxmox",
+        "docker",
+        "tailscale",
+        "cloudflare"
+      ],
+      "word_count": 618,
+      "reading_time": 4,
+      "internal_links": 3,
+      "last_updated": "2026-08-08"
+    },
+    {
       "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
-      "url": "/notes/2026/08/02/capability-sebelum-fitur/",
+      "url": "/2026/08/02/capability-sebelum-fitur/",
       "date": "2026-08-02",
       "category": "Software Architecture",
       "tags": [
@@ -644,7 +874,7 @@
     },
     {
       "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
-      "url": "/notes/2026/08/02/data-adalah-kontrak-bukan-sekadar-field/",
+      "url": "/2026/08/02/data-adalah-kontrak-bukan-sekadar-field/",
       "date": "2026-08-02",
       "category": "Software Architecture",
       "tags": [
@@ -661,7 +891,7 @@
     },
     {
       "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
-      "url": "/notes/2026/08/02/reference-frame-menentukan-kualitas-keputusan/",
+      "url": "/2026/08/02/reference-frame-menentukan-kualitas-keputusan/",
       "date": "2026-08-02",
       "category": "Decision Systems",
       "tags": [
@@ -678,7 +908,7 @@
     },
     {
       "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
-      "url": "/notes/2026/08/02/sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar/",
+      "url": "/2026/08/02/sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar/",
       "date": "2026-08-02",
       "category": "Decision Systems",
       "tags": [
@@ -695,7 +925,7 @@
     },
     {
       "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
-      "url": "/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/",
+      "url": "/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/",
       "date": "2026-07-31",
       "category": "Infrastructure",
       "tags": [
@@ -713,7 +943,7 @@
     },
     {
       "title": "\"Website Terlihat Bermasalah, Padahal Website Sehat: Studi Kasus Gangguan Akses dari Device Internal\"",
-      "url": "/notes/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/",
+      "url": "/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/",
       "date": "2026-07-31",
       "category": "Infrastructure",
       "tags": [
@@ -724,14 +954,14 @@
         "ssl",
         "observability"
       ],
-      "word_count": 868,
+      "word_count": 871,
       "reading_time": 5,
-      "internal_links": 5,
+      "internal_links": 6,
       "last_updated": "2026-07-31"
     },
     {
       "title": "\"ABM Bukan Strategi Marketing, tetapi Sistem Pengambilan Keputusan\"",
-      "url": "/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/",
+      "url": "/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/",
       "date": "2026-07-29",
       "category": "Decision Systems",
       "tags": [
@@ -748,7 +978,7 @@
     },
     {
       "title": "\"Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal\"",
-      "url": "/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/",
+      "url": "/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/",
       "date": "2026-07-29",
       "category": "Decision Systems",
       "tags": [
@@ -765,7 +995,7 @@
     },
     {
       "title": "\"Data Tidak Memberikan Keputusan, Data Hanya Memberikan Kemungkinan\"",
-      "url": "/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/",
+      "url": "/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/",
       "date": "2026-07-29",
       "category": "Decision Systems",
       "tags": [
@@ -782,7 +1012,7 @@
     },
     {
       "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
-      "url": "/notes/2026/07/29/goal-bukan-target-tetapi-proses-membangun-capability/",
+      "url": "/2026/07/29/goal-bukan-target-tetapi-proses-membangun-capability/",
       "date": "2026-07-29",
       "category": "Decision Systems",
       "tags": [
@@ -799,7 +1029,7 @@
     },
     {
       "title": "\"Yang Tidak Bisa Diambil AI Bukan Pekerjaan, Tapi Keputusan\"",
-      "url": "/notes/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/",
+      "url": "/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/",
       "date": "2026-07-29",
       "category": "AI Engineering",
       "tags": [
@@ -815,7 +1045,7 @@
     },
     {
       "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
-      "url": "/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting-series/",
+      "url": "/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting-series/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -830,7 +1060,7 @@
     },
     {
       "title": "\"Development Reality: Lapisan yang Hilang dalam Goal Setting\"",
-      "url": "/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/",
+      "url": "/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -847,7 +1077,7 @@
     },
     {
       "title": "\"Goal Bukan Target, tetapi Proses Membangun Capability\"",
-      "url": "/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/",
+      "url": "/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -864,7 +1094,7 @@
     },
     {
       "title": "\"Organisasi Juga Mengalami Tahap Perkembangan\"",
-      "url": "/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/",
+      "url": "/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -880,7 +1110,7 @@
     },
     {
       "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
-      "url": "/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/",
+      "url": "/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -896,7 +1126,7 @@
     },
     {
       "title": "\"Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan\"",
-      "url": "/notes/2026/07/28/output-bukan-outcome-pelajaran-goal-setting-dari-parenting/",
+      "url": "/2026/07/28/output-bukan-outcome-pelajaran-goal-setting-dari-parenting/",
       "date": "2026-07-28",
       "category": "Decision Systems",
       "tags": [
@@ -912,7 +1142,7 @@
     },
     {
       "title": "\"5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur\"",
-      "url": "/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/",
+      "url": "/2026/07/27/5-kesalahan-membangun-sistem-ai/",
       "date": "2026-07-27",
       "category": "AI Engineering",
       "tags": [
@@ -929,7 +1159,7 @@
     },
     {
       "title": "\"Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan\"",
-      "url": "/notes/2026/07/26/membangun-ai-marketing-analyst/",
+      "url": "/2026/07/26/membangun-ai-marketing-analyst/",
       "date": "2026-07-26",
       "category": "AI Engineering",
       "tags": [
@@ -946,7 +1176,7 @@
     },
     {
       "title": "\"Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas\"",
-      "url": "/notes/2026/07/25/attribution-tanpa-governance/",
+      "url": "/2026/07/25/attribution-tanpa-governance/",
       "date": "2026-07-25",
       "category": "Business Intelligence",
       "tags": [
@@ -963,7 +1193,7 @@
     },
     {
       "title": "\"Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi\"",
-      "url": "/notes/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/",
+      "url": "/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/",
       "date": "2026-07-25",
       "category": "Decision Systems",
       "tags": [
@@ -980,7 +1210,7 @@
     },
     {
       "title": "\"Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools\"",
-      "url": "/notes/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/",
+      "url": "/2026/07/25/mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools/",
       "date": "2026-07-25",
       "category": "Decision Systems",
       "tags": [
@@ -997,7 +1227,7 @@
     },
     {
       "title": "\"Onboarding Technical Talent: Dari Task Executor Menjadi Problem Solver\"",
-      "url": "/notes/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
+      "url": "/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
       "date": "2026-07-25",
       "category": "Decision Systems",
       "tags": [
@@ -1014,7 +1244,7 @@
     },
     {
       "title": "\"Technical Ownership: Mengukur Perkembangan dari Kualitas Pertanyaan\"",
-      "url": "/notes/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/",
+      "url": "/2026/07/25/technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan/",
       "date": "2026-07-25",
       "category": "Decision Systems",
       "tags": [
@@ -1031,7 +1261,7 @@
     },
     {
       "title": "\"AI Tidak Membuat Data Menjadi Benar: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern\"",
-      "url": "/notes/2026/07/24/ai-tidak-membuat-data-menjadi-benar/",
+      "url": "/2026/07/24/ai-tidak-membuat-data-menjadi-benar/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1047,7 +1277,7 @@
     },
     {
       "title": "\"Customer Data Platform: Ketika Data Customer Mulai Terfragmentasi\"",
-      "url": "/notes/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/",
+      "url": "/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1064,7 +1294,7 @@
     },
     {
       "title": "\"Dari Analytics ke Customer Intelligence: Memahami Perjalanan Customer\"",
-      "url": "/notes/2026/07/24/dari-analytics-ke-customer-intelligence/",
+      "url": "/2026/07/24/dari-analytics-ke-customer-intelligence/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1081,7 +1311,7 @@
     },
     {
       "title": "\"Identity Stitching: Menghubungkan Visitor Anonim Menjadi Customer Profile\"",
-      "url": "/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/",
+      "url": "/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1098,7 +1328,7 @@
     },
     {
       "title": "\"Lead Journey Trace: Observability untuk Digital Marketing\"",
-      "url": "/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/",
+      "url": "/2026/07/24/lead-journey-trace-observability-digital-marketing/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1115,7 +1345,7 @@
     },
     {
       "title": "\"Mengapa GA4 Tidak Selalu Cukup: Perbedaan Analytics dan Decision System\"",
-      "url": "/notes/2026/07/24/mengapa-ga4-tidak-selalu-cukup/",
+      "url": "/2026/07/24/mengapa-ga4-tidak-selalu-cukup/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1132,7 +1362,7 @@
     },
     {
       "title": "\"Revenue Intelligence: Menghubungkan Marketing Activity dengan Business Outcome\"",
-      "url": "/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/",
+      "url": "/2026/07/24/revenue-intelligence-marketing-business-outcome/",
       "date": "2026-07-24",
       "category": "Business Intelligence",
       "tags": [
@@ -1149,7 +1379,7 @@
     },
     {
       "title": "\"AI dalam Audit Digital Marketing: Mengapa Akurasi Tidak Cukup Tanpa Governance\"",
-      "url": "/notes/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
+      "url": "/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
       "date": "2026-07-23",
       "category": "AI Engineering",
       "tags": [
@@ -1165,7 +1395,7 @@
     },
     {
       "title": "\"Mengubah Backlog Menjadi Institutional Memory\"",
-      "url": "/notes/2026/07/21/mengubah-backlog-menjadi-institutional-memory/",
+      "url": "/2026/07/21/mengubah-backlog-menjadi-institutional-memory/",
       "date": "2026-07-21",
       "category": "Software Architecture",
       "tags": [
@@ -1181,7 +1411,7 @@
     },
     {
       "title": "\"Build From Repetition, Not Imagination\"",
-      "url": "/notes/2026/07/20/build-from-repetition-not-imagination/",
+      "url": "/2026/07/20/build-from-repetition-not-imagination/",
       "date": "2026-07-20",
       "category": "Software Architecture",
       "tags": [
@@ -1196,7 +1426,7 @@
     },
     {
       "title": "\"Internal Tools Are Products for One Customer\"",
-      "url": "/notes/2026/07/20/internal-tools-are-products-for-one-customer/",
+      "url": "/2026/07/20/internal-tools-are-products-for-one-customer/",
       "date": "2026-07-20",
       "category": "Software Architecture",
       "tags": [
@@ -1211,7 +1441,7 @@
     },
     {
       "title": "\"Stop Building Platforms Too Early\"",
-      "url": "/notes/2026/07/20/stop-building-platforms-too-early/",
+      "url": "/2026/07/20/stop-building-platforms-too-early/",
       "date": "2026-07-20",
       "category": "Software Architecture",
       "tags": [
@@ -1226,7 +1456,7 @@
     },
     {
       "title": "\"The Tool-Building Trap\"",
-      "url": "/notes/2026/07/20/the-tool-building-trap/",
+      "url": "/2026/07/20/the-tool-building-trap/",
       "date": "2026-07-20",
       "category": "Software Architecture",
       "tags": [
@@ -1241,7 +1471,7 @@
     },
     {
       "title": "\"Content Layering: Membangun Topical Authority Tanpa Menjadi Content Farm\"",
-      "url": "/notes/2026/07/18/content-layering-topical-authority-without-content-farm/",
+      "url": "/2026/07/18/content-layering-topical-authority-without-content-farm/",
       "date": "2026-07-18",
       "category": "AI Engineering",
       "tags": [
@@ -1258,7 +1488,7 @@
     },
     {
       "title": "\"SEO Memerlukan Dua Sistem: Mesin Eksekusi dan Sistem Navigasi\"",
-      "url": "/notes/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/",
+      "url": "/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/",
       "date": "2026-07-18",
       "category": "AI Engineering",
       "tags": [
@@ -1275,7 +1505,7 @@
     },
     {
       "title": "\"From SEO to Knowledge Architecture: Lessons from Auditing Google AI Overview\"",
-      "url": "/notes/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
+      "url": "/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/",
       "date": "2026-07-17",
       "category": "AI Engineering",
       "tags": [
@@ -1292,7 +1522,7 @@
     },
     {
       "title": "\"Capability Dibangun Sebelum Dibutuhkan\"",
-      "url": "/notes/2026/07/15/capability-dibangun-sebelum-dibutuhkan/",
+      "url": "/2026/07/15/capability-dibangun-sebelum-dibutuhkan/",
       "date": "2026-07-15",
       "category": "Decision Systems",
       "tags": [
@@ -1308,7 +1538,7 @@
     },
     {
       "title": "\"Dari Simbolik ke Ontologi: Tangga Cara Berpikir yang Sering Terlewat\"",
-      "url": "/notes/2026/07/15/dari-simbolik-ke-ontologi/",
+      "url": "/2026/07/15/dari-simbolik-ke-ontologi/",
       "date": "2026-07-15",
       "category": "Decision Systems",
       "tags": [
@@ -1325,7 +1555,7 @@
     },
     {
       "title": "\"Insight Tidak Pernah Muncul dari Dashboard\"",
-      "url": "/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
+      "url": "/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
       "date": "2026-07-14",
       "category": "Decision Intelligence",
       "tags": [
@@ -1342,7 +1572,7 @@
     },
     {
       "title": "\"Root Cause Analysis Lebih Penting daripada Solusi Cepat\"",
-      "url": "/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/",
+      "url": "/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/",
       "date": "2026-07-14",
       "category": "Decision Intelligence",
       "tags": [
@@ -1359,7 +1589,7 @@
     },
     {
       "title": "\"SMART PASSED Bukan Berarti Storage Sehat: Memahami Perbedaan Media Error dan SATA CRC Error\"",
-      "url": "/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/",
+      "url": "/2026/07/14/smart-passed-bukan-berarti-storage-sehat/",
       "date": "2026-07-14",
       "category": "Infrastructure",
       "tags": [
@@ -1377,7 +1607,7 @@
     },
     {
       "title": "\"WordPress Security Audit Checklist Before Migration\"",
-      "url": "/notes/2026/07/14/wordpress-security-audit-checklist-before-migration/",
+      "url": "/2026/07/14/wordpress-security-audit-checklist-before-migration/",
       "date": "2026-07-14",
       "category": "Digital Garden",
       "tags": [
@@ -1394,7 +1624,7 @@
     },
     {
       "title": "\"KPI Tidak Pernah Menyelesaikan Perdebatan\"",
-      "url": "/notes/2026/07/13/kpi-tidak-pernah-menyelesaikan-perdebatan/",
+      "url": "/2026/07/13/kpi-tidak-pernah-menyelesaikan-perdebatan/",
       "date": "2026-07-13",
       "category": "Business Architecture",
       "tags": [
@@ -1411,7 +1641,7 @@
     },
     {
       "title": "\"Measurement Bukan Tujuan: Mendesain Sistem Tracking Berdasarkan Keputusan Bisnis\"",
-      "url": "/notes/2026/07/13/measurement-bukan-tujuan/",
+      "url": "/2026/07/13/measurement-bukan-tujuan/",
       "date": "2026-07-13",
       "category": "Decision Intelligence",
       "tags": [
@@ -1429,7 +1659,7 @@
     },
     {
       "title": "\"Real-Time Bukan Berarti Cepat\"",
-      "url": "/notes/2026/07/13/real-time-bukan-berarti-cepat/",
+      "url": "/2026/07/13/real-time-bukan-berarti-cepat/",
       "date": "2026-07-13",
       "category": "Digital Garden",
       "tags": [
@@ -1447,7 +1677,7 @@
     },
     {
       "title": "\"Buku Saku Pengambilan Keputusan & Memberi Pertimbangan\"",
-      "url": "/notes/2026/07/12/buku-saku-pengambilan-keputusan/",
+      "url": "/2026/07/12/buku-saku-pengambilan-keputusan/",
       "date": "2026-07-12",
       "category": "Decision Systems",
       "tags": [
@@ -1462,7 +1692,7 @@
     },
     {
       "title": "\"Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence\"",
-      "url": "/notes/2026/07/12/knowledge-extraction-engine/",
+      "url": "/2026/07/12/knowledge-extraction-engine/",
       "date": "2026-07-12",
       "category": "[AI Engineering, Prompt Engineering]",
       "tags": [
@@ -1475,7 +1705,7 @@
     },
     {
       "title": "\"Devira Observatory — 12 Juli 2026: Convergence Menguat, Namun Bukti Belum Lengkap\"",
-      "url": "/notes/2026/07/12/radar-observatory-2026-07-12/",
+      "url": "/2026/07/12/radar-observatory-2026-07-12/",
       "date": "2026-07-12",
       "category": "Narrative Observatory",
       "tags": [
@@ -1492,7 +1722,7 @@
     },
     {
       "title": "\"Infrastructure as Code: Terraform vs Pulumi\"",
-      "url": "/notes/2025/01/05/infrastructure-as-code/",
+      "url": "/2025/01/05/infrastructure-as-code/",
       "date": "2025-01-05",
       "category": "Infrastructure",
       "tags": [
@@ -1509,7 +1739,7 @@
     },
     {
       "title": "\"Event-Driven Architecture: Patterns and Practices\"",
-      "url": "/notes/2024/12/25/event-driven-architecture/",
+      "url": "/2024/12/25/event-driven-architecture/",
       "date": "2024-12-25",
       "category": "Software Architecture",
       "tags": [
@@ -1525,7 +1755,7 @@
     },
     {
       "title": "\"Decision Framework: OODA Loop untuk Software Architecture\"",
-      "url": "/notes/2024/12/20/ooda-loop-architecture/",
+      "url": "/2024/12/20/ooda-loop-architecture/",
       "date": "2024-12-20",
       "category": "Decision Systems",
       "tags": [
@@ -1541,7 +1771,7 @@
     },
     {
       "title": "\"Reasoning Engine: Dari Knowledge ke Cara Berpikir\"",
-      "url": "/notes/2024/12/15/reasoning-engine/",
+      "url": "/2024/12/15/reasoning-engine/",
       "date": "2024-12-15",
       "category": "AI Engineering",
       "tags": [
@@ -1557,7 +1787,7 @@
     },
     {
       "title": "\"Mengapa Saya Menulis di Ruang Publik\"",
-      "url": "/notes/2024/12/10/why-i-write-in-public/",
+      "url": "/2024/12/10/why-i-write-in-public/",
       "date": "2024-12-10",
       "category": "Meta",
       "tags": [
@@ -1574,56 +1804,56 @@
   ],
   "newest_articles": [
     {
-      "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
-      "date": "2026-08-02",
-      "category": "Software Architecture"
+      "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
+      "date": "2026-08-16",
+      "category": "Infrastructure"
     },
     {
-      "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
-      "date": "2026-08-02",
-      "category": "Software Architecture"
+      "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
+      "date": "2026-08-15",
+      "category": "Infrastructure"
     },
     {
-      "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
-      "date": "2026-08-02",
-      "category": "Decision Systems"
+      "title": "\"Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud\"",
+      "date": "2026-08-14",
+      "category": "Infrastructure"
     },
     {
-      "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
-      "date": "2026-08-02",
-      "category": "Decision Systems"
+      "title": "\"Docker Sebagai Operating Model untuk Home Server Modern\"",
+      "date": "2026-08-13",
+      "category": "Infrastructure"
     },
     {
-      "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
-      "date": "2026-07-31",
+      "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
+      "date": "2026-08-12",
       "category": "Infrastructure"
     }
   ],
   "most_updated": [
     {
-      "title": "\"Jangan Membangun Fitur, Bangunlah Capability\"",
+      "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
       "updates": 1,
-      "last_updated": "2026-08-02"
+      "last_updated": "2026-08-16"
     },
     {
-      "title": "\"Data Adalah Kontrak, Bukan Sekadar Field\"",
+      "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
       "updates": 1,
-      "last_updated": "2026-08-02"
+      "last_updated": "2026-08-15"
     },
     {
-      "title": "\"Reference Frame Menentukan Kualitas Keputusan\"",
+      "title": "\"Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud\"",
       "updates": 1,
-      "last_updated": "2026-08-02"
+      "last_updated": "2026-08-14"
     },
     {
-      "title": "\"Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar\"",
+      "title": "\"Docker Sebagai Operating Model untuk Home Server Modern\"",
       "updates": 1,
-      "last_updated": "2026-08-02"
+      "last_updated": "2026-08-13"
     },
     {
-      "title": "\"Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik\"",
+      "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
       "updates": 1,
-      "last_updated": "2026-07-31"
+      "last_updated": "2026-08-12"
     }
   ]
 }

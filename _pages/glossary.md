@@ -431,7 +431,7 @@ Contoh:
 
 - [Observability](#observability) — debugging EDA membutuhkan observability yang baik
 - [Systems Thinking](#systems-thinking) — memahami EDA sebagai sistem dengan feedback loops
-- [Post: EDA untuk Arsitektur](/notes/2024/12/25/event-driven-architecture/)
+- [Post: EDA untuk Arsitektur](/2024/12/25/event-driven-architecture/)
 
 ---
 
@@ -515,7 +515,7 @@ KXE bukan produk jadi — ia berevolusi sesuai kebutuhan. Dimulai sebagai skrip 
 
 - [Digital Garden](#digital-garden) — pendekatan yang melengkapi KXE
 - [Working Memory (Eksternal)](#working-memory-eksternal) — konsep yang mendasari kebutuhan KXE
-- [Post: Knowledge Extraction Engine](/notes/2026/07/12/knowledge-extraction-engine/)
+- [Post: Knowledge Extraction Engine](/2026/07/12/knowledge-extraction-engine/)
 
 ---
 
@@ -600,7 +600,7 @@ Observability sejati teruji saat insiden yang belum pernah terjadi sebelumnya mu
 
 - [Signal-to-Noise Ratio](#signal-to-noise-ratio) — memilah data observability yang penting
 - [Root Cause Analysis](#root-cause-analysis-rca) — menggunakan data observability untuk diagnosa
-- [Post: SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
+- [Post: SMART PASSED Bukan Berarti Storage Sehat](/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
 - [Principles: Make It Observable First](/principles/#3-make-it-observable-first)
 
 ---
@@ -686,7 +686,7 @@ Dalam troubleshooting, misalnya: fase Orient adalah tempat engineer berpengalama
 
 - [Decision Intelligence](#decision-intelligence) — OODA sebagai salah satu framework inti
 - [Root Cause Analysis](#root-cause-analysis-rca) — teknik yang memperkuat fase Orient
-- [Post: OODA Loop untuk Software Architecture](/notes/2024/12/20/ooda-loop-architecture/)
+- [Post: OODA Loop untuk Software Architecture](/2024/12/20/ooda-loop-architecture/)
 
 ---
 
@@ -847,7 +847,7 @@ RADAR dirancang berdasarkan pengalaman langsung: memiliki akses ke data tidak be
 
 - [Convergence Signal](#convergence-signal) — prinsip konvergensi yang digunakan dalam RADAR
 - [Signal-to-Noise Ratio](#signal-to-noise-ratio) — ukuran efektivitas agregasi data
-- [Post: Real-time Bukan Berarti Cepat](/notes/2026/07/13/real-time-bukan-berarti-cepat/)
+- [Post: Real-time Bukan Berarti Cepat](/2026/07/13/real-time-bukan-berarti-cepat/)
 
 ---
 
@@ -935,8 +935,8 @@ RCA yang jujur sering tidak nyaman karena mengungkapkan kelemahan sistemik: kura
 
 - [Observability](#observability) — RCA membutuhkan data observability yang baik
 - [Pre-mortem](#pre-mortem) — RCA sebelum kegagalan terjadi
-- [Post: Root Cause Analysis Lebih Penting daripada Solusi Cepat](/notes/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/)
-- [Post: SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
+- [Post: Root Cause Analysis Lebih Penting daripada Solusi Cepat](/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/)
+- [Post: SMART PASSED Bukan Berarti Storage Sehat](/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
 
 ---
 
@@ -1181,7 +1181,7 @@ Pelajaran: jangan percaya satu sumber data. Convergence signal dari berbagai sum
 - [Observability](#observability) — SMART sebagai salah satu sumber data observability
 - [Root Cause Analysis](#root-cause-analysis-rca) — RCA dengan data SMART sebagai bukti
 - [Convergence Signal](#convergence-signal) — pentingnya konvergensi dalam diagnosa
-- [Post: SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
+- [Post: SMART PASSED Bukan Berarti Storage Sehat](/2026/07/14/smart-passed-bukan-berarti-storage-sehat/)
 
 ---
 
@@ -1360,7 +1360,7 @@ Dalam audit kode yang saya lakukan, utang tidak sadar adalah yang paling mahal k
 
 - [Architectural Decision Record](#architectural-decision-record-adr) — dokumentasi yang membantu mengelola technical debt
 - [Systems Thinking](#systems-thinking) — memahami technical debt dalam konteks sistem
-- [Post: The Tool-Building Trap](/notes/2026/07/20/the-tool-building-trap/) — salah satu bentuk technical debt dalam tooling
+- [Post: The Tool-Building Trap](/2026/07/20/the-tool-building-trap/) — salah satu bentuk technical debt dalam tooling
 
 ---
 

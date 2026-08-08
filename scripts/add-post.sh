@@ -286,7 +286,7 @@ echo -e "  ${GREEN}File:${NC}    _posts/${FILENAME}"
 echo -e "  ${GREEN}Title:${NC}   ${TITLE}"
 echo -e "  ${GREEN}Category:${NC} ${CATEGORY}"
 echo -e "  ${GREEN}Tags:${NC}    ${TAGS}"
-echo -e "  ${GREEN}Permalink:${NC} /notes/${DATE//-/\/}/${SLUG}/"
+echo -e "  ${GREEN}Permalink:${NC} /${DATE//-/\/}/${SLUG}/"
 echo "───────────────────────────────────────────"
 echo ""
 
