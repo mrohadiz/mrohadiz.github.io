@@ -214,4 +214,4 @@ Nilai sebenarnya bukan terletak pada server yang berjalan di rumah.
 
 Nilai sebenarnya terletak pada proses memahami bagaimana sistem dibangun, dioperasikan, dipantau, gagal, dan dipulihkan.
 
-Karena pada akhirnya, perangkat keras dapat diganti. Tetapi pemahaman yang diperoleh dari mengelola sistem secara langsung akan tetap menjadi aset jangka panjang — itulah yang menjadi benang merah dari seluruh [seri ini](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
+Karena pada akhirnya, perangkat keras dapat diganti. Tetapi pemahaman yang diperoleh dari mengelola sistem secara langsung akan tetap menjadi aset jangka panjang — itulah yang menjadi benang merah dari seluruh [seri ini](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).

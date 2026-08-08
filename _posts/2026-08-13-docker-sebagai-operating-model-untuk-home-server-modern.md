@@ -137,7 +137,7 @@ Pertanyaan yang mulai muncul biasanya:
 - Bagaimana melakukan backup?
 - Bagaimana memulihkan sistem setelah kegagalan?
 
-Pendekatan berbasis container membantu menciptakan jawaban yang lebih konsisten untuk berbagai jenis layanan. Inilah alasan Docker menjadi bagian penting dari arsitektur pada [artikel pertama seri ini](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
+Pendekatan berbasis container membantu menciptakan jawaban yang lebih konsisten untuk berbagai jenis layanan. Inilah alasan Docker menjadi bagian penting dari arsitektur pada [artikel pertama seri ini](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
 
 ---
 
@@ -151,7 +151,7 @@ Virtual machine menyediakan isolasi lingkungan.
 
 Container menyediakan konsistensi aplikasi.
 
-Keduanya memiliki peran yang berbeda — sebagaimana dibahas pada [Proxmox](/notes/2026/08/12/proxmox-mesin-eksperimen-untuk-belajar-infrastruktur/) dan [Cloudflare Tunnel](/notes/2026/08/11/cloudflare-tunnel-memublikasikan-aplikasi-tanpa-membuka-port-ke-internet/) dalam seri ini.
+Keduanya memiliki peran yang berbeda — sebagaimana dibahas pada [Proxmox](/2026/08/12/proxmox-mesin-eksperimen-untuk-belajar-infrastruktur/) dan [Cloudflare Tunnel](/2026/08/11/cloudflare-tunnel-memublikasikan-aplikasi-tanpa-membuka-port-ke-internet/) dalam seri ini.
 
 ### Infrastruktur Sebagai Konfigurasi
 

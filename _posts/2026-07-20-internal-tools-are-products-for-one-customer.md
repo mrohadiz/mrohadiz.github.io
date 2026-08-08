@@ -53,4 +53,4 @@ Internal tool yang baik tidak perlu terasa besar. Ia perlu terasa tepat.
 
 Ketika satu alat benar-benar mengurangi pekerjaan harian, ia sudah menjalankan perannya dengan baik—even kalau hanya dipakai oleh satu orang.
 
-Baca juga: [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) dan [The Tool-Building Trap](/notes/2026/07/20/the-tool-building-trap/) untuk memahami batasan dalam membangun internal tools.
+Baca juga: [Build From Repetition, Not Imagination](/2026/07/20/build-from-repetition-not-imagination/) dan [The Tool-Building Trap](/2026/07/20/the-tool-building-trap/) untuk memahami batasan dalam membangun internal tools.

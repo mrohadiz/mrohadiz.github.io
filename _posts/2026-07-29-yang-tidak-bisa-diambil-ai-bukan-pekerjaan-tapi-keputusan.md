@@ -165,4 +165,4 @@ Dan mungkin di situlah peran manusia tidak berkurang.
 
 Melainkan menjadi jauh lebih besar daripada sebelumnya.
 
-Baca juga [Membangun AI Marketing Analyst](/notes/2026/07/26/membangun-ai-marketing-analyst/) untuk memahami bagaimana human-in-the-loop menjaga kualitas keputusan, dan [5 Kesalahan Membangun Sistem AI](/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur sistem AI yang baik. Prinsip [State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly) mengingatkan bahwa keputusan yang baik adalah yang sadar akan ketidakpastiannya.
+Baca juga [Membangun AI Marketing Analyst](/2026/07/26/membangun-ai-marketing-analyst/) untuk memahami bagaimana human-in-the-loop menjaga kualitas keputusan, dan [5 Kesalahan Membangun Sistem AI](/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur sistem AI yang baik. Prinsip [State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly) mengingatkan bahwa keputusan yang baik adalah yang sadar akan ketidakpastiannya.

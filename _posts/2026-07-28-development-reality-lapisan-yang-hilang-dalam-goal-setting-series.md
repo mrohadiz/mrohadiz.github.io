@@ -96,4 +96,4 @@ Sebaliknya, target yang dibangun di atas pemahaman terhadap tahap perkembangan m
 
 Karena setiap sistem bertumbuh melalui tahapan, bukan lompatan.
 
-Pendekatan ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) dan metodologi [Observe → Analyze → Synthesize → Decide](/methodology/). Baca juga [Capability Dibangun Sebelum Dibutuhkan](/notes/2026/07/15/capability-dibangun-sebelum-dibutuhkan/) untuk memahami urgensi membangun kemampuan sebelum target ditetapkan.
+Pendekatan ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) dan metodologi [Observe → Analyze → Synthesize → Decide](/methodology/). Baca juga [Capability Dibangun Sebelum Dibutuhkan](/2026/07/15/capability-dibangun-sebelum-dibutuhkan/) untuk memahami urgensi membangun kemampuan sebelum target ditetapkan.

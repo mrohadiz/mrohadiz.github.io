@@ -52,7 +52,7 @@ Observation → Pattern → Hypothesis → Evidence → Decision
 
 Insight muncul ketika sebuah hipotesis berhasil bertahan setelah diuji oleh data.
 
-Baca juga: [Measurement Bukan Tujuan](/notes/2026/07/13/measurement-bukan-tujuan/) dan [Real-Time Bukan Berarti Cepat](/notes/2026/07/13/real-time-bukan-berarti-cepat/) untuk memahami bagaimana dashboard dan data seharusnya mendukung keputusan, bukan sekadar menampilkan angka.
+Baca juga: [Measurement Bukan Tujuan](/2026/07/13/measurement-bukan-tujuan/) dan [Real-Time Bukan Berarti Cepat](/2026/07/13/real-time-bukan-berarti-cepat/) untuk memahami bagaimana dashboard dan data seharusnya mendukung keputusan, bukan sekadar menampilkan angka.
 
 ## Dashboard Bukan Tujuan
 

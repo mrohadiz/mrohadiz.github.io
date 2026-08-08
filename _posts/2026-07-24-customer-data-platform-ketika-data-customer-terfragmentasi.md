@@ -155,4 +155,4 @@ CDP bukan tentang memiliki lebih banyak data, tetapi tentang membuat data yang s
 
 Fondasi customer intelligence tetap dimulai dari hal sederhana: event yang rapi, identitas yang jelas, dan kemampuan memahami perjalanan customer dari awal hingga outcome.
 
-Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Dari Analytics ke Customer Intelligence](/notes/2026/07/24/dari-analytics-ke-customer-intelligence/).
+Baca juga: [Identity Stitching](/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Dari Analytics ke Customer Intelligence](/2026/07/24/dari-analytics-ke-customer-intelligence/).

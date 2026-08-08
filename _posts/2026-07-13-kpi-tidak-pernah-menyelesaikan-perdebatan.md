@@ -106,4 +106,4 @@ Karena organisasi tidak mengambil keputusan berdasarkan dashboard.
 
 Organisasi mengambil keputusan berdasarkan makna yang mereka berikan terhadap angka di dashboard.
 
-Masalah definisi ini adalah inti dari [Decision Intelligence](/glossary/#decision-intelligence) — tanpa kesepakatan bahasa, data hanya menghasilkan perdebatan. Baca juga [Data Tidak Memberikan Keputusan](/notes/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/) untuk memahami mengapa konteks lebih penting dari volume data, dan [Insight Tidak Pernah Muncul dari Dashboard](/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) sebagai kelanjutan dari pembahasan ini.
+Masalah definisi ini adalah inti dari [Decision Intelligence](/glossary/#decision-intelligence) — tanpa kesepakatan bahasa, data hanya menghasilkan perdebatan. Baca juga [Data Tidak Memberikan Keputusan](/2026/07/29/data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/) untuk memahami mengapa konteks lebih penting dari volume data, dan [Insight Tidak Pernah Muncul dari Dashboard](/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) sebagai kelanjutan dari pembahasan ini.

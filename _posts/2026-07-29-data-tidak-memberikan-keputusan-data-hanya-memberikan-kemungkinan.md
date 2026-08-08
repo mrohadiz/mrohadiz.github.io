@@ -139,7 +139,7 @@ Siklus inilah yang membuat organisasi berkembang lebih cepat daripada kompetitor
 
 Pendekatan ini sejalan dengan framework [OODA Loop](/glossary/#ooda-loop) — setiap siklus Observe-Orient-Decide-Act adalah mekanisme learning yang memperbaiki kualitas keputusan berikutnya. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) menjadi fondasi untuk tidak melompat ke kesimpulan sebelum data dipahami dalam konteks.
 
-Untuk pembahasan lebih lanjut tentang signal dan keputusan, baca [Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal](/notes/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/) dan [ABM Bukan Strategi Marketing](/notes/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/).
+Untuk pembahasan lebih lanjut tentang signal dan keputusan, baca [Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal](/2026/07/29/banyak-perusahaan-masih-mengejar-lead-padahal-yang-harus-dicari-adalah-signal/) dan [ABM Bukan Strategi Marketing](/2026/07/29/abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan/).
 
 ## Penutup
 

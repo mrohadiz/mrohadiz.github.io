@@ -140,4 +140,4 @@ Real-time bukan berarti cepat.
 
 Real-time adalah perubahan yang telah disepakati masih relevan untuk mendukung sebuah keputusan.
 
-Baca juga: [Measurement Bukan Tujuan](/notes/2026/07/13/measurement-bukan-tujuan/) dan [Insight Tidak Pernah Muncul dari Dashboard](/notes/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) untuk memahami hubungan antara data, dashboard, dan keputusan.
+Baca juga: [Measurement Bukan Tujuan](/2026/07/13/measurement-bukan-tujuan/) dan [Insight Tidak Pernah Muncul dari Dashboard](/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/) untuk memahami hubungan antara data, dashboard, dan keputusan.

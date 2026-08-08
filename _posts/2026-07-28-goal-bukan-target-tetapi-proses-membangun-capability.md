@@ -218,4 +218,4 @@ Pada akhirnya, goal bukan tentang mengejar angka.
 
 Goal adalah proses membangun sistem yang mampu menghasilkan angka tersebut secara berkelanjutan.
 
-Untuk pemahaman yang lebih mendalam tentang framework ini, baca [Development Reality: Lapisan yang Hilang dalam Goal Setting](/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) dan [Organisasi Juga Mengalami Tahap Perkembangan](/notes/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/). Prinsip [Systems Have Second-Order Effects](/principles/#10-systems-have-second-order-effects) menjadi pengingat bahwa setiap target memiliki konsekuensi yang lebih luas dari sekadar angka.
+Untuk pemahaman yang lebih mendalam tentang framework ini, baca [Development Reality: Lapisan yang Hilang dalam Goal Setting](/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) dan [Organisasi Juga Mengalami Tahap Perkembangan](/2026/07/28/organisasi-juga-mengalami-tahap-perkembangan/). Prinsip [Systems Have Second-Order Effects](/principles/#10-systems-have-second-order-effects) menjadi pengingat bahwa setiap target memiliki konsekuensi yang lebih luas dari sekadar angka.

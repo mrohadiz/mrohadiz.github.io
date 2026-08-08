@@ -134,4 +134,4 @@ Tujuannya adalah membangun kemampuan organisasi mengambil keputusan yang lebih b
 
 Revenue Intelligence menjadi tahap ketika data berubah menjadi kemampuan bisnis: memahami apa yang berhasil, mengapa berhasil, dan tindakan apa yang perlu dilakukan berikutnya.
 
-Baca juga: [Attribution Tanpa Governance](/notes/2026/07/25/attribution-tanpa-governance/) dan [Mengapa GA4 Tidak Selalu Cukup](/notes/2026/07/24/mengapa-ga4-tidak-selalu-cukup/).
+Baca juga: [Attribution Tanpa Governance](/2026/07/25/attribution-tanpa-governance/) dan [Mengapa GA4 Tidak Selalu Cukup](/2026/07/24/mengapa-ga4-tidak-selalu-cukup/).

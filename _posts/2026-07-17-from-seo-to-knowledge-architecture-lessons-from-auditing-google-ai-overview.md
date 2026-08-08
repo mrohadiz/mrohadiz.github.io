@@ -202,7 +202,7 @@ Dulu kita mengoptimalkan halaman agar mudah ditemukan.
 
 Sekarang kita juga perlu mengoptimalkan pengetahuan agar mudah dipahami.
 
-Baca juga: [Content Layering](/notes/2026/07/18/content-layering-topical-authority-without-content-farm/) dan [SEO Memerlukan Dua Sistem](/notes/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/) untuk memahami framework membangun topical authority.
+Baca juga: [Content Layering](/2026/07/18/content-layering-topical-authority-without-content-farm/) dan [SEO Memerlukan Dua Sistem](/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/) untuk memahami framework membangun topical authority.
 
 Pertanyaannya bukan lagi:
 

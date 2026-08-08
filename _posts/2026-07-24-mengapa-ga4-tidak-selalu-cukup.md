@@ -126,4 +126,4 @@ Analytics memberikan kemampuan melihat aktivitas. Decision system memberikan kem
 
 Organisasi yang matang tidak berhenti pada pengumpulan data, tetapi membangun sistem yang mengubah data menjadi pembelajaran berkelanjutan.
 
-Baca juga: [Attribution Tanpa Governance](/notes/2026/07/25/attribution-tanpa-governance/) dan [Revenue Intelligence](/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/).
+Baca juga: [Attribution Tanpa Governance](/2026/07/25/attribution-tanpa-governance/) dan [Revenue Intelligence](/2026/07/24/revenue-intelligence-marketing-business-outcome/).

@@ -121,4 +121,4 @@ Digital marketing semakin membutuhkan prinsip yang sama dengan sistem software: 
 
 Lead Journey Trace mengubah data dari sekadar laporan menjadi kemampuan memahami keputusan customer.
 
-Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Revenue Intelligence](/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/).
+Baca juga: [Identity Stitching](/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Revenue Intelligence](/2026/07/24/revenue-intelligence-marketing-business-outcome/).

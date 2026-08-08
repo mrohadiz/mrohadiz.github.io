@@ -22,7 +22,7 @@ Prinsip utama yang mendasari KXE adalah:
 2. **Evidence Before Conclusion**: Tidak ada klaim tanpa bukti yang terlampir (timestamp/kutipan).
 3. **[State Uncertainty Explicitly](/principles/#2-state-uncertainty-explicitly)**: Jika informasi tidak ada atau ambigu, AI harus menyatakan "Tidak dapat dipastikan", bukan menebak.
 
-Pelajari lebih lanjut tentang [KXE](/glossary/#kxe-knowledge-extraction-engine) dan [Reasoning Engine](/notes/2024/12/15/reasoning-engine/) sebagai fondasi sistem ekstraksi pengetahuan.
+Pelajari lebih lanjut tentang [KXE](/glossary/#kxe-knowledge-extraction-engine) dan [Reasoning Engine](/2024/12/15/reasoning-engine/) sebagai fondasi sistem ekstraksi pengetahuan.
 
 ## The KXE Architecture
 

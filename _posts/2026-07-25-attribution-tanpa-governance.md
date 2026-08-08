@@ -183,6 +183,6 @@ Namun governance menentukan apakah pola tersebut memiliki arti.
 
 Artikel berikutnya:
 
-**[Membangun AI Marketing Analyst](/notes/2026/07/26/membangun-ai-marketing-analyst/)**: Mengapa Human-in-the-Loop Masih Dibutuhkan
+**[Membangun AI Marketing Analyst](/2026/07/26/membangun-ai-marketing-analyst/)**: Mengapa Human-in-the-Loop Masih Dibutuhkan
 
-Baca juga: [AI Tidak Membuat Data Menjadi Benar](/notes/2026/07/24/ai-tidak-membuat-data-menjadi-benar/) dan [Revenue Intelligence](/notes/2026/07/24/revenue-intelligence-marketing-business-outcome/).
+Baca juga: [AI Tidak Membuat Data Menjadi Benar](/2026/07/24/ai-tidak-membuat-data-menjadi-benar/) dan [Revenue Intelligence](/2026/07/24/revenue-intelligence-marketing-business-outcome/).

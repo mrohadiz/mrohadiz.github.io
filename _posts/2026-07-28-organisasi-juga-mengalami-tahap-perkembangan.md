@@ -87,7 +87,7 @@ Tetapi:
 
 Pertanyaan-pertanyaan tersebut lebih membantu membangun organisasi yang adaptif dibanding sekadar menetapkan target baru setiap tahun.
 
-Cara pandang ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — memahami kondisi terlebih dahulu sebelum menentukan intervensi. Baca juga [Development Reality](/notes/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) dan [Goal Bukan Target](/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/) untuk konteks yang lebih lengkap tentang pertumbuhan organisasi dan capability building.
+Cara pandang ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — memahami kondisi terlebih dahulu sebelum menentukan intervensi. Baca juga [Development Reality](/2026/07/28/development-reality-lapisan-yang-hilang-dalam-goal-setting/) dan [Goal Bukan Target](/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/) untuk konteks yang lebih lengkap tentang pertumbuhan organisasi dan capability building.
 
 
 ---

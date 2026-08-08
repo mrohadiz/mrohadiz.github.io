@@ -106,4 +106,4 @@ Perusahaan tidak kekurangan data. Tantangannya adalah mengubah data yang terseba
 
 Customer intelligence dimulai dari kemampuan melihat lifecycle, bukan hanya melihat laporan akhir.
 
-Baca juga: [Identity Stitching](/notes/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Lead Journey Trace](/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/).
+Baca juga: [Identity Stitching](/2026/07/24/identity-stitching-visitor-menjadi-customer-profile/) dan [Lead Journey Trace](/2026/07/24/lead-journey-trace-observability-digital-marketing/).

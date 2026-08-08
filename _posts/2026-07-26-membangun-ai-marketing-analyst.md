@@ -210,4 +210,4 @@ Artikel berikutnya:
 
 **Dari Dashboard ke Decision System: Evolusi Cara Perusahaan Menggunakan Data**
 
-Pelajari juga [5 Kesalahan Membangun Sistem AI](/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur AI yang baik, dan [Yang Tidak Bisa Diambil AI](/notes/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/) untuk memahami mengapa keputusan tetap menjadi domain manusia. Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) memastikan setiap keputusan AI dapat diaudit.
+Pelajari juga [5 Kesalahan Membangun Sistem AI](/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur AI yang baik, dan [Yang Tidak Bisa Diambil AI](/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/) untuk memahami mengapa keputusan tetap menjadi domain manusia. Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) memastikan setiap keputusan AI dapat diaudit.

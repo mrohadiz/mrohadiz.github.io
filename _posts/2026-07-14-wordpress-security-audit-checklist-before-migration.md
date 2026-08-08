@@ -135,4 +135,4 @@ Di shared hosting, beberapa hal tidak bisa diverifikasi penuh, seperti log serve
 
 Audit yang baik bukan hanya mencari malware. Audit yang baik membantu kita mengambil keputusan migrasi dengan tingkat keyakinan yang jelas.
 
-Untuk contoh investigasi keamanan yang lebih mendalam, lihat [Deface Bukan Awal Serangan](/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) yang membahas konsep dormant shell dalam audit forensik. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) juga menjadi fondasi dalam menjalankan audit secara sistematis.
+Untuk contoh investigasi keamanan yang lebih mendalam, lihat [Deface Bukan Awal Serangan](/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) yang membahas konsep dormant shell dalam audit forensik. Prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) juga menjadi fondasi dalam menjalankan audit secara sistematis.

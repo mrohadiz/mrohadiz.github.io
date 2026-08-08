@@ -60,7 +60,7 @@ Data yang dihasilkan AI juga tidak otomatis menjadi benar hanya karena prosesnya
 
 ### AI Paling Efektif Sebagai Co-Pilot
 
-Di awal seri [Membangun Home Server di 2026](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/) saya menyebut AI sebagai co-pilot. Pendekatan yang lebih berkelanjutan memang memperlakukan AI seperti itu.
+Di awal seri [Membangun Home Server di 2026](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/) saya menyebut AI sebagai co-pilot. Pendekatan yang lebih berkelanjutan memang memperlakukan AI seperti itu.
 
 Dalam model ini, AI membantu:
 

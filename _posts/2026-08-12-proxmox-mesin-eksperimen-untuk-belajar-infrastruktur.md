@@ -126,7 +126,7 @@ Contohnya:
 
 Lingkungan virtual memungkinkan konsep-konsep tersebut dipelajari secara langsung tanpa harus mempertaruhkan sistem yang digunakan sehari-hari.
 
-Dengan kata lain, Proxmox membantu mengubah teori menjadi pengalaman. Hal ini juga sejalan dengan alur belajar yang dibangun pada [artikel pertama seri ini](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/): memahami cara kerja sistem melalui pengalaman langsung.
+Dengan kata lain, Proxmox membantu mengubah teori menjadi pengalaman. Hal ini juga sejalan dengan alur belajar yang dibangun pada [artikel pertama seri ini](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/): memahami cara kerja sistem melalui pengalaman langsung.
 
 ---
 

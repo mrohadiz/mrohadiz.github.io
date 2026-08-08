@@ -121,5 +121,5 @@ Ketika setiap artikel memiliki fungsi yang spesifik, saling terhubung, dan mendu
 
 Ia berkembang menjadi sebuah sistem pengetahuan yang terus bertambah nilainya seiring waktu.
 
-Pendekatan ini sejalan dengan prinsip [Write to Think, Not to Report](/principles/#8-write-to-think-not-to-report) — setiap konten adalah bagian dari proses pemahaman, bukan sekadar output. Baca juga [SEO Memerlukan Dua Sistem](/notes/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/) dan [From SEO to Knowledge Architecture](/notes/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/) untuk konteks yang lebih luas tentang strategi konten modern.
+Pendekatan ini sejalan dengan prinsip [Write to Think, Not to Report](/principles/#8-write-to-think-not-to-report) — setiap konten adalah bagian dari proses pemahaman, bukan sekadar output. Baca juga [SEO Memerlukan Dua Sistem](/2026/07/18/seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi/) dan [From SEO to Knowledge Architecture](/2026/07/17/from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview/) untuk konteks yang lebih luas tentang strategi konten modern.
 

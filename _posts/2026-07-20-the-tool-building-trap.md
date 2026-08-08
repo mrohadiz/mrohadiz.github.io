@@ -50,4 +50,4 @@ Tool yang baik bukan tool dengan fitur paling banyak. Tool yang baik adalah tool
 
 Kalau sebuah alat mulai terasa seperti proyek baru, biasanya itu tanda bahwa scope perlu dibatasi kembali.
 
-Baca juga: [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) dan [Stop Building Platforms Too Early](/notes/2026/07/20/stop-building-platforms-too-early/).
+Baca juga: [Build From Repetition, Not Imagination](/2026/07/20/build-from-repetition-not-imagination/) dan [Stop Building Platforms Too Early](/2026/07/20/stop-building-platforms-too-early/).

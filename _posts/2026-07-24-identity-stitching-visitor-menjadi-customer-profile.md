@@ -127,4 +127,4 @@ Customer intelligence tidak dimulai dari dashboard, tetapi dari kemampuan memaha
 
 Identity stitching menjadi jembatan antara data perilaku dan pemahaman customer yang lebih lengkap.
 
-Pelajari juga: [Lead Journey Trace](/notes/2026/07/24/lead-journey-trace-observability-digital-marketing/) dan [Customer Data Platform](/notes/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/).
+Pelajari juga: [Lead Journey Trace](/2026/07/24/lead-journey-trace-observability-digital-marketing/) dan [Customer Data Platform](/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/).

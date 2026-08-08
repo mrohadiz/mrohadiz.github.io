@@ -202,7 +202,7 @@ AI adalah jenis sistem baru yang membutuhkan cara berpikir baru.
 
 > Sistem AI yang baik bukan yang paling pintar, tetapi yang paling dapat dipercaya.
 
-Prinsip ini terkait dengan [Decision Intelligence](/glossary/#decision-intelligence) — setiap lapisan sistem AI harus dirancang untuk mendukung keputusan yang dapat dipertanggungjawabkan. Baca juga [Membangun AI Marketing Analyst](/notes/2026/07/26/membangun-ai-marketing-analyst/) untuk memahami praktik human-in-the-loop, dan [Yang Tidak Bisa Diambil AI](/notes/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/) untuk memahami batasan AI dalam pengambilan keputusan.
+Prinsip ini terkait dengan [Decision Intelligence](/glossary/#decision-intelligence) — setiap lapisan sistem AI harus dirancang untuk mendukung keputusan yang dapat dipertanggungjawabkan. Baca juga [Membangun AI Marketing Analyst](/2026/07/26/membangun-ai-marketing-analyst/) untuk memahami praktik human-in-the-loop, dan [Yang Tidak Bisa Diambil AI](/2026/07/29/yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan/) untuk memahami batasan AI dalam pengambilan keputusan.
 
 ## Lanjutan Series
 

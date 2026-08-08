@@ -121,7 +121,7 @@ Beberapa area yang umumnya menjadi fokus audit:
 
 Tujuan utamanya bukan sekadar menghapus malware, tetapi memahami keseluruhan siklus serangan.
 
-Proses audit ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — mengumpulkan bukti sebelum menarik kesimpulan. Untuk referensi teknis lebih lanjut, lihat [WordPress Security Audit Checklist Before Migration](/notes/2026/07/14/wordpress-security-audit-checklist-before-migration/) dan [SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) sebagai contoh penerapan audit berbasis bukti.
+Proses audit ini sejalan dengan prinsip [Observation Before Interpretation](/principles/#1-observation-before-interpretation) — mengumpulkan bukti sebelum menarik kesimpulan. Untuk referensi teknis lebih lanjut, lihat [WordPress Security Audit Checklist Before Migration](/2026/07/14/wordpress-security-audit-checklist-before-migration/) dan [SMART PASSED Bukan Berarti Storage Sehat](/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) sebagai contoh penerapan audit berbasis bukti.
 
 ---
 

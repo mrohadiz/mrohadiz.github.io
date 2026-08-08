@@ -98,7 +98,7 @@ Contoh:
 - SSH
 - Dashboard administrasi
 
-Aplikasi seperti ini biasanya lebih aman jika hanya dapat diakses melalui jaringan privat seperti Tailscale — topik yang dibahas pada artikel sebelumnya dalam [seri ini](/notes/2026/08/10/kenapa-saya-memilih-tailscale-daripada-port-forwarding/).
+Aplikasi seperti ini biasanya lebih aman jika hanya dapat diakses melalui jaringan privat seperti Tailscale — topik yang dibahas pada artikel sebelumnya dalam [seri ini](/2026/08/10/kenapa-saya-memilih-tailscale-daripada-port-forwarding/).
 
 **Publik**
 
@@ -188,4 +188,4 @@ Cloudflare Tunnel bukan pengganti pemahaman networking.
 
 Namun bagi banyak proyek self-hosted modern, pendekatan ini mampu menghapus sebagian besar hambatan awal yang sering memperlambat proses belajar.
 
-Ketika kompleksitas akses berhasil dikurangi, perhatian dapat dialihkan ke hal yang lebih penting: memahami bagaimana sistem bekerja, bagaimana aplikasi dikelola, dan bagaimana layanan dijaga tetap andal dalam jangka panjang. Pendekatan ini sejalan dengan alur yang dibangun dalam [artikel pertama seri ini](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
+Ketika kompleksitas akses berhasil dikurangi, perhatian dapat dialihkan ke hal yang lebih penting: memahami bagaimana sistem bekerja, bagaimana aplikasi dikelola, dan bagaimana layanan dijaga tetap andal dalam jangka panjang. Pendekatan ini sejalan dengan alur yang dibangun dalam [artikel pertama seri ini](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).

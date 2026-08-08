@@ -24,7 +24,7 @@ Reasoning engine adalah komponen sistem AI yang bertanggung jawab untuk melakuka
 2. **Tree of Thoughts (ToT)**: Mengeksplorasi berbagai jalur pemikiran
 3. **ReAct**: Menggabungkan reasoning dengan aksi nyata
 
-Pelajari lebih lanjut tentang [AI Engineering](/topics/ai-engineering/) dan bagaimana [Knowledge Extraction Engine](/notes/2026/07/12/knowledge-extraction-engine/) (KXE) menerapkan prinsip serupa untuk ekstraksi pengetahuan terstruktur.
+Pelajari lebih lanjut tentang [AI Engineering](/topics/ai-engineering/) dan bagaimana [Knowledge Extraction Engine](/2026/07/12/knowledge-extraction-engine/) (KXE) menerapkan prinsip serupa untuk ekstraksi pengetahuan terstruktur.
 
 ## Implementasi Dasar
 

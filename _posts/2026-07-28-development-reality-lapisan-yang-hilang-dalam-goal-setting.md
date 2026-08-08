@@ -211,7 +211,7 @@ SMART membantu membuat target menjadi jelas.
 
 Development Reality membantu memastikan target tersebut memiliki pijakan yang realistis.
 
-Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) juga relevan: sebelum menetapkan target, pastikan kita memiliki data yang cukup untuk memahami kondisi sistem saat ini. Baca juga [Output Bukan Outcome](/notes/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/) dan [Goal Bukan Target](/notes/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/) untuk melengkapi pemahaman tentang goal setting berbasis capability.
+Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) juga relevan: sebelum menetapkan target, pastikan kita memiliki data yang cukup untuk memahami kondisi sistem saat ini. Baca juga [Output Bukan Outcome](/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/) dan [Goal Bukan Target](/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/) untuk melengkapi pemahaman tentang goal setting berbasis capability.
 
 
 ---

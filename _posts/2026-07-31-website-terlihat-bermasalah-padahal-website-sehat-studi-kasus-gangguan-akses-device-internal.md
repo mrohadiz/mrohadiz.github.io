@@ -183,7 +183,7 @@ Pendekatan ini dapat menghindarkan engineer dari perubahan infrastruktur yang se
 
 Studi kasus ini adalah contoh konkret penerapan [Root Cause Analysis](/glossary/#root-cause-analysis-rca) — tidak berhenti pada gejala "website error" tetapi melakukan eliminasi hipotesis secara sistematis. Konsep [Convergence Signal](/glossary/#convergence-signal) juga relevan: ketika server normal, CDN sehat, dan SSL valid (satu arah), sementara perangkat tertentu gagal (arah lain), maka konvergensi belum terjadi dan investigasi perlu berlanjut.
 
-Bandingkan dengan pendekatan serupa di [SMART PASSED Bukan Berarti Storage Sehat](/notes/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) di mana metrik normal tidak selalu berarti sistem sehat. Baca juga [Deface Bukan Awal Serangan](/notes/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) untuk melihat pola investigasi forensik di domain yang berbeda.
+Bandingkan dengan pendekatan serupa di [SMART PASSED Bukan Berarti Storage Sehat](/2026/07/14/smart-passed-bukan-berarti-storage-sehat/) di mana metrik normal tidak selalu berarti sistem sehat. Baca juga [Deface Bukan Awal Serangan](/2026/07/31/deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik/) untuk melihat pola investigasi forensik di domain yang berbeda.
 
 ---
 

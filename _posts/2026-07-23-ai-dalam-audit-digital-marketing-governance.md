@@ -168,6 +168,6 @@ Tetapi:
 
 Artikel berikutnya:
 
-**[AI Tidak Membuat Data Menjadi Benar](/notes/2026/07/24/ai-tidak-membuat-data-menjadi-benar/)**: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern
+**[AI Tidak Membuat Data Menjadi Benar](/2026/07/24/ai-tidak-membuat-data-menjadi-benar/)**: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern
 
-Pelajari juga [5 Kesalahan Membangun Sistem AI](/notes/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur AI yang baik.
+Pelajari juga [5 Kesalahan Membangun Sistem AI](/2026/07/27/5-kesalahan-membangun-sistem-ai/) untuk memahami arsitektur AI yang baik.

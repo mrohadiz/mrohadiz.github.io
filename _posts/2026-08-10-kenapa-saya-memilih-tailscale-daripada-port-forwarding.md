@@ -104,7 +104,7 @@ Hambatan terbesar sering kali adalah kompleksitas awal yang terlalu tinggi.
 
 Ketika beban tersebut berhasil diturunkan, proses belajar biasanya menjadi lebih konsisten dan berkelanjutan.
 
-Prinsip yang sama berlaku pada home server dalam [seri ini](/notes/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
+Prinsip yang sama berlaku pada home server dalam [seri ini](/2026/08/08/membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat/).
 
 ---
 

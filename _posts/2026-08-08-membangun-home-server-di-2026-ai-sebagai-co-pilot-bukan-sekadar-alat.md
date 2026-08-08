@@ -100,7 +100,7 @@ Namun ada satu pelajaran penting:
 
 > "AI sangat membantu mempercepat eksperimen, tetapi tidak menggantikan proses verifikasi."
 
-Semakin kritis sebuah sistem, semakin penting untuk memahami apa yang dilakukan oleh AI sebelum menjalankannya. Ini selaras dengan prinsip [The Best System Is the One You Can Understand](/principles/#5-the-best-system-is-the-one-you-can-understand). Batasan peran AI dalam operasional infrastruktur akan dibahas lebih dalam pada [artikel berikutnya dalam seri ini](/notes/2026/08/09/ai-sebagai-co-pilot-infrastruktur-bukan-pengganti-pemahaman-sistem/).
+Semakin kritis sebuah sistem, semakin penting untuk memahami apa yang dilakukan oleh AI sebelum menjalankannya. Ini selaras dengan prinsip [The Best System Is the One You Can Understand](/principles/#5-the-best-system-is-the-one-you-can-understand). Batasan peran AI dalam operasional infrastruktur akan dibahas lebih dalam pada [artikel berikutnya dalam seri ini](/2026/08/09/ai-sebagai-co-pilot-infrastruktur-bukan-pengganti-pemahaman-sistem/).
 
 ### Docker Menjadi Titik Masuk yang Lebih Relevan
 
@@ -115,7 +115,7 @@ Dalam praktiknya, memahami:
 - network
 - backup
 
-sering kali lebih bermanfaat daripada menghafal langkah instalasi paket satu per satu. Pendekatan ini sejalan dengan konsep [Infrastructure as Code](/notes/2025/01/05/infrastructure-as-code/): infrastruktur dikelola sebagai artefak yang dapat didokumentasikan dan direproduksi, bukan sekadar rangkaian langkah manual.
+sering kali lebih bermanfaat daripada menghafal langkah instalasi paket satu per satu. Pendekatan ini sejalan dengan konsep [Infrastructure as Code](/2025/01/05/infrastructure-as-code/): infrastruktur dikelola sebagai artefak yang dapat didokumentasikan dan direproduksi, bukan sekadar rangkaian langkah manual.
 
 ---
 

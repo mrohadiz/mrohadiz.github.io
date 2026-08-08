@@ -52,4 +52,4 @@ Banyak tool menjadi berat bukan karena teknologinya buruk, tetapi karena diperla
 
 Kalau sebuah alat masih belum matang, fokus terbaik biasanya bukan memperluasnya. Fokus terbaik adalah membuatnya tetap kecil sampai manfaatnya benar-benar terbukti.
 
-Lihat juga: [Build From Repetition, Not Imagination](/notes/2026/07/20/build-from-repetition-not-imagination/) dan [Internal Tools Are Products for One Customer](/notes/2026/07/20/internal-tools-are-products-for-one-customer/).
+Lihat juga: [Build From Repetition, Not Imagination](/2026/07/20/build-from-repetition-not-imagination/) dan [Internal Tools Are Products for One Customer](/2026/07/20/internal-tools-are-products-for-one-customer/).
