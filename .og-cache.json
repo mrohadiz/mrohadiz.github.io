@@ -56,5 +56,14 @@
   "2026-08-02-sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar": "Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar",
   "2026-08-02-capability-sebelum-fitur": "Jangan Membangun Fitur, Bangunlah Capability",
   "2026-08-02-data-adalah-kontrak-bukan-sekadar-field": "Data Adalah Kontrak, Bukan Sekadar Field",
-  "2026-08-02-reference-frame-menentukan-kualitas-keputusan": "Reference Frame Menentukan Kualitas Keputusan"
+  "2026-08-02-reference-frame-menentukan-kualitas-keputusan": "Reference Frame Menentukan Kualitas Keputusan",
+  "2026-08-16-home-server-bukan-tentang-menghemat-biaya-cloud": "Home Server Bukan Tentang Menghemat Biaya Cloud",
+  "2026-08-14-aplikasi-pertama-yang-layak-dipasang-di-home-server-bukan-nextcloud": "Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud",
+  "2026-08-13-docker-sebagai-operating-model-untuk-home-server-modern": "Docker Sebagai Operating Model untuk Home Server Modern",
+  "2026-08-09-ai-sebagai-co-pilot-infrastruktur-bukan-pengganti-pemahaman-sistem": "AI Sebagai Co-Pilot Infrastruktur, Bukan Pengganti Pemahaman Sistem",
+  "2026-08-12-proxmox-mesin-eksperimen-untuk-belajar-infrastruktur": "Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur",
+  "2026-08-15-backup-adalah-fitur-yang-paling-jarang-diuji": "Backup Adalah Fitur yang Paling Jarang Diuji",
+  "2026-08-08-membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat": "Membangun Home Server di 2026: AI sebagai Co-Pilot, Bukan Sekadar Alat",
+  "2026-08-10-kenapa-saya-memilih-tailscale-daripada-port-forwarding": "Kenapa Saya Memilih Tailscale daripada Port Forwarding",
+  "2026-08-11-cloudflare-tunnel-memublikasikan-aplikasi-tanpa-membuka-port-ke-internet": "Cloudflare Tunnel: Memublikasikan Aplikasi Tanpa Membuka Port ke Internet"
 }
