@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1160" font-family="Roboto, 'Helvetica Neue', sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4A6B7B"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8A7D6B"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="1160" fill="#F7F3ED"/>
+
+  <!-- Title -->
+  <text x="450" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#2C2416">Alur Eliminasi Troubleshooting</text>
+  <text x="450" y="74" text-anchor="middle" font-size="15" fill="#5D5242">Website Sehat vs Jalur Akses Perangkat</text>
+  <line x1="150" y1="92" x2="750" y2="92" stroke="#C8BEAF" stroke-width="2"/>
+
+  <!-- Node A: Laporan -->
+  <rect x="260" y="118" width="380" height="78" rx="10" fill="#4A6B7B"/>
+  <text x="450" y="150" text-anchor="middle" font-size="18" font-weight="700" fill="#F7F3ED">Laporan: "Website tidak bisa diakses"</text>
+  <text x="450" y="176" text-anchor="middle" font-size="14" fill="#DCE6EA">Timeout + peringatan keamanan pada sebagian pengguna</text>
+
+  <!-- Arrow A -> D1 -->
+  <line x1="450" y1="196" x2="450" y2="238" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Decision D1 -->
+  <g>
+    <path d="M 450 244 L 640 300 L 450 356 L 260 300 Z" fill="#E7EEF1" stroke="#4A6B7B" stroke-width="2"/>
+    <text x="450" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#2C2416">Website dapat diakses</text>
+    <text x="450" y="314" text-anchor="middle" font-size="15" font-weight="700" fill="#2C2416">dari jaringan lain?</text>
+  </g>
+
+  <!-- Tidak -> side box (server) -->
+  <line x1="640" y1="300" x2="690" y2="300" stroke="#8A7D6B" stroke-width="2" marker-end="url(#arrow-muted)"/>
+  <text x="660" y="287" text-anchor="middle" font-size="13" font-weight="700" fill="#8A7D6B">Tidak</text>
+  <rect x="696" y="266" width="180" height="68" rx="8" fill="#FCF9F4" stroke="#C8BEAF" stroke-width="2"/>
+  <text x="786" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#5D5242">Periksa sisi server</text>
+  <text x="786" y="316" text-anchor="middle" font-size="12" fill="#8A7D6B">dan infrastruktur</text>
+
+  <!-- Ya -> D2 -->
+  <text x="462" y="228" font-size="13" font-weight="700" fill="#4A6B7B">Ya</text>
+  <line x1="450" y1="356" x2="450" y2="398" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Decision D2 -->
+  <g>
+    <path d="M 450 404 L 640 460 L 450 516 L 260 460 Z" fill="#E7EEF1" stroke="#4A6B7B" stroke-width="2"/>
+    <text x="450" y="452" text-anchor="middle" font-size="15" font-weight="700" fill="#2C2416">Monitoring normal, CDN sehat,</text>
+    <text x="450" y="474" text-anchor="middle" font-size="15" font-weight="700" fill="#2C2416">SSL valid?</text>
+  </g>
+
+  <!-- Tidak -> side box -->
+  <line x1="640" y1="460" x2="690" y2="460" stroke="#8A7D6B" stroke-width="2" marker-end="url(#arrow-muted)"/>
+  <text x="660" y="447" text-anchor="middle" font-size="13" font-weight="700" fill="#8A7D6B">Tidak</text>
+  <rect x="696" y="426" width="180" height="68" rx="8" fill="#FCF9F4" stroke="#C8BEAF" stroke-width="2"/>
+  <text x="786" y="454" text-anchor="middle" font-size="14" font-weight="700" fill="#5D5242">Lanjutkan investigasi</text>
+  <text x="786" y="476" text-anchor="middle" font-size="12" fill="#8A7D6B">server / CDN / SSL</text>
+
+  <!-- Ya -> Kesimpulan -->
+  <text x="462" y="388" font-size="13" font-weight="700" fill="#4A6B7B">Ya</text>
+  <line x1="450" y1="516" x2="450" y2="548" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Kesimpulan -->
+  <rect x="210" y="554" width="480" height="64" rx="10" fill="#B5834A"/>
+  <text x="450" y="582" text-anchor="middle" font-size="16" font-weight="700" fill="#F7F3ED">Kesimpulan: website sehat</text>
+  <text x="450" y="604" text-anchor="middle" font-size="14" fill="#F4E9DA">Masalah berada pada jalur akses perangkat pengguna</text>
+
+  <!-- Arrow -> causes -->
+  <line x1="450" y1="618" x2="450" y2="648" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Penyebab -->
+  <rect x="180" y="654" width="540" height="150" rx="10" fill="#FCF9F4" stroke="#C8BEAF" stroke-width="2"/>
+  <text x="450" y="680" text-anchor="middle" font-size="16" font-weight="700" fill="#4A6B7B">Penyebab umum di perangkat pengguna</text>
+  <line x1="200" y1="692" x2="700" y2="692" stroke="#C8BEAF" stroke-width="1.5"/>
+  <circle cx="225" cy="720" r="5" fill="#B5834A"/>
+  <text x="244" y="725" font-size="14" fill="#2C2416"><tspan font-weight="700">IPv6</tspan> — fallback IPv4 memicu timeout</text>
+  <circle cx="225" cy="752" r="5" fill="#B5834A"/>
+  <text x="244" y="757" font-size="14" fill="#2C2416"><tspan font-weight="700">DNS cache lokal</tspan> — jalur lama yang usang</text>
+  <circle cx="225" cy="784" r="5" fill="#B5834A"/>
+  <text x="244" y="789" font-size="14" fill="#2C2416"><tspan font-weight="700">Software keamanan</tspan> — VPN / antivirus / SSL Inspection</text>
+
+  <!-- Arrow -> solusi -->
+  <line x1="450" y1="804" x2="450" y2="834" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Solusi -->
+  <rect x="180" y="840" width="540" height="150" rx="10" fill="#FCF9F4" stroke="#C8BEAF" stroke-width="2"/>
+  <text x="450" y="866" text-anchor="middle" font-size="16" font-weight="700" fill="#4A6B7B">Langkah penyelesaian</text>
+  <line x1="200" y1="878" x2="700" y2="878" stroke="#C8BEAF" stroke-width="1.5"/>
+  <circle cx="225" cy="906" r="5" fill="#4A6B7B"/>
+  <text x="244" y="911" font-size="14" fill="#2C2416"><tspan font-weight="700">1</tspan>  Nonaktifkan IPv6 bila diperlukan</text>
+  <circle cx="225" cy="938" r="5" fill="#4A6B7B"/>
+  <text x="244" y="943" font-size="14" fill="#2C2416"><tspan font-weight="700">2</tspan>  Flush DNS cache</text>
+  <circle cx="225" cy="970" r="5" fill="#4A6B7B"/>
+  <text x="244" y="975" font-size="14" fill="#2C2416"><tspan font-weight="700">3</tspan>  Validasi browser &amp; software keamanan</text>
+
+  <!-- Arrow -> hasil -->
+  <line x1="450" y1="990" x2="450" y2="1020" stroke="#4A6B7B" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Hasil -->
+  <rect x="210" y="1026" width="480" height="78" rx="10" fill="#4A6B7B"/>
+  <text x="450" y="1058" text-anchor="middle" font-size="16" font-weight="700" fill="#F7F3ED">Website kembali dapat diakses semua perangkat</text>
+  <text x="450" y="1084" text-anchor="middle" font-size="13" fill="#DCE6EA">Tanpa perubahan server, CDN, maupun sertifikat SSL</text>
+</svg>

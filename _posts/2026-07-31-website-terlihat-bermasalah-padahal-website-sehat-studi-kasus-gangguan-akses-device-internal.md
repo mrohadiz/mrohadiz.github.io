@@ -25,6 +25,8 @@ Pada studi kasus ini, website dilaporkan mengalami timeout dan peringatan keaman
 
 Akar masalah ternyata berada di sisi perangkat pengguna, bukan pada website.
 
+![Alur eliminasi troubleshooting](/assets/images/posts/2026-07-31-troubleshooting-flow.svg)
+
 ---
 
 ## Context
