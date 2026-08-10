@@ -1,14 +1,62 @@
 {
-  "collected_at": "2026-08-07T08:00:06.490Z",
+  "collected_at": "2026-08-10T03:00:10.337Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 193,
+    "total_commits": 201,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-07T03:00:09Z",
-    "active_days": 20
+    "last_commit_date": "2026-08-08T14:47:36Z",
+    "active_days": 21
   },
   "recent_commits": [
+    {
+      "sha": "48a3584",
+      "message": "fix(data): perbaiki 5 URL /notes/YYYY-MM-DD-slug/ di observatory search.json",
+      "date": "2026-08-08T14:47:36Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "2db3483",
+      "message": "fix(scripts): URL post tanpa prefix /notes/ — konsisten dengan permalink Jekyll; regenerate knowledge.json",
+      "date": "2026-08-08T13:58:16Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "18215f9",
+      "message": "fix(links): perbaiki 96 internal link yang memakai prefix /notes/ (404) menjadi /:year/:month/:day/:slug/",
+      "date": "2026-08-08T10:44:34Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "d1bee8b",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-08-08T10:13:23Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "b874486",
+      "message": "feat: tambah seri artikel home-server (9 artikel, 2026-08-08 s/d 2026-08-16)",
+      "date": "2026-08-08T10:12:09Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "2626ad9",
+      "message": "add: troubleshooting flowchart visualization to website-sehat post",
+      "date": "2026-08-08T06:22:00Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "182be6c",
+      "message": "chore: update observatory collect log",
+      "date": "2026-08-08T06:15:42Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "6f71392",
+      "message": "chore: update observatory data 2026-08-07",
+      "date": "2026-08-07T08:00:06Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "3e9d2d6",
       "message": "chore: update observatory data 2026-08-07",
@@ -20,54 +68,6 @@
       "message": "chore(deps): bump undici ke 7.29.0 (fix 5 CVE dependabot)",
       "date": "2026-08-06T09:48:39Z",
       "author": "zakagimat"
-    },
-    {
-      "sha": "8ba8a6d",
-      "message": "chore(observatory): update collection log",
-      "date": "2026-08-06T09:35:42Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "d24a1b7",
-      "message": "refactor(css): migrasi Sass @import ke @use biar siap Dart Sass 3",
-      "date": "2026-08-06T09:35:32Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "26079aa",
-      "message": "chore: update observatory data 2026-08-06",
-      "date": "2026-08-06T08:00:06Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "5aad2db",
-      "message": "feat(observatory): filter bot/crawler di kmstrack collector biar metrik akurat",
-      "date": "2026-08-06T07:07:28Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "e56aaa5",
-      "message": "chore(observatory): update collection log",
-      "date": "2026-08-06T05:01:33Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "0130d41",
-      "message": "feat(observatory): tambah 5 metrik kmstrack - reading depth, bounce asli, top clicks, pages/session, peak hours",
-      "date": "2026-08-06T05:01:17Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "1ea2700",
-      "message": "chore: update observatory data 2026-08-06",
-      "date": "2026-08-06T03:00:08Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "2c31dd5",
-      "message": "feat(observatory): insight engine pakai data real kmstrack, buang GSC mock & simulasi device",
-      "date": "2026-08-06T02:29:37Z",
-      "author": "zakagimat"
     }
   ],
   "publishing_timeline": [
@@ -77,10 +77,20 @@
     },
     {
       "month": "2026-08",
-      "commits": 20
+      "commits": 28
     }
   ],
   "article_history": [
+    {
+      "title": "tambah seri artikel home-server (9 artikel, 2026-08-08 s/d 2026-08-16)",
+      "date": "2026-08-08",
+      "category": "Article"
+    },
+    {
+      "title": ": troubleshooting flowchart visualization to website-sehat post",
+      "date": "2026-08-08",
+      "category": "Article"
+    },
     {
       "title": "add series navigation badge, enhanced related articles, and cross-series recommendations",
       "date": "2026-07-28",
@@ -118,15 +128,15 @@
     }
   ],
   "contribution_streak": {
-    "current_streak": 1,
+    "current_streak": 0,
     "longest_streak": 8,
-    "active_days": 20
+    "active_days": 21
   },
   "repository_health": {
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-07T08:00:06.490Z",
+    "last_deployment": "2026-08-10T03:00:10.337Z",
     "deployment_status": "success"
   }
 }

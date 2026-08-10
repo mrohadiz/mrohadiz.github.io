@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-07T08:00:06.682Z",
+  "collected_at": "2026-08-10T03:00:10.649Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 47s per session",
-      "description": "Across 342 sessions from 333 users this period.",
-      "metric": "5m 47s",
+      "title": "Average engagement is 5m 46s per session",
+      "description": "Across 343 sessions from 334 users this period.",
+      "metric": "5m 46s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -15,8 +15,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "116 sessions with an average engagement of 4m 43s.",
-      "metric": "116",
+      "description": "117 sessions with an average engagement of 4m 41s.",
+      "metric": "117",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -24,9 +24,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "197 internal links connecting content",
+      "title": "198 internal links connecting content",
       "description": "Average of 3.5 links per article, creating a well-connected knowledge graph.",
-      "metric": "197",
+      "metric": "198",
       "metric_label": "Internal Links",
       "icon": "link",
       "priority": "medium"
@@ -44,18 +44,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-08-07",
-      "description": "Committed 8/7/2026.",
+      "title": "Latest commit: fix(data): perbaiki 5 URL /notes/YYYY-MM-DD-slug/ ",
+      "description": "Committed 8/8/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -65,7 +55,7 @@
       "type": "positive",
       "category": "knowledge",
       "title": "Digital garden contains 57 articles",
-      "description": "Across 11 categories with 139 unique tags. Total word count: 27,520.",
+      "description": "Across 11 categories with 139 unique tags. Total word count: 27,523.",
       "metric": "57",
       "metric_label": "Articles",
       "icon": "book-open",
@@ -82,11 +72,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-07T08:00:06.682Z",
+  "generated_at": "2026-08-10T03:00:10.649Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-08",
-      "end": "2026-08-07"
+      "start": "2026-07-11",
+      "end": "2026-08-10"
     }
   }
 }
