@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-10T03:00:10.649Z",
+  "collected_at": "2026-08-10T08:00:08.024Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 46s per session",
-      "description": "Across 343 sessions from 334 users this period.",
-      "metric": "5m 46s",
+      "title": "Average engagement is 5m 42s per session",
+      "description": "Across 347 sessions from 337 users this period.",
+      "metric": "5m 42s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -15,8 +15,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "117 sessions with an average engagement of 4m 41s.",
-      "metric": "117",
+      "description": "119 sessions with an average engagement of 4m 36s.",
+      "metric": "119",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -72,7 +72,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-10T03:00:10.649Z",
+  "generated_at": "2026-08-10T08:00:08.024Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-11",
