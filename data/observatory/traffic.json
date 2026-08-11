@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-08-10T08:00:05.462Z",
+  "collected_at": "2026-08-11T03:00:06.341Z",
   "period": {
-    "start": "2026-07-11",
-    "end": "2026-08-10"
+    "start": "2026-07-12",
+    "end": "2026-08-11"
   },
   "daily_trend": [
     {
       "date": "2026-07-12",
-      "users": 291,
-      "sessions": 291
+      "users": 279,
+      "sessions": 279
     },
     {
       "date": "2026-07-13",
@@ -88,16 +88,16 @@
     {
       "date": "2026-08-10",
       "users": 5,
-      "sessions": 5
+      "sessions": 6
     }
   ],
   "summary": {
-    "total_users": 337,
-    "total_sessions": 347,
-    "avg_engagement_time": 342,
-    "bounce_rate": 0.35294117647058826,
+    "total_users": 325,
+    "total_sessions": 336,
+    "avg_engagement_time": 353,
+    "bounce_rate": 0.34285714285714286,
     "returning_users": 2,
-    "avg_pages_per_session": 2.3
+    "avg_pages_per_session": 2.5
   },
   "previous_period": {
     "total_users": 0,
@@ -114,44 +114,44 @@
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 345,
-      "percentage": 0.9942363112391931
+      "sessions": 334,
+      "percentage": 0.9940476190476191
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 119,
-      "avg_engagement_time": 276
+      "sessions": 114,
+      "avg_engagement_time": 289
     },
     {
       "page": "/notes/",
-      "sessions": 57,
-      "avg_engagement_time": 511
+      "sessions": 54,
+      "avg_engagement_time": 539
     },
     {
       "page": "/about/",
-      "sessions": 53,
+      "sessions": 52,
       "avg_engagement_time": 0
     },
     {
       "page": "/projects/",
-      "sessions": 52,
+      "sessions": 51,
       "avg_engagement_time": 0
     },
     {
       "page": "/now/",
-      "sessions": 52,
+      "sessions": 51,
       "avg_engagement_time": 0
     },
     {
@@ -173,72 +173,72 @@
   "country_distribution": [
     {
       "country": "United States",
-      "sessions": 316,
-      "percentage": 0.9106628242074928
+      "sessions": 305,
+      "percentage": 0.9077380952380952
     },
     {
       "country": "Indonesia",
       "sessions": 24,
-      "percentage": 0.069164265129683
+      "percentage": 0.07142857142857142
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.008645533141210375
+      "percentage": 0.008928571428571428
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     },
     {
       "country": "SE",
       "sessions": 1,
-      "percentage": 0.002881844380403458
+      "percentage": 0.002976190476190476
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 332,
-      "avg_engagement_time": 357,
-      "percentage": 0.9567723342939481
+      "sessions": 321,
+      "avg_engagement_time": 369,
+      "percentage": 0.9553571428571429
     },
     {
       "device": "Mobile",
       "sessions": 13,
       "avg_engagement_time": 2362,
-      "percentage": 0.037463976945244955
+      "percentage": 0.03869047619047619
     },
     {
       "device": "Tablet",
       "sessions": 3,
       "avg_engagement_time": 7,
-      "percentage": 0.008645533141210375
+      "percentage": 0.008928571428571428
     }
   ],
   "reading": {
-    "avg_max_scroll": 53,
-    "deep_read_pct": 0.471,
-    "sessions": 34,
+    "avg_max_scroll": 51,
+    "deep_read_pct": 0.457,
+    "sessions": 35,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.38235294117647056
+        "pct": 0.4
       },
       {
         "label": "25-50%",
-        "pct": 0.14705882352941177
+        "pct": 0.14285714285714285
       },
       {
         "label": "50-75%",
@@ -246,7 +246,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.47058823529411764
+        "pct": 0.45714285714285713
       }
     ],
     "top_pages": [
@@ -377,7 +377,7 @@
     },
     {
       "hour": 9,
-      "views": 5
+      "views": 6
     },
     {
       "hour": 10,
@@ -405,7 +405,7 @@
     },
     {
       "hour": 16,
-      "views": 3
+      "views": 0
     },
     {
       "hour": 17,
@@ -413,7 +413,7 @@
     },
     {
       "hour": 18,
-      "views": 142
+      "views": 132
     },
     {
       "hour": 19,
@@ -440,9 +440,9 @@
     "total_docs": 10000,
     "bot_ua_events": 146,
     "bot_ua_sessions": 13,
-    "automated_sessions": 83,
-    "automated_session_events": 6582,
-    "sessions_removed": 96,
-    "docs_after_filter": 3238
+    "automated_sessions": 86,
+    "automated_session_events": 6691,
+    "sessions_removed": 99,
+    "docs_after_filter": 3129
   }
 }

@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-10T08:00:08.024Z",
+  "collected_at": "2026-08-11T03:00:08.658Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 42s per session",
-      "description": "Across 347 sessions from 337 users this period.",
-      "metric": "5m 42s",
+      "title": "Average engagement is 5m 53s per session",
+      "description": "Across 336 sessions from 325 users this period.",
+      "metric": "5m 53s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -15,8 +15,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "119 sessions with an average engagement of 4m 36s.",
-      "metric": "119",
+      "description": "114 sessions with an average engagement of 4m 49s.",
+      "metric": "114",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,8 +44,18 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: fix(data): perbaiki 5 URL /notes/YYYY-MM-DD-slug/ ",
-      "description": "Committed 8/8/2026.",
+      "title": "1 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "1 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "description": "Committed 8/11/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -72,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-10T08:00:08.024Z",
+  "generated_at": "2026-08-11T03:00:08.658Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-11",
-      "end": "2026-08-10"
+      "start": "2026-07-12",
+      "end": "2026-08-11"
     }
   }
 }
