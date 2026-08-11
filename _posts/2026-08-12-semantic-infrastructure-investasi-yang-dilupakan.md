@@ -11,6 +11,7 @@ tags:
   - knowledge-management
   - systems-thinking
 excerpt: "Ketika organisasi bertumbuh, konteks yang dulu dipahami melalui percakapan mulai terpecah. Semantic infrastructure membantu menjaga pemahaman yang sama terhadap makna informasi."
+image: /assets/images/og/2026-08-12-semantic-infrastructure-investasi-yang-dilupakan.png
 ---
 
 # Semantic Infrastructure: Investasi yang Dilupakan Saat Organisasi Bertumbuh
