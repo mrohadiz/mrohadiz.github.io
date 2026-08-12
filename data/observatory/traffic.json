@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-12T03:00:11.226Z",
+  "collected_at": "2026-08-12T08:00:05.966Z",
   "period": {
     "start": "2026-07-13",
     "end": "2026-08-12"
@@ -95,15 +95,15 @@
     "avg_pages_per_session": 2.6
   },
   "previous_period": {
-    "total_users": 293,
-    "total_sessions": 293,
+    "total_users": 289,
+    "total_sessions": 289,
     "avg_engagement_time": 1,
     "bounce_rate": 0.4
   },
   "trend": {
-    "users_change": -0.8873720136518771,
-    "sessions_change": -0.8498293515358362,
-    "engagement_time_change": 2806.0754537072016,
+    "users_change": -0.8858131487889274,
+    "sessions_change": -0.8477508650519031,
+    "engagement_time_change": 2767.753604509833,
     "bounce_rate_change": -0.16666666666666677
   },
   "traffic_sources": [
@@ -427,9 +427,9 @@
     "total_docs": 10000,
     "bot_ua_events": 146,
     "bot_ua_sessions": 13,
-    "automated_sessions": 86,
-    "automated_session_events": 6691,
-    "sessions_removed": 99,
-    "docs_after_filter": 3129
+    "automated_sessions": 88,
+    "automated_session_events": 6722,
+    "sessions_removed": 101,
+    "docs_after_filter": 3098
   }
 }

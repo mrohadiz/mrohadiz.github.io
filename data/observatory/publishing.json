@@ -1,14 +1,26 @@
 {
-  "collected_at": "2026-08-12T03:00:13.639Z",
+  "collected_at": "2026-08-12T08:00:08.223Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 205,
+    "total_commits": 207,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-11T02:01:51Z",
-    "active_days": 23
+    "last_commit_date": "2026-08-12T05:28:37Z",
+    "active_days": 24
   },
   "recent_commits": [
+    {
+      "sha": "c70abe6",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-08-12T05:28:37Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "3006bb6",
+      "message": "Add article: AI Bukan Titik Awal",
+      "date": "2026-08-12T05:28:27Z",
+      "author": "M Rohadi Z"
+    },
     {
       "sha": "9a95c42",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
@@ -56,18 +68,6 @@
       "message": "chore(seo): auto-generate open graph images [skip ci]",
       "date": "2026-08-08T10:13:23Z",
       "author": "github-actions[bot]"
-    },
-    {
-      "sha": "b874486",
-      "message": "feat: tambah seri artikel home-server (9 artikel, 2026-08-08 s/d 2026-08-16)",
-      "date": "2026-08-08T10:12:09Z",
-      "author": "M. Rohadiz"
-    },
-    {
-      "sha": "2626ad9",
-      "message": "add: troubleshooting flowchart visualization to website-sehat post",
-      "date": "2026-08-08T06:22:00Z",
-      "author": "zakagimat"
     }
   ],
   "publishing_timeline": [
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 32
+      "commits": 34
     }
   ],
   "article_history": [
@@ -110,13 +110,13 @@
   "contribution_streak": {
     "current_streak": 2,
     "longest_streak": 8,
-    "active_days": 23
+    "active_days": 24
   },
   "repository_health": {
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-12T03:00:13.639Z",
+    "last_deployment": "2026-08-12T08:00:08.223Z",
     "deployment_status": "success"
   }
 }

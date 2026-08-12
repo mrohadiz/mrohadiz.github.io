@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-08-12T03:00:14.008Z",
+  "collected_at": "2026-08-12T08:00:08.454Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
       "title": "Site visitors dropped 89%",
-      "description": "From 293 to 33 users this period.",
+      "description": "From 289 to 33 users this period.",
       "metric": "-89%",
       "metric_label": "Users Change",
       "icon": "trending-down",
@@ -65,7 +65,7 @@
       "type": "neutral",
       "category": "publishing",
       "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
-      "description": "Committed 8/11/2026.",
+      "description": "Committed 8/12/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -92,7 +92,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-12T03:00:14.009Z",
+  "generated_at": "2026-08-12T08:00:08.454Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-13",
