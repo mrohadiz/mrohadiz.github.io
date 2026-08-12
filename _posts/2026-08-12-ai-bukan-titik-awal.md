@@ -10,6 +10,7 @@ tags:
   - software-architecture
   - observability
 excerpt: "Sebelum menambahkan AI ke sebuah sistem, pahami terlebih dahulu masalah yang ingin diselesaikan dan peran AI dalam alur pengambilan keputusan."
+image: /assets/images/og/2026-08-12-ai-bukan-titik-awal.png
 ---
 
 # Ringkasan
