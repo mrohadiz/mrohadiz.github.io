@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-08-12T08:00:05.966Z",
+  "collected_at": "2026-08-13T03:00:06.549Z",
   "period": {
-    "start": "2026-07-13",
-    "end": "2026-08-12"
+    "start": "2026-07-14",
+    "end": "2026-08-13"
   },
   "daily_trend": [
-    {
-      "date": "2026-07-13",
-      "users": 2,
-      "sessions": 2
-    },
     {
       "date": "2026-07-14",
       "users": 4,
@@ -87,52 +82,47 @@
     }
   ],
   "summary": {
-    "total_users": 33,
-    "total_sessions": 44,
-    "avg_engagement_time": 2078,
-    "bounce_rate": 0.3333333333333333,
+    "total_users": 31,
+    "total_sessions": 42,
+    "avg_engagement_time": 2097,
+    "bounce_rate": 0.38461538461538464,
     "returning_users": 2,
-    "avg_pages_per_session": 2.6
+    "avg_pages_per_session": 2.3
   },
   "previous_period": {
-    "total_users": 289,
-    "total_sessions": 289,
-    "avg_engagement_time": 1,
-    "bounce_rate": 0.4
+    "total_users": 290,
+    "total_sessions": 290,
+    "avg_engagement_time": 105,
+    "bounce_rate": 0.2222222222222222
   },
   "trend": {
-    "users_change": -0.8858131487889274,
-    "sessions_change": -0.8477508650519031,
-    "engagement_time_change": 2767.753604509833,
-    "bounce_rate_change": -0.16666666666666677
+    "users_change": -0.8931034482758621,
+    "sessions_change": -0.8551724137931035,
+    "engagement_time_change": 18.8805327907776,
+    "bounce_rate_change": 0.730769230769231
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 42,
-      "percentage": 0.9545454545454546
+      "sessions": 40,
+      "percentage": 0.9523809523809523
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 27,
-      "avg_engagement_time": 210
-    },
-    {
-      "page": "/notes/",
-      "sessions": 3,
-      "avg_engagement_time": 8
+      "sessions": 26,
+      "avg_engagement_time": 143
     },
     {
       "page": "/?",
@@ -145,6 +135,11 @@
       "avg_engagement_time": 7
     },
     {
+      "page": "/notes/",
+      "sessions": 2,
+      "avg_engagement_time": 9
+    },
+    {
       "page": "/observatory/",
       "sessions": 2,
       "avg_engagement_time": 41267
@@ -155,12 +150,12 @@
       "avg_engagement_time": 555
     },
     {
-      "page": "/2025/01/05/infrastructure-as-code/",
-      "sessions": 2,
-      "avg_engagement_time": 696
+      "page": "/methodology/",
+      "sessions": 1,
+      "avg_engagement_time": 10
     },
     {
-      "page": "/methodology/",
+      "page": "/topics/decision-systems/",
       "sessions": 1,
       "avg_engagement_time": 10
     }
@@ -168,72 +163,72 @@
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 21,
-      "percentage": 0.4772727272727273
+      "sessions": 19,
+      "percentage": 0.4523809523809524
     },
     {
       "country": "United States",
       "sessions": 16,
-      "percentage": 0.36363636363636365
+      "percentage": 0.38095238095238093
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.06818181818181818
+      "percentage": 0.07142857142857142
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     },
     {
       "country": "SE",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.023809523809523808
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 29,
-      "avg_engagement_time": 3148,
-      "percentage": 0.6590909090909091
+      "sessions": 27,
+      "avg_engagement_time": 3256,
+      "percentage": 0.6428571428571429
     },
     {
       "device": "Mobile",
       "sessions": 12,
       "avg_engagement_time": 11,
-      "percentage": 0.2727272727272727
+      "percentage": 0.2857142857142857
     },
     {
       "device": "Tablet",
       "sessions": 3,
       "avg_engagement_time": 7,
-      "percentage": 0.06818181818181818
+      "percentage": 0.07142857142857142
     }
   ],
   "reading": {
-    "avg_max_scroll": 53,
-    "deep_read_pct": 0.5,
-    "sessions": 30,
+    "avg_max_scroll": 48,
+    "deep_read_pct": 0.423,
+    "sessions": 26,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.36666666666666664
+        "pct": 0.4230769230769231
       },
       {
         "label": "25-50%",
-        "pct": 0.13333333333333333
+        "pct": 0.15384615384615385
       },
       {
         "label": "50-75%",
@@ -241,7 +236,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.5
+        "pct": 0.4230769230769231
       }
     ],
     "top_pages": [
@@ -297,14 +292,6 @@
   },
   "top_clicks": [
     {
-      "element": "R\nM. Rohadiz",
-      "sessions": 2
-    },
-    {
-      "element": "Notes",
-      "sessions": 2
-    },
-    {
       "element": "Traffic",
       "sessions": 1
     },
@@ -313,15 +300,19 @@
       "sessions": 1
     },
     {
+      "element": "R\nM. Rohadiz",
+      "sessions": 1
+    },
+    {
       "element": "24 JUL 2026\nDari Analytics ke Customer Intelligenc",
       "sessions": 1
     },
     {
-      "element": "14 JUL 2026\nInsight Tidak Pernah Muncul dari Dashb",
+      "element": "Notes",
       "sessions": 1
     },
     {
-      "element": "Infrastructure\nJan 05, 2025\n2 min read\nInfrastruct",
+      "element": "14 JUL 2026\nInsight Tidak Pernah Muncul dari Dashb",
       "sessions": 1
     }
   ],
@@ -360,11 +351,11 @@
     },
     {
       "hour": 8,
-      "views": 2
+      "views": 0
     },
     {
       "hour": 9,
-      "views": 6
+      "views": 3
     },
     {
       "hour": 10,
