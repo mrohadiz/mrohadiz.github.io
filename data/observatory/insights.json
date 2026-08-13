@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-13T03:00:09.088Z",
+  "collected_at": "2026-08-13T08:00:08.244Z",
   "insights": [
     {
       "type": "warning",
@@ -92,7 +92,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-13T03:00:09.088Z",
+  "generated_at": "2026-08-13T08:00:08.244Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-14",
