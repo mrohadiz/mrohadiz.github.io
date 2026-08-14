@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-13T08:00:08.244Z",
+  "collected_at": "2026-08-14T03:00:08.111Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 89%",
-      "description": "From 290 to 31 users this period.",
-      "metric": "-89%",
+      "title": "Site visitors dropped 91%",
+      "description": "From 294 to 27 users this period.",
+      "metric": "-91%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 34m 57s per session",
-      "description": "Across 42 sessions from 31 users this period.",
-      "metric": "34m 57s",
+      "title": "Average engagement is 38m 34s per session",
+      "description": "Across 38 sessions from 27 users this period.",
+      "metric": "38m 34s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -44,21 +44,11 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (6% of visitors)",
-      "description": "6% of this period's visitors came back for another session.",
+      "title": "2 returning users (7% of visitors)",
+      "description": "7% of this period's visitors came back for another session.",
       "metric": "2",
       "metric_label": "Returning Users",
       "icon": "users",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "3 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "3 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
       "priority": "low"
     },
     {
@@ -92,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-13T08:00:08.244Z",
+  "generated_at": "2026-08-14T03:00:08.111Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-14",
-      "end": "2026-08-13"
+      "start": "2026-07-15",
+      "end": "2026-08-14"
     }
   }
 }
