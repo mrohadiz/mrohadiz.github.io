@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-08-14T03:00:05.273Z",
+  "collected_at": "2026-08-14T08:00:05.817Z",
   "period": {
     "start": "2026-07-15",
     "end": "2026-08-14"
   },
   "daily_trend": [
-    {
-      "date": "2026-07-15",
-      "users": 4,
-      "sessions": 4
-    },
     {
       "date": "2026-07-19",
       "users": 1,
@@ -77,62 +72,52 @@
     }
   ],
   "summary": {
-    "total_users": 27,
-    "total_sessions": 38,
-    "avg_engagement_time": 2314,
-    "bounce_rate": 0.45454545454545453,
+    "total_users": 24,
+    "total_sessions": 34,
+    "avg_engagement_time": 2568,
+    "bounce_rate": 0.5,
     "returning_users": 2,
-    "avg_pages_per_session": 2.5
+    "avg_pages_per_session": 2.7
   },
   "previous_period": {
-    "total_users": 294,
-    "total_sessions": 294,
-    "avg_engagement_time": 104,
-    "bounce_rate": 0.15384615384615385
+    "total_users": 298,
+    "total_sessions": 298,
+    "avg_engagement_time": 105,
+    "bounce_rate": 0.17647058823529413
   },
   "trend": {
-    "users_change": -0.9081632653061225,
-    "sessions_change": -0.8707482993197279,
-    "engagement_time_change": 21.153845402416813,
-    "bounce_rate_change": 1.9545454545454544
+    "users_change": -0.9194630872483222,
+    "sessions_change": -0.8859060402684564,
+    "engagement_time_change": 23.436715806000645,
+    "bounce_rate_change": 1.833333333333333
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 36,
-      "percentage": 0.9473684210526315
+      "sessions": 32,
+      "percentage": 0.9411764705882353
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.029411764705882353
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.029411764705882353
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 26,
-      "avg_engagement_time": 143
+      "sessions": 25,
+      "avg_engagement_time": 127
     },
     {
       "page": "/?",
       "sessions": 3,
       "avg_engagement_time": 1
-    },
-    {
-      "page": "/?gtm_latency=1",
-      "sessions": 3,
-      "avg_engagement_time": 7
-    },
-    {
-      "page": "/notes/",
-      "sessions": 2,
-      "avg_engagement_time": 9
     },
     {
       "page": "/observatory/",
@@ -153,72 +138,76 @@
       "page": "/topics/decision-systems/",
       "sessions": 1,
       "avg_engagement_time": 10
+    },
+    {
+      "page": "/notes/",
+      "sessions": 1,
+      "avg_engagement_time": 10
+    },
+    {
+      "page": "/2026/07/29/2026-07-29-data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/",
+      "sessions": 1,
+      "avg_engagement_time": 464
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 19,
-      "percentage": 0.5
+      "sessions": 18,
+      "percentage": 0.5294117647058824
     },
     {
       "country": "United States",
-      "sessions": 13,
-      "percentage": 0.34210526315789475
+      "sessions": 10,
+      "percentage": 0.29411764705882354
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.07894736842105263
+      "percentage": 0.08823529411764706
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.029411764705882353
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.029411764705882353
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.029411764705882353
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 27,
-      "avg_engagement_time": 3256,
-      "percentage": 0.7105263157894737
+      "sessions": 26,
+      "avg_engagement_time": 3358,
+      "percentage": 0.7647058823529411
     },
     {
       "device": "Mobile",
       "sessions": 8,
       "avg_engagement_time": 1,
-      "percentage": 0.21052631578947367
-    },
-    {
-      "device": "Tablet",
-      "sessions": 3,
-      "avg_engagement_time": 7,
-      "percentage": 0.07894736842105263
+      "percentage": 0.23529411764705882
     }
   ],
   "reading": {
-    "avg_max_scroll": 39,
-    "deep_read_pct": 0.318,
-    "sessions": 22,
+    "avg_max_scroll": 33,
+    "deep_read_pct": 0.333,
+    "sessions": 18,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5
+        "pct": 0.6111111111111112
       },
       {
         "label": "25-50%",
-        "pct": 0.18181818181818182
+        "pct": 0.05555555555555555
       },
       {
         "label": "50-75%",
@@ -226,20 +215,20 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3181818181818182
+        "pct": 0.3333333333333333
       }
     ],
     "top_pages": [
       {
-        "page": "/",
-        "sessions": 3,
-        "avg_max_scroll": 75,
-        "deep_read_pct": 0.6666666666666666
-      },
-      {
         "page": "/?",
         "sessions": 3,
         "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/",
+        "sessions": 2,
+        "avg_max_scroll": 88,
         "deep_read_pct": 1
       },
       {
@@ -252,12 +241,6 @@
         "page": "/observatory/",
         "sessions": 1,
         "avg_max_scroll": 75,
-        "deep_read_pct": 1
-      },
-      {
-        "page": "/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
-        "sessions": 1,
-        "avg_max_scroll": 100,
         "deep_read_pct": 1
       }
     ]
@@ -278,14 +261,6 @@
     {
       "element": "24 JUL 2026\nDari Analytics ke Customer Intelligenc",
       "sessions": 1
-    },
-    {
-      "element": "Notes",
-      "sessions": 1
-    },
-    {
-      "element": "14 JUL 2026\nInsight Tidak Pernah Muncul dari Dashb",
-      "sessions": 1
     }
   ],
   "views_by_hour": [
@@ -303,7 +278,7 @@
     },
     {
       "hour": 3,
-      "views": 7
+      "views": 0
     },
     {
       "hour": 4,

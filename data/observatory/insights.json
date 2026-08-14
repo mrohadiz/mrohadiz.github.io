@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-14T03:00:08.111Z",
+  "collected_at": "2026-08-14T08:00:18.351Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 91%",
-      "description": "From 294 to 27 users this period.",
-      "metric": "-91%",
+      "title": "Site visitors dropped 92%",
+      "description": "From 298 to 24 users this period.",
+      "metric": "-92%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 38m 34s per session",
-      "description": "Across 38 sessions from 27 users this period.",
-      "metric": "38m 34s",
+      "title": "Average engagement is 42m 48s per session",
+      "description": "Across 34 sessions from 24 users this period.",
+      "metric": "42m 48s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "26 sessions with an average engagement of 2m 23s.",
-      "metric": "26",
+      "description": "25 sessions with an average engagement of 2m 7s.",
+      "metric": "25",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,8 +44,18 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (7% of visitors)",
-      "description": "7% of this period's visitors came back for another session.",
+      "title": "Direct drives 94% of traffic",
+      "description": "32 sessions from Direct this period.",
+      "metric": "94%",
+      "metric_label": "Traffic Share",
+      "icon": "globe",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "traffic",
+      "title": "2 returning users (8% of visitors)",
+      "description": "8% of this period's visitors came back for another session.",
       "metric": "2",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -82,7 +92,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-14T03:00:08.111Z",
+  "generated_at": "2026-08-14T08:00:18.351Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-15",
