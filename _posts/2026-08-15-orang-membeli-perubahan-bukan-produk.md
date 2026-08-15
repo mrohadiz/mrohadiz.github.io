@@ -10,6 +10,7 @@ tags:
   - decision-making
   - product-strategy
 excerpt: "Produk adalah kendaraan, tetapi yang dicari pelanggan sering kali adalah perubahan yang mereka harapkan terjadi setelah membeli."
+image: /assets/images/og/2026-08-15-orang-membeli-perubahan-bukan-produk.png
 ---
 
 # Orang Membeli Perubahan, Bukan Produk
