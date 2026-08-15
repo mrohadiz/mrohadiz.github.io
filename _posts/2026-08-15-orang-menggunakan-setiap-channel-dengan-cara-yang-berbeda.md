@@ -10,6 +10,7 @@ tags:
   - customer-journey
   - content-strategy
 excerpt: "Orang membawa niat dan perilaku yang berbeda ketika menggunakan channel digital yang berbeda. Karena itu, konten yang efektif di satu tempat belum tentu efektif di tempat lain."
+image: /assets/images/og/2026-08-15-orang-menggunakan-setiap-channel-dengan-cara-yang-berbeda.png
 ---
 
 # Orang Menggunakan Setiap Channel Dengan Cara Yang Berbeda
