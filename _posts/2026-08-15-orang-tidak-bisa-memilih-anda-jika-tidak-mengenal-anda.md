@@ -10,6 +10,7 @@ tags:
   - digital-marketing
   - decision-making
 excerpt: "Sebelum seseorang mempercayai, mempertimbangkan, atau membeli dari sebuah bisnis, mereka harus terlebih dahulu mengetahui bahwa bisnis tersebut ada."
+image: /assets/images/og/2026-08-15-orang-tidak-bisa-memilih-anda-jika-tidak-mengenal-anda.png
 ---
 
 # Orang Tidak Bisa Memilih Anda Jika Tidak Mengenal Anda
