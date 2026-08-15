@@ -11,6 +11,7 @@ tags:
   - evidence
   - customer-journey
 excerpt: "Ketika orang mempertimbangkan sebuah pilihan, klaim saja jarang cukup. Bukti membantu mengurangi keraguan dan membuat keputusan terasa lebih aman."
+image: /assets/images/og/2026-08-15-orang-lebih-percaya-bukti-daripada-klaim.png
 ---
 
 ## Ringkasan
