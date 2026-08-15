@@ -10,6 +10,7 @@ tags:
   - decision-systems
   - marketing
 excerpt: "Produk yang baik tidak otomatis menghasilkan pelanggan. Sebelum membeli, seseorang harus menemukan, mengenal, dan mempercayai Anda terlebih dahulu."
+image: /assets/images/og/2026-08-15-go-to-market-mengapa-produk-bagus-saja-tidak-cukup.png
 ---
 
 # Ringkasan
