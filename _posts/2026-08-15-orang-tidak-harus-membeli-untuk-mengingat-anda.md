@@ -10,6 +10,7 @@ tags:
   - marketing
   - brand-awareness
 excerpt: "Tidak semua orang yang mengenal bisnis akan langsung menjadi pelanggan. Dalam pasar yang semakin ramai, menjadi mudah diingat dapat menjadi langkah penting sebelum sebuah kebutuhan berubah menjadi keputusan pembelian."
+image: /assets/images/og/2026-08-15-orang-tidak-harus-membeli-untuk-mengingat-anda.png
 ---
 
 # Orang Tidak Harus Membeli Untuk Mengingat Anda
