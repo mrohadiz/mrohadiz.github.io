@@ -10,6 +10,7 @@ tags:
   - trust
   - business
 excerpt: "Keputusan pembelian tidak hanya ditentukan oleh harga atau kualitas. Ketika pilihan sulit dibandingkan, kepercayaan membantu orang mengurangi ketidakpastian dan mengambil keputusan."
+image: /assets/images/og/2026-08-15-mengapa-orang-memilih-yang-mereka-percaya.png
 ---
 
 # Mengapa Orang Memilih Yang Mereka Percaya
