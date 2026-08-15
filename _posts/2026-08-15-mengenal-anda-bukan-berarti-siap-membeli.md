@@ -10,6 +10,7 @@ tags:
   - decision-making
   - marketing
 excerpt: "Mengenal sebuah bisnis tidak berarti seseorang siap membeli. Keputusan membutuhkan waktu, interaksi, dan alasan yang cukup untuk bergerak dari ketertarikan menuju tindakan."
+image: /assets/images/og/2026-08-15-mengenal-anda-bukan-berarti-siap-membeli.png
 ---
 
 # Mengenal Anda Bukan Berarti Siap Membeli
