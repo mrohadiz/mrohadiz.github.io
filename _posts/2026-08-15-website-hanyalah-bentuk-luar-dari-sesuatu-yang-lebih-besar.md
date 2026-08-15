@@ -10,6 +10,7 @@ tags:
   - digital-assets
   - decision-systems
 excerpt: "Website sering dianggap sebagai produk akhir, padahal sering kali hanya menjadi bentuk luar dari sistem yang lebih besar untuk membantu orang melakukan sesuatu."
+image: /assets/images/og/2026-08-15-website-hanyalah-bentuk-luar-dari-sesuatu-yang-lebih-besar.png
 ---
 
 Ketika seseorang berkata:
