@@ -1,7 +1,7 @@
 {
   "name": "mrohadiz.github.io",
   "version": "1.0.0",
-  "description": "Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, Crypto Observation, dan Software Architecture.",
+  "description": "Website personal untuk dokumentasi AI Engineering, Decision Systems, Infrastructure, Business Intelligence, dan Software Architecture.",
   "main": "index.js",
   "directories": {
     "test": "tests"

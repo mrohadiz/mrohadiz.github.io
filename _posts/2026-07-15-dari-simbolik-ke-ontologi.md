@@ -43,7 +43,7 @@ Kalau kita hanya berhenti di simbolik, kita mudah reaktif. Kalau sudah naik ke a
 
 Ini relevan untuk banyak bidang:
 
-- dalam trading, membedakan sinyal dari mekanisme pasar,
+- dalam observabilitas sistem, membedakan sinyal dari noise data,
 - dalam bisnis, membedakan traffic dari demand,
 - dalam engineering, membedakan error teknis dari kesalahan definisi model.
 

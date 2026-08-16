@@ -37,16 +37,9 @@ POSTS_DIR="${PROJECT_ROOT}/_posts"
 # Known categories for validation
 KNOWN_CATEGORIES=(
   "AI Engineering"
-  "Business Architecture"
   "Business Intelligence"
-  "Crypto Observation"
-  "Decision Intelligence"
   "Decision Systems"
-  "Digital Garden"
   "Infrastructure"
-  "Meta"
-  "Narrative Observatory"
-  "Prompt Engineering"
   "Software Architecture"
 )
 

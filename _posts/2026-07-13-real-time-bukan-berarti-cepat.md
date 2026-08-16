@@ -46,7 +46,7 @@ Dua pertanyaan tersebut terdengar mirip, tetapi menghasilkan arsitektur yang san
 
 ## Tidak Semua Sistem Membutuhkan Detik
 
-Sistem trading frekuensi tinggi memang membutuhkan data dalam hitungan milidetik.
+Sistem pemrosesan transaksi pembayaran kritis memang membutuhkan data dalam hitungan milidetik.
 
 Namun Digital Garden bukan sistem seperti itu.
 
@@ -64,8 +64,8 @@ Saya mulai melihat bahwa setiap sistem memiliki ritme yang berbeda.
 
 | Sistem | Decision Freshness |
 | ------- | -----------------: |
-| High Frequency Trading | Milidetik |
-| Crypto Trading | Beberapa detik |
+| Payment & Fraud Detection | Milidetik |
+| IoT Sensor Telemetry | Beberapa detik |
 | Monitoring Infrastruktur | Puluhan detik |
 | Dashboard Operasional | Beberapa menit |
 | Digital Garden Observatory | Puluhan menit |

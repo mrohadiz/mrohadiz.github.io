@@ -777,13 +777,13 @@ Satu catatan: pre-mortem tidak efektif jika dilakukan setelah keputusan final da
 
 ### Ringkasan
 
-RADAR adalah nama sistem market intelligence yang saya bangun: Real-time Aggregation, Detection, Analysis, dan Reporting. Sistem ini mengumpulkan data pasar kripto dari berbagai sumber secara real-time untuk mendukung decision support — bukan trading signal, tetapi lapisan informasi sebelum keputusan.
+RADAR adalah nama sistem event & market intelligence yang saya bangun: Real-time Aggregation, Detection, Analysis, dan Reporting. Sistem ini mengumpulkan data multi-sumber secara real-time untuk mendukung decision support — sebagai lapisan informasi terstruktur sebelum pengambilan keputusan.
 
 ---
 
 ### Definisi
 
-RADAR adalah platform yang mengagregasi data pasar dari berbagai sumber — exchange, on-chain, social sentiment — dan menyajikannya dalam bentuk yang dapat ditindaklanjuti. Fokusnya bukan pada prediksi harga, tetapi pada pendeteksian anomali dan perubahan struktur pasar.
+RADAR adalah platform yang mengagregasi aliran data dari berbagai sumber — telemetry, API feeds, public metrics, social sentiment — dan menyajikannya dalam bentuk yang dapat ditindaklanjuti. Fokusnya adalah pada pendeteksian anomali dan perubahan struktur sinyal.
 
 Akronim: **R**eal-time **A**ggregation, **D**etection, **A**nalysis, **R**eporting.
 
@@ -791,24 +791,24 @@ Akronim: **R**eal-time **A**ggregation, **D**etection, **A**nalysis, **R**eporti
 
 ### Mengapa Penting
 
-Pasar kripto menghasilkan data dalam volume besar dan kecepatan tinggi. Informasi yang relevan tersebar di banyak sumber. RADAR dirancang untuk menjembatani kesenjangan antara data mentah dan insight yang berguna.
+Arsitektur modern menghasilkan data dalam volume besar dan kecepatan tinggi. Informasi yang relevan sering kali tersebar di banyak subsistem. RADAR dirancang untuk menjembatani kesenjangan antara data mentah dan insight yang berguna.
 
 Sistem ini penting karena:
 
-- Manusia tidak bisa memproses tick data 24/7
-- Satu sumber data sering memberikan sinyal yang menyesatkan
-- Konteks — hubungan antar data — sering lebih penting daripada data itu sendiri
+- Manusia tidak bisa memproses raw event stream 24/7
+- Satu sumber data sering memberikan sinyal parsial yang menyesatkan
+- Konteks — korelasi antar data — sering lebih penting daripada data tunggal itu sendiri
 
 ---
 
 ### Mental Model
 
 ```
-Exchange A ──┐
-Exchange B ──┤
-Chain Data ──┼──→ Aggregation → Detection → Analysis → Report
-Sentiment  ──┤
-News       ──┘
+Telemetry A  ──┐
+Data Feed B  ──┤
+System Logs  ──┼──→ Aggregation → Detection → Analysis → Report
+Public Feeds ──┤
+Search Data  ──┘
 ```
 
 Setiap lapisan mengurangi noise dan meningkatkan signal.
@@ -823,13 +823,13 @@ RADAR dirancang berdasarkan pengalaman langsung: memiliki akses ke data tidak be
 
 ### Kesalahpahaman Umum
 
-❌ RADAR = bot trading.
+❌ RADAR = sistem eksekusi otomatis.
 
-✔ RADAR tidak mengeksekusi trading. RADAR adalah decision support — memberi informasi untuk keputusan manusia.
+✔ RADAR tidak melakukan eksekusi sepihak. RADAR adalah decision support — memberi informasi kontekstual untuk keputusan manusia.
 
-❌ RADAR memprediksi harga.
+❌ RADAR memprediksi masa depan secara mutlak.
 
-✔ Tidak ada sistem yang bisa memprediksi harga secara andal. RADAR mendeteksi perubahan struktur pasar — sesuatu yang berbeda dari prediksi harga.
+✔ Tidak ada sistem yang bisa memprediksi masa depan secara sempurna. RADAR mendeteksi perubahan pola dan anomali sinyal — sesuatu yang berbeda dari ramalan.
 
 ---
 
