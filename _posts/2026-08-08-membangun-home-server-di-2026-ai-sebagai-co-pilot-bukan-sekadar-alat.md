@@ -17,8 +17,6 @@ excerpt: "Perjalanan membangun home server modern dengan bantuan AI, mulai dari 
 image: /assets/images/og/2026-08-08-membangun-home-server-di-2026-ai-sebagai-co-pilot-bukan-sekadar-alat.png
 ---
 
-# Membangun Home Server di 2026: AI sebagai Co-Pilot, Bukan Sekadar Alat
-
 ## Ringkasan
 
 Ketika mendengar istilah home server, banyak orang langsung membayangkan rak server, kabel jaringan yang rumit, atau biaya perangkat yang mahal.

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Go To Market #1: Mengapa Produk Bagus Saja Tidak Cukup"
-date: 2026-08-15
+date: 2026-08-15 10:01:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,12 @@ tags:
   - customer-journey
   - decision-systems
   - marketing
+series: go-to-market
 excerpt: "Produk yang baik tidak otomatis menghasilkan pelanggan. Sebelum membeli, seseorang harus menemukan, mengenal, dan mempercayai Anda terlebih dahulu."
 image: /assets/images/og/2026-08-15-go-to-market-mengapa-produk-bagus-saja-tidak-cukup.png
 ---
 
-# Ringkasan
+## Ringkasan
 
 Banyak pemilik usaha percaya bahwa produk yang bagus akan dengan sendirinya menarik pelanggan.
 
@@ -23,7 +24,7 @@ Masalahnya bukan kualitas produk, melainkan fakta bahwa pelanggan harus melalui 
 
 Jika proses tersebut tidak dipahami, bisnis sering kali menyimpulkan bahwa masalahnya ada pada produk, padahal hambatannya berada di tempat lain.
 
-# Produk Bagus Tidak Selalu Terlihat
+## Produk Bagus Tidak Selalu Terlihat
 
 Bayangkan ada dua bisnis yang menawarkan kualitas layanan yang serupa.
 
@@ -37,7 +38,7 @@ Bukan karena produknya lebih baik.
 
 Tetapi karena lebih mudah ditemukan dan dipahami.
 
-# Pelanggan Tidak Langsung Membeli
+## Pelanggan Tidak Langsung Membeli
 
 Sebelum membeli, seseorang biasanya melewati beberapa tahap.
 
@@ -55,7 +56,7 @@ Setiap tahap memiliki tantangan yang berbeda.
 
 Ketika sebuah bisnis gagal pada salah satu tahap tersebut, penjualan dapat terhambat meskipun kualitas produk sebenarnya sudah memadai.
 
-# Kesalahan yang Sering Terjadi
+## Kesalahan yang Sering Terjadi
 
 Beberapa kesalahan umum yang sering muncul:
 
@@ -66,7 +67,7 @@ Beberapa kesalahan umum yang sering muncul:
 
 Akibatnya, upaya pemasaran terasa tidak efektif dan sulit dievaluasi.
 
-# Mengapa Ini Penting
+## Mengapa Ini Penting
 
 Memahami perjalanan pelanggan membantu kita melihat bisnis sebagai sebuah sistem.
 
@@ -78,7 +79,7 @@ Ketika seseorang belum percaya kepada Anda, kebutuhan utamanya bukan diskon.
 
 Setiap tahap membutuhkan pendekatan yang berbeda.
 
-# Checklist Observasi
+## Checklist Observasi
 
 - Apakah orang tahu bahwa bisnis Anda ada?
 - Apakah mereka mudah memahami apa yang Anda tawarkan?
@@ -86,7 +87,7 @@ Setiap tahap membutuhkan pendekatan yang berbeda.
 - Apakah proses menghubungi atau membeli cukup mudah?
 - Apakah Anda mengetahui dari mana pelanggan datang?
 
-# Penutup
+## Penutup
 
 Produk yang baik tetap penting.
 

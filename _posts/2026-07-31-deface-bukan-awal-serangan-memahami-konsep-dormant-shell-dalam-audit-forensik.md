@@ -15,8 +15,6 @@ excerpt: "Dalam banyak kasus, deface bukanlah awal serangan, melainkan tahap akh
 image: /assets/images/og/2026-07-31-deface-bukan-awal-serangan-memahami-konsep-dormant-shell-dalam-audit-forensik.png
 ---
 
-# Deface Bukan Awal Serangan: Memahami Konsep Dormant Shell dalam Audit Forensik
-
 ## Ringkasan
 
 Ketika sebuah website mengalami deface, perhatian biasanya langsung tertuju pada halaman yang berubah atau konten yang telah diganti oleh penyerang. Padahal, dari sudut pandang audit forensik, deface sering kali hanyalah gejala yang terlihat di permukaan.

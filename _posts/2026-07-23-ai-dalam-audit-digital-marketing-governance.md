@@ -13,8 +13,6 @@ excerpt: "AI dapat mempercepat audit digital marketing, tetapi akurasi analisis 
 image: /assets/images/og/2026-07-23-ai-dalam-audit-digital-marketing-governance.png
 ---
 
-# AI dalam Audit Digital Marketing: Mengapa Akurasi Tidak Cukup Tanpa Governance
-
 Banyak perusahaan mulai menggunakan AI untuk membantu audit digital marketing.
 
 AI dapat menganalisis campaign, menemukan pola, membuat rangkuman performa, hingga memberikan rekomendasi optimasi dalam hitungan detik.

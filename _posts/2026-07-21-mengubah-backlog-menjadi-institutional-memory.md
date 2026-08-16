@@ -13,8 +13,6 @@ excerpt: "Mengubah backlog dari catatan pasif menjadi memori institusi yang akti
 image: /assets/images/og/2026-07-21-mengubah-backlog-menjadi-institutional-memory.png
 ---
 
-# Mengubah Backlog Menjadi Institutional Memory
-
 Banyak tim memakai backlog sebagai daftar pekerjaan. Masalahnya, backlog yang hanya hidup di dokumen sering berubah menjadi tempat parkir ide yang mudah dilupakan. Saat jumlah temuan bertambah, sulit membedakan mana yang sudah selesai, mana yang masih relevan, dan mana yang seharusnya diprioritaskan.
 
 Pendekatan ini berkaitan dengan konsep [Working Memory (Eksternal)](/glossary/#working-memory-eksternal) — memindahkan informasi dari pikiran ke sistem yang persistent dan searchable. Dalam konteks [Architectural Decision Record](/glossary/#architectural-decision-record-adr), setiap keputusan yang terdokumentasi dengan baik menjadi bagian dari institutional memory.

@@ -14,9 +14,7 @@ excerpt: "Goal yang efektif tidak dimulai dari target, tetapi dari kemampuan sis
 image: /assets/images/og/2026-07-28-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---
 
-# Goal Bukan Target, tetapi Proses Membangun Capability
-
-## Ringkasan
+### Ringkasan
 
 Selama bertahun-tahun, berbagai framework seperti SMART, OKR, maupun benchmark industri membantu organisasi menetapkan tujuan. Kini AI mampu menghasilkan target hanya dalam hitungan detik berdasarkan data dan referensi global.
 
@@ -33,9 +31,9 @@ Pendekatan ini terkait erat dengan [Systems Thinking](/glossary/#systems-thinkin
 
 ---
 
-# Masalah Umum
+## Masalah Umum
 
-## Benchmark berubah menjadi target
+### Benchmark berubah menjadi target
 
 Tidak sedikit organisasi mengambil benchmark industri lalu langsung menjadikannya target internal.
 
@@ -47,7 +45,7 @@ Padahal benchmark hanya menjelaskan apa yang mungkin dicapai oleh organisasi lai
 
 ---
 
-## AI menjadi sumber angka tanpa memahami konteks
+### AI menjadi sumber angka tanpa memahami konteks
 
 AI mampu memberikan berbagai referensi industri dengan cepat.
 
@@ -67,7 +65,7 @@ Keputusan tetap membutuhkan pemahaman terhadap **realitas internal**.
 
 ---
 
-## Fokus pada output, bukan outcome
+### Fokus pada output, bukan outcome
 
 Organisasi sering berhasil mencapai target administratif.
 
@@ -86,9 +84,9 @@ Outcome adalah perubahan yang ingin dihasilkan.
 
 ---
 
-# Framework
+## Framework
 
-## 1. Intent
+### 1. Intent
 
 Apa perubahan yang sebenarnya ingin dicapai?
 
@@ -98,7 +96,7 @@ Bukan angka.
 
 ---
 
-## 2. Development Reality
+### 2. Development Reality
 
 Di tahap perkembangan mana kita berada saat ini?
 
@@ -110,7 +108,7 @@ Target yang sama belum tentu tepat untuk semua.
 
 ---
 
-## 3. Capability Building
+### 3. Capability Building
 
 Capability apa yang harus dibangun agar goal menjadi mungkin?
 
@@ -126,7 +124,7 @@ Capability selalu lebih penting daripada sekadar aktivitas.
 
 ---
 
-## 4. Experiment
+### 4. Experiment
 
 Goal besar jarang tercapai melalui satu perubahan besar.
 
@@ -138,7 +136,7 @@ Bukan tujuan akhir.
 
 ---
 
-## 5. Outcome & Learning
+### 5. Outcome & Learning
 
 Evaluasi tidak berhenti pada:
 
@@ -155,11 +153,11 @@ Learning membuat goal menjadi proses yang terus berkembang.
 
 ---
 
-# Mengapa Ini Penting?
+## Mengapa Ini Penting?
 
 Framework ini tidak hanya berlaku pada organisasi.
 
-## Individu
+### Individu
 
 Belajar bukan mengejar nilai.
 
@@ -167,7 +165,7 @@ Belajar adalah membangun capability.
 
 ---
 
-## Karier
+### Karier
 
 Promosi bukan tujuan.
 
@@ -175,7 +173,7 @@ Capability kepemimpinanlah yang membuat promosi menjadi mungkin.
 
 ---
 
-## Parenting
+### Parenting
 
 Anak tidak menjadi mandiri karena satu aturan.
 
@@ -183,7 +181,7 @@ Anak menjadi mandiri karena capability berkembang melalui latihan, lingkungan, d
 
 ---
 
-## Organisasi
+### Organisasi
 
 Revenue, conversion, maupun produktivitas merupakan outcome.
 
@@ -191,7 +189,7 @@ Yang membuat outcome tersebut muncul adalah capability organisasi.
 
 ---
 
-# Checklist
+## Checklist
 
 Sebelum menetapkan goal, tanyakan:
 
@@ -204,7 +202,7 @@ Sebelum menetapkan goal, tanyakan:
 
 ---
 
-# Penutup
+## Penutup
 
 Goal sering dipahami sebagai target yang harus dicapai.
 

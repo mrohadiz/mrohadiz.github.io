@@ -13,8 +13,6 @@ tags:
 excerpt: "Perubahan terbesar dalam Go-To-Market bukan lagi dari outbound ke inbound, tetapi dari pendekatan yang berpusat pada lead menjadi pendekatan yang berpusat pada signal."
 ---
 
-# Banyak Perusahaan Masih Mengejar Lead, Padahal yang Harus Dicari adalah Signal
-
 ## Ringkasan
 
 Selama bertahun-tahun, banyak organisasi mengukur keberhasilan pemasaran dari jumlah traffic, lead, atau MQL yang dihasilkan. Metrik tersebut tetap penting, tetapi semuanya memiliki satu kelemahan yang sama: baru terlihat setelah seseorang menunjukkan minat.

@@ -5,7 +5,7 @@ image: /assets/images/og/2026-07-14-root-cause-analysis-lebih-penting-daripada-s
 date: 2026-07-14
 last_modified_at: 2026-07-14
 categories:
-  - Decision Intelligence
+  - Decision Systems
 tags:
   - root-cause-analysis
   - troubleshooting

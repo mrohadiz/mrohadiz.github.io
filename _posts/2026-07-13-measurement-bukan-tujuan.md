@@ -5,7 +5,7 @@ image: /assets/images/og/2026-07-13-measurement-bukan-tujuan.png
 date: 2026-07-13
 last_modified_at: 2026-07-13
 categories:
-  - Decision Intelligence
+  - Decision Systems
 tags:
   - measurement
   - analytics

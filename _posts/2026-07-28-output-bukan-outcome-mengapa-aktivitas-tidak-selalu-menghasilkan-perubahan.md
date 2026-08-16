@@ -14,8 +14,6 @@ excerpt: "Output adalah aktivitas yang dilakukan sistem. Outcome adalah perubaha
 image: /assets/images/og/2026-07-28-output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan.png
 ---
 
-# Output Bukan Outcome: Mengapa Aktivitas Tidak Selalu Menghasilkan Perubahan
-
 ## Ringkasan
 
 Dalam organisasi, keberhasilan sering diukur dari apa yang berhasil dikerjakan.

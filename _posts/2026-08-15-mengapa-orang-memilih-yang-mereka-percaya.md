@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Mengapa Orang Memilih Yang Mereka Percaya"
-date: 2026-08-15
+title: "Go To Market #3: Mengapa Orang Memilih Yang Mereka Percaya"
+date: 2026-08-15 10:03:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - customer-decision
   - trust
   - business
+series: go-to-market
 excerpt: "Keputusan pembelian tidak hanya ditentukan oleh harga atau kualitas. Ketika pilihan sulit dibandingkan, kepercayaan membantu orang mengurangi ketidakpastian dan mengambil keputusan."
 image: /assets/images/og/2026-08-15-mengapa-orang-memilih-yang-mereka-percaya.png
 ---
-
-# Mengapa Orang Memilih Yang Mereka Percaya
 
 ## Ringkasan
 

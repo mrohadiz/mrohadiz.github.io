@@ -14,8 +14,6 @@ excerpt: "Perkembangan technical talent tidak hanya terlihat dari jumlah task ya
 image: /assets/images/og/2026-07-25-technical-ownership-mengukur-perkembangan-dari-kualitas-pertanyaan.png
 ---
 
-# Technical Ownership: Mengukur Perkembangan dari Kualitas Pertanyaan
-
 Salah satu indikator perkembangan seorang technical talent bukan hanya seberapa banyak pekerjaan yang dapat diselesaikan, tetapi bagaimana cara mereka memahami dan menghadapi masalah.
 
 Kemampuan teknis penting, tetapi kemampuan mengambil keputusan dalam konteks nyata adalah pembeda antara seseorang yang hanya menjalankan pekerjaan dan seseorang yang memiliki ownership terhadap sistem.

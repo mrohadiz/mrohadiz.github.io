@@ -14,8 +14,6 @@ excerpt: "Observasi tentang bagaimana AI Overview memahami organisasi digital da
 image: /assets/images/og/2026-07-17-from-seo-to-knowledge-architecture-lessons-from-auditing-google-ai-overview.png
 ---
 
-# From SEO to Knowledge Architecture: Lessons from Auditing Google AI Overview
-
 > Catatan: Artikel ini merupakan hasil observasi terhadap keluaran Google AI Overview menggunakan studi kasus Kampung Inggris LC. Tujuannya bukan menjelaskan cara kerja internal Google secara pasti, melainkan menyusun hipotesis berdasarkan perilaku AI yang dapat diamati.
 
 ## SEO Sedang Berubah

@@ -14,8 +14,6 @@ excerpt: "Organisasi berkembang seperti sistem hidup. Capability, tanggung jawab
 image: /assets/images/og/2026-07-28-organisasi-juga-mengalami-tahap-perkembangan.png
 ---
 
-# Organisasi Juga Mengalami Tahap Perkembangan
-
 ## Ringkasan
 
 Ketika berbicara tentang organisasi, kita sering menggunakan istilah seperti transformasi, perubahan, atau peningkatan kinerja.

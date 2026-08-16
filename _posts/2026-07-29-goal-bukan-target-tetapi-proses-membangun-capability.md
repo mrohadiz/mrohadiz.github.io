@@ -14,8 +14,6 @@ excerpt: "Goal yang baik bukan sekadar target yang harus dicapai, tetapi mekanis
 image: /assets/images/og/2026-07-29-goal-bukan-target-tetapi-proses-membangun-capability.png
 ---
 
-# Goal Bukan Target, tetapi Proses Membangun Capability
-
 Sebagian besar organisasi menetapkan goal dalam bentuk angka.
 
 * Target penjualan.

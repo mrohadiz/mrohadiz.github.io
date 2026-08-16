@@ -14,8 +14,6 @@ excerpt: "Banyak organisasi mengumpulkan data sebanyak mungkin, tetapi sedikit y
 image: /assets/images/og/2026-07-29-data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan.png
 ---
 
-# Data Tidak Memberikan Keputusan, Data Hanya Memberikan Kemungkinan
-
 Banyak organisasi percaya bahwa semakin banyak data yang mereka miliki, semakin baik keputusan yang akan dihasilkan.
 
 Akibatnya, investasi besar dilakukan untuk membangun data warehouse, dashboard, data lake, hingga berbagai platform analitik.

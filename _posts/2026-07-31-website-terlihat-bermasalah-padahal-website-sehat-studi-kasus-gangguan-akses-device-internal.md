@@ -15,8 +15,6 @@ excerpt: "Tidak semua laporan website tidak dapat diakses berasal dari gangguan 
 image: /assets/images/og/2026-07-31-website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal.png
 ---
 
-# Website Terlihat Bermasalah, Padahal Website Sehat: Studi Kasus Gangguan Akses dari Device Internal
-
 ## Ringkasan
 
 Ketika menerima laporan bahwa sebuah website tidak dapat diakses, respons pertama yang sering muncul adalah memeriksa kondisi server. Padahal, tidak semua masalah akses berasal dari sisi infrastruktur.

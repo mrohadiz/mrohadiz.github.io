@@ -12,8 +12,6 @@ excerpt: "Tool yang dibuat untuk menghemat waktu bisa berubah menjadi pekerjaan 
 image: /assets/images/og/2026-07-20-the-tool-building-trap.png
 ---
 
-# The Tool-Building Trap
-
 Banyak engineer menyukai otomatisasi. Saat menemukan pekerjaan yang berulang, refleks pertama biasanya adalah membuat script, CLI, dashboard, atau bahkan platform baru.
 
 Masalahnya, tool yang dibuat untuk menghemat waktu bisa berubah menjadi pekerjaan baru. Di titik itu, kita tidak lagi menyelesaikan masalah awal. Kita sedang membangun produk lain.

@@ -13,8 +13,6 @@ excerpt: "AI hanya sebaik data yang diberikan kepadanya. Data governance menjadi
 image: /assets/images/og/2026-07-24-ai-tidak-membuat-data-menjadi-benar.png
 ---
 
-# AI Tidak Membuat Data Menjadi Benar: Mengapa Data Governance Menjadi Fondasi Sistem Keputusan Modern
-
 Banyak organisasi melihat AI sebagai solusi untuk memahami data.
 
 Dengan AI, laporan dapat dirangkum otomatis, pola dapat ditemukan lebih cepat, dan rekomendasi dapat dibuat dalam hitungan detik.

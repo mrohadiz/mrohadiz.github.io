@@ -14,8 +14,6 @@ excerpt: "Onboarding yang efektif tidak dimulai dari daftar tools yang harus dip
 image: /assets/images/og/2026-07-25-mengapa-onboarding-harus-dimulai-dari-konteks-bukan-tools.png
 ---
 
-# Mengapa Onboarding Harus Dimulai dari Konteks, Bukan Tools
-
 Banyak onboarding teknis dimulai dengan mengenalkan tools, framework, atau prosedur kerja.
 
 Pendekatan ini memang membantu seseorang cepat memahami cara menjalankan tugas, tetapi sering kali belum menjawab pertanyaan yang lebih penting:

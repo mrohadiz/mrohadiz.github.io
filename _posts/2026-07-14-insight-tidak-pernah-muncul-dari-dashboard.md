@@ -5,7 +5,7 @@ image: /assets/images/og/2026-07-14-insight-tidak-pernah-muncul-dari-dashboard.p
 date: 2026-07-14
 last_modified_at: 2026-07-14
 categories:
-  - Decision Intelligence
+  - Decision Systems
 tags:
   - decision-intelligence
   - analytics

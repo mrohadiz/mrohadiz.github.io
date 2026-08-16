@@ -12,8 +12,6 @@ excerpt: "Tidak semua internal tool perlu tumbuh menjadi platform; terlalu cepat
 image: /assets/images/og/2026-07-20-stop-building-platforms-too-early.png
 ---
 
-# Stop Building Platforms Too Early
-
 Salah satu jebakan yang sering muncul saat membangun internal tools adalah keinginan untuk menjadikannya platform terlalu cepat.
 
 Awalnya cuma ingin membuat satu command yang berguna. Lalu muncul ide tambahan: dashboard, plugin, provider abstraction, analytics, report, integrasi AI, dan seterusnya. Dalam waktu singkat, tool kecil berubah menjadi proyek besar.

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Orang Membeli Perubahan, Bukan Produk"
-date: 2026-08-15
+title: "Go To Market #7: Orang Membeli Perubahan, Bukan Produk"
+date: 2026-08-15 10:07:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - customer-behavior
   - decision-making
   - product-strategy
+series: go-to-market
 excerpt: "Produk adalah kendaraan, tetapi yang dicari pelanggan sering kali adalah perubahan yang mereka harapkan terjadi setelah membeli."
 image: /assets/images/og/2026-08-15-orang-membeli-perubahan-bukan-produk.png
 ---
-
-# Orang Membeli Perubahan, Bukan Produk
 
 Secara transaksi, orang memang membeli produk.
 

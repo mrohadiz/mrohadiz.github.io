@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Mengenal Anda Bukan Berarti Siap Membeli"
-date: 2026-08-15
+title: "Go To Market #4: Mengenal Anda Bukan Berarti Siap Membeli"
+date: 2026-08-15 10:04:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - customer-journey
   - decision-making
   - marketing
+series: go-to-market
 excerpt: "Mengenal sebuah bisnis tidak berarti seseorang siap membeli. Keputusan membutuhkan waktu, interaksi, dan alasan yang cukup untuk bergerak dari ketertarikan menuju tindakan."
 image: /assets/images/og/2026-08-15-mengenal-anda-bukan-berarti-siap-membeli.png
 ---
-
-# Mengenal Anda Bukan Berarti Siap Membeli
 
 Kita sering menganggap bahwa seseorang yang tertarik akan segera mengambil keputusan.
 

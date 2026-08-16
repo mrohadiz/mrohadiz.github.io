@@ -15,8 +15,6 @@ excerpt: "Cloudflare Tunnel memungkinkan aplikasi self-hosted diakses dari inter
 image: /assets/images/og/2026-08-11-cloudflare-tunnel-memublikasikan-aplikasi-tanpa-membuka-port-ke-internet.png
 ---
 
-# Cloudflare Tunnel: Memublikasikan Aplikasi Tanpa Membuka Port ke Internet
-
 ## Ringkasan
 
 Salah satu tantangan terbesar saat membangun home server adalah bagaimana membuat aplikasi dapat diakses dari internet.

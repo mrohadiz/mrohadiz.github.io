@@ -15,8 +15,6 @@ excerpt: "Nilai terbesar Proxmox bukan hanya virtualisasi, tetapi kemampuannya m
 image: /assets/images/og/2026-08-12-proxmox-mesin-eksperimen-untuk-belajar-infrastruktur.png
 ---
 
-# Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur
-
 ## Ringkasan
 
 Ketika membahas Proxmox, banyak orang langsung mengasosiasikannya dengan virtualisasi.

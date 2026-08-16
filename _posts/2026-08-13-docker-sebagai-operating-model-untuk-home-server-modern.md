@@ -15,8 +15,6 @@ excerpt: "Docker bukan sekadar alat untuk menjalankan aplikasi. Dalam banyak lin
 image: /assets/images/og/2026-08-13-docker-sebagai-operating-model-untuk-home-server-modern.png
 ---
 
-# Docker Sebagai Operating Model untuk Home Server Modern
-
 ## Ringkasan
 
 Banyak orang pertama kali mengenal Docker sebagai teknologi container.

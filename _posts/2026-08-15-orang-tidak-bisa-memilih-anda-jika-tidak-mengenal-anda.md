@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Go To Market #2: Orang Tidak Bisa Memilih Anda Jika Tidak Mengenal Anda"
-date: 2026-08-15
+date: 2026-08-15 10:02:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - customer-journey
   - digital-marketing
   - decision-making
+series: go-to-market
 excerpt: "Sebelum seseorang mempercayai, mempertimbangkan, atau membeli dari sebuah bisnis, mereka harus terlebih dahulu mengetahui bahwa bisnis tersebut ada."
 image: /assets/images/og/2026-08-15-orang-tidak-bisa-memilih-anda-jika-tidak-mengenal-anda.png
 ---
-
-# Orang Tidak Bisa Memilih Anda Jika Tidak Mengenal Anda
 
 ## Ringkasan
 

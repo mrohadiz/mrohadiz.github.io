@@ -14,8 +14,6 @@ excerpt: "Banyak laporan digital marketing terlihat akurat tetapi menghasilkan k
 image: /assets/images/og/2026-07-25-attribution-tanpa-governance.png
 ---
 
-# Attribution Tanpa Governance: Mengapa Banyak Digital Marketing Report Salah Membaca Realitas
-
 Banyak perusahaan memiliki dashboard marketing yang terlihat lengkap.
 
 Ada data dari Google Ads, Meta Ads, Analytics, CRM, dan sales report.

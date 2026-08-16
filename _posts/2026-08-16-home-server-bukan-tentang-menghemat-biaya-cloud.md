@@ -16,8 +16,6 @@ excerpt: "Banyak orang memulai home server untuk mengurangi biaya cloud. Namun s
 image: /assets/images/og/2026-08-16-home-server-bukan-tentang-menghemat-biaya-cloud.png
 ---
 
-# Home Server Bukan Tentang Menghemat Biaya Cloud
-
 ## Ringkasan
 
 Salah satu alasan paling umum membangun home server adalah menghemat biaya cloud.

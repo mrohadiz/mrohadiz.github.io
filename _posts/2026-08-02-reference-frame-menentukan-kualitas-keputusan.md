@@ -14,9 +14,7 @@ excerpt: "Konflik dalam pengambilan keputusan sering kali bukan disebabkan oleh 
 image: /assets/images/og/2026-08-02-reference-frame-menentukan-kualitas-keputusan.png
 ---
 
-# Reference Frame Menentukan Kualitas Keputusan
-
-## Ringkasan
+### Ringkasan
 
 Dalam banyak diskusi, orang sering menganggap perbedaan pendapat berasal dari data yang berbeda.
 
@@ -28,7 +26,7 @@ Semakin besar sebuah organisasi atau sistem, semakin penting menyelaraskan refer
 
 ---
 
-# Apa Itu Reference Frame?
+## Apa Itu Reference Frame?
 
 Reference frame adalah kerangka berpikir yang digunakan untuk memberi makna terhadap informasi.
 
@@ -38,7 +36,7 @@ Perbedaannya bukan terletak pada datanya, tetapi pada cara memaknainya.
 
 ---
 
-# Mengapa Ini Penting?
+## Mengapa Ini Penting?
 
 Bayangkan sebuah organisasi sedang membahas satu masalah.
 
@@ -61,7 +59,7 @@ Masing-masing hanya sedang melihat sistem dari sisi yang berbeda.
 
 ---
 
-# Mental Model
+## Mental Model
 
 ```text
 Realitas
@@ -81,7 +79,7 @@ Keputusan muncul dari bagaimana data tersebut diinterpretasikan.
 
 ---
 
-# Mengapa Konflik Sering Terjadi?
+## Mengapa Konflik Sering Terjadi?
 
 Konflik sering kali muncul ketika dua orang membahas solusi tanpa menyadari bahwa mereka menggunakan reference frame yang berbeda.
 
@@ -93,7 +91,7 @@ Namun mereka sebenarnya sedang menjawab pertanyaan yang berbeda.
 
 ---
 
-# Sebelum Membahas Solusi
+## Sebelum Membahas Solusi
 
 Sebelum mulai mencari solusi, ada baiknya menyepakati beberapa hal.
 
@@ -107,7 +105,7 @@ Pertanyaan-pertanyaan tersebut sering kali lebih berharga daripada langsung memb
 
 ---
 
-# Checklist
+## Checklist
 
 Jika sebuah diskusi terasa berputar-putar, cobalah memeriksa hal berikut.
 
@@ -119,7 +117,7 @@ Jika sebuah diskusi terasa berputar-putar, cobalah memeriksa hal berikut.
 
 ---
 
-# Penutup
+## Penutup
 
 Reference frame bukan bertujuan membuat semua orang memiliki sudut pandang yang sama.
 

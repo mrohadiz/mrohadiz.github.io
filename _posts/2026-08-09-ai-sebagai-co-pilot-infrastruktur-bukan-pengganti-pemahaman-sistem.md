@@ -15,8 +15,6 @@ excerpt: "AI dapat mempercepat proses belajar dan operasional infrastruktur, tet
 image: /assets/images/og/2026-08-09-ai-sebagai-co-pilot-infrastruktur-bukan-pengganti-pemahaman-sistem.png
 ---
 
-# AI Sebagai Co-Pilot Infrastruktur, Bukan Pengganti Pemahaman Sistem
-
 ## Ringkasan
 
 Perkembangan AI membuat proses belajar infrastruktur menjadi jauh lebih cepat dibanding beberapa tahun lalu. Banyak tugas yang sebelumnya membutuhkan pencarian dokumentasi panjang kini dapat dibantu melalui percakapan dengan AI.

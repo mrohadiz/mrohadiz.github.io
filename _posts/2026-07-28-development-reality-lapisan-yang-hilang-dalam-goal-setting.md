@@ -15,9 +15,7 @@ excerpt: "Sebelum menentukan goal, organisasi perlu memahami tahap perkembangann
 image: /assets/images/og/2026-07-28-development-reality-lapisan-yang-hilang-dalam-goal-setting.png
 ---
 
-# Development Reality: Lapisan yang Hilang dalam Goal Setting
-
-## Ringkasan
+### Ringkasan
 
 Sebagian besar diskusi mengenai goal selalu dimulai dengan pertanyaan:
 
@@ -36,7 +34,7 @@ Konsep ini berakar dari [Systems Thinking](/glossary/#systems-thinking) — meli
 
 ---
 
-# Mengapa Goal Sering Tidak Tepat?
+## Mengapa Goal Sering Tidak Tepat?
 
 Dalam praktik, banyak organisasi langsung melompat dari visi menuju target.
 
@@ -62,7 +60,7 @@ Tanpa memahami Development Reality, target mudah berubah menjadi angka yang mena
 
 ---
 
-# Apa Itu Development Reality?
+## Apa Itu Development Reality?
 
 Development Reality adalah proses memahami **tingkat kematangan sistem saat ini**.
 
@@ -83,7 +81,7 @@ Melainkan bertanya:
 
 ---
 
-# Benchmark Tidak Selalu Menjadi Target
+## Benchmark Tidak Selalu Menjadi Target
 
 AI dan berbagai referensi industri mampu memberikan benchmark dengan cepat.
 
@@ -109,7 +107,7 @@ Yang tidak terlihat adalah proses perkembangan yang menghasilkan hasil tersebut.
 
 ---
 
-# Capability Datang Sebelum Target
+## Capability Datang Sebelum Target
 
 Development Reality mengubah cara berpikir.
 
@@ -138,9 +136,9 @@ Ketika capability berkembang, target menjadi konsekuensi yang lebih alami.
 
 ---
 
-# Berlaku untuk Banyak Domain
+## Berlaku untuk Banyak Domain
 
-## Organisasi
+### Organisasi
 
 Dua perusahaan dapat memiliki target yang sama, tetapi tingkat kematangannya berbeda.
 
@@ -148,7 +146,7 @@ Perusahaan yang masih membangun fondasi tidak dapat diperlakukan sama dengan per
 
 ---
 
-## Individu
+### Individu
 
 Seseorang ingin menjadi software architect.
 
@@ -164,7 +162,7 @@ Tetapi:
 
 ---
 
-## Pembelajaran
+### Pembelajaran
 
 Mahasiswa ingin lulus dengan hasil terbaik.
 
@@ -174,7 +172,7 @@ Memahami fondasi jauh lebih penting daripada mengejar nilai semata.
 
 ---
 
-## Pertumbuhan Sistem
+### Pertumbuhan Sistem
 
 Setiap sistem — organisasi, tim, maupun individu — melalui fase pertumbuhan yang berbeda.
 
@@ -184,7 +182,7 @@ Pertumbuhan berarti memahami bahwa capability hari ini belum tentu sama dengan c
 
 ---
 
-# Development Reality Sebagai Fondasi Goal
+## Development Reality Sebagai Fondasi Goal
 
 Framework sederhana ini dapat digunakan di berbagai konteks.
 
@@ -216,7 +214,7 @@ Prinsip [Make It Observable First](/principles/#3-make-it-observable-first) juga
 
 ---
 
-# Checklist
+## Checklist
 
 Sebelum menentukan goal, tanyakan:
 
@@ -229,7 +227,7 @@ Sebelum menentukan goal, tanyakan:
 
 ---
 
-# Penutup
+## Penutup
 
 Banyak framework mengajarkan cara membuat goal yang baik.
 

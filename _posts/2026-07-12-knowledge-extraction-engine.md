@@ -4,7 +4,8 @@ title: "Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Int
 image: /assets/images/og/2026-07-12-knowledge-extraction-engine.png
 date: 2026-07-12
 last_modified_at: 2026-07-12
-categories: [AI Engineering, Prompt Engineering]
+categories:
+  - AI Engineering
 tags: [Decision Systems, Knowledge Management, LLM]
 description: "Transforming long-form video content into a verifiable and auditable knowledge base using a structured extraction framework."
 ---

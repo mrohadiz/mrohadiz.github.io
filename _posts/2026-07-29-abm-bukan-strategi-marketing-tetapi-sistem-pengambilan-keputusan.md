@@ -14,8 +14,6 @@ excerpt: "Banyak organisasi menganggap Account-Based Marketing sebagai strategi 
 image: /assets/images/og/2026-07-29-abm-bukan-strategi-marketing-tetapi-sistem-pengambilan-keputusan.png
 ---
 
-# ABM Bukan Strategi Marketing, tetapi Sistem Pengambilan Keputusan
-
 ## Kesalahpahaman Tentang ABM
 
 Ketika mendengar istilah **Account-Based Marketing (ABM)**, banyak orang langsung membayangkan kampanye yang sangat personal, email yang dipersonalisasi, atau iklan yang hanya ditampilkan kepada perusahaan tertentu.

@@ -15,8 +15,6 @@ excerpt: "Tailscale mengubah cara banyak orang mengakses server pribadi. Bukan k
 image: /assets/images/og/2026-08-10-kenapa-saya-memilih-tailscale-daripada-port-forwarding.png
 ---
 
-# Kenapa Saya Memilih Tailscale daripada Port Forwarding
-
 ## Ringkasan
 
 Salah satu tantangan pertama saat membangun home server adalah bagaimana mengakses server dari luar rumah.

@@ -13,8 +13,6 @@ excerpt: "Dokumen teknis yang baik bukan sekadar kumpulan spesifikasi. Ia sering
 image: /assets/images/og/2026-08-11-dokumen-teknis-adalah-knowledge-compression.png
 ---
 
-# Dokumen Teknis Adalah Knowledge Compression
-
 ## Ringkasan
 
 Sering kali sebuah dokumen teknis terlihat sederhana.

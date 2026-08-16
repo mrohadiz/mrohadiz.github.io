@@ -13,8 +13,6 @@ excerpt: "Sebelum menetapkan goal, pahami terlebih dahulu tahap perkembangan sis
 image: /assets/images/og/2026-07-28-development-reality-lapisan-yang-hilang-dalam-goal-setting-series.png
 ---
 
-# Development Reality: Lapisan yang Hilang dalam Goal Setting
-
 ## Ringkasan
 
 Sebagian besar framework goal setting dimulai dengan pertanyaan:

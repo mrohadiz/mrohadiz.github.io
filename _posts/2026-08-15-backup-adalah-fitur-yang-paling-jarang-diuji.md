@@ -16,8 +16,6 @@ excerpt: "Banyak sistem memiliki backup, tetapi hanya sedikit yang benar-benar m
 image: /assets/images/og/2026-08-15-backup-adalah-fitur-yang-paling-jarang-diuji.png
 ---
 
-# Backup Adalah Fitur yang Paling Jarang Diuji
-
 ## Ringkasan
 
 Dalam banyak proyek self-hosting, backup sering dianggap sebagai pekerjaan yang sudah selesai.

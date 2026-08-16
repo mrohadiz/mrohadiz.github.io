@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda"
-date: 2026-08-15
+date: 2026-08-15 10:08:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - customer-journey
   - marketing
   - brand-awareness
+series: go-to-market
 excerpt: "Tidak semua orang yang mengenal bisnis akan langsung menjadi pelanggan. Dalam pasar yang semakin ramai, menjadi mudah diingat dapat menjadi langkah penting sebelum sebuah kebutuhan berubah menjadi keputusan pembelian."
 image: /assets/images/og/2026-08-15-orang-tidak-harus-membeli-untuk-mengingat-anda.png
 ---
-
-# Orang Tidak Harus Membeli Untuk Mengingat Anda
 
 Di pasar yang semakin ramai, bisnis tidak hanya bersaing untuk mendapatkan pembelian.
 

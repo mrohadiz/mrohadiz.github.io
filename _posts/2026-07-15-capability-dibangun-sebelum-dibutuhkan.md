@@ -13,8 +13,6 @@ excerpt: "Organisasi yang tangguh tidak menunggu kebutuhan menjadi mendesak. Mer
 image: /assets/images/og/2026-07-15-capability-dibangun-sebelum-dibutuhkan.png
 ---
 
-# Capability Dibangun Sebelum Dibutuhkan
-
 Banyak capability strategis terlihat seperti biaya sampai lingkungan berubah. Saat krisis datang, organisasi tidak punya waktu untuk membangun kemampuan baru dari nol. Yang bisa dilakukan hanyalah memakai capability yang sudah lebih dulu disiapkan.
 
 ## Ringkasan

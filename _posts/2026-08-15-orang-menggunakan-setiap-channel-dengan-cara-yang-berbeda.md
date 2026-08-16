@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Orang Menggunakan Setiap Channel Dengan Cara Yang Berbeda"
-date: 2026-08-15
+title: "Go To Market #5: Orang Menggunakan Setiap Channel Dengan Cara Yang Berbeda"
+date: 2026-08-15 10:05:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,11 +9,10 @@ tags:
   - digital-marketing
   - customer-journey
   - content-strategy
+series: go-to-market
 excerpt: "Orang membawa niat dan perilaku yang berbeda ketika menggunakan channel digital yang berbeda. Karena itu, konten yang efektif di satu tempat belum tentu efektif di tempat lain."
 image: /assets/images/og/2026-08-15-orang-menggunakan-setiap-channel-dengan-cara-yang-berbeda.png
 ---
-
-# Orang Menggunakan Setiap Channel Dengan Cara Yang Berbeda
 
 Banyak bisnis merasa harus hadir di banyak channel sekaligus.
 

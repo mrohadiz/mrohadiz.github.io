@@ -5,7 +5,7 @@ image: /assets/images/og/2026-07-13-kpi-tidak-pernah-menyelesaikan-perdebatan.pn
 date: 2026-07-13
 last_modified_at: 2026-07-13
 categories:
-  - Business Architecture
+  - Business Intelligence
 tags:
   - business-glossary
   - kpi

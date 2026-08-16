@@ -12,8 +12,6 @@ excerpt: "Otomatisasi paling bernilai lahir dari pekerjaan yang berulang, bukan 
 image: /assets/images/og/2026-07-20-build-from-repetition-not-imagination.png
 ---
 
-# Build From Repetition, Not Imagination
-
 Salah satu kesalahan paling umum saat membangun internal tools adalah memulai dari ide, bukan dari pengulangan.
 
 Sebuah command terasa berguna, jadi kita membuatnya. Lalu muncul command lain. Lalu dashboard. Lalu integrasi tambahan. Lama-lama, tool yang awalnya dimaksudkan untuk menyederhanakan kerja malah menjadi proyek baru yang harus dirawat.

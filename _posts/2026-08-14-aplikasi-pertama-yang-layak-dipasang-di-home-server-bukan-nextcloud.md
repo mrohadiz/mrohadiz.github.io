@@ -16,8 +16,6 @@ excerpt: "Saat memulai home server, godaan terbesar adalah langsung memasang apl
 image: /assets/images/og/2026-08-14-aplikasi-pertama-yang-layak-dipasang-di-home-server-bukan-nextcloud.png
 ---
 
-# Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud
-
 ## Ringkasan
 
 Ketika seseorang berhasil membangun home server pertamanya, pertanyaan berikutnya biasanya adalah:

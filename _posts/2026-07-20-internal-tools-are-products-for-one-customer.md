@@ -12,8 +12,6 @@ excerpt: "Internal tools tetap membutuhkan arsitektur yang baik, tetapi ukuran k
 image: /assets/images/og/2026-07-20-internal-tools-are-products-for-one-customer.png
 ---
 
-# Internal Tools Are Products for One Customer
-
 Banyak internal tool terlihat sederhana dari luar, tetapi tetap membutuhkan keputusan desain yang serius.
 
 Perbedaannya ada pada target pengguna. Produk publik biasanya dibangun untuk banyak orang. Internal tool sering kali hanya punya satu pelanggan: tim sendiri, atau bahkan satu orang yang menjalankan operasional setiap hari.

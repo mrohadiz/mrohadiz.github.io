@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Website Hanyalah Bentuk Luar dari Sesuatu yang Lebih Besar"
-date: 2026-08-15
+title: "Go To Market #6: Website Hanyalah Bentuk Luar dari Sesuatu yang Lebih Besar"
+date: 2026-08-15 10:06:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -9,6 +9,7 @@ tags:
   - website
   - digital-assets
   - decision-systems
+series: go-to-market
 excerpt: "Website sering dianggap sebagai produk akhir, padahal sering kali hanya menjadi bentuk luar dari sistem yang lebih besar untuk membantu orang melakukan sesuatu."
 image: /assets/images/og/2026-08-15-website-hanyalah-bentuk-luar-dari-sesuatu-yang-lebih-besar.png
 ---

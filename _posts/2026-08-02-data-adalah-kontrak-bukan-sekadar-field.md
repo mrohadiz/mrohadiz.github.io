@@ -14,9 +14,7 @@ excerpt: "Sebuah field tidak hanya menyimpan nilai. Ia membawa makna yang diguna
 image: /assets/images/og/2026-08-02-data-adalah-kontrak-bukan-sekadar-field.png
 ---
 
-# Data Adalah Kontrak, Bukan Sekadar Field
-
-## Ringkasan
+### Ringkasan
 
 Dalam banyak sistem, perhatian sering tertuju pada struktur data:
 
@@ -35,7 +33,7 @@ Semakin banyak capability yang menggunakan data tersebut, semakin penting memast
 
 ---
 
-# Mengapa Data Disebut Kontrak?
+## Mengapa Data Disebut Kontrak?
 
 Setiap data memiliki dua pihak.
 
@@ -48,7 +46,7 @@ Jika tidak, sistem akan menghasilkan keputusan yang berbeda meskipun menggunakan
 
 ---
 
-# Mental Model
+## Mental Model
 
 ```text
 Producer
@@ -66,7 +64,7 @@ Yang paling penting adalah apakah producer dan consumer memiliki interpretasi ya
 
 ---
 
-# Ketika Satu Field Memiliki Banyak Makna
+## Ketika Satu Field Memiliki Banyak Makna
 
 Salah satu penyebab umum kualitas data menurun adalah satu field digunakan untuk mewakili beberapa konsep sekaligus.
 
@@ -81,7 +79,7 @@ Namun secara semantik keputusan mulai menyimpang.
 
 ---
 
-# Sebelum Membuat Field Baru
+## Sebelum Membuat Field Baru
 
 Daripada langsung membuat field baru, tanyakan beberapa hal berikut.
 
@@ -95,7 +93,7 @@ Pertanyaan sederhana tersebut sering kali mampu mencegah munculnya masalah yang 
 
 ---
 
-# Data Mengalir Melewati Banyak Capability
+## Data Mengalir Melewati Banyak Capability
 
 Dalam sistem modern, sebuah data jarang berhenti di satu tempat.
 
@@ -121,7 +119,7 @@ Semakin panjang rantai tersebut, semakin besar dampak apabila makna data berubah
 
 ---
 
-# Checklist
+## Checklist
 
 Sebelum menggunakan sebuah data sebagai dasar keputusan, pastikan:
 
@@ -133,7 +131,7 @@ Sebelum menggunakan sebuah data sebagai dasar keputusan, pastikan:
 
 ---
 
-# Penutup
+## Penutup
 
 Kualitas sistem tidak hanya ditentukan oleh kualitas kode.
 

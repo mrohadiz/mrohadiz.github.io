@@ -14,8 +14,6 @@ excerpt: "Ketika organisasi bertumbuh, konteks yang dulu dipahami melalui percak
 image: /assets/images/og/2026-08-12-semantic-infrastructure-investasi-yang-dilupakan.png
 ---
 
-# Semantic Infrastructure: Investasi yang Dilupakan Saat Organisasi Bertumbuh
-
 ## Observasi: Organisasi Berinvestasi pada Sistem, Sedikit pada Makna
 
 Ketika organisasi berbicara tentang infrastruktur, yang biasanya muncul adalah server, database, dashboard, CRM, automation, atau aplikasi internal.

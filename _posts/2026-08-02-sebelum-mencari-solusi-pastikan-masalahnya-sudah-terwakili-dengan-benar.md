@@ -14,9 +14,7 @@ excerpt: "Banyak solusi gagal bukan karena implementasinya buruk, melainkan kare
 image: /assets/images/og/2026-08-02-sebelum-mencari-solusi-pastikan-masalahnya-sudah-terwakili-dengan-benar.png
 ---
 
-# Sebelum Mencari Solusi, Pastikan Masalahnya Sudah Terwakili dengan Benar
-
-## Ringkasan
+### Ringkasan
 
 Ketika menghadapi sebuah masalah, kebanyakan orang langsung berusaha mencari solusi. Padahal, kualitas solusi sangat bergantung pada kualitas pemahaman terhadap masalah itu sendiri.
 
@@ -26,7 +24,7 @@ Semakin besar dampak sebuah keputusan, semakin besar pula konsekuensi jika repre
 
 ---
 
-# Mengapa Ini Penting?
+## Mengapa Ini Penting?
 
 Sebuah solusi hanya mampu menyelesaikan masalah yang berhasil dipahami.
 
@@ -43,7 +41,7 @@ Dalam kondisi seperti ini, solusi sering terlihat benar, tetapi sebenarnya menye
 
 ---
 
-# Mental Model
+## Mental Model
 
 ```text
 Realitas
@@ -65,7 +63,7 @@ Semakin akurat representasi terhadap realitas, semakin besar peluang menghasilka
 
 ---
 
-# Mengapa Representasi Masalah Sangat Penting?
+## Mengapa Representasi Masalah Sangat Penting?
 
 Representasi masalah adalah cara kita memodelkan kenyataan agar dapat dipahami.
 
@@ -84,7 +82,7 @@ Namun model harus cukup baik sehingga keputusan yang diambil masih relevan terha
 
 ---
 
-# Checklist Sebelum Mencari Solusi
+## Checklist Sebelum Mencari Solusi
 
 Sebelum mulai berdiskusi mengenai solusi, cobalah mengajukan beberapa pertanyaan berikut.
 
@@ -99,31 +97,31 @@ Sering kali jawaban atas pertanyaan-pertanyaan tersebut justru mengubah arah sol
 
 ---
 
-# Kesalahan yang Sering Terjadi
+## Kesalahan yang Sering Terjadi
 
-## Langsung Membahas Solusi
+### Langsung Membahas Solusi
 
 Solusi mulai dirancang sebelum semua orang memiliki pemahaman yang sama mengenai masalah.
 
-## Satu Istilah untuk Banyak Makna
+### Satu Istilah untuk Banyak Makna
 
 Satu label digunakan untuk mewakili beberapa kondisi yang berbeda.
 
 Akibatnya, setiap orang memberikan interpretasi yang berbeda terhadap data yang sama.
 
-## Menganggap Data Selalu Benar
+### Menganggap Data Selalu Benar
 
 Data hanyalah representasi.
 
 Tanpa konteks yang tepat, data dapat menghasilkan keputusan yang keliru.
 
-## Mengoptimalkan Gejala
+### Mengoptimalkan Gejala
 
 Energi habis untuk memperbaiki indikator tertentu, padahal akar masalah berada di tempat lain.
 
 ---
 
-# Prinsip yang Dapat Digunakan di Berbagai Domain
+## Prinsip yang Dapat Digunakan di Berbagai Domain
 
 Prinsip ini tidak hanya berlaku pada pengembangan perangkat lunak.
 
@@ -141,7 +139,7 @@ Apa pun domainnya, kualitas keputusan hampir selalu ditentukan oleh kualitas rep
 
 ---
 
-# Penutup
+## Penutup
 
 Banyak orang percaya bahwa keberhasilan ditentukan oleh seberapa baik sebuah solusi dibuat.
 

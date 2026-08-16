@@ -14,8 +14,6 @@ excerpt: "Mengapa strategi SEO modern memerlukan dua cara berpikir: sistem eksek
 image: /assets/images/og/2026-07-18-seo-memerlukan-dua-sistem-mesin-eksekusi-dan-sistem-navigasi.png
 ---
 
-# SEO Memerlukan Dua Sistem: Mesin Eksekusi dan Sistem Navigasi
-
 Banyak diskusi tentang SEO dimulai dengan pertanyaan yang sama.
 
 *"Keyword apa yang harus kita tulis minggu ini?"*

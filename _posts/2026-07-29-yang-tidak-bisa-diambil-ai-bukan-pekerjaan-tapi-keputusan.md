@@ -13,8 +13,6 @@ excerpt: "Semakin saya bekerja dengan AI, semakin saya sadar: masalah sebenarnya
 image: /assets/images/og/2026-07-29-yang-tidak-bisa-diambil-ai-bukan-pekerjaan-tapi-keputusan.png
 ---
 
-# Yang Tidak Bisa Diambil AI Bukan Pekerjaan, Tapi Keputusan
-
 Saya dulu berpikir AI akan mengubah cara kita bekerja dengan cara yang cukup sederhana.
 
 Pekerjaan yang repetitif akan hilang.

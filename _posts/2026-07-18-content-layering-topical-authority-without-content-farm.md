@@ -14,8 +14,6 @@ excerpt: "Framework content layering untuk membangun topical authority melalui p
 image: /assets/images/og/2026-07-18-content-layering-topical-authority-without-content-farm.png
 ---
 
-# Content Layering: Membangun Topical Authority Tanpa Menjadi Content Farm
-
 SEO sering diidentikkan dengan produksi konten dalam jumlah besar. Selama keyword ditemukan dan artikel terus dipublikasikan, trafik diharapkan akan terus bertumbuh.
 
 Namun pendekatan ini sering mengabaikan [Signal-to-Noise Ratio](/glossary/#signal-to-noise-ratio) — semakin banyak konten tanpa strategi, semakin sulit pembaca menemukan signal yang benar-benar bernilai. Framework content layering ini lahir dari prinsip [Systems Thinking](/glossary/#systems-thinking): konten bukan kumpulan artikel terisolasi, tetapi sistem yang saling terhubung.

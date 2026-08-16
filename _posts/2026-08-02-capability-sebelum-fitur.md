@@ -14,9 +14,7 @@ excerpt: "Banyak sistem gagal bukan karena teknologinya buruk, melainkan karena 
 image: /assets/images/og/2026-08-02-capability-sebelum-fitur.png
 ---
 
-# Jangan Membangun Fitur, Bangunlah Capability
-
-## Ringkasan
+### Ringkasan
 
 Dalam banyak proyek, diskusi sering dimulai dengan pertanyaan:
 
@@ -30,7 +28,7 @@ Ketika capability sudah jelas, pilihan fitur biasanya menjadi jauh lebih sederha
 
 ---
 
-# Feature Bersifat Sementara
+## Feature Bersifat Sementara
 
 Framework berubah.
 
@@ -54,7 +52,7 @@ Capability tersebut tetap relevan meskipun implementasinya berganti berkali-kali
 
 ---
 
-# Capability Lebih Penting daripada Implementasi
+## Capability Lebih Penting daripada Implementasi
 
 Sebelum membangun sesuatu, cobalah bertanya:
 
@@ -67,7 +65,7 @@ Sering kali jawaban atas pertanyaan tersebut justru mengubah implementasi yang a
 
 ---
 
-# Mental Model
+## Mental Model
 
 ```text
 Masalah
@@ -85,9 +83,9 @@ Fitur hanyalah salah satu bentuk implementasi dari sebuah capability.
 
 ---
 
-# Kesalahan yang Sering Terjadi
+## Kesalahan yang Sering Terjadi
 
-## Menganggap Fitur Sebagai Tujuan
+### Menganggap Fitur Sebagai Tujuan
 
 Permintaan fitur muncul tanpa menjelaskan perubahan apa yang ingin dicapai.
 
@@ -95,7 +93,7 @@ Akibatnya, sistem semakin kompleks tetapi tidak benar-benar meningkatkan kualita
 
 ---
 
-## Mengganti Teknologi untuk Menyelesaikan Masalah
+### Mengganti Teknologi untuk Menyelesaikan Masalah
 
 Tidak semua masalah dapat diselesaikan dengan platform baru.
 
@@ -103,7 +101,7 @@ Jika workflow, ownership, atau proses belum jelas, teknologi baru sering kali ha
 
 ---
 
-## Capability Tidak Memiliki Owner
+### Capability Tidak Memiliki Owner
 
 Capability yang baik selalu memiliki pemilik yang bertanggung jawab terhadap kualitasnya.
 
@@ -111,7 +109,7 @@ Tanpa ownership, capability perlahan akan kehilangan arah meskipun implementasin
 
 ---
 
-# Checklist Sebelum Menambahkan Fitur Baru
+## Checklist Sebelum Menambahkan Fitur Baru
 
 Sebelum menyetujui pembangunan sebuah fitur, tanyakan beberapa hal berikut.
 
@@ -126,7 +124,7 @@ Jika pertanyaan-pertanyaan tersebut belum dapat dijawab, kemungkinan organisasi 
 
 ---
 
-# Mengapa Cara Berpikir Ini Penting?
+## Mengapa Cara Berpikir Ini Penting?
 
 Ketika diskusi dimulai dari capability, organisasi menjadi lebih mudah beradaptasi terhadap perubahan teknologi.
 
@@ -142,7 +140,7 @@ Dengan cara ini, sistem berkembang melalui peningkatan kemampuan, bukan sekadar 
 
 ---
 
-# Penutup
+## Penutup
 
 Teknologi adalah alat.
 

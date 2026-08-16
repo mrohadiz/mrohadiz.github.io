@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim"
-date: 2026-08-15
+date: 2026-08-15 10:09:00 +0700
 categories:
   - Business Intelligence
 tags:
@@ -10,6 +10,7 @@ tags:
   - decision-making
   - evidence
   - customer-journey
+series: go-to-market
 excerpt: "Ketika orang mempertimbangkan sebuah pilihan, klaim saja jarang cukup. Bukti membantu mengurangi keraguan dan membuat keputusan terasa lebih aman."
 image: /assets/images/og/2026-08-15-orang-lebih-percaya-bukti-daripada-klaim.png
 ---

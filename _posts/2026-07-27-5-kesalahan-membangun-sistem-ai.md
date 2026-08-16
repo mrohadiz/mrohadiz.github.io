@@ -14,8 +14,6 @@ excerpt: "Banyak proyek AI gagal bukan karena modelnya kurang pintar, tetapi kar
 image: /assets/images/og/2026-07-27-5-kesalahan-membangun-sistem-ai.png
 ---
 
-# 5 Kesalahan Membangun Sistem AI: Mengapa Banyak Implementasi Gagal di Tingkat Arsitektur
-
 Banyak organisasi mulai membangun sistem berbasis AI.
 
 Sebagian dimulai dari chatbot, automation workflow, atau AI assistant untuk membantu pekerjaan internal.

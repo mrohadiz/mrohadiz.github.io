@@ -14,8 +14,6 @@ excerpt: "Roadmap teknologi membantu memahami luasnya dunia teknis, tetapi organ
 image: /assets/images/og/2026-07-25-contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi.png
 ---
 
-# Contextual Roadmap: Mengapa Skill Organisasi Berbeda dari Roadmap Teknologi
-
 Roadmap teknologi memiliki peran penting untuk membantu seseorang memahami landscape industri.
 
 Namun ketika seseorang bergabung ke sebuah organisasi, kebutuhan belajarnya tidak selalu sama dengan roadmap teknologi umum.

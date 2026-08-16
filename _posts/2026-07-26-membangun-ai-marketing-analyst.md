@@ -14,8 +14,6 @@ excerpt: "AI dapat membantu menganalisis data marketing dalam skala besar, tetap
 image: /assets/images/og/2026-07-26-membangun-ai-marketing-analyst.png
 ---
 
-# Membangun AI Marketing Analyst: Mengapa Human-in-the-Loop Masih Dibutuhkan
-
 Banyak organisasi mulai membayangkan AI sebagai pengganti analis marketing.
 
 Sebuah AI agent yang dapat membaca dashboard, menganalisis campaign, memberikan rekomendasi, dan menentukan strategi berikutnya terlihat semakin mungkin secara teknologi.

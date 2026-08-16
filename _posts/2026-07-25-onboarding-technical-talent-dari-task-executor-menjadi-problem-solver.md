@@ -14,8 +14,6 @@ excerpt: "Onboarding teknis yang baik bukan hanya mengajarkan cara mengerjakan t
 image: /assets/images/og/2026-07-25-onboarding-technical-talent-dari-task-executor-menjadi-problem-solver.png
 ---
 
-# Onboarding Technical Talent: Dari Task Executor Menjadi Problem Solver
-
 Banyak proses onboarding teknis dimulai dengan mengenalkan tools, memberikan task, lalu mengukur apakah pekerjaan dapat selesai.
 
 Pendekatan tersebut membantu seseorang menjadi operator, tetapi belum tentu membangun kemampuan mengambil keputusan.
