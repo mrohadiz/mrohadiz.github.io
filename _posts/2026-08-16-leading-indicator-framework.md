@@ -10,6 +10,7 @@ tags:
   - feedback-loops
   - business-systems
 excerpt: "Outcome memberi tahu kita apa yang sudah terjadi. Leading indicator membantu kita memahami apa yang mungkin akan terjadi berikutnya."
+image: /assets/images/og/2026-08-16-leading-indicator-framework.png
 ---
 
 ## Mengapa Outcome Sering Datang Terlambat dan Apa yang Bisa Kita Ukur Sebelumnya
