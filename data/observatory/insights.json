@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-14T08:00:18.351Z",
+  "collected_at": "2026-08-18T01:15:39.300Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 92%",
-      "description": "From 298 to 24 users this period.",
-      "metric": "-92%",
+      "title": "Site visitors dropped 90%",
+      "description": "From 280 to 28 users this period.",
+      "metric": "-90%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 42m 48s per session",
-      "description": "Across 34 sessions from 24 users this period.",
-      "metric": "42m 48s",
+      "title": "Average engagement is 43m 3s per session",
+      "description": "Across 39 sessions from 28 users this period.",
+      "metric": "43m 3s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "25 sessions with an average engagement of 2m 7s.",
-      "metric": "25",
+      "description": "30 sessions with an average engagement of 9m 14s.",
+      "metric": "30",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,19 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 94% of traffic",
-      "description": "32 sessions from Direct this period.",
-      "metric": "94%",
-      "metric_label": "Traffic Share",
-      "icon": "globe",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "traffic",
-      "title": "2 returning users (8% of visitors)",
-      "description": "8% of this period's visitors came back for another session.",
-      "metric": "2",
+      "title": "3 returning users (11% of visitors)",
+      "description": "11% of this period's visitors came back for another session.",
+      "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -64,8 +54,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
-      "description": "Committed 8/12/2026.",
+      "title": "Latest commit: chore: remove crypto observatory post and neutrali",
+      "description": "Committed 8/17/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -92,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-14T08:00:18.351Z",
+  "generated_at": "2026-08-18T01:15:39.301Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-15",
-      "end": "2026-08-14"
+      "start": "2026-07-19",
+      "end": "2026-08-18"
     }
   }
 }

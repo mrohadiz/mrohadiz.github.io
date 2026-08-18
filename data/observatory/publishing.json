@@ -1,72 +1,72 @@
 {
-  "collected_at": "2026-08-14T08:00:18.145Z",
+  "collected_at": "2026-08-18T01:15:38.840Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 207,
+    "total_commits": 228,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-12T05:28:37Z",
-    "active_days": 24
+    "last_commit_date": "2026-08-16T17:59:49Z",
+    "active_days": 26
   },
   "recent_commits": [
     {
-      "sha": "c70abe6",
+      "sha": "d49d5b9",
+      "message": "chore: remove crypto observatory post and neutralize trading references across site",
+      "date": "2026-08-16T17:59:49Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "be7f389",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-12T05:28:37Z",
+      "date": "2026-08-16T17:49:18Z",
       "author": "github-actions[bot]"
     },
     {
-      "sha": "3006bb6",
-      "message": "Add article: AI Bukan Titik Awal",
-      "date": "2026-08-12T05:28:27Z",
+      "sha": "220eeaa",
+      "message": "feat(content & seo): add Leading Indicator post, fix GTM series, optimize on-page SEO headings and schema",
+      "date": "2026-08-16T17:49:03Z",
+      "author": "M. Rohadiz"
+    },
+    {
+      "sha": "8624a5b",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-08-15T05:10:46Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "22fd971",
+      "message": "Add article: Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim",
+      "date": "2026-08-15T05:10:35Z",
       "author": "M Rohadi Z"
     },
     {
-      "sha": "9a95c42",
+      "sha": "9c245c6",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-11T02:01:51Z",
+      "date": "2026-08-15T05:04:29Z",
       "author": "github-actions[bot]"
     },
     {
-      "sha": "fa363be",
-      "message": "Add article: Semantic Infrastructure: Investasi yang Dilupakan Saat Organisasi Bertumbuh",
-      "date": "2026-08-11T02:01:34Z",
+      "sha": "78148b6",
+      "message": "Add article: Orang Tidak Harus Membeli Untuk Mengingat Anda",
+      "date": "2026-08-15T05:04:16Z",
       "author": "M Rohadi Z"
     },
     {
-      "sha": "8ef1959",
+      "sha": "7776968",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-10T18:58:17Z",
+      "date": "2026-08-15T04:37:09Z",
       "author": "github-actions[bot]"
     },
     {
-      "sha": "78f62af",
-      "message": "add post: dokumen teknis adalah knowledge compression",
-      "date": "2026-08-10T18:58:00Z",
-      "author": "M. Rohadiz"
+      "sha": "c5ba7bf",
+      "message": "Add article: Orang Membeli Perubahan, Bukan Produk",
+      "date": "2026-08-15T04:36:50Z",
+      "author": "M Rohadi Z"
     },
     {
-      "sha": "48a3584",
-      "message": "fix(data): perbaiki 5 URL /notes/YYYY-MM-DD-slug/ di observatory search.json",
-      "date": "2026-08-08T14:47:36Z",
-      "author": "M. Rohadiz"
-    },
-    {
-      "sha": "2db3483",
-      "message": "fix(scripts): URL post tanpa prefix /notes/ — konsisten dengan permalink Jekyll; regenerate knowledge.json",
-      "date": "2026-08-08T13:58:16Z",
-      "author": "M. Rohadiz"
-    },
-    {
-      "sha": "18215f9",
-      "message": "fix(links): perbaiki 96 internal link yang memakai prefix /notes/ (404) menjadi /:year/:month/:day/:slug/",
-      "date": "2026-08-08T10:44:34Z",
-      "author": "M. Rohadiz"
-    },
-    {
-      "sha": "d1bee8b",
+      "sha": "2ba789f",
       "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-08-08T10:13:23Z",
+      "date": "2026-08-15T04:28:28Z",
       "author": "github-actions[bot]"
     }
   ],
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 34
+      "commits": 55
     }
   ],
   "article_history": [
@@ -105,13 +105,13 @@
   "contribution_streak": {
     "current_streak": 0,
     "longest_streak": 8,
-    "active_days": 24
+    "active_days": 26
   },
   "repository_health": {
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-14T08:00:18.145Z",
+    "last_deployment": "2026-08-18T01:15:38.840Z",
     "deployment_status": "success"
   }
 }
