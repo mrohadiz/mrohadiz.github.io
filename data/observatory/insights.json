@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T03:00:13.931Z",
+  "collected_at": "2026-08-18T08:00:07.338Z",
   "insights": [
     {
       "type": "warning",
@@ -54,7 +54,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: Add BingSiteAuth.xml + fix checkout fetch-depth fo",
+      "title": "Latest commit: chore: update observatory data 2026-08-18",
       "description": "Committed 8/18/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -82,7 +82,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-18T03:00:13.931Z",
+  "generated_at": "2026-08-18T08:00:07.338Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-19",
