@@ -1,75 +1,62 @@
 {
-  "collected_at": "2026-08-08T13:56:08.918Z",
+  "collected_at": "2026-08-18T01:23:07.445Z",
   "summary": {
-    "total_articles": 66,
-    "total_categories": 11,
-    "total_tags": 157,
+    "total_articles": 78,
+    "total_categories": 6,
+    "total_tags": 168,
     "total_series": 0,
-    "total_internal_links": 211,
+    "total_internal_links": 205,
     "avg_reading_time": 3,
-    "total_word_count": 32932
+    "total_word_count": 38741
   },
   "categories": [
     {
       "name": "Decision Systems",
-      "count": 20,
-      "percentage": 0.30303030303030304
+      "count": 27,
+      "percentage": 0.34615384615384615
+    },
+    {
+      "name": "Business Intelligence",
+      "count": 18,
+      "percentage": 0.23076923076923078
     },
     {
       "name": "Infrastructure",
-      "count": 12,
-      "percentage": 0.18181818181818182
+      "count": 13,
+      "percentage": 0.16666666666666666
     },
     {
       "name": "AI Engineering",
-      "count": 9,
-      "percentage": 0.13636363636363635
+      "count": 11,
+      "percentage": 0.14102564102564102
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.12121212121212122
-    },
-    {
-      "name": "Business Intelligence",
-      "count": 8,
-      "percentage": 0.12121212121212122
-    },
-    {
-      "name": "Decision Intelligence",
-      "count": 3,
-      "percentage": 0.045454545454545456
-    },
-    {
-      "name": "Digital Garden",
-      "count": 2,
-      "percentage": 0.030303030303030304
+      "percentage": 0.10256410256410256
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.015151515151515152
-    },
-    {
-      "name": "[AI Engineering, Prompt Engineering]",
-      "count": 1,
-      "percentage": 0.015151515151515152
-    },
-    {
-      "name": "Narrative Observatory",
-      "count": 1,
-      "percentage": 0.015151515151515152
-    },
-    {
-      "name": "Business Architecture",
-      "count": 1,
-      "percentage": 0.015151515151515152
+      "percentage": 0.01282051282051282
     }
   ],
   "tags": [
     {
       "name": "systems-thinking",
-      "count": 14
+      "count": 15
+    },
+    {
+      "name": "decision-making",
+      "count": 11
+    },
+    {
+      "name": "decision-systems",
+      "count": 11
+    },
+    {
+      "name": "go-to-market",
+      "count": 11
     },
     {
       "name": "self-hosting",
@@ -80,6 +67,14 @@
       "count": 8
     },
     {
+      "name": "customer-journey",
+      "count": 8
+    },
+    {
+      "name": "architecture",
+      "count": 7
+    },
+    {
       "name": "analytics",
       "count": 7
     },
@@ -88,24 +83,20 @@
       "count": 7
     },
     {
-      "name": "decision-systems",
-      "count": 7
-    },
-    {
-      "name": "decision-making",
-      "count": 6
-    },
-    {
-      "name": "architecture",
-      "count": 6
-    },
-    {
       "name": "observability",
-      "count": 5
+      "count": 6
     },
     {
       "name": "business-intelligence",
       "count": 5
+    },
+    {
+      "name": "digital-marketing",
+      "count": 5
+    },
+    {
+      "name": "ai",
+      "count": 4
     },
     {
       "name": "infrastructure",
@@ -128,6 +119,10 @@
       "count": 4
     },
     {
+      "name": "knowledge-management",
+      "count": 4
+    },
+    {
       "name": "home-server",
       "count": 4
     },
@@ -145,10 +140,6 @@
     },
     {
       "name": "digital-garden",
-      "count": 3
-    },
-    {
-      "name": "ai",
       "count": 3
     },
     {
@@ -180,7 +171,7 @@
       "count": 3
     },
     {
-      "name": "digital-marketing",
+      "name": "content-strategy",
       "count": 3
     },
     {
@@ -228,7 +219,15 @@
       "count": 3
     },
     {
+      "name": "marketing",
+      "count": 3
+    },
+    {
       "name": "strategy",
+      "count": 2
+    },
+    {
+      "name": "measurement",
       "count": 2
     },
     {
@@ -248,10 +247,6 @@
       "count": 2
     },
     {
-      "name": "content-strategy",
-      "count": 2
-    },
-    {
       "name": "topical-authority",
       "count": 2
     },
@@ -268,19 +263,11 @@
       "count": 2
     },
     {
-      "name": "customer-journey",
-      "count": 2
-    },
-    {
       "name": "marketing-analytics",
       "count": 2
     },
     {
       "name": "capability-development",
-      "count": 2
-    },
-    {
-      "name": "knowledge-management",
       "count": 2
     },
     {
@@ -292,15 +279,15 @@
       "count": 2
     },
     {
+      "name": "software-architecture",
+      "count": 2
+    },
+    {
       "name": "output",
       "count": 2
     },
     {
       "name": "account-based-marketing",
-      "count": 2
-    },
-    {
-      "name": "go-to-market",
       "count": 2
     },
     {
@@ -317,6 +304,10 @@
     },
     {
       "name": "cloudflare",
+      "count": 2
+    },
+    {
+      "name": "trust",
       "count": 2
     },
     {
@@ -380,22 +371,6 @@
       "count": 1
     },
     {
-      "name": "devira",
-      "count": 1
-    },
-    {
-      "name": "narrative-observatory",
-      "count": 1
-    },
-    {
-      "name": "convergence",
-      "count": 1
-    },
-    {
-      "name": "multi-source-signals",
-      "count": 1
-    },
-    {
       "name": "business-glossary",
       "count": 1
     },
@@ -405,10 +380,6 @@
     },
     {
       "name": "semantic-layer",
-      "count": 1
-    },
-    {
-      "name": "measurement",
       "count": 1
     },
     {
@@ -600,10 +571,6 @@
       "count": 1
     },
     {
-      "name": "software-architecture",
-      "count": 1
-    },
-    {
       "name": "system-design",
       "count": 1
     },
@@ -660,7 +627,19 @@
       "count": 1
     },
     {
+      "name": "documentation",
+      "count": 1
+    },
+    {
       "name": "virtualization",
+      "count": 1
+    },
+    {
+      "name": "semantic-infrastructure",
+      "count": 1
+    },
+    {
+      "name": "organizational-design",
       "count": 1
     },
     {
@@ -692,7 +671,47 @@
       "count": 1
     },
     {
+      "name": "customer-decision",
+      "count": 1
+    },
+    {
+      "name": "business",
+      "count": 1
+    },
+    {
+      "name": "evidence",
+      "count": 1
+    },
+    {
+      "name": "customer-behavior",
+      "count": 1
+    },
+    {
+      "name": "product-strategy",
+      "count": 1
+    },
+    {
+      "name": "brand-awareness",
+      "count": 1
+    },
+    {
+      "name": "website",
+      "count": 1
+    },
+    {
+      "name": "digital-assets",
+      "count": 1
+    },
+    {
       "name": "cloud",
+      "count": 1
+    },
+    {
+      "name": "feedback-loops",
+      "count": 1
+    },
+    {
+      "name": "business-systems",
       "count": 1
     }
   ],
@@ -710,10 +729,171 @@
         "operations",
         "decision-systems"
       ],
-      "word_count": 659,
+      "word_count": 651,
       "reading_time": 4,
       "internal_links": 1,
       "last_updated": "2026-08-16"
+    },
+    {
+      "title": "\"Leading Indicator Framework\"",
+      "url": "/2026/08/16/leading-indicator-framework/",
+      "date": "2026-08-16",
+      "category": "Decision Systems",
+      "tags": [
+        "observability",
+        "measurement",
+        "feedback-loops",
+        "business-systems"
+      ],
+      "word_count": 504,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-16"
+    },
+    {
+      "title": "\"Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim\"",
+      "url": "/2026/08/15/orang-lebih-percaya-bukti-daripada-klaim/",
+      "date": "2026-08-15 10:09:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "trust",
+        "decision-making",
+        "evidence",
+        "customer-journey"
+      ],
+      "word_count": 517,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:09:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
+      "url": "/2026/08/15/orang-tidak-harus-membeli-untuk-mengingat-anda/",
+      "date": "2026-08-15 10:08:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-journey",
+        "marketing",
+        "brand-awareness"
+      ],
+      "word_count": 562,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:08:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #7: Orang Membeli Perubahan, Bukan Produk\"",
+      "url": "/2026/08/15/orang-membeli-perubahan-bukan-produk/",
+      "date": "2026-08-15 10:07:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-behavior",
+        "decision-making",
+        "product-strategy"
+      ],
+      "word_count": 544,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:07:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #6: Website Hanyalah Bentuk Luar dari Sesuatu yang Lebih Besar\"",
+      "url": "/2026/08/15/website-hanyalah-bentuk-luar-dari-sesuatu-yang-lebih-besar/",
+      "date": "2026-08-15 10:06:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "website",
+        "digital-assets",
+        "decision-systems"
+      ],
+      "word_count": 587,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:06:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #5: Orang Menggunakan Setiap Channel Dengan Cara Yang Berbeda\"",
+      "url": "/2026/08/15/orang-menggunakan-setiap-channel-dengan-cara-yang-berbeda/",
+      "date": "2026-08-15 10:05:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "digital-marketing",
+        "customer-journey",
+        "content-strategy"
+      ],
+      "word_count": 651,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:05:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #4: Mengenal Anda Bukan Berarti Siap Membeli\"",
+      "url": "/2026/08/15/mengenal-anda-bukan-berarti-siap-membeli/",
+      "date": "2026-08-15 10:04:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-journey",
+        "decision-making",
+        "marketing"
+      ],
+      "word_count": 525,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:04:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #3: Mengapa Orang Memilih Yang Mereka Percaya\"",
+      "url": "/2026/08/15/mengapa-orang-memilih-yang-mereka-percaya/",
+      "date": "2026-08-15 10:03:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-decision",
+        "trust",
+        "business"
+      ],
+      "word_count": 458,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:03:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #2: Orang Tidak Bisa Memilih Anda Jika Tidak Mengenal Anda\"",
+      "url": "/2026/08/15/orang-tidak-bisa-memilih-anda-jika-tidak-mengenal-anda/",
+      "date": "2026-08-15 10:02:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-journey",
+        "digital-marketing",
+        "decision-making"
+      ],
+      "word_count": 582,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:02:00 +0700"
+    },
+    {
+      "title": "\"Go To Market #1: Mengapa Produk Bagus Saja Tidak Cukup\"",
+      "url": "/2026/08/15/go-to-market-mengapa-produk-bagus-saja-tidak-cukup/",
+      "date": "2026-08-15 10:01:00 +0700",
+      "category": "Business Intelligence",
+      "tags": [
+        "go-to-market",
+        "customer-journey",
+        "decision-systems",
+        "marketing"
+      ],
+      "word_count": 353,
+      "reading_time": 2,
+      "internal_links": 0,
+      "last_updated": "2026-08-15 10:01:00 +0700"
     },
     {
       "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
@@ -728,7 +908,7 @@
         "operations",
         "reliability"
       ],
-      "word_count": 556,
+      "word_count": 548,
       "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2026-08-15"
@@ -746,7 +926,7 @@
         "homepage",
         "operations"
       ],
-      "word_count": 654,
+      "word_count": 643,
       "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2026-08-14"
@@ -763,10 +943,26 @@
         "homelab",
         "infrastructure"
       ],
-      "word_count": 647,
+      "word_count": 638,
       "reading_time": 4,
       "internal_links": 3,
       "last_updated": "2026-08-13"
+    },
+    {
+      "title": "\"AI Bukan Titik Awal\"",
+      "url": "/2026/08/12/ai-bukan-titik-awal/",
+      "date": "2026-08-12",
+      "category": "AI Engineering",
+      "tags": [
+        "ai",
+        "decision-systems",
+        "software-architecture",
+        "observability"
+      ],
+      "word_count": 378,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-08-12"
     },
     {
       "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
@@ -780,9 +976,26 @@
         "self-hosting",
         "infrastructure"
       ],
-      "word_count": 583,
+      "word_count": 576,
       "reading_time": 4,
       "internal_links": 1,
+      "last_updated": "2026-08-12"
+    },
+    {
+      "title": "\"Semantic Infrastructure: Investasi yang Dilupakan Saat Organisasi Bertumbuh\"",
+      "url": "/2026/08/12/semantic-infrastructure-investasi-yang-dilupakan/",
+      "date": "2026-08-12",
+      "category": "Decision Systems",
+      "tags": [
+        "semantic-infrastructure",
+        "decision-making",
+        "organizational-design",
+        "knowledge-management",
+        "systems-thinking"
+      ],
+      "word_count": 856,
+      "reading_time": 5,
+      "internal_links": 0,
       "last_updated": "2026-08-12"
     },
     {
@@ -797,9 +1010,25 @@
         "networking",
         "home-server"
       ],
-      "word_count": 580,
+      "word_count": 570,
       "reading_time": 4,
       "internal_links": 2,
+      "last_updated": "2026-08-11"
+    },
+    {
+      "title": "\"Dokumen Teknis Adalah Knowledge Compression\"",
+      "url": "/2026/08/11/dokumen-teknis-adalah-knowledge-compression/",
+      "date": "2026-08-11",
+      "category": "Decision Systems",
+      "tags": [
+        "knowledge-management",
+        "decision-systems",
+        "documentation",
+        "architecture"
+      ],
+      "word_count": 444,
+      "reading_time": 3,
+      "internal_links": 0,
       "last_updated": "2026-08-11"
     },
     {
@@ -814,7 +1043,7 @@
         "home-server",
         "security"
       ],
-      "word_count": 558,
+      "word_count": 550,
       "reading_time": 4,
       "internal_links": 1,
       "last_updated": "2026-08-10"
@@ -831,7 +1060,7 @@
         "learning",
         "operations"
       ],
-      "word_count": 554,
+      "word_count": 545,
       "reading_time": 4,
       "internal_links": 2,
       "last_updated": "2026-08-09"
@@ -850,7 +1079,7 @@
         "tailscale",
         "cloudflare"
       ],
-      "word_count": 618,
+      "word_count": 606,
       "reading_time": 4,
       "internal_links": 3,
       "last_updated": "2026-08-08"
@@ -867,7 +1096,7 @@
         "decision-systems",
         "software-design"
       ],
-      "word_count": 464,
+      "word_count": 458,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-08-02"
@@ -884,7 +1113,7 @@
         "architecture",
         "capability"
       ],
-      "word_count": 422,
+      "word_count": 415,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-08-02"
@@ -901,7 +1130,7 @@
         "mental-model",
         "architecture"
       ],
-      "word_count": 429,
+      "word_count": 423,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-08-02"
@@ -918,7 +1147,7 @@
         "mental-model",
         "architecture"
       ],
-      "word_count": 539,
+      "word_count": 529,
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2026-08-02"
@@ -936,7 +1165,7 @@
         "hardening",
         "observability"
       ],
-      "word_count": 689,
+      "word_count": 677,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-31"
@@ -954,7 +1183,7 @@
         "ssl",
         "observability"
       ],
-      "word_count": 871,
+      "word_count": 857,
       "reading_time": 5,
       "internal_links": 6,
       "last_updated": "2026-07-31"
@@ -971,7 +1200,7 @@
         "go-to-market",
         "business-intelligence"
       ],
-      "word_count": 619,
+      "word_count": 610,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-29"
@@ -988,8 +1217,8 @@
         "go-to-market",
         "business-intelligence"
       ],
-      "word_count": 543,
-      "reading_time": 4,
+      "word_count": 531,
+      "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-29"
     },
@@ -1005,7 +1234,7 @@
         "data-strategy",
         "systems-thinking"
       ],
-      "word_count": 514,
+      "word_count": 505,
       "reading_time": 3,
       "internal_links": 6,
       "last_updated": "2026-07-29"
@@ -1022,7 +1251,7 @@
         "organizational-development",
         "decision-systems"
       ],
-      "word_count": 524,
+      "word_count": 516,
       "reading_time": 3,
       "internal_links": 6,
       "last_updated": "2026-07-29"
@@ -1038,7 +1267,7 @@
         "systems-thinking",
         "human-in-the-loop"
       ],
-      "word_count": 695,
+      "word_count": 685,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-29"
@@ -1053,7 +1282,7 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 329,
+      "word_count": 320,
       "reading_time": 2,
       "internal_links": 5,
       "last_updated": "2026-07-28"
@@ -1070,7 +1299,7 @@
         "systems-thinking",
         "organizational-development"
       ],
-      "word_count": 816,
+      "word_count": 807,
       "reading_time": 5,
       "internal_links": 5,
       "last_updated": "2026-07-28"
@@ -1087,7 +1316,7 @@
         "outcome",
         "decision-systems"
       ],
-      "word_count": 676,
+      "word_count": 668,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-28"
@@ -1103,7 +1332,7 @@
         "systems-thinking",
         "ownership"
       ],
-      "word_count": 355,
+      "word_count": 349,
       "reading_time": 2,
       "internal_links": 4,
       "last_updated": "2026-07-28"
@@ -1119,7 +1348,7 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 259,
+      "word_count": 249,
       "reading_time": 2,
       "internal_links": 4,
       "last_updated": "2026-07-28"
@@ -1135,7 +1364,7 @@
         "capability-building",
         "systems-thinking"
       ],
-      "word_count": 229,
+      "word_count": 219,
       "reading_time": 2,
       "internal_links": 2,
       "last_updated": "2026-07-28"
@@ -1152,7 +1381,7 @@
         "ai-governance",
         "system-design"
       ],
-      "word_count": 612,
+      "word_count": 599,
       "reading_time": 4,
       "internal_links": 3,
       "last_updated": "2026-07-27"
@@ -1169,7 +1398,7 @@
         "marketing-analytics",
         "ai-governance"
       ],
-      "word_count": 630,
+      "word_count": 621,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-26"
@@ -1186,7 +1415,7 @@
         "data-governance",
         "decision-system"
       ],
-      "word_count": 530,
+      "word_count": 518,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-25"
@@ -1203,7 +1432,7 @@
         "organizational-learning",
         "technical-roadmap"
       ],
-      "word_count": 498,
+      "word_count": 488,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-25"
@@ -1220,8 +1449,8 @@
         "capability-development",
         "knowledge-management"
       ],
-      "word_count": 542,
-      "reading_time": 4,
+      "word_count": 533,
+      "reading_time": 3,
       "internal_links": 3,
       "last_updated": "2026-07-25"
     },
@@ -1237,7 +1466,7 @@
         "ownership",
         "system-thinking"
       ],
-      "word_count": 531,
+      "word_count": 521,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-25"
@@ -1254,7 +1483,7 @@
         "system-thinking",
         "engineering-culture"
       ],
-      "word_count": 522,
+      "word_count": 514,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-25"
@@ -1270,7 +1499,7 @@
         "ai-engineering",
         "decision-system"
       ],
-      "word_count": 601,
+      "word_count": 586,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-24"
@@ -1388,7 +1617,7 @@
         "data-governance",
         "decision-system"
       ],
-      "word_count": 540,
+      "word_count": 528,
       "reading_time": 3,
       "internal_links": 2,
       "last_updated": "2026-07-23"
@@ -1404,7 +1633,7 @@
         "institutional-memory",
         "workflow"
       ],
-      "word_count": 367,
+      "word_count": 361,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-21"
@@ -1419,7 +1648,7 @@
         "automation",
         "engineering-thinking"
       ],
-      "word_count": 296,
+      "word_count": 290,
       "reading_time": 2,
       "internal_links": 3,
       "last_updated": "2026-07-20"
@@ -1434,7 +1663,7 @@
         "product-thinking",
         "engineering-thinking"
       ],
-      "word_count": 283,
+      "word_count": 275,
       "reading_time": 2,
       "internal_links": 2,
       "last_updated": "2026-07-20"
@@ -1449,7 +1678,7 @@
         "platform-thinking",
         "engineering-thinking"
       ],
-      "word_count": 287,
+      "word_count": 281,
       "reading_time": 2,
       "internal_links": 2,
       "last_updated": "2026-07-20"
@@ -1464,7 +1693,7 @@
         "automation",
         "engineering-thinking"
       ],
-      "word_count": 305,
+      "word_count": 301,
       "reading_time": 2,
       "internal_links": 2,
       "last_updated": "2026-07-20"
@@ -1481,7 +1710,7 @@
         "knowledge-architecture",
         "digital-marketing"
       ],
-      "word_count": 710,
+      "word_count": 700,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-18"
@@ -1498,7 +1727,7 @@
         "topical-authority",
         "ai-search"
       ],
-      "word_count": 676,
+      "word_count": 666,
       "reading_time": 4,
       "internal_links": 5,
       "last_updated": "2026-07-18"
@@ -1515,7 +1744,7 @@
         "digital-strategy",
         "ai-search"
       ],
-      "word_count": 709,
+      "word_count": 697,
       "reading_time": 4,
       "internal_links": 2,
       "last_updated": "2026-07-17"
@@ -1531,7 +1760,7 @@
         "capability",
         "strategy"
       ],
-      "word_count": 357,
+      "word_count": 352,
       "reading_time": 2,
       "internal_links": 3,
       "last_updated": "2026-07-15"
@@ -1548,7 +1777,7 @@
         "sistem",
         "model-mental"
       ],
-      "word_count": 454,
+      "word_count": 455,
       "reading_time": 3,
       "internal_links": 5,
       "last_updated": "2026-07-15"
@@ -1557,7 +1786,7 @@
       "title": "\"Insight Tidak Pernah Muncul dari Dashboard\"",
       "url": "/2026/07/14/insight-tidak-pernah-muncul-dari-dashboard/",
       "date": "2026-07-14",
-      "category": "Decision Intelligence",
+      "category": "Decision Systems",
       "tags": [
         "decision-intelligence",
         "analytics",
@@ -1574,7 +1803,7 @@
       "title": "\"Root Cause Analysis Lebih Penting daripada Solusi Cepat\"",
       "url": "/2026/07/14/root-cause-analysis-lebih-penting-daripada-solusi-cepat/",
       "date": "2026-07-14",
-      "category": "Decision Intelligence",
+      "category": "Decision Systems",
       "tags": [
         "root-cause-analysis",
         "troubleshooting",
@@ -1609,7 +1838,7 @@
       "title": "\"WordPress Security Audit Checklist Before Migration\"",
       "url": "/2026/07/14/wordpress-security-audit-checklist-before-migration/",
       "date": "2026-07-14",
-      "category": "Digital Garden",
+      "category": "Infrastructure",
       "tags": [
         "wordpress",
         "security",
@@ -1626,7 +1855,7 @@
       "title": "\"KPI Tidak Pernah Menyelesaikan Perdebatan\"",
       "url": "/2026/07/13/kpi-tidak-pernah-menyelesaikan-perdebatan/",
       "date": "2026-07-13",
-      "category": "Business Architecture",
+      "category": "Business Intelligence",
       "tags": [
         "business-glossary",
         "kpi",
@@ -1643,7 +1872,7 @@
       "title": "\"Measurement Bukan Tujuan: Mendesain Sistem Tracking Berdasarkan Keputusan Bisnis\"",
       "url": "/2026/07/13/measurement-bukan-tujuan/",
       "date": "2026-07-13",
-      "category": "Decision Intelligence",
+      "category": "Decision Systems",
       "tags": [
         "measurement",
         "analytics",
@@ -1661,7 +1890,7 @@
       "title": "\"Real-Time Bukan Berarti Cepat\"",
       "url": "/2026/07/13/real-time-bukan-berarti-cepat/",
       "date": "2026-07-13",
-      "category": "Digital Garden",
+      "category": "Decision Systems",
       "tags": [
         "observability",
         "analytics",
@@ -1670,7 +1899,7 @@
         "digital-garden",
         "data-architecture"
       ],
-      "word_count": 571,
+      "word_count": 574,
       "reading_time": 4,
       "internal_links": 3,
       "last_updated": "2026-07-13"
@@ -1694,30 +1923,13 @@
       "title": "\"Knowledge Extraction Engine (KXE): Beyond Summarization to Auditable Intelligence\"",
       "url": "/2026/07/12/knowledge-extraction-engine/",
       "date": "2026-07-12",
-      "category": "[AI Engineering, Prompt Engineering]",
+      "category": "AI Engineering",
       "tags": [
         "[Decision Systems, Knowledge Management, LLM]"
       ],
       "word_count": 360,
       "reading_time": 2,
       "internal_links": 4,
-      "last_updated": "2026-07-12"
-    },
-    {
-      "title": "\"Devira Observatory — 12 Juli 2026: Convergence Menguat, Namun Bukti Belum Lengkap\"",
-      "url": "/2026/07/12/radar-observatory-2026-07-12/",
-      "date": "2026-07-12",
-      "category": "Narrative Observatory",
-      "tags": [
-        "devira",
-        "narrative-observatory",
-        "convergence",
-        "observability",
-        "multi-source-signals"
-      ],
-      "word_count": 754,
-      "reading_time": 5,
-      "internal_links": 6,
       "last_updated": "2026-07-12"
     },
     {
@@ -1809,24 +2021,24 @@
       "category": "Infrastructure"
     },
     {
-      "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
-      "date": "2026-08-15",
-      "category": "Infrastructure"
+      "title": "\"Leading Indicator Framework\"",
+      "date": "2026-08-16",
+      "category": "Decision Systems"
     },
     {
-      "title": "\"Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud\"",
-      "date": "2026-08-14",
-      "category": "Infrastructure"
+      "title": "\"Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim\"",
+      "date": "2026-08-15 10:09:00 +0700",
+      "category": "Business Intelligence"
     },
     {
-      "title": "\"Docker Sebagai Operating Model untuk Home Server Modern\"",
-      "date": "2026-08-13",
-      "category": "Infrastructure"
+      "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
+      "date": "2026-08-15 10:08:00 +0700",
+      "category": "Business Intelligence"
     },
     {
-      "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
-      "date": "2026-08-12",
-      "category": "Infrastructure"
+      "title": "\"Go To Market #7: Orang Membeli Perubahan, Bukan Produk\"",
+      "date": "2026-08-15 10:07:00 +0700",
+      "category": "Business Intelligence"
     }
   ],
   "most_updated": [
@@ -1836,24 +2048,24 @@
       "last_updated": "2026-08-16"
     },
     {
-      "title": "\"Backup Adalah Fitur yang Paling Jarang Diuji\"",
+      "title": "\"Leading Indicator Framework\"",
       "updates": 1,
-      "last_updated": "2026-08-15"
+      "last_updated": "2026-08-16"
     },
     {
-      "title": "\"Aplikasi Pertama yang Layak Dipasang di Home Server Bukan Nextcloud\"",
+      "title": "\"Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim\"",
       "updates": 1,
-      "last_updated": "2026-08-14"
+      "last_updated": "2026-08-15 10:09:00 +0700"
     },
     {
-      "title": "\"Docker Sebagai Operating Model untuk Home Server Modern\"",
+      "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
       "updates": 1,
-      "last_updated": "2026-08-13"
+      "last_updated": "2026-08-15 10:08:00 +0700"
     },
     {
-      "title": "\"Proxmox: Mesin Eksperimen untuk Belajar Infrastruktur\"",
+      "title": "\"Go To Market #7: Orang Membeli Perubahan, Bukan Produk\"",
       "updates": 1,
-      "last_updated": "2026-08-12"
+      "last_updated": "2026-08-15 10:07:00 +0700"
     }
   ]
 }
