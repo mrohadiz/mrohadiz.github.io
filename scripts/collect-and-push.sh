@@ -39,6 +39,17 @@ node scripts/collectors/knowledge-collector.js
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Generating insights..."
 node scripts/collectors/insights-generator.js
 
+# Google Search Console (Python collector) — supplementary data; failure is
+# non-fatal so the rest of the pipeline still commits.
+if command -v python3 >/dev/null 2>&1; then
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] Collecting Google Search Console data..."
+  if ! python3 -m collectors.gsc_collector; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] WARNING: GSC collection failed, continuing with other data."
+  fi
+else
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] WARNING: python3 not found, skipping GSC collection."
+fi
+
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Staging changes..."
 git add data/observatory/
 
