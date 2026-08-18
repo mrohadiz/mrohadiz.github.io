@@ -47,11 +47,17 @@ if git diff --staged --quiet; then
 else
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] Committing and pushing..."
   git commit -m "chore: update observatory data $(date +%Y-%m-%d)"
-  # Integrate remote changes first — otherwise push is rejected whenever the
-  # remote has commits we don't have (e.g. articles pushed from another device).
-  if ! git pull --rebase --autostash origin main 2>&1; then
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: rebase onto origin/main failed (conflicts)." >&2
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Resolve manually, then run: git rebase --continue && git push" >&2
+  # Integrate remote changes before pushing — otherwise push is rejected whenever
+  # the remote has commits we don't have (e.g. articles pushed from another device).
+  #
+  # Conflict handling for cron: this script only commits generated files under
+  # data/observatory/, so on conflict we resolve in favor of the freshly
+  # regenerated local data (-X theirs during rebase = local wins). Manual fixes
+  # live in the collector scripts (also rebased in), so local data is still
+  # regenerated correctly on the next run.
+  if ! git pull --rebase --autostash -X theirs origin main 2>&1; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: rebase onto origin/main failed (network or unresolvable conflict)." >&2
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Local commit kept. Resolve manually, then run: git pull --rebase && git push" >&2
     git rebase --abort 2>/dev/null || true
     exit 1
   fi
