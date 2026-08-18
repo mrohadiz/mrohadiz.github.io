@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T01:22:58.631Z",
+  "collected_at": "2026-08-18T03:00:06.637Z",
   "period": {
     "start": "2026-07-19",
     "end": "2026-08-18"
@@ -74,55 +74,65 @@
       "date": "2026-08-17",
       "users": 2,
       "sessions": 2
+    },
+    {
+      "date": "2026-08-18",
+      "users": 3,
+      "sessions": 4
     }
   ],
   "summary": {
-    "total_users": 27,
-    "total_sessions": 38,
-    "avg_engagement_time": 2651,
+    "total_users": 29,
+    "total_sessions": 42,
+    "avg_engagement_time": 2421,
     "bounce_rate": 0.5,
     "returning_users": 3,
-    "avg_pages_per_session": 2.7
+    "avg_pages_per_session": 2.6
   },
   "previous_period": {
-    "total_users": 281,
-    "total_sessions": 281,
-    "avg_engagement_time": 112,
+    "total_users": 275,
+    "total_sessions": 275,
+    "avg_engagement_time": 114,
     "bounce_rate": 0.2222222222222222
   },
   "trend": {
-    "users_change": -0.9039145907473309,
-    "sessions_change": -0.8647686832740213,
-    "engagement_time_change": 22.769403761140406,
+    "users_change": -0.8945454545454545,
+    "sessions_change": -0.8472727272727273,
+    "engagement_time_change": 20.245815009636186,
     "bounce_rate_change": 1.2500000000000002
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 36,
-      "percentage": 0.9473684210526315
+      "sessions": 40,
+      "percentage": 0.9523809523809523
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.023809523809523808
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.023809523809523808
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 29,
-      "avg_engagement_time": 572
+      "sessions": 32,
+      "avg_engagement_time": 519
     },
     {
       "page": "/?",
       "sessions": 3,
       "avg_engagement_time": 1
+    },
+    {
+      "page": "/notes/",
+      "sessions": 2,
+      "avg_engagement_time": 464
     },
     {
       "page": "/observatory/",
@@ -135,6 +145,11 @@
       "avg_engagement_time": 555
     },
     {
+      "page": "/2025/01/05/infrastructure-as-code/",
+      "sessions": 1,
+      "avg_engagement_time": 21
+    },
+    {
       "page": "/methodology/",
       "sessions": 1,
       "avg_engagement_time": 10
@@ -143,76 +158,71 @@
       "page": "/topics/decision-systems/",
       "sessions": 1,
       "avg_engagement_time": 10
-    },
-    {
-      "page": "/notes/",
-      "sessions": 1,
-      "avg_engagement_time": 10
-    },
-    {
-      "page": "/2026/07/29/2026-07-29-data-tidak-memberikan-keputusan-data-hanya-memberikan-kemungkinan/",
-      "sessions": 1,
-      "avg_engagement_time": 464
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 21,
-      "percentage": 0.5526315789473685
+      "sessions": 23,
+      "percentage": 0.5476190476190477
     },
     {
       "country": "United States",
       "sessions": 9,
-      "percentage": 0.23684210526315788
+      "percentage": 0.21428571428571427
     },
     {
       "country": "France",
       "sessions": 3,
-      "percentage": 0.07894736842105263
+      "percentage": 0.07142857142857142
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.07894736842105263
+      "percentage": 0.07142857142857142
+    },
+    {
+      "country": "TW",
+      "sessions": 2,
+      "percentage": 0.047619047619047616
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.023809523809523808
     },
     {
       "country": "RU",
       "sessions": 1,
-      "percentage": 0.02631578947368421
+      "percentage": 0.023809523809523808
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 26,
-      "avg_engagement_time": 3358,
-      "percentage": 0.6842105263157895
+      "sessions": 29,
+      "avg_engagement_time": 3043,
+      "percentage": 0.6904761904761905
     },
     {
       "device": "Mobile",
-      "sessions": 12,
-      "avg_engagement_time": 1119,
-      "percentage": 0.3157894736842105
+      "sessions": 13,
+      "avg_engagement_time": 1034,
+      "percentage": 0.30952380952380953
     }
   ],
   "reading": {
-    "avg_max_scroll": 33,
-    "deep_read_pct": 0.333,
-    "sessions": 18,
+    "avg_max_scroll": 40,
+    "deep_read_pct": 0.4,
+    "sessions": 20,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.6111111111111112
+        "pct": 0.55
       },
       {
         "label": "25-50%",
-        "pct": 0.05555555555555555
+        "pct": 0.05
       },
       {
         "label": "50-75%",
@@ -220,7 +230,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3333333333333333
+        "pct": 0.4
       }
     ],
     "top_pages": [
@@ -243,6 +253,12 @@
         "deep_read_pct": 0.5
       },
       {
+        "page": "/2025/01/05/infrastructure-as-code/",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
+      },
+      {
         "page": "/observatory/",
         "sessions": 1,
         "avg_max_scroll": 75,
@@ -251,6 +267,10 @@
     ]
   },
   "top_clicks": [
+    {
+      "element": "All Notes",
+      "sessions": 1
+    },
     {
       "element": "Traffic",
       "sessions": 1
@@ -275,11 +295,11 @@
     },
     {
       "hour": 1,
-      "views": 6
+      "views": 8
     },
     {
       "hour": 2,
-      "views": 6
+      "views": 9
     },
     {
       "hour": 3,
@@ -368,11 +388,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 146,
-    "bot_ua_sessions": 13,
-    "automated_sessions": 97,
-    "automated_session_events": 6806,
-    "sessions_removed": 110,
-    "docs_after_filter": 3014
+    "bot_ua_events": 173,
+    "bot_ua_sessions": 15,
+    "automated_sessions": 96,
+    "automated_session_events": 6760,
+    "sessions_removed": 111,
+    "docs_after_filter": 3033
   }
 }

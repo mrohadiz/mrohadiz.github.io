@@ -1,72 +1,72 @@
 {
-  "collected_at": "2026-08-18T01:23:07.184Z",
+  "collected_at": "2026-08-18T03:00:13.617Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 240,
+    "total_commits": 249,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-18T01:22:28Z",
+    "last_commit_date": "2026-08-18T02:34:59Z",
     "active_days": 29
   },
   "recent_commits": [
     {
+      "sha": "ee4eea2",
+      "message": "Add BingSiteAuth.xml + fix checkout fetch-depth for IndexNow diff",
+      "date": "2026-08-18T02:34:59Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "d9119de",
+      "message": "Add IndexNow key + ping on content change",
+      "date": "2026-08-18T02:28:42Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "12b2aa6",
+      "message": "Create BingSiteAuth.xml",
+      "date": "2026-08-18T02:27:13Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "0a5a12c",
+      "message": "feat(scripts): integrate GSC collector into daily cron pipeline",
+      "date": "2026-08-18T02:04:01Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "b9db0bb",
+      "message": "feat(collectors): implement GSC search console collector",
+      "date": "2026-08-18T02:02:12Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "e8b5527",
+      "message": "fix(seo): exclude graphify-out & tool pages from sitemap",
+      "date": "2026-08-18T02:02:12Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "dfdfd1b",
+      "message": "chore(collectors): ignore collectors/credentials/ folder for local GSC credentials",
+      "date": "2026-08-18T01:34:20Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "80e0cb5",
+      "message": "fix(scripts): auto-resolve rebase conflicts in favor of regenerated data for cron",
+      "date": "2026-08-18T01:26:13Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "238e250",
+      "message": "chore: update observatory data 2026-08-18",
+      "date": "2026-08-18T01:23:07Z",
+      "author": "zakagimat"
+    },
+    {
       "sha": "04dfcbb",
       "message": "fix(scripts): pull --rebase before push to avoid rejected pushes",
       "date": "2026-08-18T01:22:28Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "edb29f9",
-      "message": "chore: update observatory data 2026-08-18",
-      "date": "2026-08-18T01:15:39Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "fcf2291",
-      "message": "chore: update observatory data 2026-08-14",
-      "date": "2026-08-14T08:00:18Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "a4652ad",
-      "message": "chore: update observatory data 2026-08-14",
-      "date": "2026-08-14T03:00:08Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "ce5e907",
-      "message": "chore: update observatory data 2026-08-13",
-      "date": "2026-08-13T08:00:08Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "a935cd3",
-      "message": "chore: update observatory data 2026-08-13",
-      "date": "2026-08-13T03:00:09Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "b76fc14",
-      "message": "chore: update observatory data 2026-08-12",
-      "date": "2026-08-12T08:00:08Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "92bdf1b",
-      "message": "chore: update observatory data 2026-08-12",
-      "date": "2026-08-12T03:00:14Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "d240fa8",
-      "message": "chore: update observatory data 2026-08-11",
-      "date": "2026-08-11T08:00:08Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "e629b5e",
-      "message": "chore: update observatory data 2026-08-11",
-      "date": "2026-08-11T03:00:08Z",
       "author": "zakagimat"
     }
   ],
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 67
+      "commits": 76
     }
   ],
   "article_history": [
@@ -111,7 +111,7 @@
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-18T01:23:07.184Z",
+    "last_deployment": "2026-08-18T03:00:13.617Z",
     "deployment_status": "success"
   }
 }
