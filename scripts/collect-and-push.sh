@@ -47,6 +47,14 @@ if git diff --staged --quiet; then
 else
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] Committing and pushing..."
   git commit -m "chore: update observatory data $(date +%Y-%m-%d)"
+  # Integrate remote changes first — otherwise push is rejected whenever the
+  # remote has commits we don't have (e.g. articles pushed from another device).
+  if ! git pull --rebase --autostash origin main 2>&1; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: rebase onto origin/main failed (conflicts)." >&2
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Resolve manually, then run: git rebase --continue && git push" >&2
+    git rebase --abort 2>/dev/null || true
+    exit 1
+  fi
   git push
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] Done."
 fi
