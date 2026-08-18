@@ -28,6 +28,7 @@ collectors/config/config.yaml
 collectors/config/*.local.yaml
 collectors/cache/
 collectors/logs/
+collectors/credentials/
 *.sqlite
 *.db
 service-account.json
