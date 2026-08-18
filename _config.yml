@@ -81,6 +81,7 @@ exclude:
   - playwright-report/
   - test-results/
   - report_dir
+  - graphify-out
 
 
 # Include
@@ -120,3 +121,12 @@ defaults:
       path: "_pages"
     values:
       layout: "page"
+  # Tool/artefak internal: jangan di-index oleh mesin pencari
+  - scope:
+      path: "scripts"
+    values:
+      sitemap: false
+  - scope:
+      path: "graphify-out"
+    values:
+      sitemap: false
