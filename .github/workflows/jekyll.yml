@@ -36,6 +36,50 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Detect content changes
+        id: content
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- \
+              '_posts/**' '_pages/**' '_notes/**' 'notes/**' 'projects/**' \
+              '_layouts/**' '_includes/**' '_sass/**' 'assets/**' \
+              '_config.yml' 'Gemfile' 'Gemfile.lock')
+          else
+            CHANGED="yes"
+          fi
+          if [ -n "$CHANGED" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ping IndexNow for new content
+        if: steps.content.outputs.changed == 'true'
+        run: |
+          python3 - <<'EOF'
+          import json, re, urllib.request, urllib.error
+          key = "1cf09af088e4901e1501a30d3197ac60"
+          host = "mrohadiz.github.io"
+          key_location = f"https://{host}/{key}.txt"
+          sitemap = open("_site/sitemap.xml", encoding="utf-8").read()
+          urls = re.findall(r"<loc>([^<]+)</loc>", sitemap)
+          if not urls:
+              print("No URLs found in sitemap, skipping.")
+              raise SystemExit(0)
+          body = json.dumps({"host": host, "key": key, "keyLocation": key_location, "urlList": urls}).encode("utf-8")
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=body,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  print(f"IndexNow OK ({resp.status}): {len(urls)} URLs submitted")
+          except urllib.error.HTTPError as e:
+              print(f"IndexNow HTTP {e.code}: {e.read().decode()}")
+              raise SystemExit(1)
+          EOF
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
