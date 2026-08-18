@@ -14,9 +14,10 @@ Each collector must implement:
 TODO: Implement in Phase 2
 """
 
+import json
 import logging
 from abc import ABC, abstractmethod
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -48,6 +49,7 @@ class BaseCollector(ABC):
         self.config = config or {}
         self.output_dir = Path("collectors/output")
         self.cache_dir = Path("collectors/cache")
+        self.output_filename = "output.json"
         self.last_run: Optional[datetime] = None
         self.last_error: Optional[str] = None
         self.logger = logging.getLogger(f"collector.{name}")
@@ -67,15 +69,35 @@ class BaseCollector(ABC):
         """Validate the collected data for integrity."""
         pass
 
-    def save(self, data: dict, filename: str):
+    def save(self, data: dict, filename: str = None) -> Path:
         """Save normalized data as JSON to output directory."""
-        # TODO: Implement in Phase 2
-        pass
+        filename = filename or self.output_filename
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        filepath = self.output_dir / filename
+        filepath.write_text(
+            json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        self.logger.info("Saved %s (%d bytes)", filepath, filepath.stat().st_size)
+        return filepath
 
     def run(self) -> bool:
-        """Execute the full collector lifecycle."""
-        # TODO: Implement in Phase 2
-        pass
+        """Execute the full collector lifecycle: collect → normalize → validate → save."""
+        self.last_run = datetime.now(timezone.utc)
+        self.last_error = None
+        try:
+            raw = self.collect()
+            data = self.normalize(raw)
+            if data is None:
+                raise RuntimeError("normalize() returned None")
+            if not self.validate(data):
+                raise RuntimeError("validate() returned False")
+            self.save(data)
+            return True
+        except Exception as exc:
+            self.last_error = str(exc)
+            self.logger.error("Collector %s failed: %s", self.name, exc)
+            return False
 
     def get_status(self) -> dict:
         """Return current collector status."""

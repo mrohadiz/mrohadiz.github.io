@@ -44,6 +44,10 @@ runtime.pid
 # Scripts
 run.sh
 
+# Python
+__pycache__/
+*.pyc
+
 # Graphify knowledge graph (auto-generated)
 graphify-out/
 
