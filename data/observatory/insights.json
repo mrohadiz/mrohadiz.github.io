@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-18T08:00:07.338Z",
+  "collected_at": "2026-08-20T03:00:16.953Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 89%",
-      "description": "From 275 to 29 users this period.",
-      "metric": "-89%",
+      "title": "Site visitors dropped 88%",
+      "description": "From 251 to 29 users this period.",
+      "metric": "-88%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -82,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-18T08:00:07.338Z",
+  "generated_at": "2026-08-20T03:00:16.953Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-19",
-      "end": "2026-08-18"
+      "start": "2026-07-21",
+      "end": "2026-08-20"
     }
   }
 }
