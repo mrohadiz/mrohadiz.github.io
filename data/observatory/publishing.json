@@ -1,14 +1,20 @@
 {
-  "collected_at": "2026-08-21T03:00:09.033Z",
+  "collected_at": "2026-08-21T08:00:09.644Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 253,
+    "total_commits": 254,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-08-20T08:00:12Z",
-    "active_days": 30
+    "last_commit_date": "2026-08-21T03:00:19Z",
+    "active_days": 31
   },
   "recent_commits": [
+    {
+      "sha": "2f6e775",
+      "message": "chore: update observatory data 2026-08-21",
+      "date": "2026-08-21T03:00:19Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "3fd1dbe",
       "message": "chore: update observatory data 2026-08-20",
@@ -62,12 +68,6 @@
       "message": "feat(collectors): implement GSC search console collector",
       "date": "2026-08-18T02:02:12Z",
       "author": "zakagimat"
-    },
-    {
-      "sha": "e8b5527",
-      "message": "fix(seo): exclude graphify-out & tool pages from sitemap",
-      "date": "2026-08-18T02:02:12Z",
-      "author": "zakagimat"
     }
   ],
   "publishing_timeline": [
@@ -77,7 +77,7 @@
     },
     {
       "month": "2026-08",
-      "commits": 80
+      "commits": 81
     }
   ],
   "article_history": [
@@ -105,13 +105,13 @@
   "contribution_streak": {
     "current_streak": 1,
     "longest_streak": 8,
-    "active_days": 30
+    "active_days": 31
   },
   "repository_health": {
     "open_issues": 1,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-08-21T03:00:09.033Z",
+    "last_deployment": "2026-08-21T08:00:09.644Z",
     "deployment_status": "success"
   }
 }
