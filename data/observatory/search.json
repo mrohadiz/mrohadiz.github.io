@@ -1,27 +1,27 @@
 {
-  "collected_at": "2026-08-20T08:00:12.685716+00:00",
+  "collected_at": "2026-08-21T03:00:18.764722+00:00",
   "period": {
-    "start": "2026-07-24",
-    "end": "2026-08-20"
+    "start": "2026-07-25",
+    "end": "2026-08-21"
   },
   "summary": {
-    "total_clicks": 1,
-    "total_impressions": 17,
-    "ctr": 0.0588,
-    "avg_position": 9.6,
+    "total_clicks": 0,
+    "total_impressions": 13,
+    "ctr": 0,
+    "avg_position": 12.2,
     "indexed_pages": 2
   },
   "previous_period": {
-    "total_clicks": 0,
-    "total_impressions": 8,
-    "ctr": 0,
-    "avg_position": 5.9
+    "total_clicks": 1,
+    "total_impressions": 12,
+    "ctr": 0.0833,
+    "avg_position": 4.3
   },
   "trend": {
-    "clicks_change": 0.0,
-    "impressions_change": 1.125,
-    "ctr_change": 0.0,
-    "position_change": 0.6271
+    "clicks_change": -1.0,
+    "impressions_change": 0.0833,
+    "ctr_change": -1.0,
+    "position_change": 1.8372
   },
   "top_queries": [
     {
@@ -35,10 +35,10 @@
   "top_pages": [
     {
       "page": "https://mrohadiz.github.io/",
-      "clicks": 1,
-      "impressions": 11,
-      "ctr": 0.0909,
-      "position": 2.5
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 3.3
     },
     {
       "page": "https://mrohadiz.github.io/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
@@ -51,11 +51,6 @@
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-07-24",
-      "clicks": 1,
-      "impressions": 4
-    },
     {
       "date": "2026-07-25",
       "clicks": 0,

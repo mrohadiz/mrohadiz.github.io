@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-20T08:00:07.178Z",
+  "collected_at": "2026-08-21T03:00:09.390Z",
   "insights": [
     {
       "type": "warning",
@@ -54,6 +54,16 @@
     {
       "type": "neutral",
       "category": "publishing",
+      "title": "1 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "1 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
       "title": "Latest commit: chore: update observatory data 2026-08-20",
       "description": "Committed 8/20/2026.",
       "metric": "10",
@@ -82,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-20T08:00:07.179Z",
+  "generated_at": "2026-08-21T03:00:09.390Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-21",
-      "end": "2026-08-20"
+      "start": "2026-07-22",
+      "end": "2026-08-21"
     }
   }
 }
