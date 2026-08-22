@@ -52,6 +52,22 @@ Prinsip yang sama dapat muncul dalam sistem yang sangat berbeda. Sebuah platform
 
 Kekuatan muncul ketika sebuah titik menjadi penting bagi aliran nilai yang lebih besar.
 
+## Ketika distribusi terkonsentrasi
+
+Contoh yang menarik muncul di marketplace dan social commerce. Pada satu produk, jumlah seller atau affiliate bisa sangat banyak, tetapi omzet dapat terkonsentrasi pada hanya beberapa akun teratas.
+
+Misalnya sebuah produk mencatat omzet sekitar Rp900 juta, tetapi sekitar 87,8% omzetnya datang dari hanya 2-4 seller atau affiliate. Angka seperti ini belum cukup untuk menjelaskan penyebabnya, dan tidak membuktikan bahwa produk tersebut lebih baik daripada kompetitornya.
+
+Namun secara struktural, data itu mengajukan pertanyaan penting:
+
+> **Mengapa sebagian besar aliran transaksi terkonsentrasi pada sedikit node distribusi?**
+
+Kemungkinannya beragam: jangkauan perhatian yang lebih besar, jaringan affiliate, jumlah transaksi dan ulasan yang sudah terkumpul, kemampuan membeli traffic, ketersediaan inventory, kepercayaan pasar, atau hubungan distribusi yang lebih kuat.
+
+Dengan kata lain, keberhasilan produk tidak selalu identik dengan keberhasilan distribusinya.
+
+Kita juga perlu berhati-hati terhadap angka konsentrasi seperti ini. Konsentrasi pada satu produk tidak otomatis berarti seluruh kategori atau pasar memiliki struktur yang sama. Angka tersebut lebih berguna sebagai sinyal untuk menyelidiki **bagaimana perhatian dan transaksi mengalir**, bukan sebagai bukti kausal tunggal.
+
 ## Privilege adalah akibat dari posisi
 
 Sering kali privilege dianggap sebagai sesuatu yang dikejar secara langsung: diskon, akses khusus, prioritas, kredit, atau dukungan.
@@ -142,6 +158,7 @@ Sebelum menilai sebuah bisnis, produk, organisasi, atau platform, coba periksa:
 - Titik mana yang paling sulit digantikan?
 - Siapa yang memperoleh privilege karena posisinya?
 - Apakah posisi tersebut menciptakan ketergantungan, atau hanya menjadi perantara sementara?
+- Jika satu node dominan hilang, seberapa besar aliran nilai ikut berubah?
 
 ## Penutup
 
