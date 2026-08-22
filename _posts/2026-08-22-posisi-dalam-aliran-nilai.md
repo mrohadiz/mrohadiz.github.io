@@ -11,6 +11,7 @@ tags:
   - distribution
   - strategy
 excerpt: "Dalam sebuah sistem, nilai tidak hanya tercipta dari apa yang Anda miliki atau lakukan, tetapi juga dari posisi Anda terhadap aliran nilai tersebut."
+image: /assets/images/og/2026-08-22-posisi-dalam-aliran-nilai.png
 ---
 
 # Posisi dalam Aliran Nilai
