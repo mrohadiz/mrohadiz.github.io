@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-21T08:00:09.867Z",
+  "collected_at": "2026-08-24T03:00:07.411Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 89%",
-      "description": "From 252 to 28 users this period.",
-      "metric": "-89%",
+      "title": "Site visitors dropped 88%",
+      "description": "From 235 to 29 users this period.",
+      "metric": "-88%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 41m 20s per session",
-      "description": "Across 41 sessions from 28 users this period.",
-      "metric": "41m 20s",
+      "title": "Average engagement is 41m 19s per session",
+      "description": "Across 42 sessions from 29 users this period.",
+      "metric": "41m 19s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "31 sessions with an average engagement of 8m 55s.",
-      "metric": "31",
+      "description": "32 sessions with an average engagement of 8m 39s.",
+      "metric": "32",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,8 +44,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (11% of visitors)",
-      "description": "11% of this period's visitors came back for another session.",
+      "title": "3 returning users (10% of visitors)",
+      "description": "10% of this period's visitors came back for another session.",
       "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -54,18 +54,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-08-21",
-      "description": "Committed 8/21/2026.",
+      "title": "Latest commit: Update article: Posisi dalam Aliran Nilai",
+      "description": "Committed 8/22/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -92,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-21T08:00:09.868Z",
+  "generated_at": "2026-08-24T03:00:07.411Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-22",
-      "end": "2026-08-21"
+      "start": "2026-07-25",
+      "end": "2026-08-24"
     }
   }
 }
