@@ -12,6 +12,7 @@ tags:
   - systems-thinking
   - evidence
 excerpt: "Memiliki goal, strategi, KPI, dan aktivitas belum cukup. Organisasi perlu mampu menelusuri dan menguji hubungan antara strategi yang dijalankan dan outcome yang ingin dicapai."
+image: /assets/images/og/2026-08-27-membuktikan-strategi-berkontribusi-pada-goal.png
 ---
 
 ## Ringkasan
