@@ -1,50 +1,50 @@
 {
-  "collected_at": "2026-08-24T03:00:07.353Z",
+  "collected_at": "2026-08-26T03:00:07.377Z",
   "summary": {
-    "total_articles": 78,
+    "total_articles": 79,
     "total_categories": 6,
-    "total_tags": 168,
+    "total_tags": 170,
     "total_series": 0,
     "total_internal_links": 205,
     "avg_reading_time": 3,
-    "total_word_count": 38741
+    "total_word_count": 39663
   },
   "categories": [
     {
       "name": "Decision Systems",
       "count": 27,
-      "percentage": 0.34615384615384615
+      "percentage": 0.34177215189873417
     },
     {
       "name": "Business Intelligence",
-      "count": 18,
-      "percentage": 0.23076923076923078
+      "count": 19,
+      "percentage": 0.24050632911392406
     },
     {
       "name": "Infrastructure",
       "count": 13,
-      "percentage": 0.16666666666666666
+      "percentage": 0.16455696202531644
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.14102564102564102
+      "percentage": 0.13924050632911392
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.10256410256410256
+      "percentage": 0.10126582278481013
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.01282051282051282
+      "percentage": 0.012658227848101266
     }
   ],
   "tags": [
     {
       "name": "systems-thinking",
-      "count": 15
+      "count": 16
     },
     {
       "name": "decision-making",
@@ -143,6 +143,10 @@
       "count": 3
     },
     {
+      "name": "strategy",
+      "count": 3
+    },
+    {
       "name": "mental-model",
       "count": 3
     },
@@ -221,10 +225,6 @@
     {
       "name": "marketing",
       "count": 3
-    },
-    {
-      "name": "strategy",
-      "count": 2
     },
     {
       "name": "measurement",
@@ -308,6 +308,10 @@
     },
     {
       "name": "trust",
+      "count": 2
+    },
+    {
+      "name": "business",
       "count": 2
     },
     {
@@ -675,10 +679,6 @@
       "count": 1
     },
     {
-      "name": "business",
-      "count": 1
-    },
-    {
       "name": "evidence",
       "count": 1
     },
@@ -713,9 +713,34 @@
     {
       "name": "business-systems",
       "count": 1
+    },
+    {
+      "name": "value-chain",
+      "count": 1
+    },
+    {
+      "name": "distribution",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Posisi dalam Aliran Nilai\"",
+      "url": "/2026/08/22/posisi-dalam-aliran-nilai/",
+      "date": "2026-08-22",
+      "category": "Business Intelligence",
+      "tags": [
+        "business",
+        "systems-thinking",
+        "value-chain",
+        "distribution",
+        "strategy"
+      ],
+      "word_count": 922,
+      "reading_time": 6,
+      "internal_links": 0,
+      "last_updated": "2026-08-22"
+    },
     {
       "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
       "url": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
@@ -2016,6 +2041,11 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Posisi dalam Aliran Nilai\"",
+      "date": "2026-08-22",
+      "category": "Business Intelligence"
+    },
+    {
       "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
       "date": "2026-08-16",
       "category": "Infrastructure"
@@ -2034,14 +2064,14 @@
       "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
       "date": "2026-08-15 10:08:00 +0700",
       "category": "Business Intelligence"
-    },
-    {
-      "title": "\"Go To Market #7: Orang Membeli Perubahan, Bukan Produk\"",
-      "date": "2026-08-15 10:07:00 +0700",
-      "category": "Business Intelligence"
     }
   ],
   "most_updated": [
+    {
+      "title": "\"Posisi dalam Aliran Nilai\"",
+      "updates": 1,
+      "last_updated": "2026-08-22"
+    },
     {
       "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
       "updates": 1,
@@ -2061,11 +2091,6 @@
       "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
       "updates": 1,
       "last_updated": "2026-08-15 10:08:00 +0700"
-    },
-    {
-      "title": "\"Go To Market #7: Orang Membeli Perubahan, Bukan Produk\"",
-      "updates": 1,
-      "last_updated": "2026-08-15 10:07:00 +0700"
     }
   ]
 }

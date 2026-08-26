@@ -1,20 +1,10 @@
 {
-  "collected_at": "2026-08-24T03:00:04.902Z",
+  "collected_at": "2026-08-26T03:00:04.880Z",
   "period": {
-    "start": "2026-07-25",
-    "end": "2026-08-24"
+    "start": "2026-07-27",
+    "end": "2026-08-26"
   },
   "daily_trend": [
-    {
-      "date": "2026-07-25",
-      "users": 1,
-      "sessions": 1
-    },
-    {
-      "date": "2026-07-26",
-      "users": 1,
-      "sessions": 1
-    },
     {
       "date": "2026-07-28",
       "users": 1,
@@ -77,47 +67,47 @@
     }
   ],
   "summary": {
-    "total_users": 29,
-    "total_sessions": 42,
-    "avg_engagement_time": 2479,
-    "bounce_rate": 0.4090909090909091,
+    "total_users": 28,
+    "total_sessions": 40,
+    "avg_engagement_time": 2638,
+    "bounce_rate": 0.47058823529411764,
     "returning_users": 3,
-    "avg_pages_per_session": 2.6
+    "avg_pages_per_session": 2.7
   },
   "previous_period": {
-    "total_users": 235,
-    "total_sessions": 237,
-    "avg_engagement_time": 132,
-    "bounce_rate": 0.3
+    "total_users": 236,
+    "total_sessions": 239,
+    "avg_engagement_time": 149,
+    "bounce_rate": 0.28
   },
   "trend": {
-    "users_change": -0.8765957446808511,
-    "sessions_change": -0.8227848101265823,
-    "engagement_time_change": 17.73018020910325,
-    "bounce_rate_change": 0.36363636363636376
+    "users_change": -0.8813559322033898,
+    "sessions_change": -0.8326359832635983,
+    "engagement_time_change": 16.745359674972523,
+    "bounce_rate_change": 0.6806722689075628
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 40,
-      "percentage": 0.9523809523809523
+      "sessions": 38,
+      "percentage": 0.95
     },
     {
       "source": "Bing",
       "sessions": 2,
-      "percentage": 0.047619047619047616
+      "percentage": 0.05
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 32,
-      "avg_engagement_time": 519
+      "sessions": 30,
+      "avg_engagement_time": 452
     },
     {
       "page": "/notes/",
       "sessions": 3,
-      "avg_engagement_time": 954
+      "avg_engagement_time": 2804
     },
     {
       "page": "/?",
@@ -153,57 +143,57 @@
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 21,
+      "sessions": 20,
       "percentage": 0.5
     },
     {
       "country": "United States",
-      "sessions": 12,
-      "percentage": 0.2857142857142857
+      "sessions": 11,
+      "percentage": 0.275
     },
     {
       "country": "France",
       "sessions": 3,
-      "percentage": 0.07142857142857142
+      "percentage": 0.075
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.07142857142857142
+      "percentage": 0.075
     },
     {
       "country": "TW",
       "sessions": 2,
-      "percentage": 0.047619047619047616
+      "percentage": 0.05
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.023809523809523808
+      "percentage": 0.025
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 31,
-      "avg_engagement_time": 2926,
-      "percentage": 0.7380952380952381
+      "sessions": 29,
+      "avg_engagement_time": 3175,
+      "percentage": 0.725
     },
     {
       "device": "Mobile",
       "sessions": 11,
       "avg_engagement_time": 1221,
-      "percentage": 0.2619047619047619
+      "percentage": 0.275
     }
   ],
   "reading": {
-    "avg_max_scroll": 39,
-    "deep_read_pct": 0.409,
-    "sessions": 22,
+    "avg_max_scroll": 31,
+    "deep_read_pct": 0.353,
+    "sessions": 17,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5909090909090909
+        "pct": 0.6470588235294118
       },
       {
         "label": "25-50%",
@@ -215,20 +205,20 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.4090909090909091
+        "pct": 0.35294117647058826
       }
     ],
     "top_pages": [
       {
-        "page": "/",
-        "sessions": 3,
-        "avg_max_scroll": 92,
-        "deep_read_pct": 1
-      },
-      {
         "page": "/?",
         "sessions": 3,
         "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/",
+        "sessions": 2,
+        "avg_max_scroll": 88,
         "deep_read_pct": 1
       },
       {
@@ -254,12 +244,6 @@
         "sessions": 1,
         "avg_max_scroll": 75,
         "deep_read_pct": 1
-      },
-      {
-        "page": "/2026/07/24/dari-analytics-ke-customer-intelligence/",
-        "sessions": 1,
-        "avg_max_scroll": 25,
-        "deep_read_pct": 0
       }
     ]
   },
@@ -282,10 +266,6 @@
     },
     {
       "element": "Observatory",
-      "sessions": 1
-    },
-    {
-      "element": "R\nM. Rohadiz",
       "sessions": 1
     }
   ],
@@ -332,15 +312,15 @@
     },
     {
       "hour": 10,
-      "views": 1
+      "views": 0
     },
     {
       "hour": 11,
-      "views": 4
+      "views": 1
     },
     {
       "hour": 12,
-      "views": 7
+      "views": 6
     },
     {
       "hour": 13,
