@@ -1,50 +1,50 @@
 {
-  "collected_at": "2026-08-27T03:00:10.096Z",
+  "collected_at": "2026-08-27T08:00:06.436Z",
   "summary": {
-    "total_articles": 79,
+    "total_articles": 81,
     "total_categories": 6,
-    "total_tags": 170,
+    "total_tags": 175,
     "total_series": 0,
-    "total_internal_links": 205,
+    "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 39663
+    "total_word_count": 41373
   },
   "categories": [
     {
       "name": "Decision Systems",
-      "count": 27,
-      "percentage": 0.34177215189873417
+      "count": 29,
+      "percentage": 0.35802469135802467
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.24050632911392406
+      "percentage": 0.2345679012345679
     },
     {
       "name": "Infrastructure",
       "count": 13,
-      "percentage": 0.16455696202531644
+      "percentage": 0.16049382716049382
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.13924050632911392
+      "percentage": 0.13580246913580246
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.10126582278481013
+      "percentage": 0.09876543209876543
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.012658227848101266
+      "percentage": 0.012345679012345678
     }
   ],
   "tags": [
     {
       "name": "systems-thinking",
-      "count": 16
+      "count": 17
     },
     {
       "name": "decision-making",
@@ -87,11 +87,15 @@
       "count": 6
     },
     {
-      "name": "business-intelligence",
-      "count": 5
+      "name": "decision-intelligence",
+      "count": 6
     },
     {
       "name": "digital-marketing",
+      "count": 6
+    },
+    {
+      "name": "business-intelligence",
       "count": 5
     },
     {
@@ -99,11 +103,11 @@
       "count": 4
     },
     {
-      "name": "infrastructure",
+      "name": "strategy",
       "count": 4
     },
     {
-      "name": "decision-intelligence",
+      "name": "infrastructure",
       "count": 4
     },
     {
@@ -143,10 +147,6 @@
       "count": 3
     },
     {
-      "name": "strategy",
-      "count": 3
-    },
-    {
       "name": "mental-model",
       "count": 3
     },
@@ -155,7 +155,15 @@
       "count": 3
     },
     {
+      "name": "measurement",
+      "count": 3
+    },
+    {
       "name": "troubleshooting",
+      "count": 3
+    },
+    {
+      "name": "wordpress",
       "count": 3
     },
     {
@@ -227,19 +235,11 @@
       "count": 3
     },
     {
-      "name": "measurement",
-      "count": 2
-    },
-    {
       "name": "dashboard",
       "count": 2
     },
     {
       "name": "data",
-      "count": 2
-    },
-    {
-      "name": "wordpress",
       "count": 2
     },
     {
@@ -312,6 +312,10 @@
     },
     {
       "name": "business",
+      "count": 2
+    },
+    {
+      "name": "evidence",
       "count": 2
     },
     {
@@ -679,10 +683,6 @@
       "count": 1
     },
     {
-      "name": "evidence",
-      "count": 1
-    },
-    {
       "name": "customer-behavior",
       "count": 1
     },
@@ -721,9 +721,66 @@
     {
       "name": "distribution",
       "count": 1
+    },
+    {
+      "name": "governance",
+      "count": 1
+    },
+    {
+      "name": "goal-alignment",
+      "count": 1
+    },
+    {
+      "name": "landing-page",
+      "count": 1
+    },
+    {
+      "name": "business-strategy",
+      "count": 1
+    },
+    {
+      "name": "roadmap",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
+      "url": "/2026/08/27/membuktikan-strategi-berkontribusi-pada-goal/",
+      "date": "2026-08-27",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-intelligence",
+        "strategy",
+        "governance",
+        "goal-alignment",
+        "systems-thinking",
+        "evidence"
+      ],
+      "word_count": 905,
+      "reading_time": 6,
+      "internal_links": 2,
+      "last_updated": "2026-08-27"
+    },
+    {
+      "title": "\"WordPress Roadmap: Dari Tujuan Bisnis sampai Hasil Bisnis\"",
+      "url": "/2026/08/27/wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil/",
+      "date": "2026-08-27",
+      "category": "Decision Systems",
+      "tags": [
+        "wordpress",
+        "landing-page",
+        "digital-marketing",
+        "decision-intelligence",
+        "business-strategy",
+        "measurement",
+        "roadmap"
+      ],
+      "word_count": 805,
+      "reading_time": 5,
+      "internal_links": 0,
+      "last_updated": "2026-08-27"
+    },
     {
       "title": "\"Posisi dalam Aliran Nilai\"",
       "url": "/2026/08/22/posisi-dalam-aliran-nilai/",
@@ -2041,6 +2098,16 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
+      "date": "2026-08-27",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"WordPress Roadmap: Dari Tujuan Bisnis sampai Hasil Bisnis\"",
+      "date": "2026-08-27",
+      "category": "Decision Systems"
+    },
+    {
       "title": "\"Posisi dalam Aliran Nilai\"",
       "date": "2026-08-22",
       "category": "Business Intelligence"
@@ -2054,19 +2121,19 @@
       "title": "\"Leading Indicator Framework\"",
       "date": "2026-08-16",
       "category": "Decision Systems"
-    },
-    {
-      "title": "\"Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim\"",
-      "date": "2026-08-15 10:09:00 +0700",
-      "category": "Business Intelligence"
-    },
-    {
-      "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
-      "date": "2026-08-15 10:08:00 +0700",
-      "category": "Business Intelligence"
     }
   ],
   "most_updated": [
+    {
+      "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
+      "updates": 1,
+      "last_updated": "2026-08-27"
+    },
+    {
+      "title": "\"WordPress Roadmap: Dari Tujuan Bisnis sampai Hasil Bisnis\"",
+      "updates": 1,
+      "last_updated": "2026-08-27"
+    },
     {
       "title": "\"Posisi dalam Aliran Nilai\"",
       "updates": 1,
@@ -2081,16 +2148,6 @@
       "title": "\"Leading Indicator Framework\"",
       "updates": 1,
       "last_updated": "2026-08-16"
-    },
-    {
-      "title": "\"Go To Market #9: Orang Lebih Percaya Bukti Daripada Klaim\"",
-      "updates": 1,
-      "last_updated": "2026-08-15 10:09:00 +0700"
-    },
-    {
-      "title": "\"Go To Market #8: Orang Tidak Harus Membeli Untuk Mengingat Anda\"",
-      "updates": 1,
-      "last_updated": "2026-08-15 10:08:00 +0700"
     }
   ]
 }
