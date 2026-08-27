@@ -1,0 +1,71 @@
+[2026-08-27 10:00:01] === Observatory Collection Start ===
+[2026-08-27 10:00:01] Collecting traffic data from kmstrack...
+◇ injected env (3) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Collecting traffic data from kmstrack for mrohadiz.github.io...
+Connecting to MongoDB...
+Connected to kms_track.kmstrack
+Found 10000 records for mrohadiz.github.io
+Sample doc: user=650fb402-7705-4c90-9755-d3c7ba441659, session=fda9c695-5790-45ed-ae51-9bd95f9f78dc, time=Wed Aug 26 2026 15:54:26 GMT+0700 (Western Indonesia Time)
+  Metrics: processed=485, users=27, sessions=39, session_ends=17, bounces=8
+  Metrics: processed=2275, users=236, sessions=239, session_ends=25, bounces=7
+  Filter: removed 7240 bot/crawler events (bot_ua_events=184, automated_sessions=102, sessions_removed=119)
+Disconnected from MongoDB
+✓ Traffic data saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/traffic.json
+  Summary: 27 users, 39 sessions
+[2026-08-27 10:00:07] Collecting GitHub data...
+Starting GitHub data collection...
+Collecting commits...
+Collecting repository info...
+GitHub data collected successfully. Saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/publishing.json
+[2026-08-27 10:00:10] Collecting knowledge data...
+Starting knowledge data collection...
+Knowledge data collected successfully. Found 79 articles. Saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/knowledge.json
+[2026-08-27 10:00:10] Generating insights...
+Starting insights generation...
+Insights generated successfully. Found 9 insights. Saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/insights.json
+[2026-08-27 10:00:10] Collecting Google Search Console data...
+2026-08-27 10:00:11,356 WARNING googleapiclient.discovery_cache: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/googleapiclient/discovery_cache/__init__.py", line 42, in autodetect
+    from . import file_cache
+  File "/usr/lib/python3/dist-packages/googleapiclient/discovery_cache/file_cache.py", line 40, in <module>
+    raise ImportError(
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2026-08-27 10:00:11,356 INFO googleapiclient.discovery: URL being requested: GET https://www.googleapis.com/discovery/v1/apis/searchconsole/v1/rest
+2026-08-27 10:00:12,143 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:13,026 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:13,327 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:13,458 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:13,741 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:13,868 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:14,158 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:14,513 INFO googleapiclient.discovery: URL being requested: POST https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fmrohadiz.github.io%2F/searchAnalytics/query?alt=json
+2026-08-27 10:00:17,224 INFO collector.gsc_collector: Saved data/observatory/search.json (3175 bytes)
+{
+  "name": "gsc_collector",
+  "last_run": "2026-08-27T03:00:11.306061+00:00",
+  "last_error": null,
+  "status": "healthy"
+}
+[2026-08-27 10:00:17] Staging changes...

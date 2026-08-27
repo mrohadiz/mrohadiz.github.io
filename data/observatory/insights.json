@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-26T08:00:07.299Z",
+  "collected_at": "2026-08-27T03:00:10.194Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 88%",
-      "description": "From 236 to 28 users this period.",
-      "metric": "-88%",
+      "title": "Site visitors dropped 89%",
+      "description": "From 236 to 27 users this period.",
+      "metric": "-89%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 43m 58s per session",
-      "description": "Across 40 sessions from 28 users this period.",
-      "metric": "43m 58s",
+      "title": "Average engagement is 45m 6s per session",
+      "description": "Across 39 sessions from 27 users this period.",
+      "metric": "45m 6s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -54,8 +54,18 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-08-26",
-      "description": "Committed 8/26/2026.",
+      "title": "1 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "1 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "description": "Committed 8/27/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -82,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-26T08:00:07.299Z",
+  "generated_at": "2026-08-27T03:00:10.194Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-27",
-      "end": "2026-08-26"
+      "start": "2026-07-28",
+      "end": "2026-08-27"
     }
   }
 }

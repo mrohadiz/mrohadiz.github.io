@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-08-26T08:00:11.622229+00:00",
+  "collected_at": "2026-08-27T03:00:17.222190+00:00",
   "period": {
-    "start": "2026-07-30",
-    "end": "2026-08-26"
+    "start": "2026-07-31",
+    "end": "2026-08-27"
   },
   "summary": {
     "total_clicks": 0,
@@ -51,11 +51,6 @@
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-07-30",
-      "clicks": 0,
-      "impressions": 0
-    },
     {
       "date": "2026-07-31",
       "clicks": 0,
@@ -173,6 +168,11 @@
     },
     {
       "date": "2026-08-23",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-08-24",
       "clicks": 0,
       "impressions": 0
     }
