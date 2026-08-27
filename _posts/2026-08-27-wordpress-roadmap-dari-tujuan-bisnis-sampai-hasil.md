@@ -13,6 +13,7 @@ tags:
   - measurement
   - roadmap
 excerpt: "Landing page bukan titik awal. Roadmap yang sehat dimulai dari tujuan bisnis, diterjemahkan menjadi strategi, diwujudkan melalui WordPress, lalu diuji sampai hasil bisnis dapat dipahami."
+image: /assets/images/og/2026-08-27-wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil.png
 ---
 
 ## Ringkasan
