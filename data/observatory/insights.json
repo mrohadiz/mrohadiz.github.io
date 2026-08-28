@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-28T03:00:18.040Z",
+  "collected_at": "2026-08-28T08:00:09.718Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 88%",
-      "description": "From 232 to 29 users this period.",
-      "metric": "-88%",
+      "title": "Site visitors dropped 87%",
+      "description": "From 229 to 29 users this period.",
+      "metric": "-87%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 43m 5s per session",
-      "description": "Across 41 sessions from 29 users this period.",
-      "metric": "43m 5s",
+      "title": "Average engagement is 40m 9s per session",
+      "description": "Across 44 sessions from 29 users this period.",
+      "metric": "40m 9s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "31 sessions with an average engagement of 7m 17s.",
-      "metric": "31",
+      "description": "33 sessions with an average engagement of 6m 51s.",
+      "metric": "33",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -35,7 +35,7 @@
       "type": "positive",
       "category": "knowledge",
       "title": "207 internal links connecting content",
-      "description": "Average of 2.6 links per article, creating a well-connected knowledge graph.",
+      "description": "Average of 1.3 links per article, creating a well-connected knowledge graph.",
       "metric": "207",
       "metric_label": "Internal Links",
       "icon": "link",
@@ -45,7 +45,7 @@
       "type": "neutral",
       "category": "traffic",
       "title": "Direct drives 93% of traffic",
-      "description": "38 sessions from Direct this period.",
+      "description": "41 sessions from Direct this period.",
       "metric": "93%",
       "metric_label": "Traffic Share",
       "icon": "globe",
@@ -74,8 +74,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-08-27",
-      "description": "Committed 8/27/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-08-28",
+      "description": "Committed 8/28/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -84,9 +84,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 81 articles",
-      "description": "Across 6 categories with 175 unique tags. Total word count: 41,373.",
-      "metric": "81",
+      "title": "Digital garden contains 154 articles",
+      "description": "Across 9 categories with 265 unique tags. Total word count: 82,296.",
+      "metric": "154",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
@@ -94,15 +94,15 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Decision Systems is the most content-rich category",
-      "description": "With 29 articles, representing 36% of all content.",
-      "metric": "29",
+      "title": "\"Business Intelligence\" is the most content-rich category",
+      "description": "With 45 articles, representing 29% of all content.",
+      "metric": "45",
       "metric_label": "Articles",
       "icon": "folder",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-28T03:00:18.040Z",
+  "generated_at": "2026-08-28T08:00:09.718Z",
   "analysis_period": {
     "current": {
       "start": "2026-07-29",
