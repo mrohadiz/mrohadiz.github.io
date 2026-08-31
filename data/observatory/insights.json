@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-08-28T08:00:09.718Z",
+  "collected_at": "2026-08-31T03:00:09.742Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
       "title": "Site visitors dropped 87%",
-      "description": "From 229 to 29 users this period.",
+      "description": "From 222 to 28 users this period.",
       "metric": "-87%",
       "metric_label": "Users Change",
       "icon": "trending-down",
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 40m 9s per session",
-      "description": "Across 44 sessions from 29 users this period.",
-      "metric": "40m 9s",
+      "title": "Average engagement is 40m 57s per session",
+      "description": "Across 44 sessions from 28 users this period.",
+      "metric": "40m 57s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "33 sessions with an average engagement of 6m 51s.",
-      "metric": "33",
+      "description": "34 sessions with an average engagement of 6m 39s.",
+      "metric": "34",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,21 +54,11 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (10% of visitors)",
-      "description": "10% of this period's visitors came back for another session.",
+      "title": "3 returning users (11% of visitors)",
+      "description": "11% of this period's visitors came back for another session.",
       "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "2 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "2 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
       "priority": "low"
     },
     {
@@ -102,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-08-28T08:00:09.718Z",
+  "generated_at": "2026-08-31T03:00:09.742Z",
   "analysis_period": {
     "current": {
-      "start": "2026-07-29",
-      "end": "2026-08-28"
+      "start": "2026-08-01",
+      "end": "2026-08-31"
     }
   }
 }

@@ -1,20 +1,10 @@
 {
-  "collected_at": "2026-08-28T08:00:06.978Z",
+  "collected_at": "2026-08-31T03:00:06.990Z",
   "period": {
-    "start": "2026-07-29",
-    "end": "2026-08-28"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
   "daily_trend": [
-    {
-      "date": "2026-07-30",
-      "users": 1,
-      "sessions": 1
-    },
-    {
-      "date": "2026-07-31",
-      "users": 2,
-      "sessions": 3
-    },
     {
       "date": "2026-08-03",
       "users": 10,
@@ -69,27 +59,32 @@
       "date": "2026-08-28",
       "users": 2,
       "sessions": 3
+    },
+    {
+      "date": "2026-08-29",
+      "users": 1,
+      "sessions": 4
     }
   ],
   "summary": {
-    "total_users": 29,
+    "total_users": 28,
     "total_sessions": 44,
-    "avg_engagement_time": 2409,
-    "bounce_rate": 0.45,
+    "avg_engagement_time": 2457,
+    "bounce_rate": 0.375,
     "returning_users": 3,
-    "avg_pages_per_session": 2.7
+    "avg_pages_per_session": 3.7
   },
   "previous_period": {
-    "total_users": 229,
-    "total_sessions": 232,
-    "avg_engagement_time": 153,
-    "bounce_rate": 0.28
+    "total_users": 222,
+    "total_sessions": 228,
+    "avg_engagement_time": 158,
+    "bounce_rate": 0.2692307692307692
   },
   "trend": {
-    "users_change": -0.8733624454148472,
-    "sessions_change": -0.8103448275862069,
-    "engagement_time_change": 14.73145317909316,
-    "bounce_rate_change": 0.607142857142857
+    "users_change": -0.8738738738738738,
+    "sessions_change": -0.8070175438596491,
+    "engagement_time_change": 14.564486822584167,
+    "bounce_rate_change": 0.3928571428571429
   },
   "traffic_sources": [
     {
@@ -106,8 +101,8 @@
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 33,
-      "avg_engagement_time": 411
+      "sessions": 34,
+      "avg_engagement_time": 399
     },
     {
       "page": "/notes/",
@@ -118,6 +113,16 @@
       "page": "/?",
       "sessions": 3,
       "avg_engagement_time": 1
+    },
+    {
+      "page": "/2026/08/27/wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil/",
+      "sessions": 1,
+      "avg_engagement_time": 2552
+    },
+    {
+      "page": "/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/",
+      "sessions": 1,
+      "avg_engagement_time": 3
     },
     {
       "page": "/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/",
@@ -133,16 +138,6 @@
       "page": "/2025/01/05/infrastructure-as-code/",
       "sessions": 1,
       "avg_engagement_time": 21
-    },
-    {
-      "page": "/methodology/",
-      "sessions": 1,
-      "avg_engagement_time": 10
-    },
-    {
-      "page": "/topics/decision-systems/",
-      "sessions": 1,
-      "avg_engagement_time": 10
     }
   ],
   "country_distribution": [
@@ -180,29 +175,29 @@
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 34,
-      "avg_engagement_time": 2723,
-      "percentage": 0.7727272727272727
+      "sessions": 35,
+      "avg_engagement_time": 2705,
+      "percentage": 0.7954545454545454
     },
     {
       "device": "Mobile",
-      "sessions": 10,
-      "avg_engagement_time": 1344,
-      "percentage": 0.22727272727272727
+      "sessions": 9,
+      "avg_engagement_time": 1493,
+      "percentage": 0.20454545454545456
     }
   ],
   "reading": {
-    "avg_max_scroll": 26,
-    "deep_read_pct": 0.3,
-    "sessions": 20,
+    "avg_max_scroll": 28,
+    "deep_read_pct": 0.292,
+    "sessions": 24,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.7
+        "pct": 0.6666666666666666
       },
       {
         "label": "25-50%",
-        "pct": 0
+        "pct": 0.041666666666666664
       },
       {
         "label": "50-75%",
@@ -210,10 +205,16 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3
+        "pct": 0.2916666666666667
       }
     ],
     "top_pages": [
+      {
+        "page": "/",
+        "sessions": 3,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 0.6666666666666666
+      },
       {
         "page": "/?",
         "sessions": 3,
@@ -221,9 +222,9 @@
         "deep_read_pct": 1
       },
       {
-        "page": "/",
-        "sessions": 2,
-        "avg_max_scroll": 88,
+        "page": "/2026/08/27/wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil/",
+        "sessions": 1,
+        "avg_max_scroll": 100,
         "deep_read_pct": 1
       },
       {
@@ -264,6 +265,14 @@
       "sessions": 2
     },
     {
+      "element": "Contextual Roadmap: Mengapa Skill Organisasi Berbe",
+      "sessions": 1
+    },
+    {
+      "element": "02\n27 AUG 2026\nWordPress Roadmap: Dari Tujuan Bisn",
+      "sessions": 1
+    },
+    {
       "element": "Notes",
       "sessions": 1
     },
@@ -283,11 +292,11 @@
   "views_by_hour": [
     {
       "hour": 0,
-      "views": 2
+      "views": 3
     },
     {
       "hour": 1,
-      "views": 13
+      "views": 16
     },
     {
       "hour": 2,
@@ -307,7 +316,7 @@
     },
     {
       "hour": 6,
-      "views": 6
+      "views": 7
     },
     {
       "hour": 7,
@@ -319,7 +328,7 @@
     },
     {
       "hour": 9,
-      "views": 3
+      "views": 1
     },
     {
       "hour": 10,
