@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-01T03:00:05.753Z",
+  "collected_at": "2026-09-01T08:00:05.012Z",
   "period": {
     "start": "2026-08-02",
     "end": "2026-09-01"
@@ -64,45 +64,50 @@
       "date": "2026-08-29",
       "users": 1,
       "sessions": 4
+    },
+    {
+      "date": "2026-09-01",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 28,
-    "total_sessions": 44,
-    "avg_engagement_time": 2457,
+    "total_users": 29,
+    "total_sessions": 45,
+    "avg_engagement_time": 2402,
     "bounce_rate": 0.375,
     "returning_users": 3,
     "avg_pages_per_session": 3.7
   },
   "previous_period": {
-    "total_users": 222,
-    "total_sessions": 228,
-    "avg_engagement_time": 158,
+    "total_users": 221,
+    "total_sessions": 227,
+    "avg_engagement_time": 159,
     "bounce_rate": 0.2692307692307692
   },
   "trend": {
-    "users_change": -0.8738738738738738,
-    "sessions_change": -0.8070175438596491,
-    "engagement_time_change": 14.564486822584167,
+    "users_change": -0.8687782805429864,
+    "sessions_change": -0.801762114537445,
+    "engagement_time_change": 14.151861051069266,
     "bounce_rate_change": 0.3928571428571429
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 41,
-      "percentage": 0.9318181818181818
+      "sessions": 42,
+      "percentage": 0.9333333333333333
     },
     {
       "source": "Bing",
       "sessions": 3,
-      "percentage": 0.06818181818181818
+      "percentage": 0.06666666666666667
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 34,
-      "avg_engagement_time": 399
+      "sessions": 35,
+      "avg_engagement_time": 388
     },
     {
       "page": "/notes/",
@@ -144,32 +149,32 @@
     {
       "country": "Indonesia",
       "sessions": 24,
-      "percentage": 0.5454545454545454
+      "percentage": 0.5333333333333333
     },
     {
       "country": "United States",
       "sessions": 11,
-      "percentage": 0.25
+      "percentage": 0.24444444444444444
     },
     {
       "country": "France",
-      "sessions": 3,
-      "percentage": 0.06818181818181818
+      "sessions": 4,
+      "percentage": 0.08888888888888889
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.06818181818181818
+      "percentage": 0.06666666666666667
     },
     {
       "country": "TW",
       "sessions": 2,
-      "percentage": 0.045454545454545456
+      "percentage": 0.044444444444444446
     },
     {
       "country": "NP",
       "sessions": 1,
-      "percentage": 0.022727272727272728
+      "percentage": 0.022222222222222223
     }
   ],
   "device_distribution": [
@@ -177,13 +182,13 @@
       "device": "Desktop",
       "sessions": 35,
       "avg_engagement_time": 2705,
-      "percentage": 0.7954545454545454
+      "percentage": 0.7777777777777778
     },
     {
       "device": "Mobile",
-      "sessions": 9,
-      "avg_engagement_time": 1493,
-      "percentage": 0.20454545454545456
+      "sessions": 10,
+      "avg_engagement_time": 1344,
+      "percentage": 0.2222222222222222
     }
   ],
   "reading": {
@@ -312,7 +317,7 @@
     },
     {
       "hour": 5,
-      "views": 3
+      "views": 4
     },
     {
       "hour": 6,
