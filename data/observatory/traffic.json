@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-09-02T08:00:22.240Z",
+  "collected_at": "2026-09-03T03:00:05.869Z",
   "period": {
-    "start": "2026-08-03",
-    "end": "2026-09-02"
+    "start": "2026-08-04",
+    "end": "2026-09-03"
   },
   "daily_trend": [
-    {
-      "date": "2026-08-03",
-      "users": 6,
-      "sessions": 6
-    },
     {
       "date": "2026-08-06",
       "users": 2,
@@ -72,52 +67,47 @@
     }
   ],
   "summary": {
-    "total_users": 27,
-    "total_sessions": 42,
-    "avg_engagement_time": 2574,
+    "total_users": 21,
+    "total_sessions": 36,
+    "avg_engagement_time": 3003,
     "bounce_rate": 0.4230769230769231,
     "returning_users": 4,
     "avg_pages_per_session": 3.5
   },
   "previous_period": {
-    "total_users": 221,
-    "total_sessions": 229,
-    "avg_engagement_time": 157,
+    "total_users": 227,
+    "total_sessions": 235,
+    "avg_engagement_time": 153,
     "bounce_rate": 0.2692307692307692
   },
   "trend": {
-    "users_change": -0.8778280542986425,
-    "sessions_change": -0.8165938864628821,
-    "engagement_time_change": 15.356038364486698,
+    "users_change": -0.9074889867841409,
+    "sessions_change": -0.8468085106382979,
+    "engagement_time_change": 18.579910025148223,
     "bounce_rate_change": 0.5714285714285715
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 40,
-      "percentage": 0.9523809523809523
+      "sessions": 34,
+      "percentage": 0.9444444444444444
     },
     {
       "source": "Bing",
       "sessions": 2,
-      "percentage": 0.047619047619047616
+      "percentage": 0.05555555555555555
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 32,
-      "avg_engagement_time": 424
+      "sessions": 29,
+      "avg_engagement_time": 468
     },
     {
       "page": "/notes/",
       "sessions": 4,
       "avg_engagement_time": 2104
-    },
-    {
-      "page": "/?",
-      "sessions": 3,
-      "avg_engagement_time": 1
     },
     {
       "page": "/2026/08/27/wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil/",
@@ -143,52 +133,47 @@
       "page": "/2025/01/05/infrastructure-as-code/",
       "sessions": 1,
       "avg_engagement_time": 21
+    },
+    {
+      "page": "/methodology/",
+      "sessions": 1,
+      "avg_engagement_time": 10
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 24,
-      "percentage": 0.5714285714285714
+      "sessions": 23,
+      "percentage": 0.6388888888888888
     },
     {
       "country": "United States",
       "sessions": 8,
-      "percentage": 0.19047619047619047
+      "percentage": 0.2222222222222222
     },
     {
       "country": "France",
-      "sessions": 4,
-      "percentage": 0.09523809523809523
-    },
-    {
-      "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.07142857142857142
+      "percentage": 0.08333333333333333
     },
     {
       "country": "TW",
       "sessions": 2,
-      "percentage": 0.047619047619047616
-    },
-    {
-      "country": "NP",
-      "sessions": 1,
-      "percentage": 0.023809523809523808
+      "percentage": 0.05555555555555555
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 30,
-      "avg_engagement_time": 3154,
-      "percentage": 0.7142857142857143
+      "sessions": 27,
+      "avg_engagement_time": 3505,
+      "percentage": 0.75
     },
     {
       "device": "Mobile",
-      "sessions": 12,
-      "avg_engagement_time": 1122,
-      "percentage": 0.2857142857142857
+      "sessions": 9,
+      "avg_engagement_time": 1497,
+      "percentage": 0.25
     }
   ],
   "reading": {
@@ -219,12 +204,6 @@
         "sessions": 4,
         "avg_max_scroll": 69,
         "deep_read_pct": 0.5
-      },
-      {
-        "page": "/?",
-        "sessions": 3,
-        "avg_max_scroll": 75,
-        "deep_read_pct": 1
       },
       {
         "page": "/2026/08/27/wordpress-roadmap-dari-tujuan-bisnis-sampai-hasil/",
@@ -345,7 +324,7 @@
     },
     {
       "hour": 12,
-      "views": 6
+      "views": 0
     },
     {
       "hour": 13,
