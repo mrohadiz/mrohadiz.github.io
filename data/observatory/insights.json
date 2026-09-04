@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-03T03:00:08.682Z",
+  "collected_at": "2026-09-04T03:00:11.327Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 91%",
-      "description": "From 227 to 21 users this period.",
-      "metric": "-91%",
+      "title": "Site visitors dropped 90%",
+      "description": "From 223 to 22 users this period.",
+      "metric": "-90%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 50m 3s per session",
-      "description": "Across 36 sessions from 21 users this period.",
-      "metric": "50m 3s",
+      "title": "Average engagement is 46m 12s per session",
+      "description": "Across 39 sessions from 22 users this period.",
+      "metric": "46m 12s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "29 sessions with an average engagement of 7m 48s.",
-      "metric": "29",
+      "description": "32 sessions with an average engagement of 7m 4s.",
+      "metric": "32",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,19 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 94% of traffic",
-      "description": "34 sessions from Direct this period.",
-      "metric": "94%",
-      "metric_label": "Traffic Share",
-      "icon": "globe",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "traffic",
-      "title": "4 returning users (19% of visitors)",
-      "description": "19% of this period's visitors came back for another session.",
-      "metric": "4",
+      "title": "5 returning users (23% of visitors)",
+      "description": "23% of this period's visitors came back for another session.",
+      "metric": "5",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -64,9 +54,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "3 consecutive days of commits",
+      "title": "4 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "3 days",
+      "metric": "4 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -74,8 +64,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-02",
-      "description": "Committed 9/2/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-03",
+      "description": "Committed 9/3/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-03T03:00:08.682Z",
+  "generated_at": "2026-09-04T03:00:11.328Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-04",
-      "end": "2026-09-03"
+      "start": "2026-08-05",
+      "end": "2026-09-04"
     }
   }
 }
