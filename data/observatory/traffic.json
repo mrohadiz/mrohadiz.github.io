@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T03:00:15.669Z",
+  "collected_at": "2026-09-08T08:00:07.235Z",
   "period": {
     "start": "2026-08-09",
     "end": "2026-09-08"
@@ -354,11 +354,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 194,
-    "bot_ua_sessions": 22,
+    "bot_ua_events": 196,
+    "bot_ua_sessions": 23,
     "automated_sessions": 102,
     "automated_session_events": 7022,
-    "sessions_removed": 124,
-    "docs_after_filter": 2750
+    "sessions_removed": 125,
+    "docs_after_filter": 2748
   }
 }
