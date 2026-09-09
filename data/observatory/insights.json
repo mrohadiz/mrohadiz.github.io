@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T08:00:09.969Z",
+  "collected_at": "2026-09-09T03:00:07.498Z",
   "insights": [
     {
       "type": "warning",
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
+      "title": "2 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
+      "metric": "2 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-08T08:00:09.970Z",
+  "generated_at": "2026-09-09T03:00:07.499Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-09",
-      "end": "2026-09-08"
+      "start": "2026-08-10",
+      "end": "2026-09-09"
     }
   }
 }

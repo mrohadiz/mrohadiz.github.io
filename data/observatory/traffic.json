@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-09-08T08:00:07.235Z",
+  "collected_at": "2026-09-09T03:00:04.874Z",
   "period": {
-    "start": "2026-08-09",
-    "end": "2026-09-08"
+    "start": "2026-08-10",
+    "end": "2026-09-09"
   },
   "daily_trend": [
     {
@@ -354,11 +354,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 196,
-    "bot_ua_sessions": 23,
+    "bot_ua_events": 198,
+    "bot_ua_sessions": 24,
     "automated_sessions": 102,
     "automated_session_events": 7022,
-    "sessions_removed": 125,
-    "docs_after_filter": 2748
+    "sessions_removed": 126,
+    "docs_after_filter": 2746
   }
 }
