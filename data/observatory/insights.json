@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-10T03:00:13.345Z",
+  "collected_at": "2026-09-10T08:00:07.937Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 93%",
-      "description": "From 227 to 17 users this period.",
-      "metric": "-93%",
+      "title": "Site visitors dropped 92%",
+      "description": "From 226 to 18 users this period.",
+      "metric": "-92%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 14m 10s per session",
-      "description": "Across 30 sessions from 17 users this period.",
-      "metric": "14m 10s",
+      "title": "Average engagement is 13m 43s per session",
+      "description": "Across 31 sessions from 18 users this period.",
+      "metric": "13m 43s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -44,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 93% of traffic",
-      "description": "28 sessions from Direct this period.",
-      "metric": "93%",
+      "title": "Direct drives 94% of traffic",
+      "description": "29 sessions from Direct this period.",
+      "metric": "94%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -54,8 +54,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "4 returning users (24% of visitors)",
-      "description": "24% of this period's visitors came back for another session.",
+      "title": "4 returning users (22% of visitors)",
+      "description": "22% of this period's visitors came back for another session.",
       "metric": "4",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -74,8 +74,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-09",
-      "description": "Committed 9/9/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-10",
+      "description": "Committed 9/10/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-10T03:00:13.345Z",
+  "generated_at": "2026-09-10T08:00:07.937Z",
   "analysis_period": {
     "current": {
       "start": "2026-08-11",
