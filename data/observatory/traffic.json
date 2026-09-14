@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-14T03:00:05.889Z",
+  "collected_at": "2026-09-14T08:00:04.810Z",
   "period": {
     "start": "2026-08-15",
     "end": "2026-09-14"
@@ -69,15 +69,20 @@
       "date": "2026-09-13",
       "users": 2,
       "sessions": 2
+    },
+    {
+      "date": "2026-09-14",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
     "total_users": 20,
-    "total_sessions": 35,
-    "avg_engagement_time": 956,
-    "bounce_rate": 0.4,
+    "total_sessions": 36,
+    "avg_engagement_time": 967,
+    "bounce_rate": 0.39285714285714285,
     "returning_users": 4,
-    "avg_pages_per_session": 3
+    "avg_pages_per_session": 2.9
   },
   "previous_period": {
     "total_users": 24,
@@ -87,27 +92,27 @@
   },
   "trend": {
     "users_change": -0.16666666666666666,
-    "sessions_change": 0.029411764705882353,
-    "engagement_time_change": -0.6277849257052687,
-    "bounce_rate_change": -0.19999999999999996
+    "sessions_change": 0.058823529411764705,
+    "engagement_time_change": -0.6233865700793989,
+    "bounce_rate_change": -0.2142857142857143
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 33,
-      "percentage": 0.9428571428571428
+      "sessions": 34,
+      "percentage": 0.9444444444444444
     },
     {
       "source": "Bing",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.05555555555555555
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 29,
-      "avg_engagement_time": 737
+      "sessions": 30,
+      "avg_engagement_time": 758
     },
     {
       "page": "/notes/",
@@ -118,6 +123,11 @@
       "page": "/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
       "sessions": 2,
       "avg_engagement_time": 4
+    },
+    {
+      "page": "/observatory/",
+      "sessions": 1,
+      "avg_engagement_time": 58
     },
     {
       "page": "/projects/",
@@ -138,71 +148,66 @@
       "page": "/2026/07/25/contextual-roadmap-mengapa-skill-organisasi-berbeda-dari-roadmap-teknologi/",
       "sessions": 1,
       "avg_engagement_time": 3
-    },
-    {
-      "page": "/2026/07/28/goal-bukan-target-tetapi-proses-membangun-capability/",
-      "sessions": 1,
-      "avg_engagement_time": 479
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 24,
-      "percentage": 0.6857142857142857
+      "sessions": 25,
+      "percentage": 0.6944444444444444
     },
     {
       "country": "France",
       "sessions": 3,
-      "percentage": 0.08571428571428572
+      "percentage": 0.08333333333333333
     },
     {
       "country": "United States",
       "sessions": 3,
-      "percentage": 0.08571428571428572
+      "percentage": 0.08333333333333333
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.05555555555555555
     },
     {
       "country": "TW",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.05555555555555555
     },
     {
       "country": "Singapore",
       "sessions": 1,
-      "percentage": 0.02857142857142857
+      "percentage": 0.027777777777777776
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 20,
-      "avg_engagement_time": 602,
-      "percentage": 0.5714285714285714
+      "sessions": 21,
+      "avg_engagement_time": 638,
+      "percentage": 0.5833333333333334
     },
     {
       "device": "Mobile",
       "sessions": 15,
       "avg_engagement_time": 1428,
-      "percentage": 0.42857142857142855
+      "percentage": 0.4166666666666667
     }
   ],
   "reading": {
-    "avg_max_scroll": 37,
-    "deep_read_pct": 0.28,
-    "sessions": 25,
+    "avg_max_scroll": 39,
+    "deep_read_pct": 0.286,
+    "sessions": 28,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.52
+        "pct": 0.5
       },
       {
         "label": "25-50%",
-        "pct": 0.2
+        "pct": 0.21428571428571427
       },
       {
         "label": "50-75%",
@@ -210,21 +215,27 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.28
+        "pct": 0.2857142857142857
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 6,
-        "avg_max_scroll": 75,
-        "deep_read_pct": 0.5
+        "sessions": 7,
+        "avg_max_scroll": 71,
+        "deep_read_pct": 0.42857142857142855
       },
       {
         "page": "/notes/",
         "sessions": 2,
         "avg_max_scroll": 38,
         "deep_read_pct": 0
+      },
+      {
+        "page": "/observatory/",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
       },
       {
         "page": "/projects/",
@@ -255,22 +266,40 @@
         "sessions": 1,
         "avg_max_scroll": 75,
         "deep_read_pct": 1
-      },
-      {
-        "page": "/2025/01/05/infrastructure-as-code/",
-        "sessions": 1,
-        "avg_max_scroll": 100,
-        "deep_read_pct": 1
       }
     ]
   },
   "top_clicks": [
     {
+      "element": "R\nM. Rohadiz",
+      "sessions": 2
+    },
+    {
       "element": "About",
       "sessions": 2
     },
     {
-      "element": "R\nM. Rohadiz",
+      "element": "Knowledge",
+      "sessions": 1
+    },
+    {
+      "element": "Publishing",
+      "sessions": 1
+    },
+    {
+      "element": "Overview",
+      "sessions": 1
+    },
+    {
+      "element": "Search",
+      "sessions": 1
+    },
+    {
+      "element": "Traffic",
+      "sessions": 1
+    },
+    {
+      "element": "Observatory",
       "sessions": 1
     },
     {
@@ -279,26 +308,6 @@
     },
     {
       "element": "Decision Systems\nJul 25, 2026\n2 min read\nOnboardin",
-      "sessions": 1
-    },
-    {
-      "element": "Buka Semua Catatan",
-      "sessions": 1
-    },
-    {
-      "element": "Contextual Roadmap: Mengapa Skill Organisasi Berbe",
-      "sessions": 1
-    },
-    {
-      "element": "02\n27 AUG 2026\nWordPress Roadmap: Dari Tujuan Bisn",
-      "sessions": 1
-    },
-    {
-      "element": "Notes",
-      "sessions": 1
-    },
-    {
-      "element": "All Notes",
       "sessions": 1
     }
   ],
@@ -329,7 +338,7 @@
     },
     {
       "hour": 6,
-      "views": 2
+      "views": 5
     },
     {
       "hour": 7,
@@ -402,11 +411,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 221,
-    "bot_ua_sessions": 36,
+    "bot_ua_events": 223,
+    "bot_ua_sessions": 37,
     "automated_sessions": 102,
     "automated_session_events": 7022,
-    "sessions_removed": 138,
-    "docs_after_filter": 2723
+    "sessions_removed": 139,
+    "docs_after_filter": 2721
   }
 }

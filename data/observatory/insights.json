@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-14T03:00:08.523Z",
+  "collected_at": "2026-09-14T08:00:07.230Z",
   "insights": [
     {
       "type": "warning",
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 15m 56s per session",
-      "description": "Across 35 sessions from 20 users this period.",
-      "metric": "15m 56s",
+      "title": "Average engagement is 16m 7s per session",
+      "description": "Across 36 sessions from 20 users this period.",
+      "metric": "16m 7s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Mobile engagement is 137% higher than desktop",
-      "description": "23m 48s on mobile vs 10m 2s on desktop.",
-      "metric": "+137%",
+      "title": "Mobile engagement is 124% higher than desktop",
+      "description": "23m 48s on mobile vs 10m 38s on desktop.",
+      "metric": "+124%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "29 sessions with an average engagement of 12m 17s.",
-      "metric": "29",
+      "description": "30 sessions with an average engagement of 12m 38s.",
+      "metric": "30",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -55,7 +55,7 @@
       "type": "neutral",
       "category": "traffic",
       "title": "Direct drives 94% of traffic",
-      "description": "33 sessions from Direct this period.",
+      "description": "34 sessions from Direct this period.",
       "metric": "94%",
       "metric_label": "Traffic Share",
       "icon": "globe",
@@ -74,8 +74,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-10",
-      "description": "Committed 9/10/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-14",
+      "description": "Committed 9/14/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-14T03:00:08.523Z",
+  "generated_at": "2026-09-14T08:00:07.231Z",
   "analysis_period": {
     "current": {
       "start": "2026-08-15",
