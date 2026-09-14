@@ -1,69 +1,56 @@
 {
-  "collected_at": "2026-09-10T08:00:13.391145+00:00",
+  "collected_at": "2026-09-14T03:00:12.704097+00:00",
   "period": {
-    "start": "2026-08-14",
-    "end": "2026-09-10"
+    "start": "2026-08-18",
+    "end": "2026-09-14"
   },
   "summary": {
     "total_clicks": 0,
-    "total_impressions": 6,
+    "total_impressions": 4,
     "ctr": 0,
-    "avg_position": 5.5,
-    "indexed_pages": 1
+    "avg_position": 20,
+    "indexed_pages": 2
   },
   "previous_period": {
     "total_clicks": 1,
-    "total_impressions": 14,
-    "ctr": 0.0714,
-    "avg_position": 11.5
+    "total_impressions": 18,
+    "ctr": 0.0556,
+    "avg_position": 9.2
   },
   "trend": {
     "clicks_change": -1.0,
-    "impressions_change": -0.5714,
+    "impressions_change": -0.7778,
     "ctr_change": -1.0,
-    "position_change": -0.5217
+    "position_change": 1.1739
   },
   "top_queries": [
     {
       "query": "www.mrohadiz.my.id",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 14.5
+      "position": 20
     }
   ],
   "top_pages": [
     {
       "page": "https://mrohadiz.github.io/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5.5
+      "position": 15
+    },
+    {
+      "page": "https://mrohadiz.github.io/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
     }
   ],
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-08-14",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
-      "date": "2026-08-15",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
-      "date": "2026-08-16",
-      "clicks": 0,
-      "impressions": 4
-    },
-    {
-      "date": "2026-08-17",
-      "clicks": 0,
-      "impressions": 0
-    },
     {
       "date": "2026-08-18",
       "clicks": 0,
@@ -166,6 +153,26 @@
     },
     {
       "date": "2026-09-07",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-09-08",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-09-09",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-09-10",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
+      "date": "2026-09-11",
       "clicks": 0,
       "impressions": 0
     }
