@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-09-15T03:00:08.484Z",
+  "collected_at": "2026-09-15T08:00:05.442Z",
   "period": {
     "start": "2026-08-16",
     "end": "2026-09-15"
   },
   "daily_trend": [
-    {
-      "date": "2026-08-16",
-      "users": 2,
-      "sessions": 2
-    },
     {
       "date": "2026-08-17",
       "users": 2,
@@ -74,45 +69,50 @@
       "date": "2026-09-14",
       "users": 1,
       "sessions": 1
+    },
+    {
+      "date": "2026-09-15",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 20,
-    "total_sessions": 35,
-    "avg_engagement_time": 732,
-    "bounce_rate": 0.39285714285714285,
+    "total_users": 19,
+    "total_sessions": 34,
+    "avg_engagement_time": 629,
+    "bounce_rate": 0.37037037037037035,
     "returning_users": 3,
     "avg_pages_per_session": 2.9
   },
   "previous_period": {
     "total_users": 26,
-    "total_sessions": 36,
-    "avg_engagement_time": 2427,
-    "bounce_rate": 0.5
+    "total_sessions": 37,
+    "avg_engagement_time": 2723,
+    "bounce_rate": 0.5263157894736842
   },
   "trend": {
-    "users_change": -0.23076923076923078,
-    "sessions_change": -0.027777777777777776,
-    "engagement_time_change": -0.698472336202782,
-    "bounce_rate_change": -0.2142857142857143
+    "users_change": -0.2692307692307692,
+    "sessions_change": -0.08108108108108109,
+    "engagement_time_change": -0.7688475633231443,
+    "bounce_rate_change": -0.2962962962962963
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 33,
-      "percentage": 0.9428571428571428
+      "sessions": 32,
+      "percentage": 0.9411764705882353
     },
     {
       "source": "Bing",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.058823529411764705
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 29,
-      "avg_engagement_time": 466
+      "sessions": 28,
+      "avg_engagement_time": 333
     },
     {
       "page": "/notes/",
@@ -153,33 +153,38 @@
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 24,
-      "percentage": 0.6857142857142857
+      "sessions": 22,
+      "percentage": 0.6470588235294118
     },
     {
       "country": "France",
       "sessions": 3,
-      "percentage": 0.08571428571428572
+      "percentage": 0.08823529411764706
     },
     {
       "country": "United States",
       "sessions": 3,
-      "percentage": 0.08571428571428572
+      "percentage": 0.08823529411764706
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.058823529411764705
     },
     {
       "country": "TW",
       "sessions": 2,
-      "percentage": 0.05714285714285714
+      "percentage": 0.058823529411764705
+    },
+    {
+      "country": "United Kingdom",
+      "sessions": 1,
+      "percentage": 0.029411764705882353
     },
     {
       "country": "Singapore",
       "sessions": 1,
-      "percentage": 0.02857142857142857
+      "percentage": 0.029411764705882353
     }
   ],
   "device_distribution": [
@@ -187,27 +192,27 @@
       "device": "Desktop",
       "sessions": 21,
       "avg_engagement_time": 638,
-      "percentage": 0.6
+      "percentage": 0.6176470588235294
     },
     {
       "device": "Mobile",
-      "sessions": 14,
-      "avg_engagement_time": 873,
-      "percentage": 0.4
+      "sessions": 13,
+      "avg_engagement_time": 616,
+      "percentage": 0.38235294117647056
     }
   ],
   "reading": {
-    "avg_max_scroll": 39,
-    "deep_read_pct": 0.286,
-    "sessions": 28,
+    "avg_max_scroll": 41,
+    "deep_read_pct": 0.296,
+    "sessions": 27,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5
+        "pct": 0.48148148148148145
       },
       {
         "label": "25-50%",
-        "pct": 0.21428571428571427
+        "pct": 0.2222222222222222
       },
       {
         "label": "50-75%",
@@ -215,15 +220,15 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.2857142857142857
+        "pct": 0.2962962962962963
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 7,
-        "avg_max_scroll": 71,
-        "deep_read_pct": 0.42857142857142855
+        "sessions": 6,
+        "avg_max_scroll": 67,
+        "deep_read_pct": 0.3333333333333333
       },
       {
         "page": "/notes/",
