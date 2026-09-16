@@ -14,7 +14,9 @@ const { MongoClient } = require('mongodb');
 const MONGO_URI = process.env.MONGO_URI;
 const MONGO_DB = process.env.MONGO_DB || 'kms_track';
 const MONGO_COLLECTION = process.env.MONGO_COLLECTION || 'kmstrack';
-const TARGET_HOST = 'mrohadiz.github.io';
+const TARGET_HOSTS = process.env.TARGET_HOSTS
+  ? process.env.TARGET_HOSTS.split(',').map(s => s.trim())
+  : ['www.mrohadiz.my.id', 'mrohadiz.my.id', 'mrohadiz.github.io'];
 
 const OUTPUT_DIR = path.join(__dirname, '../../data/observatory');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'traffic.json');
@@ -103,14 +105,27 @@ async function collectTrafficData() {
     const db = client.db(MONGO_DB);
     const collection = db.collection(MONGO_COLLECTION);
 
-    // Get all documents for the target host (sorted by date, newest first)
-    const documents = await collection
-      .find({ host: TARGET_HOST })
-      .sort({ event_time: -1 })
-      .limit(10000) // Limit to recent data
-      .toArray();
+    // Get documents for each target host using host index, then merge
+    let documents = [];
+    for (const targetHost of TARGET_HOSTS) {
+      const docs = await collection
+        .find({ host: targetHost })
+        .sort({ event_time: -1 })
+        .limit(10000)
+        .toArray();
+      if (docs.length > 0) {
+        console.log(` - ${targetHost}: ${docs.length} records`);
+      }
+      documents.push(...docs);
+    }
 
-    console.log(`Found ${documents.length} records for ${TARGET_HOST}`);
+    // Sort combined by event_time descending and limit to 10000
+    documents.sort((a, b) => new Date(b.event_time || 0) - new Date(a.event_time || 0));
+    if (documents.length > 10000) {
+      documents = documents.slice(0, 10000);
+    }
+
+    console.log(`Total found: ${documents.length} records across [${TARGET_HOSTS.join(', ')}]`);
     
     // Debug: show sample documents
     if (documents.length > 0) {
@@ -118,7 +133,7 @@ async function collectTrafficData() {
     }
 
     if (documents.length === 0) {
-      console.warn(`No data found for host ${TARGET_HOST} in ${MONGO_DB}.${MONGO_COLLECTION}`);
+      console.warn(`No data found for hosts [${TARGET_HOSTS.join(', ')}] in ${MONGO_DB}.${MONGO_COLLECTION}`);
       // Never overwrite the last good dataset with empty/mock data.
       if (fs.existsSync(OUTPUT_FILE)) {
         try {
@@ -799,7 +814,7 @@ async function main() {
       fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     }
 
-    console.log(`Collecting traffic data from kmstrack for ${TARGET_HOST}...`);
+    console.log(`Collecting traffic data from kmstrack for ${TARGET_HOSTS.join(', ')}...`);
     const trafficData = await collectTrafficData();
 
     if (trafficData === null) {
