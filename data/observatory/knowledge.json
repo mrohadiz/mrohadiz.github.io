@@ -1,65 +1,70 @@
 {
-  "collected_at": "2026-09-16T03:00:07.190Z",
+  "collected_at": "2026-09-16T04:09:56.863Z",
   "summary": {
-    "total_articles": 154,
-    "total_categories": 9,
-    "total_tags": 265,
+    "total_articles": 163,
+    "total_categories": 10,
+    "total_tags": 294,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 82296
+    "total_word_count": 87188
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
-      "count": 45,
-      "percentage": 0.2922077922077922
+      "count": 49,
+      "percentage": 0.3006134969325153
     },
     {
       "name": "Decision Systems",
       "count": 29,
-      "percentage": 0.18831168831168832
+      "percentage": 0.17791411042944785
     },
     {
       "name": "\"Infrastructure\"",
-      "count": 26,
-      "percentage": 0.16883116883116883
+      "count": 28,
+      "percentage": 0.17177914110429449
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.12337662337662338
+      "percentage": 0.1165644171779141
     },
     {
       "name": "Infrastructure",
       "count": 13,
-      "percentage": 0.08441558441558442
+      "percentage": 0.07975460122699386
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.07142857142857142
+      "percentage": 0.06748466257668712
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.05194805194805195
+      "percentage": 0.049079754601226995
     },
     {
       "name": "\"AI Engineering\"",
-      "count": 2,
-      "percentage": 0.012987012987012988
+      "count": 4,
+      "percentage": 0.024539877300613498
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.006493506493506494
+      "percentage": 0.006134969325153374
+    },
+    {
+      "name": "\"Software Architecture\"",
+      "count": 1,
+      "percentage": 0.006134969325153374
     }
   ],
   "tags": [
     {
       "name": "\"digital-marketing\"",
-      "count": 35
+      "count": 38
     },
     {
       "name": "systems-thinking",
@@ -67,7 +72,7 @@
     },
     {
       "name": "\"seo\"",
-      "count": 14
+      "count": 16
     },
     {
       "name": "\"devops\"",
@@ -90,6 +95,10 @@
       "count": 9
     },
     {
+      "name": "\"ai\"",
+      "count": 8
+    },
+    {
       "name": "\"teknis\"",
       "count": 8
     },
@@ -110,6 +119,10 @@
       "count": 7
     },
     {
+      "name": "\"google-ads\"",
+      "count": 7
+    },
+    {
       "name": "\"teknologi\"",
       "count": 7
     },
@@ -124,6 +137,10 @@
     {
       "name": "capability-building",
       "count": 7
+    },
+    {
+      "name": "\"adtech\"",
+      "count": 6
     },
     {
       "name": "\"case-study\"",
@@ -142,20 +159,16 @@
       "count": 6
     },
     {
-      "name": "\"google-ads\"",
-      "count": 5
-    },
-    {
-      "name": "\"ai\"",
-      "count": 5
-    },
-    {
       "name": "\"iklan-online\"",
       "count": 5
     },
     {
       "name": "business-intelligence",
       "count": 5
+    },
+    {
+      "name": "\"cro\"",
+      "count": 4
     },
     {
       "name": "ai",
@@ -210,10 +223,6 @@
       "count": 4
     },
     {
-      "name": "\"cro\"",
-      "count": 3
-    },
-    {
       "name": "learning",
       "count": 3
     },
@@ -226,7 +235,7 @@
       "count": 3
     },
     {
-      "name": "\"adtech\"",
+      "name": "\"e-commerce\"",
       "count": 3
     },
     {
@@ -334,11 +343,19 @@
       "count": 2
     },
     {
+      "name": "\"llm\"",
+      "count": 2
+    },
+    {
       "name": "\"google\"",
       "count": 2
     },
     {
-      "name": "\"e-commerce\"",
+      "name": "\"infrastructure\"",
+      "count": 2
+    },
+    {
+      "name": "\"sysadmin\"",
       "count": 2
     },
     {
@@ -526,6 +543,34 @@
       "count": 1
     },
     {
+      "name": "\"information-retrieval\"",
+      "count": 1
+    },
+    {
+      "name": "\"search-engine\"",
+      "count": 1
+    },
+    {
+      "name": "\"gemini\"",
+      "count": 1
+    },
+    {
+      "name": "\"post-click-optimization\"",
+      "count": 1
+    },
+    {
+      "name": "\"demand-gen\"",
+      "count": 1
+    },
+    {
+      "name": "\"attribution\"",
+      "count": 1
+    },
+    {
+      "name": "\"funnel-optimization\"",
+      "count": 1
+    },
+    {
       "name": "\"iklan-digital\"",
       "count": 1
     },
@@ -578,11 +623,63 @@
       "count": 1
     },
     {
+      "name": "\"software-architecture\"",
+      "count": 1
+    },
+    {
+      "name": "\"authentication\"",
+      "count": 1
+    },
+    {
+      "name": "\"distributed-systems\"",
+      "count": 1
+    },
+    {
+      "name": "\"failover\"",
+      "count": 1
+    },
+    {
       "name": "\"black-friday\"",
       "count": 1
     },
     {
       "name": "\"chatbot\"",
+      "count": 1
+    },
+    {
+      "name": "\"query-routing\"",
+      "count": 1
+    },
+    {
+      "name": "\"cost-optimization\"",
+      "count": 1
+    },
+    {
+      "name": "\"search-architecture\"",
+      "count": 1
+    },
+    {
+      "name": "\"machine-learning\"",
+      "count": 1
+    },
+    {
+      "name": "\"edge-computing\"",
+      "count": 1
+    },
+    {
+      "name": "\"real-time-bidding\"",
+      "count": 1
+    },
+    {
+      "name": "\"google-search-console\"",
+      "count": 1
+    },
+    {
+      "name": "\"server-logs\"",
+      "count": 1
+    },
+    {
+      "name": "\"observability\"",
       "count": 1
     },
     {
@@ -595,6 +692,30 @@
     },
     {
       "name": "\"targeting-pelanggan\"",
+      "count": 1
+    },
+    {
+      "name": "\"privacy\"",
+      "count": 1
+    },
+    {
+      "name": "\"compliance\"",
+      "count": 1
+    },
+    {
+      "name": "\"healthcare-marketing\"",
+      "count": 1
+    },
+    {
+      "name": "\"robots-txt\"",
+      "count": 1
+    },
+    {
+      "name": "\"web-crawlers\"",
+      "count": 1
+    },
+    {
+      "name": "\"ai-agents\"",
       "count": 1
     },
     {
@@ -3248,6 +3369,58 @@
       "last_updated": "2025-12-04T08:59:29+07:00"
     },
     {
+      "title": "\"Small vs Large AI Models dalam AdTech: Trade-off Latensi, Biaya Inference, dan Presisi Rekomendasi\"",
+      "url": "/2025/12/03/blogger-google-ads-nano-banana-pro-ai-get/",
+      "date": "2025-12-03T18:45:00+07:00",
+      "category": "\"Business Intelligence\"",
+      "tags": [
+        "\"adtech\"",
+        "\"ai\"",
+        "\"machine-learning\"",
+        "\"edge-computing\"",
+        "\"real-time-bidding\""
+      ],
+      "word_count": 498,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2025-12-03T18:45:00+07:00"
+    },
+    {
+      "title": "\"Hybrid Query Routing: Optimalisasi Biaya Komputasi & Latensi dalam Search Engine Berbasis LLM\"",
+      "url": "/2025/12/03/blogger-gemini-3-now-used-for-some-queries-in/",
+      "date": "2025-12-03T16:20:00+07:00",
+      "category": "\"AI Engineering\"",
+      "tags": [
+        "\"ai\"",
+        "\"llm\"",
+        "\"query-routing\"",
+        "\"cost-optimization\"",
+        "\"search-architecture\""
+      ],
+      "word_count": 479,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2025-12-03T16:20:00+07:00"
+    },
+    {
+      "title": "\"Mengatasi Reporting Lag GSC: Deteksi Anomali Indexing Melalui Log Server Mandiri\"",
+      "url": "/2025/12/03/blogger-google-search-console-index-coverage/",
+      "date": "2025-12-03T14:10:00+07:00",
+      "category": "\"Infrastructure\"",
+      "tags": [
+        "\"infrastructure\"",
+        "\"seo\"",
+        "\"google-search-console\"",
+        "\"server-logs\"",
+        "\"observability\"",
+        "\"sysadmin\""
+      ],
+      "word_count": 627,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2025-12-03T14:10:00+07:00"
+    },
+    {
       "title": "\"OpenAI Menangguhkan Iklan ChatGPT Setelah CEO Menyatakan 'Kode Merah'\"",
       "url": "/2025/12/03/blogger-openai-menangguhkan-iklan-chatgpt-setelah-ceo-menyatakan-kode-merah/",
       "date": "2025-12-03T14:01:49+07:00",
@@ -3322,6 +3495,58 @@
       "last_updated": "2025-12-03T13:08:46+07:00"
     },
     {
+      "title": "\"Robots.txt & Crawl Budget Governance di Era Autonomous AI Scrapers\"",
+      "url": "/2025/12/03/blogger-robotstxt-and-seo-what-you-need-to-know/",
+      "date": "2025-12-03T11:30:00+07:00",
+      "category": "\"Infrastructure\"",
+      "tags": [
+        "\"infrastructure\"",
+        "\"seo\"",
+        "\"robots-txt\"",
+        "\"web-crawlers\"",
+        "\"ai-agents\"",
+        "\"sysadmin\""
+      ],
+      "word_count": 606,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2025-12-03T11:30:00+07:00"
+    },
+    {
+      "title": "\"AdTech Compliance & Privacy Engineering: Navigasi Iklan Healthcare & Proteksi Data Pengguna\"",
+      "url": "/2025/12/03/blogger-how-to-run-compliant-effective-medical/",
+      "date": "2025-12-03T09:15:00+07:00",
+      "category": "\"Business Intelligence\"",
+      "tags": [
+        "\"digital-marketing\"",
+        "\"adtech\"",
+        "\"privacy\"",
+        "\"compliance\"",
+        "\"healthcare-marketing\""
+      ],
+      "word_count": 568,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2025-12-03T09:15:00+07:00"
+    },
+    {
+      "title": "\"Framework Google Demand Gen: Optimasi Visual Funnel, Lookalike Modeling, & Multi-Touch Attribution\"",
+      "url": "/2025/12/02/blogger-google-demand-gen-campaigns-when-to-use/",
+      "date": "2025-12-02T18:00:00+07:00",
+      "category": "\"Business Intelligence\"",
+      "tags": [
+        "\"digital-marketing\"",
+        "\"demand-gen\"",
+        "\"google-ads\"",
+        "\"attribution\"",
+        "\"funnel-optimization\""
+      ],
+      "word_count": 528,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2025-12-02T18:00:00+07:00"
+    },
+    {
       "title": "\"Google Tarik Keluhan Antimonopoli Microsoft, Fokus ke Investigasi Cloud UE\"",
       "url": "/2025/12/02/blogger-google-tarik-keluhan-antimonopoli-microsoft-fokus-ke-investigasi-cloud-ue/",
       "date": "2025-12-02T16:06:48+07:00",
@@ -3337,6 +3562,40 @@
       "reading_time": 3,
       "internal_links": 0,
       "last_updated": "2025-12-02T16:06:48+07:00"
+    },
+    {
+      "title": "\"Post-Click Optimization: Menyelaraskan Experience Landing Page dengan Algoritma Iklan Modern\"",
+      "url": "/2025/12/02/blogger-google-ads-tests-new-website-optimizer/",
+      "date": "2025-12-02T16:00:00+07:00",
+      "category": "\"Business Intelligence\"",
+      "tags": [
+        "\"digital-marketing\"",
+        "\"cro\"",
+        "\"google-ads\"",
+        "\"post-click-optimization\"",
+        "\"adtech\""
+      ],
+      "word_count": 524,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2025-12-02T16:00:00+07:00"
+    },
+    {
+      "title": "\"Anatomi Auth Outage pada E-Commerce Skala Besar: Strategi Decoupled Session & Failover\"",
+      "url": "/2025/12/02/blogger-shopify-hit-by-login-outage-on-major/",
+      "date": "2025-12-02T14:30:00+07:00",
+      "category": "\"Software Architecture\"",
+      "tags": [
+        "\"software-architecture\"",
+        "\"authentication\"",
+        "\"distributed-systems\"",
+        "\"failover\"",
+        "\"e-commerce\""
+      ],
+      "word_count": 554,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2025-12-02T14:30:00+07:00"
     },
     {
       "title": "\"Iklan ChatGPT Segera Hadir? Bocoran Kode Android Ungkap OpenAI Uji Coba Strategi Monetisasi Baru!\"",
@@ -3400,6 +3659,23 @@
       "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2025-12-02T13:19:40+07:00"
+    },
+    {
+      "title": "\"Arsitektur Multimodal Gemini 3: Transformasi Information Retrieval & AI-First Search\"",
+      "url": "/2025/12/02/blogger-gemini-3-and-nano-banana-pro-expanding/",
+      "date": "2025-12-02T10:15:00+07:00",
+      "category": "\"AI Engineering\"",
+      "tags": [
+        "\"ai\"",
+        "\"information-retrieval\"",
+        "\"llm\"",
+        "\"search-engine\"",
+        "\"gemini\""
+      ],
+      "word_count": 508,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2025-12-02T10:15:00+07:00"
     },
     {
       "title": "\"🔥 Website Lo Diretas? Jangan Sampai! Ini Cara Jaga Keamanan Situs Biar Aman & Anti Bocor\"",

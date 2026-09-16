@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-16T03:00:07.307Z",
+  "collected_at": "2026-09-16T04:10:01.308Z",
   "insights": [
     {
       "type": "warning",
@@ -84,9 +84,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 154 articles",
-      "description": "Across 9 categories with 265 unique tags. Total word count: 82,296.",
-      "metric": "154",
+      "title": "Digital garden contains 163 articles",
+      "description": "Across 10 categories with 294 unique tags. Total word count: 87,188.",
+      "metric": "163",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
@@ -95,14 +95,14 @@
       "type": "positive",
       "category": "knowledge",
       "title": "\"Business Intelligence\" is the most content-rich category",
-      "description": "With 45 articles, representing 29% of all content.",
-      "metric": "45",
+      "description": "With 49 articles, representing 30% of all content.",
+      "metric": "49",
       "metric_label": "Articles",
       "icon": "folder",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-16T03:00:07.307Z",
+  "generated_at": "2026-09-16T04:10:01.308Z",
   "analysis_period": {
     "current": {
       "start": "2026-08-17",
