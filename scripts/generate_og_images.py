@@ -23,7 +23,7 @@ TEXT_PRIMARY = (44, 36, 22)
 TEXT_SECONDARY = (93, 82, 66)
 TEXT_MUTED = (138, 125, 107)
 WIDTH, HEIGHT = 1200, 630
-BRAND_LABEL = "M. Rohadiz / Software Architect"
+BRAND_LABEL = "M. Rohadiz / Software Architect — Field Observatory"
 
 def wrap_text(text, font, max_width, draw):
     lines = []

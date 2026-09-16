@@ -95,9 +95,11 @@ async function checkPage(path) {
       }
 
       if (fullUrl.startsWith(baseURL)) {
-        // Collect internal links to audit
         if (!visited.has(fullUrl)) {
-          const checkRes = await fetch(fullUrl, { method: 'HEAD' }).catch(() => null);
+          let checkRes = await fetch(fullUrl, { method: 'HEAD' }).catch(() => null);
+          if (!checkRes) {
+            checkRes = await fetch(fullUrl, { method: 'GET' }).catch(() => null);
+          }
           if (!checkRes || (!checkRes.ok && checkRes.status !== 404)) {
             // Allow 404 if it's explicitly the 404 page link, otherwise it's a broken link
             if (!fullUrl.endsWith('404.html') && !fullUrl.endsWith('404')) {
