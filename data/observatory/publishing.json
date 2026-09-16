@@ -1,14 +1,56 @@
 {
-  "collected_at": "2026-09-16T04:10:07.251Z",
+  "collected_at": "2026-09-16T08:00:08.386Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 290,
+    "total_commits": 297,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-09-16T03:00:11Z",
+    "last_commit_date": "2026-09-16T04:35:44Z",
     "active_days": 48
   },
   "recent_commits": [
+    {
+      "sha": "43fc424",
+      "message": "feat(observatory): support custom domain hosts in kmstrack collector",
+      "date": "2026-09-16T04:35:44Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "586e016",
+      "message": "Merge remote-tracking branch 'origin/main' into migration/blogger-import",
+      "date": "2026-09-16T04:26:30Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "c7356f9",
+      "message": "chore(config): update site url to https://www.mrohadiz.my.id",
+      "date": "2026-09-16T04:26:09Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "5fc198c",
+      "message": "Create CNAME",
+      "date": "2026-09-16T04:20:34Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "6dcff5f",
+      "message": "chore(observatory): update observatory data with newly migrated articles",
+      "date": "2026-09-16T04:10:29Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "9ec1783",
+      "message": "fix(ci): update og image brand label marker and improve static audit retry",
+      "date": "2026-09-16T04:07:37Z",
+      "author": "zakagimat"
+    },
+    {
+      "sha": "4f58a0d",
+      "message": "feat(migration): import 82 blogger posts with 9 evergreen rewrites, redirects, and CNAME",
+      "date": "2026-09-16T04:04:50Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "92c9793",
       "message": "chore: update observatory data 2026-09-16",
@@ -26,48 +68,6 @@
       "message": "chore: update observatory data 2026-09-15",
       "date": "2026-09-15T03:00:18Z",
       "author": "zakagimat"
-    },
-    {
-      "sha": "789a893",
-      "message": "chore: update observatory data 2026-09-14",
-      "date": "2026-09-14T08:00:12Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "278dbe9",
-      "message": "chore: update observatory data 2026-09-14",
-      "date": "2026-09-14T03:00:12Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "ca52d40",
-      "message": "chore: update observatory data 2026-09-10",
-      "date": "2026-09-10T08:00:13Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "f2b2084",
-      "message": "chore: update observatory data 2026-09-10",
-      "date": "2026-09-10T03:00:17Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "63bca5e",
-      "message": "chore: update observatory data 2026-09-09",
-      "date": "2026-09-09T08:00:15Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "f67d5e7",
-      "message": "chore: update observatory data 2026-09-09",
-      "date": "2026-09-09T03:00:15Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "1e5eb05",
-      "message": "chore: update observatory data 2026-09-08",
-      "date": "2026-09-08T08:00:15Z",
-      "author": "zakagimat"
     }
   ],
   "publishing_timeline": [
@@ -81,7 +81,7 @@
     },
     {
       "month": "2026-09",
-      "commits": 19
+      "commits": 26
     }
   ],
   "article_history": [],
@@ -91,10 +91,10 @@
     "active_days": 48
   },
   "repository_health": {
-    "open_issues": 1,
+    "open_issues": 0,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-09-16T04:10:07.251Z",
+    "last_deployment": "2026-09-16T08:00:08.386Z",
     "deployment_status": "success"
   }
 }

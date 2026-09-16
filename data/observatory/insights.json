@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-16T04:35:34.653Z",
+  "collected_at": "2026-09-16T08:00:08.630Z",
   "insights": [
     {
       "type": "warning",
@@ -74,7 +74,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-16",
+      "title": "Latest commit: feat(observatory): support custom domain hosts in ",
       "description": "Committed 9/16/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-16T04:35:34.653Z",
+  "generated_at": "2026-09-16T08:00:08.630Z",
   "analysis_period": {
     "current": {
       "start": "2026-08-17",
