@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-17T08:00:15.598Z",
+  "collected_at": "2026-09-18T03:00:07.761Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 31%",
-      "description": "From 29 to 20 users this period.",
-      "metric": "-31%",
+      "title": "Site visitors dropped 17%",
+      "description": "From 29 to 24 users this period.",
+      "metric": "-17%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,19 +14,29 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 10m 3s per session",
-      "description": "Across 34 sessions from 20 users this period.",
-      "metric": "10m 3s",
+      "title": "Average engagement is 8m 49s per session",
+      "description": "Across 39 sessions from 24 users this period.",
+      "metric": "8m 49s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
+      "type": "warning",
+      "category": "traffic",
+      "title": "Mobile engagement is 28% lower than desktop",
+      "description": "7m 31s on mobile vs 10m 25s on desktop. Consider improving the mobile reading experience.",
+      "metric": "-28%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
+      "priority": "medium"
+    },
+    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "27 sessions with an average engagement of 5m 45s.",
-      "metric": "27",
+      "description": "29 sessions with an average engagement of 5m 22s.",
+      "metric": "29",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 94% of traffic",
-      "description": "32 sessions from Direct this period.",
-      "metric": "94%",
+      "title": "Direct drives 92% of traffic",
+      "description": "36 sessions from Direct this period.",
+      "metric": "92%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -54,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (10% of visitors)",
-      "description": "10% of this period's visitors came back for another session.",
-      "metric": "2",
+      "title": "3 returning users (13% of visitors)",
+      "description": "13% of this period's visitors came back for another session.",
+      "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -64,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "3 consecutive days of commits",
+      "title": "4 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "3 days",
+      "metric": "4 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -74,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-16",
-      "description": "Committed 9/16/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-17",
+      "description": "Committed 9/17/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -90,23 +100,13 @@
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
-    },
-    {
-      "type": "positive",
-      "category": "knowledge",
-      "title": "\"Business Intelligence\" is the most content-rich category",
-      "description": "With 49 articles, representing 30% of all content.",
-      "metric": "49",
-      "metric_label": "Articles",
-      "icon": "folder",
-      "priority": "low"
     }
   ],
-  "generated_at": "2026-09-17T08:00:15.598Z",
+  "generated_at": "2026-09-18T03:00:07.761Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-18",
-      "end": "2026-09-17"
+      "start": "2026-08-19",
+      "end": "2026-09-18"
     }
   }
 }

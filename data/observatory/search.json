@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-09-17T08:00:26.122340+00:00",
+  "collected_at": "2026-09-18T03:00:13.292752+00:00",
   "period": {
-    "start": "2026-08-21",
-    "end": "2026-09-17"
+    "start": "2026-08-22",
+    "end": "2026-09-18"
   },
   "summary": {
     "total_clicks": 0,
@@ -12,16 +12,16 @@
     "indexed_pages": 2
   },
   "previous_period": {
-    "total_clicks": 1,
-    "total_impressions": 17,
-    "ctr": 0.0588,
-    "avg_position": 9.6
+    "total_clicks": 0,
+    "total_impressions": 13,
+    "ctr": 0,
+    "avg_position": 12.2
   },
   "trend": {
-    "clicks_change": -1.0,
-    "impressions_change": -0.7647,
-    "ctr_change": -1.0,
-    "position_change": 1.0833
+    "clicks_change": 0.0,
+    "impressions_change": -0.6923,
+    "ctr_change": 0.0,
+    "position_change": 0.6393
   },
   "top_queries": [
     {
@@ -51,11 +51,6 @@
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-08-21",
-      "clicks": 0,
-      "impressions": 0
-    },
     {
       "date": "2026-08-22",
       "clicks": 0,
@@ -173,6 +168,11 @@
     },
     {
       "date": "2026-09-14",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-09-15",
       "clicks": 0,
       "impressions": 0
     }
