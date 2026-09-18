@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-18T03:00:05.194Z",
+  "collected_at": "2026-09-18T08:00:05.052Z",
   "period": {
     "start": "2026-08-19",
     "end": "2026-09-18"
@@ -77,17 +77,17 @@
     },
     {
       "date": "2026-09-18",
-      "users": 2,
-      "sessions": 2
+      "users": 3,
+      "sessions": 3
     }
   ],
   "summary": {
-    "total_users": 24,
-    "total_sessions": 39,
-    "avg_engagement_time": 529,
-    "bounce_rate": 0.39473684210526316,
+    "total_users": 25,
+    "total_sessions": 40,
+    "avg_engagement_time": 536,
+    "bounce_rate": 0.38095238095238093,
     "returning_users": 3,
-    "avg_pages_per_session": 2.7
+    "avg_pages_per_session": 2.6
   },
   "previous_period": {
     "total_users": 29,
@@ -96,33 +96,33 @@
     "bounce_rate": 0.5
   },
   "trend": {
-    "users_change": -0.1724137931034483,
-    "sessions_change": -0.07142857142857142,
-    "engagement_time_change": -0.7815752173306874,
-    "bounce_rate_change": -0.21052631578947367
+    "users_change": -0.13793103448275862,
+    "sessions_change": -0.047619047619047616,
+    "engagement_time_change": -0.7785117769755235,
+    "bounce_rate_change": -0.23809523809523814
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 36,
-      "percentage": 0.9230769230769231
+      "sessions": 37,
+      "percentage": 0.925
     },
     {
       "source": "Bing",
       "sessions": 2,
-      "percentage": 0.05128205128205128
+      "percentage": 0.05
     },
     {
       "source": "Ig",
       "sessions": 1,
-      "percentage": 0.02564102564102564
+      "percentage": 0.025
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 29,
-      "avg_engagement_time": 322
+      "sessions": 30,
+      "avg_engagement_time": 311
     },
     {
       "page": "/notes/",
@@ -130,14 +130,19 @@
       "avg_engagement_time": 1517
     },
     {
+      "page": "/observatory/",
+      "sessions": 3,
+      "avg_engagement_time": 43
+    },
+    {
+      "page": "/about/",
+      "sessions": 2,
+      "avg_engagement_time": 657
+    },
+    {
       "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
       "sessions": 2,
       "avg_engagement_time": 25
-    },
-    {
-      "page": "/observatory/",
-      "sessions": 2,
-      "avg_engagement_time": 52
     },
     {
       "page": "/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
@@ -153,77 +158,72 @@
       "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadkZz_XalLA-Zwuu_kJuvivjBNpVGkUIZdoTOXg-pMlm5i-JQrhgzdo0-UoNQ_aem_Qnmlv0PBV-EhFRdx673dhQ",
       "sessions": 1,
       "avg_engagement_time": 5
-    },
-    {
-      "page": "/?fbclid=IwcGRvZgRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR5Hm5YHZANNPd3z2Fqp4Wl06t3dm11WagmfCEoIEr9GGGI4nw2nQ46lIkgdZw_aem_wKMfaJRloYIENM617w6c7w",
-      "sessions": 1,
-      "avg_engagement_time": 24
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 26,
-      "percentage": 0.6666666666666666
+      "sessions": 27,
+      "percentage": 0.675
     },
     {
       "country": "United States",
       "sessions": 5,
-      "percentage": 0.1282051282051282
+      "percentage": 0.125
     },
     {
       "country": "Singapore",
       "sessions": 3,
-      "percentage": 0.07692307692307693
+      "percentage": 0.075
     },
     {
       "country": "United Kingdom",
       "sessions": 2,
-      "percentage": 0.05128205128205128
+      "percentage": 0.05
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.05128205128205128
+      "percentage": 0.05
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.02564102564102564
+      "percentage": 0.025
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 20,
-      "avg_engagement_time": 625,
-      "percentage": 0.5128205128205128
+      "sessions": 21,
+      "avg_engagement_time": 635,
+      "percentage": 0.525
     },
     {
       "device": "Mobile",
       "sessions": 18,
       "avg_engagement_time": 451,
-      "percentage": 0.46153846153846156
+      "percentage": 0.45
     },
     {
       "device": "Tablet",
       "sessions": 1,
       "avg_engagement_time": 3,
-      "percentage": 0.02564102564102564
+      "percentage": 0.025
     }
   ],
   "reading": {
-    "avg_max_scroll": 33,
-    "deep_read_pct": 0.184,
-    "sessions": 38,
+    "avg_max_scroll": 35,
+    "deep_read_pct": 0.238,
+    "sessions": 42,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5526315789473685
+        "pct": 0.5238095238095238
       },
       {
         "label": "25-50%",
-        "pct": 0.2631578947368421
+        "pct": 0.23809523809523808
       },
       {
         "label": "50-75%",
@@ -231,7 +231,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.18421052631578946
+        "pct": 0.23809523809523808
       }
     ],
     "top_pages": [
@@ -240,6 +240,18 @@
         "sessions": 8,
         "avg_max_scroll": 59,
         "deep_read_pct": 0.25
+      },
+      {
+        "page": "/observatory/",
+        "sessions": 2,
+        "avg_max_scroll": 88,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/about/",
+        "sessions": 2,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 1
       },
       {
         "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
@@ -270,36 +282,32 @@
         "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
-      },
-      {
-        "page": "/observatory/",
-        "sessions": 1,
-        "avg_max_scroll": 100,
-        "deep_read_pct": 1
-      },
-      {
-        "page": "/projects/",
-        "sessions": 1,
-        "avg_max_scroll": 100,
-        "deep_read_pct": 1
       }
     ]
   },
   "top_clicks": [
     {
+      "element": "Observatory",
+      "sessions": 3
+    },
+    {
+      "element": "About",
+      "sessions": 3
+    },
+    {
+      "element": "Traffic",
+      "sessions": 2
+    },
+    {
+      "element": "Search",
+      "sessions": 2
+    },
+    {
       "element": "Buka Semua Catatan",
       "sessions": 2
     },
     {
-      "element": "Observatory",
-      "sessions": 2
-    },
-    {
       "element": "R\nM. Rohadiz",
-      "sessions": 2
-    },
-    {
-      "element": "About",
       "sessions": 2
     },
     {
@@ -316,14 +324,6 @@
     },
     {
       "element": "Knowledge",
-      "sessions": 1
-    },
-    {
-      "element": "Publishing",
-      "sessions": 1
-    },
-    {
-      "element": "Overview",
       "sessions": 1
     }
   ],
@@ -342,7 +342,7 @@
     },
     {
       "hour": 3,
-      "views": 3
+      "views": 7
     },
     {
       "hour": 4,
@@ -429,9 +429,9 @@
     "total_docs": 10000,
     "bot_ua_events": 390,
     "bot_ua_sessions": 76,
-    "automated_sessions": 104,
-    "automated_session_events": 7410,
-    "sessions_removed": 180,
-    "docs_after_filter": 2166
+    "automated_sessions": 103,
+    "automated_session_events": 7394,
+    "sessions_removed": 179,
+    "docs_after_filter": 2182
   }
 }
