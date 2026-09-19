@@ -15,6 +15,7 @@ categories:
 - website
   excerpt: "Jumlah visitor sering digunakan sebagai dasar memilih hosting atau server. Padahal kebutuhan infrastruktur lebih dipengaruhi oleh jenis traffic, pola akses, filtering layer, dan request yang benar-benar mencapai origin server."
 
+image: /assets/images/og/2026-09-19-server-tidak-dibangun-berdasarkan-jumlah-visitor.png
 ---
 
 Ringkasan
