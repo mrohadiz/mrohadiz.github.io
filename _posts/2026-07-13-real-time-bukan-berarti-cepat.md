@@ -68,7 +68,7 @@ Saya mulai melihat bahwa setiap sistem memiliki ritme yang berbeda.
 | IoT Sensor Telemetry | Beberapa detik |
 | Monitoring Infrastruktur | Puluhan detik |
 | Dashboard Operasional | Beberapa menit |
-| Digital Garden Observatory | Puluhan menit |
+| Halaman Statistik Situs | Puluhan menit |
 | Google Search Console | Harian |
 
 Semua bisa disebut *real-time* selama data yang digunakan masih cukup segar untuk keputusan yang sedang dibuat.
@@ -79,9 +79,9 @@ Real-time bukan angka yang sama untuk semua sistem.
 
 Digital Garden saya dibangun untuk mendokumentasikan pengetahuan.
 
-Observatory yang saya rancang tidak bertugas mengejar setiap pageview.
+Dashboard statistik yang saya rancang tidak bertugas mengejar setiap pageview.
 
-Sebaliknya, observatory bertugas menjawab pertanyaan seperti:
+Sebaliknya, dashboard tersebut bertugas menjawab pertanyaan seperti:
 
 - Artikel apa yang mulai banyak ditemukan melalui Google?
 - Topik apa yang sedang berkembang?

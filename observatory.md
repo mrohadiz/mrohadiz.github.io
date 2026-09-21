@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Observatory
-description: Digital Garden Observatory - Analytics & insights for the knowledge garden
+title: Statistik Situs
+description: Statistik dan insight otomatis dari pengunjung, publikasi, dan konten situs.
+permalink: /statistik/
 ---
 
 <!-- Observatory Hero -->
@@ -13,8 +14,8 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
         Live Dashboard
       </div>
-      <h1 class="observatory-title">Digital Garden Observatory</h1>
-      <p class="observatory-subtitle">Observing the evolution of knowledge, search visibility, and publishing activity.</p>
+      <h1 class="observatory-title">Statistik Situs</h1>
+      <p class="observatory-subtitle">Bagaimana situs ini berkembang: pengunjung, publikasi, dan konten.</p>
       <div class="observatory-meta">
         <span class="observatory-meta-item">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
@@ -39,19 +40,19 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
       </button>
       <button class="observatory-tab" role="tab" data-tab="search" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        Search
+        Pencarian
       </button>
       <button class="observatory-tab" role="tab" data-tab="traffic" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 00-3-3.87"></path><path d="M16 3.13a4 4 0 010 7.75"></path></svg>
-        Traffic
+        Pengunjung
       </button>
       <button class="observatory-tab" role="tab" data-tab="publishing" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg>
-        Publishing
+        Publikasi
       </button>
       <button class="observatory-tab" role="tab" data-tab="knowledge" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path></svg>
-        Knowledge
+        Konten
       </button>
     </div>
   </div>
@@ -63,9 +64,9 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
     <div class="observatory-section-header">
       <h2 class="observatory-section-title">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-        Insight Engine
+        Insight Terkini
       </h2>
-      <p class="observatory-section-subtitle">Automatic observations from your garden data</p>
+      <p class="observatory-section-subtitle">Hal yang menarik dari data situs periode ini</p>
     </div>
     <div class="insights-grid" id="insights-grid">
       <!-- Insights will be loaded here -->
@@ -138,9 +139,9 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
     <div class="observatory-section-header">
       <h2 class="observatory-section-title">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        Search Observatory
+        Pencarian
       </h2>
-      <p class="observatory-section-subtitle">Google Search Console insights</p>
+      <p class="observatory-section-subtitle">Dari Google Search Console</p>
     </div>
     
     <!-- Search KPIs -->
@@ -256,9 +257,9 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
     <div class="observatory-section-header">
       <h2 class="observatory-section-title">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 00-3-3.87"></path><path d="M16 3.13a4 4 0 010 7.75"></path></svg>
-        Traffic Observatory
+        Pengunjung
       </h2>
-      <p class="observatory-section-subtitle">KMS Track insights</p>
+      <p class="observatory-section-subtitle">Dari KMS Track</p>
     </div>
     
     <!-- Traffic KPIs -->
@@ -382,9 +383,9 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
     <div class="observatory-section-header">
       <h2 class="observatory-section-title">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg>
-        Publishing Observatory
+        Publikasi
       </h2>
-      <p class="observatory-section-subtitle">GitHub repository activity and publishing metrics</p>
+      <p class="observatory-section-subtitle">Aktivitas repository dan ritme penerbitan</p>
     </div>
     
     <!-- Publishing KPIs -->
@@ -452,9 +453,9 @@ description: Digital Garden Observatory - Analytics & insights for the knowledge
     <div class="observatory-section-header">
       <h2 class="observatory-section-title">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path></svg>
-        Knowledge Observatory
+        Konten
       </h2>
-      <p class="observatory-section-subtitle">Content index and knowledge graph insights</p>
+      <p class="observatory-section-subtitle">Indeks artikel dan keterhubungan antar catatan</p>
     </div>
     
     <!-- Knowledge KPIs -->

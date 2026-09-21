@@ -10,10 +10,10 @@
   // Configuration
   // ============================================================
   // Calculate base path relative to the current page
-  // Jekyll outputs observatory/index.html, so ../data/observatory/ is correct
+  // Jekyll outputs statistik/index.html, so ../data/observatory/ is correct
   const DATA_BASE_PATH = (() => {
     const path = window.location.pathname;
-    if (path.includes('/observatory/')) {
+    if (path.includes('/statistik/') || path.includes('/observatory/')) {
       return '../data/observatory/';
     }
     return 'data/observatory/';
