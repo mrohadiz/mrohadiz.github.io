@@ -54,11 +54,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
-
-# Pagination
-paginate: 12
-paginate_path: "/notes/page:num/"
 
 # Feed
 feed:
