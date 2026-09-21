@@ -25,4 +25,4 @@ User-agent: FacebookBot
 Allow: /
 
 # Sitemap
-Sitemap: https://mrohadiz.github.io/sitemap.xml
+Sitemap: https://www.mrohadiz.my.id/sitemap.xml
