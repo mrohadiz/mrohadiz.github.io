@@ -10,7 +10,7 @@ tags:
   - "seo"
 excerpt: "Google dan AI Mengganggu Thanksgiving untuk Para Food Blogger Food blogger melaporkan bahwa Thanksgiving tahun ini mengalami perubahan signifikan. Google Search dan"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-dan-ai-merusak-thanksgiving.html"
-image: /assets/images/og/2025-12-05-blogger-google-dan-ai-merusak-thanksgiving-untuk-blogger-makanan.png
+image: /assets/images/og/2025-12-05-google-dan-ai-merusak-thanksgiving-untuk-blogger-makanan.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

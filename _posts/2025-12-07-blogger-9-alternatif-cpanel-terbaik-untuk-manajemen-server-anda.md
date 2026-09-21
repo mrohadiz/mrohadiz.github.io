@@ -11,7 +11,7 @@ tags:
   - "server-management"
 excerpt: "Alternatif cPanel Terbaik untuk Mengelola Server Anda cPanel telah menjadi kontrol panel hosting web yang dominan selama lebih dari dua dekade. Dengan antarmuka yang"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/9-alternatif-cpanel-terbaik-untuk.html"
-image: /assets/images/og/2025-12-07-blogger-9-alternatif-cpanel-terbaik-untuk-manajemen-server-anda.png
+image: /assets/images/og/2025-12-07-9-alternatif-cpanel-terbaik-untuk-manajemen-server-anda.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -13,7 +13,7 @@ tags:
   - "search-architecture"
 excerpt: "Mengapa mesin pencari modern tidak menggunakan model AI raksasa untuk semua kueri? Analisis teknik Hybrid Query Routing untuk menyeimbangkan latensi mili-detik dan efisiensi biaya GPU per query."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/gemini-3-now-used-for-some-queries-in.html"
-image: /assets/images/og/2025-12-03-blogger-gemini-3-now-used-for-some-queries-in.png
+image: /assets/images/og/2025-12-03-gemini-3-now-used-for-some-queries-in.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

@@ -9,7 +9,7 @@ tags:
   - "audit-forensik"
   - "keamanan-server"
   - "wordpress"
-image: "/assets/images/blogger/2026-01-09-blogger-bedah-kasus-dormant-shell-forensik-deface-di-wordpress-1.png"
+image: "/assets/images/posts/2026-01-09-bedah-kasus-dormant-shell-forensik-deface-di-wordpress-1.png"
 excerpt: "Halo, saya M. Rohadiz. Sebagai Engineer yang berfokus pada keamanan server, saya sering menemui kasus di mana pemilik website merasa \"aman\" karena tidak ada aktivita"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/bedah-kasus-dormant-shell-forensik.html"
 ---
@@ -24,7 +24,7 @@ USULAN_JUDUL_3: Deteksi dan Penanganan Dormant Shell
 
 <p></p><div class="separator"><br /></div><br />Halo, saya M. Rohadiz. Sebagai Engineer yang berfokus pada keamanan server, saya sering menemui kasus di mana pemilik website merasa "aman" karena tidak ada aktivitas mencurigakan, padahal ancaman sudah tertanam berbulan-bulan dalam sistem. Kasus yang baru saja saya tangani pada awal Januari 2026 ini adalah contoh klasik dari <i>planned attack</i> menggunakan <i>dormant shell</i>.<p></p>
 
-<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBYIFpWwl49iLXAkUO46tdvpFtbZwB7cH-miPs8Sc2QZ3alHgzqPvXgJPi-ygGaBW9pa8cCGGuzdYdRs0t7ZQhZmPsX40C_QMpuABqXJG5S_o7RwBJlm3jNXezykX-OE5Nc4PzvFfLBHG62HbJnDEKYMxnc8srH5_62XcQzzTtIfrV4WHDUZ9v9QRNDJ9c/s1024/image.png"><img src="{{ '/assets/images/blogger/2026-01-09-blogger-bedah-kasus-dormant-shell-forensik-deface-di-wordpress-1.png' | relative_url }}" alt="Ilustrasi Dormant Shell" /></a></div><br /><h2><br /></h2><h2>Context: Insiden Deface pada Situs Institusi Kesehatan</h2>
+<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBYIFpWwl49iLXAkUO46tdvpFtbZwB7cH-miPs8Sc2QZ3alHgzqPvXgJPi-ygGaBW9pa8cCGGuzdYdRs0t7ZQhZmPsX40C_QMpuABqXJG5S_o7RwBJlm3jNXezykX-OE5Nc4PzvFfLBHG62HbJnDEKYMxnc8srH5_62XcQzzTtIfrV4WHDUZ9v9QRNDJ9c/s1024/image.png"><img src="{{ '/assets/images/posts/2026-01-09-bedah-kasus-dormant-shell-forensik-deface-di-wordpress-1.png' | relative_url }}" alt="Ilustrasi Dormant Shell" /></a></div><br /><h2><br /></h2><h2>Context: Insiden Deface pada Situs Institusi Kesehatan</h2>
 <p>Pada tanggal 3 Januari 2026, sebuah klien dari industri kesehatan melaporkan bahwa website utama mereka tidak lagi menampilkan informasi layanan medis, melainkan berubah menjadi konten perjudian online (judol). Insiden ini terjadi sangat cepat, antara pukul 03:58 hingga 04:00 UTC. Sebagai langkah awal, tim operasional telah melakukan pemulihan (restore) dari backup, namun saya dipanggil untuk melakukan audit forensik mendalam guna memastikan serangan ini tidak terulang kembali.</p>
 
 <h2>Problem: Serangan Terencana dengan Backdoor Pasif</h2>

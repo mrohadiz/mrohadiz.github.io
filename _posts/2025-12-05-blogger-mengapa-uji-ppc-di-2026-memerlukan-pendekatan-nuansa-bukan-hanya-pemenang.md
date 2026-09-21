@@ -11,7 +11,7 @@ tags:
   - "strategi-iklan"
 excerpt: "Mengapa Uji Coba PPC di Tahun 2026 Memerlukan Nuansa, Bukan Sekadar Pemenang Dalam dua dekade terakhir, pengujian dalam Pay-Per-Click (PPC) telah mengalami transform"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengapa-uji-ppc-di-2026-memerlukan.html"
-image: /assets/images/og/2025-12-05-blogger-mengapa-uji-ppc-di-2026-memerlukan-pendekatan-nuansa-bukan-hanya-pemenang.png
+image: /assets/images/og/2025-12-05-mengapa-uji-ppc-di-2026-memerlukan-pendekatan-nuansa-bukan-hanya-pemenang.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

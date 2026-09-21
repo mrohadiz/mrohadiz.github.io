@@ -10,7 +10,7 @@ tags:
   - "docker"
 excerpt: "Alternatif Docker Engine untuk Memaksimalkan Manajemen Kontainer Docker sudah menjadi standar dalam dunia pengelolaan kontainer, tapi tidak semua proyek memerlukan f"
 migrated_from: "https://www.mrohadiz.my.id/2024/05/alternatif-docker-engine-untuk.html"
-image: /assets/images/og/2024-05-05-blogger-alternatif-docker-engine-untuk-memaksimalkan-container-management.png
+image: /assets/images/og/2024-05-05-alternatif-docker-engine-untuk-memaksimalkan-container-management.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

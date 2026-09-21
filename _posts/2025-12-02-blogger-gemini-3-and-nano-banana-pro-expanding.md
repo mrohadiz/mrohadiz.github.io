@@ -13,7 +13,7 @@ tags:
   - "gemini"
 excerpt: "Evolusi mesin pencari modern beralih dari indeks leksikal dan link-graph menuju penalaran multimodal terdistribusi. Analisis arsitektur Gemini 3 dalam memproses kueri sintetis dan implikasinya terhadap information retrieval."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/gemini-3-and-nano-banana-pro-expanding.html"
-image: /assets/images/og/2025-12-02-blogger-gemini-3-and-nano-banana-pro-expanding.png
+image: /assets/images/og/2025-12-02-gemini-3-and-nano-banana-pro-expanding.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

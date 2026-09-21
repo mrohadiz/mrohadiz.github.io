@@ -11,7 +11,7 @@ tags:
   - "strategi-pemasaran"
 excerpt: "KPI AI: Mengubah Sebutan Menjadi Strategi di Era LLM Perubahan dalam Pengukuran Kesuksesan Digital Pengukuran kesuksesan digital tradisional sering kali berfokus pad"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengoptimalkan-kpi-ai-strategi.html"
-image: /assets/images/og/2025-12-06-blogger-mengoptimalkan-kpi-ai-strategi-meningkatkan-visibilitas-dan-otoritas-di-era-llm.png
+image: /assets/images/og/2025-12-06-mengoptimalkan-kpi-ai-strategi-meningkatkan-visibilitas-dan-otoritas-di-era-llm.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

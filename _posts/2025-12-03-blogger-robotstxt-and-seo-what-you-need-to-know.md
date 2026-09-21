@@ -14,7 +14,7 @@ tags:
   - "sysadmin"
 excerpt: "Protokol robots.txt bukan lagi sekadar arahan untuk mesin pencari konvensional, melainkan benteng pertahanan beban server terhadap serbuan bot LLM. Panduan tata kelola crawl budget dan proteksi konten di level edge."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/robotstxt-and-seo-what-you-need-to-know.html"
-image: /assets/images/og/2025-12-03-blogger-robotstxt-and-seo-what-you-need-to-know.png
+image: /assets/images/og/2025-12-03-robotstxt-and-seo-what-you-need-to-know.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

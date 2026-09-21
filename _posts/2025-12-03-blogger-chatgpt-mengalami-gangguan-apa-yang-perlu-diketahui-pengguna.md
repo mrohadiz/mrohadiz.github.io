@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "ChatGPT Sedang Mengalami Gangguan untuk Banyak Pengguna Saat ini, ChatGPT mengalami masalah yang berdampak pada banyak pengguna layanan dari OpenAI. Ketika mencoba m"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/chatgpt-mengalami-gangguan-apa-yang.html"
-image: /assets/images/og/2025-12-03-blogger-chatgpt-mengalami-gangguan-apa-yang-perlu-diketahui-pengguna.png
+image: /assets/images/og/2025-12-03-chatgpt-mengalami-gangguan-apa-yang-perlu-diketahui-pengguna.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

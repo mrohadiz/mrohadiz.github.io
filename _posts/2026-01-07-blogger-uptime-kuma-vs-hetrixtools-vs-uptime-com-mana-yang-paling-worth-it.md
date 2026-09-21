@@ -11,7 +11,7 @@ tags:
   - "monitoring"
 excerpt: "Uptime Kuma vs HetrixTools vs Uptime.com: Perbandingan Solusi Monitoring Uptime Monitoring uptime melibatkan lebih dari sekadar mengetahui status website 'UP' atau '"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/uptime-kuma-vs-hetrixtools-vs-uptimecom.html"
-image: /assets/images/og/2026-01-07-blogger-uptime-kuma-vs-hetrixtools-vs-uptime-com-mana-yang-paling-worth-it.png
+image: /assets/images/og/2026-01-07-uptime-kuma-vs-hetrixtools-vs-uptime-com-mana-yang-paling-worth-it.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

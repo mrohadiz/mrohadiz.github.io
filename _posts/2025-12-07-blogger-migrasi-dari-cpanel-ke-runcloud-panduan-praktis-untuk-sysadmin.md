@@ -11,7 +11,7 @@ tags:
   - "server-management"
 excerpt: "Panduan Praktis Migrasi dari Hosting cPanel ke RunCloud Jika Anda mengalami batasan dalam penggunaan cPanel, migrasi ke RunCloud dapat menjadi solusi yang tepat. Run"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/migrasi-dari-cpanel-ke-runcloud-panduan.html"
-image: /assets/images/og/2025-12-07-blogger-migrasi-dari-cpanel-ke-runcloud-panduan-praktis-untuk-sysadmin.png
+image: /assets/images/og/2025-12-07-migrasi-dari-cpanel-ke-runcloud-panduan-praktis-untuk-sysadmin.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

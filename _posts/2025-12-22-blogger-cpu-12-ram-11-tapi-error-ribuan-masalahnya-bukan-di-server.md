@@ -9,7 +9,7 @@ tags:
   - "case-study"
   - "devops"
   - "server-management"
-image: "/assets/images/blogger/2025-12-22-blogger-cpu-12-ram-11-tapi-error-ribuan-masalahnya-bukan-di-server-1.png"
+image: "/assets/images/posts/2025-12-22-cpu-12-ram-11-tapi-error-ribuan-masalahnya-bukan-di-server-1.png"
 excerpt: "Hari ini saya melakukan audit dan maintenance rutin pada server milik salah satu platform Edu-Tech nasional. Sekilas, jika hanya melihat dashboard monitoring, semuan"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/cpu-12-ram-11-tapi-error-ribuan.html"
 ---
@@ -26,7 +26,7 @@ USULAN_JUDUL_3: Optimasi Server: Mengatasi Error Tanpa Upgrade
 <p>Hari ini saya melakukan audit dan maintenance rutin pada server milik salah satu platform Edu-Tech nasional. Sekilas, jika hanya melihat <i>dashboard</i> monitoring, semuanya tampak "hijau royo-royo".</p>
 <div class="separator">
 <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhXyWwMaRfzrN6SHzAQ6V6mDYjWIpJDAFpBAFeUYytDjle2t8weNd4ErI_IqNVDst0d78tTGcsxEDa0tj2bqgZ1bjCp1wqGRrxK8UVCLNynsvrAh1B3BeQ5QosPPMi29rNxqn8IjXbSSE8lQ-k4o2-jYW357qHHyeNVKsuytIgyNnhSaidOTU7gBgYegQS/s2752/trafik%20analis%20-mrohadiz.my.id.png">
-<img src="{{ '/assets/images/blogger/2025-12-22-blogger-cpu-12-ram-11-tapi-error-ribuan-masalahnya-bukan-di-server-1.png' | relative_url }}" alt="Monitoring Server Edu-Tech" />
+<img src="{{ '/assets/images/posts/2025-12-22-cpu-12-ram-11-tapi-error-ribuan-masalahnya-bukan-di-server-1.png' | relative_url }}" alt="Monitoring Server Edu-Tech" />
 </a>
 </div>
 <br />

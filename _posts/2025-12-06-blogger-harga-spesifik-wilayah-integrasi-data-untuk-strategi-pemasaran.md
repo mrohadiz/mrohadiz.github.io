@@ -10,7 +10,7 @@ tags:
   - "teknis"
 excerpt: "Harga Spesifik Wilayah: Integrasi Data untuk Strategi Pemasaran Google sedang menguji fitur baru yang memungkinkan pengecer menampilkan harga loyalitas spesifik regi"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/harga-spesifik-wilayah-integrasi-data.html"
-image: /assets/images/og/2025-12-06-blogger-harga-spesifik-wilayah-integrasi-data-untuk-strategi-pemasaran.png
+image: /assets/images/og/2025-12-06-harga-spesifik-wilayah-integrasi-data-untuk-strategi-pemasaran.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

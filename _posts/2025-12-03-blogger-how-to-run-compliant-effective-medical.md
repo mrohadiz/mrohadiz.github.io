@@ -13,7 +13,7 @@ tags:
   - "healthcare-marketing"
 excerpt: "Mengelola kampanye periklanan di sektor kesehatan mental dan medis membutuhkan ketelitian tinggi antara efektivitas pemasaran dan kepatuhan regulasi privasi data sensitif. Analisis arsitektur pelacakan privacy-first."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/how-to-run-compliant-effective-medical.html"
-image: /assets/images/og/2025-12-03-blogger-how-to-run-compliant-effective-medical.png
+image: /assets/images/og/2025-12-03-how-to-run-compliant-effective-medical.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

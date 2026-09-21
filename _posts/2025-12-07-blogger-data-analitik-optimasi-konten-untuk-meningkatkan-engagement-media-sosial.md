@@ -8,7 +8,7 @@ categories:
 tags:
   - "marketing"
   - "teknis"
-image: "/assets/images/blogger/2025-12-07-blogger-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png"
+image: "/assets/images/posts/2025-12-07-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png"
 excerpt: "Data Analitik: Optimasi Konten untuk Meningkatkan Engagement Media Sosial Ketika konten Anda menjadi viral di platform seperti TikTok atau Instagram, dan ribuan peng"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/data-analitik-optimasi-konten-untuk.html"
 ---
@@ -24,8 +24,8 @@ USULAN_JUDUL_3: Optimasi Konten dan Infrastruktur untuk Media Sosial
 <h2>Data Analitik: Optimasi Konten untuk Meningkatkan Engagement Media Sosial</h2>
 <div><br /></div>
 <div class="separator">
-<a href="{{ '/assets/images/blogger/2025-12-07-blogger-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png' | relative_url }}">
-<img alt="Optimasi Server untuk Trafik Sosial Media" src="{{ '/assets/images/blogger/2025-12-07-blogger-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png' | relative_url }}" />
+<a href="{{ '/assets/images/posts/2025-12-07-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png' | relative_url }}">
+<img alt="Optimasi Server untuk Trafik Sosial Media" src="{{ '/assets/images/posts/2025-12-07-data-analitik-optimasi-konten-untuk-meningkatkan-engagement-media-sosial-1.png' | relative_url }}" />
 </a>
 </div>
 <br />

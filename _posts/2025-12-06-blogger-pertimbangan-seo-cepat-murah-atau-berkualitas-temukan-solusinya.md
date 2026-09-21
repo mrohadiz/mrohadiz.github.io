@@ -11,7 +11,7 @@ tags:
   - "strategi"
 excerpt: "Fast, Murah, atau Baik? Pertukaran SEO yang Tidak Bisa Diabaikan Konsep \"Cepat, murah, atau baik – pilih dua\" menggambarkan trade-off dalam proyek. Dalam konteks ini"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/pertimbangan-seo-cepat-murah-atau.html"
-image: /assets/images/og/2025-12-06-blogger-pertimbangan-seo-cepat-murah-atau-berkualitas-temukan-solusinya.png
+image: /assets/images/og/2025-12-06-pertimbangan-seo-cepat-murah-atau-berkualitas-temukan-solusinya.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

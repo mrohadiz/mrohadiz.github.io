@@ -25,7 +25,7 @@ from googleapiclient.discovery import build
 
 ROOT = Path(__file__).resolve().parents[1]
 POSTS_DIR = ROOT / "_posts"
-IMAGES_DIR = ROOT / "assets" / "images" / "blogger"
+IMAGES_DIR = ROOT / "assets" / "images" / "posts"
 BLOG_ID = "2985126992586668234"
 EXCLUDED_PATHS = {
     "/2024/02/menjelajahi-dunia-pns-panduan-lengkap.html",
@@ -152,7 +152,7 @@ def localize_images(body: str, slug: str, enabled: bool, dry_run: bool) -> tuple
                 if not dry_run:
                     with target.open("wb") as destination:
                         shutil.copyfileobj(response, destination)
-                local_url = f"/assets/images/blogger/{filename}"
+                local_url = f"/assets/images/posts/{filename}"
                 replacements[url] = "{{ '" + local_url + "' | relative_url }}"
                 local_paths.append(local_url)
         except Exception as exc:  # Keep the source URL when an asset cannot be retrieved.

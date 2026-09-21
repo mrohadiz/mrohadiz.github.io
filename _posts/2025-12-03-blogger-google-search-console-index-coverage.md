@@ -14,7 +14,7 @@ tags:
   - "sysadmin"
 excerpt: "Keterlambatan laporan Index Coverage di Google Search Console sering membuat tim teknis panik tanpa arah. Bagaimana membangun pipeline observabilitas log server mandiri untuk memverifikasi aktivitas crawling secara real-time."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-search-console-index-coverage.html"
-image: /assets/images/og/2025-12-03-blogger-google-search-console-index-coverage.png
+image: /assets/images/og/2025-12-03-google-search-console-index-coverage.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

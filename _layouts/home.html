@@ -4,18 +4,18 @@ layout: default
 
 <section class="hero hero-observatory">
   <div class="hero-inner">
-    <span class="hero-notebook-entry">✎ Field Notes / Decision Systems</span>
-    <p class="hero-kicker">observasi sebelum keputusan</p>
+    <span class="hero-notebook-entry">✎ Field Notes</span>
+    <p class="hero-kicker">Memahami pola sebelum mengambil keputusan</p>
     <h1 class="hero-title">Keputusan yang baik lahir dari observasi yang baik.</h1>
-    <p class="hero-tagline">Mencatat pola, arsitektur, dan sinyal yang membantu sistem teknis mengambil keputusan dengan lebih jernih.</p>
+    <p class="hero-tagline">Di sini saya mencatat bagaimana sistem, data, dan keputusan saling memengaruhi — dan apa yang sering kita salah pahami.</p>
     <div class="hero-context" aria-label="Fokus utama">
-      <span>Software Architecture</span>
-      <span>Decision Intelligence</span>
-      <span>AI Engineering</span>
+      <span>Keputusan dalam sistem yang kompleks</span>
+      <span>Arsitektur perangkat lunak</span>
+      <span>AI untuk pengambilan keputusan</span>
     </div>
     <div class="hero-actions">
       <a href="{{ '/notes/' | relative_url }}" class="btn btn-primary btn-lg">Baca Catatan</a>
-      <a href="{{ '/methodology/' | relative_url }}" class="btn btn-secondary btn-lg">Lihat Metodologi</a>
+      <a href="{{ '/methodology/' | relative_url }}" class="btn btn-secondary btn-lg">Bagaimana Saya Berpikir</a>
     </div>
   </div>
 </section>
@@ -31,44 +31,44 @@ layout: default
 <section class="section section-observatory" id="domains">
   <div class="container editorial-grid">
     <div class="section-header section-header-left">
-      <p class="section-kicker">Peta observasi</p>
+      <p class="section-kicker">Bidang observasi</p>
       <h2 class="section-title">Ruang Observasi</h2>
-      <p class="section-subtitle">Topik disusun sebagai ruang kerja, bukan kategori statis. Tiap ruang mengumpulkan pertanyaan, pola, dan catatan lapangan.</p>
+      <p class="section-subtitle">Di bidang mana keputusan paling sering salah paham. Disusun sebagai ruang kerja, bukan kategori statis — tiap ruang mengumpulkan pertanyaan dan catatan lapangan.</p>
     </div>
     <div class="observation-list">
       <a href="/topics/decision-systems/" class="observation-item">
         <span class="observation-mark">01</span>
         <span>
           <strong>Decision Systems</strong>
-          <em>Kerangka observasi, trade-off, dan akuntabilitas keputusan.</em>
+          <em>Bagaimana keputusan dibuat, diukur, dan dipertanggungjawabkan — bukan sekadar memilih opsi.</em>
         </span>
       </a>
       <a href="/topics/software-architecture/" class="observation-item">
         <span class="observation-mark">02</span>
         <span>
           <strong>Software Architecture</strong>
-          <em>Struktur sistem, boundary, event, dan konsekuensi teknis.</em>
+          <em>Kenapa struktur sistem menentukan cepat-lambatnya tim bekerja dan berapa biaya perubahannya.</em>
         </span>
       </a>
       <a href="/topics/ai-engineering/" class="observation-item">
         <span class="observation-mark">03</span>
         <span>
           <strong>AI Engineering</strong>
-          <em>LLM, reasoning engine, dan infrastruktur untuk sistem AI.</em>
+          <em>Bagaimana model AI dipakai sebagai alat keputusan yang bisa dipercaya — bukan sekadar demo.</em>
         </span>
       </a>
       <a href="/topics/business-intelligence/" class="observation-item">
         <span class="observation-mark">04</span>
         <span>
           <strong>Business Intelligence</strong>
-          <em>Customer data, analytics, attribution, dan CDP untuk keputusan bisnis.</em>
+          <em>Dari data pelanggan sampai metrik bisnis: kapan data benar-benar mengubah keputusan.</em>
         </span>
       </a>
       <a href="/topics/infrastructure/" class="observation-item">
         <span class="observation-mark">05</span>
         <span>
           <strong>Infrastructure</strong>
-          <em>Reliability, deployment, observability, dan operasi sistem.</em>
+          <em>Kenapa sistem tiba-tiba lambat atau down, dan bagaimana membangun yang bisa diandalkan.</em>
         </span>
       </a>
     </div>
@@ -78,9 +78,9 @@ layout: default
 <section class="section" id="articles">
   <div class="container">
     <div class="section-header section-header-left">
-      <p class="section-kicker">Log terbaru</p>
+      <p class="section-kicker">Catatan terbaru</p>
       <h2 class="section-title">Catatan Terbaru</h2>
-      <p class="section-subtitle">Esai pendek dan catatan kerja dari proses membaca sistem, data, dan keputusan.</p>
+      <p class="section-subtitle">Observasi dalam proses — ditulis saat dikerjakan, bukan setelah semuanya sempurna. Sebagian masih berproses, sebagian sudah teruji.</p>
     </div>
     <div class="note-list">
       {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
@@ -92,7 +92,7 @@ layout: default
             <strong>{{ post.title }}</strong>
             <em>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 22 }}</em>
           </span>
-          <span class="note-row-topic">{{ post.categories.first | default: 'Catatan' }}</span>
+          <span class="note-row-topic">{{ post.categories.first | default: 'Catatan' }}{% if post.categories[1] %} · {{ post.categories[1] }}{% endif %}</span>
         </a>
       {% else %}
         <div class="note-row note-row-empty">
@@ -109,51 +109,21 @@ layout: default
 <section class="section section-workbench" id="projects">
   <div class="container editorial-grid">
     <div class="section-header section-header-left">
-      <p class="section-kicker">Project Log</p>
-      <h2 class="section-title">Proyek Kerja</h2>
-      <p class="section-subtitle">Sistem dan eksperimen yang menjadi sumber observasi berulang.</p>
+      <p class="section-kicker">Proyek</p>
+      <h2 class="section-title">Dari observasi jadi sistem</h2>
+      <p class="section-subtitle">Observasi bukan berhenti di tulisan — sebagian tumbuh jadi alat yang bisa dipakai.</p>
     </div>
     <div class="project-log-list">
-      <div class="project-log-item">
+      <a href="https://tiktok.mrohadiz.my.id/" class="project-log-item" style="text-decoration: none;">
         <div class="project-log-number">01</div>
         <div class="project-log-body">
           <div class="project-log-header">
-            <span class="project-log-status status-active">Active</span>
+            <span class="project-log-status status-active">Live</span>
           </div>
-          <strong class="project-log-title">RADAR</strong>
-          <em class="project-log-desc">Market intelligence dan decision support real-time.</em>
+          <strong class="project-log-title">TikTok Account Analyzer</strong>
+          <em class="project-log-desc">Pahami arah niche akun TikTok, temukan peluang pertumbuhan, dan dapatkan ide konten berikutnya berbasis data.</em>
         </div>
-      </div>
-      <div class="project-log-item">
-        <div class="project-log-number">02</div>
-        <div class="project-log-body">
-          <div class="project-log-header">
-            <span class="project-log-status status-active">Active</span>
-          </div>
-          <strong class="project-log-title">SGP OS</strong>
-          <em class="project-log-desc">Governance platform untuk decision management.</em>
-        </div>
-      </div>
-      <div class="project-log-item">
-        <div class="project-log-number">03</div>
-        <div class="project-log-body">
-          <div class="project-log-header">
-            <span class="project-log-status status-beta">Beta</span>
-          </div>
-          <strong class="project-log-title">Meta Observatory</strong>
-          <em class="project-log-desc">Agregasi multi-source untuk market intelligence.</em>
-        </div>
-      </div>
-      <div class="project-log-item">
-        <div class="project-log-number">04</div>
-        <div class="project-log-body">
-          <div class="project-log-header">
-            <span class="project-log-status status-planning">Planning</span>
-          </div>
-          <strong class="project-log-title">Knowledge Repository</strong>
-          <em class="project-log-desc">Graph knowledge base dan semantic search pribadi.</em>
-        </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>

@@ -13,7 +13,7 @@ tags:
   - "regulasi-ue"
 excerpt: "Google Tarik Keluhan Antimonopoli Microsoft, Fokus ke Investigasi Cloud UE Google secara resmi telah menarik gugatan antimonopoli yang diajukan terhadap Microsoft di"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-tarik-keluhan-antimonopoli.html"
-image: /assets/images/og/2025-12-02-blogger-google-tarik-keluhan-antimonopoli-microsoft-fokus-ke-investigasi-cloud-ue.png
+image: /assets/images/og/2025-12-02-google-tarik-keluhan-antimonopoli-microsoft-fokus-ke-investigasi-cloud-ue.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

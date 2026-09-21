@@ -11,7 +11,7 @@ tags:
   - "penerbitan"
 excerpt: "Bagaimana Jawaban AI Mengganggu Pendapatan Penerbit dan Iklan Penerbit dan mesin pencari telah lama mengandalkan penempatan iklan dan pemasaran afiliasi sebagai sumb"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/dampak-ai-terhadap-pendapatan-penerbit.html"
-image: /assets/images/og/2025-12-05-blogger-dampak-ai-terhadap-pendapatan-penerbit-dan-model-iklan-di-era-digital.png
+image: /assets/images/og/2025-12-05-dampak-ai-terhadap-pendapatan-penerbit-dan-model-iklan-di-era-digital.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -10,7 +10,7 @@ tags:
   - "teknis"
 excerpt: "SEO & PPC: Strategi Data-Driven untuk Efisiensi Anggaran Di era digital yang terus berkembang ini, peluang kerja di bidang pemasaran pencarian semakin menarik perhat"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/seo-ppc-strategi-data-driven-untuk.html"
-image: /assets/images/og/2025-12-06-blogger-seo-ppc-strategi-data-driven-untuk-efisiensi-anggaran.png
+image: /assets/images/og/2025-12-06-seo-ppc-strategi-data-driven-untuk-efisiensi-anggaran.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

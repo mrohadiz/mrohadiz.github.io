@@ -10,7 +10,7 @@ tags:
   - "teknis"
 excerpt: "Optimasi AI: Mengelola Bot untuk Meningkatkan Konversi Di era digital yang serba cepat ini, kehadiran kecerdasan buatan (AI) semakin mendominasi berbagai aspek pemas"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/optimasi-ai-mengelola-bot-untuk.html"
-image: /assets/images/og/2025-12-07-blogger-optimasi-ai-mengelola-bot-untuk-meningkatkan-konversi.png
+image: /assets/images/og/2025-12-07-optimasi-ai-mengelola-bot-untuk-meningkatkan-konversi.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

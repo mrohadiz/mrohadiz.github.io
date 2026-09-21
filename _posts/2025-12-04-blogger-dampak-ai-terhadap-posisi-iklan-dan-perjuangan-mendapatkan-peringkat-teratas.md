@@ -11,7 +11,7 @@ tags:
   - "seo"
 excerpt: "Bagaimana AI Overviews Mempengaruhi Posisi Iklan dan Pertarungan untuk Mendapatkan Peringkat Teratas AI Overviews dari Google telah secara signifikan mengubah lanska"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/dampak-ai-terhadap-posisi-iklan-dan.html"
-image: /assets/images/og/2025-12-04-blogger-dampak-ai-terhadap-posisi-iklan-dan-perjuangan-mendapatkan-peringkat-teratas.png
+image: /assets/images/og/2025-12-04-dampak-ai-terhadap-posisi-iklan-dan-perjuangan-mendapatkan-peringkat-teratas.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

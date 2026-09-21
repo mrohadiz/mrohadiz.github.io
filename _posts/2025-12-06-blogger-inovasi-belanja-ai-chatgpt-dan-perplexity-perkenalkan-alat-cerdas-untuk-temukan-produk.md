@@ -11,7 +11,7 @@ tags:
   - "kecerdasan-buatan"
 excerpt: "ChatGPT dan Perplexity: Meningkatkan Pengalaman Belanja dengan AI Dalam 24 jam terakhir, ChatGPT dan Perplexity meluncurkan pengalaman belanja berbasis AI yang diran"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/inovasi-belanja-ai-chatgpt-dan.html"
-image: /assets/images/og/2025-12-06-blogger-inovasi-belanja-ai-chatgpt-dan-perplexity-perkenalkan-alat-cerdas-untuk-temukan-produk.png
+image: /assets/images/og/2025-12-06-inovasi-belanja-ai-chatgpt-dan-perplexity-perkenalkan-alat-cerdas-untuk-temukan-produk.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

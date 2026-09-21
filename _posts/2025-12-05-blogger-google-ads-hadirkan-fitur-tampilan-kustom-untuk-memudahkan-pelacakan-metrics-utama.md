@@ -11,7 +11,7 @@ tags:
   - "google-ads"
 excerpt: "Pembaruan Tab Overview Google Ads: Tampilan Kustom untuk Kemudahan Pelacakan Google Ads kini memberikan fleksibilitas lebih bagi pengiklan melalui pembaruan pada tab"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-ads-hadirkan-fitur-tampilan.html"
-image: /assets/images/og/2025-12-05-blogger-google-ads-hadirkan-fitur-tampilan-kustom-untuk-memudahkan-pelacakan-metrics-utama.png
+image: /assets/images/og/2025-12-05-google-ads-hadirkan-fitur-tampilan-kustom-untuk-memudahkan-pelacakan-metrics-utama.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

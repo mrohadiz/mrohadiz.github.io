@@ -10,7 +10,7 @@ tags:
   - "b"
 excerpt: "Dunia digital marketing kembali heboh dengan kabar terbaru dari OpenAI. Raksasa AI ini kabarnya semakin dekat untuk meluncurkan iklan di aplikasi ChatGPT versi Andro"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/iklan-chatgpt-segera-hadir-bocoran-kode.html"
-image: /assets/images/og/2025-12-02-blogger-iklan-chatgpt-segera-hadir-bocoran-kode-android-ungkap-openai-uji-coba-strategi-monetisasi-baru.png
+image: /assets/images/og/2025-12-02-iklan-chatgpt-segera-hadir-bocoran-kode-android-ungkap-openai-uji-coba-strategi-monetisasi-baru.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

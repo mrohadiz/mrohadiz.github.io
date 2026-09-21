@@ -10,7 +10,7 @@ tags:
   - "iklan"
 excerpt: "Meta: Iklan Native Reels Dapat Meningkatkan Niat Pembelian Hingga 5.3x Pengenalan tentang Reels Reels telah menjadi format yang sangat populer untuk hiburan, edukasi"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/meta-iklan-reels-native-dapat.html"
-image: /assets/images/og/2025-12-04-blogger-meta-iklan-reels-native-dapat-meningkatkan-niat-beli-5-3x.png
+image: /assets/images/og/2025-12-04-meta-iklan-reels-native-dapat-meningkatkan-niat-beli-5-3x.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

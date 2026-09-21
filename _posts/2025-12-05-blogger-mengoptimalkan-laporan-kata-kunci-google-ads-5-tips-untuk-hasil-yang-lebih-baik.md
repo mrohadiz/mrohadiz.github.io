@@ -11,7 +11,7 @@ tags:
   - "iklan-online"
 excerpt: "Mengoptimalkan Laporan Istilah Pencarian Google Ads: 5 Tips untuk Hasil yang Lebih Baik Laporan istilah pencarian Google Ads sering kali kurang dimanfaatkan secara o"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengoptimalkan-laporan-kata-kunci.html"
-image: /assets/images/og/2025-12-05-blogger-mengoptimalkan-laporan-kata-kunci-google-ads-5-tips-untuk-hasil-yang-lebih-baik.png
+image: /assets/images/og/2025-12-05-mengoptimalkan-laporan-kata-kunci-google-ads-5-tips-untuk-hasil-yang-lebih-baik.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

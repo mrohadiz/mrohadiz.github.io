@@ -10,7 +10,7 @@ tags:
   - "teknis"
 excerpt: "Analytics Canggih: Optimasi Konversi dengan Data Real-Time Dalam konteks ecommerce, optimasi kampanye PPC (Pay-Per-Click) merupakan aspek penting untuk mencapai hasi"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/analytics-canggih-optimasi-konversi.html"
-image: /assets/images/og/2025-12-07-blogger-analytics-canggih-optimasi-konversi-dengan-data-real-time.png
+image: /assets/images/og/2025-12-07-analytics-canggih-optimasi-konversi-dengan-data-real-time.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

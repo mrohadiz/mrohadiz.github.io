@@ -11,7 +11,7 @@ tags:
   - "laporan-iklan"
 excerpt: "Google Tambahkan Segmen Mitra Pencarian pada Laporan Performance Max Google telah meluncurkan pembaruan pada laporan Performance Max (PMax) yang memungkinkan penggun"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-tambahkan-segmen-mitra-pencarian.html"
-image: /assets/images/og/2025-12-03-blogger-google-tambahkan-segmen-mitra-pencarian-pada-laporan-pmax-untuk-meningkatkan-nilai-iklan.png
+image: /assets/images/og/2025-12-03-google-tambahkan-segmen-mitra-pencarian-pada-laporan-pmax-untuk-meningkatkan-nilai-iklan.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

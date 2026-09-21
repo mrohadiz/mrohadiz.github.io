@@ -13,7 +13,7 @@ tags:
   - "adtech"
 excerpt: "Mengapa kampanye dengan CTR tinggi kerap gagal mencetak profit? Analisis mekanika post-click optimization, relevansi semantik landing page, dan sinyal algoritma bidding berbasis konversi."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-ads-tests-new-website-optimizer.html"
-image: /assets/images/og/2025-12-02-blogger-google-ads-tests-new-website-optimizer.png
+image: /assets/images/og/2025-12-02-google-ads-tests-new-website-optimizer.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

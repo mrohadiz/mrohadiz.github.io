@@ -11,7 +11,7 @@ tags:
   - "open-source"
   - "security"
   - "server"
-image: "/assets/images/blogger/2025-12-22-blogger-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-1.png"
+image: "/assets/images/posts/2025-12-22-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-1.png"
 excerpt: "Bangun Tidur Server Aman: Cara Saya Automasi Security Report Tanpa Tool Mahal Minggu lalu, saya melakukan audit untuk salah satu klien Platform Edu-Tech Nasional . T"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/bangun-tidur-server-aman-cara-saya.html"
 ---
@@ -30,7 +30,7 @@ migrated_from: "https://www.mrohadiz.my.id/2025/12/bangun-tidur-server-aman-cara
 
 <div class="separator">
 <a href="https://blogger.googleusercontent.com/img/a/AVvXsEhxSvxSBVmP9WwoWaJrLuQx2sO3XLUU1Z8mkRFUgBcrzAw7sIUBpeVAkRLHoL1CcgICsVyq7EuvajYGExhARH33QREw6Dc5AAdm38TSCPuC2T0bvyIDa5mwHnKOv-j7rcPK_yI79OFr_2ztxCFBA7yipT7hxvyuWwJp6Nrkg49BtrcyoEqZzvUGHEkCRAS0">
-<img alt="Automasi Security Report" src="{{ '/assets/images/blogger/2025-12-22-blogger-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-1.png' | relative_url }}" />
+<img alt="Automasi Security Report" src="{{ '/assets/images/posts/2025-12-22-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-1.png' | relative_url }}" />
 </a>
 </div>
 
@@ -76,8 +76,8 @@ migrated_from: "https://www.mrohadiz.my.id/2025/12/bangun-tidur-server-aman-cara
 <h2>Kesimpulan</h2>
 
 <div class="separator">
-<a href="{{ '/assets/images/blogger/2025-12-22-blogger-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-2.png' | relative_url }}">
-<img alt="Kesimpulan Keamanan Server" src="{{ '/assets/images/blogger/2025-12-22-blogger-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-2.png' | relative_url }}" />
+<a href="{{ '/assets/images/posts/2025-12-22-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-2.png' | relative_url }}">
+<img alt="Kesimpulan Keamanan Server" src="{{ '/assets/images/posts/2025-12-22-bangun-tidur-server-aman-cara-saya-automasi-security-report-tanpa-tool-mahal-2.png' | relative_url }}" />
 </a>
 </div>
 

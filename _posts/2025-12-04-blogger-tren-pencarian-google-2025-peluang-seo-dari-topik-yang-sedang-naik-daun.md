@@ -11,7 +11,7 @@ tags:
   - "tren-pencarian"
 excerpt: "Tahun Pencarian Google 2025: Topik Trending yang Meningkat Pesat Pada hari ini, Google merilis daftar Tahun Pencarian 2025. Daftar ini tidak dimaksudkan sebagai peri"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/tren-pencarian-google-2025-peluang-seo.html"
-image: /assets/images/og/2025-12-04-blogger-tren-pencarian-google-2025-peluang-seo-dari-topik-yang-sedang-naik-daun.png
+image: /assets/images/og/2025-12-04-tren-pencarian-google-2025-peluang-seo-dari-topik-yang-sedang-naik-daun.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

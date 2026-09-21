@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "Mode AI Google Tingkatkan Lalu Lintas Pencarian Transaksional hingga 69% Dalam konteks SEO saat ini, terdapat narasi yang menyatakan bahwa Mode AI Google tidak mengi"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mode-ai-google-meningkatkan-lalu-lintas.html"
-image: /assets/images/og/2025-12-04-blogger-mode-ai-google-meningkatkan-lalu-lintas-pada-69-pencarian-transaksional.png
+image: /assets/images/og/2025-12-04-mode-ai-google-meningkatkan-lalu-lintas-pada-69-pencarian-transaksional.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

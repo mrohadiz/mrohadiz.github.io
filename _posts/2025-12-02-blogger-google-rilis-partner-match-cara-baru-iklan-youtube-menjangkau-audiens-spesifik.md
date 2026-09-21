@@ -14,7 +14,7 @@ tags:
   - "youtube"
 excerpt: "Google Luncurkan \"Partner Match\": Revolusi Penargetan Iklan YouTube? Di tengah persaingan digital yang semakin ketat, menemukan audiens yang tepat seringkali menjadi"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-rilis-partner-match-cara-baru.html"
-image: /assets/images/og/2025-12-02-blogger-google-rilis-partner-match-cara-baru-iklan-youtube-menjangkau-audiens-spesifik.png
+image: /assets/images/og/2025-12-02-google-rilis-partner-match-cara-baru-iklan-youtube-menjangkau-audiens-spesifik.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

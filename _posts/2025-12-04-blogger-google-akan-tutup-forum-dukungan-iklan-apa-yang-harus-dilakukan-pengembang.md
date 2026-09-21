@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "Google Akan Tutup Forum Dukungan Pengembang Iklan di 2026 Google mengumumkan penghentian tiga forum Google Groups yang telah beroperasi lama untuk pengembang iklan"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-akan-tutup-forum-dukungan-iklan.html"
-image: /assets/images/og/2025-12-04-blogger-google-akan-tutup-forum-dukungan-iklan-apa-yang-harus-dilakukan-pengembang.png
+image: /assets/images/og/2025-12-04-google-akan-tutup-forum-dukungan-iklan-apa-yang-harus-dilakukan-pengembang.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

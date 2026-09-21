@@ -9,7 +9,7 @@ tags:
   - "devops"
   - "infrastruktur"
   - "server-management"
-image: "/assets/images/blogger/2025-12-08-blogger-panduan-praktis-hosting-n8n-dengan-docker-dan-nginx-di-vps-1.png"
+image: "/assets/images/posts/2025-12-08-panduan-praktis-hosting-n8n-dengan-docker-dan-nginx-di-vps-1.png"
 excerpt: "Mengelola Hosting n8n dengan RunCloud, Docker, dan NGINX Secara Mudah n8n adalah platform otomatisasi open-source yang menghubungkan aplikasi dan layanan untuk menye"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/panduan-praktis-hosting-n8n-dengan.html"
 ---
@@ -25,7 +25,7 @@ USULAN_JUDUL_3: Hosting n8n di VPS: Panduan Teknikal
 <div class="separator"><br /></div>
 <div class="separator">
 <a href="https://blogger.googleusercontent.com/img/a/AVvXsEgLc368Uqtt7oGbpb8sPpqdQhnAqN0fUxXlG6NPgeyxGQrE05ekLDRcqWASdiR2CHGi5hljLEbrx5IHoWDcqfu-jVz3RMk_sfwSXO7iU0E6q53xsjECnOi1Z02SMiMwNxvPf2ErYQTTee-OlOucqp2XObWbch7c7p2wpS1V5U4DJa6lCgR-KTVlMTK_yCBn">
-<img alt="Hosting n8n dengan Docker dan NGINX" src="{{ '/assets/images/blogger/2025-12-08-blogger-panduan-praktis-hosting-n8n-dengan-docker-dan-nginx-di-vps-1.png' | relative_url }}" />
+<img alt="Hosting n8n dengan Docker dan NGINX" src="{{ '/assets/images/posts/2025-12-08-panduan-praktis-hosting-n8n-dengan-docker-dan-nginx-di-vps-1.png' | relative_url }}" />
 </a>
 </div><br /><br />
 <h2>Mengelola Hosting n8n dengan RunCloud, Docker, dan NGINX Secara Mudah</h2>

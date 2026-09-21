@@ -11,7 +11,7 @@ tags:
   - "kecerdasan-buatan"
 excerpt: "Cara Membuat Produk Dapat Dibaca Mesin untuk Pencarian AI Multimodal Pentingnya Visual dalam Berbelanja Belanja online saat ini semakin berorientasi pada visual. Gam"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/cara-membuat-produk-anda-mudah-dibaca.html"
-image: /assets/images/og/2025-12-06-blogger-cara-membuat-produk-anda-mudah-dibaca-mesin-untuk-pencarian-ai-multimodal.png
+image: /assets/images/og/2025-12-06-cara-membuat-produk-anda-mudah-dibaca-mesin-untuk-pencarian-ai-multimodal.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

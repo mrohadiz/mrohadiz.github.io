@@ -13,7 +13,7 @@ tags:
   - "funnel-optimization"
 excerpt: "Evolusi Discovery Ads menjadi Demand Gen membuka babak baru penargetan audiens berbasis konten visual di ekosistem Google. Analisis framework strategis kapan dan bagaimana mengalokasikan anggaran untuk mid-funnel."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-demand-gen-campaigns-when-to-use.html"
-image: /assets/images/og/2025-12-02-blogger-google-demand-gen-campaigns-when-to-use.png
+image: /assets/images/og/2025-12-02-google-demand-gen-campaigns-when-to-use.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

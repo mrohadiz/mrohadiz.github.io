@@ -9,7 +9,7 @@ tags:
   - "case-study"
   - "devops"
   - "server-optimization"
-image: "/assets/images/blogger/2025-12-06-blogger-17-juta-traffic-per-bulan-cpu-santai-25-begini-cara-saya-merawat-server-edu-tech-tanpa-upgrade-mahal-1.png"
+image: "/assets/images/posts/2025-12-06-17-juta-traffic-per-bulan-cpu-santai-25-begini-cara-saya-merawat-server-edu-tech-tanpa-upgrade-mahal-1.png"
 excerpt: "17 Juta Traffic per Bulan, CPU Santai 25%: Begini Cara Saya Merawat Server Edu-Tech Melalui Optimasi Konfigurasi Sistem yang Ada Hari ini saya melakukan maintenance"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/17-juta-traffic-per-bulan-cpu-santai-25.html"
 ---
@@ -20,7 +20,7 @@ migrated_from: "https://www.mrohadiz.my.id/2025/12/17-juta-traffic-per-bulan-cpu
 <!-- USULAN_JUDUL_2: 17 Juta Traffic per Bulan, CPU 25%: Optimasi Tanpa Upgrade -->
 <!-- USULAN_JUDUL_3: Merawat Server Edu-Tech dengan Optimasi Sistem -->
 
-<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZsaYaSilLyh25a1UeyPz85mEa8_BA7dSNbRtcDhf8b6VpW344WQn2utEQ170xNSUevnD9FcjQzuWh1xAKoT6DNPTdvTdKV5cJYj7sp_2eJfR_NY5JMXt0rATWw0d7tKJ2ov13xRKjkjfwqyFj7bY98ErheZB15E-ZeRXbkon14D686gdwU1T0X4fJ5qTg/s1536/ChatGPT%20Image%20Dec%206,%202025,%2005_29_10%20PM.png"><img src="{{ '/assets/images/blogger/2025-12-06-blogger-17-juta-traffic-per-bulan-cpu-santai-25-begini-cara-saya-merawat-server-edu-tech-tanpa-upgrade-mahal-1.png' | relative_url }}" alt="Server Edu-Tech Maintenance" /></a></div><br /><br /><h2>17 Juta Traffic per Bulan, CPU Santai 25%: Begini Cara Saya Merawat Server Edu-Tech Melalui Optimasi Konfigurasi Sistem yang Ada</h2>
+<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZsaYaSilLyh25a1UeyPz85mEa8_BA7dSNbRtcDhf8b6VpW344WQn2utEQ170xNSUevnD9FcjQzuWh1xAKoT6DNPTdvTdKV5cJYj7sp_2eJfR_NY5JMXt0rATWw0d7tKJ2ov13xRKjkjfwqyFj7bY98ErheZB15E-ZeRXbkon14D686gdwU1T0X4fJ5qTg/s1536/ChatGPT%20Image%20Dec%206,%202025,%2005_29_10%20PM.png"><img src="{{ '/assets/images/posts/2025-12-06-17-juta-traffic-per-bulan-cpu-santai-25-begini-cara-saya-merawat-server-edu-tech-tanpa-upgrade-mahal-1.png' | relative_url }}" alt="Server Edu-Tech Maintenance" /></a></div><br /><br /><h2>17 Juta Traffic per Bulan, CPU Santai 25%: Begini Cara Saya Merawat Server Edu-Tech Melalui Optimasi Konfigurasi Sistem yang Ada</h2>
 
 <p>Hari ini saya melakukan maintenance rutin pada <b>Server Edu-Tech Nasional</b> yang telah beroperasi (uptime) selama 77 hari tanpa restart. Dalam sebulan terakhir, server ini menerima lebih dari <b>17 juta request</b>, dengan tiga aplikasi utama menyumbang mayoritas trafik.</p>
 

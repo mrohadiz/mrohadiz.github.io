@@ -11,7 +11,7 @@ tags:
   - "seo"
 excerpt: "Mengapa Teknik Semantik Lanjutan Masih Penting dalam PPC dan SEO Di era digital saat ini, pemanfaatan AI untuk menghasilkan kata kunci dan menyusun kampanye pencaria"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengapa-teknik-semantik-lanjutan.html"
-image: /assets/images/og/2025-12-05-blogger-mengapa-teknik-semantik-lanjutan-penting-dalam-ppc-dan-seo.png
+image: /assets/images/og/2025-12-05-mengapa-teknik-semantik-lanjutan-penting-dalam-ppc-dan-seo.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

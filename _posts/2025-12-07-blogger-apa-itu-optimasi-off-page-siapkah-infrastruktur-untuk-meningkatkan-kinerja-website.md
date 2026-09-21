@@ -12,7 +12,7 @@ tags:
   - "teknik"
 excerpt: "Optimasi off-page berfokus pada peningkatan kinerja website dan reputasi brand melalui pendekatan teknis yang tepat. 🌐 Evolusi Off-Page: Lebih dari Sekadar Backlink"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/apa-itu-optimasi-off-page-siapkah.html"
-image: /assets/images/og/2025-12-07-blogger-apa-itu-optimasi-off-page-siapkah-infrastruktur-untuk-meningkatkan-kinerja-website.png
+image: /assets/images/og/2025-12-07-apa-itu-optimasi-off-page-siapkah-infrastruktur-untuk-meningkatkan-kinerja-website.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

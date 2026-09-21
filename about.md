@@ -2,37 +2,37 @@
 layout: page
 title: About
 description: >-
-  M. Rohadiz adalah Software Architect dengan fokus pada AI Engineering, Decision Intelligence,
-  Infrastructure, dan Software Architecture. Digital Garden ini mendokumentasikan observasi,
-  framework, dan sistem yang dibangun untuk membantu pengambilan keputusan berbasis data.
+  M. Rohadiz adalah Software Architect. Situs ini mendokumentasikan observasi
+  tentang bagaimana sistem, data, dan keputusan saling memengaruhi — dan
+  bagaimana mengambil keputusan yang lebih baik.
 badge: About
 badge-class: badge-primary
 permalink: /about/
 ---
 
-Saya adalah **M. Rohadiz**, seorang **Software Architect** yang berfokus pada pembangunan sistem **Decision Intelligence** dan **AI Engineering** — dua domain yang saya yakini akan mendefinisikan cara manusia dan mesin berkolaborasi dalam pengambilan keputusan.
+Saya **M. Rohadiz**, seorang **Software Architect**. Sebagian besar pekerjaan saya adalah merancang sistem teknis yang membantu orang mengambil keputusan dengan lebih baik — dari cara data dikumpulkan, bagaimana disajikan, sampai bagaimana keputusan dipertanggungjawabkan.
 
-Digital Garden ini adalah tempat saya mendokumentasikan proses berpikir, eksperimen sistem, dan observasi dari berbagai domain yang saling terhubung.
+Situs ini adalah tempat saya mencatat observasi: proses berpikir, eksperimen sistem, dan hal-hal yang sering disalahpahami ketika sistem, data, dan keputusan bertemu.
 
 ## Fokus Utama
 
-Saya percaya bahwa keputusan yang baik lahir dari **observasi yang baik**. Setiap sistem yang saya bangun berangkat dari pertanyaan: *"Bagaimana kita bisa melihat realitas dengan lebih akurat?"*
+Saya percaya keputusan yang baik lahir dari **observasi yang baik**. Setiap sistem yang saya bangun berangkat dari satu pertanyaan: *"Bagaimana kita bisa melihat realitas dengan lebih akurat?"*
 
 ### AI Engineering
-Membangun sistem AI yang production-ready — dari model training hingga deployment. Fokus pada **LLM integration**, **reasoning engines**, dan **AI infrastructure**. Saya tertarik pada bagaimana AI dapat memperkuat kemampuan manusia dalam memproses informasi kompleks.
+Membangun sistem AI yang bisa dipakai di produksi — dari model hingga deployment. Fokus pada integrasi LLM, reasoning, dan infrastruktur AI. Tujuannya sederhana: AI yang memperkuat keputusan manusia, bukan sekadar teknologi yang keren di demo.
 
 ### Decision Intelligence
-**Decision Systems** adalah inti dari semua yang saya bangun. Framework pengambilan keputusan berbasis data — menggabungkan quantitative analysis dengan qualitative judgment untuk menghasilkan keputusan yang lebih robust, transparan, dan dapat dipertanggungjawabkan.
-
-### Infrastructure & Observability
-**Cloud architecture**, **DevOps practices**, **containerization**, dan **scalability engineering**. Saya percaya bahwa sistem yang baik adalah sistem yang *observable* — yang dapat didiagnosis ketika bermasalah dan dipahami ketika berjalan normal.
+Inti dari semua yang saya bangun: bagaimana keputusan dibuat, diukur, dan dipertanggungjawabkan. Menggabungkan analisis kuantitatif dengan pertimbangan kualitatif agar keputusan lebih kuat, transparan, dan bisa dijelaskan kembali.
 
 ### Software Architecture
-**System design**, **microservices**, **event-driven architecture**, dan architectural decision making. Menulis tentang bagaimana membangun sistem yang maintainable, extensible, dan survive the test of time.
+Struktur sistem menentukan seberapa cepat tim bekerja dan seberapa mahal perubahan ke depannya. Saya menulis tentang boundary, trade-off, dan alasan di balik keputusan arsitektur — bukan sekadar pola yang sedang tren.
+
+### Infrastructure & Observability
+Sistem yang baik adalah sistem yang bisa didiagnosis ketika bermasalah dan dipahami ketika berjalan normal. Catatan tentang cloud, deployment, dan operasional yang bisa diandalkan.
 
 ## Pendekatan
 
-Saya menulis seperti sedang berbicara dengan versi saya sendiri 6 bulan yang lalu. Setiap catatan adalah dokumentasi dari proses belajar, debugging, dan discovery. **Knowledge Management** bukan sekadar arsip — ini adalah sistem berpikir yang terus berkembang.
+Saya menulis seperti sedang berbicara dengan versi diri saya enam bulan lalu: dokumentasi proses belajar, debugging, dan discovery. Catatan di sini bukan arsip — ini sistem berpikir yang terus berkembang.
 
 > "The best code is no code at all. The best system is the one you understand."
 

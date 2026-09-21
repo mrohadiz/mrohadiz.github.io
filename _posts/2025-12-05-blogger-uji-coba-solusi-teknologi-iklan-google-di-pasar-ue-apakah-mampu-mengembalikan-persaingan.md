@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "Perbaikan Teknologi Iklan Google Menghadapi Uji Pasar Uni Eropa Perbaikan Teknologi Iklan Google Menghadapi Uji Pasar Uni Eropa Komisi Eropa saat ini meminta masukan"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/uji-coba-solusi-teknologi-iklan-google.html"
-image: /assets/images/og/2025-12-05-blogger-uji-coba-solusi-teknologi-iklan-google-di-pasar-ue-apakah-mampu-mengembalikan-persaingan.png
+image: /assets/images/og/2025-12-05-uji-coba-solusi-teknologi-iklan-google-di-pasar-ue-apakah-mampu-mengembalikan-persaingan.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -8,7 +8,7 @@ categories:
 tags:
 excerpt: "Temukan dampak transformatif dari kecerdasan buatan pada lanskap digital marketing. Kemunculan AI dalam Digital Marketing Kecerdasan buatan (AI) kini menjadi kekuata"
 migrated_from: "https://www.mrohadiz.my.id/2024/03/how-artificial-intelligence-is-shaping.html"
-image: /assets/images/og/2024-03-16-blogger-how-artificial-intelligence-is-shaping-digital-marketing.png
+image: /assets/images/og/2024-03-16-how-artificial-intelligence-is-shaping-digital-marketing.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

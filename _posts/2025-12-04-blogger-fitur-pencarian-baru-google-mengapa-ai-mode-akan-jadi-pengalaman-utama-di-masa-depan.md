@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "Fitur Unggah di Pencarian Halaman Utama Google Menuju Mode AI Google telah memperbarui bilah pencarian di halaman utama mereka dengan menambahkan fitur unggah file a"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/fitur-pencarian-baru-google-mengapa-ai.html"
-image: /assets/images/og/2025-12-04-blogger-fitur-pencarian-baru-google-mengapa-ai-mode-akan-jadi-pengalaman-utama-di-masa-depan.png
+image: /assets/images/og/2025-12-04-fitur-pencarian-baru-google-mengapa-ai-mode-akan-jadi-pengalaman-utama-di-masa-depan.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

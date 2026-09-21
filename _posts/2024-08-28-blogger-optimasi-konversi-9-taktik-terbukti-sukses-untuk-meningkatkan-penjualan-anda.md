@@ -9,7 +9,7 @@ tags:
   - "conversion-rate-optimization"
   - "cro"
   - "seo"
-image: "/assets/images/blogger/2024-08-28-blogger-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png"
+image: "/assets/images/posts/2024-08-28-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png"
 excerpt: "Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda Di era digital yang kompetitif ini, memiliki website yang menarik dan informatif saja t"
 migrated_from: "https://www.mrohadiz.my.id/2024/08/optimasi-konversi-9-taktik-terbukti.html"
 ---
@@ -20,8 +20,8 @@ migrated_from: "https://www.mrohadiz.my.id/2024/08/optimasi-konversi-9-taktik-te
 <h2>Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda</h2>
 <p>Di era digital yang kompetitif ini, memiliki website yang menarik dan informatif saja tidak cukup. Kita juga perlu memaksimalkan konversi, yaitu mengubah pengunjung website menjadi pelanggan setia.</p>
 <div class="separator">
-<a href="{{ '/assets/images/blogger/2024-08-28-blogger-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png' | relative_url }}">
-<img alt="Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda" src="{{ '/assets/images/blogger/2024-08-28-blogger-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png' | relative_url }}" title="Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda" />
+<a href="{{ '/assets/images/posts/2024-08-28-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png' | relative_url }}">
+<img alt="Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda" src="{{ '/assets/images/posts/2024-08-28-optimasi-konversi-9-taktik-terbukti-sukses-untuk-meningkatkan-penjualan-anda-1.png' | relative_url }}" title="Optimasi Konversi: 9 Taktik Terbukti Sukses untuk Meningkatkan Penjualan Anda" />
 </a>
 </div>
 <p>Memperoleh banyak pengunjung website adalah langkah awal, namun yang lebih penting adalah bagaimana kita mengarahkan mereka untuk melakukan tindakan yang kita inginkan, seperti membeli produk, mendaftar newsletter, atau mengisi formulir kontak. Di sinilah optimasi konversi berperan penting.</p>

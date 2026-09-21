@@ -11,7 +11,7 @@ tags:
   - "keamanan-digital"
 excerpt: "Serangan Phishing pada Google Ads MCC Meningkat – Begini Cara Kerja Penipuan Ini Peningkatan Serangan Phishing yang Canggih Serangan phishing kini semakin canggih, m"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/meningkatnya-serangan-phishing-pada.html"
-image: /assets/images/og/2025-12-06-blogger-meningkatnya-serangan-phishing-pada-google-ads-mcc-cara-kerja-dan-langkah-langkah-antisipasi.png
+image: /assets/images/og/2025-12-06-meningkatnya-serangan-phishing-pada-google-ads-mcc-cara-kerja-dan-langkah-langkah-antisipasi.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

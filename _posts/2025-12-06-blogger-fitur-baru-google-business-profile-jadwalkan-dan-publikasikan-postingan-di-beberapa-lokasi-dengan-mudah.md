@@ -11,7 +11,7 @@ tags:
   - "manajemen-bisnis"
 excerpt: "Profil Bisnis Google: Fitur Penjadwalan dan Publikasi Multi-Lokasi yang Memudahkan Google Posts kini dilengkapi dengan fitur penjadwalan dan publikasi multi-lokasi d"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/fitur-baru-google-business-profile.html"
-image: /assets/images/og/2025-12-06-blogger-fitur-baru-google-business-profile-jadwalkan-dan-publikasikan-postingan-di-beberapa-lokasi-dengan-mudah.png
+image: /assets/images/og/2025-12-06-fitur-baru-google-business-profile-jadwalkan-dan-publikasikan-postingan-di-beberapa-lokasi-dengan-mudah.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

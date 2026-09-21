@@ -11,7 +11,7 @@ tags:
   - "teknologi"
 excerpt: "Google Daily Hub: Sistem Ambisius yang Membentuk Masa Depan Pencarian Google Daily Hub merupakan sistem pencarian yang kompleks dan cerdas, berfokus pada hiper-perso"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-daily-hub-tantangan-dan.html"
-image: /assets/images/og/2025-12-04-blogger-google-daily-hub-tantangan-dan-kompleksitas-sistem-masa-depan-pencarian.png
+image: /assets/images/og/2025-12-04-google-daily-hub-tantangan-dan-kompleksitas-sistem-masa-depan-pencarian.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

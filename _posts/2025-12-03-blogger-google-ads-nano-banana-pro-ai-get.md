@@ -13,7 +13,7 @@ tags:
   - "real-time-bidding"
 excerpt: "Dalam ekosistem Real-Time Bidding (RTB), setiap milidetik menentukan kemenangan lelang. Analisis perbandingan model AI berbobot kecil (SLM) dan model besar (LLM) dalam alokasi iklan terautomasi."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-ads-nano-banana-pro-ai-get.html"
-image: /assets/images/og/2025-12-03-blogger-google-ads-nano-banana-pro-ai-get.png
+image: /assets/images/og/2025-12-03-google-ads-nano-banana-pro-ai-get.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

@@ -11,7 +11,7 @@ tags:
   - "seo"
 excerpt: "Canonicalization dan SEO: Panduan untuk 2026 Canonicalization adalah elemen penting dalam SEO yang berfungsi untuk mengatasi konten duplikat, terutama di era AI. Sec"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/panduan-canonicalization-untuk-seo.html"
-image: /assets/images/og/2025-12-06-blogger-panduan-canonicalization-untuk-seo-mengatasi-konten-duplikat-di-2026.png
+image: /assets/images/og/2025-12-06-panduan-canonicalization-untuk-seo-mengatasi-konten-duplikat-di-2026.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

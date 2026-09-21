@@ -12,7 +12,7 @@ tags:
   - "teknis"
 excerpt: "Nils Rooijmans: Mengapa Mengabaikan Email Google Bisa Merugikan Performa Sistem Anda Pentingnya memperhatikan email dari Google dalam konteks performa sistem dan kam"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/nils-rooijmans-berbicara-tentang-kapan.html"
-image: /assets/images/og/2025-12-06-blogger-nils-rooijmans-berbicara-tentang-kapan-mengabaikan-email-google-dapat-merugikan-performa-sistem-anda.png
+image: /assets/images/og/2025-12-06-nils-rooijmans-berbicara-tentang-kapan-mengabaikan-email-google-dapat-merugikan-performa-sistem-anda.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -11,7 +11,7 @@ tags:
   - "teknologi-ai"
 excerpt: "Strategi Cerdas Mengelola Anggaran Media Berbayar di Era AI Mengelola anggaran di berbagai saluran media berbayar merupakan keterampilan penting bagi pemasar PPC. Pr"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/cara-cerdas-merencanakan-dan-mengelola.html"
-image: /assets/images/og/2025-12-04-blogger-cara-cerdas-merencanakan-dan-mengelola-anggaran-media-berbayar-di-era-ai.png
+image: /assets/images/og/2025-12-04-cara-cerdas-merencanakan-dan-mengelola-anggaran-media-berbayar-di-era-ai.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

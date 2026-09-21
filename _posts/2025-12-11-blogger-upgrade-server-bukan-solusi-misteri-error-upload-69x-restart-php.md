@@ -12,7 +12,7 @@ tags:
   - "server-audit"
   - "studi-kasus"
   - "troubleshooting"
-image: "/assets/images/blogger/2025-12-11-blogger-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png"
+image: "/assets/images/posts/2025-12-11-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png"
 excerpt: "Anda mengelola Platform Layanan Kesehatan Digital dengan ribuan pengguna aktif. Tim marketing sedang beriklan, namun fitur penting—upload gambar/dokumen—mengalami ga"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/upgrade-server-bukan-solusi-misteri.html"
 ---
@@ -30,8 +30,8 @@ USULAN_JUDUL_3: Diagnosa Error Upload di Server
 <p>Anda mengelola <strong>Platform Layanan Kesehatan Digital</strong> dengan ribuan pengguna aktif. Tim marketing sedang beriklan, namun fitur penting—upload gambar/dokumen—mengalami gangguan.</p>
 
 <div class="separator">
-<a href="{{ '/assets/images/blogger/2025-12-11-blogger-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png' | relative_url }}">
-<img alt="Grafik Error Upload" src="{{ '/assets/images/blogger/2025-12-11-blogger-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png' | relative_url }}" />
+<a href="{{ '/assets/images/posts/2025-12-11-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png' | relative_url }}">
+<img alt="Grafik Error Upload" src="{{ '/assets/images/posts/2025-12-11-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-1.png' | relative_url }}" />
 </a>
 </div>
 
@@ -46,8 +46,8 @@ USULAN_JUDUL_3: Diagnosa Error Upload di Server
 <p>Berikut penjelasannya.</p>
 
 <div class="separator">
-<a href="{{ '/assets/images/blogger/2025-12-11-blogger-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-2.png' | relative_url }}">
-<img alt="Log Analisis" src="{{ '/assets/images/blogger/2025-12-11-blogger-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-2.png' | relative_url }}" />
+<a href="{{ '/assets/images/posts/2025-12-11-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-2.png' | relative_url }}">
+<img alt="Log Analisis" src="{{ '/assets/images/posts/2025-12-11-upgrade-server-bukan-solusi-misteri-error-upload-69x-restart-php-2.png' | relative_url }}" />
 </a>
 </div>
 

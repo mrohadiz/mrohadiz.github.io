@@ -11,7 +11,7 @@ tags:
   - "seo"
 excerpt: "Melampaui Visibilitas SERP: 7 Kriteria Sukses untuk Pencarian Organik di 2026 Mendapatkan peringkat No. 1 tetap menjadi tujuan utama, namun saat ini, banyak profesio"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengoptimalkan-pencarian-organik-7.html"
-image: /assets/images/og/2025-12-05-blogger-mengoptimalkan-pencarian-organik-7-kriteria-sukses-di-era-ai-2026.png
+image: /assets/images/og/2025-12-05-mengoptimalkan-pencarian-organik-7-kriteria-sukses-di-era-ai-2026.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

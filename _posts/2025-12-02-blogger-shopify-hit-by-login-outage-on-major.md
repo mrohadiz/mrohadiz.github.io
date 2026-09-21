@@ -13,7 +13,7 @@ tags:
   - "e-commerce"
 excerpt: "Ketika layer autentikasi terpusat lumpuh saat peak season e-commerce, seluruh funnel transaksi terhenti. Bedah prinsip arsitektur decoupled authentication, stateless token failover, dan isolasi kegagalan sistem terdistribusi."
 migrated_from: "https://www.mrohadiz.my.id/2025/12/shopify-hit-by-login-outage-on-major.html"
-image: /assets/images/og/2025-12-02-blogger-shopify-hit-by-login-outage-on-major.png
+image: /assets/images/og/2025-12-02-shopify-hit-by-login-outage-on-major.png
 ---
 
 <!-- Migrated from Blogger; rewritten as an evergreen architectural analysis for the digital garden. -->

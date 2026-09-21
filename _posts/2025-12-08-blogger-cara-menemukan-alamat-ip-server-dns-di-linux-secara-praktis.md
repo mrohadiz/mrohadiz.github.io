@@ -11,7 +11,7 @@ tags:
   - "server-management"
 excerpt: "Cara Mudah Menemukan Alamat IP Server DNS di Linux DNS berfungsi untuk menerjemahkan nama domain ke alamat IP, memungkinkan sistem terhubung dengan benar. Artikel in"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/cara-menemukan-alamat-ip-server-dns-di.html"
-image: /assets/images/og/2025-12-08-blogger-cara-menemukan-alamat-ip-server-dns-di-linux-secara-praktis.png
+image: /assets/images/og/2025-12-08-cara-menemukan-alamat-ip-server-dns-di-linux-secara-praktis.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -9,7 +9,7 @@ tags:
   - "case-study"
   - "devops"
   - "server-audit"
-image: "/assets/images/blogger/2026-01-06-blogger-mengapa-cpu-8-bukan-berarti-server-anda-benar-benar-aman-1.png"
+image: "/assets/images/posts/2026-01-06-mengapa-cpu-8-bukan-berarti-server-anda-benar-benar-aman-1.png"
 excerpt: "Pada hari ini, saya melakukan audit rutin pada salah satu Server-Prod-01 berbasis Ubuntu 24.04.3 LTS . Server ini merupakan Dell PowerEdge R620 dengan 40 logical cor"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/mengapa-cpu-8-bukan-berarti-server-anda.html"
 ---
@@ -26,7 +26,7 @@ USULAN_JUDUL_3: CPU 8%: Keamanan Server yang Menyimpan Ancaman
 <p>Pada hari ini, saya melakukan audit rutin pada salah satu <strong>Server-Prod-01</strong> berbasis <a href="https://ubuntu.com/" rel="nofollow" target="_blank">Ubuntu 24.04.3 LTS</a>. Server ini merupakan <strong>Dell PowerEdge R620</strong> dengan 40 <em>logical cores</em>. Infrastruktur ini mampu mengelola lebih dari <strong>4,2 juta request</strong> dalam 30 hari terakhir, dengan penggunaan CPU rata-rata hanya <strong>7,99%</strong>.</p>
 
 <div class="separator">
-<img alt="Grafik Monitoring Performa Server Dell PowerEdge R620 - CPU Usage 8%" loading="lazy" src="{{ '/assets/images/blogger/2026-01-06-blogger-mengapa-cpu-8-bukan-berarti-server-anda-benar-benar-aman-1.png' | relative_url }}" />
+<img alt="Grafik Monitoring Performa Server Dell PowerEdge R620 - CPU Usage 8%" loading="lazy" src="{{ '/assets/images/posts/2026-01-06-mengapa-cpu-8-bukan-berarti-server-anda-benar-benar-aman-1.png' | relative_url }}" />
 </div>
 
 <p>Namun, di balik angka efisiensi tersebut, ditemukan anomali serius. Setelah melakukan <em>deep-dive</em> pada log sistem, saya menemukan bahwa server ini telah menjadi "inang" bagi malware terenkripsi yang telah aktif selama hampir 1,5 tahun.</p>

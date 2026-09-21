@@ -7,7 +7,7 @@ categories:
   - "Infrastructure"
 tags:
   - "web-security"
-image: "/assets/images/blogger/2025-02-21-blogger-website-lo-diretas-jangan-sampai-ini-cara-jaga-keamanan-situs-biar-aman-anti-bocor-1.webp"
+image: "/assets/images/posts/2025-02-21-website-lo-diretas-jangan-sampai-ini-cara-jaga-keamanan-situs-biar-aman-anti-bocor-1.webp"
 excerpt: "🔥 Website Lo Diretas? Jangan Sampai! Ini Cara Jaga Keamanan Situs Biar Aman & Anti Bocor Lo udah kunci rumah pake CCTV dan pagar tinggi, tapi website bisnis lo masih"
 migrated_from: "https://www.mrohadiz.my.id/2025/02/website-lo-diretas-jangan-sampai-ini.html"
 ---
@@ -18,7 +18,7 @@ migrated_from: "https://www.mrohadiz.my.id/2025/02/website-lo-diretas-jangan-sam
 <h2>🔥 Website Lo Diretas? Jangan Sampai! Ini Cara Jaga Keamanan Situs Biar Aman & Anti Bocor</h2>
 <div class="separator">
 <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge1-EsGK82d4zATZLB1khSpUHiEoiGqaTllyCeCLebKBpDmCsMe3fvFB88JtcI8dHHqSI1ToO-fnKLzaO4DH6oGgZsaJA9c80NCYWxnH8WtqdziFftqtgRTmFBl9SEv_1AFLVzaNAxDP8QEJ_RWBEIFVqykhlfmM3Q0fUQf4zJGN23zMgDGuyX2RiyPMKu/s1024/mrohadizakaria-web-security.webp">
-<img alt="" src="{{ '/assets/images/blogger/2025-02-21-blogger-website-lo-diretas-jangan-sampai-ini-cara-jaga-keamanan-situs-biar-aman-anti-bocor-1.webp' | relative_url }}" />
+<img alt="" src="{{ '/assets/images/posts/2025-02-21-website-lo-diretas-jangan-sampai-ini-cara-jaga-keamanan-situs-biar-aman-anti-bocor-1.webp' | relative_url }}" />
 </a>
 </div>
 <p>Lo udah kunci rumah pake CCTV dan pagar tinggi, tapi website bisnis lo masih <em>terbuka</em> buat peretas? Gak mau kan data pelanggan lo bocor atau situs tiba-tiba <em>down</em>? Simpan panduan ini biar website lo jadi benteng anti serangan!</p>

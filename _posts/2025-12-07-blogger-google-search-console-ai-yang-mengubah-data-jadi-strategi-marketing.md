@@ -12,7 +12,7 @@ tags:
   - "teknis"
 excerpt: "Google Search Console: AI yang Mengubah Data Jadi Strategi Marketing Di era digital yang serba cepat ini, memahami performa website di mesin pencari adalah kunci unt"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-search-console-ai-yang-mengubah.html"
-image: /assets/images/og/2025-12-07-blogger-google-search-console-ai-yang-mengubah-data-jadi-strategi-marketing.png
+image: /assets/images/og/2025-12-07-google-search-console-ai-yang-mengubah-data-jadi-strategi-marketing.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

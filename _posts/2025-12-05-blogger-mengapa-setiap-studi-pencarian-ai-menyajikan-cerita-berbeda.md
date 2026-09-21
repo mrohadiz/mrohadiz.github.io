@@ -11,7 +11,7 @@ tags:
   - "seo"
 excerpt: "Mengapa Setiap Studi Pencarian AI Menghadirkan Cerita yang Berbeda Beberapa platform SEO terkemuka seperti Ahrefs dan Semrush, bersama dengan agensi seperti Seer Int"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/mengapa-setiap-studi-pencarian-ai.html"
-image: /assets/images/og/2025-12-05-blogger-mengapa-setiap-studi-pencarian-ai-menyajikan-cerita-berbeda.png
+image: /assets/images/og/2025-12-05-mengapa-setiap-studi-pencarian-ai-menyajikan-cerita-berbeda.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

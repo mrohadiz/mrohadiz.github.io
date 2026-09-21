@@ -11,7 +11,7 @@ tags:
   - "iklan"
 excerpt: "Black Friday 2025: Biaya Iklan Meningkat, Namun Tetap Menarik Black Friday 2025 menjadi momen yang cukup membingungkan. Setiap tahun, pengeluaran iklan meningkat, te"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/black-friday-2025-meningkatnya-biaya.html"
-image: /assets/images/og/2025-12-03-blogger-black-friday-2025-meningkatnya-biaya-iklan-dan-pentingnya-optimasi-pasca-klik.png
+image: /assets/images/og/2025-12-03-black-friday-2025-meningkatnya-biaya-iklan-dan-pentingnya-optimasi-pasca-klik.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

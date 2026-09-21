@@ -10,7 +10,7 @@ tags:
   - "iklan"
 excerpt: "OpenAI Menangguhkan Iklan ChatGPT Setelah CEO Menyatakan 'Kode Merah' CEO OpenAI, Sam Altman, mengeluarkan pernyataan \"kode merah\" untuk meningkatkan ChatGPT. Langka"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/openai-menangguhkan-iklan-chatgpt.html"
-image: /assets/images/og/2025-12-03-blogger-openai-menangguhkan-iklan-chatgpt-setelah-ceo-menyatakan-kode-merah.png
+image: /assets/images/og/2025-12-03-openai-menangguhkan-iklan-chatgpt-setelah-ceo-menyatakan-kode-merah.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

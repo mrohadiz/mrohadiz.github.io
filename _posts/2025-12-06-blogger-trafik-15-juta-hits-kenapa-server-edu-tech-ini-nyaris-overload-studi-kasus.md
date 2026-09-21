@@ -9,7 +9,7 @@ tags:
   - "case-study"
   - "devops"
   - "server-optimization"
-image: "/assets/images/blogger/2025-12-06-blogger-trafik-15-juta-hits-kenapa-server-edu-tech-ini-nyaris-overload-studi-kasus-1.png"
+image: "/assets/images/posts/2025-12-06-trafik-15-juta-hits-kenapa-server-edu-tech-ini-nyaris-overload-studi-kasus-1.png"
 excerpt: "Menghadapi skala trafik nasional memerlukan ketenangan dalam pengambilan keputusan teknis. Seringkali, solusi instan yang muncul saat performa menurun adalah melakuk"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/trafik-15-juta-hits-kenapa-server-edu.html"
 ---
@@ -23,7 +23,7 @@ USULAN_JUDUL_3: Stabilitas Server Edu-Tech di Tengah Lalu Lintas Tinggi
 -->
 
 <p>Menghadapi skala trafik nasional memerlukan ketenangan dalam pengambilan keputusan teknis. Seringkali, solusi instan yang muncul saat performa menurun adalah melakukan <i>upgrade hardware</i>. Namun, dalam praktik yang saya jalani, optimasi konfigurasi dan audit mendalam terhadap sistem yang ada merupakan langkah pertama yang jauh lebih efisien sebelum memutuskan untuk menambah biaya langganan server.</p>
-<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXUGLLGg-qaOEoTHW6yb8rcGRIOIsuI2NDn7M0x8J8IN2aWviC9HwG4uQl3pBYHnMzj_24zq_zQKqFro5IkFiHMuIMA4pj1P5OpvtLB8_P9URG5Nc6rWgbN2eObMzyj5Y-mNQYonJBEhINhr7SMhCXwTu8cCoxQUYWmCv4OHAmw20poLp5_og0-mMy2VDY/s1040/image.png"><img src="{{ '/assets/images/blogger/2025-12-06-blogger-trafik-15-juta-hits-kenapa-server-edu-tech-ini-nyaris-overload-studi-kasus-1.png' | relative_url }}" alt="Server Edu-Tech" /></a></div><br /><p><br /></p>
+<div class="separator"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXUGLLGg-qaOEoTHW6yb8rcGRIOIsuI2NDn7M0x8J8IN2aWviC9HwG4uQl3pBYHnMzj_24zq_zQKqFro5IkFiHMuIMA4pj1P5OpvtLB8_P9URG5Nc6rWgbN2eObMzyj5Y-mNQYonJBEhINhr7SMhCXwTu8cCoxQUYWmCv4OHAmw20poLp5_og0-mMy2VDY/s1040/image.png"><img src="{{ '/assets/images/posts/2025-12-06-trafik-15-juta-hits-kenapa-server-edu-tech-ini-nyaris-overload-studi-kasus-1.png' | relative_url }}" alt="Server Edu-Tech" /></a></div><br /><p><br /></p>
 
 <p>Baru-baru ini, saya melakukan audit dan pemeliharaan pada sebuah infrastruktur platform <i>Edu-Tech</i>. Trafik yang tinggi, penggunaan memori yang mulai kritis, dan laporan kegagalan pada fungsi-fungsi penting di sisi pengguna menjadi fokus utama.</p>
 

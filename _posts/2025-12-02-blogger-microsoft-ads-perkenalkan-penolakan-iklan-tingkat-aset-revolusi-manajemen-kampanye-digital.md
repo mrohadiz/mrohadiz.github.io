@@ -13,7 +13,7 @@ tags:
   - "microsoft-ads"
 excerpt: "Microsoft Ads Perkenalkan Penolakan Iklan Tingkat Aset: Revolusi Manajemen Kampanye Digital Dalam dunia pemasaran digital yang terus berubah, efisiensi dan transpara"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/optimize-your-gadget-campaigns.html"
-image: /assets/images/og/2025-12-02-blogger-microsoft-ads-perkenalkan-penolakan-iklan-tingkat-aset-revolusi-manajemen-kampanye-digital.png
+image: /assets/images/og/2025-12-02-microsoft-ads-perkenalkan-penolakan-iklan-tingkat-aset-revolusi-manajemen-kampanye-digital.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -11,7 +11,7 @@ tags:
   - "iklan-online"
 excerpt: "Google Memperluas Segmen Kustom untuk Kampanye Display Terbatas Pada tanggal 12 Desember, Google memperbarui kebijakan Iklan Pribadi mereka, memberikan akses ke Segm"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/perluasan-segmen-kustom-google-apa-arti.html"
-image: /assets/images/og/2025-12-05-blogger-perluasan-segmen-kustom-google-apa-arti-pembaruan-ini-untuk-kampanye-iklan-anda.png
+image: /assets/images/og/2025-12-05-perluasan-segmen-kustom-google-apa-arti-pembaruan-ini-untuk-kampanye-iklan-anda.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

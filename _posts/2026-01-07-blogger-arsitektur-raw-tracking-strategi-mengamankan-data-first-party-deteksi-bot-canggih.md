@@ -8,7 +8,7 @@ categories:
 tags:
   - "data-analytics"
   - "infrastruktur"
-image: "/assets/images/blogger/2026-01-07-blogger-arsitektur-raw-tracking-strategi-mengamankan-data-first-party-deteksi-bot-canggih-1.png"
+image: "/assets/images/posts/2026-01-07-arsitektur-raw-tracking-strategi-mengamankan-data-first-party-deteksi-bot-canggih-1.png"
 excerpt: "Arsitektur Raw Tracking: Strategi Mengamankan Data First-Party & Deteksi Bot Canggih Dalam proyek yang saya tangani untuk klien di sektor Edukasi Digital dengan traf"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/arsitektur-raw-tracking-strategi.html"
 ---
@@ -25,7 +25,7 @@ migrated_from: "https://www.mrohadiz.my.id/2026/01/arsitektur-raw-tracking-strat
 
 <div>
 <a href="https://blogger.googleusercontent.com/img/a/AVvXsEhHak2P5M-WaH270pIDhv8Ij2vY7tN3p945gd-phY1b2uR6L-nOm2X_RARfUJdPx1kk9XrYACIw2ir5XIA_P5waK7hduQsw4fXhken9oZw4Ypd_mnJVRaS7cCuQTREmeBgiqxLzWhjOwkE9PLRI_OpjlxZY4C-SVXKqNNDsPXy-S34rHit1WZTKJP4rwJ3e">
-<img alt="Arsitektur Raw Tracking" src="{{ '/assets/images/blogger/2026-01-07-blogger-arsitektur-raw-tracking-strategi-mengamankan-data-first-party-deteksi-bot-canggih-1.png' | relative_url }}" />
+<img alt="Arsitektur Raw Tracking" src="{{ '/assets/images/posts/2026-01-07-arsitektur-raw-tracking-strategi-mengamankan-data-first-party-deteksi-bot-canggih-1.png' | relative_url }}" />
 </a>
 </div>
 

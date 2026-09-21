@@ -11,7 +11,7 @@ tags:
   - "server-optimization"
 excerpt: "Studi Kasus Audit & Maintenance Server Linux: Menjaga Performa Stabil Melalui Optimasi Konfigurasi Sistem yang Ada Dalam studi kasus ini, saya membagikan proses audi"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/studi-kasus-audit-maintenance-server.html"
-image: /assets/images/og/2026-01-07-blogger-studi-kasus-audit-maintenance-server-linux-menjaga-performa-stabil-tanpa-upgrade-resource.png
+image: /assets/images/og/2026-01-07-studi-kasus-audit-maintenance-server-linux-menjaga-performa-stabil-tanpa-upgrade-resource.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

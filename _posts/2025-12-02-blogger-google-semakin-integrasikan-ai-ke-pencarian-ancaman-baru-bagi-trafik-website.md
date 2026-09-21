@@ -10,7 +10,7 @@ tags:
   - "seo"
 excerpt: "Google Uji Coba Integrasi AI ke Pencarian: Apa Dampaknya bagi Digital Marketing? Dunia digital terus bertransformasi, dan Google selalu menjadi pusat perubahan. Kaba"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-semakin-integrasikan-ai-ke.html"
-image: /assets/images/og/2025-12-02-blogger-google-semakin-integrasikan-ai-ke-pencarian-ancaman-baru-bagi-trafik-website.png
+image: /assets/images/og/2025-12-02-google-semakin-integrasikan-ai-ke-pencarian-ancaman-baru-bagi-trafik-website.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -126,6 +126,7 @@ def main():
     for filepath in files:
         filename = os.path.basename(filepath)
         slug = filename.replace('.md', '')
+        slug = re.sub(r'^(\d{4}-\d{2}-\d{2}-)blogger-', r'\1', slug)
         
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()

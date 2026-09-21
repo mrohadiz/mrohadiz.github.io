@@ -11,7 +11,7 @@ tags:
   - "targeting-pelanggan"
 excerpt: "Google Tingkatkan Targeting Siklus Hidup Pelanggan dengan Template Audiens Baru di GA Google telah meluncurkan inovasi dalam alat siklus hidup pelanggan di Google An"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/google-tawarkan-template-audiens-baru.html"
-image: /assets/images/og/2025-12-03-blogger-google-tawarkan-template-audiens-baru-untuk-targeting-pelanggan-dalam-lifecycle-marketing.png
+image: /assets/images/og/2025-12-03-google-tawarkan-template-audiens-baru-untuk-targeting-pelanggan-dalam-lifecycle-marketing.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

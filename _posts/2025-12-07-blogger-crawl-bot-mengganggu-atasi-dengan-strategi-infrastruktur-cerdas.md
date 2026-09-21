@@ -11,7 +11,7 @@ tags:
   - "server"
 excerpt: "Strategi AI Crawlers: Mengelola Visibilitas dan Beban Server Di dunia SEO, visibilitas untuk AI semakin krusial, terutama dengan meningkatnya penggunaan crawler AI u"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/crawl-bot-mengganggu-atasi-dengan.html"
-image: /assets/images/og/2025-12-07-blogger-crawl-bot-mengganggu-atasi-dengan-strategi-infrastruktur-cerdas.png
+image: /assets/images/og/2025-12-07-crawl-bot-mengganggu-atasi-dengan-strategi-infrastruktur-cerdas.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

@@ -9,7 +9,7 @@ tags:
   - "digital-analytics"
   - "growth-hacking"
   - "marketing-technology"
-image: "/assets/images/blogger/2026-01-10-blogger-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png"
+image: "/assets/images/posts/2026-01-10-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png"
 excerpt: "Pengantar: Saat Tracking Sudah Terpasang Tapi Tidak Pernah Hidup Dalam banyak proyek digital marketing, masalah terbesar bukan pada pilihan tools, melainkan pada bag"
 migrated_from: "https://www.mrohadiz.my.id/2026/01/membedah-kegagalan-sistem-tracking.html"
 ---
@@ -18,7 +18,7 @@ migrated_from: "https://www.mrohadiz.my.id/2026/01/membedah-kegagalan-sistem-tra
 <h2>Pengantar: Saat Tracking Sudah Terpasang Tapi Tidak Pernah Hidup</h2>
 <p>
 Dalam banyak proyek digital marketing, masalah terbesar bukan pada pilihan tools, melainkan pada bagaimana sistem tersebut dioperasionalkan. Saya sering menemukan kasus di mana tools tracking sudah terinstal, server sudah siap, blueprint data sudah ada, namun sistem tersebut tidak pernah benar-benar digunakan untuk pengambilan keputusan.
-</p><p></p><div class="separator"><a href="{{ '/assets/images/blogger/2026-01-10-blogger-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png' | relative_url }}"><img alt="" src="{{ '/assets/images/blogger/2026-01-10-blogger-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png' | relative_url }}" /></a></div><br /><br /><p></p>
+</p><p></p><div class="separator"><a href="{{ '/assets/images/posts/2026-01-10-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png' | relative_url }}"><img alt="" src="{{ '/assets/images/posts/2026-01-10-membedah-kegagalan-sistem-tracking-studi-kasus-pendampingan-1.png' | relative_url }}" /></a></div><br /><br /><p></p>
 <p>
 Artikel ini membedah satu studi kasus pendampingan sistem tracking digital marketing, dengan fokus pada analisa situasi tim marketing dan teknologi, bukan sekadar aspek teknis.
 </p>

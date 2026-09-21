@@ -11,7 +11,7 @@ tags:
   - "comparison"
 excerpt: "ChatGPT vs Gemini vs Claude: Pilih yang Tak Bikin Rugi! Dalam dunia marketing digital saat ini, keberadaan chatbot seperti ChatGPT, Gemini, dan Claude telah memicu p"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/chatgpt-vs-gemini-vs-claude-pilih-yang.html"
-image: /assets/images/og/2025-12-07-blogger-chatgpt-vs-gemini-vs-claude-pilih-yang-tak-bikin-rugi.png
+image: /assets/images/og/2025-12-07-chatgpt-vs-gemini-vs-claude-pilih-yang-tak-bikin-rugi.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

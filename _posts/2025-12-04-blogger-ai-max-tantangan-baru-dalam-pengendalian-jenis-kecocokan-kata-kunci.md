@@ -11,7 +11,7 @@ tags:
   - "iklan-online"
 excerpt: "AI Max: Mengubah Cara Kita Mengendalikan Pencocokan Kata Kunci Uji coba terbaru dari tim Adalysis menunjukkan bahwa pengaturan AI Max dari Google sedang mengubah car"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/ai-max-tantangan-baru-dalam.html"
-image: /assets/images/og/2025-12-04-blogger-ai-max-tantangan-baru-dalam-pengendalian-jenis-kecocokan-kata-kunci.png
+image: /assets/images/og/2025-12-04-ai-max-tantangan-baru-dalam-pengendalian-jenis-kecocokan-kata-kunci.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

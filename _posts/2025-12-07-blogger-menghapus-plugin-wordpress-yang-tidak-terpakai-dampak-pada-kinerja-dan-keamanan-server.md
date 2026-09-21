@@ -11,7 +11,7 @@ tags:
   - "wordpress"
 excerpt: "Mengelola Plugin WordPress untuk Performa Server Optimal Dalam pengelolaan server, plugin WordPress yang tidak terpakai sering kali terabaikan. Meskipun dinonaktifka"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/menghapus-plugin-wordpress-yang-tidak.html"
-image: /assets/images/og/2025-12-07-blogger-menghapus-plugin-wordpress-yang-tidak-terpakai-dampak-pada-kinerja-dan-keamanan-server.png
+image: /assets/images/og/2025-12-07-menghapus-plugin-wordpress-yang-tidak-terpakai-dampak-pada-kinerja-dan-keamanan-server.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->

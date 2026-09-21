@@ -13,7 +13,7 @@ tags:
   - "tools"
 excerpt: "Docker merupakan alat yang sangat berguna bagi pengguna yang baru menjelajahi dunia self-hosting atau DevOps. Dokumentasinya lengkap dan ekosistemnya luas. Umumnya"
 migrated_from: "https://www.mrohadiz.my.id/2025/12/portainer-terlalu-berat-coba-komodo-web.html"
-image: /assets/images/og/2025-12-11-blogger-portainer-terlalu-berat-coba-komodo-web-ui-docker-ringan-gratis.png
+image: /assets/images/og/2025-12-11-portainer-terlalu-berat-coba-komodo-web-ui-docker-ringan-gratis.png
 ---
 
 <!-- Migrated from Blogger; lightly cleaned for the digital garden while preserving the original claims and publication date. -->
