@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-18T08:00:07.799Z",
+  "collected_at": "2026-09-22T03:00:08.210Z",
   "insights": [
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Site visitors dropped 14%",
-      "description": "From 29 to 25 users this period.",
-      "metric": "-14%",
+      "title": "Site visitors dropped 16%",
+      "description": "From 31 to 26 users this period.",
+      "metric": "-16%",
       "metric_label": "Users Change",
       "icon": "trending-down",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 8m 56s per session",
-      "description": "Across 40 sessions from 25 users this period.",
-      "metric": "8m 56s",
+      "title": "Average engagement is 8m 22s per session",
+      "description": "Across 49 sessions from 26 users this period.",
+      "metric": "8m 22s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Mobile engagement is 29% lower than desktop",
-      "description": "7m 31s on mobile vs 10m 35s on desktop. Consider improving the mobile reading experience.",
-      "metric": "-29%",
+      "title": "Mobile engagement is 48% lower than desktop",
+      "description": "5m 57s on mobile vs 11m 22s on desktop. Consider improving the mobile reading experience.",
+      "metric": "-48%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "30 sessions with an average engagement of 5m 11s.",
-      "metric": "30",
+      "description": "34 sessions with an average engagement of 6m 7s.",
+      "metric": "34",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 93% of traffic",
-      "description": "37 sessions from Direct this period.",
-      "metric": "93%",
+      "title": "Direct drives 84% of traffic",
+      "description": "41 sessions from Direct this period.",
+      "metric": "84%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (12% of visitors)",
-      "description": "12% of this period's visitors came back for another session.",
-      "metric": "3",
+      "title": "5 returning users (19% of visitors)",
+      "description": "19% of this period's visitors came back for another session.",
+      "metric": "5",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "4 consecutive days of commits",
+      "title": "1 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "4 days",
+      "metric": "1 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-18",
-      "description": "Committed 9/18/2026.",
+      "title": "Latest commit: feat(ux): rename Observatory to Statistik Situs wi",
+      "description": "Committed 9/21/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-18T08:00:07.800Z",
+  "generated_at": "2026-09-22T03:00:08.210Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-19",
-      "end": "2026-09-18"
+      "start": "2026-08-23",
+      "end": "2026-09-22"
     }
   }
 }

@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-09-18T08:00:05.052Z",
+  "collected_at": "2026-09-22T03:00:05.317Z",
   "period": {
-    "start": "2026-08-19",
-    "end": "2026-09-18"
+    "start": "2026-08-23",
+    "end": "2026-09-22"
   },
   "daily_trend": [
-    {
-      "date": "2026-08-22",
-      "users": 3,
-      "sessions": 3
-    },
     {
       "date": "2026-08-24",
       "users": 1,
@@ -79,50 +74,70 @@
       "date": "2026-09-18",
       "users": 3,
       "sessions": 3
+    },
+    {
+      "date": "2026-09-19",
+      "users": 4,
+      "sessions": 6
+    },
+    {
+      "date": "2026-09-20",
+      "users": 3,
+      "sessions": 4
+    },
+    {
+      "date": "2026-09-21",
+      "users": 1,
+      "sessions": 2
     }
   ],
   "summary": {
-    "total_users": 25,
-    "total_sessions": 40,
-    "avg_engagement_time": 536,
-    "bounce_rate": 0.38095238095238093,
-    "returning_users": 3,
-    "avg_pages_per_session": 2.6
+    "total_users": 26,
+    "total_sessions": 49,
+    "avg_engagement_time": 502,
+    "bounce_rate": 0.33962264150943394,
+    "returning_users": 5,
+    "avg_pages_per_session": 3.1
   },
   "previous_period": {
-    "total_users": 29,
-    "total_sessions": 42,
-    "avg_engagement_time": 2421,
-    "bounce_rate": 0.5
+    "total_users": 31,
+    "total_sessions": 41,
+    "avg_engagement_time": 2480,
+    "bounce_rate": 0.47368421052631576
   },
   "trend": {
-    "users_change": -0.13793103448275862,
-    "sessions_change": -0.047619047619047616,
-    "engagement_time_change": -0.7785117769755235,
-    "bounce_rate_change": -0.23809523809523814
+    "users_change": -0.16129032258064516,
+    "sessions_change": 0.1951219512195122,
+    "engagement_time_change": -0.7974847999813736,
+    "bounce_rate_change": -0.2830188679245283
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 37,
-      "percentage": 0.925
+      "sessions": 41,
+      "percentage": 0.8367346938775511
     },
     {
-      "source": "Bing",
-      "sessions": 2,
-      "percentage": 0.05
+      "source": "Chatgpt.com",
+      "sessions": 5,
+      "percentage": 0.10204081632653061
     },
     {
       "source": "Ig",
+      "sessions": 2,
+      "percentage": 0.04081632653061224
+    },
+    {
+      "source": "Bing",
       "sessions": 1,
-      "percentage": 0.025
+      "percentage": 0.02040816326530612
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 30,
-      "avg_engagement_time": 311
+      "sessions": 34,
+      "avg_engagement_time": 367
     },
     {
       "page": "/notes/",
@@ -131,8 +146,8 @@
     },
     {
       "page": "/observatory/",
-      "sessions": 3,
-      "avg_engagement_time": 43
+      "sessions": 4,
+      "avg_engagement_time": 90
     },
     {
       "page": "/about/",
@@ -150,80 +165,80 @@
       "avg_engagement_time": 4
     },
     {
-      "page": "/2026/08/22/posisi-dalam-aliran-nilai/",
+      "page": "/2026/09/19/server-tidak-dibangun-berdasarkan-jumlah-visitor/",
       "sessions": 1,
-      "avg_engagement_time": 3
+      "avg_engagement_time": 0
     },
     {
-      "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadkZz_XalLA-Zwuu_kJuvivjBNpVGkUIZdoTOXg-pMlm5i-JQrhgzdo0-UoNQ_aem_Qnmlv0PBV-EhFRdx673dhQ",
+      "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafi-XBdjkmn9hDLCDsYqYmXeUHIw1d_WOTnegg-vSEbjQfAlrl3AheKoGvURw_aem_wQd-n3wYOYb-sM-MFeFoWQ",
       "sessions": 1,
-      "avg_engagement_time": 5
+      "avg_engagement_time": 7
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 27,
-      "percentage": 0.675
-    },
-    {
-      "country": "United States",
-      "sessions": 5,
-      "percentage": 0.125
+      "sessions": 37,
+      "percentage": 0.7551020408163265
     },
     {
       "country": "Singapore",
-      "sessions": 3,
-      "percentage": 0.075
+      "sessions": 5,
+      "percentage": 0.10204081632653061
+    },
+    {
+      "country": "United States",
+      "sessions": 2,
+      "percentage": 0.04081632653061224
     },
     {
       "country": "United Kingdom",
       "sessions": 2,
-      "percentage": 0.05
+      "percentage": 0.04081632653061224
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.05
+      "percentage": 0.04081632653061224
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.025
+      "percentage": 0.02040816326530612
     }
   ],
   "device_distribution": [
     {
-      "device": "Desktop",
-      "sessions": 21,
-      "avg_engagement_time": 635,
-      "percentage": 0.525
+      "device": "Mobile",
+      "sessions": 25,
+      "avg_engagement_time": 357,
+      "percentage": 0.5102040816326531
     },
     {
-      "device": "Mobile",
-      "sessions": 18,
-      "avg_engagement_time": 451,
-      "percentage": 0.45
+      "device": "Desktop",
+      "sessions": 23,
+      "avg_engagement_time": 682,
+      "percentage": 0.46938775510204084
     },
     {
       "device": "Tablet",
       "sessions": 1,
       "avg_engagement_time": 3,
-      "percentage": 0.025
+      "percentage": 0.02040816326530612
     }
   ],
   "reading": {
     "avg_max_scroll": 35,
-    "deep_read_pct": 0.238,
-    "sessions": 42,
+    "deep_read_pct": 0.264,
+    "sessions": 53,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5238095238095238
+        "pct": 0.5471698113207547
       },
       {
         "label": "25-50%",
-        "pct": 0.23809523809523808
+        "pct": 0.18867924528301888
       },
       {
         "label": "50-75%",
@@ -231,20 +246,20 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.23809523809523808
+        "pct": 0.2641509433962264
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 8,
-        "avg_max_scroll": 59,
-        "deep_read_pct": 0.25
+        "sessions": 10,
+        "avg_max_scroll": 65,
+        "deep_read_pct": 0.4
       },
       {
         "page": "/observatory/",
-        "sessions": 2,
-        "avg_max_scroll": 88,
+        "sessions": 3,
+        "avg_max_scroll": 92,
         "deep_read_pct": 1
       },
       {
@@ -266,19 +281,19 @@
         "deep_read_pct": 0
       },
       {
-        "page": "/?fbclid=IwcGRvZgRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR5Hm5YHZANNPd3z2Fqp4Wl06t3dm11WagmfCEoIEr9GGGI4nw2nQ46lIkgdZw_aem_wKMfaJRloYIENM617w6c7w",
+        "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafi-XBdjkmn9hDLCDsYqYmXeUHIw1d_WOTnegg-vSEbjQfAlrl3AheKoGvURw_aem_wQd-n3wYOYb-sM-MFeFoWQ",
         "sessions": 1,
         "avg_max_scroll": 100,
         "deep_read_pct": 1
       },
       {
-        "page": "/2026/07/26/membangun-ai-marketing-analyst/",
+        "page": "/2025/01/05/infrastructure-as-code/",
         "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
       },
       {
-        "page": "/methodology/",
+        "page": "/2026/07/20/stop-building-platforms-too-early/",
         "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
@@ -288,6 +303,18 @@
   "top_clicks": [
     {
       "element": "Observatory",
+      "sessions": 4
+    },
+    {
+      "element": "R\nM. Rohadiz",
+      "sessions": 3
+    },
+    {
+      "element": "Traffic",
+      "sessions": 3
+    },
+    {
+      "element": "Search",
       "sessions": 3
     },
     {
@@ -295,11 +322,15 @@
       "sessions": 3
     },
     {
-      "element": "Traffic",
+      "element": "Overview",
       "sessions": 2
     },
     {
-      "element": "Search",
+      "element": "Knowledge",
+      "sessions": 2
+    },
+    {
+      "element": "Publishing",
       "sessions": 2
     },
     {
@@ -307,42 +338,26 @@
       "sessions": 2
     },
     {
-      "element": "R\nM. Rohadiz",
-      "sessions": 2
-    },
-    {
       "element": "Business Intelligence\nAug 22, 2026\n5 min read\nPosi",
-      "sessions": 1
-    },
-    {
-      "element": "Baca Catatan",
-      "sessions": 1
-    },
-    {
-      "element": "Infrastructure\nAug 16, 2026\n3 min read\nHome Server",
-      "sessions": 1
-    },
-    {
-      "element": "Knowledge",
       "sessions": 1
     }
   ],
   "views_by_hour": [
     {
       "hour": 0,
-      "views": 2
-    },
-    {
-      "hour": 1,
-      "views": 11
-    },
-    {
-      "hour": 2,
       "views": 3
     },
     {
+      "hour": 1,
+      "views": 9
+    },
+    {
+      "hour": 2,
+      "views": 4
+    },
+    {
       "hour": 3,
-      "views": 7
+      "views": 11
     },
     {
       "hour": 4,
@@ -354,7 +369,7 @@
     },
     {
       "hour": 6,
-      "views": 5
+      "views": 6
     },
     {
       "hour": 7,
@@ -390,15 +405,15 @@
     },
     {
       "hour": 15,
-      "views": 0
+      "views": 3
     },
     {
       "hour": 16,
-      "views": 0
+      "views": 2
     },
     {
       "hour": 17,
-      "views": 4
+      "views": 5
     },
     {
       "hour": 18,
@@ -427,11 +442,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 390,
-    "bot_ua_sessions": 76,
-    "automated_sessions": 103,
-    "automated_session_events": 7394,
-    "sessions_removed": 179,
-    "docs_after_filter": 2182
+    "bot_ua_events": 428,
+    "bot_ua_sessions": 82,
+    "automated_sessions": 104,
+    "automated_session_events": 7666,
+    "sessions_removed": 186,
+    "docs_after_filter": 1872
   }
 }
