@@ -1,42 +1,22 @@
 {
-  "collected_at": "2026-09-22T03:00:08.210Z",
+  "collected_at": "2026-09-23T03:00:24.375Z",
   "insights": [
-    {
-      "type": "warning",
-      "category": "traffic",
-      "title": "Site visitors dropped 16%",
-      "description": "From 31 to 26 users this period.",
-      "metric": "-16%",
-      "metric_label": "Users Change",
-      "icon": "trending-down",
-      "priority": "high"
-    },
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 8m 22s per session",
-      "description": "Across 49 sessions from 26 users this period.",
-      "metric": "8m 22s",
+      "title": "Average engagement is 5m 46s per session",
+      "description": "Across 48 sessions from 27 users this period.",
+      "metric": "5m 46s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
-      "type": "warning",
-      "category": "traffic",
-      "title": "Mobile engagement is 48% lower than desktop",
-      "description": "5m 57s on mobile vs 11m 22s on desktop. Consider improving the mobile reading experience.",
-      "metric": "-48%",
-      "metric_label": "Mobile vs Desktop",
-      "icon": "smartphone",
-      "priority": "medium"
-    },
-    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "34 sessions with an average engagement of 6m 7s.",
-      "metric": "34",
+      "description": "33 sessions with an average engagement of 6m 18s.",
+      "metric": "33",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 84% of traffic",
-      "description": "41 sessions from Direct this period.",
-      "metric": "84%",
+      "title": "Direct drives 81% of traffic",
+      "description": "39 sessions from Direct this period.",
+      "metric": "81%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -74,9 +54,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
+      "title": "2 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
+      "metric": "2 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -84,8 +64,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: feat(ux): rename Observatory to Statistik Situs wi",
-      "description": "Committed 9/21/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-22",
+      "description": "Committed 9/22/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -94,19 +74,29 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 163 articles",
-      "description": "Across 10 categories with 294 unique tags. Total word count: 87,188.",
-      "metric": "163",
+      "title": "Digital garden contains 164 articles",
+      "description": "Across 10 categories with 296 unique tags. Total word count: 87,710.",
+      "metric": "164",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
+    },
+    {
+      "type": "positive",
+      "category": "knowledge",
+      "title": "\"Business Intelligence\" is the most content-rich category",
+      "description": "With 49 articles, representing 30% of all content.",
+      "metric": "49",
+      "metric_label": "Articles",
+      "icon": "folder",
+      "priority": "low"
     }
   ],
-  "generated_at": "2026-09-22T03:00:08.210Z",
+  "generated_at": "2026-09-23T03:00:24.375Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-23",
-      "end": "2026-09-22"
+      "start": "2026-08-24",
+      "end": "2026-09-23"
     }
   }
 }

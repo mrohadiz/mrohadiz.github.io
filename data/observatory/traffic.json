@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-09-22T03:00:05.317Z",
+  "collected_at": "2026-09-23T03:00:20.945Z",
   "period": {
-    "start": "2026-08-23",
-    "end": "2026-09-22"
+    "start": "2026-08-24",
+    "end": "2026-09-23"
   },
   "daily_trend": [
     {
       "date": "2026-08-24",
       "users": 1,
-      "sessions": 3
+      "sessions": 1
     },
     {
       "date": "2026-08-27",
@@ -89,70 +89,75 @@
       "date": "2026-09-21",
       "users": 1,
       "sessions": 2
+    },
+    {
+      "date": "2026-09-22",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 26,
-    "total_sessions": 49,
-    "avg_engagement_time": 502,
-    "bounce_rate": 0.33962264150943394,
+    "total_users": 27,
+    "total_sessions": 48,
+    "avg_engagement_time": 346,
+    "bounce_rate": 0.36,
     "returning_users": 5,
     "avg_pages_per_session": 3.1
   },
   "previous_period": {
-    "total_users": 31,
-    "total_sessions": 41,
-    "avg_engagement_time": 2480,
-    "bounce_rate": 0.47368421052631576
+    "total_users": 29,
+    "total_sessions": 42,
+    "avg_engagement_time": 2479,
+    "bounce_rate": 0.4090909090909091
   },
   "trend": {
-    "users_change": -0.16129032258064516,
-    "sessions_change": 0.1951219512195122,
-    "engagement_time_change": -0.7974847999813736,
-    "bounce_rate_change": -0.2830188679245283
+    "users_change": -0.06896551724137931,
+    "sessions_change": 0.14285714285714285,
+    "engagement_time_change": -0.8603778382162706,
+    "bounce_rate_change": -0.12000000000000009
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 41,
-      "percentage": 0.8367346938775511
+      "sessions": 39,
+      "percentage": 0.8125
     },
     {
       "source": "Chatgpt.com",
       "sessions": 5,
-      "percentage": 0.10204081632653061
+      "percentage": 0.10416666666666667
     },
     {
       "source": "Ig",
       "sessions": 2,
-      "percentage": 0.04081632653061224
+      "percentage": 0.041666666666666664
+    },
+    {
+      "source": "Google Organic",
+      "sessions": 1,
+      "percentage": 0.020833333333333332
     },
     {
       "source": "Bing",
       "sessions": 1,
-      "percentage": 0.02040816326530612
+      "percentage": 0.020833333333333332
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 34,
-      "avg_engagement_time": 367
+      "sessions": 33,
+      "avg_engagement_time": 378
     },
     {
       "page": "/notes/",
       "sessions": 5,
-      "avg_engagement_time": 1517
+      "avg_engagement_time": 20
     },
     {
       "page": "/observatory/",
       "sessions": 4,
       "avg_engagement_time": 90
-    },
-    {
-      "page": "/about/",
-      "sessions": 2,
-      "avg_engagement_time": 657
     },
     {
       "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
@@ -173,72 +178,77 @@
       "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafi-XBdjkmn9hDLCDsYqYmXeUHIw1d_WOTnegg-vSEbjQfAlrl3AheKoGvURw_aem_wQd-n3wYOYb-sM-MFeFoWQ",
       "sessions": 1,
       "avg_engagement_time": 7
+    },
+    {
+      "page": "/2025/01/05/infrastructure-as-code/",
+      "sessions": 1,
+      "avg_engagement_time": 3
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 37,
-      "percentage": 0.7551020408163265
+      "sessions": 36,
+      "percentage": 0.75
     },
     {
       "country": "Singapore",
       "sessions": 5,
-      "percentage": 0.10204081632653061
+      "percentage": 0.10416666666666667
     },
     {
       "country": "United States",
       "sessions": 2,
-      "percentage": 0.04081632653061224
+      "percentage": 0.041666666666666664
     },
     {
       "country": "United Kingdom",
       "sessions": 2,
-      "percentage": 0.04081632653061224
+      "percentage": 0.041666666666666664
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.04081632653061224
+      "percentage": 0.041666666666666664
     },
     {
       "country": "France",
       "sessions": 1,
-      "percentage": 0.02040816326530612
+      "percentage": 0.020833333333333332
     }
   ],
   "device_distribution": [
     {
       "device": "Mobile",
-      "sessions": 25,
-      "avg_engagement_time": 357,
-      "percentage": 0.5102040816326531
+      "sessions": 26,
+      "avg_engagement_time": 344,
+      "percentage": 0.5416666666666666
     },
     {
       "device": "Desktop",
-      "sessions": 23,
-      "avg_engagement_time": 682,
-      "percentage": 0.46938775510204084
+      "sessions": 21,
+      "avg_engagement_time": 366,
+      "percentage": 0.4375
     },
     {
       "device": "Tablet",
       "sessions": 1,
       "avg_engagement_time": 3,
-      "percentage": 0.02040816326530612
+      "percentage": 0.020833333333333332
     }
   ],
   "reading": {
-    "avg_max_scroll": 35,
-    "deep_read_pct": 0.264,
-    "sessions": 53,
+    "avg_max_scroll": 37,
+    "deep_read_pct": 0.28,
+    "sessions": 50,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5471698113207547
+        "pct": 0.52
       },
       {
         "label": "25-50%",
-        "pct": 0.18867924528301888
+        "pct": 0.2
       },
       {
         "label": "50-75%",
@@ -246,15 +256,15 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.2641509433962264
+        "pct": 0.28
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 10,
-        "avg_max_scroll": 65,
-        "deep_read_pct": 0.4
+        "sessions": 11,
+        "avg_max_scroll": 66,
+        "deep_read_pct": 0.45454545454545453
       },
       {
         "page": "/observatory/",
@@ -263,21 +273,9 @@
         "deep_read_pct": 1
       },
       {
-        "page": "/about/",
-        "sessions": 2,
-        "avg_max_scroll": 75,
-        "deep_read_pct": 1
-      },
-      {
         "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
         "sessions": 2,
         "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/notes/",
-        "sessions": 2,
-        "avg_max_scroll": 38,
         "deep_read_pct": 0
       },
       {
@@ -297,6 +295,18 @@
         "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
+      },
+      {
+        "page": "/about/",
+        "sessions": 1,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/?fbclid=IwcGRvZgRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR5Hm5YHZANNPd3z2Fqp4Wl06t3dm11WagmfCEoIEr9GGGI4nw2nQ46lIkgdZw_aem_wKMfaJRloYIENM617w6c7w",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
       }
     ]
   },
@@ -318,10 +328,6 @@
       "sessions": 3
     },
     {
-      "element": "About",
-      "sessions": 3
-    },
-    {
       "element": "Overview",
       "sessions": 2
     },
@@ -338,7 +344,11 @@
       "sessions": 2
     },
     {
-      "element": "Business Intelligence\nAug 22, 2026\n5 min read\nPosi",
+      "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
+      "sessions": 1
+    },
+    {
+      "element": "About",
       "sessions": 1
     }
   ],
@@ -349,7 +359,7 @@
     },
     {
       "hour": 1,
-      "views": 9
+      "views": 4
     },
     {
       "hour": 2,
@@ -389,7 +399,7 @@
     },
     {
       "hour": 11,
-      "views": 10
+      "views": 11
     },
     {
       "hour": 12,
@@ -442,11 +452,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 428,
-    "bot_ua_sessions": 82,
-    "automated_sessions": 104,
-    "automated_session_events": 7666,
-    "sessions_removed": 186,
-    "docs_after_filter": 1872
+    "bot_ua_events": 1068,
+    "bot_ua_sessions": 137,
+    "automated_sessions": 105,
+    "automated_session_events": 7151,
+    "sessions_removed": 242,
+    "docs_after_filter": 1747
   }
 }

@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-09-22T03:00:08.112Z",
+  "collected_at": "2026-09-23T03:00:24.276Z",
   "summary": {
-    "total_articles": 163,
+    "total_articles": 164,
     "total_categories": 10,
-    "total_tags": 294,
+    "total_tags": 296,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 87188
+    "total_word_count": 87710
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.3006134969325153
+      "percentage": 0.29878048780487804
     },
     {
       "name": "Decision Systems",
       "count": 29,
-      "percentage": 0.17791411042944785
+      "percentage": 0.17682926829268292
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.17177914110429449
+      "percentage": 0.17073170731707318
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.1165644171779141
+      "percentage": 0.11585365853658537
     },
     {
       "name": "Infrastructure",
-      "count": 13,
-      "percentage": 0.07975460122699386
+      "count": 14,
+      "percentage": 0.08536585365853659
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06748466257668712
+      "percentage": 0.06707317073170732
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.049079754601226995
+      "percentage": 0.04878048780487805
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.024539877300613498
+      "percentage": 0.024390243902439025
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.006134969325153374
+      "percentage": 0.006097560975609756
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.006134969325153374
+      "percentage": 0.006097560975609756
     }
   ],
   "tags": [
@@ -135,6 +135,10 @@
       "count": 7
     },
     {
+      "name": "observability",
+      "count": 7
+    },
+    {
       "name": "capability-building",
       "count": 7
     },
@@ -147,16 +151,16 @@
       "count": 6
     },
     {
-      "name": "observability",
-      "count": 6
-    },
-    {
       "name": "decision-intelligence",
       "count": 6
     },
     {
       "name": "digital-marketing",
       "count": 6
+    },
+    {
+      "name": "infrastructure",
+      "count": 5
     },
     {
       "name": "\"iklan-online\"",
@@ -176,10 +180,6 @@
     },
     {
       "name": "strategy",
-      "count": 4
-    },
-    {
-      "name": "infrastructure",
       "count": 4
     },
     {
@@ -331,6 +331,10 @@
       "count": 3
     },
     {
+      "name": "cloudflare",
+      "count": 3
+    },
+    {
       "name": "marketing",
       "count": 3
     },
@@ -451,10 +455,6 @@
       "count": 2
     },
     {
-      "name": "cloudflare",
-      "count": 2
-    },
-    {
       "name": "trust",
       "count": 2
     },
@@ -464,6 +464,10 @@
     },
     {
       "name": "evidence",
+      "count": 2
+    },
+    {
+      "name": "website",
       "count": 2
     },
     {
@@ -1191,10 +1195,6 @@
       "count": 1
     },
     {
-      "name": "website",
-      "count": 1
-    },
-    {
       "name": "digital-assets",
       "count": 1
     },
@@ -1237,9 +1237,35 @@
     {
       "name": "roadmap",
       "count": 1
+    },
+    {
+      "name": "capacity-planning",
+      "count": 1
+    },
+    {
+      "name": "server",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
+      "url": "/2026/09/19/server-tidak-dibangun-berdasarkan-jumlah-visitor/",
+      "date": "2026-09-19",
+      "category": "Infrastructure",
+      "tags": [
+        "capacity-planning",
+        "observability",
+        "infrastructure",
+        "cloudflare",
+        "server",
+        "website"
+      ],
+      "word_count": 520,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-09-19"
+    },
     {
       "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
       "url": "/2026/08/27/membuktikan-strategi-berkontribusi-pada-goal/",
@@ -2477,7 +2503,7 @@
         "digital-garden",
         "data-architecture"
       ],
-      "word_count": 574,
+      "word_count": 576,
       "reading_time": 4,
       "internal_links": 3,
       "last_updated": "2026-07-13"
@@ -3844,6 +3870,11 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
+      "date": "2026-09-19",
+      "category": "Infrastructure"
+    },
+    {
       "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
       "date": "2026-08-27",
       "category": "Decision Systems"
@@ -3862,14 +3893,14 @@
       "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
       "date": "2026-08-16",
       "category": "Infrastructure"
-    },
-    {
-      "title": "\"Leading Indicator Framework\"",
-      "date": "2026-08-16",
-      "category": "Decision Systems"
     }
   ],
   "most_updated": [
+    {
+      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
+      "updates": 1,
+      "last_updated": "2026-09-19"
+    },
     {
       "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
       "updates": 1,
@@ -3887,11 +3918,6 @@
     },
     {
       "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
-      "updates": 1,
-      "last_updated": "2026-08-16"
-    },
-    {
-      "title": "\"Leading Indicator Framework\"",
       "updates": 1,
       "last_updated": "2026-08-16"
     }
