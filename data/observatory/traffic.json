@@ -1,15 +1,10 @@
 {
-  "collected_at": "2026-09-23T03:00:20.945Z",
+  "collected_at": "2026-09-23T08:00:08.231Z",
   "period": {
     "start": "2026-08-24",
     "end": "2026-09-23"
   },
   "daily_trend": [
-    {
-      "date": "2026-08-24",
-      "users": 1,
-      "sessions": 1
-    },
     {
       "date": "2026-08-27",
       "users": 2,
@@ -94,27 +89,32 @@
       "date": "2026-09-22",
       "users": 1,
       "sessions": 1
+    },
+    {
+      "date": "2026-09-23",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 27,
+    "total_users": 28,
     "total_sessions": 48,
     "avg_engagement_time": 346,
-    "bounce_rate": 0.36,
+    "bounce_rate": 0.37254901960784315,
     "returning_users": 5,
     "avg_pages_per_session": 3.1
   },
   "previous_period": {
     "total_users": 29,
     "total_sessions": 42,
-    "avg_engagement_time": 2479,
+    "avg_engagement_time": 2611,
     "bounce_rate": 0.4090909090909091
   },
   "trend": {
-    "users_change": -0.06896551724137931,
+    "users_change": -0.034482758620689655,
     "sessions_change": 0.14285714285714285,
-    "engagement_time_change": -0.8603778382162706,
-    "bounce_rate_change": -0.12000000000000009
+    "engagement_time_change": -0.8673749729891874,
+    "bounce_rate_change": -0.08932461873638348
   },
   "traffic_sources": [
     {
@@ -146,18 +146,18 @@
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 33,
-      "avg_engagement_time": 378
-    },
-    {
-      "page": "/notes/",
-      "sessions": 5,
-      "avg_engagement_time": 20
+      "sessions": 34,
+      "avg_engagement_time": 367
     },
     {
       "page": "/observatory/",
       "sessions": 4,
       "avg_engagement_time": 90
+    },
+    {
+      "page": "/notes/",
+      "sessions": 4,
+      "avg_engagement_time": 25
     },
     {
       "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
@@ -238,17 +238,17 @@
     }
   ],
   "reading": {
-    "avg_max_scroll": 37,
-    "deep_read_pct": 0.28,
-    "sessions": 50,
+    "avg_max_scroll": 38,
+    "deep_read_pct": 0.294,
+    "sessions": 51,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.52
+        "pct": 0.5098039215686274
       },
       {
         "label": "25-50%",
-        "pct": 0.2
+        "pct": 0.19607843137254902
       },
       {
         "label": "50-75%",
@@ -256,15 +256,15 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.28
+        "pct": 0.29411764705882354
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 11,
-        "avg_max_scroll": 66,
-        "deep_read_pct": 0.45454545454545453
+        "sessions": 12,
+        "avg_max_scroll": 69,
+        "deep_read_pct": 0.5
       },
       {
         "page": "/observatory/",
@@ -379,7 +379,7 @@
     },
     {
       "hour": 6,
-      "views": 6
+      "views": 7
     },
     {
       "hour": 7,
@@ -452,11 +452,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 1068,
-    "bot_ua_sessions": 137,
-    "automated_sessions": 105,
-    "automated_session_events": 7151,
-    "sessions_removed": 242,
-    "docs_after_filter": 1747
+    "bot_ua_events": 1284,
+    "bot_ua_sessions": 150,
+    "automated_sessions": 104,
+    "automated_session_events": 6985,
+    "sessions_removed": 254,
+    "docs_after_filter": 1697
   }
 }
