@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-23T08:00:11.337Z",
+  "collected_at": "2026-09-24T08:00:09.214Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 46s per session",
-      "description": "Across 48 sessions from 28 users this period.",
-      "metric": "5m 46s",
+      "title": "Average engagement is 5m 39s per session",
+      "description": "Across 49 sessions from 29 users this period.",
+      "metric": "5m 39s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -15,8 +15,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "34 sessions with an average engagement of 6m 7s.",
-      "metric": "34",
+      "description": "35 sessions with an average engagement of 5m 57s.",
+      "metric": "35",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -34,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 81% of traffic",
-      "description": "39 sessions from Direct this period.",
-      "metric": "81%",
+      "title": "Direct drives 82% of traffic",
+      "description": "40 sessions from Direct this period.",
+      "metric": "82%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -44,8 +44,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "5 returning users (18% of visitors)",
-      "description": "18% of this period's visitors came back for another session.",
+      "title": "5 returning users (17% of visitors)",
+      "description": "17% of this period's visitors came back for another session.",
       "metric": "5",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "2 consecutive days of commits",
+      "title": "3 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "2 days",
+      "metric": "3 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -92,11 +92,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-23T08:00:11.338Z",
+  "generated_at": "2026-09-24T08:00:09.214Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-24",
-      "end": "2026-09-23"
+      "start": "2026-08-25",
+      "end": "2026-09-24"
     }
   }
 }
