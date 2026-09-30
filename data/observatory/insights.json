@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-24T08:00:09.214Z",
+  "collected_at": "2026-09-30T03:00:10.310Z",
   "insights": [
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 39s per session",
-      "description": "Across 49 sessions from 29 users this period.",
-      "metric": "5m 39s",
+      "title": "Average engagement is 5m 3s per session",
+      "description": "Across 45 sessions from 29 users this period.",
+      "metric": "5m 3s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -15,8 +15,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "35 sessions with an average engagement of 5m 57s.",
-      "metric": "35",
+      "description": "31 sessions with an average engagement of 6m 43s.",
+      "metric": "31",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -34,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 82% of traffic",
-      "description": "40 sessions from Direct this period.",
-      "metric": "82%",
+      "title": "Direct drives 80% of traffic",
+      "description": "36 sessions from Direct this period.",
+      "metric": "80%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -44,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "5 returning users (17% of visitors)",
-      "description": "17% of this period's visitors came back for another session.",
-      "metric": "5",
+      "title": "6 returning users (21% of visitors)",
+      "description": "21% of this period's visitors came back for another session.",
+      "metric": "6",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -54,18 +54,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "3 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "3 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-09-23",
-      "description": "Committed 9/23/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-09-24",
+      "description": "Committed 9/24/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -92,11 +82,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-09-24T08:00:09.214Z",
+  "generated_at": "2026-09-30T03:00:10.310Z",
   "analysis_period": {
     "current": {
-      "start": "2026-08-25",
-      "end": "2026-09-24"
+      "start": "2026-08-31",
+      "end": "2026-09-30"
     }
   }
 }
