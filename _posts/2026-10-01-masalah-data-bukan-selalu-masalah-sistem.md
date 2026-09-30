@@ -10,6 +10,7 @@ tags:
   - root-cause-analysis
   - systems-thinking
 excerpt: "Ketika sebuah metrik terlihat buruk, penyebabnya tidak selalu ada pada sistem yang menjalankannya. Sering kali akar masalah berada pada asumsi, klasifikasi, atau proses evaluasi yang tidak pernah diperbarui."
+image: /assets/images/og/2026-10-01-masalah-data-bukan-selalu-masalah-sistem.png
 ---
 
 # Ringkasan
