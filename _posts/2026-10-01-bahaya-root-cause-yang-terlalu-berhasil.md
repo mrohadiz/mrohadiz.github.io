@@ -10,6 +10,7 @@ tags:
   - decision-making
   - systems-thinking
 excerpt: "Diagnosis yang pernah terbukti benar dapat berubah menjadi bias ketika kita menggunakannya sebagai jawaban sebelum memeriksa bukti baru."
+image: /assets/images/og/2026-10-01-bahaya-root-cause-yang-terlalu-berhasil.png
 ---
 
 # Ringkasan
