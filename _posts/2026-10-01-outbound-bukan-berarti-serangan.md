@@ -10,6 +10,7 @@ tags:
   - incident-response
   - infrastructure
 excerpt: "Lonjakan trafik keluar sering dianggap sebagai indikasi serangan. Padahal yang lebih penting adalah memahami penyebab dan konteks di balik trafik tersebut."
+image: /assets/images/og/2026-10-01-outbound-bukan-berarti-serangan.png
 ---
 
 # Ringkasan
