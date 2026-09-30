@@ -10,6 +10,7 @@ tags:
   - decision-making
   - systems-thinking
 excerpt: "Dua kejadian dapat terlihat sama dari metrik jaringan, tetapi memiliki akar masalah yang berbeda. Pelajarannya adalah jangan mengubah gejala menjadi kesimpulan sebelum konteks dan buktinya cukup."
+image: /assets/images/og/2026-10-01-gejala-yang-sama-tidak-selalu-memiliki-penyebab-yang-sama.png
 ---
 
 # Ringkasan
