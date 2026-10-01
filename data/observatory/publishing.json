@@ -1,73 +1,73 @@
 {
-  "collected_at": "2026-09-30T08:00:10.369Z",
+  "collected_at": "2026-10-01T03:00:13.850Z",
   "repository": "mrohadiz/mrohadiz.github.io",
   "summary": {
-    "total_commits": 314,
+    "total_commits": 323,
     "total_contributors": 1,
     "first_commit_date": "2026-07-11T12:53:49Z",
-    "last_commit_date": "2026-09-30T03:00:15Z",
+    "last_commit_date": "2026-09-30T23:57:27Z",
     "active_days": 56
   },
   "recent_commits": [
+    {
+      "sha": "b96ae1c",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-09-30T23:57:27Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "482a177",
+      "message": "Add article: Masalah Data Bukan Selalu Masalah Sistem",
+      "date": "2026-09-30T23:57:16Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "c9d1111",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-09-30T23:46:22Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "17d1ab2",
+      "message": "Add article: Bahaya Root Cause yang Terlalu Berhasil",
+      "date": "2026-09-30T23:46:12Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "91e1b0b",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-09-30T23:43:19Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "c0aaea6",
+      "message": "Add article: Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama",
+      "date": "2026-09-30T23:43:03Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "cc6921d",
+      "message": "chore(seo): auto-generate open graph images [skip ci]",
+      "date": "2026-09-30T23:39:57Z",
+      "author": "github-actions[bot]"
+    },
+    {
+      "sha": "296c13e",
+      "message": "Add article: Outbound Bukan Berarti Serangan",
+      "date": "2026-09-30T23:39:44Z",
+      "author": "M Rohadi Z"
+    },
+    {
+      "sha": "2accb6a",
+      "message": "chore: update observatory data 2026-09-30",
+      "date": "2026-09-30T08:00:15Z",
+      "author": "zakagimat"
+    },
     {
       "sha": "0a15d7c",
       "message": "chore: update observatory data 2026-09-30",
       "date": "2026-09-30T03:00:15Z",
       "author": "zakagimat"
-    },
-    {
-      "sha": "4756062",
-      "message": "chore: update observatory data 2026-09-24",
-      "date": "2026-09-24T08:00:13Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "11e8602",
-      "message": "chore: update observatory data 2026-09-23",
-      "date": "2026-09-23T08:00:17Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "f14aace",
-      "message": "chore: update observatory data 2026-09-23",
-      "date": "2026-09-23T03:00:28Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "1a584cf",
-      "message": "chore: update observatory data 2026-09-22",
-      "date": "2026-09-22T03:00:11Z",
-      "author": "zakagimat"
-    },
-    {
-      "sha": "a6122eb",
-      "message": "feat(ux): rename Observatory to Statistik Situs with lighter public-facing copy",
-      "date": "2026-09-21T08:49:57Z",
-      "author": "mrohadiz"
-    },
-    {
-      "sha": "b46a796",
-      "message": "fix(ci): regenerate Gemfile.lock without jekyll-paginate",
-      "date": "2026-09-21T03:29:49Z",
-      "author": "mrohadiz"
-    },
-    {
-      "sha": "8406796",
-      "message": "fix(ci): remove unused jekyll-paginate causing notes/index.html conflict",
-      "date": "2026-09-21T03:28:20Z",
-      "author": "mrohadiz"
-    },
-    {
-      "sha": "0a9ff56",
-      "message": "fix(seo): point robots.txt sitemap to custom domain host",
-      "date": "2026-09-21T03:17:07Z",
-      "author": "mrohadiz"
-    },
-    {
-      "sha": "6c86446",
-      "message": "chore(seo): auto-generate open graph images [skip ci]",
-      "date": "2026-09-21T03:10:21Z",
-      "author": "github-actions[bot]"
     }
   ],
   "publishing_timeline": [
@@ -81,12 +81,16 @@
     },
     {
       "month": "2026-09",
-      "commits": 43
+      "commits": 44
+    },
+    {
+      "month": "2026-10",
+      "commits": 8
     }
   ],
   "article_history": [],
   "contribution_streak": {
-    "current_streak": 0,
+    "current_streak": 1,
     "longest_streak": 8,
     "active_days": 56
   },
@@ -94,7 +98,7 @@
     "open_issues": 0,
     "open_pull_requests": 0,
     "branches": 2,
-    "last_deployment": "2026-09-30T08:00:10.369Z",
+    "last_deployment": "2026-10-01T03:00:13.850Z",
     "deployment_status": "success"
   }
 }
