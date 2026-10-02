@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T03:00:07.062Z",
+  "collected_at": "2026-10-02T08:00:05.251Z",
   "period": {
     "start": "2026-09-02",
     "end": "2026-10-02"
@@ -105,15 +105,15 @@
     "avg_pages_per_session": 2.5
   },
   "previous_period": {
-    "total_users": 30,
-    "total_sessions": 46,
-    "avg_engagement_time": 2351,
+    "total_users": 27,
+    "total_sessions": 42,
+    "avg_engagement_time": 2574,
     "bounce_rate": 0.4230769230769231
   },
   "trend": {
-    "users_change": -0.03333333333333333,
-    "sessions_change": -0.043478260869565216,
-    "engagement_time_change": -0.8684570926703366,
+    "users_change": 0.07407407407407407,
+    "sessions_change": 0.047619047619047616,
+    "engagement_time_change": -0.8798472771069302,
     "bounce_rate_change": 0.027667984189723303
   },
   "traffic_sources": [
