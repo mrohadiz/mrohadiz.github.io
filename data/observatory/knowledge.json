@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-10-01T03:00:14.156Z",
+  "collected_at": "2026-10-02T03:00:14.906Z",
   "summary": {
-    "total_articles": 164,
+    "total_articles": 168,
     "total_categories": 10,
-    "total_tags": 296,
+    "total_tags": 297,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 87710
+    "total_word_count": 90144
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.29878048780487804
+      "percentage": 0.2916666666666667
     },
     {
       "name": "Decision Systems",
-      "count": 29,
-      "percentage": 0.17682926829268292
+      "count": 32,
+      "percentage": 0.19047619047619047
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.17073170731707318
+      "percentage": 0.16666666666666666
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.11585365853658537
+      "percentage": 0.1130952380952381
     },
     {
       "name": "Infrastructure",
-      "count": 14,
-      "percentage": 0.08536585365853659
+      "count": 15,
+      "percentage": 0.08928571428571429
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06707317073170732
+      "percentage": 0.06547619047619048
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.04878048780487805
+      "percentage": 0.047619047619047616
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.024390243902439025
+      "percentage": 0.023809523809523808
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.006097560975609756
+      "percentage": 0.005952380952380952
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.006097560975609756
+      "percentage": 0.005952380952380952
     }
   ],
   "tags": [
@@ -68,18 +68,22 @@
     },
     {
       "name": "systems-thinking",
-      "count": 17
+      "count": 20
     },
     {
       "name": "\"seo\"",
       "count": 16
     },
     {
+      "name": "decision-making",
+      "count": 13
+    },
+    {
       "name": "\"devops\"",
       "count": 12
     },
     {
-      "name": "decision-making",
+      "name": "observability",
       "count": 11
     },
     {
@@ -135,12 +139,12 @@
       "count": 7
     },
     {
-      "name": "observability",
+      "name": "capability-building",
       "count": 7
     },
     {
-      "name": "capability-building",
-      "count": 7
+      "name": "infrastructure",
+      "count": 6
     },
     {
       "name": "\"adtech\"",
@@ -157,10 +161,6 @@
     {
       "name": "digital-marketing",
       "count": 6
-    },
-    {
-      "name": "infrastructure",
-      "count": 5
     },
     {
       "name": "\"iklan-online\"",
@@ -192,6 +192,10 @@
     },
     {
       "name": "\"server\"",
+      "count": 4
+    },
+    {
+      "name": "root-cause-analysis",
       "count": 4
     },
     {
@@ -407,6 +411,10 @@
       "count": 2
     },
     {
+      "name": "data-quality",
+      "count": 2
+    },
+    {
       "name": "ai-engineering",
       "count": 2
     },
@@ -440,6 +448,10 @@
     },
     {
       "name": "account-based-marketing",
+      "count": 2
+    },
+    {
+      "name": "incident-response",
       "count": 2
     },
     {
@@ -899,10 +911,6 @@
       "count": 1
     },
     {
-      "name": "root-cause-analysis",
-      "count": 1
-    },
-    {
       "name": "engineering",
       "count": 1
     },
@@ -1003,10 +1011,6 @@
       "count": 1
     },
     {
-      "name": "data-quality",
-      "count": 1
-    },
-    {
       "name": "cdp",
       "count": 1
     },
@@ -1096,10 +1100,6 @@
     },
     {
       "name": "digital-forensics",
-      "count": 1
-    },
-    {
-      "name": "incident-response",
       "count": 1
     },
     {
@@ -1245,9 +1245,77 @@
     {
       "name": "server",
       "count": 1
+    },
+    {
+      "name": "network",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
+      "url": "/2026/10/01/bahaya-root-cause-yang-terlalu-berhasil/",
+      "date": "2026-10-01",
+      "category": "Decision Systems",
+      "tags": [
+        "observability",
+        "root-cause-analysis",
+        "decision-making",
+        "systems-thinking"
+      ],
+      "word_count": 875,
+      "reading_time": 5,
+      "internal_links": 0,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
+      "url": "/2026/10/01/gejala-yang-sama-tidak-selalu-memiliki-penyebab-yang-sama/",
+      "date": "2026-10-01",
+      "category": "Decision Systems",
+      "tags": [
+        "observability",
+        "root-cause-analysis",
+        "decision-making",
+        "systems-thinking"
+      ],
+      "word_count": 643,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Masalah Data Bukan Selalu Masalah Sistem\"",
+      "url": "/2026/10/01/masalah-data-bukan-selalu-masalah-sistem/",
+      "date": "2026-10-01",
+      "category": "Decision Systems",
+      "tags": [
+        "observability",
+        "data-quality",
+        "root-cause-analysis",
+        "systems-thinking"
+      ],
+      "word_count": 449,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Outbound Tinggi Tidak Selalu Berarti Serangan\"",
+      "url": "/2026/10/01/outbound-bukan-berarti-serangan/",
+      "date": "2026-10-01",
+      "category": "Infrastructure",
+      "tags": [
+        "observability",
+        "network",
+        "incident-response",
+        "infrastructure"
+      ],
+      "word_count": 467,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-10-01"
+    },
     {
       "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
       "url": "/2026/09/19/server-tidak-dibangun-berdasarkan-jumlah-visitor/",
@@ -3870,56 +3938,56 @@
   ],
   "newest_articles": [
     {
-      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
-      "date": "2026-09-19",
+      "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
+      "date": "2026-10-01",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
+      "date": "2026-10-01",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Masalah Data Bukan Selalu Masalah Sistem\"",
+      "date": "2026-10-01",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Outbound Tinggi Tidak Selalu Berarti Serangan\"",
+      "date": "2026-10-01",
       "category": "Infrastructure"
     },
     {
-      "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
-      "date": "2026-08-27",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"WordPress Roadmap: Dari Tujuan Bisnis sampai Hasil Bisnis\"",
-      "date": "2026-08-27",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Posisi dalam Aliran Nilai\"",
-      "date": "2026-08-22",
-      "category": "Business Intelligence"
-    },
-    {
-      "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
-      "date": "2026-08-16",
+      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
+      "date": "2026-09-19",
       "category": "Infrastructure"
     }
   ],
   "most_updated": [
     {
+      "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
+      "updates": 1,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
+      "updates": 1,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Masalah Data Bukan Selalu Masalah Sistem\"",
+      "updates": 1,
+      "last_updated": "2026-10-01"
+    },
+    {
+      "title": "\"Outbound Tinggi Tidak Selalu Berarti Serangan\"",
+      "updates": 1,
+      "last_updated": "2026-10-01"
+    },
+    {
       "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
       "updates": 1,
       "last_updated": "2026-09-19"
-    },
-    {
-      "title": "\"Bagaimana Membuktikan Strategi Benar-Benar Berkontribusi pada Goal?\"",
-      "updates": 1,
-      "last_updated": "2026-08-27"
-    },
-    {
-      "title": "\"WordPress Roadmap: Dari Tujuan Bisnis sampai Hasil Bisnis\"",
-      "updates": 1,
-      "last_updated": "2026-08-27"
-    },
-    {
-      "title": "\"Posisi dalam Aliran Nilai\"",
-      "updates": 1,
-      "last_updated": "2026-08-22"
-    },
-    {
-      "title": "\"Home Server Bukan Tentang Menghemat Biaya Cloud\"",
-      "updates": 1,
-      "last_updated": "2026-08-16"
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
-  "collected_at": "2026-10-01T03:00:14.304Z",
+  "collected_at": "2026-10-02T03:00:15.020Z",
   "insights": [
-    {
-      "type": "positive",
-      "category": "traffic",
-      "title": "Site visitors increased 11%",
-      "description": "From 28 to 31 users this period.",
-      "metric": "+11%",
-      "metric_label": "Users Growth",
-      "icon": "users",
-      "priority": "high"
-    },
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 4m 50s per session",
-      "description": "Across 47 sessions from 31 users this period.",
-      "metric": "4m 50s",
+      "title": "Average engagement is 5m 9s per session",
+      "description": "Across 44 sessions from 29 users this period.",
+      "metric": "5m 9s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
+      "type": "positive",
+      "category": "traffic",
+      "title": "Mobile engagement is 17% higher than desktop",
+      "description": "5m 43s on mobile vs 4m 52s on desktop.",
+      "metric": "+17%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
+      "priority": "medium"
+    },
+    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "32 sessions with an average engagement of 6m 30s.",
-      "metric": "32",
+      "description": "29 sessions with an average engagement of 7m 9s.",
+      "metric": "29",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -35,7 +35,7 @@
       "type": "positive",
       "category": "knowledge",
       "title": "207 internal links connecting content",
-      "description": "Average of 1.3 links per article, creating a well-connected knowledge graph.",
+      "description": "Average of 1.2 links per article, creating a well-connected knowledge graph.",
       "metric": "207",
       "metric_label": "Internal Links",
       "icon": "link",
@@ -44,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 81% of traffic",
-      "description": "38 sessions from Direct this period.",
-      "metric": "81%",
+      "title": "Direct drives 80% of traffic",
+      "description": "35 sessions from Direct this period.",
+      "metric": "80%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -54,8 +54,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "6 returning users (19% of visitors)",
-      "description": "19% of this period's visitors came back for another session.",
+      "title": "6 returning users (21% of visitors)",
+      "description": "21% of this period's visitors came back for another session.",
       "metric": "6",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
+      "title": "2 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
+      "metric": "2 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -74,7 +74,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "title": "Latest commit: chore: update observatory data 2026-10-01",
       "description": "Committed 10/1/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -84,9 +84,9 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 164 articles",
-      "description": "Across 10 categories with 296 unique tags. Total word count: 87,710.",
-      "metric": "164",
+      "title": "Digital garden contains 168 articles",
+      "description": "Across 10 categories with 297 unique tags. Total word count: 90,144.",
+      "metric": "168",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
@@ -95,18 +95,18 @@
       "type": "positive",
       "category": "knowledge",
       "title": "\"Business Intelligence\" is the most content-rich category",
-      "description": "With 49 articles, representing 30% of all content.",
+      "description": "With 49 articles, representing 29% of all content.",
       "metric": "49",
       "metric_label": "Articles",
       "icon": "folder",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-01T03:00:14.304Z",
+  "generated_at": "2026-10-02T03:00:15.020Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-01",
-      "end": "2026-10-01"
+      "start": "2026-09-02",
+      "end": "2026-10-02"
     }
   }
 }
