@@ -11,6 +11,7 @@ tags:
   - metaverse
   - decision-making
 excerpt: "Vision yang besar belum tentu vision yang kuat. Perbandingan AI dan Metaverse menunjukkan pentingnya observasi, pola, asumsi, dan kapabilitas ketika menilai sebuah gambaran masa depan."
+image: /assets/images/og/2026-10-05-ketika-vision-bertemu-realitas-pelajaran-dari-ai-dan-metaverse.png
 ---
 
 ## Ringkasan
