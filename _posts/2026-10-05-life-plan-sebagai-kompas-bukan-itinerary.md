@@ -10,6 +10,7 @@ tags:
   - systems-thinking
   - personal-philosophy
 excerpt: "Life plan tidak selalu harus menjadi daftar pencapaian. Ia juga dapat menjadi kompas yang menjaga arah ketika target dan keadaan hidup berubah."
+image: /assets/images/og/2026-10-05-life-plan-sebagai-kompas-bukan-itinerary.png
 ---
 
 ## Ringkasan
