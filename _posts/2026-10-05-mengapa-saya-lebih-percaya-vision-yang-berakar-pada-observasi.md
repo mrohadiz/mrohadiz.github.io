@@ -10,6 +10,7 @@ tags:
   - observability
   - decision-making
 excerpt: "Vision yang kuat tidak selalu lahir dari intuisi semata. Banyak vision yang bertahan lama justru berakar pada observasi, pola yang berulang, dan interpretasi terhadap realitas yang diamati."
+image: /assets/images/og/2026-10-05-mengapa-saya-lebih-percaya-vision-yang-berakar-pada-observasi.png
 ---
 
 # Ringkasan
