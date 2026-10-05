@@ -11,6 +11,7 @@ tags:
   - vrio
   - decision-making
 excerpt: "Memiliki aset strategis tidak otomatis menghasilkan keunggulan. Organisasi juga harus mampu mengubah aset tersebut menjadi keputusan, tindakan, dan hasil."
+image: /assets/images/og/2026-10-05-mengapa-organisasi-gagal-memanfaatkan-aset-yang-sudah-dimiliki.png
 ---
 
 # Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?
