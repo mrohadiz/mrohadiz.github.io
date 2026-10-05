@@ -11,6 +11,7 @@ tags:
   - leadership
   - business
 excerpt: "Salah satu kesalahan umum dalam organisasi adalah mengevaluasi aset jangka panjang dengan metrik jangka pendek. Akibatnya, sesuatu yang sedang membangun kemampuan masa depan mudah terlihat hanya sebagai beban hari ini."
+image: /assets/images/og/2026-10-05-ketika-aset-masa-depan-terlihat-seperti-beban-hari-ini.png
 ---
 
 # Ketika Aset Masa Depan Terlihat Seperti Beban Hari Ini
