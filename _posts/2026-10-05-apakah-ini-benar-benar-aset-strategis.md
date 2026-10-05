@@ -11,6 +11,7 @@ tags:
   - resource-based-view
   - decision-making
 excerpt: "Tidak semua aset yang mahal untuk dibangun akan menjadi keunggulan kompetitif. VRIO membantu menguji apakah sebuah sumber daya benar-benar bernilai strategis atau hanya sekadar kebutuhan operasional."
+image: /assets/images/og/2026-10-05-apakah-ini-benar-benar-aset-strategis.png
 ---
 
 # Apakah Ini Benar-Benar Aset Strategis?
