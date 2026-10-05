@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-10-05T03:00:14.111Z",
+  "collected_at": "2026-10-05T08:01:30.550Z",
   "summary": {
-    "total_articles": 168,
+    "total_articles": 171,
     "total_categories": 10,
-    "total_tags": 297,
+    "total_tags": 301,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 90144
+    "total_word_count": 91811
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.2916666666666667
+      "percentage": 0.28654970760233917
     },
     {
       "name": "Decision Systems",
-      "count": 32,
-      "percentage": 0.19047619047619047
+      "count": 35,
+      "percentage": 0.2046783625730994
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.16666666666666666
+      "percentage": 0.16374269005847952
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.1130952380952381
+      "percentage": 0.1111111111111111
     },
     {
       "name": "Infrastructure",
       "count": 15,
-      "percentage": 0.08928571428571429
+      "percentage": 0.08771929824561403
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06547619047619048
+      "percentage": 0.06432748538011696
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.047619047619047616
+      "percentage": 0.04678362573099415
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.023809523809523808
+      "percentage": 0.023391812865497075
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.005952380952380952
+      "percentage": 0.005847953216374269
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.005952380952380952
+      "percentage": 0.005847953216374269
     }
   ],
   "tags": [
@@ -68,7 +68,7 @@
     },
     {
       "name": "systems-thinking",
-      "count": 20
+      "count": 23
     },
     {
       "name": "\"seo\"",
@@ -76,7 +76,7 @@
     },
     {
       "name": "decision-making",
-      "count": 13
+      "count": 16
     },
     {
       "name": "\"devops\"",
@@ -84,7 +84,7 @@
     },
     {
       "name": "observability",
-      "count": 11
+      "count": 12
     },
     {
       "name": "decision-systems",
@@ -163,6 +163,10 @@
       "count": 6
     },
     {
+      "name": "ai",
+      "count": 5
+    },
+    {
       "name": "\"iklan-online\"",
       "count": 5
     },
@@ -172,10 +176,6 @@
     },
     {
       "name": "\"cro\"",
-      "count": 4
-    },
-    {
-      "name": "ai",
       "count": 4
     },
     {
@@ -480,6 +480,10 @@
     },
     {
       "name": "website",
+      "count": 2
+    },
+    {
+      "name": "vision",
       "count": 2
     },
     {
@@ -1249,9 +1253,70 @@
     {
       "name": "network",
       "count": 1
+    },
+    {
+      "name": "metaverse",
+      "count": 1
+    },
+    {
+      "name": "life-plan",
+      "count": 1
+    },
+    {
+      "name": "personal-philosophy",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
+      "url": "/2026/10/05/ketika-vision-bertemu-realitas-pelajaran-dari-ai-dan-metaverse/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "vision",
+        "systems-thinking",
+        "ai",
+        "metaverse",
+        "decision-making"
+      ],
+      "word_count": 676,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
+      "url": "/2026/10/05/life-plan-sebagai-kompas-bukan-itinerary/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "life-plan",
+        "decision-making",
+        "systems-thinking",
+        "personal-philosophy"
+      ],
+      "word_count": 591,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Mengapa Saya Lebih Percaya Vision yang Berakar pada Observasi\"",
+      "url": "/2026/10/05/mengapa-saya-lebih-percaya-vision-yang-berakar-pada-observasi/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "vision",
+        "systems-thinking",
+        "observability",
+        "decision-making"
+      ],
+      "word_count": 400,
+      "reading_time": 3,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
     {
       "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
       "url": "/2026/10/01/bahaya-root-cause-yang-terlalu-berhasil/",
@@ -3938,6 +4003,21 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
+      "date": "2026-10-05",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
+      "date": "2026-10-05",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Mengapa Saya Lebih Percaya Vision yang Berakar pada Observasi\"",
+      "date": "2026-10-05",
+      "category": "Decision Systems"
+    },
+    {
       "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
       "date": "2026-10-01",
       "category": "Decision Systems"
@@ -3946,25 +4026,25 @@
       "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
       "date": "2026-10-01",
       "category": "Decision Systems"
-    },
-    {
-      "title": "\"Masalah Data Bukan Selalu Masalah Sistem\"",
-      "date": "2026-10-01",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Outbound Tinggi Tidak Selalu Berarti Serangan\"",
-      "date": "2026-10-01",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
-      "date": "2026-09-19",
-      "category": "Infrastructure"
     }
   ],
   "most_updated": [
     {
+      "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
+      "updates": 1,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
+      "updates": 1,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Mengapa Saya Lebih Percaya Vision yang Berakar pada Observasi\"",
+      "updates": 1,
+      "last_updated": "2026-10-05"
+    },
+    {
       "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
       "updates": 1,
       "last_updated": "2026-10-01"
@@ -3973,21 +4053,6 @@
       "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
       "updates": 1,
       "last_updated": "2026-10-01"
-    },
-    {
-      "title": "\"Masalah Data Bukan Selalu Masalah Sistem\"",
-      "updates": 1,
-      "last_updated": "2026-10-01"
-    },
-    {
-      "title": "\"Outbound Tinggi Tidak Selalu Berarti Serangan\"",
-      "updates": 1,
-      "last_updated": "2026-10-01"
-    },
-    {
-      "title": "\"Server Tidak Dibangun Berdasarkan Jumlah Visitor\"",
-      "updates": 1,
-      "last_updated": "2026-09-19"
     }
   ]
 }

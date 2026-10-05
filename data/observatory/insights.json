@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-05T03:00:14.220Z",
+  "collected_at": "2026-10-05T08:01:30.669Z",
   "insights": [
     {
       "type": "positive",
@@ -84,7 +84,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
+      "title": "Latest commit: chore: update observatory data 2026-10-05",
       "description": "Committed 10/5/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -94,15 +94,15 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 168 articles",
-      "description": "Across 10 categories with 297 unique tags. Total word count: 90,144.",
-      "metric": "168",
+      "title": "Digital garden contains 171 articles",
+      "description": "Across 10 categories with 301 unique tags. Total word count: 91,811.",
+      "metric": "171",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-05T03:00:14.220Z",
+  "generated_at": "2026-10-05T08:01:30.669Z",
   "analysis_period": {
     "current": {
       "start": "2026-09-05",
