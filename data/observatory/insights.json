@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-05T08:01:30.669Z",
+  "collected_at": "2026-10-06T03:00:31.038Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 32%",
-      "description": "From 22 to 29 users this period.",
-      "metric": "+32%",
+      "title": "Site visitors increased 71%",
+      "description": "From 17 to 29 users this period.",
+      "metric": "+71%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
+      "title": "2 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
+      "metric": "2 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -84,7 +84,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-10-05",
+      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
       "description": "Committed 10/5/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-05T08:01:30.669Z",
+  "generated_at": "2026-10-06T03:00:31.038Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-05",
-      "end": "2026-10-05"
+      "start": "2026-09-06",
+      "end": "2026-10-06"
     }
   }
 }
