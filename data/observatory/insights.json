@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-06T03:00:31.038Z",
+  "collected_at": "2026-10-06T08:04:29.605Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 71%",
-      "description": "From 17 to 29 users this period.",
-      "metric": "+71%",
+      "title": "Site visitors increased 107%",
+      "description": "From 15 to 31 users this period.",
+      "metric": "+107%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 17s per session",
-      "description": "Across 43 sessions from 29 users this period.",
-      "metric": "5m 17s",
+      "title": "Average engagement is 4m 56s per session",
+      "description": "Across 46 sessions from 31 users this period.",
+      "metric": "4m 56s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Mobile engagement is 49% higher than desktop",
-      "description": "6m 28s on mobile vs 4m 20s on desktop.",
-      "metric": "+49%",
+      "title": "Mobile engagement is 45% higher than desktop",
+      "description": "5m 58s on mobile vs 4m 7s on desktop.",
+      "metric": "+45%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "27 sessions with an average engagement of 7m 41s.",
-      "metric": "27",
+      "description": "29 sessions with an average engagement of 7m 10s.",
+      "metric": "29",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 79% of traffic",
-      "description": "34 sessions from Direct this period.",
-      "metric": "79%",
+      "title": "Direct drives 78% of traffic",
+      "description": "36 sessions from Direct this period.",
+      "metric": "78%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,8 +64,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "7 returning users (24% of visitors)",
-      "description": "24% of this period's visitors came back for another session.",
+      "title": "7 returning users (23% of visitors)",
+      "description": "23% of this period's visitors came back for another session.",
       "metric": "7",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore(seo): auto-generate open graph images [skip ",
-      "description": "Committed 10/5/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-10-06",
+      "description": "Committed 10/6/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -94,15 +94,15 @@
     {
       "type": "positive",
       "category": "knowledge",
-      "title": "Digital garden contains 171 articles",
-      "description": "Across 10 categories with 301 unique tags. Total word count: 91,811.",
-      "metric": "171",
+      "title": "Digital garden contains 174 articles",
+      "description": "Across 10 categories with 307 unique tags. Total word count: 93,984.",
+      "metric": "174",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-06T03:00:31.038Z",
+  "generated_at": "2026-10-06T08:04:29.606Z",
   "analysis_period": {
     "current": {
       "start": "2026-09-06",

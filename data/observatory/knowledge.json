@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-10-06T03:00:30.913Z",
+  "collected_at": "2026-10-06T08:04:29.514Z",
   "summary": {
-    "total_articles": 171,
+    "total_articles": 174,
     "total_categories": 10,
-    "total_tags": 301,
+    "total_tags": 307,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 91811
+    "total_word_count": 93984
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.28654970760233917
+      "percentage": 0.28160919540229884
     },
     {
       "name": "Decision Systems",
-      "count": 35,
-      "percentage": 0.2046783625730994
+      "count": 38,
+      "percentage": 0.21839080459770116
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.16374269005847952
+      "percentage": 0.16091954022988506
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.1111111111111111
+      "percentage": 0.10919540229885058
     },
     {
       "name": "Infrastructure",
       "count": 15,
-      "percentage": 0.08771929824561403
+      "percentage": 0.08620689655172414
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06432748538011696
+      "percentage": 0.06321839080459771
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.04678362573099415
+      "percentage": 0.04597701149425287
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.023391812865497075
+      "percentage": 0.022988505747126436
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.005847953216374269
+      "percentage": 0.005747126436781609
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.005847953216374269
+      "percentage": 0.005747126436781609
     }
   ],
   "tags": [
@@ -68,14 +68,14 @@
     },
     {
       "name": "systems-thinking",
-      "count": 23
-    },
-    {
-      "name": "\"seo\"",
-      "count": 16
+      "count": 24
     },
     {
       "name": "decision-making",
+      "count": 19
+    },
+    {
+      "name": "\"seo\"",
       "count": 16
     },
     {
@@ -120,6 +120,10 @@
     },
     {
       "name": "architecture",
+      "count": 7
+    },
+    {
+      "name": "strategy",
       "count": 7
     },
     {
@@ -176,10 +180,6 @@
     },
     {
       "name": "\"cro\"",
-      "count": 4
-    },
-    {
-      "name": "strategy",
       "count": 4
     },
     {
@@ -343,6 +343,10 @@
       "count": 3
     },
     {
+      "name": "business",
+      "count": 3
+    },
+    {
       "name": "\"docker\"",
       "count": 2
     },
@@ -471,15 +475,15 @@
       "count": 2
     },
     {
-      "name": "business",
-      "count": 2
-    },
-    {
       "name": "evidence",
       "count": 2
     },
     {
       "name": "website",
+      "count": 2
+    },
+    {
+      "name": "vrio",
       "count": 2
     },
     {
@@ -1255,6 +1259,18 @@
       "count": 1
     },
     {
+      "name": "competitive-advantage",
+      "count": 1
+    },
+    {
+      "name": "resource-based-view",
+      "count": 1
+    },
+    {
+      "name": "leadership",
+      "count": 1
+    },
+    {
       "name": "metaverse",
       "count": 1
     },
@@ -1265,9 +1281,51 @@
     {
       "name": "personal-philosophy",
       "count": 1
+    },
+    {
+      "name": "organizational-capability",
+      "count": 1
+    },
+    {
+      "name": "execution",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
+      "url": "/2026/10/05/apakah-ini-benar-benar-aset-strategis/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "vrio",
+        "strategy",
+        "competitive-advantage",
+        "resource-based-view",
+        "decision-making"
+      ],
+      "word_count": 728,
+      "reading_time": 5,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Ketika Aset Masa Depan Terlihat Seperti Beban Hari Ini\"",
+      "url": "/2026/10/05/ketika-aset-masa-depan-terlihat-seperti-beban-hari-ini/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "decision-making",
+        "strategy",
+        "systems-thinking",
+        "leadership",
+        "business"
+      ],
+      "word_count": 715,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
     {
       "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
       "url": "/2026/10/05/ketika-vision-bertemu-realitas-pelajaran-dari-ai-dan-metaverse/",
@@ -1298,6 +1356,23 @@
       ],
       "word_count": 591,
       "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?\"",
+      "url": "/2026/10/05/mengapa-organisasi-gagal-memanfaatkan-aset-yang-sudah-dimiliki/",
+      "date": "2026-10-05",
+      "category": "Decision Systems",
+      "tags": [
+        "strategy",
+        "organizational-capability",
+        "execution",
+        "vrio",
+        "decision-making"
+      ],
+      "word_count": 730,
+      "reading_time": 5,
       "internal_links": 0,
       "last_updated": "2026-10-05"
     },
@@ -4003,6 +4078,16 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
+      "date": "2026-10-05",
+      "category": "Decision Systems"
+    },
+    {
+      "title": "\"Ketika Aset Masa Depan Terlihat Seperti Beban Hari Ini\"",
+      "date": "2026-10-05",
+      "category": "Decision Systems"
+    },
+    {
       "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
       "date": "2026-10-05",
       "category": "Decision Systems"
@@ -4013,23 +4098,23 @@
       "category": "Decision Systems"
     },
     {
-      "title": "\"Mengapa Saya Lebih Percaya Vision yang Berakar pada Observasi\"",
+      "title": "\"Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?\"",
       "date": "2026-10-05",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
-      "date": "2026-10-01",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
-      "date": "2026-10-01",
       "category": "Decision Systems"
     }
   ],
   "most_updated": [
     {
+      "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
+      "updates": 1,
+      "last_updated": "2026-10-05"
+    },
+    {
+      "title": "\"Ketika Aset Masa Depan Terlihat Seperti Beban Hari Ini\"",
+      "updates": 1,
+      "last_updated": "2026-10-05"
+    },
+    {
       "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
       "updates": 1,
       "last_updated": "2026-10-05"
@@ -4040,19 +4125,9 @@
       "last_updated": "2026-10-05"
     },
     {
-      "title": "\"Mengapa Saya Lebih Percaya Vision yang Berakar pada Observasi\"",
+      "title": "\"Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?\"",
       "updates": 1,
       "last_updated": "2026-10-05"
-    },
-    {
-      "title": "\"Bahaya Root Cause yang Terlalu Berhasil\"",
-      "updates": 1,
-      "last_updated": "2026-10-01"
-    },
-    {
-      "title": "\"Gejala yang Sama Tidak Selalu Memiliki Penyebab yang Sama\"",
-      "updates": 1,
-      "last_updated": "2026-10-01"
     }
   ]
 }
