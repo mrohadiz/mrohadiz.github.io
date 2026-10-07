@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-07T03:00:22.987Z",
+  "collected_at": "2026-10-07T08:00:20.861Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 182%",
-      "description": "From 11 to 31 users this period.",
-      "metric": "+182%",
+      "title": "Site visitors increased 191%",
+      "description": "From 11 to 32 users this period.",
+      "metric": "+191%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,19 +14,29 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 24s per session",
-      "description": "Across 47 sessions from 31 users this period.",
-      "metric": "5m 24s",
+      "title": "Average engagement is 5m 18s per session",
+      "description": "Across 48 sessions from 32 users this period.",
+      "metric": "5m 18s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
+      "type": "positive",
+      "category": "traffic",
+      "title": "Mobile engagement is 19% higher than desktop",
+      "description": "5m 58s on mobile vs 5m 1s on desktop.",
+      "metric": "+19%",
+      "metric_label": "Mobile vs Desktop",
+      "icon": "smartphone",
+      "priority": "medium"
+    },
+    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "30 sessions with an average engagement of 6m 55s.",
-      "metric": "30",
+      "description": "31 sessions with an average engagement of 6m 43s.",
+      "metric": "31",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -45,7 +55,7 @@
       "type": "neutral",
       "category": "traffic",
       "title": "Direct drives 79% of traffic",
-      "description": "37 sessions from Direct this period.",
+      "description": "38 sessions from Direct this period.",
       "metric": "79%",
       "metric_label": "Traffic Share",
       "icon": "globe",
@@ -54,8 +64,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "7 returning users (23% of visitors)",
-      "description": "23% of this period's visitors came back for another session.",
+      "title": "7 returning users (22% of visitors)",
+      "description": "22% of this period's visitors came back for another session.",
       "metric": "7",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -74,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-10-06",
-      "description": "Committed 10/6/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-10-07",
+      "description": "Committed 10/7/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -90,19 +100,9 @@
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
-    },
-    {
-      "type": "positive",
-      "category": "knowledge",
-      "title": "\"Business Intelligence\" is the most content-rich category",
-      "description": "With 49 articles, representing 28% of all content.",
-      "metric": "49",
-      "metric_label": "Articles",
-      "icon": "folder",
-      "priority": "low"
     }
   ],
-  "generated_at": "2026-10-07T03:00:22.987Z",
+  "generated_at": "2026-10-07T08:00:20.862Z",
   "analysis_period": {
     "current": {
       "start": "2026-09-07",
