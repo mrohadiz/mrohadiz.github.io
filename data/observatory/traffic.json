@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-10-06T08:04:26.560Z",
+  "collected_at": "2026-10-07T03:00:19.224Z",
   "period": {
-    "start": "2026-09-06",
-    "end": "2026-10-06"
+    "start": "2026-09-07",
+    "end": "2026-10-07"
   },
   "daily_trend": [
     {
@@ -103,56 +103,56 @@
     {
       "date": "2026-10-06",
       "users": 3,
-      "sessions": 3
+      "sessions": 4
     }
   ],
   "summary": {
     "total_users": 31,
-    "total_sessions": 46,
-    "avg_engagement_time": 296,
-    "bounce_rate": 0.4583333333333333,
+    "total_sessions": 47,
+    "avg_engagement_time": 324,
+    "bounce_rate": 0.4339622641509434,
     "returning_users": 7,
-    "avg_pages_per_session": 2.4
+    "avg_pages_per_session": 2.5
   },
   "previous_period": {
-    "total_users": 15,
-    "total_sessions": 28,
-    "avg_engagement_time": 432,
-    "bounce_rate": 0.3888888888888889
+    "total_users": 11,
+    "total_sessions": 21,
+    "avg_engagement_time": 530,
+    "bounce_rate": 0.375
   },
   "trend": {
-    "users_change": 1.0666666666666667,
-    "sessions_change": 0.6428571428571429,
-    "engagement_time_change": -0.31392705677903326,
-    "bounce_rate_change": 0.1785714285714285
+    "users_change": 1.8181818181818181,
+    "sessions_change": 1.2380952380952381,
+    "engagement_time_change": -0.3888025588380103,
+    "bounce_rate_change": 0.15723270440251577
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 36,
-      "percentage": 0.782608695652174
+      "sessions": 37,
+      "percentage": 0.7872340425531915
     },
     {
       "source": "Chatgpt.com",
       "sessions": 5,
-      "percentage": 0.10869565217391304
+      "percentage": 0.10638297872340426
     },
     {
       "source": "Ig",
       "sessions": 4,
-      "percentage": 0.08695652173913043
+      "percentage": 0.0851063829787234
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.021739130434782608
+      "percentage": 0.02127659574468085
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 29,
-      "avg_engagement_time": 430
+      "sessions": 30,
+      "avg_engagement_time": 415
     },
     {
       "page": "/observatory/",
@@ -165,6 +165,16 @@
       "avg_engagement_time": 32
     },
     {
+      "page": "/projects/",
+      "sessions": 2,
+      "avg_engagement_time": 11
+    },
+    {
+      "page": "/about/",
+      "sessions": 2,
+      "avg_engagement_time": 852
+    },
+    {
       "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
       "sessions": 2,
       "avg_engagement_time": 25
@@ -175,51 +185,41 @@
       "avg_engagement_time": 4
     },
     {
-      "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAac13cEgg2v8_XTpVxh0OBk1zKLuUv2HNDy-K_Lc7KHGO89P6J1LcT8emlxJTQ_aem_Hy_ULoq5XstRu-p_MjCQ_A",
+      "page": "/topics/business-intelligence/",
       "sessions": 1,
-      "avg_engagement_time": 7
-    },
-    {
-      "page": "/2024/12/20/ooda-loop-architecture/",
-      "sessions": 1,
-      "avg_engagement_time": 3
-    },
-    {
-      "page": "/?",
-      "sessions": 1,
-      "avg_engagement_time": 0
+      "avg_engagement_time": 665
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 29,
-      "percentage": 0.6304347826086957
+      "sessions": 30,
+      "percentage": 0.6382978723404256
     },
     {
       "country": "Singapore",
       "sessions": 7,
-      "percentage": 0.15217391304347827
+      "percentage": 0.14893617021276595
     },
     {
       "country": "United States",
       "sessions": 4,
-      "percentage": 0.08695652173913043
+      "percentage": 0.0851063829787234
     },
     {
       "country": "United Kingdom",
       "sessions": 3,
-      "percentage": 0.06521739130434782
+      "percentage": 0.06382978723404255
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.043478260869565216
+      "percentage": 0.0425531914893617
     },
     {
       "country": "Germany",
       "sessions": 1,
-      "percentage": 0.021739130434782608
+      "percentage": 0.02127659574468085
     }
   ],
   "device_distribution": [
@@ -227,33 +227,33 @@
       "device": "Mobile",
       "sessions": 25,
       "avg_engagement_time": 358,
-      "percentage": 0.5434782608695652
+      "percentage": 0.5319148936170213
     },
     {
       "device": "Desktop",
-      "sessions": 19,
-      "avg_engagement_time": 247,
-      "percentage": 0.41304347826086957
+      "sessions": 20,
+      "avg_engagement_time": 314,
+      "percentage": 0.425531914893617
     },
     {
       "device": "Tablet",
       "sessions": 2,
       "avg_engagement_time": 3,
-      "percentage": 0.043478260869565216
+      "percentage": 0.0425531914893617
     }
   ],
   "reading": {
-    "avg_max_scroll": 38,
-    "deep_read_pct": 0.313,
-    "sessions": 48,
+    "avg_max_scroll": 39,
+    "deep_read_pct": 0.321,
+    "sessions": 53,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5208333333333334
+        "pct": 0.49056603773584906
       },
       {
         "label": "25-50%",
-        "pct": 0.16666666666666666
+        "pct": 0.18867924528301888
       },
       {
         "label": "50-75%",
@@ -261,7 +261,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3125
+        "pct": 0.32075471698113206
       }
     ],
     "top_pages": [
@@ -278,8 +278,26 @@
         "deep_read_pct": 1
       },
       {
+        "page": "/projects/",
+        "sessions": 2,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/about/",
+        "sessions": 2,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
         "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
         "sessions": 2,
+        "avg_max_scroll": 50,
+        "deep_read_pct": 0
+      },
+      {
+        "page": "/topics/",
+        "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
       },
@@ -294,24 +312,6 @@
         "sessions": 1,
         "avg_max_scroll": 50,
         "deep_read_pct": 0
-      },
-      {
-        "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAacKhaOFEn8knHuCEU01xjv4pd4XQTbap0_4P5sf6uGzwyCSF3S2JNsBaFeGNA_aem_LqLitZHQpUE26vQ0aRi8tw",
-        "sessions": 1,
-        "avg_max_scroll": 75,
-        "deep_read_pct": 1
-      },
-      {
-        "page": "/statistik/",
-        "sessions": 1,
-        "avg_max_scroll": 25,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/?fbclid=IwZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR6sdnoOcH7WwwvLTIqQElUDr9ctcfrmxNhn-i3HMVw6IHW9XSjBk0yP5cKK9A_aem_YQioECq9FxZhAZLQzyzIKQ",
-        "sessions": 1,
-        "avg_max_scroll": 100,
-        "deep_read_pct": 1
       }
     ]
   },
@@ -333,6 +333,14 @@
       "sessions": 3
     },
     {
+      "element": "Projects",
+      "sessions": 2
+    },
+    {
+      "element": "About",
+      "sessions": 2
+    },
+    {
       "element": "Overview",
       "sessions": 2
     },
@@ -347,14 +355,6 @@
     {
       "element": "Buka Semua Catatan",
       "sessions": 2
-    },
-    {
-      "element": "Statistik",
-      "sessions": 1
-    },
-    {
-      "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
-      "sessions": 1
     }
   ],
   "views_by_hour": [
@@ -392,11 +392,11 @@
     },
     {
       "hour": 8,
-      "views": 2
+      "views": 6
     },
     {
       "hour": 9,
-      "views": 1
+      "views": 2
     },
     {
       "hour": 10,
@@ -457,11 +457,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 7272,
-    "bot_ua_sessions": 612,
-    "automated_sessions": 28,
-    "automated_session_events": 1453,
-    "sessions_removed": 640,
-    "docs_after_filter": 1265
+    "bot_ua_events": 7404,
+    "bot_ua_sessions": 631,
+    "automated_sessions": 25,
+    "automated_session_events": 1341,
+    "sessions_removed": 656,
+    "docs_after_filter": 1245
   }
 }

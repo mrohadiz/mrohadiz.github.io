@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-06T08:04:29.605Z",
+  "collected_at": "2026-10-07T03:00:22.987Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 107%",
-      "description": "From 15 to 31 users this period.",
-      "metric": "+107%",
+      "title": "Site visitors increased 182%",
+      "description": "From 11 to 31 users this period.",
+      "metric": "+182%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,29 +14,19 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 4m 56s per session",
-      "description": "Across 46 sessions from 31 users this period.",
-      "metric": "4m 56s",
+      "title": "Average engagement is 5m 24s per session",
+      "description": "Across 47 sessions from 31 users this period.",
+      "metric": "5m 24s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
-      "type": "positive",
-      "category": "traffic",
-      "title": "Mobile engagement is 45% higher than desktop",
-      "description": "5m 58s on mobile vs 4m 7s on desktop.",
-      "metric": "+45%",
-      "metric_label": "Mobile vs Desktop",
-      "icon": "smartphone",
-      "priority": "medium"
-    },
-    {
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "29 sessions with an average engagement of 7m 10s.",
-      "metric": "29",
+      "description": "30 sessions with an average engagement of 6m 55s.",
+      "metric": "30",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 78% of traffic",
-      "description": "36 sessions from Direct this period.",
-      "metric": "78%",
+      "title": "Direct drives 79% of traffic",
+      "description": "37 sessions from Direct this period.",
+      "metric": "79%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -74,9 +64,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "2 consecutive days of commits",
+      "title": "3 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "2 days",
+      "metric": "3 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -100,13 +90,23 @@
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
+    },
+    {
+      "type": "positive",
+      "category": "knowledge",
+      "title": "\"Business Intelligence\" is the most content-rich category",
+      "description": "With 49 articles, representing 28% of all content.",
+      "metric": "49",
+      "metric_label": "Articles",
+      "icon": "folder",
+      "priority": "low"
     }
   ],
-  "generated_at": "2026-10-06T08:04:29.606Z",
+  "generated_at": "2026-10-07T03:00:22.987Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-06",
-      "end": "2026-10-06"
+      "start": "2026-09-07",
+      "end": "2026-10-07"
     }
   }
 }
