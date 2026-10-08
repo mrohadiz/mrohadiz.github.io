@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-10-07T08:00:17.679Z",
+  "collected_at": "2026-10-08T08:00:14.245Z",
   "period": {
-    "start": "2026-09-07",
-    "end": "2026-10-07"
+    "start": "2026-09-08",
+    "end": "2026-10-08"
   },
   "daily_trend": [
     {
@@ -107,57 +107,57 @@
     },
     {
       "date": "2026-10-07",
-      "users": 1,
-      "sessions": 1
+      "users": 3,
+      "sessions": 3
     }
   ],
   "summary": {
-    "total_users": 32,
-    "total_sessions": 48,
-    "avg_engagement_time": 318,
-    "bounce_rate": 0.4444444444444444,
+    "total_users": 34,
+    "total_sessions": 50,
+    "avg_engagement_time": 305,
+    "bounce_rate": 0.45454545454545453,
     "returning_users": 7,
-    "avg_pages_per_session": 2.5
+    "avg_pages_per_session": 2.4
   },
   "previous_period": {
-    "total_users": 11,
-    "total_sessions": 21,
-    "avg_engagement_time": 530,
+    "total_users": 8,
+    "total_sessions": 18,
+    "avg_engagement_time": 617,
     "bounce_rate": 0.375
   },
   "trend": {
-    "users_change": 1.9090909090909092,
-    "sessions_change": 1.2857142857142858,
-    "engagement_time_change": -0.3997069241418991,
-    "bounce_rate_change": 0.18518518518518512
+    "users_change": 3.25,
+    "sessions_change": 1.7777777777777777,
+    "engagement_time_change": -0.5048118783335737,
+    "bounce_rate_change": 0.21212121212121207
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 38,
-      "percentage": 0.7916666666666666
+      "sessions": 39,
+      "percentage": 0.78
+    },
+    {
+      "source": "Ig",
+      "sessions": 5,
+      "percentage": 0.1
     },
     {
       "source": "Chatgpt.com",
       "sessions": 5,
-      "percentage": 0.10416666666666667
-    },
-    {
-      "source": "Ig",
-      "sessions": 4,
-      "percentage": 0.08333333333333333
+      "percentage": 0.1
     },
     {
       "source": "Google Organic",
       "sessions": 1,
-      "percentage": 0.020833333333333332
+      "percentage": 0.02
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 31,
-      "avg_engagement_time": 403
+      "sessions": 32,
+      "avg_engagement_time": 391
     },
     {
       "page": "/observatory/",
@@ -190,75 +190,80 @@
       "avg_engagement_time": 4
     },
     {
-      "page": "/topics/business-intelligence/",
+      "page": "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaefzDhChA9PTEe6wLnfHaHaqX83s_0wqbKy2agUV7D6wzK6W8TIci0pDe1gog_aem_P_DMTmsH86CG33suaYgitg",
       "sessions": 1,
-      "avg_engagement_time": 665
+      "avg_engagement_time": 5
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 31,
-      "percentage": 0.6458333333333334
+      "sessions": 32,
+      "percentage": 0.64
     },
     {
       "country": "Singapore",
       "sessions": 7,
-      "percentage": 0.14583333333333334
+      "percentage": 0.14
     },
     {
       "country": "United States",
       "sessions": 4,
-      "percentage": 0.08333333333333333
+      "percentage": 0.08
     },
     {
       "country": "United Kingdom",
       "sessions": 3,
-      "percentage": 0.0625
+      "percentage": 0.06
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.041666666666666664
+      "percentage": 0.04
+    },
+    {
+      "country": "Canada",
+      "sessions": 1,
+      "percentage": 0.02
     },
     {
       "country": "Germany",
       "sessions": 1,
-      "percentage": 0.020833333333333332
+      "percentage": 0.02
     }
   ],
   "device_distribution": [
     {
       "device": "Mobile",
-      "sessions": 25,
-      "avg_engagement_time": 358,
-      "percentage": 0.5208333333333334
+      "sessions": 26,
+      "avg_engagement_time": 344,
+      "percentage": 0.52
     },
     {
       "device": "Desktop",
-      "sessions": 21,
-      "avg_engagement_time": 301,
-      "percentage": 0.4375
+      "sessions": 22,
+      "avg_engagement_time": 287,
+      "percentage": 0.44
     },
     {
       "device": "Tablet",
       "sessions": 2,
       "avg_engagement_time": 3,
-      "percentage": 0.041666666666666664
+      "percentage": 0.04
     }
   ],
   "reading": {
-    "avg_max_scroll": 40,
-    "deep_read_pct": 0.333,
-    "sessions": 54,
+    "avg_max_scroll": 39,
+    "deep_read_pct": 0.327,
+    "sessions": 55,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.48148148148148145
+        "pct": 0.4909090909090909
       },
       {
         "label": "25-50%",
-        "pct": 0.18518518518518517
+        "pct": 0.18181818181818182
       },
       {
         "label": "50-75%",
@@ -266,7 +271,7 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3333333333333333
+        "pct": 0.32727272727272727
       }
     ],
     "top_pages": [
@@ -405,7 +410,7 @@
     },
     {
       "hour": 10,
-      "views": 0
+      "views": 1
     },
     {
       "hour": 11,
@@ -429,7 +434,7 @@
     },
     {
       "hour": 16,
-      "views": 2
+      "views": 3
     },
     {
       "hour": 17,
@@ -463,10 +468,10 @@
   "filter_stats": {
     "total_docs": 10000,
     "bot_ua_events": 7407,
-    "bot_ua_sessions": 633,
-    "automated_sessions": 25,
-    "automated_session_events": 1319,
+    "bot_ua_sessions": 634,
+    "automated_sessions": 24,
+    "automated_session_events": 1326,
     "sessions_removed": 658,
-    "docs_after_filter": 1264
+    "docs_after_filter": 1257
   }
 }
