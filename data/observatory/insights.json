@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-08T08:00:17.841Z",
+  "collected_at": "2026-10-09T03:00:37.477Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 325%",
-      "description": "From 8 to 34 users this period.",
-      "metric": "+325%",
+      "title": "Site visitors increased 338%",
+      "description": "From 8 to 35 users this period.",
+      "metric": "+338%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 5m 5s per session",
-      "description": "Across 50 sessions from 34 users this period.",
-      "metric": "5m 5s",
+      "title": "Average engagement is 5m per session",
+      "description": "Across 51 sessions from 35 users this period.",
+      "metric": "5m",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Mobile engagement is 20% higher than desktop",
-      "description": "5m 44s on mobile vs 4m 47s on desktop.",
-      "metric": "+20%",
+      "title": "Mobile engagement is 25% higher than desktop",
+      "description": "5m 44s on mobile vs 4m 36s on desktop.",
+      "metric": "+25%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "32 sessions with an average engagement of 6m 31s.",
-      "metric": "32",
+      "description": "33 sessions with an average engagement of 6m 20s.",
+      "metric": "33",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 78% of traffic",
+      "title": "Direct drives 76% of traffic",
       "description": "39 sessions from Direct this period.",
-      "metric": "78%",
+      "metric": "76%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,8 +64,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "7 returning users (21% of visitors)",
-      "description": "21% of this period's visitors came back for another session.",
+      "title": "7 returning users (20% of visitors)",
+      "description": "20% of this period's visitors came back for another session.",
       "metric": "7",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "4 consecutive days of commits",
+      "title": "5 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "4 days",
+      "metric": "5 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-10-07",
-      "description": "Committed 10/7/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-10-08",
+      "description": "Committed 10/8/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-08T08:00:17.841Z",
+  "generated_at": "2026-10-09T03:00:37.477Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-08",
-      "end": "2026-10-08"
+      "start": "2026-09-09",
+      "end": "2026-10-09"
     }
   }
 }
