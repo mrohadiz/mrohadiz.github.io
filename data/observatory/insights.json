@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-09T08:04:27.274Z",
+  "collected_at": "2026-10-12T03:00:13.801Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 363%",
-      "description": "From 8 to 37 users this period.",
-      "metric": "+363%",
+      "title": "Site visitors increased 567%",
+      "description": "From 6 to 40 users this period.",
+      "metric": "+567%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 4m 51s per session",
-      "description": "Across 53 sessions from 37 users this period.",
-      "metric": "4m 51s",
+      "title": "Average engagement is 4m 50s per session",
+      "description": "Across 56 sessions from 40 users this period.",
+      "metric": "4m 50s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Mobile engagement is 33% higher than desktop",
-      "description": "5m 44s on mobile vs 4m 18s on desktop.",
-      "metric": "+33%",
+      "title": "Mobile engagement is 50% higher than desktop",
+      "description": "6m 8s on mobile vs 4m 6s on desktop.",
+      "metric": "+50%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,10 +35,20 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "33 sessions with an average engagement of 6m 20s.",
-      "metric": "33",
+      "description": "38 sessions with an average engagement of 5m 52s.",
+      "metric": "38",
       "metric_label": "Sessions",
       "icon": "eye",
+      "priority": "medium"
+    },
+    {
+      "type": "neutral",
+      "category": "traffic",
+      "title": "Search engines drive 9% of sessions",
+      "description": "5 sessions from Google Organic this period.",
+      "metric": "9%",
+      "metric_label": "Search Referrals",
+      "icon": "search",
       "priority": "medium"
     },
     {
@@ -54,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 75% of traffic",
-      "description": "40 sessions from Direct this period.",
-      "metric": "75%",
+      "title": "Direct drives 73% of traffic",
+      "description": "41 sessions from Direct this period.",
+      "metric": "73%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,21 +74,11 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "7 returning users (19% of visitors)",
-      "description": "19% of this period's visitors came back for another session.",
+      "title": "7 returning users (18% of visitors)",
+      "description": "18% of this period's visitors came back for another session.",
       "metric": "7",
       "metric_label": "Returning Users",
       "icon": "users",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "5 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "5 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
       "priority": "low"
     },
     {
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-09T08:04:27.274Z",
+  "generated_at": "2026-10-12T03:00:13.802Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-09",
-      "end": "2026-10-09"
+      "start": "2026-09-12",
+      "end": "2026-10-12"
     }
   }
 }

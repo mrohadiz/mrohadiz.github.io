@@ -1,20 +1,10 @@
 {
-  "collected_at": "2026-10-09T08:04:24.310Z",
+  "collected_at": "2026-10-12T03:00:10.375Z",
   "period": {
-    "start": "2026-09-09",
-    "end": "2026-10-09"
+    "start": "2026-09-12",
+    "end": "2026-10-12"
   },
   "daily_trend": [
-    {
-      "date": "2026-09-10",
-      "users": 1,
-      "sessions": 1
-    },
-    {
-      "date": "2026-09-11",
-      "users": 1,
-      "sessions": 2
-    },
     {
       "date": "2026-09-13",
       "users": 2,
@@ -119,55 +109,65 @@
       "date": "2026-10-09",
       "users": 2,
       "sessions": 2
+    },
+    {
+      "date": "2026-10-11",
+      "users": 4,
+      "sessions": 5
+    },
+    {
+      "date": "2026-10-12",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 37,
-    "total_sessions": 53,
-    "avg_engagement_time": 291,
-    "bounce_rate": 0.47368421052631576,
+    "total_users": 40,
+    "total_sessions": 56,
+    "avg_engagement_time": 290,
+    "bounce_rate": 0.4915254237288136,
     "returning_users": 7,
     "avg_pages_per_session": 2.4
   },
   "previous_period": {
-    "total_users": 8,
-    "total_sessions": 16,
-    "avg_engagement_time": 541,
-    "bounce_rate": 0.4166666666666667
+    "total_users": 6,
+    "total_sessions": 13,
+    "avg_engagement_time": 61,
+    "bounce_rate": 0.45454545454545453
   },
   "trend": {
-    "users_change": 3.625,
-    "sessions_change": 2.3125,
-    "engagement_time_change": -0.4623697191884681,
-    "bounce_rate_change": 0.1368421052631578
+    "users_change": 5.666666666666667,
+    "sessions_change": 3.3076923076923075,
+    "engagement_time_change": 3.715652629129829,
+    "bounce_rate_change": 0.08135593220338992
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 40,
-      "percentage": 0.7547169811320755
+      "sessions": 41,
+      "percentage": 0.7321428571428571
+    },
+    {
+      "source": "Google Organic",
+      "sessions": 5,
+      "percentage": 0.08928571428571429
     },
     {
       "source": "Ig",
       "sessions": 5,
-      "percentage": 0.09433962264150944
+      "percentage": 0.08928571428571429
     },
     {
       "source": "Chatgpt.com",
       "sessions": 5,
-      "percentage": 0.09433962264150944
-    },
-    {
-      "source": "Google Organic",
-      "sessions": 3,
-      "percentage": 0.05660377358490566
+      "percentage": 0.08928571428571429
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 33,
-      "avg_engagement_time": 380
+      "sessions": 38,
+      "avg_engagement_time": 352
     },
     {
       "page": "/observatory/",
@@ -175,9 +175,9 @@
       "avg_engagement_time": 90
     },
     {
-      "page": "/notes/",
-      "sessions": 3,
-      "avg_engagement_time": 32
+      "page": "/topics/",
+      "sessions": 2,
+      "avg_engagement_time": 2
     },
     {
       "page": "/projects/",
@@ -190,90 +190,90 @@
       "avg_engagement_time": 852
     },
     {
+      "page": "/notes/",
+      "sessions": 2,
+      "avg_engagement_time": 6
+    },
+    {
       "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
       "sessions": 2,
       "avg_engagement_time": 25
     },
     {
-      "page": "/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
-      "sessions": 2,
-      "avg_engagement_time": 4
-    },
-    {
-      "page": "/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
+      "page": "/2025/02/website-lo-diretas-jangan-sampai-ini.html",
       "sessions": 1,
-      "avg_engagement_time": 98
+      "avg_engagement_time": 27
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 34,
-      "percentage": 0.6415094339622641
-    },
-    {
-      "country": "Singapore",
-      "sessions": 7,
-      "percentage": 0.1320754716981132
+      "sessions": 37,
+      "percentage": 0.6607142857142857
     },
     {
       "country": "United States",
-      "sessions": 5,
-      "percentage": 0.09433962264150944
+      "sessions": 6,
+      "percentage": 0.10714285714285714
+    },
+    {
+      "country": "Singapore",
+      "sessions": 6,
+      "percentage": 0.10714285714285714
     },
     {
       "country": "United Kingdom",
       "sessions": 3,
-      "percentage": 0.05660377358490566
+      "percentage": 0.05357142857142857
     },
     {
       "country": "Japan",
       "sessions": 2,
-      "percentage": 0.03773584905660377
+      "percentage": 0.03571428571428571
     },
     {
       "country": "Canada",
       "sessions": 1,
-      "percentage": 0.018867924528301886
+      "percentage": 0.017857142857142856
     },
     {
       "country": "Germany",
       "sessions": 1,
-      "percentage": 0.018867924528301886
+      "percentage": 0.017857142857142856
     }
   ],
   "device_distribution": [
     {
-      "device": "Mobile",
-      "sessions": 26,
-      "avg_engagement_time": 344,
-      "percentage": 0.49056603773584906
+      "device": "Desktop",
+      "sessions": 30,
+      "avg_engagement_time": 246,
+      "percentage": 0.5357142857142857
     },
     {
-      "device": "Desktop",
-      "sessions": 25,
-      "avg_engagement_time": 258,
-      "percentage": 0.4716981132075472
+      "device": "Mobile",
+      "sessions": 24,
+      "avg_engagement_time": 368,
+      "percentage": 0.42857142857142855
     },
     {
       "device": "Tablet",
       "sessions": 2,
       "avg_engagement_time": 3,
-      "percentage": 0.03773584905660377
+      "percentage": 0.03571428571428571
     }
   ],
   "reading": {
     "avg_max_scroll": 39,
-    "deep_read_pct": 0.333,
-    "sessions": 57,
+    "deep_read_pct": 0.339,
+    "sessions": 59,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.49122807017543857
+        "pct": 0.5254237288135594
       },
       {
         "label": "25-50%",
-        "pct": 0.17543859649122806
+        "pct": 0.13559322033898305
       },
       {
         "label": "50-75%",
@@ -281,15 +281,15 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3333333333333333
+        "pct": 0.3389830508474576
       }
     ],
     "top_pages": [
       {
         "page": "/",
         "sessions": 14,
-        "avg_max_scroll": 77,
-        "deep_read_pct": 0.7142857142857143
+        "avg_max_scroll": 80,
+        "deep_read_pct": 0.7857142857142857
       },
       {
         "page": "/observatory/",
@@ -316,22 +316,22 @@
         "deep_read_pct": 0
       },
       {
+        "page": "/2025/02/website-lo-diretas-jangan-sampai-ini.html",
+        "sessions": 1,
+        "avg_max_scroll": 50,
+        "deep_read_pct": 0
+      },
+      {
+        "page": "/topics/infrastructure/",
+        "sessions": 1,
+        "avg_max_scroll": 25,
+        "deep_read_pct": 0
+      },
+      {
         "page": "/?fbclid=IwZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR66z6Icf3qwZV-2mvFAqoxY1KkW6m-K--0Y8m19PPjnZ_kjiQOoV8nFvI5qAg_aem_rQ5bfxkIsfdixAgmJxoB_Q",
         "sessions": 1,
         "avg_max_scroll": 100,
         "deep_read_pct": 1
-      },
-      {
-        "page": "/topics/",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/2024/12/20/ooda-loop-architecture/",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
       }
     ]
   },
@@ -353,6 +353,10 @@
       "sessions": 3
     },
     {
+      "element": "Topics",
+      "sessions": 2
+    },
+    {
       "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
       "sessions": 2
     },
@@ -371,10 +375,6 @@
     {
       "element": "Knowledge",
       "sessions": 2
-    },
-    {
-      "element": "Publishing",
-      "sessions": 2
     }
   ],
   "views_by_hour": [
@@ -384,7 +384,7 @@
     },
     {
       "hour": 1,
-      "views": 3
+      "views": 4
     },
     {
       "hour": 2,
@@ -404,7 +404,7 @@
     },
     {
       "hour": 6,
-      "views": 9
+      "views": 8
     },
     {
       "hour": 7,
@@ -444,11 +444,11 @@
     },
     {
       "hour": 16,
-      "views": 3
+      "views": 10
     },
     {
       "hour": 17,
-      "views": 5
+      "views": 1
     },
     {
       "hour": 18,
@@ -477,11 +477,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 7411,
-    "bot_ua_sessions": 636,
+    "bot_ua_events": 7412,
+    "bot_ua_sessions": 640,
     "automated_sessions": 25,
     "automated_session_events": 1348,
-    "sessions_removed": 661,
-    "docs_after_filter": 1231
+    "sessions_removed": 665,
+    "docs_after_filter": 1230
   }
 }
