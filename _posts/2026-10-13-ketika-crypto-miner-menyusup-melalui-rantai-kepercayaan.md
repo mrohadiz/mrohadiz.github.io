@@ -11,6 +11,7 @@ tags:
   - docker
   - least-privilege
 excerpt: "Investigasi crypto miner memperlihatkan bagaimana hak superuser database dan rantai kepercayaan aplikasi dapat mengubah query SQL menjadi eksekusi perintah sistem."
+image: /assets/images/og/2026-10-13-ketika-crypto-miner-menyusup-melalui-rantai-kepercayaan.png
 ---
 
 # Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL
