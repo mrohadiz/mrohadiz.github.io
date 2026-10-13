@@ -35,6 +35,46 @@ Rantai ini menunjukkan bagaimana beberapa kelemahan dapat saling memperbesar dam
 
 Masing-masing temuan perlu dilihat dalam konteks bukti dan konfigurasi aktual, bukan sebagai asumsi universal.
 
+## Rekonstruksi kronologi berbasis bukti
+
+Kronologi berikut merangkum urutan yang tercatat dalam laporan investigasi. Waktu dan detail infrastruktur internal sengaja disederhanakan untuk publikasi.
+
+| Periode | Fakta yang diamati | Makna forensik |
+|---|---|---|
+| Agustus 2025 | Konfigurasi service database memublikasikan port database ke jaringan publik. | Eksposur yang tidak diperlukan memperbesar permukaan serangan. |
+| 8 September 2026 | Log database mencatat probing koneksi dan query native dari aplikasi analitik yang mencoba menulis lalu membaca artefak uji di filesystem container. | Ada indikasi kuat pengujian kemampuan eksekusi sebelum miner dipasang. |
+| 17 September 2026 | Riwayat login administrator aplikasi menunjukkan sesi dari IP eksternal. Pada hari yang sama, artefak dropper dan konfigurasi miner dibuat, lalu proses miner dan watchdog mulai berjalan. | Urutan waktunya relevan, tetapi belum membuktikan siapa yang mengendalikan sesi tersebut atau bagaimana akses awal diperoleh. |
+| 26 September 2026 | Query native yang tercatat mencoba menginventarisasi arsitektur, jumlah CPU, identitas proses, dan utilitas yang tersedia. | Aktivitas konsisten dengan reconnaissance di dalam container. |
+| 12–13 Oktober 2026 | Audit menemukan miner masih berjalan, dengan penggunaan sekitar empat core CPU. Proses dihentikan dan publikasi port database dicabut dari konfigurasi service serta platform deployment. | Containment proses dan jaringan berhasil dilakukan menurut hasil verifikasi dalam laporan. |
+
+Perbedaan penting: **jalur eksekusi di database didukung bukti langsung**, sedangkan **cara sesi administrator Metabase pertama kali dikuasai belum dipastikan sepenuhnya**. Log native query mengidentifikasi akun aplikasi yang tercatat menjalankan statement, bukan identitas manusia di balik setiap sesi. Laporan juga menyebut log HTTP yang sudah ter-rotate dan logging query yang parsial sebagai keterbatasan.
+
+## Cakupan dampak: bedakan kompromi dan eksposur
+
+Laporan menilai aset berdasarkan bukti yang tersedia, bukan menganggap seluruh layanan di jaringan yang sama telah terkompromi.
+
+| Kategori | Penilaian | Interpretasi |
+|---|---|---|
+| Container database komersial | **Terkonfirmasi terdampak** | Proses miner, watchdog, artefak, dan query eksploitasi ditemukan. |
+| Aplikasi analitik | **Kemungkinan terdampak** | Akun administrator aplikasi tercatat pada query eksploitasi. Status ini tidak dengan sendirinya membuktikan seluruh container aplikasi telah menjalankan malware. |
+| Database aplikasi analitik dan layanan bisnis yang memakai superuser | **Berpotensi terekspos** | Kredensial dan hak akses lintas layanan menciptakan jalur risiko yang harus diputus; bukti kompromi langsung belum ditunjukkan untuk aset ini. |
+| Host Linux | **Tidak ditemukan bukti kompromi dalam cakupan audit** | Pemeriksaan yang dilaporkan tidak menemukan persistence host atau container escape. Ini bukan jaminan mutlak di luar cakupan dan periode log yang diperiksa. |
+| Container lain dan worker mining pool eksternal | **Tidak ditemukan bukti / belum diketahui** | Pemeriksaan lokal tidak menemukan artefak yang dicari pada layanan tertentu. Worker pool eksternal tidak dapat dipetakan menjadi korban terverifikasi tanpa telemetri independen. |
+
+## Apa yang sudah selesai dan apa yang masih terbuka
+
+Menurut laporan, tindakan containment yang telah diverifikasi mencakup penghentian proses miner dan watchdog, penghapusan artefak di direktori sementara container, pencabutan port database yang dipublikasikan, serta sinkronisasi konfigurasi deployment agar port tersebut tidak muncul kembali saat redeploy.
+
+Namun, beberapa tindakan penting masih berstatus terbuka pada checklist laporan:
+
+- Rotasi password role database berprivilege tinggi dan kredensial administrator aplikasi.
+- Penurunan role koneksi aplikasi dari superuser ke hak minimum yang diperlukan.
+- Pengakhiran sesi aplikasi yang masih aktif, audit native query, dan penguatan autentikasi administrator.
+- Aktivasi firewall host serta verifikasi aturan firewall pada jalur trafik Docker.
+- Audit kredensial dan akses pada layanan lain yang berbagi jaringan atau akun database.
+
+Status “miner sudah mati” berarti aktivitas yang diketahui telah dihentikan; itu tidak sama dengan seluruh akar risiko sudah ditutup. Remediasi dianggap tuntas setelah kredensial, privilege, eksposur jaringan, dan jalur eksekusi diuji ulang.
+
 ## Insight utama
 
 ### 1. Cari jalur eksekusi, bukan hanya file malware
