@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-12T03:00:13.801Z",
+  "collected_at": "2026-10-15T08:00:11.643Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 567%",
-      "description": "From 6 to 40 users this period.",
-      "metric": "+567%",
+      "title": "Site visitors increased 720%",
+      "description": "From 5 to 41 users this period.",
+      "metric": "+720%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,19 +14,19 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 4m 50s per session",
-      "description": "Across 56 sessions from 40 users this period.",
-      "metric": "4m 50s",
+      "title": "Average engagement is 2m 5s per session",
+      "description": "Across 56 sessions from 41 users this period.",
+      "metric": "2m 5s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
     },
     {
-      "type": "positive",
+      "type": "warning",
       "category": "traffic",
-      "title": "Mobile engagement is 50% higher than desktop",
-      "description": "6m 8s on mobile vs 4m 6s on desktop.",
-      "metric": "+50%",
+      "title": "Mobile engagement is 75% lower than desktop",
+      "description": "47s on mobile vs 3m 8s on desktop. Consider improving the mobile reading experience.",
+      "metric": "-75%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "38 sessions with an average engagement of 5m 52s.",
-      "metric": "38",
+      "description": "35 sessions with an average engagement of 2m.",
+      "metric": "35",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Search engines drive 9% of sessions",
-      "description": "5 sessions from Google Organic this period.",
-      "metric": "9%",
+      "title": "Search engines drive 11% of sessions",
+      "description": "6 sessions from Google Organic this period.",
+      "metric": "11%",
       "metric_label": "Search Referrals",
       "icon": "search",
       "priority": "medium"
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 73% of traffic",
-      "description": "41 sessions from Direct this period.",
-      "metric": "73%",
+      "title": "Direct drives 71% of traffic",
+      "description": "40 sessions from Direct this period.",
+      "metric": "71%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "7 returning users (18% of visitors)",
-      "description": "18% of this period's visitors came back for another session.",
-      "metric": "7",
+      "title": "6 returning users (15% of visitors)",
+      "description": "15% of this period's visitors came back for another session.",
+      "metric": "6",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-10-09",
-      "description": "Committed 10/9/2026.",
+      "title": "Latest commit: Update article: Ketika Crypto Miner Menyusup melal",
+      "description": "Committed 10/13/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-12T03:00:13.802Z",
+  "generated_at": "2026-10-15T08:00:11.643Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-12",
-      "end": "2026-10-12"
+      "start": "2026-09-15",
+      "end": "2026-10-15"
     }
   }
 }

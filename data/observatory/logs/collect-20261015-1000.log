@@ -1,0 +1,27 @@
+[2026-10-15 10:00:02] === Observatory Collection Start ===
+[2026-10-15 10:00:02] Collecting traffic data from kmstrack...
+◇ injected env (3) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Collecting traffic data from kmstrack for www.mrohadiz.my.id, mrohadiz.my.id, mrohadiz.github.io...
+Connecting to MongoDB...
+Connected to kms_track.kmstrack
+ - www.mrohadiz.my.id: 9761 records
+ - mrohadiz.my.id: 6 records
+ - mrohadiz.github.io: 10000 records
+Total found: 10000 records across [www.mrohadiz.my.id, mrohadiz.my.id, mrohadiz.github.io]
+Sample doc: user=73a60825-ae62-4c3a-860a-ac41e5cf77de, session=a08d7089-3d8a-40dd-b776-595fcb45163a, time=Thu Oct 15 2026 09:07:13 GMT+0700 (Western Indonesia Time)
+  Metrics: processed=992, users=42, sessions=57, session_ends=55, bounces=28
+  Metrics: processed=165, users=4, sessions=5, session_ends=8, bounces=2
+  Filter: removed 8843 bot/crawler events (bot_ua_events=7442, automated_sessions=26, sessions_removed=662)
+Disconnected from MongoDB
+✓ Traffic data saved to /home/rohadi/Projects/mrohadiz.github.io/data/observatory/traffic.json
+  Summary: 42 users, 57 sessions
+[2026-10-15 10:00:10] Collecting GitHub data...
+Starting GitHub data collection...
+Collecting commits...
+Collecting repository info...
+Error collecting GitHub data: Error: GitHub API error: 403
+    at fetchGitHub (/home/rohadi/Projects/mrohadiz.github.io/scripts/collectors/github-collector.js:23:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async collectCommits (/home/rohadi/Projects/mrohadiz.github.io/scripts/collectors/github-collector.js:36:18)
+    at async Promise.all (index 0)
+    at async main (/home/rohadi/Projects/mrohadiz.github.io/scripts/collectors/github-collector.js:122:33)
