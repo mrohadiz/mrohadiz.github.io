@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-10-15T08:00:08.359Z",
+  "collected_at": "2026-10-16T03:00:10.964Z",
   "period": {
-    "start": "2026-09-15",
-    "end": "2026-10-15"
+    "start": "2026-09-16",
+    "end": "2026-10-16"
   },
   "daily_trend": [
     {
@@ -117,14 +117,14 @@
     },
     {
       "date": "2026-10-15",
-      "users": 1,
-      "sessions": 1
+      "users": 2,
+      "sessions": 2
     }
   ],
   "summary": {
-    "total_users": 41,
-    "total_sessions": 56,
-    "avg_engagement_time": 125,
+    "total_users": 42,
+    "total_sessions": 57,
+    "avg_engagement_time": 123,
     "bounce_rate": 0.509090909090909,
     "returning_users": 6,
     "avg_pages_per_session": 2.4
@@ -132,35 +132,35 @@
   "previous_period": {
     "total_users": 5,
     "total_sessions": 6,
-    "avg_engagement_time": 1552,
+    "avg_engagement_time": 1542,
     "bounce_rate": 0.25
   },
   "trend": {
-    "users_change": 7.2,
-    "sessions_change": 8.333333333333334,
-    "engagement_time_change": -0.919247870775113,
+    "users_change": 7.4,
+    "sessions_change": 8.5,
+    "engagement_time_change": -0.9201307127817597,
     "bounce_rate_change": 1.0363636363636362
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 40,
-      "percentage": 0.7142857142857143
+      "sessions": 41,
+      "percentage": 0.7192982456140351
     },
     {
       "source": "Google Organic",
       "sessions": 6,
-      "percentage": 0.10714285714285714
+      "percentage": 0.10526315789473684
     },
     {
       "source": "Ig",
       "sessions": 5,
-      "percentage": 0.08928571428571429
+      "percentage": 0.08771929824561403
     },
     {
       "source": "Chatgpt.com",
       "sessions": 5,
-      "percentage": 0.08928571428571429
+      "percentage": 0.08771929824561403
     }
   ],
   "top_landing_pages": [
@@ -173,6 +173,11 @@
       "page": "/observatory/",
       "sessions": 3,
       "avg_engagement_time": 100
+    },
+    {
+      "page": "/2026/07/20/stop-building-platforms-too-early/",
+      "sessions": 2,
+      "avg_engagement_time": 2
     },
     {
       "page": "/2026/07/26/membangun-ai-marketing-analyst/",
@@ -198,63 +203,58 @@
       "page": "/notes/",
       "sessions": 2,
       "avg_engagement_time": 6
-    },
-    {
-      "page": "/2026/08/16/home-server-bukan-tentang-menghemat-biaya-cloud/",
-      "sessions": 2,
-      "avg_engagement_time": 25
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
       "sessions": 36,
-      "percentage": 0.6428571428571429
+      "percentage": 0.631578947368421
+    },
+    {
+      "country": "Singapore",
+      "sessions": 9,
+      "percentage": 0.15789473684210525
     },
     {
       "country": "United States",
       "sessions": 8,
-      "percentage": 0.14285714285714285
-    },
-    {
-      "country": "Singapore",
-      "sessions": 8,
-      "percentage": 0.14285714285714285
+      "percentage": 0.14035087719298245
     },
     {
       "country": "United Kingdom",
       "sessions": 2,
-      "percentage": 0.03571428571428571
+      "percentage": 0.03508771929824561
     },
     {
       "country": "Canada",
       "sessions": 1,
-      "percentage": 0.017857142857142856
+      "percentage": 0.017543859649122806
     },
     {
       "country": "Germany",
       "sessions": 1,
-      "percentage": 0.017857142857142856
+      "percentage": 0.017543859649122806
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 32,
-      "avg_engagement_time": 188,
-      "percentage": 0.5714285714285714
+      "sessions": 33,
+      "avg_engagement_time": 183,
+      "percentage": 0.5789473684210527
     },
     {
       "device": "Mobile",
       "sessions": 21,
       "avg_engagement_time": 47,
-      "percentage": 0.375
+      "percentage": 0.3684210526315789
     },
     {
       "device": "Tablet",
       "sessions": 3,
       "avg_engagement_time": 3,
-      "percentage": 0.05357142857142857
+      "percentage": 0.05263157894736842
     }
   ],
   "reading": {
@@ -285,6 +285,12 @@
         "sessions": 11,
         "avg_max_scroll": 80,
         "deep_read_pct": 0.8181818181818182
+      },
+      {
+        "page": "/2026/07/20/stop-building-platforms-too-early/",
+        "sessions": 2,
+        "avg_max_scroll": 50,
+        "deep_read_pct": 0
       },
       {
         "page": "/2026/07/26/membangun-ai-marketing-analyst/",
@@ -320,12 +326,6 @@
         "page": "/2025/02/website-lo-diretas-jangan-sampai-ini.html",
         "sessions": 1,
         "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/topics/infrastructure/",
-        "sessions": 1,
-        "avg_max_scroll": 25,
         "deep_read_pct": 0
       }
     ]
@@ -455,7 +455,7 @@
     },
     {
       "hour": 20,
-      "views": 2
+      "views": 3
     },
     {
       "hour": 21,
@@ -472,11 +472,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 7442,
-    "bot_ua_sessions": 636,
+    "bot_ua_events": 7455,
+    "bot_ua_sessions": 640,
     "automated_sessions": 26,
     "automated_session_events": 1391,
-    "sessions_removed": 662,
-    "docs_after_filter": 1157
+    "sessions_removed": 666,
+    "docs_after_filter": 1144
   }
 }

@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-10-15T08:00:11.554Z",
+  "collected_at": "2026-10-16T03:00:14.293Z",
   "summary": {
-    "total_articles": 174,
+    "total_articles": 175,
     "total_categories": 10,
-    "total_tags": 307,
+    "total_tags": 310,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 93984
+    "total_word_count": 95843
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.28160919540229884
+      "percentage": 0.28
     },
     {
       "name": "Decision Systems",
       "count": 38,
-      "percentage": 0.21839080459770116
+      "percentage": 0.21714285714285714
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.16091954022988506
+      "percentage": 0.16
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.10919540229885058
+      "percentage": 0.10857142857142857
     },
     {
       "name": "Infrastructure",
-      "count": 15,
-      "percentage": 0.08620689655172414
+      "count": 16,
+      "percentage": 0.09142857142857143
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06321839080459771
+      "percentage": 0.06285714285714286
     },
     {
       "name": "Software Architecture",
       "count": 8,
-      "percentage": 0.04597701149425287
+      "percentage": 0.045714285714285714
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.022988505747126436
+      "percentage": 0.022857142857142857
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.005747126436781609
+      "percentage": 0.005714285714285714
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.005747126436781609
+      "percentage": 0.005714285714285714
     }
   ],
   "tags": [
@@ -331,7 +331,15 @@
       "count": 3
     },
     {
+      "name": "incident-response",
+      "count": 3
+    },
+    {
       "name": "networking",
+      "count": 3
+    },
+    {
+      "name": "docker",
       "count": 3
     },
     {
@@ -455,15 +463,7 @@
       "count": 2
     },
     {
-      "name": "incident-response",
-      "count": 2
-    },
-    {
       "name": "proxmox",
-      "count": 2
-    },
-    {
-      "name": "docker",
       "count": 2
     },
     {
@@ -1289,9 +1289,38 @@
     {
       "name": "execution",
       "count": 1
+    },
+    {
+      "name": "cybersecurity",
+      "count": 1
+    },
+    {
+      "name": "postgresql",
+      "count": 1
+    },
+    {
+      "name": "least-privilege",
+      "count": 1
     }
   ],
   "articles": [
+    {
+      "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
+      "url": "/2026/10/13/ketika-crypto-miner-menyusup-melalui-rantai-kepercayaan/",
+      "date": "2026-10-13",
+      "category": "Infrastructure",
+      "tags": [
+        "cybersecurity",
+        "incident-response",
+        "postgresql",
+        "docker",
+        "least-privilege"
+      ],
+      "word_count": 1859,
+      "reading_time": 11,
+      "internal_links": 0,
+      "last_updated": "2026-10-13"
+    },
     {
       "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
       "url": "/2026/10/05/apakah-ini-benar-benar-aset-strategis/",
@@ -4078,6 +4107,11 @@
   ],
   "newest_articles": [
     {
+      "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
+      "date": "2026-10-13",
+      "category": "Infrastructure"
+    },
+    {
       "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
       "date": "2026-10-05",
       "category": "Decision Systems"
@@ -4094,17 +4128,17 @@
     },
     {
       "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
-      "date": "2026-10-05",
-      "category": "Decision Systems"
-    },
-    {
-      "title": "\"Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?\"",
       "date": "2026-10-05",
       "category": "Decision Systems"
     }
   ],
   "most_updated": [
     {
+      "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
+      "updates": 1,
+      "last_updated": "2026-10-13"
+    },
+    {
       "title": "\"Apakah Ini Benar-Benar Aset Strategis?\"",
       "updates": 1,
       "last_updated": "2026-10-05"
@@ -4121,11 +4155,6 @@
     },
     {
       "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
-      "updates": 1,
-      "last_updated": "2026-10-05"
-    },
-    {
-      "title": "\"Mengapa Organisasi Gagal Memanfaatkan Aset yang Sudah Dimiliki?\"",
       "updates": 1,
       "last_updated": "2026-10-05"
     }

@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-15T08:00:11.643Z",
+  "collected_at": "2026-10-16T03:00:14.428Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 720%",
-      "description": "From 5 to 41 users this period.",
-      "metric": "+720%",
+      "title": "Site visitors increased 740%",
+      "description": "From 5 to 42 users this period.",
+      "metric": "+740%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 5s per session",
-      "description": "Across 56 sessions from 41 users this period.",
-      "metric": "2m 5s",
+      "title": "Average engagement is 2m 3s per session",
+      "description": "Across 57 sessions from 42 users this period.",
+      "metric": "2m 3s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Mobile engagement is 75% lower than desktop",
-      "description": "47s on mobile vs 3m 8s on desktop. Consider improving the mobile reading experience.",
-      "metric": "-75%",
+      "title": "Mobile engagement is 74% lower than desktop",
+      "description": "47s on mobile vs 3m 3s on desktop. Consider improving the mobile reading experience.",
+      "metric": "-74%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 71% of traffic",
-      "description": "40 sessions from Direct this period.",
-      "metric": "71%",
+      "title": "Direct drives 72% of traffic",
+      "description": "41 sessions from Direct this period.",
+      "metric": "72%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -74,8 +74,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "6 returning users (15% of visitors)",
-      "description": "15% of this period's visitors came back for another session.",
+      "title": "6 returning users (14% of visitors)",
+      "description": "14% of this period's visitors came back for another session.",
       "metric": "6",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -84,29 +84,29 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: Update article: Ketika Crypto Miner Menyusup melal",
-      "description": "Committed 10/13/2026.",
+      "title": "1 consecutive days of commits",
+      "description": "Active publishing streak with 10 commits in the last 30 days.",
+      "metric": "1 days",
+      "metric_label": "Current Streak",
+      "icon": "calendar",
+      "priority": "low"
+    },
+    {
+      "type": "neutral",
+      "category": "publishing",
+      "title": "Latest commit: chore: update observatory data 2026-10-15",
+      "description": "Committed 10/15/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
       "priority": "low"
-    },
-    {
-      "type": "positive",
-      "category": "knowledge",
-      "title": "Digital garden contains 174 articles",
-      "description": "Across 10 categories with 307 unique tags. Total word count: 93,984.",
-      "metric": "174",
-      "metric_label": "Articles",
-      "icon": "book-open",
-      "priority": "low"
     }
   ],
-  "generated_at": "2026-10-15T08:00:11.643Z",
+  "generated_at": "2026-10-16T03:00:14.429Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-15",
-      "end": "2026-10-15"
+      "start": "2026-09-16",
+      "end": "2026-10-16"
     }
   }
 }
