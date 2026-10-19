@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-16T08:00:19.814Z",
+  "collected_at": "2026-10-19T03:00:14.057Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 567%",
-      "description": "From 6 to 40 users this period.",
-      "metric": "+567%",
+      "title": "Site visitors increased 133%",
+      "description": "From 15 to 35 users this period.",
+      "metric": "+133%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 7s per session",
-      "description": "Across 55 sessions from 40 users this period.",
-      "metric": "2m 7s",
+      "title": "Average engagement is 2m 11s per session",
+      "description": "Across 46 sessions from 35 users this period.",
+      "metric": "2m 11s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -24,9 +24,9 @@
     {
       "type": "warning",
       "category": "traffic",
-      "title": "Mobile engagement is 75% lower than desktop",
-      "description": "47s on mobile vs 3m 7s on desktop. Consider improving the mobile reading experience.",
-      "metric": "-75%",
+      "title": "Mobile engagement is 67% lower than desktop",
+      "description": "58s on mobile vs 2m 57s on desktop. Consider improving the mobile reading experience.",
+      "metric": "-67%",
       "metric_label": "Mobile vs Desktop",
       "icon": "smartphone",
       "priority": "medium"
@@ -35,8 +35,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "33 sessions with an average engagement of 2m 7s.",
-      "metric": "33",
+      "description": "29 sessions with an average engagement of 2m 24s.",
+      "metric": "29",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -44,9 +44,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Search engines drive 11% of sessions",
-      "description": "6 sessions from Google Organic this period.",
-      "metric": "11%",
+      "title": "Search engines drive 15% of sessions",
+      "description": "7 sessions from Google Organic this period.",
+      "metric": "15%",
       "metric_label": "Search Referrals",
       "icon": "search",
       "priority": "medium"
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 71% of traffic",
-      "description": "39 sessions from Direct this period.",
-      "metric": "71%",
+      "title": "Direct drives 65% of traffic",
+      "description": "30 sessions from Direct this period.",
+      "metric": "65%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -74,21 +74,11 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "6 returning users (15% of visitors)",
-      "description": "15% of this period's visitors came back for another session.",
+      "title": "6 returning users (17% of visitors)",
+      "description": "17% of this period's visitors came back for another session.",
       "metric": "6",
       "metric_label": "Returning Users",
       "icon": "users",
-      "priority": "low"
-    },
-    {
-      "type": "neutral",
-      "category": "publishing",
-      "title": "1 consecutive days of commits",
-      "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
-      "metric_label": "Current Streak",
-      "icon": "calendar",
       "priority": "low"
     },
     {
@@ -100,13 +90,23 @@
       "metric_label": "Recent Commits",
       "icon": "git-commit",
       "priority": "low"
+    },
+    {
+      "type": "positive",
+      "category": "knowledge",
+      "title": "Digital garden contains 175 articles",
+      "description": "Across 10 categories with 310 unique tags. Total word count: 95,843.",
+      "metric": "175",
+      "metric_label": "Articles",
+      "icon": "book-open",
+      "priority": "low"
     }
   ],
-  "generated_at": "2026-10-16T08:00:19.814Z",
+  "generated_at": "2026-10-19T03:00:14.057Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-16",
-      "end": "2026-10-16"
+      "start": "2026-09-19",
+      "end": "2026-10-19"
     }
   }
 }
