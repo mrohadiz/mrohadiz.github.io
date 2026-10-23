@@ -1,25 +1,10 @@
 {
-  "collected_at": "2026-10-20T08:00:24.654Z",
+  "collected_at": "2026-10-23T03:00:31.638Z",
   "period": {
-    "start": "2026-09-20",
-    "end": "2026-10-20"
+    "start": "2026-09-23",
+    "end": "2026-10-23"
   },
   "daily_trend": [
-    {
-      "date": "2026-09-20",
-      "users": 3,
-      "sessions": 4
-    },
-    {
-      "date": "2026-09-21",
-      "users": 1,
-      "sessions": 2
-    },
-    {
-      "date": "2026-09-22",
-      "users": 1,
-      "sessions": 1
-    },
     {
       "date": "2026-09-23",
       "users": 2,
@@ -109,55 +94,55 @@
       "date": "2026-10-20",
       "users": 1,
       "sessions": 1
+    },
+    {
+      "date": "2026-10-22",
+      "users": 2,
+      "sessions": 2
     }
   ],
   "summary": {
-    "total_users": 34,
-    "total_sessions": 42,
-    "avg_engagement_time": 80,
-    "bounce_rate": 0.6363636363636364,
-    "returning_users": 5,
-    "avg_pages_per_session": 2.2
+    "total_users": 33,
+    "total_sessions": 37,
+    "avg_engagement_time": 77,
+    "bounce_rate": 0.7037037037037037,
+    "returning_users": 3,
+    "avg_pages_per_session": 1.6
   },
   "previous_period": {
     "total_users": 17,
-    "total_sessions": 22,
-    "avg_engagement_time": 587,
-    "bounce_rate": 0.35714285714285715
+    "total_sessions": 27,
+    "avg_engagement_time": 204,
+    "bounce_rate": 0.3225806451612903
   },
   "trend": {
-    "users_change": 1,
-    "sessions_change": 0.9090909090909091,
-    "engagement_time_change": -0.8638365584065013,
-    "bounce_rate_change": 0.7818181818181817
+    "users_change": 0.9411764705882353,
+    "sessions_change": 0.37037037037037035,
+    "engagement_time_change": -0.6231060411017955,
+    "bounce_rate_change": 1.1814814814814816
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 27,
-      "percentage": 0.6428571428571429
+      "sessions": 28,
+      "percentage": 0.7567567567567568
     },
     {
       "source": "Google Organic",
-      "sessions": 7,
-      "percentage": 0.16666666666666666
+      "sessions": 6,
+      "percentage": 0.16216216216216217
     },
     {
       "source": "Ig",
-      "sessions": 4,
-      "percentage": 0.09523809523809523
-    },
-    {
-      "source": "Chatgpt.com",
-      "sessions": 4,
-      "percentage": 0.09523809523809523
+      "sessions": 3,
+      "percentage": 0.08108108108108109
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 26,
-      "avg_engagement_time": 58
+      "sessions": 23,
+      "avg_engagement_time": 43
     },
     {
       "page": "/2024/12/20/ooda-loop-architecture/",
@@ -198,67 +183,67 @@
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 26,
-      "percentage": 0.6190476190476191
+      "sessions": 19,
+      "percentage": 0.5135135135135135
+    },
+    {
+      "country": "United States",
+      "sessions": 8,
+      "percentage": 0.21621621621621623
     },
     {
       "country": "Singapore",
       "sessions": 7,
-      "percentage": 0.16666666666666666
-    },
-    {
-      "country": "United States",
-      "sessions": 6,
-      "percentage": 0.14285714285714285
+      "percentage": 0.1891891891891892
     },
     {
       "country": "Canada",
       "sessions": 1,
-      "percentage": 0.023809523809523808
+      "percentage": 0.02702702702702703
     },
     {
       "country": "United Kingdom",
       "sessions": 1,
-      "percentage": 0.023809523809523808
+      "percentage": 0.02702702702702703
     },
     {
       "country": "Germany",
       "sessions": 1,
-      "percentage": 0.023809523809523808
+      "percentage": 0.02702702702702703
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 27,
-      "avg_engagement_time": 104,
-      "percentage": 0.6428571428571429
+      "sessions": 28,
+      "avg_engagement_time": 99,
+      "percentage": 0.7567567567567568
     },
     {
       "device": "Mobile",
-      "sessions": 13,
-      "avg_engagement_time": 43,
-      "percentage": 0.30952380952380953
+      "sessions": 7,
+      "avg_engagement_time": 8,
+      "percentage": 0.1891891891891892
     },
     {
       "device": "Tablet",
       "sessions": 2,
       "avg_engagement_time": 3,
-      "percentage": 0.047619047619047616
+      "percentage": 0.05405405405405406
     }
   ],
   "reading": {
-    "avg_max_scroll": 34,
+    "avg_max_scroll": 35,
     "deep_read_pct": 0.333,
-    "sessions": 33,
+    "sessions": 27,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5757575757575758
+        "pct": 0.5555555555555556
       },
       {
         "label": "25-50%",
-        "pct": 0.09090909090909091
+        "pct": 0.1111111111111111
       },
       {
         "label": "50-75%",
@@ -272,7 +257,7 @@
     "top_pages": [
       {
         "page": "/",
-        "sessions": 9,
+        "sessions": 7,
         "avg_max_scroll": 89,
         "deep_read_pct": 1
       },
@@ -326,10 +311,6 @@
       "sessions": 2
     },
     {
-      "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
-      "sessions": 2
-    },
-    {
       "element": "LinkedIn",
       "sessions": 1
     },
@@ -339,6 +320,10 @@
     },
     {
       "element": "Infrastructure",
+      "sessions": 1
+    },
+    {
+      "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
       "sessions": 1
     },
     {
@@ -365,11 +350,11 @@
     },
     {
       "hour": 1,
-      "views": 3
+      "views": 5
     },
     {
       "hour": 2,
-      "views": 2
+      "views": 1
     },
     {
       "hour": 3,
@@ -385,7 +370,7 @@
     },
     {
       "hour": 6,
-      "views": 5
+      "views": 4
     },
     {
       "hour": 7,
@@ -405,7 +390,7 @@
     },
     {
       "hour": 11,
-      "views": 3
+      "views": 2
     },
     {
       "hour": 12,
@@ -421,7 +406,7 @@
     },
     {
       "hour": 15,
-      "views": 4
+      "views": 1
     },
     {
       "hour": 16,
@@ -429,7 +414,7 @@
     },
     {
       "hour": 17,
-      "views": 1
+      "views": 0
     },
     {
       "hour": 18,
@@ -458,11 +443,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 7454,
-    "bot_ua_sessions": 640,
+    "bot_ua_events": 7518,
+    "bot_ua_sessions": 646,
     "automated_sessions": 26,
     "automated_session_events": 1391,
-    "sessions_removed": 666,
-    "docs_after_filter": 1145
+    "sessions_removed": 672,
+    "docs_after_filter": 1081
   }
 }
