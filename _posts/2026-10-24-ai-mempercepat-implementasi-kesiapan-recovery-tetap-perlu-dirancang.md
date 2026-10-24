@@ -11,6 +11,7 @@ tags:
   - system-design
   - reliability
 excerpt: "AI dapat mempercepat pembuatan skrip dan otomasi, tetapi pemulihan sistem tetap bergantung pada pemahaman dependensi, kesiapan konfigurasi, dan pengujian yang terukur."
+image: /assets/images/og/2026-10-24-ai-mempercepat-implementasi-kesiapan-recovery-tetap-perlu-dirancang.png
 ---
 
 ## Ringkasan
