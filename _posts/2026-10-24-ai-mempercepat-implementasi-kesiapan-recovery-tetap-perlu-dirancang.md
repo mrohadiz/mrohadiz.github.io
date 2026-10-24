@@ -95,3 +95,30 @@ Teknologi membantu membangun sistem. AI dapat mempercepat implementasinya. Namun
 Saat melakukan review arsitektur, jangan hanya bertanya, "Apakah sistem ini berjalan?"
 
 Tanyakan juga: **"Jika komponen penting gagal, apa yang terjadi berikutnya, dan apakah kita sudah pernah menguji jawabannya?"**
+
+## Catatan pascainsiden: Node 7 Cloud ID kembali normal
+
+Pada 24 Oktober 2026, provider mengumumkan downtime pada Node 7 Cloud ID. Pembaruan awal pada pukul 04.09 WIB menyebutkan investigasi sedang dilakukan. Pada pukul 05.45 WIB, penggantian perangkat keras mulai berjalan; pembaruan pukul 09.10 WIB menyebut proses masih berlangsung dengan estimasi layanan normal sekitar pukul 12.00 WIB.
+
+Pada pukul 12.29 WIB, provider menyatakan penggantian perangkat keras selesai dan layanan kembali normal. Provider juga menyampaikan bahwa pelanggan terdampak akan mendapatkan kompensasi setelah masa pemantauan 24 jam. Pengumuman tersebut belum menjadi konfirmasi bahwa kompensasi telah diterima.
+
+Kronologi ini memperlihatkan perbedaan antara **estimasi pemulihan** dan **waktu ketika layanan dinyatakan normal**. Estimasi membantu menyusun ekspektasi, tetapi keputusan operasional sebaiknya mempertimbangkan kemungkinan perubahan durasi.
+
+### Pelajaran dari insiden
+
+- **Catat waktu berdasarkan pembaruan yang terverifikasi.** Bedakan waktu gangguan dilaporkan, mitigasi dimulai, estimasi diberikan, dan layanan dinyatakan normal.
+- **Ukur dampak ke layanan milik sendiri.** Status provider kembali normal tidak otomatis membuktikan seluruh aplikasi, integrasi, dan proses bisnis sudah pulih. Lakukan pemeriksaan kesehatan aplikasi dan validasi data.
+- **Bandingkan hasil dengan target recovery.** Gunakan durasi gangguan aktual untuk mengevaluasi RTO dan menentukan apakah prosedur backup-restore sudah memadai atau dibutuhkan failover.
+- **Pisahkan pemulihan provider dari kesiapan aplikasi.** Perbaikan infrastruktur dapat mengembalikan node, tetapi pemilik sistem tetap perlu memvalidasi servicenya sendiri dan menilai dampak downtime terhadap pengguna.
+
+### Checklist setelah layanan pulih
+
+- [ ] Pastikan aplikasi dan endpoint penting dapat diakses.
+- [ ] Validasi koneksi database, background jobs, dan integrasi eksternal.
+- [ ] Periksa error log, antrean tertunda, serta pekerjaan terjadwal yang terlewat.
+- [ ] Catat durasi gangguan dan dampak operasional yang terukur.
+- [ ] Tinjau kesesuaian RTO/RPO dengan hasil aktual.
+- [ ] Pantau komunikasi lanjutan provider, termasuk status kompensasi yang dijanjikan.
+
+Catatan ini memakai kronologi dari pengumuman status provider. Durasi gangguan yang dialami setiap pelanggan dan hasil validasi aplikasi masing-masing dapat berbeda; keduanya perlu dicatat secara terpisah.
+
