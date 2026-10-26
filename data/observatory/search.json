@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-10-23T08:02:39.139017+00:00",
+  "collected_at": "2026-10-26T08:00:19.756422+00:00",
   "period": {
-    "start": "2026-09-26",
-    "end": "2026-10-23"
+    "start": "2026-09-29",
+    "end": "2026-10-26"
   },
   "summary": {
     "total_clicks": 1,
-    "total_impressions": 7,
-    "ctr": 0.1429,
-    "avg_position": 12.9,
+    "total_impressions": 8,
+    "ctr": 0.125,
+    "avg_position": 13.5,
     "indexed_pages": 2
   },
   "previous_period": {
@@ -19,17 +19,17 @@
   },
   "trend": {
     "clicks_change": 0.0,
-    "impressions_change": 0.1667,
+    "impressions_change": 0.3333,
     "ctr_change": 0.0,
-    "position_change": 0.1217
+    "position_change": 0.1739
   },
   "top_queries": [
     {
       "query": "www.mrohadiz.my.id",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 27.3
+      "position": 25
     }
   ],
   "top_pages": [
@@ -43,29 +43,14 @@
     {
       "page": "https://mrohadiz.github.io/",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 4.6
+      "position": 6.8
     }
   ],
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-09-26",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
-      "date": "2026-09-27",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
-      "date": "2026-09-28",
-      "clicks": 0,
-      "impressions": 0
-    },
     {
       "date": "2026-09-29",
       "clicks": 0,
@@ -178,6 +163,21 @@
     },
     {
       "date": "2026-10-21",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-10-22",
+      "clicks": 0,
+      "impressions": 1
+    },
+    {
+      "date": "2026-10-23",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-10-24",
       "clicks": 0,
       "impressions": 0
     }

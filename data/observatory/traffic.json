@@ -1,20 +1,10 @@
 {
-  "collected_at": "2026-10-23T08:02:30.712Z",
+  "collected_at": "2026-10-26T08:00:08.750Z",
   "period": {
-    "start": "2026-09-23",
-    "end": "2026-10-23"
+    "start": "2026-09-26",
+    "end": "2026-10-26"
   },
   "daily_trend": [
-    {
-      "date": "2026-09-23",
-      "users": 1,
-      "sessions": 1
-    },
-    {
-      "date": "2026-09-25",
-      "users": 1,
-      "sessions": 1
-    },
     {
       "date": "2026-09-26",
       "users": 1,
@@ -99,50 +89,90 @@
       "date": "2026-10-22",
       "users": 2,
       "sessions": 2
+    },
+    {
+      "date": "2026-10-23",
+      "users": 1,
+      "sessions": 1
+    },
+    {
+      "date": "2026-10-24",
+      "users": 2,
+      "sessions": 2
+    },
+    {
+      "date": "2026-10-25",
+      "users": 1,
+      "sessions": 1
+    },
+    {
+      "date": "2026-10-26",
+      "users": 1,
+      "sessions": 1
     }
   ],
   "summary": {
-    "total_users": 32,
-    "total_sessions": 36,
-    "avg_engagement_time": 79,
-    "bounce_rate": 0.6923076923076923,
-    "returning_users": 3,
+    "total_users": 35,
+    "total_sessions": 39,
+    "avg_engagement_time": 139,
+    "bounce_rate": 0.6363636363636364,
+    "returning_users": 2,
     "avg_pages_per_session": 1.7
   },
   "previous_period": {
-    "total_users": 18,
-    "total_sessions": 28,
-    "avg_engagement_time": 197,
-    "bounce_rate": 0.34375
+    "total_users": 17,
+    "total_sessions": 26,
+    "avg_engagement_time": 160,
+    "bounce_rate": 0.39285714285714285
   },
   "trend": {
-    "users_change": 0.7777777777777778,
-    "sessions_change": 0.2857142857142857,
-    "engagement_time_change": -0.6005967938928227,
-    "bounce_rate_change": 1.013986013986014
+    "users_change": 1.0588235294117647,
+    "sessions_change": 0.5,
+    "engagement_time_change": -0.13320347257292633,
+    "bounce_rate_change": 0.6198347107438017
   },
   "traffic_sources": [
     {
       "source": "Direct",
-      "sessions": 27,
-      "percentage": 0.75
+      "sessions": 28,
+      "percentage": 0.717948717948718
     },
     {
       "source": "Google Organic",
       "sessions": 6,
-      "percentage": 0.16666666666666666
+      "percentage": 0.15384615384615385
     },
     {
       "source": "Ig",
       "sessions": 3,
-      "percentage": 0.08333333333333333
+      "percentage": 0.07692307692307693
+    },
+    {
+      "source": "Bing",
+      "sessions": 1,
+      "percentage": 0.02564102564102564
+    },
+    {
+      "source": "Chatgpt.com",
+      "sessions": 1,
+      "percentage": 0.02564102564102564
     }
   ],
   "top_landing_pages": [
     {
       "page": "/",
-      "sessions": 22,
-      "avg_engagement_time": 45
+      "sessions": 23,
+      "avg_engagement_time": 54
+    },
+    {
+      "page": "/about/",
+      "sessions": 2,
+      "avg_engagement_time": 458
+    },
+    {
+      "page": "/statistik/",
+      "sessions": 2,
+      "avg_engagement_time": 61
     },
     {
       "page": "/2024/12/20/ooda-loop-architecture/",
@@ -160,90 +190,75 @@
       "avg_engagement_time": 2
     },
     {
-      "page": "/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/",
+      "page": "/principles/",
       "sessions": 1,
-      "avg_engagement_time": 7
+      "avg_engagement_time": 2043
     },
     {
-      "page": "/2026/07/20/stop-building-platforms-too-early/",
+      "page": "/2026/07/28/output-bukan-outcome-mengapa-aktivitas-tidak-selalu-menghasilkan-perubahan/",
       "sessions": 1,
-      "avg_engagement_time": 2
-    },
-    {
-      "page": "/2026/07/26/membangun-ai-marketing-analyst/",
-      "sessions": 1,
-      "avg_engagement_time": 14
-    },
-    {
-      "page": "/2025/12/peluang-karir-meningkatkan-seo-dengan.html",
-      "sessions": 1,
-      "avg_engagement_time": 0
+      "avg_engagement_time": 16
     }
   ],
   "country_distribution": [
     {
       "country": "Indonesia",
-      "sessions": 18,
-      "percentage": 0.5
+      "sessions": 21,
+      "percentage": 0.5384615384615384
+    },
+    {
+      "country": "Singapore",
+      "sessions": 8,
+      "percentage": 0.20512820512820512
     },
     {
       "country": "United States",
       "sessions": 8,
-      "percentage": 0.2222222222222222
-    },
-    {
-      "country": "Singapore",
-      "sessions": 7,
-      "percentage": 0.19444444444444445
+      "percentage": 0.20512820512820512
     },
     {
       "country": "Canada",
       "sessions": 1,
-      "percentage": 0.027777777777777776
+      "percentage": 0.02564102564102564
     },
     {
       "country": "United Kingdom",
       "sessions": 1,
-      "percentage": 0.027777777777777776
-    },
-    {
-      "country": "Germany",
-      "sessions": 1,
-      "percentage": 0.027777777777777776
+      "percentage": 0.02564102564102564
     }
   ],
   "device_distribution": [
     {
       "device": "Desktop",
-      "sessions": 27,
-      "avg_engagement_time": 103,
-      "percentage": 0.75
+      "sessions": 29,
+      "avg_engagement_time": 179,
+      "percentage": 0.7435897435897436
     },
     {
       "device": "Mobile",
-      "sessions": 7,
-      "avg_engagement_time": 8,
-      "percentage": 0.19444444444444445
+      "sessions": 8,
+      "avg_engagement_time": 25,
+      "percentage": 0.20512820512820512
     },
     {
       "device": "Tablet",
       "sessions": 2,
       "avg_engagement_time": 3,
-      "percentage": 0.05555555555555555
+      "percentage": 0.05128205128205128
     }
   ],
   "reading": {
-    "avg_max_scroll": 33,
-    "deep_read_pct": 0.308,
-    "sessions": 26,
+    "avg_max_scroll": 40,
+    "deep_read_pct": 0.394,
+    "sessions": 33,
     "depth_buckets": [
       {
         "label": "0-25%",
-        "pct": 0.5769230769230769
+        "pct": 0.48484848484848486
       },
       {
         "label": "25-50%",
-        "pct": 0.11538461538461539
+        "pct": 0.12121212121212122
       },
       {
         "label": "50-75%",
@@ -251,15 +266,27 @@
       },
       {
         "label": "75-100%",
-        "pct": 0.3076923076923077
+        "pct": 0.3939393939393939
       }
     ],
     "top_pages": [
       {
         "page": "/",
-        "sessions": 6,
-        "avg_max_scroll": 88,
+        "sessions": 7,
+        "avg_max_scroll": 82,
+        "deep_read_pct": 0.8571428571428571
+      },
+      {
+        "page": "/about/",
+        "sessions": 2,
+        "avg_max_scroll": 75,
         "deep_read_pct": 1
+      },
+      {
+        "page": "/statistik/",
+        "sessions": 2,
+        "avg_max_scroll": 63,
+        "deep_read_pct": 0.5
       },
       {
         "page": "/2024/12/20/ooda-loop-architecture/",
@@ -268,89 +295,81 @@
         "deep_read_pct": 0
       },
       {
+        "page": "/principles/",
+        "sessions": 1,
+        "avg_max_scroll": 75,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/2026/10/24/ai-mempercepat-implementasi-kesiapan-recovery-tetap-perlu-dirancang/",
+        "sessions": 1,
+        "avg_max_scroll": 100,
+        "deep_read_pct": 1
+      },
+      {
+        "page": "/2026/07/25/onboarding-technical-talent-dari-task-executor-menjadi-problem-solver/",
+        "sessions": 1,
+        "avg_max_scroll": 50,
+        "deep_read_pct": 0
+      },
+      {
         "page": "/2026/07/24/customer-data-platform-ketika-data-customer-terfragmentasi/",
         "sessions": 1,
         "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/2026/07/20/stop-building-platforms-too-early/",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/2026/07/26/membangun-ai-marketing-analyst/",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/2025/02/website-lo-diretas-jangan-sampai-ini.html",
-        "sessions": 1,
-        "avg_max_scroll": 50,
-        "deep_read_pct": 0
-      },
-      {
-        "page": "/topics/infrastructure/",
-        "sessions": 1,
-        "avg_max_scroll": 25,
         "deep_read_pct": 0
       }
     ]
   },
   "top_clicks": [
     {
+      "element": "About",
+      "sessions": 2
+    },
+    {
+      "element": "Statistik",
+      "sessions": 2
+    },
+    {
       "element": "Topics",
       "sessions": 2
     },
     {
-      "element": "LinkedIn",
+      "element": "Principles",
       "sessions": 1
     },
     {
-      "element": "🔥 Website Lo Diretas? Jangan Sampai! Ini Cara Jag",
+      "element": "Pencarian",
       "sessions": 1
     },
     {
-      "element": "Infrastructure",
+      "element": "Overview",
       "sessions": 1
     },
     {
-      "element": "01\nLive\nTikTok Account Analyzer\nPahami arah niche",
+      "element": "Konten",
       "sessions": 1
     },
     {
-      "element": "Projects",
+      "element": "Publikasi",
       "sessions": 1
     },
     {
-      "element": "About",
+      "element": "Pengunjung",
       "sessions": 1
     },
     {
-      "element": "Business Intelligence",
-      "sessions": 1
-    },
-    {
-      "element": "Statistik",
+      "element": "01\nAI Mempercepat Implementasi, tetapi Recovery Te",
       "sessions": 1
     }
   ],
   "views_by_hour": [
     {
       "hour": 0,
-      "views": 3
+      "views": 4
     },
     {
       "hour": 1,
-      "views": 5
+      "views": 6
     },
     {
       "hour": 2,
@@ -382,7 +401,7 @@
     },
     {
       "hour": 9,
-      "views": 1
+      "views": 3
     },
     {
       "hour": 10,
@@ -402,7 +421,7 @@
     },
     {
       "hour": 14,
-      "views": 0
+      "views": 1
     },
     {
       "hour": 15,
@@ -422,7 +441,7 @@
     },
     {
       "hour": 19,
-      "views": 0
+      "views": 2
     },
     {
       "hour": 20,
@@ -443,11 +462,11 @@
   ],
   "filter_stats": {
     "total_docs": 10000,
-    "bot_ua_events": 7518,
-    "bot_ua_sessions": 646,
+    "bot_ua_events": 7579,
+    "bot_ua_sessions": 645,
     "automated_sessions": 26,
-    "automated_session_events": 1391,
-    "sessions_removed": 672,
-    "docs_after_filter": 1081
+    "automated_session_events": 1264,
+    "sessions_removed": 671,
+    "docs_after_filter": 1147
   }
 }
