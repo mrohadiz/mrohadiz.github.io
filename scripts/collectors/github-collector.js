@@ -5,15 +5,26 @@
  * Collects repository statistics and commit history
  */
 
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+let GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+if (!GITHUB_TOKEN) {
+  try {
+    GITHUB_TOKEN = execSync('gh auth token', { encoding: 'utf-8' }).trim();
+  } catch (e) {
+    // Fall back to unauthenticated if gh CLI is not available
+  }
+}
+
 const REPO_OWNER = process.env.GITHUB_REPOSITORY_OWNER || 'mrohadiz';
 const REPO_NAME = process.env.GITHUB_REPOSITORY_NAME || 'mrohadiz.github.io';
 
 const headers = {
   'Accept': 'application/vnd.github.v3+json',
+  'User-Agent': 'mrohadiz-observatory',
   ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
 };
 

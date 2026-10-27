@@ -1,75 +1,126 @@
 {
-  "collected_at": "2026-10-26T08:00:19.756422+00:00",
+  "collected_at": "2026-10-27T16:36:22.164612+00:00",
   "period": {
-    "start": "2026-09-29",
-    "end": "2026-10-26"
+    "start": "2026-09-30",
+    "end": "2026-10-27"
   },
   "summary": {
     "total_clicks": 1,
-    "total_impressions": 8,
-    "ctr": 0.125,
-    "avg_position": 13.5,
-    "indexed_pages": 2
+    "total_impressions": 20,
+    "ctr": 0.05,
+    "avg_position": 8.7,
+    "indexed_pages": 11
   },
   "previous_period": {
-    "total_clicks": 0,
-    "total_impressions": 6,
-    "ctr": 0,
-    "avg_position": 11.5
+    "total_clicks": 2,
+    "total_impressions": 18,
+    "ctr": 0.1111,
+    "avg_position": 22.2
   },
   "trend": {
-    "clicks_change": 0.0,
-    "impressions_change": 0.3333,
-    "ctr_change": 0.0,
-    "position_change": 0.1739
+    "clicks_change": -0.5,
+    "impressions_change": 0.1111,
+    "ctr_change": -0.55,
+    "position_change": -0.6081
   },
   "top_queries": [
     {
       "query": "www.mrohadiz.my.id",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 13,
       "ctr": 0,
-      "position": 25
+      "position": 12.5
     }
   ],
   "top_pages": [
     {
-      "page": "https://mrohadiz.github.io/2026/07/23/ai-dalam-audit-digital-marketing-governance/",
+      "page": "https://www.mrohadiz.my.id/",
       "clicks": 1,
-      "impressions": 4,
-      "ctr": 0.25,
-      "position": 21.2
+      "impressions": 15,
+      "ctr": 0.0667,
+      "position": 2.2
     },
     {
-      "page": "https://mrohadiz.github.io/",
+      "page": "https://www.mrohadiz.my.id/2025/12/9-alternatif-cpanel-terbaik-untuk.html",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 1,
       "ctr": 0,
-      "position": 6.8
+      "position": 4
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2025/12/google-search-console-index-coverage.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2025/12/menghapus-plugin-wordpress-yang-tidak.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2025/12/panduan-praktis-hosting-n8n-dengan.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.3
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2026/01/bedah-kasus-dormant-shell-forensik.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2026/01/membedah-kegagalan-sistem-tracking.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2026/01/mengapa-cpu-8-bukan-berarti-server-anda.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2026/01/website-terlihat-error-padahal-server.html",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 19.8
+    },
+    {
+      "page": "https://www.mrohadiz.my.id/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 17
     }
   ],
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
     {
-      "date": "2026-09-29",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
       "date": "2026-09-30",
-      "clicks": 0,
-      "impressions": 0
-    },
-    {
-      "date": "2026-10-01",
       "clicks": 0,
       "impressions": 1
     },
     {
+      "date": "2026-10-01",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
       "date": "2026-10-02",
       "clicks": 0,
-      "impressions": 0
+      "impressions": 1
     },
     {
       "date": "2026-10-03",
@@ -89,7 +140,7 @@
     {
       "date": "2026-10-06",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 0
     },
     {
       "date": "2026-10-07",
@@ -98,8 +149,8 @@
     },
     {
       "date": "2026-10-08",
-      "clicks": 1,
-      "impressions": 2
+      "clicks": 0,
+      "impressions": 6
     },
     {
       "date": "2026-10-09",
@@ -113,7 +164,7 @@
     },
     {
       "date": "2026-10-11",
-      "clicks": 0,
+      "clicks": 1,
       "impressions": 1
     },
     {
@@ -134,7 +185,7 @@
     {
       "date": "2026-10-15",
       "clicks": 0,
-      "impressions": 1
+      "impressions": 4
     },
     {
       "date": "2026-10-16",
@@ -164,12 +215,12 @@
     {
       "date": "2026-10-21",
       "clicks": 0,
-      "impressions": 0
+      "impressions": 2
     },
     {
       "date": "2026-10-22",
       "clicks": 0,
-      "impressions": 1
+      "impressions": 3
     },
     {
       "date": "2026-10-23",
@@ -178,6 +229,11 @@
     },
     {
       "date": "2026-10-24",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-10-25",
       "clicks": 0,
       "impressions": 0
     }

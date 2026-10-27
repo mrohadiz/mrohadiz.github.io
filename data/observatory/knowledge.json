@@ -1,64 +1,64 @@
 {
-  "collected_at": "2026-10-26T08:00:12.947Z",
+  "collected_at": "2026-10-27T16:39:56.007Z",
   "summary": {
-    "total_articles": 175,
+    "total_articles": 176,
     "total_categories": 10,
     "total_tags": 310,
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 95843
+    "total_word_count": 96559
   },
   "categories": [
     {
       "name": "\"Business Intelligence\"",
       "count": 49,
-      "percentage": 0.28
+      "percentage": 0.2784090909090909
     },
     {
       "name": "Decision Systems",
       "count": 38,
-      "percentage": 0.21714285714285714
+      "percentage": 0.2159090909090909
     },
     {
       "name": "\"Infrastructure\"",
       "count": 28,
-      "percentage": 0.16
+      "percentage": 0.1590909090909091
     },
     {
       "name": "Business Intelligence",
       "count": 19,
-      "percentage": 0.10857142857142857
+      "percentage": 0.10795454545454546
     },
     {
       "name": "Infrastructure",
       "count": 16,
-      "percentage": 0.09142857142857143
+      "percentage": 0.09090909090909091
     },
     {
       "name": "AI Engineering",
       "count": 11,
-      "percentage": 0.06285714285714286
+      "percentage": 0.0625
     },
     {
       "name": "Software Architecture",
-      "count": 8,
-      "percentage": 0.045714285714285714
+      "count": 9,
+      "percentage": 0.05113636363636364
     },
     {
       "name": "\"AI Engineering\"",
       "count": 4,
-      "percentage": 0.022857142857142857
+      "percentage": 0.022727272727272728
     },
     {
       "name": "Meta",
       "count": 1,
-      "percentage": 0.005714285714285714
+      "percentage": 0.005681818181818182
     },
     {
       "name": "\"Software Architecture\"",
       "count": 1,
-      "percentage": 0.005714285714285714
+      "percentage": 0.005681818181818182
     }
   ],
   "tags": [
@@ -127,6 +127,10 @@
       "count": 7
     },
     {
+      "name": "infrastructure",
+      "count": 7
+    },
+    {
       "name": "\"google-ads\"",
       "count": 7
     },
@@ -145,10 +149,6 @@
     {
       "name": "capability-building",
       "count": 7
-    },
-    {
-      "name": "infrastructure",
-      "count": 6
     },
     {
       "name": "\"adtech\"",
@@ -295,6 +295,10 @@
       "count": 3
     },
     {
+      "name": "ai-engineering",
+      "count": 3
+    },
+    {
       "name": "data-engineering",
       "count": 3
     },
@@ -427,10 +431,6 @@
       "count": 2
     },
     {
-      "name": "ai-engineering",
-      "count": 2
-    },
-    {
       "name": "customer-data",
       "count": 2
     },
@@ -455,6 +455,10 @@
       "count": 2
     },
     {
+      "name": "system-design",
+      "count": 2
+    },
+    {
       "name": "output",
       "count": 2
     },
@@ -468,6 +472,14 @@
     },
     {
       "name": "tailscale",
+      "count": 2
+    },
+    {
+      "name": "disaster-recovery",
+      "count": 2
+    },
+    {
+      "name": "reliability",
       "count": 2
     },
     {
@@ -1091,10 +1103,6 @@
       "count": 1
     },
     {
-      "name": "system-design",
-      "count": 1
-    },
-    {
       "name": "signal-intelligence",
       "count": 1
     },
@@ -1176,14 +1184,6 @@
     },
     {
       "name": "backup",
-      "count": 1
-    },
-    {
-      "name": "disaster-recovery",
-      "count": 1
-    },
-    {
-      "name": "reliability",
       "count": 1
     },
     {
@@ -1304,6 +1304,23 @@
     }
   ],
   "articles": [
+    {
+      "title": "\"AI Mempercepat Implementasi, tetapi Recovery Tetap Harus Dirancang\"",
+      "url": "/2026/10/24/ai-mempercepat-implementasi-kesiapan-recovery-tetap-perlu-dirancang/",
+      "date": "2026-10-24",
+      "category": "Software Architecture",
+      "tags": [
+        "ai-engineering",
+        "disaster-recovery",
+        "infrastructure",
+        "system-design",
+        "reliability"
+      ],
+      "word_count": 716,
+      "reading_time": 4,
+      "internal_links": 0,
+      "last_updated": "2026-10-24"
+    },
     {
       "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
       "url": "/2026/10/13/ketika-crypto-miner-menyusup-melalui-rantai-kepercayaan/",
@@ -4107,6 +4124,11 @@
   ],
   "newest_articles": [
     {
+      "title": "\"AI Mempercepat Implementasi, tetapi Recovery Tetap Harus Dirancang\"",
+      "date": "2026-10-24",
+      "category": "Software Architecture"
+    },
+    {
       "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
       "date": "2026-10-13",
       "category": "Infrastructure"
@@ -4125,14 +4147,14 @@
       "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
       "date": "2026-10-05",
       "category": "Decision Systems"
-    },
-    {
-      "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
-      "date": "2026-10-05",
-      "category": "Decision Systems"
     }
   ],
   "most_updated": [
+    {
+      "title": "\"AI Mempercepat Implementasi, tetapi Recovery Tetap Harus Dirancang\"",
+      "updates": 1,
+      "last_updated": "2026-10-24"
+    },
     {
       "title": "\"Ketika Crypto Miner Menyusup melalui Rantai Kepercayaan Metabase dan PostgreSQL\"",
       "updates": 1,
@@ -4150,11 +4172,6 @@
     },
     {
       "title": "\"Ketika Vision Bertemu Realitas: Pelajaran dari AI dan Metaverse\"",
-      "updates": 1,
-      "last_updated": "2026-10-05"
-    },
-    {
-      "title": "\"Life Plan Sebagai Kompas, Bukan Itinerary\"",
       "updates": 1,
       "last_updated": "2026-10-05"
     }

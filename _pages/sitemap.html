@@ -1,0 +1,82 @@
+---
+layout: page
+title: "Peta Situs"
+description: "Daftar lengkap seluruh artikel dan arsip publikasi di M. Rohadiz."
+permalink: /p/sitemap.html
+---
+
+<p class="sitemap-intro">Berikut adalah indeks lengkap seluruh artikel dan catatan observasi yang dipublikasikan di situs ini, disusun berdasarkan topik.</p>
+
+<div class="sitemap-container">
+  {% assign categories = site.posts | map: 'categories' | flatten | uniq | sort %}
+  {% for category in categories %}
+    {% assign cat_posts = site.posts | where_exp: "item", "item.categories contains category" %}
+    <section class="sitemap-category">
+      <h2 class="sitemap-category-title">{{ category }} <span class="sitemap-count">({{ cat_posts.size }})</span></h2>
+      <ul class="sitemap-list">
+        {% for post in cat_posts %}
+          <li class="sitemap-item">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <time class="sitemap-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>
+
+<style>
+.sitemap-container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sitemap-category-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+}
+.sitemap-count {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: var(--color-text-muted);
+}
+.sitemap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sitemap-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.25rem 0;
+}
+.sitemap-item a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+.sitemap-item a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.sitemap-date {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  font-family: var(--font-mono, monospace);
+}
+@media (max-width: 640px) {
+  .sitemap-item {
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+}
+</style>
