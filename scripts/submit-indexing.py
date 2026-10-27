@@ -9,13 +9,27 @@ import requests
 from google.oauth2 import service_account
 import google.auth.transport.requests
 
-CREDENTIALS_FILE = "collectors/credentials/true-velocity-248506-dae46f740e7f.json"
+import os
+import glob
+
+def find_credentials_file():
+    env_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
+    if env_path and os.path.isfile(env_path):
+        return env_path
+    cred_files = glob.glob("collectors/credentials/*.json")
+    if cred_files:
+        return cred_files[0]
+    return None
+
 SITEMAP_URL = "https://www.mrohadiz.my.id/sitemap.xml"
 API_ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 
 def get_access_token():
+    cred_file = find_credentials_file()
+    if not cred_file:
+        raise FileNotFoundError("Credential JSON tidak ditemukan di collectors/credentials/ atau GOOGLE_APPLICATION_CREDENTIALS")
     creds = service_account.Credentials.from_service_account_file(
-        CREDENTIALS_FILE,
+        cred_file,
         scopes=["https://www.googleapis.com/auth/indexing"]
     )
     auth_req = google.auth.transport.requests.Request()
