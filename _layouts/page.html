@@ -17,7 +17,9 @@ layout: default
 
 <!-- Page Content -->
 <article class="article-content">
-  <div class="article-body">
-    {{ content }}
+  <div class="page-layout{% if page.wide %} page-layout-wide{% endif %}">
+    <div class="article-body">
+      {{ content }}
+    </div>
   </div>
 </article>

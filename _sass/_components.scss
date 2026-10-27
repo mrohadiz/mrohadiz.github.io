@@ -1236,6 +1236,16 @@
   }
 }
 
+.page-layout {
+  max-width: var(--container-normal);
+  margin: 0 auto;
+
+  &.page-layout-wide {
+    max-width: var(--container-wide);
+  }
+}
+
+
 .article-body {
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
