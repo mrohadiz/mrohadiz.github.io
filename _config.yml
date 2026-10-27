@@ -49,6 +49,10 @@ kramdown:
 # Rouge syntax highlighting
 highlighter: rouge
 
+# SASS compression
+sass:
+  style: compressed
+
 # Plugins
 plugins:
   - jekyll-feed

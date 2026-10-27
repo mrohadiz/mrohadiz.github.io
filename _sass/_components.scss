@@ -820,7 +820,8 @@
   }
 }
 
-.footer-col h4 {
+.footer-col h4,
+.footer-col .footer-col-title {
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: var(--tracking-wide);
