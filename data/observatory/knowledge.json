@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T16:39:56.007Z",
+  "collected_at": "2026-10-28T03:00:16.427Z",
   "summary": {
     "total_articles": 176,
     "total_categories": 10,
@@ -7,7 +7,7 @@
     "total_series": 0,
     "total_internal_links": 207,
     "avg_reading_time": 3,
-    "total_word_count": 96559
+    "total_word_count": 96645
   },
   "categories": [
     {
@@ -3695,7 +3695,7 @@
         "\"observability\"",
         "\"sysadmin\""
       ],
-      "word_count": 627,
+      "word_count": 713,
       "reading_time": 4,
       "internal_links": 0,
       "last_updated": "2025-12-03T14:10:00+07:00"

@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-27T16:39:56.127Z",
+  "collected_at": "2026-10-28T03:00:16.536Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 89%",
-      "description": "From 18 to 34 users this period.",
-      "metric": "+89%",
+      "title": "Site visitors increased 617%",
+      "description": "From 6 to 43 users this period.",
+      "metric": "+617%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 22s per session",
-      "description": "Across 38 sessions from 34 users this period.",
-      "metric": "2m 22s",
+      "title": "Average engagement is 2m 4s per session",
+      "description": "Across 47 sessions from 43 users this period.",
+      "metric": "2m 4s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "23 sessions with an average engagement of 54s.",
-      "metric": "23",
+      "description": "31 sessions with an average engagement of 42s.",
+      "metric": "31",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -34,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Search engines drive 18% of sessions",
-      "description": "7 sessions from Google Organic, Bing this period.",
-      "metric": "18%",
+      "title": "Search engines drive 17% of sessions",
+      "description": "8 sessions from Google Organic, Bing this period.",
+      "metric": "17%",
       "metric_label": "Search Referrals",
       "icon": "search",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 71% of traffic",
-      "description": "27 sessions from Direct this period.",
-      "metric": "71%",
+      "title": "Direct drives 74% of traffic",
+      "description": "35 sessions from Direct this period.",
+      "metric": "74%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,8 +64,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (6% of visitors)",
-      "description": "6% of this period's visitors came back for another session.",
+      "title": "2 returning users (5% of visitors)",
+      "description": "5% of this period's visitors came back for another session.",
       "metric": "2",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "1 consecutive days of commits",
+      "title": "2 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "1 days",
+      "metric": "2 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: perf(pagespeed): enable sass compression, fix font",
-      "description": "Committed 10/27/2026.",
+      "title": "Latest commit: refactor(content): rewrite GSC reporting lag artic",
+      "description": "Committed 10/28/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -95,18 +95,18 @@
       "type": "positive",
       "category": "knowledge",
       "title": "Digital garden contains 176 articles",
-      "description": "Across 10 categories with 310 unique tags. Total word count: 96,559.",
+      "description": "Across 10 categories with 310 unique tags. Total word count: 96,645.",
       "metric": "176",
       "metric_label": "Articles",
       "icon": "book-open",
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-27T16:39:56.127Z",
+  "generated_at": "2026-10-28T03:00:16.536Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-27",
-      "end": "2026-10-27"
+      "start": "2026-09-28",
+      "end": "2026-10-28"
     }
   }
 }
