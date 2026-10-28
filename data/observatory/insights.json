@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-28T03:00:16.536Z",
+  "collected_at": "2026-10-28T08:00:13.731Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 617%",
-      "description": "From 6 to 43 users this period.",
-      "metric": "+617%",
+      "title": "Site visitors increased 500%",
+      "description": "From 7 to 42 users this period.",
+      "metric": "+500%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 4s per session",
-      "description": "Across 47 sessions from 43 users this period.",
-      "metric": "2m 4s",
+      "title": "Average engagement is 2m 7s per session",
+      "description": "Across 46 sessions from 42 users this period.",
+      "metric": "2m 7s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "31 sessions with an average engagement of 42s.",
-      "metric": "31",
+      "description": "30 sessions with an average engagement of 43s.",
+      "metric": "30",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -55,7 +55,7 @@
       "type": "neutral",
       "category": "traffic",
       "title": "Direct drives 74% of traffic",
-      "description": "35 sessions from Direct this period.",
+      "description": "34 sessions from Direct this period.",
       "metric": "74%",
       "metric_label": "Traffic Share",
       "icon": "globe",
@@ -84,7 +84,7 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: refactor(content): rewrite GSC reporting lag artic",
+      "title": "Latest commit: chore: update observatory data 2026-10-28",
       "description": "Committed 10/28/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-28T03:00:16.536Z",
+  "generated_at": "2026-10-28T08:00:13.731Z",
   "analysis_period": {
     "current": {
       "start": "2026-09-28",
