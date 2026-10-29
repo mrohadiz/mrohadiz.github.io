@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-28T08:00:13.731Z",
+  "collected_at": "2026-10-29T03:00:14.671Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 500%",
-      "description": "From 7 to 42 users this period.",
-      "metric": "+500%",
+      "title": "Site visitors increased 471%",
+      "description": "From 7 to 40 users this period.",
+      "metric": "+471%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 7s per session",
-      "description": "Across 46 sessions from 42 users this period.",
-      "metric": "2m 7s",
+      "title": "Average engagement is 2m 10s per session",
+      "description": "Across 45 sessions from 40 users this period.",
+      "metric": "2m 10s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -34,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Search engines drive 17% of sessions",
+      "title": "Search engines drive 18% of sessions",
       "description": "8 sessions from Google Organic, Bing this period.",
-      "metric": "17%",
+      "metric": "18%",
       "metric_label": "Search Referrals",
       "icon": "search",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 74% of traffic",
-      "description": "34 sessions from Direct this period.",
-      "metric": "74%",
+      "title": "Direct drives 73% of traffic",
+      "description": "33 sessions from Direct this period.",
+      "metric": "73%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,9 +64,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "2 returning users (5% of visitors)",
-      "description": "5% of this period's visitors came back for another session.",
-      "metric": "2",
+      "title": "3 returning users (8% of visitors)",
+      "description": "8% of this period's visitors came back for another session.",
+      "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
       "priority": "low"
@@ -74,9 +74,9 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "2 consecutive days of commits",
+      "title": "3 consecutive days of commits",
       "description": "Active publishing streak with 10 commits in the last 30 days.",
-      "metric": "2 days",
+      "metric": "3 days",
       "metric_label": "Current Streak",
       "icon": "calendar",
       "priority": "low"
@@ -102,11 +102,11 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-28T08:00:13.731Z",
+  "generated_at": "2026-10-29T03:00:14.671Z",
   "analysis_period": {
     "current": {
-      "start": "2026-09-28",
-      "end": "2026-10-28"
+      "start": "2026-09-29",
+      "end": "2026-10-29"
     }
   }
 }

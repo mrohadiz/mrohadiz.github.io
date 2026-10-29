@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-10-28T08:00:19.085713+00:00",
+  "collected_at": "2026-10-29T03:00:19.804169+00:00",
   "period": {
-    "start": "2026-10-01",
-    "end": "2026-10-28"
+    "start": "2026-10-02",
+    "end": "2026-10-29"
   },
   "summary": {
     "total_clicks": 1,
-    "total_impressions": 19,
-    "ctr": 0.0526,
-    "avg_position": 9.1,
-    "indexed_pages": 10
+    "total_impressions": 17,
+    "ctr": 0.0588,
+    "avg_position": 8.4,
+    "indexed_pages": 9
   },
   "previous_period": {
     "total_clicks": 2,
     "total_impressions": 19,
     "ctr": 0.1053,
-    "avg_position": 21.1
+    "avg_position": 21.5
   },
   "trend": {
     "clicks_change": -0.5,
-    "impressions_change": 0.0,
-    "ctr_change": -0.5005,
-    "position_change": -0.5687
+    "impressions_change": -0.1053,
+    "ctr_change": -0.4416,
+    "position_change": -0.6093
   },
   "top_queries": [
     {
       "query": "www.mrohadiz.my.id",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 11,
       "ctr": 0,
-      "position": 12.5
+      "position": 12
     }
   ],
   "top_pages": [
     {
       "page": "https://www.mrohadiz.my.id/",
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 0.0714,
+      "impressions": 13,
+      "ctr": 0.0769,
       "position": 2.3
     },
     {
@@ -71,9 +71,9 @@
     {
       "page": "https://www.mrohadiz.my.id/2026/01/membedah-kegagalan-sistem-tracking.html",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 29.5
+      "position": 29
     },
     {
       "page": "https://www.mrohadiz.my.id/2026/01/mengapa-cpu-8-bukan-berarti-server-anda.html",
@@ -90,13 +90,6 @@
       "position": 19.8
     },
     {
-      "page": "https://www.mrohadiz.my.id/2026/07/31/website-terlihat-bermasalah-padahal-website-sehat-studi-kasus-gangguan-akses-device-internal/",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 28
-    },
-    {
       "page": "https://www.mrohadiz.my.id/p/sitemap.html",
       "clicks": 0,
       "impressions": 4,
@@ -107,11 +100,6 @@
   "growing_queries": [],
   "declining_queries": [],
   "daily_trend": [
-    {
-      "date": "2026-10-01",
-      "clicks": 0,
-      "impressions": 2
-    },
     {
       "date": "2026-10-02",
       "clicks": 0,
@@ -229,6 +217,11 @@
     },
     {
       "date": "2026-10-25",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "date": "2026-10-26",
       "clicks": 0,
       "impressions": 0
     }
