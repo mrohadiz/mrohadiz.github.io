@@ -12,6 +12,7 @@ tags:
   - ai-assisted-development
 series: vibe-coding-beyond-prompting
 excerpt: "Sebelum meminta AI menulis kode, pahami dulu masalah, pengguna, proses, dan data dari sistem yang ingin dibangun."
+image: /assets/images/og/2026-10-30-memahami-sistem-sebelum-membangun-aplikasi-dengan-ai.png
 ---
 
 # Memahami Sistem Sebelum Membangun Aplikasi dengan AI
