@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-10-29T03:00:14.671Z",
+  "collected_at": "2026-10-29T08:00:15.749Z",
   "insights": [
     {
       "type": "positive",
       "category": "traffic",
-      "title": "Site visitors increased 471%",
-      "description": "From 7 to 40 users this period.",
-      "metric": "+471%",
+      "title": "Site visitors increased 486%",
+      "description": "From 7 to 41 users this period.",
+      "metric": "+486%",
       "metric_label": "Users Growth",
       "icon": "users",
       "priority": "high"
@@ -14,9 +14,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Average engagement is 2m 10s per session",
-      "description": "Across 45 sessions from 40 users this period.",
-      "metric": "2m 10s",
+      "title": "Average engagement is 2m 7s per session",
+      "description": "Across 46 sessions from 41 users this period.",
+      "metric": "2m 7s",
       "metric_label": "Engagement",
       "icon": "clock",
       "priority": "high"
@@ -25,8 +25,8 @@
       "type": "neutral",
       "category": "traffic",
       "title": "/ is your top landing page",
-      "description": "30 sessions with an average engagement of 43s.",
-      "metric": "30",
+      "description": "31 sessions with an average engagement of 42s.",
+      "metric": "31",
       "metric_label": "Sessions",
       "icon": "eye",
       "priority": "medium"
@@ -34,9 +34,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Search engines drive 18% of sessions",
+      "title": "Search engines drive 17% of sessions",
       "description": "8 sessions from Google Organic, Bing this period.",
-      "metric": "18%",
+      "metric": "17%",
       "metric_label": "Search Referrals",
       "icon": "search",
       "priority": "medium"
@@ -54,9 +54,9 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "Direct drives 73% of traffic",
-      "description": "33 sessions from Direct this period.",
-      "metric": "73%",
+      "title": "Direct drives 74% of traffic",
+      "description": "34 sessions from Direct this period.",
+      "metric": "74%",
       "metric_label": "Traffic Share",
       "icon": "globe",
       "priority": "low"
@@ -64,8 +64,8 @@
     {
       "type": "neutral",
       "category": "traffic",
-      "title": "3 returning users (8% of visitors)",
-      "description": "8% of this period's visitors came back for another session.",
+      "title": "3 returning users (7% of visitors)",
+      "description": "7% of this period's visitors came back for another session.",
       "metric": "3",
       "metric_label": "Returning Users",
       "icon": "users",
@@ -84,8 +84,8 @@
     {
       "type": "neutral",
       "category": "publishing",
-      "title": "Latest commit: chore: update observatory data 2026-10-28",
-      "description": "Committed 10/28/2026.",
+      "title": "Latest commit: chore: update observatory data 2026-10-29",
+      "description": "Committed 10/29/2026.",
       "metric": "10",
       "metric_label": "Recent Commits",
       "icon": "git-commit",
@@ -102,7 +102,7 @@
       "priority": "low"
     }
   ],
-  "generated_at": "2026-10-29T03:00:14.671Z",
+  "generated_at": "2026-10-29T08:00:15.749Z",
   "analysis_period": {
     "current": {
       "start": "2026-09-29",
